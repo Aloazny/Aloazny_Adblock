@@ -1,0 +1,22 @@
+name: Sync to Gitea
+on:
+  push:
+    branches:
+      - main
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Mirror the GitHub repo to Gitea
+        uses: Yikun/hub-mirror-action@master
+        with:
+          src: github/${{ github.repository }}
+          dst: gitee/Aloazny/Aloazny_Adblock
+          dst_key: ${{ secrets.GITEA_PRIVATE_KEY }}
+          dst_token: ${{ secrets.GITEA_TOKEN }}
+          static_list: "Aloazny_Adblock"
+          force_update: true
+          debug: true
