@@ -8,7 +8,7 @@ Sort_Folder="`pwd`/temple/sort"
 Download_Folder="`pwd`/temple/download_Rules"
 #Combine_Folder="`pwd`/temple/combine"
 Rules_Folder="`pwd`/Rules"
-#Base_Rules_Folder="`pwd`/base"
+Base_Rules_Folder="`pwd`/base"
 
 #删除缓存?(也许)
 rm -rf "${Rules_Folder}" "`pwd`/temple" 2>/dev/null
@@ -23,6 +23,7 @@ chmod -R 777 "`pwd`"
 download_link "${Download_Folder}"
 
 #处理规则
+cp -rf "${Base_Rules_Folder}/Aloazny_Adblock.txt" "${Sort_Folder}/enhance"
 cp -rf "${Download_Folder}/antiadblockfilters.txt" "${Sort_Folder}/enhance"
 cp -rf "${Download_Folder}/youtube.txt" "${Sort_Folder}/enhance"
 cp -rf "${Download_Folder}/网址批量规则.txt" "${Sort_Folder}/enhance"
@@ -51,7 +52,6 @@ sort_and_optimum_adblock "${Rules_Folder}/Adblock_attach.txt"
 write_head "${Rules_Folder}/Adblock_attach.txt" "Aloazny attach fiter" "合并混合规则的补充规则，轻量规则，可作为补充规则使用。" && echo "※`date +'%F %T'` 补充规则合并完成！"
 
 #处理规则
-echo "${Download_Folder}/Adguard_mobile.txt" "${Download_Folder}/Adguard_Chinese.txt" "${Sort_Folder}/Chinese"
 cp -rf "${Rules_Folder}/Adblock_attach.txt" "${Sort_Folder}/Chinese"
 cp -rf "${Download_Folder}/Adguard_mobile.txt" "${Sort_Folder}/Chinese"
 cp -rf "${Download_Folder}/Adguard_Chinese.txt" "${Sort_Folder}/Chinese"
