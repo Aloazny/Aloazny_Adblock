@@ -23,7 +23,14 @@ chmod -R 777 "`pwd`"
 download_link "${Download_Folder}"
 
 #处理规则
-cp -rf "${Download_Folder}/antiadblockfilters.txt" "${Download_Folder}/youtube.txt" "${Download_Folder}/网址批量规则.txt" "${Download_Folder}/拦截H转跳.txt" "${Download_Folder}/常用广告的顶级域名.txt" "${Download_Folder}/去除小说广告.txt" "${Download_Folder}/其他.txt" "${Download_Folder}/轻量规则.txt" "${Sort_Folder}/enhance/"
+cp -rf "${Download_Folder}/antiadblockfilters.txt" "${Sort_Folder}/enhance"
+cp -rf "${Download_Folder}/youtube.txt" "${Sort_Folder}/enhance"
+cp -rf "${Download_Folder}/网址批量规则.txt" "${Sort_Folder}/enhance"
+cp -rf "${Download_Folder}/拦截H转跳.txt" "${Sort_Folder}/enhance"
+cp -rf "${Download_Folder}/常用广告的顶级域名.txt" "${Sort_Folder}/enhance"
+cp -rf "${Download_Folder}/去除小说广告.txt" "${Sort_Folder}/enhance"
+cp -rf "${Download_Folder}/其他.txt" "${Sort_Folder}/enhance"
+cp -rf "${Download_Folder}/轻量规则.txt" "${Sort_Folder}/enhance"
 #合并文件
 Combine_adblock_original_file "${Rules_Folder}/Adblock_attach.txt" "${Sort_Folder}/enhance"
 #净化去重规则
@@ -44,7 +51,10 @@ sort_and_optimum_adblock "${Rules_Folder}/Adblock_attach.txt"
 write_head "${Rules_Folder}/Adblock_attach.txt" "Aloazny attach fiter" "合并混合规则的补充规则，轻量规则，可作为补充规则使用。" && echo "※`date +'%F %T'` 补充规则合并完成！"
 
 #处理规则
-cp -rf "${Rules_Folder}/Adblock_attach.txt" "${Download_Folder}/Adguard_mobile.txt" "${Download_Folder}/Adguard_Chinese.txt" "${Download_Folder}/Chinese/"
+echo "${Download_Folder}/Adguard_mobile.txt" "${Download_Folder}/Adguard_Chinese.txt" "${Sort_Folder}/Chinese"
+cp -rf "${Rules_Folder}/Adblock_attach.txt" "${Sort_Folder}/Chinese"
+cp -rf "${Download_Folder}/Adguard_mobile.txt" "${Sort_Folder}/Chinese"
+cp -rf "${Download_Folder}/Adguard_Chinese.txt" "${Sort_Folder}/Chinese"
 #合并文件
 Combine_adblock_original_file "${Rules_Folder}/Adblock_Chinese.txt" "${Sort_Folder}/Chinese"
 #净化去重规则
@@ -65,7 +75,8 @@ sort_and_optimum_adblock "${Rules_Folder}/Adblock_Chinese.txt"
 write_head "${Rules_Folder}/Adblock_Chinese.txt" "Aloazny Chinese fiter" "合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。" && echo "※`date +'%F %T'` 中文规则合并完成！"
 
 #处理规则
-cp -rf "${Rules_Folder}/Adblock_Chinese.txt" "${Download_Folder}/2_without_easylist.txt" "${Sort_Folder}/all"
+cp -rf "${Rules_Folder}/Adblock_Chinese.txt" "${Sort_Folder}/all"
+cp -rf "${Download_Folder}/2_without_easylist.txt" "${Sort_Folder}/all"
 #合并文件
 Combine_adblock_original_file "${Rules_Folder}/Adblock.txt" "${Sort_Folder}/all"
 #净化去重规则
@@ -83,7 +94,7 @@ modtify_adblock_original_file "${Rules_Folder}/Adblock.txt"
 #规则分类
 sort_and_optimum_adblock "${Rules_Folder}/Adblock.txt"
 #写入头信息
-write_head "${Rules_Folder}/Adblock.txt" "Aloazny Mobile fiter" "合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。" && echo "※`date +'%F %T'` 补充规则合并完成！"
+write_head "${Rules_Folder}/Adblock.txt" "Aloazny Mobile fiter" "合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。" && echo "※`date +'%F %T'` 移动规则合并完成！"
 
 rm -rf "`pwd`/temple"
 #更新README信息
