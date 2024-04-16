@@ -1,34 +1,34 @@
 # Aloazny 自用规则
-### 自动更新(2024-04-16 17:14:30)
+### 自动更新(2024-04-16 17:32:59)
 
 ### 补充规则
 #### GITHUB链接
 ```
-https://raw.githubusercontent.com/Aloazny/Aloazny_Adblock/main/Rules/Aloazny_attach.txt
+https://raw.githubusercontent.com/Aloazny/Aloazny_Adblock/main/Rules/Adblock_attach.txt
 ```
 ### Gitlink链接
 ```
-https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Aloazny_attach.txt?ref=main
+https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_attach.txt?ref=main
 ```
 
 ### 中文规则
 #### GITHUB链接
 ```
-https://raw.githubusercontent.com/Aloazny/Aloazny_Adblock/main/Rules/Aloazny_Chinese.txt
+https://raw.githubusercontent.com/Aloazny/Aloazny_Adblock/main/Rules/Adblock_Chinese.txt
 ```
 ### Gitlink链接
 ```
-https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Aloazny_Chinese.txt?ref=main
+https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 ```
 
 ### 移动端规则
 #### GITHUB链接
 ```
-https://raw.githubusercontent.com/Aloazny/Aloazny_Adblock/main/Rules/Aloazny.txt
+https://raw.githubusercontent.com/Aloazny/Aloazny_Adblock/main/Rules/Adblock.txt
 ```
 ### Gitlink链接
 ```
-https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Aloazny.txt?ref=main
+https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock.txt?ref=main
 ```
 
 ### 上游规则
