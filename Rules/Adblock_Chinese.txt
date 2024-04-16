@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: p5iHhW72NYJBq17tLuGXIQ
+! Checksum: XXvWDkKmzrRMVYfPjQQYOg
 ! Title: Aloazny Chinese fiter
-! Version: 20240416173137
+! Version: 20240417002947
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-04-16 17:31:37
-! Total Count: 38682
-! Blocked Filters: 38682
+! Last modified: 2024-04-17 00:29:47
+! Total Count: 38692
+! Blocked Filters: 38692
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -12885,6 +12885,7 @@
 ||sznj91.com^
 ||szonline.net/static/js/ads.js
 ||szpbg.cn^
+||szpbh.cn^
 ||szpnp.cn^
 ||szpnz.cn^
 ||szpsys.com^$document
@@ -13900,6 +13901,7 @@
 ||v1.phb123.com^
 ||v1.taksh.cn^
 ||v1.wphonelife.com^
+||v16-ad.byteoversea.com^
 ||v16rs.cn^
 ||v1gyb.xyz^
 ||v2.dakang-energy.com^
@@ -21319,6 +21321,7 @@ h-ciyuan.com##.aligncenter > a[target="_blank"] > img
 h-ciyuan.com#?#.gridview-featured-posts-area > .widget_media_image:has(> .gridview-box-inside > .wp-block-image > figure > a[target="_blank"])
 h-pon.doorblog.jp##.plugin-extra
 h-taikendan.net##div[style="height:250px;"]
+h178.com##div[style^="box-sizing:border-box; text-align:center; width:100%; height:270px;"]
 h178.com,j-baseball.club,j-basketball.club###gStickyAd
 h1g.jp##div[align="center"] > a[href^="https://hb.afl.rakuten.co.jp/"]
 h1g.jp##div[id^="div_fam_async_"]
@@ -22498,6 +22501,7 @@ izi.ua#$#div[class^="ProductFooter__root-"] { height: 0 !important; }
 izle7.com###mobil-ads-comments-after
 izlesene.com##[id^="ad_320_100_container_"]
 izmailov.tv##.popupBlock
+j-basketball.club##ins.adsbygoogle
 jable.tv###jimds-slider
 jable.tv###site-content > div.container > section.pb-3.pb-e-lg-40.text-center
 jable.tv##.badge
@@ -23523,12 +23527,12 @@ m.gazeta.ru,tie.163.com,uump4.com,uump4.net###top-banner
 m.gazetevatan.com##a.Teaser[href^="http://secure.milliyet.com.tr/redirect/Default.aspx"][target="_blank"]
 m.glavnoe.ua#?#.ui-content > div.ui-listview > div[align]:has(> ins.adsbygoogle)
 m.greatandhra.com##div[class^="ads_blocks"]
+m.gsmarena.com###specs-list > .align-center:has(> pgs-ad)
 m.gsmarena.com##.adv-bottom
 m.gsmarena.com##.adv-mid
 m.gsmarena.com##.adv-top
 m.gsmarena.com##.align-center[style^="padding-bottom: 17px; min-height: 318px"]
 m.gsmarena.com##.top-adv
-m.gsmarena.com#?##specs-list > .align-center:has(> pgs-ad)
 m.guancha.cn##.g_header.go-to-app
 m.haber7.com##.default-ad
 m.haber7.com##.halkbank-mobil
@@ -24420,7 +24424,9 @@ money.pl#?#div[style="visibility:visible"] > div[class*=" "] > div[class*=" "]:n
 moneycontrol.com##+js(set-constant, initializeInterstitial, noopFunc)
 moneycontrol.com##.admobile_mrkt
 moneycontrol.com##.ads-320-50
+moneycontrol.com##.advSlotsGrayBoxs
 moneycontrol.com##.main-wrapper > .clearfix > #sip_corner_fund
+moneycontrol.com##.mid-arti-ad
 moneycontrol.com##body div.advSlotsGrayBox
 moneycontrol.com##div[class="show-moblie fixedfortopwrap"]
 moneycontrol.com#$#amp-embed[type="taboola"] { display: block !important; height: 50px !important; }
@@ -25531,6 +25537,7 @@ plus28.com##a[href*="/?Extend="]
 plus28.com##div[style="margin: auto;width: 960px;margin-bottom: 10px;"]
 plus28.com##div[style="width:270px; height:180px;"]
 plus28.com##div[style="width:960px;margin: auto;"]
+plush-fortune.jp##a[href*="?adv_id="]
 pnp.de###aufmacher > div[style*="color:#aaa"]
 poczta.gazeta.pl,kontakty.onet.pl,poczta.onet.pl##div[class^="styles__SlotTopMobileStyled-"]
 poczta.gazeta.pl,kontakty.onet.pl,poczta.onet.pl##div[class^="styles__VirtualListStyled-"] > div[style] > div[class^="styles__RowWrapper-"] > div:not([class], [id]) > div[class^="styles__Slot"][class*="Ad-"]
@@ -26486,6 +26493,9 @@ sinolub.com##div[id^="bs_"]
 sinolub.com##div[style="float:left; padding-right:20px;"]
 sinoptik.ua##div[class^="rozetka"]
 sinpornx.com##.zyz,div[id="jue"]
+sippo.asahi.com##.c-article-block__group:has(> div[id^="div-gpt-"])
+sippo.asahi.com##.header-bnr
+sippo.asahi.com##[class*="kiji_rect"]
 sirabee.com##.glssp_div_container
 sirogohan.com##.sp-banner
 sisixxb.com##.preflink
