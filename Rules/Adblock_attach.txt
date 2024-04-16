@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: lwCbWQhweLOFjoz/OKvMCA
+! Checksum: Yr7ditRiKCCG44r76TI35Q
 ! Title: Aloazny attach fiter
-! Version: 20240416170043
+! Version: 20240416171252
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-04-16 17:00:43
-! Total Count: 13353
-! Blocked Filters: 13353
+! Last modified: 2024-04-16 17:12:52
+! Total Count: 13364
+! Blocked Filters: 13364
 ! Description: 合并混合规则的补充规则，轻量规则，可作为补充规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -10389,12 +10389,23 @@ zle.com$script
 ###ADbox
 ###AdBlockDialog
 ###AdBox2
+###AdLayer1
+###AdLayer2
+###Ad_windows
 ###ChapterView > .slide-baidu
+###Layeraa2
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
+###ZAML
 ###__ads_dp
 ###aabl-container
+###aafoot.top_box
+###aafoot[class^="top_box"]
+###aatop.top_box
+###aatop[class^="top_box"]
 ###abp-killer
+###ad > .pre-img
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
+###ad-SNSSplashAd
 ###ad-header-mobile-contener
 ###ad-index
 ###ad-index.position-relative
