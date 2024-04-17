@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: Ru9cLfV5n4tZa/As1ZsIDQ
+! Checksum: U3WskYHsuHvX1qM+1gjuZw
 ! Title: Aloazny Chinese fiter
-! Version: 20240417162746
+! Version: 20240418003428
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-04-17 16:27:46
-! Total Count: 38701
-! Blocked Filters: 38701
+! Last modified: 2024-04-18 00:34:28
+! Total Count: 38702
+! Blocked Filters: 38702
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -25107,6 +25107,7 @@ objavlenija.respublika.cz##.sweet-alert,.sweet-overlay
 oceans-nadia.com##div[style="min-height: 280px"]
 ocn.ne.jp##.clickLoginArticle
 ocn.ne.jp##.clickSpeechBubbleArticle
+octavius.mail.ru##.application-mail__layout div.letter-list__react div[role="rowgroup"] > div[style^="height:"][style*="position:"][style*="top:"][style$="width: 100%;"]:not([class]):not([id])
 octoba.net##.contentbody > .post > div[style="height:100px;overflow:hidden;text-align:center;padding:1em 0 0 0;"]
 octoba.net##.sp-middle2-ads
 oeeee.com###adImg
@@ -26849,7 +26850,7 @@ spiceworks.com##.mobile-topic_card-slot
 spiceworks.com##.mobile-topic_leaderboard-slot
 spidersweb.pl##amp-video-iframe[src^="https://serving.stat-rock.com/"]
 spiegel.de##.OffsetContainer > .relative > .relative:has(> div[style*="-ad-sticky-offset"]:only-child)
-spiegel.de##div[data-area="body"] > div[class]:has(> div[style*="-ad-sticky-offset"]:only-child)
+spiegel.de##div[class]:has(> div[style*="-ad-sticky-offset"]:only-child)
 spiegel.de##div[data-area="news-section"] > div:has(> div[style*="polygon-ad"])
 spiegel.de,www-spiegel-de.cdn.ampproject.org##.ampads
 spielen.de##.s4u
