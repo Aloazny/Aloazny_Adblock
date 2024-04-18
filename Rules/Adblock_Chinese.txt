@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: vUMW6T1gT75+Xb7PF8K0mg
+! Checksum: aoqwVrmlrcKkhQ/HYkcvcQ
 ! Title: Aloazny Chinese fiter
-! Version: 20240418100110
+! Version: 20240418162851
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-04-18 10:01:10
-! Total Count: 38714
-! Blocked Filters: 38714
+! Last modified: 2024-04-18 16:28:51
+! Total Count: 38726
+! Blocked Filters: 38726
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -1041,6 +1041,7 @@
 ||6park.com/img/*0.gif
 ||6park.com/parks/$script
 ||6park.com^$subdocument,badfilter
+||6quspne.com^
 ||6slb0.cyou^
 ||6tofsu.com^
 ||6v4.cn^$third-party
@@ -3277,6 +3278,7 @@
 ||blxfqq.com^
 ||blz105.com/player/ad.html
 ||blzbjpg.xyz^
+||bm.h576.com^
 ||bmatgg18.xyz^
 ||bmiea.xyz^
 ||bmjs.xzw.com^
@@ -5519,6 +5521,7 @@
 ||ewrwf.com^
 ||ewtyewj.com^
 ||ewzavfde.xyz^
+||excelhome.net/js/banner-
 ||excfig.xyz^
 ||excsyrv.cn^
 ||exdynsrv.com^
@@ -6823,6 +6826,7 @@
 ||hgjjk45.com^
 ||hgjxp.cn^
 ||hgkzl.cn^
+||hglm.com^
 ||hgpbhuj.cn^
 ||hgpdoa.cn^
 ||hgthpj.xyz^
@@ -12868,6 +12872,7 @@
 ||szfcol.com/images/wxright240.jpg
 ||szfcol.com/js/siteAd.js
 ||szfhl99.com^
+||szftg.cn^
 ||szgpmy.com/js/
 ||szhgmd.com^
 ||szhongzi.com/js/
@@ -14889,6 +14894,7 @@
 ||xiaoshuoyun.cn^
 ||xiaosss.ren^
 ||xiaosunxin.cn^
+||xiaoweixiaoshuo.com/ad/
 ||xiaoxiuapp.com^
 ||xiaoy.name^
 ||xiaoyange.cn^
@@ -16512,7 +16518,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 17yy.com##.t2_3
 17yy.com##.t2r_3
 18-comic.work,18comic.org,18comic.vip,bejson.com,jmcomic.me,json.cn,movieclassic.net,pianyuan.org,qixingquan.com##.modal-backdrop
-18-comic.work,18comic.org,18comic.vip,boylove1.mobi,jmcomic.me,jmcomic1.me##.div_sticky2
+18-comic.work,18comic.org,18comic.vip,boylov.xyz,boylove.cc,boylove1.mobi,boyloves.fun,jmcomic.me,jmcomic1.me##.div_sticky2
 18-comic.work,18comic.org,18comic.vip,jmcomic.me###guide-modal
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > [style*="back"]
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > div[style^="display: block;"]
@@ -18692,6 +18698,7 @@ boylov.xyz,boylove.cc,boylove.mobi,boylove.today,boylove1.cc,boylove3.cc,boylove
 boylov.xyz,boylove.cc,boylove.mobi,boylove.today,boylove1.cc,boylove3.cc,boylove5.cc,boyloves.fun##div[style="display: block"]
 boylov.xyz,boylove.cc,boyloves.fun##.owl-carousel
 boylov.xyz,boylove.cc,boyloves.fun##div[data-type="1"]
+boylov.xyz,boylove.cc,boyloves.fun##style + div[style="cursor: pointer; position: relative;"]
 boylov.xyz,boylove.cc,boyloves.fun#?#:-abp-has(>.adsbyexoclick)
 boylove.cc###floating_page
 boylove.cc###yteggbue
@@ -20503,8 +20510,12 @@ fctvhd.com##.mw-adblock
 fcw45.com##.bottom-adv
 fcw45.com##div[id^="layui-layer"]
 fdc.com.cn##.yifangbanner
+feebee.com.tw###ad_bottom_module
+feebee.com.tw###ad_mid_module
+feebee.com.tw###ad_mid_module + #item_backfill
 feebee.com.tw###afsh_bsearch_list_top
 feebee.com.tw###bottom-ad-after-search-result
+feebee.com.tw###fsa-srp-top-container
 feebee.com.tw##div[id^="afsh_"]
 feed.baidu.com##a[data-type="ec_ad"]
 feeds.qq.com,lenovo.com.cn##.game
@@ -38054,6 +38065,7 @@ zle.com$script
 @@||money18.on.cc/js/adbanner.js
 @@||moneysave.info^$generichide
 @@||monnsutogatya.com^$elemhide
+@@||morosedog.gitlab.io^$generichide
 @@||motherless.com/scripts/mobile^
 @@||moyens.net^$generichide
 @@||ms332.com^$generichide
