@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: U3WskYHsuHvX1qM+1gjuZw
+! Checksum: vUMW6T1gT75+Xb7PF8K0mg
 ! Title: Aloazny Chinese fiter
-! Version: 20240418003428
+! Version: 20240418100110
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-04-18 00:34:28
-! Total Count: 38702
-! Blocked Filters: 38702
+! Last modified: 2024-04-18 10:01:10
+! Total Count: 38714
+! Blocked Filters: 38714
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -6056,6 +6056,7 @@
 ||gcbflvx.cn^
 ||gcbtgh26.xyz^
 ||gccnntq.cn^
+||gcomwx.icu^
 ||gcqciiqk.com^
 ||gcssem.xyz^
 ||gcumgu.xyz^
@@ -10630,6 +10631,7 @@
 ||ovykq.online^
 ||owandlk.top^
 ||owap.su^$third-party
+||oweeiyw.icu^
 ||owiurjngsd.com^
 ||owkmmo.xyz^
 ||owlfolk.com^
@@ -11529,6 +11531,7 @@
 ||qurl.f.360.cn^
 ||qusfybj.cn^
 ||quspga.xyz^
+||qusrow.xyz^
 ||qutyan8848.com^
 ||quwwa.top^
 ||quzmtpxw.xyz^
@@ -11632,6 +11635,7 @@
 ||razrzh.xyz^
 ||rbbbdj.xyz^
 ||rbbko.com^
+||rbfxoex.xyz^
 ||rbhunp.xyz^
 ||rbioclv.cn^
 ||rbodwtj.icu^
@@ -12852,6 +12856,7 @@
 ||syseen.com/content/uploadfile/*/hongbao.png
 ||sysin.org/img/promotion-
 ||sytclsb.cyou^
+||syuwkbb.top^
 ||sz88.oss-cn-shenzhen.aliyuncs.com^
 ||szafvjdd.icu^
 ||szbhb.cn^
@@ -13445,6 +13450,7 @@
 ||tu2024020388.com^
 ||tubemogul.com^
 ||tubous.fuckandcdn.com/tubous/tubousstatic/ads/mobile/
+||tudxhzj.cn^
 ||tuhipkz.xyz^
 ||tuhzjrr.cn^
 ||tui.gtimg.com//res/
@@ -14081,6 +14087,7 @@
 ||vk923.com/img/
 ||vkandian.cn/footjs/
 ||vkandian.cn/peitu/
+||vkdgdt.xyz^
 ||vkjqbb.xyz^
 ||vkjsnvk.com^
 ||vktztp.xyz^
@@ -16092,6 +16099,7 @@
 ||zx.docin.com^
 ||zxcrr.com^
 ||zxcv1.com^
+||zxfdbr.xyz^
 ||zxgko.cn^
 ||zxjrbz.xyz^
 ||zxpgfl.xyz^
@@ -16743,7 +16751,6 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 2chan.net##iframe[src*=".net/bin/ad"] + hr
 2chan.net#?#.ui-li > iframe[src*="//dec.2chan.net/bin/"]:upward(1)
 2chav.com##div[style="width:100%;height:285px;margin:10px 0 0 0;overflow:hidden;"]
-2chblog.jp,akb48matomemory.com,bipblog.com,blog.esuteru.com,blog.jp,blog.livedoor.jp,chaos2ch.com,doorblog.jp,girlsvip-matome.com,himasoku.com,jin115.com,kijyomatome-ch.com,kyousoku.net,livedoor.biz,majikichi.com,onecall2ch.com,openworldnews.net,sutekinakijo.com,vipsister23.com###article-1_5
 2chblog.jp,blog.jp,blog.livedoor.jp,bloggeek.jp,blogism.jp,blogo.jp,blogstation.jp,blogto.jp,c114.com.cn,cafeblog.jp,chemicalbook.com,china.com.cn,corpblog.jp,diary.to,doorblog.jp,dreamlog.jp,dy.xdf.cn,foodmate.net,gger.jp,golog.jp,haoweichi.com,hibiquan.com,ldblog.jp,liblo.jp,livedoor.biz,livedoor.blog,myjournal.jp,mynikki.jp,officeblog.jp,officialblog.jp,publog.jp,qingdaonews.com,storeblog.jp,teamblog.jp,techblog.jp,weblog.to,xxxblog.jp,youblog.jp##.ad2
 2chcn.com,airplaydirect.com,americaoutloud.com,bigeye.ug,completesports.com,cryptomining-blog.com,cryptoreporter.info,dotsauce.com,espnrichmond.com,flsentinel.com,forexmt4indicators.com,freedomhacker.net,gamblingnewsmagazine.com,gameplayinside.com,goodcarbadcar.net,kenyabuzz.com,kiwiblog.co.nz,mature.community,mature.mom,mauitime.com,milf.community,milf.mom,milf.plus,milf.sexy,mkvcage.com,movin100.com,mycolumbuspower.com,naijaloaded.com.ng,newzimbabwe.com,onislandtimes.com,ouo.press,pornhub.com,punchng.com,reviewparking.com,robhasawebsite.com,sacobserver.com,seguintoday.com,sports.sexy,themediaonline.co.za,theolivepress.es,therep.co.za,thewillnigeria.com,tntribune.com,wantedinafrica.com,wantedinrome.com,wschronicle.com##img[width="300"]
 2cycomic.com,bamxs.com,whnyd.com,yemancomic.com##body > a
@@ -17499,7 +17506,6 @@ admin5.com##.float_both_index
 admin5.com##.notice
 adrama.to###container > div[style*="margin-right: 2px;"][style*="width: 300px;"]
 adrama.to#?#.post_sidebar > div.side_box:has(div[id^="mynewads_"])
-adultepic.com,camwhores.film,fapnado.com,masturhub.com,pornhd8k.me,videocelebs.net,xtits.com##iframe[width="300"][height="100"]
 adultfilmdatabase.com,animeidhentai.com,babeforums.org,bos.so,camvideos.tv,camwhores.tv,cutscenes.net,devporn.net,f95zone.to,fritchy.com,gifsauce.com,hentai2read.com,hotpornfile.org,hpjav.com,imagebam.com,imgbox.com,imgtaxi.com,motherless.com,myporn.club,pandamovies.pw,planetsuzy.org,pussyspace.com,redgifs.com,sendvid.com,sexgalaxy.net,sextvx.com,sexuria.com,thefappeningblog.com,vintage-erotica-forum.com,vipergirls.to,waxtube.com,xfantazy.com,yeapornpls.com##a[href*="theporndude.com"]
 aeink.com##.widget_ui_adsf
 aeink.com##.widget_ui_textads
@@ -19675,7 +19681,6 @@ dhaomu.com##.ceo-footer-h
 dhaomu.com##.sidebar > .slide
 diamond.jp###gpt-dol-infeed-ranking
 diamond.jp###reworded-info
-diamond.jp,saga-s.co.jp,webcg.net##.infeed
 dianping.com##.J_midas-3
 dianping.com##.J_mkt-group-1
 dianping.com##.J_mkt-group-2
@@ -21257,7 +21262,6 @@ grapee.jp##.comment > aside:has(> div.OUTBRAIN)
 grapee.jp##div[class^="mod-ads-area-"]
 grapee.jp##div[id^="guno-m"]
 grapee.jp#?#aside > div[class^="mod-ads-area"]:upward(1)
-greatergood.berkeley.edu,hellosehat.com,helloyishi.com.tw##.article-mobile-ad
 greatfallstribune.com,onlineathens.com,usatoday.com,freep.com#$#.gnt_xmst + div[data-tb-region] { margin: unset !important; }
 greatist.com#?##announcementBar ~ aside[class] button.icon-hl-close-thick:upward(2)
 greatwuyi.com##.main_ad2
@@ -21595,6 +21599,7 @@ heiliao346.pro###post-card-1234,#post-card-518,#post-card-1000,#post-card-666,#p
 heirui.cn##div[id$="MASK"]
 heise.de##.article-body > .visible-xs > .visible-xs[style*="min-height:"]
 heiye.cc##div[style*="position: fixed;"][style*="text-align: center;"][style*="width: 100%;"]
+hellosehat.com,helloyishi.com.tw,greatergood.berkeley.edu##.article-mobile-ad
 hellowork.careers##.afscontainer
 helloyishi.com.tw##.article-desktop-ad-wrapper
 helpsetup.ru##.veramoy
@@ -22763,7 +22768,6 @@ josei-bigaku.jp,pcgames.de,sogou.com,tubedupe.com##.sponsored
 joshitsuku.com##.gunosy-ads-spot
 journaldesfemmes.fr##body .ccmcss_oas_top
 journaldugeek.com##.banner__content
-journaldunet.com,lefigaro.fr,linternaute.com##.ccmcss_oas_top
 jp.ign.com,amp.theguardian.com,zeenews.india.com,amp.fakty.ua,indianexpress.com##amp-iframe
 jpfans.com,jpseek.com##table[cellspacing="1"][cellpadding="6"]
 jpnumber.com##.frame-300-gray
@@ -22900,6 +22904,7 @@ keywin.org##.appdownload
 keywin.org##.pindaolist
 khaleejtimes.com#?#.wrapper > div.container:has(> div.row > div.fix-billboard-nf)
 khaleejtimes.com#?#div.fix-billboard-nf:has(> .fix-billboard-nf-inner > div[class^="adslot-leaderboard"])
+kijyomatome-ch.com,openworldnews.net,majikichi.com,majikichi.com,girlsvip-matome.com,sutekinakijo.com,onecall2ch.com,jin115.com,chaos2ch.com,bipblog.com,akb48matomemory.com,himasoku.com,blog.esuteru.com,kyousoku.net,vipsister23.com,blog.jp,2chblog.jp,doorblog.jp,livedoor.biz,blog.livedoor.jp###article-1_5
 kikinote.net##.pc_ad
 kinarino.jp##.c-item__container--nw-ad
 kincir.com#?#.entry-content > .caption.text-center:contains(/^ADVERTISING$/)
@@ -23122,6 +23127,7 @@ leaked.jp##.age-sp
 lecturas.com##.open-image::after
 leechyscripts.com##div[class^="chp_ads_block_modal"]
 leekduck.com###ad-event-page-mobile
+lefigaro.fr,linternaute.com,journaldunet.com##.ccmcss_oas_top
 leiling.org##.ad__single-double-rectangle-wrap
 leinetal24.de,wiesn.bayern,wetterauer-zeitung.de,werra-rundschau.de,wa.de,wlz-online.de,volksfest-freising.de,soester-anzeiger.de,sauerlandkurier.de,op-online.de,oktoberfest.bayern,news.bayern,meine-anzeigenzeitung.de,mannheim24.de,ludwigshafen24.de,lokalo24.de,kurierverlag.de,kreisbote.de,in-muenchen.de,ingame.de,hersfelder-zeitung.de,hanauer.de,hallo-muenchen.de,giessener-allgemeine.de,fuldaerzeitung.de,fnp.de,fehmarn24.de,echo24.de,dasgelbeblatt.de,costanachrichten.com,come-on.de,bw24.de,buzzfeed.de,brokser-heiratsmarkt.de,az-online.de,24vita.de,24rhein.de,24hamburg.de,24garten.de,24auto.de,heidelberg24.de,extratipp.com,fr.de,kreiszeitung.de,hna.de,tz.de,merkur.de##.wv_story_el_insertedAd
 lemonde.fr##.friend.ops--inline
@@ -24226,7 +24232,7 @@ meteofor.com.ua##.feed-partner
 meteomedia.com##div[class^="adslot__"]
 meteomedia.com##div[class^="taboolaWidget__"]
 meteored.com.ar###pubHead
-metro-co-uk.cdn.ampproject.org,metro.co.uk##.metro-amp-ad
+metro.co.uk,metro-co-uk.cdn.ampproject.org##.metro-amp-ad
 metruyenchu.com##main > section.nh-section > div.text-center.bg-light
 metruyenchu.com#?#main > section.nh-section:has(> div.text-center [class="text-muted"])
 mfsft.com,xgmeitu.com##.apptur
@@ -25163,6 +25169,7 @@ olx.com.br#?##ad-list > li:has(> div[class] > div:contains(PUBLICIDADE))
 olyrix.com##.mobile-interstitial
 olyrix.com##.pub
 omezame.biz,fuzoku-move.net##.sp_ad_box
+omofun.link##.module-adslist + div[id]
 on3.com##.adhesion
 onagazou.info,mrank.tv,xvideos-dl.com,erodera.net,spankbang-dl.com,fig-memo-r18.site###overlay_area
 onebox.mydown.com##.fcAgain
@@ -25273,11 +25280,14 @@ outlook.live.com###OwaContainer
 outlook.live.com###app main > div[class] > div[style] > div[style*="height: 93px"]:not([class])
 outlook.live.com###topLevelItemsExceptFolderPane > main > div[class*=" "] > div[class^="_"]:not([role="group"])
 outlook.live.com##.N3k7EN5vRGTrONWBPg250
+outlook.live.com##.VdboX[tabindex="0"]:has(img[src="https://res.cdn.office.net/assets/ads/adbarmetrochoice.svg"])
 outlook.live.com##._32uHlLPx-I47nj3ZOG0zhF
 outlook.live.com##.__Microsoft_Owa_MessageListAds_ListView_templates_cs_x
 outlook.live.com##.conductorContent .scrollContainer div[role="heading"]:not([class]):not([id])
 outlook.live.com##.scrollContainer > div[style="height: 88px;"]
+outlook.live.com##div:has(> div > div.fbAdLink)
 outlook.live.com##header + main > div[style*="will-change: transform; direction: ltr;"] > div[style] > div[style*="height: 93px;"]
+outlook.live.com##main[aria-hidden] > div[class] > div[style] > div[class][style="position: absolute; left: 0px; top: 0px; height: 80px; width: 100%;"]:has(> div[class] > div[role="group"] > #OwaContainer)
 outlook.live.com#?#main[aria-hidden] > div[class] > div[style] > div[class][style="position: absolute; left: 0px; top: 0px; height: 80px; width: 100%;"]:has(> div[class] > div[role="group"] > #OwaContainer)
 outlook.live.com._6tqjFb_HmyQup_NPe6dhC
 outlookindia.com##.ad_unit
@@ -25624,6 +25634,7 @@ pornhd.com##.leaderboard-container
 pornhd.com##.listing-zone
 pornhd.com##ul.thumbs.inside-row > li:not([data-thumbindexes])
 pornhd8k.me##.content-kus
+pornhd8k.me,xtits.com,camwhores.film,masturhub.com,fapnado.com,adultepic.com,videocelebs.net##iframe[width="300"][height="100"]
 pornhub-com.appspot.com,pornhub.com,pornhub.net,pornhubthbh7ap3u.onion,youporn.com###pb_template
 pornhub.com###relatedVideosCenter > .wrapVideoBlock:has(> .videoSpiceVidsBlock span.bg-spice-badge)
 pornhub.com###singleFeedSection > .emptyBlockSpace
@@ -27985,6 +27996,7 @@ web.goout.jp###secondary > div.bx-ad:first-child
 web.goout.jp##.bx-ad.mb-10
 web.goout.jp##.bx-ad.my-10
 web.ultra-soccer.jp##div[style$="min-height: calc(100vw * 250 / 300);"]
+webcg.net,saga-s.co.jp,diamond.jp##.infeed
 webclick.megalabs.ru##body > section.info
 webclick.megalabs.ru##body > section.intro
 webhd.top##.justify-content-center.pt-2
