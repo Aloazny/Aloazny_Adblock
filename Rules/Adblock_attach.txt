@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: OBI9/WhzIDtt0LwE9XnWSA
+! Checksum: wv4afArsnbBvSwVNdR3+GA
 ! Title: Aloazny attach fiter
-! Version: 20240418162837
+! Version: 20240419003120
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-04-18 16:28:37
-! Total Count: 13375
-! Blocked Filters: 13375
+! Last modified: 2024-04-19 00:31:20
+! Total Count: 13376
+! Blocked Filters: 13376
 ! Description: 合并混合规则的补充规则，轻量规则，可作为补充规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -6877,8 +6877,9 @@ yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yande
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##.justifier__incut.incut_position_vertical
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##.react-component_js_inited > [class^="m"][class$="_filled"]
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##.serp-list__items > div.block-search > .block-search__content
+yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##body[class*="news_phone"] div.news-container > span > div > div.unit:has(> div.turbo-advert__item)
+yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##div[class^="Direct"]
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##div[id^="yandex_ad"]
-yandex.ru##body[class*="news_phone"] div.news-container > span > div > div.unit:has(> div.turbo-advert__item)
 yarik-sat.com##.noadb
 ydm.life##[onclick*="surnum"][style],img[style*="z-index:2147483647"][onclick*="javascript:"]
 yeduxiaoshuoo.com##div[class$="anye"][onclick$="anye()"]

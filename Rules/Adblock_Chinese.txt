@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: aoqwVrmlrcKkhQ/HYkcvcQ
+! Checksum: XWxL55i+oisqiDEuy/ROHQ
 ! Title: Aloazny Chinese fiter
-! Version: 20240418162851
+! Version: 20240419003134
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-04-18 16:28:51
-! Total Count: 38726
-! Blocked Filters: 38726
+! Last modified: 2024-04-19 00:31:34
+! Total Count: 38731
+! Blocked Filters: 38731
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -3046,6 +3046,7 @@
 ||bdm.ye-su.cn^
 ||bdmjs.xywy.com^
 ||bdnvklavbklabl.com^
+||bdpretc.cn^
 ||bdrzxp.xyz^
 ||bdsahkln.xyz^
 ||bdstatic.com/??/tb/_/diamond_mall_frs_aside_*.js
@@ -14066,6 +14067,7 @@
 ||vip.panggugu.com^
 ||vip1.loli.net/2020/02/17/A9jmsY41EwiUzou.png$domain=ddrk.me
 ||vipdage.com/wp-content/uploads/ad/
+||vipgogo123.site^
 ||viplp.top^
 ||vipwm.cc^
 ||vipyearha.com/uploads/20*.gif
@@ -22350,6 +22352,7 @@ iqiyi.com##.banner3
 iqiyi.com##.banner980
 iqiyi.com##.cell-left
 iqiyi.com##.cell-right
+iqiyi.com##.content-wrap > .ch-res > .ad-ef
 iqiyi.com##.cupid-panel + div
 iqiyi.com##.dove_ad
 iqiyi.com##.dove_banner
@@ -23902,6 +23905,7 @@ m.vidio.com##div[data-testid="section-banner"]
 m.vidio.com##div[data-testid="shoppingBanner"]
 m.viptube.com###mobile-footer-1
 m.vk.com##.wall_item[data-ad-view]
+m.vk.com#?#.upanel > div.wall_item:has(> div.wi_body:contains(/Реклама.*erid:/i))
 m.vk.com#?#.wall_item > div.wi_head > div[class^="PostHeader"] span[class^="PostHeader"] > span:contains(/^Реклама( в сообществе)?/):upward(.wall_item)
 m.voyeurhit.com##.container > .section--normal[style*="margin-top: -15px"]
 m.vz.ru#?#main > div.page-section:has(> div.container > iframe[src^="https://com.adv.vz.ru/"])
@@ -28570,8 +28574,9 @@ yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yande
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##.justifier__incut.incut_position_vertical
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##.react-component_js_inited > [class^="m"][class$="_filled"]
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##.serp-list__items > div.block-search > .block-search__content
+yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##body[class*="news_phone"] div.news-container > span > div > div.unit:has(> div.turbo-advert__item)
+yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##div[class^="Direct"]
 yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua##div[id^="yandex_ad"]
-yandex.ru##body[class*="news_phone"] div.news-container > span > div > div.unit:has(> div.turbo-advert__item)
 yandex.ru#?#body[class*="news_phone"] div.news-container > span > div > div.unit:has(> div.turbo-advert__item)
 yantuchina.com##div[style="width:618px;height:150px;margin: 0 auto; display:block;"]
 yaociyuan.bid##.board a[target="_blank"] > img
