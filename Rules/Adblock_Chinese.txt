@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 1P35qKySG9dKIYAMMP83QA
+! Checksum: yMQogXxqZrKvRMciPcRwhQ
 ! Title: Aloazny Chinese fiter
-! Version: 20240419100510
+! Version: 20240419162802
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-04-19 10:05:10
-! Total Count: 38736
-! Blocked Filters: 38736
+! Last modified: 2024-04-19 16:28:02
+! Total Count: 38738
+! Blocked Filters: 38738
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -27894,6 +27894,8 @@ voennoedelo.com##.mBanner
 voflix.com##[class*="module-adslist"]
 voflix.com##img[importance="low"][onclick*="window.open"][src][lazyload]
 vogue.com.au##.show-when-loading
+vogue.it##.ad-height-hold
+vogue.it##div[class^="TwoColumnsWithHorizontalAdMosaicWrapper-"]
 vokrug.tv###GPM_vokrugtv_M_300x250_Top
 vokrug.tv##div[style="width:250px;margin:0 auto;text-align: center;padding: 30px;"]
 vokrug.tv,m.haber7.com##amp-embed[type="engageya"]
