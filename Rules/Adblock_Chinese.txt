@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: XWxL55i+oisqiDEuy/ROHQ
+! Checksum: 1P35qKySG9dKIYAMMP83QA
 ! Title: Aloazny Chinese fiter
-! Version: 20240419003134
+! Version: 20240419100510
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-04-19 00:31:34
-! Total Count: 38731
-! Blocked Filters: 38731
+! Last modified: 2024-04-19 10:05:10
+! Total Count: 38736
+! Blocked Filters: 38736
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -24184,6 +24184,8 @@ md.hkgolden.com#?##viewpage > .post:has(> :is(div[id^="div-gpt-"], .hkg-ad))
 md4u.ru###pagecontent > div[style*="background-color"]
 mdaily.bhaskar.com###atf_ad
 mdpr.jp##.recommend-dd-link
+mdtt.cc,mdtt.com,mdtt.live,mdtt.cn,mdtt.party###mobile-list-banner.justify-content-center
+mdtt.cc,mdtt.com,mdtt.live,mdtt.cn,mdtt.party###top-mobile-banner
 med1.de#$#div[id^="imAd_"] { visibility: hidden!important; }
 mediafire.com###abnotify
 mediafire.com##+js(set-constant, InfCustomSTAMobileFunc, noopFunc)
@@ -28694,6 +28696,7 @@ youneed.win##+js(abort-on-property-read, daau_app)
 youngpornvideos.com##.sidebar div[class]:has(> a[href^="https://a.bestcontentoperation.top/"])
 youporn.com###mobileContainer div[class$="Ad"] > div[class*=" "]
 youporn.com##.playWrapper > #videoWrapper + div[class*=" "]:has(> div[id]:only-child > .adsbytrafficjunky)
+youporn.com##.watchTopAd
 youporn.com##aside:has(a.ad-remove)
 youramateurporn.com###videoTopCarousel:has(a[target="blank"][rel="nofollow"] > img)
 youramateurporn.com##.owl-stage > div.owl-item:has(> div.item-col > a[href^="https://www.youramateurporn.com/video/ad-"])
@@ -34591,6 +34594,7 @@ zle.com$script
 ##.kjk-flo
 ##.ksads
 ##.kuandu > .bottommob
+##.left > .b300
 ##.leftadv
 ##.leftd + .rightd
 ##.leftd1 + .rightd1
@@ -34901,6 +34905,7 @@ zle.com$script
 ##.recommended-grids > .file[style="margin: 5px 2px 5px 2px;"]
 ##.remove-adblock-msg
 ##.remove-ads
+##.right > .b300
 ##.right > .content > .ads
 ##.rightd + .leftd1
 ##.rmp-ad-container

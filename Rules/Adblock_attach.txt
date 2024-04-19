@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: wv4afArsnbBvSwVNdR3+GA
+! Checksum: ovH4VlpoBLtvzVKuf385Kg
 ! Title: Aloazny attach fiter
-! Version: 20240419003120
+! Version: 20240419100455
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-04-19 00:31:20
-! Total Count: 13376
-! Blocked Filters: 13376
+! Last modified: 2024-04-19 10:04:55
+! Total Count: 13381
+! Blocked Filters: 13381
 ! Description: 合并混合规则的补充规则，轻量规则，可作为补充规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -6282,6 +6282,8 @@ manwa1.vip,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,man
 match.tdping.com##P[style='text-align:left;margin:0;'],td.livetitle > L
 math-prosto.ru###requestShutOfBlocker
 md4u.ru###pagecontent > div[style*="background-color"]
+mdtt.cc,mdtt.com,mdtt.live,mdtt.cn,mdtt.party###mobile-list-banner.justify-content-center
+mdtt.cc,mdtt.com,mdtt.live,mdtt.cn,mdtt.party###top-mobile-banner
 mediafire.com###abnotify
 medical-club.net##.blocker-notice,.blocker-overlay
 megatest.online##.msg-AdBlock
@@ -6898,6 +6900,7 @@ ykt.ru##.n-banner--adblocked
 yocast.tv###ra9e
 youngpornvideos.com##.sidebar div[class]:has(> a[href^="https://a.bestcontentoperation.top/"])
 youporn.com##.playWrapper > #videoWrapper + div[class*=" "]:has(> div[id]:only-child > .adsbytrafficjunky)
+youporn.com##.watchTopAd
 youporn.com##aside:has(a.ad-remove)
 youramateurporn.com###videoTopCarousel:has(a[target="blank"][rel="nofollow"] > img)
 youramateurporn.com##.owl-stage > div.owl-item:has(> div.item-col > a[href^="https://www.youramateurporn.com/video/ad-"])
@@ -11164,6 +11167,7 @@ zle.com$script
 ##.js-ad-whitelist-notice
 ##.js-checkad-warning
 ##.kill-adblock-container
+##.left > .b300
 ##.leftd + .rightd
 ##.leftd1 + .rightd1
 ##.leftd2 + .rightd2
@@ -11391,6 +11395,7 @@ zle.com$script
 ##.qgg_popup_close2
 ##.remove-adblock-msg
 ##.remove-ads
+##.right > .b300
 ##.rmp-ad-container
 ##.row > .top-af-container
 ##.scaled-juicyads
