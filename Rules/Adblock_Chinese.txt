@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: yMQogXxqZrKvRMciPcRwhQ
+! Checksum: 6WyvZg7B+JoIpFZXg/JdjQ
 ! Title: Aloazny Chinese fiter
-! Version: 20240419162802
+! Version: 20240420003331
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-04-19 16:28:02
-! Total Count: 38738
-! Blocked Filters: 38738
+! Last modified: 2024-04-20 00:33:31
+! Total Count: 38751
+! Blocked Filters: 38751
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -1657,6 +1657,7 @@
 ||ad-creatives-public.commondatastorage.googleapis.com^
 ||ad-display.wikawika.xyz^
 ||ad-ettoday.cdn.hinet.net^
+||ad-files.classting.com^
 ||ad-img.diyidan.net^
 ||ad-splash-tracking.hktvmall.com^
 ||ad-splash.hktvmall.com^
@@ -2294,6 +2295,7 @@
 ||alwaysc.com^
 ||alwayzcars.com^
 ||alxanosoft.com/rk/$redirect=noop.txt,image,media,subdocument,stylesheet,script,xmlhttprequest,other
+||aly.la^
 ||alypw.com/zb_users/plugin/ZF_tanchuang/
 ||alyssabelen.com^
 ||am.szhome.com^
@@ -3509,6 +3511,7 @@
 ||bw66.cn/template/default_pc/bbs/
 ||bwandlv.top^
 ||bwdhuanbao.com^
+||bweriov.top^
 ||bwlcpr.xyz^
 ||bwwlw.cn^
 ||bxackzj.icu^
@@ -5050,6 +5053,7 @@
 ||dtckvpc.cn^
 ||dtfyhdghsd.online^
 ||dtjhtp.xyz^
+||dtjpihv.xyz^
 ||dtnhjzl.xyz^
 ||dtrcw.cc^
 ||dtscout.com^
@@ -7049,6 +7053,7 @@
 ||hstbrt.xyz^
 ||hstjjg.com/show/$script
 ||hsutav.icu^
+||hsvchnsvncvvd.com^
 ||hswfj.cn^
 ||hsyfcenter.com^
 ||hsyipos.com/template/mxone/html_tplmx/vod/*.gif
@@ -7129,6 +7134,7 @@
 ||hur.cn/AhurD/*.gif
 ||huryds.top^
 ||hushenqiquan.com^
+||huuocxu.icu^
 ||huxifena.cn^
 ||huxsvl.xyz^
 ||huya.com*/cache1min.
@@ -8425,12 +8431,14 @@
 ||kfvjdvjzhddhc.com^
 ||kfyg.xyz^
 ||kgcyvd.com^
+||kgdyoh.icu^
 ||kgeesh.site^
 ||kgelugaz.com^
 ||kgeshe.site^
 ||kgfjrb711.com^
 ||kggikf.icu^
 ||kghgmn.top^
+||kgqcse.xyz^
 ||khgjfm16.com^
 ||khrtac.xiangha.com^
 ||khzyojb.cn^
@@ -11187,6 +11195,7 @@
 ||pw.xenthoril.com^$third-party
 ||pw321.com/bulu/
 ||pw321.com^*.gif
+||pwbuhb.xyz^
 ||pwc.qktmwiq.cn^
 ||pwddhc.xyz^
 ||pwhkfd.xyz^
@@ -12589,6 +12598,7 @@
 ||speedtest.cn/assets/images/ce_
 ||speee-ad.akamaized.net^
 ||spl.ztvx8.com^$third-party
+||splash-ad.classting.com^
 ||splash.appsgeyser.com^
 ||splfnok.cn^
 ||splicky.com^
@@ -18482,11 +18492,11 @@ bilibili.com##.ad-f
 bilibili.com##.ad-report
 bilibili.com##.banner-card
 bilibili.com##.bili-dyn-ads
+bilibili.com##.bili-video-card > div[class^="extension-tips"]
 bilibili.com##.bili-video-card:has(.bili-video-card__info--ad) > .bili-video-card__wrap
-bilibili.com##.bili-video-card:has(.bili-video-card__info--ad) > div[class^="extension-tips"]
 bilibili.com##.bili-video-card:has(.bili-video-card__info--creative-ad) > .bili-video-card__wrap
 bilibili.com##.bili-video-card__wrap > a[href^="http"]:not([href*=".bilibili.com/"])
-bilibili.com##.carousel-container > .carousel-transform > div[class^="carousel-slide"]:has(> a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bilibili.com/"])) > div[class^="extension-tips"]
+bilibili.com##.carousel-container > .carousel-transform > div[class^="carousel-slide"] > div[class^="extension-tips"]
 bilibili.com##.eva-banner
 bilibili.com##.float-btn
 bilibili.com##.gg-floor-module
@@ -26337,6 +26347,7 @@ search.kakaku.com,s.kakaku.com##.subCtsArea
 search.yahoo.co.jp##.TSg_Ad
 search.yahoo.co.jp##article[class^="W2ARailway_"]
 searchenginejournal.com###sej_m_sticky-adv-label
+seasonvar.one##.content > div.pgs-nearcarusel-wrap:has(div.groove)
 seattlehelpers.org###slideup_form
 seattletimes.com##.zeus-ad-right
 seclub.org##.ad_block
@@ -26364,7 +26375,6 @@ serengeseba.com##.content > li > a[href^="http"]
 serpadres.es##div[class^="button"][class*="_mobile"]
 sese733.info##.fp-player > div[style^="position: absolute;"][style*="overflow: hidden; z-index:"]:not([class])
 seselah.com###video-ads
-setfilmizle.*##.menu_alti_reklam_mobil
 setn.com###aspnetForm > .rightFloat
 setn.com###floatIconAD
 setn.com##.e_ad
@@ -27056,6 +27066,7 @@ sxqjdy.com##.gg2
 sxrom.com##.tmk
 sxyprn.com##.fbd
 sxyprn.net##.tbd,.cbd
+syakouba.com##div[style^="width:320px;height:100px"]
 sydneytoday.com##.mygad
 sydneytoday.com##.news-list > .row > .col-xs-12
 sydneytoday.com##div[style$="-144px;top: 115px;"]
@@ -31238,6 +31249,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 /ttgg/*.js$script,third-party
 /tuiguang/*$domain=~jikexiu.com|~jikexiu.vip
 /tuiguang366.oss-
+/ty684.oss-
 /u/_sponsor/*
 /uc123_no/*/index/js/activity.
 /uniontgm.cmb.
@@ -35559,6 +35571,7 @@ zle.com$script
 ##a[href*=".68hantang.com"]
 ##a[href*=".8720018.cc"]
 ##a[href*=".asd245796.com:"]
+##a[href*=".asd252466.com:"]
 ##a[href*=".biquge"][href*="app"]
 ##a[href*=".blueyoko.com/"]
 ##a[href*=".bright.cn/?utm_"]
