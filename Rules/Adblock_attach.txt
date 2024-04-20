@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: JxOryxkKIWLVeGkeDP8ajg
+! Checksum: N2SjkhU2g5H8nRHTpb4lIQ
 ! Title: Aloazny attach fiter
-! Version: 20240420095955
+! Version: 20240420162553
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-04-20 09:59:55
-! Total Count: 13381
-! Blocked Filters: 13381
+! Last modified: 2024-04-20 16:25:53
+! Total Count: 13386
+! Blocked Filters: 13386
 ! Description: 合并混合规则的补充规则，轻量规则，可作为补充规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -633,6 +633,7 @@
 ||aspwg.cn^
 ||asvysvxr.com^
 ||asycxtz.cn^
+||at*.doubanio.com^
 ||at.umtrack.com^/*?cid=$document
 ||at.umtrack.com^/*?cid=$~third-party
 ||atala-apw.com/domredirect?$document
@@ -2578,6 +2579,7 @@
 ||kjuwxmi.xyz^
 ||kjvaqbyebqarl.top^
 ||kkisoo.com^
+||kkjhgfds.top^
 ||kkjshsj.com^
 ||kkkkim.skar.top^$image
 ||kklpe.xyz^
@@ -6392,6 +6394,8 @@ playonlinux.com##div[style="text-align:center;  border-radius:7px; width:160px; 
 playunturned.ru##.side_left > center
 playunturned.ru##.side_right > center
 pln-pskov.ru###check_ad_block
+po18wen.net##[style*="pointer-events: none;"]
+po18wen.net##img[style="border: 1px inset #00FF00"]
 poncy.ru###hide-adblock
 porn4days.red##div > b:has(> div.alert > a[href^="https://www.brazzersnetwork.com/"])
 pornboss.org###menu-menue-1 > li:has(> a[href^="http://toplist.raidrush.ws/"])
@@ -12647,6 +12651,7 @@ zle.com$script
 ##script + .show-app3
 ##script + .show-app4
 ##script + [class^="float-app"]
+##script + [style="padding:0;margin:0;border:0"] + article[id]
 ##script + iframe[src^="https://s.uuidksinc.net"]
 ##script > .p-screen-dialog
 ##secion#ly LI[role='group'],secion#ly > H2

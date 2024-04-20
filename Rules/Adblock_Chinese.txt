@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: iB7+etCUtsaWJ0TbJW25Vw
+! Checksum: 9SwjweDlPeuHT11rMpjkdg
 ! Title: Aloazny Chinese fiter
-! Version: 20240420100009
+! Version: 20240420162607
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-04-20 10:00:09
-! Total Count: 38755
-! Blocked Filters: 38755
+! Last modified: 2024-04-20 16:26:07
+! Total Count: 38762
+! Blocked Filters: 38762
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -1208,6 +1208,8 @@
 ||88lm07.com^
 ||88lm08.com^
 ||88lm09.com^
+||88lm10.com^
+||88lm11.com^
 ||88p2p.com^$popup
 ||88ys.cc/js/abcd.js
 ||8961.jianbihua.com^
@@ -8483,6 +8485,7 @@
 ||kkbbjtfp.xyz^
 ||kkeojk.xyz^
 ||kkisoo.com^
+||kkjhgfds.top^
 ||kkjshsj.com^
 ||kkkaii.cn^
 ||kkkjpg-522.cc^$third-party
@@ -10085,7 +10088,6 @@
 ||najnus.com^
 ||nakop.xyz^
 ||nan-net.com/*/bbs/s/inc/$subdocument
-||nan-net.com/show/bbs/inc/pc_side_adv/
 ||nanaimostarkle.com^
 ||naned.xyz^
 ||nanfengyl.com/static/js/zdad.js
@@ -12887,6 +12889,7 @@
 ||szfcol.com/images/wxright240.jpg
 ||szfcol.com/js/siteAd.js
 ||szfhl99.com^
+||szfmr.cn^
 ||szftg.cn^
 ||szgpmy.com/js/
 ||szhgmd.com^
@@ -24727,6 +24730,7 @@ naifei.im##div[style="position: fixed;bottom: -10px;right:0;z-index:999;width:25
 nakiny.com,gosunkugi.com###mobile_text-2
 nakkheeran.in##.post-block .auto-responsive-ad
 nan-net.com###adblock_guide_mask
+nan-net.com###bottomad2
 nan-net.com###middleadv-nex
 nan-net.com##.adblock_guide_box
 nan-net.com##.bbs_box[style="height:50px;"]
@@ -25596,6 +25600,8 @@ plus28.com##div[style="width:270px; height:180px;"]
 plus28.com##div[style="width:960px;margin: auto;"]
 plush-fortune.jp##a[href*="?adv_id="]
 pnp.de###aufmacher > div[style*="color:#aaa"]
+po18wen.net##[style*="pointer-events: none;"]
+po18wen.net##img[style="border: 1px inset #00FF00"]
 poczta.gazeta.pl,kontakty.onet.pl,poczta.onet.pl##div[class^="styles__SlotTopMobileStyled-"]
 poczta.gazeta.pl,kontakty.onet.pl,poczta.onet.pl##div[class^="styles__VirtualListStyled-"] > div[style] > div[class^="styles__RowWrapper-"] > div:not([class], [id]) > div[class^="styles__Slot"][class*="Ad-"]
 poder360.com.br##.box-banner-footer
@@ -36525,6 +36531,7 @@ zle.com$script
 ##script + .show-app4
 ##script + [class^="float-app"]
 ##script + [id][style="width:100%;height:auto;min-height:120px;position:relative;display:block;"]
+##script + [style="padding:0;margin:0;border:0"] + article[id]
 ##script + a[href] > img[src*="lbsugc.cdn.bcebos.com"]
 ##script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
 ##script + div[id^="a-loading-"]
