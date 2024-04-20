@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: UaW6SMN84tpwx4rw8BYDPQ
+! Checksum: vbV4GNbGJkpuEp26Jnb+sA
 ! Title: Aloazny Mobile fiter
-! Version: 20240420003454
+! Version: 20240420100129
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-04-20 00:34:54
-! Total Count: 75663
-! Blocked Filters: 75663
+! Last modified: 2024-04-20 10:01:29
+! Total Count: 75667
+! Blocked Filters: 75667
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -4194,6 +4194,7 @@
 ||anjneia.xyz^
 ||anjuke.com^*/ajax/business_area_search/
 ||ankangwang.com/js/info.js
+||ankczwr.icu^
 ||anluyg.net/static/js/channel*.js
 ||annelinterv.fun^
 ||anonads.net^$third-party
@@ -7908,6 +7909,7 @@
 ||cumilf.com/regarding.asp$script
 ||cupfox.app^$third-party
 ||cupid.iqiyi.com/mixer?
+||cupid.iqiyi.com/show2?
 ||currencyconverterx.com/fz/core.js
 ||currentaccountadv.com^$all
 ||curvycry.com^$third-party
@@ -12297,6 +12299,7 @@
 ||hqzcths.cn^
 ||hr.codableprovene.com^
 ||hrbpopp.cn^
+||hrjctx.xyz^
 ||hrjg.com.cn^$third-party
 ||hrngmf.com^
 ||hrnkdr.xyz^
@@ -17531,6 +17534,7 @@
 ||oq8.top^
 ||oqedci.xyz^$third-party
 ||oqjfekdkc.net^
+||oqnkur.icu^
 ||oqpgq.top^
 ||oqvucp.icu^
 ||oqxep.cn^
@@ -17934,6 +17938,7 @@
 ||pdiabbi.cn^
 ||pdjjrh.xyz^
 ||pdngnx.xyz^
+||pdnhcks.xyz^
 ||pdrtcgfx.cn^
 ||pdweigee.com^
 ||pdweoyw.cn^
@@ -20252,7 +20257,6 @@
 ||s.etology.com^
 ||s.eunow4u.com^
 ||s.exv6.com^
-||s.famitsu.com/ad/movie_overlay_ad.js
 ||s.fapcat.com/static/js/cupcakes.js
 ||s.freeporncave.com^
 ||s.go.sohu.com^*/?callback=
@@ -24787,6 +24791,7 @@
 ||wsj.com/assets-proxy/intdoaq
 ||wslbahe.top^
 ||wsnew.cn^
+||wsoqwm.xyz^
 ||wsoxwa.xyz^
 ||wstx.com/api.php?mod=ad&
 ||wsyfsg.xyz^
@@ -24822,6 +24827,7 @@
 ||wvceki.xyz^
 ||wvtem.com^
 ||wvwl.cn^
+||wvwqywz.cn^
 ||wvyqks.xyz^
 ||ww.0prn.com^
 ||ww.cvideos.stream^
@@ -25087,6 +25093,7 @@
 ||wyplmjufd.live^
 ||wyq3rum.icu^
 ||wyqaafplm.live^
+||wyuwkbe.top^
 ||wyxcb3.top^
 ||wyynike.cn^
 ||wyzq.rehuwang.com^
@@ -37371,6 +37378,9 @@ familyporn.tv###player_adv
 familyporn.tv##.media_spot_holder
 familyporn.tv##.row > div.col-last:has(> div.player-adverts)
 familyporn.tv##.textlink
+famitsu.com##.banner-header-video-container
+famitsu.com##.banner-window-jack-wrapper
+famitsu.com##div[class^="BasicLayout_movieBanner_"]
 famousinternetgirls.com##.sidebar > div[id^="text-"][class="widget widget_text"]
 famousinternetgirls.com##.video-details ~ div[id^="text-"][class="widget widget_text"]
 fanat1k.ru##iframe[width="100%"][height="90px"]
@@ -52875,12 +52885,6 @@ s.akiba-souken.com#?#ul > li > div[id^="div-gpt-"]:upward(1)
 s.cosme.net###cmn-ad-hdr
 s.dietclub.jp#?#.hTag2 > span[class^="icon-list"]:contains(/Ads|おすすめ記事（一部広告/):upward(1)
 s.ekiten.jp##.solid_ad_container
-s.famitsu.com##.banner-header-video-container
-s.famitsu.com##.banner-window-jack-wrapper
-s.famitsu.com##.l-ad-block
-s.famitsu.com##.l-banner
-s.famitsu.com##.l-contents-block--tie-up-top + div.l-contents-block
-s.famitsu.com##.pr-container
 s.inside-games.jp##.sp-ifad
 s.inside-games.jp##a[href^="https://deliver.ads2.iid.jp"]
 s.kakaku.com###frameFeedRandomAd
