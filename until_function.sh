@@ -291,6 +291,7 @@ test ! -f "${target_adblock_file}" && echo "※`date +'%F %T'` ${target_adblock_
 sort_domain_Combine "${target_adblock_file}"
 wipe_same_selector_fiter "${target_adblock_file}"
 clear_domain_white_list "${target_adblock_file}"
+clear_domain_white_Rules "${target_adblock_file}"
 }
 
 
@@ -370,6 +371,16 @@ cat "${file}" | sed '/^\!/d;/\#/d;/\$/d' | grep -E '^[a-zA-Z0-9.-]+\.[a-zA-Z]{2,
 do
 	transfer_content=`escape_special_chars ${line}`
 	grep -E "^\|\|${transfer_content}\^" "${file}" && busybox sed -i -E "/^${transfer_content}$/d" "${file}"
+done
+}
+#去除与白名单冲突的域名
+function clear_domain_white_Rules(){
+local file="${1}"
+test ! -f "${file}" && return
+cat "${file}" | busybox sed '/#/d;/domain=~/!d;s/\$.*//g' | while read line
+do
+	transfer_Rules=`escape_special_chars ${line}`
+	busybox sed -i -E "/^${transfer_Rules}$/d" "${file}"
 done
 }
 
