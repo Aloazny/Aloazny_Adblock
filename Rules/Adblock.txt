@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: H6eqM1w5/+RmSEW3MkiY7A
+! Checksum: Sk43TzFj9338HomOitGqtw
 ! Title: Aloazny Mobile fiter
-! Version: 20240421003030
+! Version: 20240421101045
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-04-21 00:30:30
-! Total Count: 75418
-! Blocked Filters: 75418
+! Last modified: 2024-04-21 10:10:45
+! Total Count: 75426
+! Blocked Filters: 75426
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -6019,6 +6019,7 @@
 ||bvmtogo.com^$all
 ||bvnjeqa.xyz^
 ||bvpqrydt.xyz^
+||bvrzwnq.xyz^
 ||bvsfv6.com^
 ||bvtvlp.xyz^
 ||bvvb9.com^
@@ -11658,6 +11659,7 @@
 ||hbcfdp.com^
 ||hbjolp.xyz^
 ||hbkunye.com^
+||hblarn.xyz^
 ||hboav.com/guga/
 ||hboav.com/guga/*.php$domain=5278.cc
 ||hboav.com/guga/images/$xmlhttprequest,redirect=noop.txt
@@ -13105,6 +13107,7 @@
 ||iranmodares.com/baner/
 ||irayedo.cn^
 ||iresearchnet.com/wp-content/uploads/*/banner-discount-300-300-.png
+||irmbyu.xyz^
 ||irs03.com^
 ||irtefs.xyz^
 ||irtyd.com^$third-party
@@ -13355,6 +13358,7 @@
 ||jawholeminable.com^
 ||jay.brauerei-egg.at^
 ||jay.plantainguy.com^
+||jaychu.top^
 ||jayhou.top^
 ||jazftz.xyz^
 ||jb.dianshu119.com^
@@ -14444,6 +14448,7 @@
 ||kvskknklssv.com^
 ||kvsqa.xyz^
 ||kvsvug.xyz^
+||kvyyyde.cn^
 ||kw.phaseranarch.com^
 ||kwcmrfb.cn^
 ||kwdgudw.cn^
@@ -19111,6 +19116,7 @@
 ||qynmfgnu.xyz^
 ||qyoqeq.xyz^
 ||qyun.vip/pic/*.gif
+||qyuwkby.top^
 ||qyzyd.top^
 ||qz.equalsenframe.com^
 ||qzalsk.xyz^
@@ -20196,6 +20202,7 @@
 ||sacfasv.com^
 ||sacre.cn^
 ||sacredperpetratorbasketball.com^
+||sacvmb.icu^
 ||saddve23.fsseeewzz.lol^
 ||sadeemapk.com/wp-content/uploads/2016/06/SadeemAPK-Banner.gif
 ||sadeempc.com/wp-content/uploads/*-468-
@@ -21256,7 +21263,6 @@
 ||sportstream.tv/img/left.gif
 ||sportstream.tv/img/right.gif
 ||sportstream.tv/img/top.gif
-||sportsv.net/dist/ads/
 ||spottedskarzysko.pl/images/data/*/UNINET-MAJ2.gif
 ||spox.com/daznpic/$domain=goal.com
 ||spplamt.xyz^
@@ -22220,6 +22226,7 @@
 ||tg.s4te24u.com^
 ||tg.wmqfey.com^$third-party
 ||tg.xkcxh.com^$third-party
+||tgamtip.icu^
 ||tgbevv.xyz^
 ||tgccct.icu^
 ||tgcfmh.com^
@@ -34025,7 +34032,7 @@ computerworld.com.au#$#.lo-top > header.lo-header { top: 0!important; }
 computerworld.com.au#$#body.lo-body { padding-top: 85px!important; }
 computerworld.hu#$#.ad-skin-space[style] { height: 0!important; }
 computerworld.hu,pcworld.hu##div[class^="ad ad-article-"]
-computerworld.hu,pcworld.hu,pomponik.pl,sportsv.net##.box.ad
+computerworld.hu,pcworld.hu,pomponik.pl##.box.ad
 concertarchives.org##.freestar-placement
 concorsipubblici.net##.cp-get-this-deal
 concretedecor.net###fixed-banner
@@ -75063,6 +75070,7 @@ ishangman.com#@#.bottom_ad
 itest.5ch.net#@#.js-cardview_ad-320x180
 iyf.tv#@#.share-top
 jamaicaobserver.com#@##bottom_leaderboard
+japscan.lol#@#.ad_slot
 jav68.net,memoryhackers.org#@#.ads-header
 javcrave.com#@#.widget_custom_html
 javfinder.sh#@##preroll

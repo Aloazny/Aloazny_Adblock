@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: yr6X79f0fWQSVbCZ7/iBww
+! Checksum: tUEs1LcST8iohZ/poZ+TPA
 ! Title: Aloazny Chinese fiter
-! Version: 20240421002908
+! Version: 20240421100923
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-04-21 00:29:08
-! Total Count: 38506
-! Blocked Filters: 38506
+! Last modified: 2024-04-21 10:09:23
+! Total Count: 38513
+! Blocked Filters: 38513
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -3454,6 +3454,7 @@
 ||bvmqkla.de/files/photo/$third-party
 ||bvnjeqa.xyz^
 ||bvpqrydt.xyz^
+||bvrzwnq.xyz^
 ||bvsfv6.com^
 ||bvtvlp.xyz^
 ||bvvb9.com^
@@ -6590,6 +6591,7 @@
 ||hbcfdp.com^
 ||hbjolp.xyz^
 ||hbkunye.com^
+||hblarn.xyz^
 ||hboav.com/guga/
 ||hboav.com/guga/*.php$domain=5278.cc
 ||hboav.com/guga/images/$xmlhttprequest,redirect=noop.txt
@@ -7519,6 +7521,7 @@
 ||iqzone.com^$third-party
 ||ir-new-cdn-eu-west-*-hb.rayjump.com^
 ||irayedo.cn^
+||irmbyu.xyz^
 ||irs03.com^
 ||irtefs.xyz^
 ||iruacwa.xyz^
@@ -7683,6 +7686,7 @@
 ||javhoo.net/pop/pop.jpg
 ||javhub.net/img/r18_banner1.jpg
 ||javporn.best/asset/default/player/plugins/vast-*.js
+||jaychu.top^
 ||jayhou.top^
 ||jazftz.xyz^
 ||jb.dianshu119.com^
@@ -8534,6 +8538,7 @@
 ||kvskknklssv.com^
 ||kvsqa.xyz^
 ||kvsvug.xyz^
+||kvyyyde.cn^
 ||kwcmrfb.cn^
 ||kwdgudw.cn^
 ||kwflvcdn.000dn.com^*.flv
@@ -11413,6 +11418,7 @@
 ||qygzbxpt.com^
 ||qyoqeq.xyz^
 ||qyun.vip/pic/*.gif
+||qyuwkby.top^
 ||qyzyd.top^
 ||qzalsk.xyz^
 ||qzda.cc^
@@ -11835,6 +11841,7 @@
 ||sacfasv.com^
 ||sacre.cn^
 ||sacredperpetratorbasketball.com^
+||sacvmb.icu^
 ||sadnofun.com/assets/public/$script
 ||safe524.xyz^$third-party
 ||sagcyq.xyz^
@@ -12414,7 +12421,6 @@
 ||spookystitch.com^$third-party
 ||sportscn.com/js/commerical
 ||sportsdream.top^
-||sportsv.net/dist/ads/
 ||spplamt.xyz^
 ||spqi.xyz/static/tmp/
 ||springserve.com^
@@ -12908,6 +12914,7 @@
 ||tg.s4te24u.com^
 ||tg.wmqfey.com^$third-party
 ||tg.xkcxh.com^$third-party
+||tgamtip.icu^
 ||tgbevv.xyz^
 ||tgccct.icu^
 ||tgcfmh.com^
@@ -26693,7 +26700,6 @@ sports.yahoo.co.jp#?#.hr-content > section[class^="hr-modCommon01"] #im_low_ad:u
 sportsbrief.com,legit.ng##.interscroller
 sportsplanetmag.com##.adshow
 sportsv.net##.adv01
-sportsv.net##.box.ad
 spravportal.ru##a[href="/apps/who-calls"]
 spur.hpplus.jp###ADHeader
 spur.hpplus.jp##.bnr_super
@@ -38399,6 +38405,7 @@ ishangman.com#@#.bottom_ad
 itest.5ch.net#@#.js-cardview_ad-320x180
 iwin.com#@##sponsorText
 iyf.tv#@#.share-top
+japscan.lol#@#.ad_slot
 jd.com#@#.ads-content
 jd.com#@#.ads-item
 jd.com#@#.adwords
