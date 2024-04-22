@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: bOHwIb2QQqDzW6CWTB8ihw
+! Checksum: 9JRAWHjyukrdIV2O4sa3XA
 ! Title: Aloazny Chinese fiter
-! Version: 20240422163058
+! Version: 20240423003132
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-04-22 16:30:58
-! Total Count: 38524
-! Blocked Filters: 38524
+! Last modified: 2024-04-23 00:31:32
+! Total Count: 38535
+! Blocked Filters: 38535
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -760,6 +760,7 @@
 ||4kfv18.cn^
 ||4kwu.cc/static/js/tj.js
 ||4l903.com^
+||4p68.com^
 ||4paradigm.com^$domain=sina.com.cn
 ||4po6iqp9.cn^
 ||4sexmail.com^
@@ -7639,6 +7640,7 @@
 ||iyybqzv.cn^
 ||izalflh.cn^
 ||izmiua.xyz^
+||izqogb.cn^
 ||iztwp.com/images/
 ||j.baminw.cn^
 ||j.dailiqing.net^
@@ -12713,6 +12715,7 @@
 ||szjjzs.com/js/piao.js
 ||szjyfund.com^$third-party
 ||szmdp.cn^
+||szmgr.cn^
 ||szmhk.cn^
 ||szmkr.cn^
 ||szmmb.cn^
@@ -16788,6 +16791,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 4gamers.com.tw##.news-detail-bg a[href][target="_blank"] > img[src*="/ads-media/"]
 4gamers.com.tw##.scroller-ads-wrapper
 4gamers.com.tw##.vue-portal-target > div[style="min-height: 210px;"]
+4gamers.com.tw##.vue-portal-target > div[style="min-height: auto;"]
 4gamers.com.tw##img[alt="ads"]
 4gamers.com.tw##video[src^="https://img.4gamers.com.tw/ads-media/"]
 4gamers.com.tw#?#.aroma-news-detail-side > div[media-width]:has(div.aols-wrapper > a[target="_blank"][rel="noopener"])
@@ -21529,7 +21533,9 @@ hobonichielog.com##.banabox
 hobonichielog.com##.hoboboxb
 hochi.news##.ad[style^="min-width: 336px"]
 hochi.news##.ad[style^="min-width: 360px; min-height: 100px"]
+hochi.news##.ad_response
 hochi.news##div[style^="min-width: 320px; min-height: 100px"]
+hochi.news#$#div[style="min-height: 1000px;"] { min-height: auto !important; }
 hochi.news#?#.newslist__item > div[data-rfp-adspot-id]:upward(1)
 hochu.ua##.exp_300x250
 hockeybuzz.com##body .adFooterDFPMobile
@@ -27614,6 +27620,7 @@ vgtime.com##.vgart_top
 vgtime.com##.vgart_top > img
 video.fc2.com###ad_middle1_wrap
 video.fc2.com###pr
+video.fc2.com##.c-boxList-sp1 > li:has(.pr-ads)
 video.fc2.com##.list-spCont > li[style="line-height: 0; margin: 0; padding: 0; height: 110px;"]
 video.fc2.com##center[style$="opacity: 1;"]
 video.fc2.com##div[style^="height:30px;text-align:center;background-color:black;"]
@@ -27664,6 +27671,7 @@ vivud.com#$#.holder-rich-media { display: none !important; }
 vivud.com#$#body.overflow { position: static !important; }
 vjav.*##.video-page__adv
 vjav.*##.video-page__wrapper > div[class]:first-child:not([class^="video-page"]) > div[class]
+vjav.*##.video-page__wrapper > section[style="display: flex;"]
 vjmedia.com.hk###author-spotlight + .clear + div
 vjmedia.com.hk###text-33
 vjmedia.com.hk##.code-block
@@ -37417,6 +37425,7 @@ zle.com$script
 @@||cibntv.net/youku/*.mp4?$domain=v.youku.com
 @@||citysbs.com^*/swfupload/
 @@||citytalk.tw/js/ct/common/v3/ui/fblike/FBLike.html
+@@||click.speee-ad.jp/v1/recwid?$script,domain=hochi.news
 @@||cloudflare.com/ajax/libs/fingerprintjs2/*/fingerprint2.min.js$domain=nfmovies.com
 @@||cloudflare.com/ajax/libs/fuckadblock/$domain=seselah.com
 @@||cloudflare.net^$script,domain=colamanga.com
@@ -38072,6 +38081,8 @@ zle.com$script
 @@||soufunimg.com/??*/fshare.
 @@||soufunimg.com/count/uvbforpc.js
 @@||sozi.cn/images/ad/tj
+@@||speee-ad.akamaized.net/tag/$script,domain=hochi.news
+@@||speee-ad.akamaized.net^$image,domain=hochi.news
 @@||sports.ru^*/adfox.$xmlhttprequest
 @@||ssports.com/images/resources/web/live/js/LiveAds.js
 @@||sssbozh.com^$generichide
