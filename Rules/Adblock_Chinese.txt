@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: ta8NSn0vWp9pPxeEZyfytA
+! Checksum: bOHwIb2QQqDzW6CWTB8ihw
 ! Title: Aloazny Chinese fiter
-! Version: 20240422100723
+! Version: 20240422163058
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-04-22 10:07:23
-! Total Count: 38520
-! Blocked Filters: 38520
+! Last modified: 2024-04-22 16:30:58
+! Total Count: 38524
+! Blocked Filters: 38524
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -13143,6 +13143,7 @@
 ||touimg.com/u/20200419/18431854.gif
 ||touimg.com/u/20200510/2142*.gif
 ||touimg.com^$domain=dyzd1.com
+||toutanymm.asia^
 ||toutiao.xn--fiqs8s^
 ||toutiaoimg.com^$image,domain=350xs.com
 ||toutiaoyule.com/n/dspshow.
@@ -14841,6 +14842,7 @@
 ||xn--lms23v745btkai5c.net^$third-party,script
 ||xn--m7r781dz66a.cn^
 ||xn--qrq171dxpq.com^
+||xn--swt207gl1hzc.net^
 ||xn--wgvp78a61swpe6zdozj.cn^
 ||xn--wxtr44c.video^
 ||xn--wxtr9fwyxk9c.xn--fiqs8s^
@@ -28261,7 +28263,6 @@ xn--gmq92kd2rm1kx34a.com###sp-widget
 xn--h-k9tybb8g5ivhkczry701afhpm4sru6d.net##.toppr300
 xn--w8jtkjf8c570x.com##div[id$="mobile_banner_top"]
 xnxx.com###content-ad-top-zone-contener
-xnxx.com##[class*="ad-"]
 xnxx.com,xvideos.com##[id^="ad-"]
 xs77.cc,xs77.com,xs77.buzz,xs77.cn,xs77.xyz##body > div[style*="margin:"] > div
 xtits.xxx##.container-holder > div[style="margin: 5px auto; text-align: center;"]
@@ -38185,6 +38186,7 @@ zle.com$script
 @@||vodjk.com/offlights.js
 @@||vvic.com/monetize/ads/index/
 @@||wamiz.com/css/ads.css
+@@||wan.douyu.com^$domain=wan.douyu.com
 @@||wancaibb.com/share/js/share.min.js
 @@||wandhi.com^$generichide
 @@||ware.shop.jd.com^$genericblock,generichide
@@ -38535,6 +38537,8 @@ workercn.cn#@#.ad_main
 world.huanqiu.com#@#.ad_all
 www.jianshu.com#@#div[class$="_0"]
 www.zol.com.cn#@##search_ad
+xnxx.com#@#.exo-ad-ins-container
+xnxx.com#@#[class*="ad-"]
 xpiaotian.net#@#.pagead
 xxt.cn#@##mainAd
 youdao.com#@#.open-share
