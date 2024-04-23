@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: ffrUAA3rKvpvfiFiqMFkwg
+! Checksum: bpZ94PrCZoEyt9fzHWoH6A
 ! Title: Aloazny Chinese fiter
-! Version: 20240423162838
+! Version: 20240424003153
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-04-23 16:28:38
-! Total Count: 38568
-! Blocked Filters: 38568
+! Last modified: 2024-04-24 00:31:53
+! Total Count: 38575
+! Blocked Filters: 38575
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -12643,6 +12643,7 @@
 ||superchat.live^
 ||superficialeyes.com^$third-party
 ||superfish.com^$third-party
+||superjj.online^
 ||supersonicads-a.akamaihd.net^
 ||supersonicads.com^
 ||superviseshoes.com^$third-party
@@ -14378,6 +14379,7 @@
 ||wuruigroup.com^
 ||wushangzeichuan.xin^
 ||wutsldsk.xyz^
+||wuxingruoyin.top/public/*/plugins/
 ||wuyaw.cn^
 ||wuye3d.com^
 ||wvceki.xyz^
@@ -16323,6 +16325,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 17yy.com##.t2r_3
 18-comic.work,18comic.org,18comic.vip,bejson.com,jmcomic.me,json.cn,movieclassic.net,pianyuan.org,qixingquan.com##.modal-backdrop
 18-comic.work,18comic.org,18comic.vip,boylov.xyz,boylove.cc,boylove1.mobi,boyloves.fun,jmcomic.me,jmcomic1.me##.div_sticky2
+18-comic.work,18comic.org,18comic.vip,boylov.xyz,boylove.cc,boyloves.fun,jmcomic.me##style + div[style="cursor: pointer; position: relative;"]
 18-comic.work,18comic.org,18comic.vip,jmcomic.me###guide-modal
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > [style*="back"]
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > div[style^="display: block;"]
@@ -18503,7 +18506,6 @@ boylov.xyz,boylove.cc,boylove.mobi,boylove.today,boylove1.cc,boylove3.cc,boylove
 boylov.xyz,boylove.cc,boylove.mobi,boylove.today,boylove1.cc,boylove3.cc,boylove5.cc,boyloves.fun##div[style="display: block"]
 boylov.xyz,boylove.cc,boyloves.fun##.owl-carousel
 boylov.xyz,boylove.cc,boyloves.fun##div[data-type="1"]
-boylov.xyz,boylove.cc,boyloves.fun##style + div[style="cursor: pointer; position: relative;"]
 boylov.xyz,boylove.cc,boyloves.fun#?#:-abp-has(>.adsbyexoclick)
 boylove.cc###floating_page
 boylove.cc###yteggbue
@@ -24608,6 +24610,7 @@ nettavisen.no###sportspill-box-top
 netzwelt.de###leaderboard_mobile
 netzwelt.de##body [data-spotim-module="recirculation"] div[data-spotim-slot="mobile"]
 nevasport.ru##.adblock-notify
+new-reporter.com##div[id^="mdl-elmt-"]
 new-rutor.org,xrutor.org,123rutor.su###onigiri_block
 newcger.com##.banner_recom
 newduba.cn###jq_youxi
@@ -24982,6 +24985,7 @@ okbizcs.okwave.jp##.box_ad_rectangle_detail
 okdiario.com###okd-catfish
 okdyy.com##[style*="width:"][style*="100%"],p[style*="display: block;"]
 okinawatimes.co.jp##.ad_h250
+okinawatimes.co.jp##.l-main > div[style=" height:130px;"]
 okinawatimes.co.jp#?#li > #sp_article_infeed_1st:upward(1)
 okinilove.com###fixed_footer
 okkazeo.com###ftbn
@@ -26672,6 +26676,7 @@ space.utema.ru##.main-content-padding > div[class]:not([itemprop])
 spanishdict.com###adBotSmall-container
 spanishdict.com###adMiddle-container
 spanishdict.com##.whitelist
+spankbang.com,spankbang.party,spankbang-com.zproxy.org###age_check
 spankbang.com,spankbang.party,spankbang-com.zproxy.org###interstitial_div_v2
 spankbang.com,spankbang.party,spankbang-com.zproxy.org###interstitial_div_v3
 spankbang.com,spankbang.party,spankbang-com.zproxy.org##.ptgncdn_holder
@@ -27063,6 +27068,8 @@ th-sjy.com##.banner-post
 th7.cn###PcPoPmarket
 th7.cn##.main > .mb5
 the-ans.jp##.banner-list-item > a:not([href*="the-ans.jp"])
+the-miyanichi.co.jp##.banner:has(> div[id^="div-gpt-"])
+the-miyanichi.co.jp##.sp_all_header
 the-sun.com##.amp-adv-wrapper
 the-village.com.ua##.infoA
 theatlantic.com##.ad-loaded
