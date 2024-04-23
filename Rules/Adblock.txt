@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: cURsK0/KcZcp8adv65oKBA
+! Checksum: jiJvgTLzic7mTH2q3vXMHg
 ! Title: Aloazny Mobile fiter
-! Version: 20240423113420
+! Version: 20240423163004
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-04-23 11:34:20
-! Total Count: 75485
-! Blocked Filters: 75485
+! Last modified: 2024-04-23 16:30:04
+! Total Count: 75492
+! Blocked Filters: 75492
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14744,6 +14744,7 @@
 ||lfjtiuy.cn^
 ||lflmdm.com^
 ||lfrfzr.xyz^
+||lftpvh.xyz^
 ||lfzk2cp.icu^
 ||lg.feoffortapetis.com^
 ||lganilgll.cyou^
@@ -33244,7 +33245,10 @@ chinanews.com,chinanews.com.cn###dingtong
 chinanews.com.cn###ad_right_fc1
 chinanews.com.cn##.tp_adv
 chinanews.com.cn##.wap_adv
+chinanewsx.com##.card-body > .my-3:last-child
+chinanewsx.com##.side-nav
 chinanewsx.com##a[href="/about/"]
+chinanewsx.com##a[href^="/go/"]
 chinapdf.com###floatleft
 chinapdf.com###floatright
 chinapost-track.com##.tracking-pro-container
@@ -37792,6 +37796,8 @@ flashscore.*,horseracing24.com,darts24.com,handball24.com,volleyball24.com,motor
 flashscore.*,horseracing24.com,darts24.com,handball24.com,volleyball24.com,motorsport24.com,golflive24.com,baseball24.com,cricket24.com,icehockey24.com,basketball24.com,tennis24.com,diretta.it,livescore.in,soccer24.com,soccerstand.com,livesport.com,scoreboard.com##.adsenvelope
 flashscore.*,horseracing24.com,darts24.com,handball24.com,volleyball24.com,motorsport24.com,golflive24.com,baseball24.com,cricket24.com,icehockey24.com,basketball24.com,tennis24.com,diretta.it,livescore.in,soccer24.com,soccerstand.com,livesport.com,scoreboard.com##.boxOverContent__banner
 flashscore.*,horseracing24.com,darts24.com,handball24.com,volleyball24.com,motorsport24.com,golflive24.com,baseball24.com,cricket24.com,icehockey24.com,basketball24.com,tennis24.com,diretta.it,livescore.in,soccer24.com,soccerstand.com,livesport.com,scoreboard.com##.prematchOddsBonus__bonus
+flaticon.com##.container > section.hide-mobile:has(> #unicorn)
+flaticon.com##.container > section.hide-mobile:has(> .preload:empty:only-child)
 flaticon.com#$#li[id^="bn-icon-list"] { position: absolute !important; left: -3000px !important; }
 flaticon.com#$#ul.icons > li.icon[data-name][style="margin-bottom: 116px;"] { margin-bottom: 0!important; }
 flaticons.net##a[href^="http://goo.gl/"] > img
@@ -39040,6 +39046,7 @@ gayfor.us#?#p:has(> ins.adsbyexoclick)
 gayfor.us,hqq.to##+js(abort-on-stack-trace, olplayer.error, Be.o.dispatcher.o.dispatcher)
 gayforfans.com##+js(window.open-defuser, assets/logo.png)
 gayforfans.com##div[class^="gayfo-loop-ad-"]
+gayforfans.com,namethatporn.com##iframe[src*="//a.adtng.com/"]
 gayforit.eu###navigation > div > a[camstarget]
 gayforit.eu###navigation > div > a[target="_blank"]
 gayforit.eu##div[id^="video_advert"]
@@ -42881,6 +42888,7 @@ izofile.com##.thecontent > .waleed
 izoomyou.com##.rect-270
 j-basketball.club##ins.adsbygoogle[data-ad-slot]
 j2dw.ngo##+js(set-constant, DHNewAntiAdBlocker, true)
+jable.one,69av.one##div[class] > span[class]:has(div[class*="q-responsive"])
 jable.tv###jimds-slider
 jable.tv###site-content > div.container > section.pb-3.pb-e-lg-40.text-center
 jable.tv##.badge
@@ -48071,7 +48079,6 @@ namethatporn.com##body > div.a_br
 namethatporn.com##div[class][data-flba^="https://landing1.brazzersnetwork.com/"]
 namethatporn.com##div[data-flba^="https://landing.brazzersnetwork.com/"]
 namethatporn.com##div[onclick^="FAB"]
-namethatporn.com##iframe[src*="//a.adtng.com/"]
 namibian.com.na##.container.wrap > .extras-min
 nan-net.com###adblock_guide_mask
 nan-net.com###bottomad2
@@ -70224,7 +70231,7 @@ zle.com$script
 @@/fingerprintjs2.min.js$domain=imooc.com
 @@/fuckadblock.$domain=datehub.co|golangnote.com|joyk.com|liumingye.cn|lnk2.cc|poedb.tw|share1223.com
 @@/fuckadblock.js$domain=uniqueten.net|allcryptoz.net|meucdn.vip|yandexcdn.com|scenelife.org|hqq.tv|czxxx.org|waaw.tv
-@@/gettoken.php?$xmlhttprequest,domain=dropgalaxy.com
+@@/gettoken.php?$xmlhttprequest,domain=financemonk.net|rtxkeeda.com|houseofblogger.com|dropgalaxy.com|djxmaza.in|miuiflash.com|thecubexguide.com|jytechs.in
 @@/guanggao/*$domain=icbc.com.cn|igame.qq.com
 @@/hitCount.$script,domain=on.cc
 @@/hitCount_$xmlhttprequest,domain=on.cc

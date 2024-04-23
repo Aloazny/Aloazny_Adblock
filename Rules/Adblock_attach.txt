@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: N1BsIQB/yp9ODkBxAgXqPQ
+! Checksum: 2FUyUZLco3guWNguD+Fi6g
 ! Title: Aloazny attach fiter
-! Version: 20240423113237
+! Version: 20240423162822
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-04-23 11:32:37
-! Total Count: 13409
-! Blocked Filters: 13409
+! Last modified: 2024-04-23 16:28:22
+! Total Count: 13410
+! Blocked Filters: 13410
 ! Description: 合并混合规则的补充规则，轻量规则，可作为补充规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -6130,6 +6130,7 @@ ix6080.com##DIV[style$='vw; display: block;']
 ixbt.com##.fc-ab-root
 iyar.com.cn,m4411.com##[class][style*="131px"]
 izmailov.tv##.popupBlock
+jable.one,69av.one##div[class] > span[class]:has(div[class*="q-responsive"])
 jable.tv###jimds-slider
 jable.tv###site-content > div.container > section.pb-3.pb-e-lg-40.text-center
 jable.tv##.badge
