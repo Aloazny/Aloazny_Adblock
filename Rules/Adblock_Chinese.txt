@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 9JRAWHjyukrdIV2O4sa3XA
+! Checksum: CetlfnP7YDWI/zgar3iSCw
 ! Title: Aloazny Chinese fiter
-! Version: 20240423003132
+! Version: 20240423100716
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-04-23 00:31:32
-! Total Count: 38535
-! Blocked Filters: 38535
+! Last modified: 2024-04-23 10:07:16
+! Total Count: 38563
+! Blocked Filters: 38563
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -2352,6 +2352,7 @@
 ||anyunwl04.com^
 ||anywlan.com/link/*.gif
 ||aoakss.com^
+||aobtwv.icu^
 ||aobuygo.com^
 ||aojeet.icu^
 ||aokkwzg.cn^
@@ -5864,6 +5865,7 @@
 ||fxbcc.cyou^
 ||fxbcpr.xyz^
 ||fxeaobv.icu^
+||fxgkktj.icu^
 ||fxjnfn.xyz^
 ||fxjs.2541.com^
 ||fxkfhbn.xyz^
@@ -6285,6 +6287,7 @@
 ||gp.jstv.com^
 ||gp.zaiyunli.cn^
 ||gp123.cc/20*ad/
+||gpiagk.xyz^
 ||gpqid.xyz^
 ||gpxxbyf.cn^
 ||gpxz.com/js2/
@@ -8771,6 +8774,7 @@
 ||lhgwcvw.cn^
 ||lhiefl.com^
 ||lhippac.cn^
+||lhmebwq.cn^
 ||lhotajl.icu^
 ||lhtnuop.xyz^
 ||lhy1.xyz^
@@ -13726,6 +13730,7 @@
 ||uysdxmo.com^
 ||uyt79.top^
 ||uyulwc.xyz^
+||uyuwkbt.top^
 ||uz44x.xyz^
 ||uzelzfnj.xyz^
 ||uznizrhd.xyz^
@@ -14954,6 +14959,7 @@
 ||xvilxdv.cn^
 ||xvliqsa.cn^
 ||xvorpqz.cn^
+||xvpcjl.xyz^
 ||xvpqrydt.xyz^
 ||xvrvgod.xyz^
 ||xvudqzoa.xyz^
@@ -19377,6 +19383,10 @@ dapenti.com##a[href*="sq.cc"]
 daretoku-eromanga.info###container > div.widget_text.side_col:not(:last-child)
 daretoku-eromanga.info##.osusumeba
 daretoku-eromanga.info#?##header ~ div.side_col:has(> div.textwidget > div.center)
+darknessporn.com,familyporner.com,freepublicporn.com,pisshamster.com,punishworld.com,xanimu.com##div[id^="after-boxes"]
+darknessporn.com,familyporner.com,freepublicporn.com,pisshamster.com,punishworld.com,xanimu.com##div[id^="beside-video"]
+darknessporn.com,familyporner.com,freepublicporn.com,pisshamster.com,punishworld.com,xanimu.com##div[id^="native-boxes"]
+darknessporn.com,familyporner.com,freepublicporn.com,pisshamster.com,punishworld.com,xanimu.com##div[id^="related-boxes-footer"]
 darkteam.net##.pls_rmv
 dasai8.com##.L > font[color="#0000FF"]
 dasinvestment.com##.billboard-ad-mobile_switcher
@@ -19566,7 +19576,7 @@ dm5.com,dm5.hk##.cl760
 dm5.com,dm5.hk##.cl970
 dm5.com,dm5.hk##a[href*=".wannaplay.cn"]
 dm530p.net##DIV[style$='; display: block;']
-dm590.com##.external
+dm590.com,hentaipaw.com##.external
 dm88.me##embed[id][src]
 dm88.me,dmh8.me,dm99.me##.padding-0 > ul[style]
 dm88.me,dmh8.me,dm99.me##[style^="display: block;"]
@@ -20121,6 +20131,8 @@ eromanga-numa.com,eromanga-yasan.com###spwrapper
 eromanga-pon.com##.ad_big
 eromanga-school.com##.ad-top-sp
 eromanga-select.com,doujin-night.com##.sp_adwidget
+eromanga-show.com,hentai-one.com,hentaipaw.com##+js(no-setTimeout-if, /[a-z]\(!0\)/, 800)
+eromanga-show.com,hentai-one.com,hentaipaw.com##div[id^="ts_ad_"]
 eromanga-sora.com#?#.enhanced-text-widget:has(> div.textwidget > div#spwrapper)
 eromanga-yasan.com,eromanga-ace.com###spcontent
 eromanga-yasan.com,eromanga-ace.com##.adontitle
@@ -21418,11 +21430,18 @@ helpsetup.ru##.veramoy
 hensachiterrace.com##.footer_overlay
 hentai-cosplays.com,hentai-gif-anime.com,hentai-img.com,porn-images-xxx.com###adsense_center
 hentai.io##.script_manager_video_master
+hentai2read.com##div[data-type="leaderboard-top"]
 hentai2read.com##iframe[src*="?zoneid="]
 hentaicity.com##[class^="adn-posty_"]
 hentaicomic.*,wnacg1.cc,wnacg.*##+js(abort-current-script, document.write, /\.(gif|php)/)
-hentaipaw.com##.header-ad,.middle-ad,[id^="ts_ad_native"]
+hentaimama.io##div[class^="in-between-ad"]
+hentaipaw.com##+js(noeval-if, _0x)
+hentaipaw.com##.header-ad
+hentaipaw.com##.middle-ad
+hentaipaw.com##.middle-ad2
+hentaipaw.com##[id^="ts_ad_native"]
 hentairox.com,imhentai.xxx,hentaifox.com,hentaiera.com##.bblocktop
+hentaistream.com##div[id^="adx_ad-"]
 hentaivn.net##div[class^="a_d_s_"]
 hepan.com##.fivead
 hepuwang.com##.n5_dbhfad > .wapper
@@ -24726,6 +24745,10 @@ newsoku.blog##footer > div.widget_mobile_ad ~ div[class^="widget"]
 newsweekjapan.jp###induction-box
 newsweekjapan.jp###titleTextAd
 newsweekjapan.jp##.special_bnr_area
+newtalk.tw###_popIn_recommend
+newtalk.tw##.dable_response
+newtalk.tw##.extend_ad
+newtalk.tw##div[id^="ATS_"]
 newxue.com##.bd500
 newxue.com##.dashuggtop
 newxue.com##.dashuggtop1
@@ -25481,12 +25504,15 @@ pornovsem.net##.video-wide-br
 pornpapa.com##.mobile-device
 pornpics2u.com,porngifs2u.com##.elementor-section-wrap > section.elementor-section:has( div[align="center"] > a > img[src^="https://adultwebmasters.org"])
 pornpictureshq.com##.masonry_thumbs > div.grid > div.thumb:has(> iframe)
+pornsitetest.com##div[id^="eroti-"]
 pornstar-scenes.com##.row > div.portfolio-item:has(> div.card > div[id^="chaturbate"])
+pornstarbyface.com##div[id^="sponcored-content-"]
 porntrex.com##.content > div[class]:has(> div[style*="text-align"] > center > script)
 porntrex.com##.pop-adv
 pornwatchers.com,stileproject.com##.mobile-vda
 pornwhite.com##.container-side:has(> b:first-child + div[data-banner]:last-child)
 pornwhite.com##.items-container > div.items-holder:has(> div[data-banner])
+pornwhite.com,sleazyneasy.com##div[data-banner]
 portablesoft.org##.downcenter
 portablesoft.org##.rightside > :nth-child(n+2)
 portablesoft.org##.sidebar-box
@@ -27083,6 +27109,7 @@ thetrendspotter.net##.mobile_advert
 thetrendspotter.net##.mysite-adsense-mobile-header
 theverge.com,mediafire.com##.m-ad
 theworld.cn##.download-now
+theyarehuge.com##div[data-nosnippet]
 thinbug.com###inktokad
 thinkapple.pl##.after-more-tag > a[target="_blank"] > img
 thinkphp.cn##.a6
@@ -29811,7 +29838,6 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 /^https?:\/\/www\.[a-z]{8,14}\.(bid|club|co|com|me|pro|info)\/[a-z]{1,12}\.js$/$script,third-party,domain=2ddl.vg|guard.link|anidl.org|srt.am|widestream.io|xxxstreams.me|animeforce.it|streamporn.me|speedporn.net|youwatchporn.com|oke.io|2ddl.unblocked.vc|gaypornwave.com|watchpornfree.ws|hentaimoe.me|sportsgala.xyz
 /^https?:\/\/xxximage\.org\/[a-z\d]+\.js$/$domain=xxximage.org
 /^https?:\/\/zoomgirls\.net\/[a-z\d]+\.(js)$/$domain=zoomgirls.net
-/_next/static/chunks/$script,domain=hentaipaw.com
 /_xa/ads?
 /_xa/ads_
 /a/p?adid=
@@ -36954,6 +36980,7 @@ zle.com$script
 @@/300x250.gif$domain=manwa1.vip|manwa2.vip|manwa3.vip|manwa4.vip|manwa5.vip|manwa6.vip|manwa7.vip|manwa8.vip|manwa9.vip|manwa10.vip|manwa.vip|manwa1.site|manwa2.site|manwa3.site|manwa4.site|manwa5.site|manwa6.site|manwa7.site|manwa8.site|manwa9.site|manwa10.site|manwa.site|manwa1.me|manwa2.me|manwa3.me|manwa4.me|manwa5.me|manwa6.me|manwa7.me|manwa8.me|manwa9.me|manwa10.me|manwa.me|mwcomic1.cc|mwcomic2.cc|mwcomic3.cc|mwcomic4.cc|mwcomic5.cc|mwcomic6.cc|mwcomic7.cc|mwcomic8.cc|mwcomic9.cc|mwcomic10.cc|mwcomic.cc|mwcomic1.biz|mwcomic2.biz|mwcomic3.biz|mwcomic4.biz|mwcomic5.biz|mwcomic6.biz|mwcomic7.biz|mwcomic8.biz|mwcomic9.biz|mwcomic10.biz|mwcomic.biz|mwcomic1.xyz|mwcomic2.xyz|mwcomic3.xyz|mwcomic4.xyz|mwcomic5.xyz|mwcomic6.xyz|mwcomic7.xyz|mwcomic8.xyz|mwcomic9.xyz|mwcomic10.xyz|mwcomic.xyz|mwcomic1.top|mwcomic2.top|mwcomic3.top|mwcomic4.top|mwcomic5.top|mwcomic6.top|mwcomic7.top|mwcomic8.top|mwcomic9.top|mwcomic10.top|mwcomic.top|manwa1.xyz|manwa2.xyz|manwa3.xyz|manwa4.xyz|manwa5.xyz|manwa6.xyz|manwa7.xyz|manwa8.xyz|manwa9.xyz|manwa10.xyz|manwa.xyz|mwcomic1.co|mwcomic2.co|mwcomic3.co|mwcomic4.co|mwcomic5.co|mwcomic6.co|mwcomic7.co|mwcomic8.co|mwcomic9.co|mwcomic10.co|mwcomic.co|mwcomic1.online|mwcomic2.online|mwcomic3.online|mwcomic4.online|mwcomic5.online|mwcomic6.online|mwcomic7.online|mwcomic8.online|mwcomic9.online|mwcomic10.online|mwcomic.online|manwafei1.cc|manwafei2.cc|manwafei3.cc|manwafei4.cc|manwafei5.cc|manwafei6.cc|manwafei7.cc|manwafei8.cc|manwafei9.cc|manwafei10.cc|manwafei.cc|manwafei1.com|manwafei2.com|manwafei3.com|manwafei4.com|manwafei5.com|manwafei6.com|manwafei7.com|manwafei8.com|manwafei9.com|manwafei10.com|manwafei.com|manwafei1.xyz|manwafei2.xyz|manwafei3.xyz|manwafei4.xyz|manwafei5.xyz|manwafei6.xyz|manwafei7.xyz|manwafei8.xyz|manwafei9.xyz|manwafei10.xyz|manwafei.xyz|manwafei1.top|manwafei2.top|manwafei3.top|manwafei4.top|manwafei5.top|manwafei6.top|manwafei7.top|manwafei8.top|manwafei9.top|manwafei10.top|manwafei.top|manwafei1.me|manwafei2.me|manwafei3.me|manwafei4.me|manwafei5.me|manwafei6.me|manwafei7.me|manwafei8.me|manwafei9.me|manwafei10.me|manwafei.me|manwafei1.site|manwafei2.site|manwafei3.site|manwafei4.site|manwafei5.site|manwafei6.site|manwafei7.site|manwafei8.site|manwafei9.site|manwafei10.site|manwafei.site|manwafei1.biz|manwafei2.biz|manwafei3.biz|manwafei4.biz|manwafei5.biz|manwafei6.biz|manwafei7.biz|manwafei8.biz|manwafei9.biz|manwafei10.biz|manwafei.biz|manwafei1.online|manwafei2.online|manwafei3.online|manwafei4.online|manwafei5.online|manwafei6.online|manwafei7.online|manwafei8.online|manwafei9.online|manwafei10.online|manwafei.online|manwaq1.vip|manwaq2.vip|manwaq3.vip|manwaq4.vip|manwaq5.vip|manwaq6.vip|manwaq7.vip|manwaq8.vip|manwaq9.vip|manwaq10.vip|manwaq.vip
 @@/?utm_source=*&utm_campaign=$domain=dlsite.com
 @@/WebAd/*$domain=yongyoujia.com
+@@/_next/static/chunks/$script,domain=hentaipaw.com
 @@/ad-close.png$domain=ch.com
 @@/ad/images/*$domain=37-express.com|vnnox.com
 @@/adLoader.$domain=shejiben.com
@@ -37783,6 +37810,7 @@ zle.com$script
 @@||koyi.pub/wp-content/plugins/fuzqing-ad-plus/assets/js/*.js
 @@||ksapisrv.com/rest/wd/common/log/collect/
 @@||ktu.sv2.biz/sv3/advertisement.js
+@@||kxcdn.com^$domain=wikiwand.com
 @@||l.qq.com/lview?$domain=888.sports.qq.com
 @@||lager.com.tw/images/layer6_adbanner/
 @@||landtop.com.tw/images/ad/

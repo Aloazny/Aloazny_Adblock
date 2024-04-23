@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: OyCqZLDbNRecgLEpW4TuaQ
+! Checksum: s0HvllOBzGSgRuW5u+HZcA
 ! Title: Aloazny Mobile fiter
-! Version: 20240423003302
+! Version: 20240423100843
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-04-23 00:33:02
-! Total Count: 75449
-! Blocked Filters: 75449
+! Last modified: 2024-04-23 10:08:43
+! Total Count: 75485
+! Blocked Filters: 75485
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -4232,6 +4232,7 @@
 ||anzu.io^$third-party
 ||ao.tournaipestles.com^
 ||aoakss.com^
+||aobtwv.icu^
 ||aobuygo.com^
 ||aoihaizo.xyz^
 ||aojeet.icu^
@@ -4914,6 +4915,7 @@
 ||bace10.top^
 ||bachlong.vn/vnt_upload/File/Image
 ||bachou.cn^
+||back.jauns.lv/api/*/ad-zones/
 ||backchina.com/banners/
 ||backgrounds.wetransfer.net/brand/
 ||bad996.com/dakaads.js
@@ -10549,6 +10551,7 @@
 ||fxbcc.cyou^
 ||fxbcpr.xyz^
 ||fxeaobv.icu^
+||fxgkktj.icu^
 ||fxhpaoxqyajvmdg.
 ||fxjnfn.xyz^
 ||fxjs.2541.com^
@@ -11250,6 +11253,7 @@
 ||gp.jstv.com^
 ||gp.zaiyunli.cn^
 ||gp123.cc/20*ad/
+||gpiagk.xyz^
 ||gplinks.co/sw.js
 ||gplinks.in/advertising/banners/$image
 ||gplinks.in/sw.js
@@ -11698,6 +11702,7 @@
 ||hciwyv.icu^
 ||hcqumrjbx.xyz^
 ||hcvegu.com^
+||hd-easyporn.com/static/exonb/backloderforload.php
 ||hd-world.org/layer18.js
 ||hd21.*/templates/base_master/js/jquery.shows.min.js
 ||hdaidj.cn^
@@ -14766,6 +14771,7 @@
 ||lhgwcvw.cn^
 ||lhiefl.com^
 ||lhippac.cn^
+||lhmebwq.cn^
 ||lhotajl.icu^
 ||lhtnuop.xyz^
 ||lhy1.xyz^
@@ -23506,6 +23512,7 @@
 ||uysdxmo.com^
 ||uyt79.top^
 ||uyulwc.xyz^
+||uyuwkbt.top^
 ||uz.gamyboxbush.com^
 ||uz44x.xyz^
 ||uzelzfnj.xyz^
@@ -25832,6 +25839,7 @@
 ||xvilxdv.cn^
 ||xvliqsa.cn^
 ||xvorpqz.cn^
+||xvpcjl.xyz^
 ||xvpqrydt.xyz^
 ||xvrvgod.xyz^
 ||xvudqzoa.xyz^
@@ -29348,8 +29356,8 @@ ah-me.com###allIMwindow
 ah-me.com##.movie-pop
 ah-me.com##[id^="ntv"][id$="Container"]
 ah-me.com##div.DarkBg
-ah-me.com##div[id^="ts_ad_"]
 ah-me.com##div[style^="float: right;"][style*="width: 300px;"]
+ah-me.com,eromanga-show.com,hentai-one.com,hentaipaw.com##div[id^="ts_ad_"]
 ahaan.co.uk##.sticky-side-ad
 ahaan.co.uk#?#.MuiBox-root:has(> div[class*="-only"] > .adunitContainer)
 ahaonline.cz##.boxReklama
@@ -30637,8 +30645,8 @@ asus.com##.bg_block
 atefaucet.com,coinsrev.com##+js(addEventListener-defuser, load, lipfoJyjxTvn)
 atelevisao.com##.custom-html.BelowTags
 atelevisao.com,mundokodi.com,gamesisart.ru,laleggepertutti.it##.clAdPlacementAnchorWrapper
-aternos.org##.header-ad
 aternos.org##.header-ad-columns
+aternos.org,hentaipaw.com##.header-ad
 athinorama.gr##div[id^="ParentOFdiv-gpt-ad-"]
 athirvu.in#?#.sticky-sidebar > section.widget:has(> div.textwidget ins.adsbygoogle)
 atlasobscura.com##.ad-background-intra-body
@@ -30901,8 +30909,8 @@ awbi.in##.SH-Ads
 awesomeopensource.com##div[class^="carbon-projects-page-native-ad"]
 awesomeopensource.com##div[class^="projects_list_ad_slot_"]
 awesomeopensource.com##div[id^="server-side-native-ad-container-"]
-awkwardzombie.com###right-space
-awkwardzombie.com###top-space
+awkwardzombie.com,girlgeniusonline.com###right-space
+awkwardzombie.com,girlgeniusonline.com###top-space
 awsubs.co##.klnrec
 awsubs.co##a[rel="noopener"] > img[src*="bp.blogspot.com"]
 awsubs.co,mangacanblog.com,minioppai.org,movie76.com###btm_banner
@@ -32983,6 +32991,8 @@ cellmapper.net##div[class="modal_dialog_base"][style^="display: block; left:"]
 cellularnews.com##.responsive-ad-outbrain-wrapper
 cellularnews.com,robots.net##.responsive-thin-ad-wrapper
 celpox.com##div[style^="min-width:300px;min-height"]
+ceneo.pl###body > section.store-zones
+ceneo.pl##.highlighted-offers
 ceneo.pl##.js_promotedItems
 ceneo.pl##.js_top-banner[data-name]
 centoschina.cn##a[href="https://www.linuxprobe.com/"]
@@ -34776,6 +34786,10 @@ darkleia.com##iframe[src^="//poweredby.jads.co/"]
 darkleia.com#?##sidebar > section[id^="custom_html-"] > h2:contains(Sponsored:):upward(1)
 darkleia.com,getcomics.info##.advanced_floating_content
 darknessporn.com##.textovka
+darknessporn.com,familyporner.com,freepublicporn.com,pisshamster.com,punishworld.com,xanimu.com##div[id^="after-boxes"]
+darknessporn.com,familyporner.com,freepublicporn.com,pisshamster.com,punishworld.com,xanimu.com##div[id^="beside-video"]
+darknessporn.com,familyporner.com,freepublicporn.com,pisshamster.com,punishworld.com,xanimu.com##div[id^="native-boxes"]
+darknessporn.com,familyporner.com,freepublicporn.com,pisshamster.com,punishworld.com,xanimu.com##div[id^="related-boxes-footer"]
 darko.audio##[id^="ubm-banners-"]
 darkreader.org##.recommendations-container
 darkreading.com##a[data-flip-widget="shareflip"]
@@ -35111,6 +35125,7 @@ dexerto.*#?#article > div.flex:has(> div:contains(Article continues after ad))
 dexerto.*#?#div[id^="article"] > div.items-center:has(> div.flex > div.sticky > div[data-ad-unit-id])
 dexerto.*#?#main > div[data-cy="Container"]:has(> div.col-span-full div.sticky > div#FooterAd)
 dexerto.*#?#main.isolate div[data-cy="Container"]:has(> div.col-span-full > div.flex > div.flex > div.top-0 > div[data-ad-unit-id])
+dexerto.com##body #bottom-adhesion
 dexscreener.com##div[class^="custom-"] > a.chakra-link[href^="https://a1.adform.net"]
 dexterclearance.com#$##ads { height: 1px!important; }
 dextools.io##app-banner
@@ -35367,7 +35382,7 @@ dm5.com,dm5.hk##.cl760
 dm5.com,dm5.hk##.cl970
 dm5.com,dm5.hk##a[href*=".wannaplay.cn"]
 dm530p.net##DIV[style$='; display: block;']
-dm590.com##.external
+dm590.com,hentaipaw.com##.external
 dm88.me##embed[id][src]
 dm88.me,dmh8.me,dm99.me##.padding-0 > ul[style]
 dm88.me,dmh8.me,dm99.me##[style^="display: block;"]
@@ -39339,6 +39354,8 @@ gigapurbalingga.com##a[href^="http://www.nullrefer.com/?http://trafflict.com/"]
 gigazine.net###LB[style^="position:"][style*="top"]
 gigmature.com##a[href*="shewantyou.com/"]
 gigmature.com##a[href^="https://www.revenuenetworkcpm.com/"]
+girlgeniusonline.com###bottomleader
+girlgeniusonline.com###sociallinks > p > a[target="_blank"]
 girls-like.me##div[style$="height:250px;"]
 girls-like.me##div[style$="width:728px;height:90px;"]
 girls-like.me#$##wdbloogablock { display: none !important; }
@@ -40426,6 +40443,7 @@ hcomic.net##.main-container > .swiper
 hcomic.net##div[class^="horizontalBanner_"]
 hcomic.net##div[class^="multiBanner_bannerBox"]
 hd-easyporn.com###wrapper_content > aside[id]
+hd-easyporn.com#?#.adsbyexoclick:upward(aside[id])
 hd-easyporn.com#?#.video > aside[id]:has(ins.adsbyexoclick)
 hd-streams.org##span[class="v-tooltip v-tooltip--bottom"] > span > a[onclick^="window.location.href=window.atob"]
 hd01.ru##.stadck
@@ -40676,6 +40694,7 @@ hentai2read.com##+js(set-constant, hasAb, false)
 hentai2read.com##+js(window.open-defuser, trcktr.com)
 hentai2read.com##.content > div[class] > div.afs_ads ~ div[class] a[target="_blank"] > img
 hentai2read.com##.js-rotating[data-type="leaderboard-index"]
+hentai2read.com##div[data-type="leaderboard-top"]
 hentai2read.com##div[data-type^="ark-"] > a[href*="click.php"] > img
 hentai2read.com##div[data-type^="leaderboard"]
 hentai2read.com,ibradome.com##iframe[src*="?zoneid="]
@@ -40731,8 +40750,11 @@ hentaila.com##+js(json-prune, *, *.adcashLib)
 hentaila.com,porno90.online,mrdeepfakes.com,youxxx.cc,xmateur.com,upskirt.tv,xkeezmovies.com,bunkr.*,bestgirlsexy.com,mairimashitairuma-kun.com,sundukporno.video,pornoxata.net,pornososalka.org,simpcity.su,prothots.com,hotleak.vip,thotslife.com,hentaiteca.net,tktube.com,hitomi.la,hentai-share.one,gaypornhdfree.com,pornognomik.info,gifcandy.net,desijugar.net,manhwas.net,bondagevalley.cc,hachiraw.net,hiperdex.com,thekingofcave.com,fitnakedgirls.com,cutiecomics.com,javroi.com,hentaihaven.red,fap16.net,hcbdsm.com,pervertium.com,kissjav.com,herexxx.com,gayxx.net,meumundogay.net,drochka.vip,pornfuzzy.com,archivebate.com,hdgay.net,ebooxa.com,pornborne.com,iceporn.tv,house.porn,givemeaporn.com,rule34.paheal.net,pornvibe.org,gaystream.pw,gayforfans.com,kissjav.li,watchporninpublic.com,deepfakeporn.net,deepfakesporn.com,simpcity.su,freepublicporn.com,kubo-san.com,dandadanmanga.org,xnxx.fit,pornhd.porn,javjavhd.com,hentai-ani.me,porn3dx.com,rule34porn.net,porngrey.com,javvideoporn.com,hentaiyes.com,gayfor.us,r18hd.com,picyield.com,pictwn.com,pornrewind.com,dewimg.com,outletpic.com,tezzpic.com,meetimgz.com,sex-pornuha.com,tioanime.com,watchhentai.net,sexbixbox.com,pornopuk.com,holaporno.xxx,leaktube.org,tryboobs.com,holaporno.xxx,x18.xxx,javmobile.net,javdoge.com,javstor.com,jav101.online,javcensored.net,javbake.com,javtsunami.com,jpvhub.com,freepornhdonlinegay.com,torrentgalaxy.to,javvideo.xyz,javuncensored.watch,javporn.tv,javneon.tv,hero-porn.com,drochka.me,bdsmstreak.com,gaymaletubes.*,kr18plus.com,japteenx.com,javenspanish.com,jav-asia.top,webtoonscan.com,javideo.net,javf.net,hentaihd.xyz,pornktube.tv,vipornia.com,dailyporn.club,hentai2read.com,hentai2w.com,domahatv.com,domaha.tv,movies.meetdownload.com,cocomanga.com,javraveclub.com,yesvids.com,videovak.com,tubxporn.xxx,fivestarpornsites.com,5moviesporn.net,pusatporn18.com,povaddict.com,zetporn.com,pornxxxxtube.net,dailyjav.co,reifporn.de,filmindir.site,faucet.cryptourl.net,javtiful.com,lewdweb.net,redwap.me,redwap2.com,redwap3.com,javpornfull.com,mp4porn.space,mobileporn.cam,mangahub.io,mejortorrents1.*,mrcong.com,icyporno.com,31vakti.*,3prn.com,493428493428c.monster,8muses.xxx,aagmaal.com,ablefast.com,aii.sh,al4a.com,amateurporn.me,animeindo.cc,animeindo.fun,animeindo.to,animeon.moe,anysex.com,assesphoto.com,av-uncen.com,bangx.org,bestporncomix.com,biguz.net,birdurls.com,bitearns.com,bitfly.io,blowxtube.com,boobshere.com,boobsnbuns.com,boolwowgirls.com,camarchive.tv,camcam.cc,celebsepna.com,cerdas.com,clicporn.com,cryptoads.space,daftsex.org,ehotpics.com,ero18.cc,exe.app,ezbit.co.in,fastpic.ru,fastpic.org,fc.lc,felizporno.com,fetish-bb.com,fileone.tv,filman.cc,freepornxxxhd.com,ftopx.com,gaypornlove.net,genlink.cc,get-to.link,gigmature.com,gntai.net,gotporn.com,haho.moe,hdpicsx.com,hentaiarena.com,hentaicore.org,hentaienglish.com,hentaiporno.xxx,hentaisea.com,highporn.net,homeporn.tv,horrortube.fun,hotpornfile.org,huyamba.tv,iir.ai,ileak.xyz,imgbaron.com,imgdew.com,imgrock.net,imgtown.net,javbangers.com,javbix.com,javfun.me,javix.net,javnew.net,javrave.club,juicygif.com,kenzato.uk,kiaporn.com,kiminime.com,klikmanga.com,kropic.com,lesbian8.com,lesboluvin.com,letsjerk.is,lewdweb.net,likuoo.video,linkurl.me,m-hentai.net,mangamovil.net,milftoon.xxx,multporn.net,mycumx.com,myporntape.com,myreadingmanga.info,nesaporn.com,netfapx.com,nightlifeporn.com,novojoy.com,novoporn.com,nsfw247.to,nudebeachpussy.com,ohmanhua.com,ok.xxx,onemanhua.com,onlyfullporn.com,otube.pl,otuzbir-vakti.xyz,owllink.net,perfectgirls.net,picbaron.com,plusone8.com,pornchimp.com,pornditt.com,pornhat.*,pornhd.com,pornhd8k.net,pornkino.cc,pornktube.porn,pornky.com,pornleech.io,pornoakt.*,pornone.com,pornopicshub.com,pornovideoshub.com,primewire.li,prostream.to,rapidzona.tv,repicsx.com,rule34hentai.net,rushporn.xxx,saradahentai.com,savelink.site,shelovesporn.com,short.croclix.me,stileproject.com,sunporno.com,taxi69.com,teenskitten.com,thehentaiworld.com,thepiratebay.org,thisvid.com,tii.ai,tmohentai.com,topsitestreaming.info,tubxporn.com,tubxxporn.com,tuhentaionline.com,uflash.tv,uncensoredleak.com,up-load.io,upicsz.com,ver-comics-porno.com,ver-mangas-porno.com,videosection.com,vidspace.io,watchfreenet.org,webcamshows.org,wetpussy.sexy,xanimeporn.com,xkeezmovies.com,xlecx.org,xmoviesforyou.net,xpicse.com,xpornzo.com,xsexpics.com,xxxhardcoretube.com,xxxmaturevideos.com,xxxrapid.com,xxxtor.com##+js(addEventListener-defuser, click, popMagic)
 hentailove.tv##div[class^="ad-vid-"]
 hentaimama.io##.in-between-ad-one-wrapper
+hentaimama.io##div[class^="in-between-ad"]
 hentaipaw.com##+js(noeval-if, _0x)
-hentaipaw.com##.header-ad,.middle-ad,[id^="ts_ad_native"]
+hentaipaw.com##.middle-ad
+hentaipaw.com##.middle-ad2
+hentaipaw.com##[id^="ts_ad_native"]
 hentaipaw.com##div[id^="ts_ad_native_"]
 hentaipins.com##+js(abort-on-property-read, popundrCheck)
 hentaiplay.net###video_overlays
@@ -40746,6 +40768,7 @@ hentairox.com,imhentai.xxx,hentaifox.com,hentaiera.com##.bblocktop
 hentaiseason.com##body > i > script + div[id][class*=" "]
 hentaistream.com##+js(set-constant, popUnderStage1, noopFunc)
 hentaistream.com##.skin-hold
+hentaistream.com##div[id^="adx_ad-"]
 hentaisun.com#?#aside.span4 > .widget:has(> h3:contains(Advertising))
 hentaitoday.com##.widget_random_banner_widget
 hentaivideos.net,nudeselfiespics.com##+js(noeval-if, popUnderStage)
@@ -42942,6 +42965,10 @@ jastrzabpost.pl##.jastrzabpost-widget
 jastrzabpost.pl##div[id^="jastrzabpost-"]
 jastrzabpost.pl,nauka.rocks###sticky-anchor
 jateng.inews.id###fragmentx
+jauns.lv##.ph-1000x200
+jauns.lv##.ph-300x200
+jauns.lv##.ph-300x250
+jauns.lv##.ph-300x300
 jauns.lv##iframe[id$="_DFP"]
 jav-desu.xyz##.home-img-box:has(> div.related-ad)
 jav-desu.xyz##div[id^="floatcenter"]
@@ -48574,6 +48601,10 @@ newsweekjapan.jp###titleTextAd
 newsweekjapan.jp##.special_bnr_area
 newsx.com##.leftaddsense
 newsx.com##.native-advts
+newtalk.tw###_popIn_recommend
+newtalk.tw##.dable_response
+newtalk.tw##.extend_ad
+newtalk.tw##div[id^="ATS_"]
 newtraderu.com,videocardz.net,videocardz.com,hollywoodmask.com##body .ezoic-ad:not(#style_important)
 newtumbl.com##.alert_banner
 newtumbl.com##.nt_post.broughtby
@@ -51005,12 +51036,14 @@ porns.land##.brazzersR
 pornsexer.com##.bottom-adv1
 pornsexer.com##.player-wrap > div[id="kt_player"] + div[id][style]
 pornshareproject.org###index_stats > center > a > img
+pornsitetest.com##div[id^="eroti-"]
 pornsos.com##.a-box
 pornstar-scenes.com##.row > div.portfolio-item:has(> div.card > div[id^="chaturbate"])
 pornstar-scenes.com##a[aria-label="Join Site"]
 pornstar-scenes.com##a[href^="/join/"]
 pornstar-scenes.com##div[style="border-color:#ffffff;"]
 pornstar-scenes.com#?#.row > div.portfolio-item:has(> div.card > div[id^="chaturbate"])
+pornstarbyface.com##div[id^="sponcored-content-"]
 pornstash.in##+js(abort-current-script, document.createElement, Popunder)
 pornstream.org##.player > div.right
 pornstreams.eu###menu-menu > li > a[target="_blank"]
@@ -56248,6 +56281,7 @@ thewpclub.net##.style1 > .note2_sp
 thewrap.com#$##header-widgets { display: none !important; }
 thewritelife.com##.sidebar > div.widget_search + div.widget
 theyarehuge.com##+js(abort-current-script, Object.defineProperty, clickHandler)
+theyarehuge.com##div[data-nosnippet]
 theync.com###bottom-af
 thgss.com##.blockerAlert
 thienvadia.net##.my_responsive_ads
@@ -62191,7 +62225,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=noop.txt,domain=zertalious.xyz
 /^https?:\/\/zoomgirls\.net\/[a-z\d]+\.(js)$/$domain=zoomgirls.net
 /_a_ta/s/s/*
 /_adslot/*
-/_next/static/chunks/$script,domain=hentaipaw.com
 /_ra_lib.js
 /_ra_lib.php
 /_xa/ads?
@@ -63672,6 +63705,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=noop.txt,domain=zertalious.xyz
 /tanchuan.htm$popup,third-party
 /tc-under.min.js
 /td_ads_ckbeck.js
+/tds/ae?*&clickid=$document
 /tempads/*
 /template/*/adm/*
 /template/*/ads/*
@@ -70094,6 +70128,7 @@ zle.com$script
 @@/^https?.*\..*\.ch\/.*\/(ad|adtech|pubblicita|adverts|ad-random|adSponsors|banner-ad|banman|native-ad|advertise|advert1|bg_ads|adengine|adspot|baseAd|coread)\/.*\/.*=.*&/$xmlhttprequest,other,script,domain=tio.ch
 @@/^https?:\/\/(?:www\.|[a-z0-9]{7,10}\.)?[a-z0-9-]{5,}\.(?:com|bid|link|live|online|top|club)\/\/?(?:[a-z0-9]{2}\/){2,3}[a-f0-9]{32}\.js/$script,xmlhttprequest,third-party,domain=1cloudfile.com
 @@/_js/pubfig.min.js$~third-party,domain=svethardware.cz|relaxuj.cz|svetmobilne.cz|digimanie.cz
+@@/_next/static/chunks/$script,domain=hentaipaw.com
 @@/ad-close.png$domain=ch.com
 @@/ad.js$domain=tiktokcounter.net|crypto-radio.eu
 @@/ad.js$~third-party,domain=giveaway.su
@@ -72635,6 +72670,7 @@ zle.com$script
 @@||kursjs.pl/js/ads-prebid.js
 @@||kursjs.pl/js/dfp.js
 @@||kxcdn.com/js/wutime_adblock/ads.js$domain=enxf.net
+@@||kxcdn.com^$domain=wikiwand.com
 @@||l.qq.com/lview?$domain=888.sports.qq.com
 @@||l2topzone.com/ads.png
 @@||l2topzone.com/advertisement.js.php
