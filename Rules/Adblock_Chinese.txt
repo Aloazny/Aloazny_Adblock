@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: sSJOfI3aqvUjPSRpwZS+iw
+! Checksum: hrKihb6aPl/5i7LTwkfhyw
 ! Title: Aloazny Chinese fiter
-! Version: 20240424163010
+! Version: 20240425003129
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-04-24 16:30:10
-! Total Count: 38587
-! Blocked Filters: 38587
+! Last modified: 2024-04-25 00:31:29
+! Total Count: 38593
+! Blocked Filters: 38593
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -9526,6 +9526,7 @@
 ||mindopu.com^
 ||mingtians.top^
 ||mini.hao123.com^
+||miningzhizhong.top^
 ||minixiazai.com/others/all_soft.js
 ||minixiazai.com/statics/js/soft/index.js
 ||miniye.xjts.cn^
@@ -16792,6 +16793,8 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 4399.com##.setlide a[href^="http"]:not([href*=".4399."])
 4399.com,gameapps.hk#$#body { background-image: none !important; }
 44.ua,056.ua,032.ua,04868.com.ua,karelia.news,0629.com.ua,0154.by,0472.ua,048.ua,0512.com.ua,0522.ua,0532.ua,0552.ua,056.ua,0564.ua,061.ua,06153.com.ua,0642.ua,62.ua,7152.kz,7232.kz,city04.kz,inaktau.kz,inalmaty.kz,inastana.kz,inatyrau.kz,inkaragandy.kz,inshymkent.kz,kaskelenec.kz,oshto.kg,qapshagai-city.kz,uralskcity.kz##app-main-popup-banner
+47news.jp##.col_side > .side_inner > div[class*="side_sp_"]:empty
+47news.jp##.col_side > .side_inner > div[class*="side_sp_"]:has(div[id*="_ad_"])
 47news.jp##.width_300
 493428493428c.monster##div[style^="width:728px;height:90px;"]
 4algeria.com,forum.bestflowers.ru###exposeMask
@@ -19173,6 +19176,7 @@ connect-living.de#$#.header--mobile { top: 0 !important; }
 conobie.jp##.ads-grey-area
 contents.internet.apps.samsung.com##.page-bar
 context.reverso.net,krautundrueben.de,irasutoya.com##.mobilead
+contexto.me#$#.top-ad-padding { padding-top: 15px !important; }
 conveni.getnews.jp##.index-ad-banner
 cookdoor.jp##.main_bnr_area
 cookpad.com##.standard_ad_slot
@@ -22681,6 +22685,7 @@ just-for-fun.ru##body > div[class*="-container"][class*="-hide"]
 justnerd.it##div[class^="ai-viewport-"]
 justthegays.com###block-31
 justthegays.com###block-33
+jutarnji.hr##.position_jl_nas_mb_1_top
 juxia.com###fmt
 juxia.com##.game_img_list
 juxia.com##.index_bttg
@@ -35193,6 +35198,7 @@ zle.com$script
 ##[href*='.top/?token=']
 ##[href*='.xacg.info/']
 ##[href*='anrvl.com']
+##[href*='baidugg123.cc']
 ##[href*='pojuko.buzz']
 ##[href*='slkdnlkfnskl.com']
 ##[href*='snnrb.com']
