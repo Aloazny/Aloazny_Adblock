@@ -393,32 +393,32 @@ cat << key > "${file}"
 # Aloazny 自用规则
 ### 自动更新(`date +'%F %T'`)
 
-### 补充规则
-#### GITHUB链接
+> ### 补充规则
+- #### GITHUB链接
 \`\`\`
 https://raw.githubusercontent.com/Aloazny/Aloazny_Adblock/main/Rules/Adblock_attach.txt
 \`\`\`
-### Gitlink链接
+- #### Gitlink链接
 \`\`\`
 https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_attach.txt?ref=main
 \`\`\`
 
-### 中文规则
-#### GITHUB链接
+> ### 中文规则
+- #### GITHUB链接
 \`\`\`
 https://raw.githubusercontent.com/Aloazny/Aloazny_Adblock/main/Rules/Adblock_Chinese.txt
 \`\`\`
-### Gitlink链接
+- #### Gitlink链接
 \`\`\`
 https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 \`\`\`
 
-### 移动端规则
-#### GITHUB链接
+> ### 移动端规则
+- #### GITHUB链接
 \`\`\`
 https://raw.githubusercontent.com/Aloazny/Aloazny_Adblock/main/Rules/Adblock.txt
 \`\`\`
-### Gitlink链接
+- #### Gitlink链接
 \`\`\`
 https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock.txt?ref=main
 \`\`\`
