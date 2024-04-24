@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: bpZ94PrCZoEyt9fzHWoH6A
+! Checksum: q35Oc/GqDK4fqMtj65uQFg
 ! Title: Aloazny Chinese fiter
-! Version: 20240424003153
+! Version: 20240424100518
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-04-24 00:31:53
-! Total Count: 38575
-! Blocked Filters: 38575
+! Last modified: 2024-04-24 10:05:18
+! Total Count: 38583
+! Blocked Filters: 38583
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -1192,6 +1192,8 @@
 ||88lm09.com^
 ||88lm10.com^
 ||88lm11.com^
+||88lm12.com^
+||88lm13.com^
 ||88p2p.com^$popup
 ||88ys.cc/js/abcd.js
 ||8961.jianbihua.com^
@@ -10518,6 +10520,7 @@
 ||oyksoft.com/show/b.
 ||oyotqp.icu^
 ||oyugspe.cn^
+||oyuwkbk.top^
 ||oyxp.xyz^
 ||oyysbc.xyz^
 ||ozhmig.cn^
@@ -11394,6 +11397,7 @@
 ||qvcyeknp.xyz^
 ||qvftejz.cn^
 ||qvnbjjd.xyz^
+||qvonje.cn^
 ||qvrdlvz.cn^
 ||qvrfddm.cn^
 ||qvxvvjom.com^
@@ -12351,6 +12355,7 @@
 ||sofunlib.com/assets/publish
 ||soggyzoo.com^$third-party
 ||sogo.uc.continuefaf.top^
+||sogoks.xyz^
 ||sogou.com/amdjs/release/common/act_all_ad.
 ||sogou.com/ask?id=
 ||sogou.com/athena/
@@ -14669,6 +14674,7 @@
 ||xflsj.com^
 ||xflybplr.xyz^
 ||xfqrsjq.cn^
+||xfrahb.xyz^
 ||xfztgxt.com^
 ||xg6hb.xyz^
 ||xghnqq.com^
@@ -15427,6 +15433,7 @@
 ||yvnxetmq.xyz^
 ||yvsnhc.com^
 ||yvudqzoa.xyz^
+||yvwuesh.icu^
 ||yw800.com.cn^
 ||ywg.jobui.com^
 ||ywhws.cn^
@@ -20788,6 +20795,7 @@ gamicsoft.com##A[onclick*="'Advertisement"] + .absolute
 gaming-city.com##.m-top-banner
 gaming-city.com##.mobile-footer-ad
 gaming.co.ua,pingvin.pro##body > div[id][class][style*="z-index"][style*="9999"],body > div[id][class][style*="z-index"][style*="9999"] + div[class][style*="z-index"][style*="9999"]
+gamingbible.com,sportbible.com,unilad.com,ladbible.com##div[class^="article-observer_bottomAd"]
 gamme.com.tw###bd
 gamme.com.tw##.ad_down
 gamme.com.tw##.adread
@@ -25946,6 +25954,7 @@ reshu.by,sdamgia.ru##div[class$="-BlockDetect"]
 retinaboys.com###screen_block
 retty.me###page > div[style="text-align:center; margin-top:16px;"]
 reuters.com###in-article-connatix-player
+reuters.com##+js(remove-attr, style, div[class*="site-header__with-mobile-leaderboard"])
 reuters.com##div[class^="ArticlePage-mobile-mpu-"]
 reuters.com##div[class^="article-body_"] > div[class*="cnx-player__in-article_"]
 reuters.com##div[class^="homepage-sponsor-logo__"]
@@ -26728,7 +26737,6 @@ sport.de###topbanner-mobile
 sport.sky.de##.sdc-site-au--amp > .sdc-site-au__label
 sport1.de##.amp-ad-align-center
 sport1.de##.s1-placement-label
-sportbible.com,unilad.com,ladbible.com##div[class^="article-observer_bottomAd"]
 sportiva.shueisha.co.jp###piano-widget-hand-picked-posts
 sportiva.shueisha.co.jp###piano-widget-hand-picked-posts + div.block-banner-a-a
 sports-ndtv-com.cdn.ampproject.org,ndtv.com##amp-iframe[src^="https://drop.ndtv.com/common/gadgets360/pricee/pricee-widget.html?"]

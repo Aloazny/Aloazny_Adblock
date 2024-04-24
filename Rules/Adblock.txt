@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 9wY2LUYq4BGiias4zvQSzw
+! Checksum: 0Bk2X4kr2uT0ROZf1ZRaTg
 ! Title: Aloazny Mobile fiter
-! Version: 20240424003318
+! Version: 20240424100646
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-04-24 00:33:18
-! Total Count: 75506
-! Blocked Filters: 75506
+! Last modified: 2024-04-24 10:06:46
+! Total Count: 75520
+! Blocked Filters: 75520
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -2396,6 +2396,8 @@
 ||88lm09.com^
 ||88lm10.com^
 ||88lm11.com^
+||88lm12.com^
+||88lm13.com^
 ||88p2p.com^$popup
 ||88ys.cc/js/abcd.js
 ||8961.jianbihua.com^
@@ -17511,6 +17513,7 @@
 ||oyksoft.com/show/b.
 ||oyotqp.icu^
 ||oyugspe.cn^
+||oyuwkbk.top^
 ||oyxp.xyz^
 ||oyysbc.xyz^
 ||oz.bjornesaviour.com^
@@ -19081,6 +19084,7 @@
 ||qvcyeknp.xyz^
 ||qvftejz.cn^
 ||qvnbjjd.xyz^
+||qvonje.cn^
 ||qvrdlvz.cn^
 ||qvrfddm.cn^
 ||qvxvvjom.com^
@@ -21099,6 +21103,7 @@
 ||sofunlib.com/assets/publish
 ||soggyzoo.com^$third-party
 ||sogo.uc.continuefaf.top^
+||sogoks.xyz^
 ||sogou.com/amdjs/release/common/act_all_ad.
 ||sogou.com/ask?id=
 ||sogou.com/athena/
@@ -25047,6 +25052,7 @@
 ||xflsj.com^
 ||xflybplr.xyz^
 ||xfqrsjq.cn^
+||xfrahb.xyz^
 ||xfree.com/api/banner/
 ||xfuckonline.com/eureka^
 ||xfuckonline.com/js/show_adv.js
@@ -26466,6 +26472,7 @@
 ||yvnxetmq.xyz^
 ||yvsnhc.com^
 ||yvudqzoa.xyz^
+||yvwuesh.icu^
 ||yw800.com.cn^
 ||ywg.jobui.com^
 ||ywhws.cn^
@@ -32917,6 +32924,10 @@ cbmay.com##.widget
 cbndata.com##.Toastify
 cboard.cprogramming.com##.postrow > div[style*="300px; height:"]
 cbom.atozmath.com#?#.ContentBorder > table > tbody > tr:has(> td > div[data-ad-slot])
+cbs12.com##div[class^="index-module_adAfterContent"]
+cbs12.com##div[id^="js-Taboola-Container"]
+cbs12.com##div[id^="js-openWebConversation-Container"]
+cbs12.com,wjla.com,wpde.com##[class^="NewAd-"]
 cbs6albany.com##div[class^="NewAd-"]
 cbs6albany.com##div[class^="index-module_openwebAd_"]
 cbs6albany.com#?#div[style*="display"] > div[style*="text-align:"]:has(> div[style*="position"] > div[style*="display"]:contains(/^ADVERTISEMENT$/))
@@ -34695,6 +34706,7 @@ dailymail.co.uk##div[data-mol-fe-xpmodule-commerce-articles]
 dailymail.co.uk##div[id^="sky-"][id$="container"]
 dailymail.co.uk##li[data-is-sponsored="true"]
 dailymail.co.uk,downloadcrew.com,eurogamer.net,eurogamer.pl,followfollow.com,rockpapershotgun.com##.mpu
+dailymemphian.com###offer-wrapper
 dailymotion.com##+js(no-setTimeout-if, adBlockerDetection)
 dailymotion.com##.dmp_VideoView-ad-slot
 dailymotion.com##div[class^="AdBanner"]
@@ -38992,6 +39004,7 @@ gamingbible.com,ladbible.com,sportbible.com,tyla.com,unilad.com#$#body > div[id]
 gamingbible.com,ladbible.com,sportbible.com,unilad.com,tyla.com##+js(adjust-setTimeout, e(), 3500, 0.001)
 gamingbible.com,ladbible.com,sportbible.com,unilad.com,tyla.com##+js(set-constant, pbjs.rp, noopFunc)
 gamingbible.com,ladbible.com,sportbible.com,unilad.com,tyla.com##+js(set-constant, pbjs.rp.requestVideoBids, noopFunc)
+gamingbible.com,sportbible.com,unilad.com,ladbible.com##div[class^="article-observer_bottomAd"]
 gamingbolt.com##.small-ad
 gamingintelligence.com##div[class$="adsanity-"]
 gamingintelligence.com#?#.col-lg-3 > .main > .mb-3 > div[class$="adsanity-"]:upward(2)
@@ -52388,12 +52401,14 @@ reuters.com###rcs-articleContent > .column1 > .module-header:nth-last-child(2)
 reuters.com###rcs-articleContent > .column1 > .module-header:nth-last-child(2) + .module
 reuters.com###rcs-articleContent > .column1 > section + section:nth-last-child(3) > .group > .column2.col-5
 reuters.com##+js(no-setTimeout-if, .call(null), 10)
+reuters.com##+js(remove-attr, style, div[class*="site-header__with-mobile-leaderboard"])
 reuters.com##div[class*="workspace-article-banner__banner-container__"]
 reuters.com##div[class^="ArticlePage-mobile-mpu-"]
 reuters.com##div[class^="StickyContainer-container-"][style^="height: 1200px;"][style*="margin-bottom: 120px;"]
 reuters.com##div[class^="article-body_"] > div[class*="cnx-player__in-article_"]
 reuters.com##div[class^="homepage-sponsor-logo__"]
 reuters.com##div[class^="leaderboard"]
+reuters.com##div[data-variant-id="workspace-banner"]
 reuters.com##div[style="flex-basis: 1200px; margin-bottom: 120px;"]
 reuters.com#$#.site-header__show-nav__3po5A .site-header__inner-sticky__1fm3o { top: 0px !important; }
 reuters.com#?##content > div[class]:has(> div[style="display: none;"])
@@ -54571,7 +54586,6 @@ sport365.live##body > div[id^="slice-"]
 sport7.pw##.helldiv
 sportarena.az##tbody > tr > td[align="center"][valign="middle"][height="100"]
 sportbible.com,unilad.com,ladbible.com##div[class^="advert-placeholder"]
-sportbible.com,unilad.com,ladbible.com##div[class^="article-observer_bottomAd"]
 sportbible.com,unilad.com,ladbible.com##div[class^="floating-video-player_container"]:has(> div#primisPlayer)
 sportbible.com,unilad.com,ladbible.com##div[class^="sticky-top-ad_container"]
 sportcoaching.co.nz##.mkd-sidebar div[class^="angwp_"]
@@ -57021,6 +57035,7 @@ truyenaudiocv.net##+js(set-constant, adblockDetect, noopFunc)
 truyenaudiocv.net#$#.pub_300x250.pub_300x250m.pub_728x90.text-ad { display: block !important; }
 truyenfull.vn###shoppe_ads_fly
 truyengihotnhat.com,rule34hentai.net,zinchanmanga.com,streamhub.to,javstream.com,sxyprn.net,manga1001.se,mangarow.org,tokyomotion.com,mrjav.net,yurineko.net,azel.info,clip-sex.biz,justpicsplease.com,lucagrassetti.com,mihand.ir,nudecelebsimages.com,overwatchporn.xxx,pornium.net,watchmygf.biz,xnxxw.net,xxxymovies.com,nozomi.la,mangaraw.to,klmanga.su,nhentai.to,masahub.net,vidsgator.com,nudostar.com,slutmesh.net,movieffm.net##+js(abort-on-property-write, __aaZoneid)
+truyenhentaivn.*##.ads_popup
 truyenqq.com##a[target="_blank"][href*="http"]:not([href*="truyenqq.com/"]) > img
 truyenqq.net###left-banner
 truyenqqhot.com##div[id^="ad_"]:not([id*="_poster"])
@@ -59230,7 +59245,6 @@ wizzair.com##+js(set-session-storage-item, bookingSearchAlreadyOpened, true)
 wjla.com##div[class^="ddb_300x250_"][class*="largeRectangleAd_container_"]
 wjla.com,news3lv.com,kmph.com,kfoxtv.com,fox17.com,foxbaltimore.com,foxchattanooga.com,foxillinois.com,foxnebraska.com,foxreno.com,foxrochester.com,foxsanantonio.com,nbcmontana.com,okcfox.com,siouxlandnews.com,wach.com,wchstv.com,wcyb.com,wfxl.com,wgxa.tv,wlos.com,wsbt.com,cbs2iowa.com,fox4beaumont.com,mycbs4.com,mynews4.com,news4sanantonio.com,abc6onyourside.com,wtov9.com,turnto10.com,fox11online.com,mynbc15.com,nbc16.com,fox23maine.com,nbc24.com,fox28media.com,myfox28columbus.com,fox42kptm.com,fox45now.com,fox56.com##div[data-testid="story-body"] > div[style*="text-align: center;"][style*="margin: 26px 0;"]
 wjla.com,wpde.com###js-SocialWidget-Container
-wjla.com,wpde.com##[class^="NewAd-"]
 wjla.com,wpde.com##div[class^="index-module_adBeforeContent_"]
 wjla.com,wpde.com##div[class^="index-module_taboola_"]
 wjunction.com##.message--post + div[style="margin: 30px; text-align: center;"] > a[href][target] > img
