@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: GMf3kFbrnajpYJRH9o15RQ
+! Checksum: s7XSyMwSIH0WIBKxWOv5JA
 ! Title: Aloazny Mobile fiter
-! Version: 20240424103819
+! Version: 20240424163135
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-04-24 10:38:19
-! Total Count: 75520
-! Blocked Filters: 75520
+! Last modified: 2024-04-24 16:31:35
+! Total Count: 75523
+! Blocked Filters: 75523
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -21959,6 +21959,7 @@
 ||szpwf.cn^
 ||szpwg.cn^
 ||szpwh.cn^
+||szpxp.cn^
 ||szpzk.cn^
 ||szpzm.cn^
 ||szxljdsb.com/tl
@@ -26119,6 +26120,8 @@
 ||yhbheroq.xyz^
 ||yhbsk.cn^
 ||yhdd1.com^$third-party
+||yhdemu368.shop^
+||yhderd69.shop^
 ||yhdm*.*/js/wap2-jm-ms.js$script
 ||yhdm*.com/js/wap2-jm-ms.js$script
 ||yhdm.tv/bar/yfyh.js
@@ -34544,8 +34547,6 @@ curiouscat.me,douyu.com,gamermatters.com,gematsu.com,globalpublishers.co.tz,hyph
 currencio.co##.adb_wrapper
 currencyconverterx.com##.block-after-head
 currencyconverterx.com##.block-inside-blocks
-currentcolorq2dv.*,somehowrockyng.*,leadmorning4ivn.*,strangernervousql.*,blewdiffera3j2.*,differenceprimitive85p.*,masterenjoyao.*,monkeynecktj4w.*,mindmotion93y8.*,homebasis4d.*,linelocatemfsn.*,superbarca77.*,superargo77.*,superleo77.*,superlee77.*,superdom77.*,superabbit33.*,live-streamfootball.*,superabbit77.*,rbtv77.*##.clzz-reseller
-currentcolorq2dv.*,somehowrockyng.*,leadmorning4ivn.*,strangernervousql.*,blewdiffera3j2.*,differenceprimitive85p.*,masterenjoyao.*,monkeynecktj4w.*,mindmotion93y8.*,homebasis4d.*,linelocatemfsn.*,superbarca77.*,superargo77.*,superleo77.*,superlee77.*,superdom77.*,superabbit33.*,live-streamfootball.*,superabbit77.*,rbtv77.*##.player-wrapper > .d-l
 cursors-4u.com##div[style^="width: 468px;"]
 cursors-4u.com##table[width="808"]
 custompc.com###nn_astro_wrapper
@@ -35103,6 +35104,8 @@ detail.chiebukuro.yahoo.co.jp##aside[class^="Detail_chie-Pages__AdNM_"]
 detail.chiebukuro.yahoo.co.jp##aside[style="height: 100px; padding: 2px 0;"]
 detail.zol.com.cn##.link_jd
 detaly.co.il##.content_dtly_ads
+determinemousecshe.*,currentcolorq2dv.*,somehowrockyng.*,leadmorning4ivn.*,strangernervousql.*,blewdiffera3j2.*,differenceprimitive85p.*,masterenjoyao.*,monkeynecktj4w.*,mindmotion93y8.*,homebasis4d.*,linelocatemfsn.*,superbarca77.*,superargo77.*,superleo77.*,superlee77.*,superdom77.*,superabbit33.*,live-streamfootball.*,superabbit77.*,rbtv77.*##.clzz-reseller
+determinemousecshe.*,currentcolorq2dv.*,somehowrockyng.*,leadmorning4ivn.*,strangernervousql.*,blewdiffera3j2.*,differenceprimitive85p.*,masterenjoyao.*,monkeynecktj4w.*,mindmotion93y8.*,homebasis4d.*,linelocatemfsn.*,superbarca77.*,superargo77.*,superleo77.*,superlee77.*,superdom77.*,superabbit33.*,live-streamfootball.*,superabbit77.*,rbtv77.*##.player-wrapper > .d-l
 detik.com##.megabillboard
 detik.com#$#.containerBB { margin-top: 0!important; }
 detroitbadboys.com##.dk-nav-bug
@@ -70285,7 +70288,7 @@ zle.com$script
 @@/js/advert.js$~third-party
 @@/js/advertisement.$domain=blogs.sapib.ca
 @@/js/fuckadb.js$~third-party,domain=megaurl.in
-@@/js/google-adsense.js$domain=rbtv77.*|live-streamfootball.*|superabbit77.*|superabbit33.*|superdom77.*|superlee77.*|superleo77.*|superargo77.*|superbarca77.*|linelocatemfsn.*|homebasis4d.*|mindmotion93y8.*|monkeynecktj4w.*|masterenjoyao.*|differenceprimitive85p.*|blewdiffera3j2.*|strangernervousql.*|leadmorning4ivn.*|somehowrockyng.*|currentcolorq2dv.*
+@@/js/google*.js$domain=rbtv77.*|live-streamfootball.*|superabbit77.*|superabbit33.*|superdom77.*|superlee77.*|superleo77.*|superargo77.*|superbarca77.*|linelocatemfsn.*|homebasis4d.*|mindmotion93y8.*|monkeynecktj4w.*|masterenjoyao.*|differenceprimitive85p.*|blewdiffera3j2.*|strangernervousql.*|leadmorning4ivn.*|somehowrockyng.*|currentcolorq2dv.*|determinemousecshe.*
 @@/js/prebid-$domain=huruwo.top
 @@/js/prebid-ads.js$~third-party,domain=vippaste.xyz|sharetext.me|getpaste.link|pastebr.xyz
 @@/js/prebid/*/others.$script,domain=gentside.com|gentside.de|gentside.co.uk|gentside.com.br|esgentside.com|maxisciences.com|ohmymag.com|ohmymag.de|ohmymag.com.br|ohmirevista.com

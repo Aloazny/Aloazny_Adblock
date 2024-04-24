@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: hD36uGLTWBrVEziVrlvovw
+! Checksum: sSJOfI3aqvUjPSRpwZS+iw
 ! Title: Aloazny Chinese fiter
-! Version: 20240424103652
+! Version: 20240424163010
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-04-24 10:36:52
-! Total Count: 38583
-! Blocked Filters: 38583
+! Last modified: 2024-04-24 16:30:10
+! Total Count: 38587
+! Blocked Filters: 38587
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -11869,6 +11869,7 @@
 ||same*.stockstar.com^
 ||same.chinadaily.com.cn^
 ||same.eastmoney.com^
+||samfw.com/js/script.js
 ||samsung-com.112.2o7.net^
 ||samsungads.com^
 ||sange20221226.xyz^
@@ -12757,6 +12758,7 @@
 ||szpwf.cn^
 ||szpwg.cn^
 ||szpwh.cn^
+||szpxp.cn^
 ||szpzk.cn^
 ||szpzm.cn^
 ||szxljdsb.com/tl
@@ -15158,6 +15160,8 @@
 ||yhbheroq.xyz^
 ||yhbsk.cn^
 ||yhdd1.com^$third-party
+||yhdemu368.shop^
+||yhderd69.shop^
 ||yhdm*.*/js/wap2-jm-ms.js$script
 ||yhdm*.com/js/wap2-jm-ms.js$script
 ||yhdm.tv/bar/yfyh.js
