@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: aYtz/j6O7yuNe2OEcX3rPg
+! Checksum: M1k2lIZehHbO8F6KamVbOQ
 ! Title: Aloazny attach fiter
-! Version: 20240425163019
+! Version: 20240426003053
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-04-25 16:30:19
-! Total Count: 13415
-! Blocked Filters: 13415
+! Last modified: 2024-04-26 00:30:53
+! Total Count: 13431
+! Blocked Filters: 13431
 ! Description: 合并混合规则的补充规则，轻量规则，可作为补充规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -1796,6 +1796,7 @@
 ||ghghgf.xuexiwa.com^
 ||ghland.site^
 ||ghsnhjk.cn^
+||gibzz.xyz^
 ||givevacation.com^$third-party
 ||gjh9v.tianshilv.cn^
 ||gjipd.xyz^
@@ -2153,6 +2154,7 @@
 ||hvdath.xyz^
 ||hwfoct.icu^
 ||hwivedn.icu^
+||hwjyingshi.xyz^
 ||hwnod.xyz^
 ||hxdqsvw.cn^
 ||hxdwsfg.cn^
@@ -3546,6 +3548,7 @@
 ||qasqs.com^
 ||qawxpzm.cn^
 ||qaxkwxpf.cn^
+||qbdjfce.com^
 ||qbhmz3.com^
 ||qbtd.xyz^
 ||qcb2xeg.icu^
@@ -6167,6 +6170,7 @@ javtiful.com##.contents > div.mb-4:has(> section ins.adsbyexoclick)
 javtiful.com##.row > div.col:has(> div.card > a[href^="http://bit.ly/"])
 javtiful.com##.theeffect > div.d-flex:has(> section ins.adsbyexoclick)
 jb59.net##.test3
+jieav.com###jieav_a1,#jieav_a2,#jieav_a3,#jieav_a4,#jieav_a5,#jieav_a6,#jieav_b1,#jieav_b2,#jieav_b3,#jieav_b4,#jieav_b4,#jieav_b5,#jieav_b6
 jingyan.baidu.com###wrapper > .exp-container:nth-child(2) > aside.wgt-ad-guess.content-box:nth-child(2)
 jingyan.baidu.com##.ad-card
 jingyan.baidu.com##.asp-self-rander > .asp-wrap
@@ -6369,7 +6373,9 @@ nxnba.com##.bootom-fixed
 objavlenija.respublika.cz##.sweet-alert,.sweet-overlay
 okanime.tv##.jconfirm
 okdyy.com##[style*="width:"][style*="100%"],p[style*="display: block;"]
-omofun.link##.module-adslist + div[id]
+omofuns.link,omofuns.top,omofuns.top,omofuns.live,omofuns.buzz,omofun.link,omofun.top,omofun.live,omofun.buzz##.ads_w + div[id][style]
+omofuns.link,omofuns.top,omofuns.top,omofuns.live,omofuns.buzz,omofun.link,omofun.top,omofun.live,omofun.buzz##.module + div[id][style]
+omofuns.link,omofuns.top,omofuns.top,omofuns.live,omofuns.buzz,omofun.link,omofun.top,omofun.live,omofun.buzz##.module-adslist + div[id]
 oss-cn-hangzhou.aliyuncs.com##A.hm_item[href^='https://tcs-devops.aliyuncs.com/thumbnail/']
 ostroh.info###modal.modal-bg
 outlook.live.com##.N3k7EN5vRGTrONWBPg250
@@ -7358,6 +7364,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .com:8007/*/*?*=$third-party
 .com:8007/cc/*?*=$third-party
 .com:8007/cc/*?is_not=$third-party
+.com:8007/d/*?c=
 .com:8007/sc/*?*=$third-party
 .com:8008/*/*?*=$third-party
 .com:8008/cc/*?*=$third-party
@@ -7654,9 +7661,11 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .xyz:*/cc/*?is_not=$document
 .xyz:*/cc/*?is_not=$third-party
 .xyz:*/cc/*?is_not=$~third-party
+.xyz:*/d/*?t=
 .xyz:*/mnrt/*.json
 .xyz:*/waga*.html$document
 .xyz:*/waga*.html$~third-party
+.xyz:30009/d/*?t=
 .xyz:80*/sc/*?is_not=$third-party
 /#/home?c=ggcha$document
 /#/home?c=ggcha$~third-party
@@ -8602,6 +8611,11 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 :*/static/lbsite/*/*.js?v=16$third-party
 :*/ty/*-*-*-*.alpha$third-party
 :*/ty/*-*-*-*.blpha$third-party
+://*.*.*:*/cc/$domain=omofuns.link|omofuns.top|omofuns.top|omofuns.live|omofuns.buzz|omofun.link|omofun.top|omofun.live|omofun.buzz
+://*.*.*:*/d/$domain=omofuns.link|omofuns.top|omofuns.top|omofuns.live|omofuns.buzz|omofun.link|omofun.top|omofun.live|omofun.buzz
+://*.*.*:*/sc/$domain=omofuns.link|omofuns.top|omofuns.top|omofuns.live|omofuns.buzz|omofun.link|omofun.top|omofun.live|omofun.buzz
+://*.*.*:*/vh*/$domain=omofuns.link|omofuns.top|omofuns.top|omofuns.live|omofuns.buzz|omofun.link|omofun.top|omofun.live|omofun.buzz
+://*.*.*:*/vj*/$domain=omofuns.link|omofuns.top|omofuns.top|omofuns.live|omofuns.buzz|omofun.link|omofun.top|omofun.live|omofun.buzz
 ://*.*.com/asdzx.html$document
 ://*.*.com/asdzx.html$~third-party
 ://*.*.xyz/*/*-*-*-*/$third-party
@@ -13389,12 +13403,14 @@ zle.com$script
 @@||www.googletagmanager.com^$domain=myqqjd.com
 @@||www.ifon.ca^$generichide
 @@||yacine-app.com^$generichide
+@@||youporn.com/media/$domain=you-porn.com|youporngay.com|youpornru.com|youporn.*|youporn.com|youporngay.com|you-porn.com|youpornru.com|youporn.fyi
 @@||youtube.com/ads/preferences/$popup
 @@||youtube.com/embed/$domain=masterani.me
 @@||youtube.com/get_video_info*&el=editpage
 @@||youtube.com/get_video_info?$xmlhttprequest,domain=music.youtube.com|tv.youtube.com
 @@||youtube.com/get_video_info?*embedded$~third-party
 @@||youtube.com/my_video_ad$document
+@@||ypncdn.com^$domain=you-porn.com|youporngay.com|youpornru.com|youporn.*|youporn.com|youporngay.com|you-porn.com|youpornru.com|youporn.fyi
 @@||ytimg.com^*_banner$domain=youtube.com
 @@||zagaz.com/img/blogads.css
 aca.best#@#body > noscript + #app

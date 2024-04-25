@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: B2WixMBpkZ9mmocE9mTh+A
+! Checksum: nN4AuR1a4VDhtVcP1msC1A
 ! Title: Aloazny Chinese fiter
-! Version: 20240425163034
+! Version: 20240426003109
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-04-25 16:30:34
-! Total Count: 38604
-! Blocked Filters: 38604
+! Last modified: 2024-04-26 00:31:09
+! Total Count: 38631
+! Blocked Filters: 38631
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -1667,6 +1667,7 @@
 ||ad.juksy.com^
 ||ad.leadboltapps.net^
 ||ad.leap.app^
+||ad.line-scdn.net^
 ||ad.mail.ru^
 ||ad.mazc.org^
 ||ad.mediamixer.co.kr^
@@ -3597,6 +3598,7 @@
 ||caoav.net/img/*.js
 ||caohv.com/mm/
 ||caoimgs.com/images/*.gif
+||caomaotongji.com^
 ||caomeixz7.xyz^
 ||caonme.xyz^
 ||caopanshou.top^
@@ -5615,6 +5617,7 @@
 ||feiln.xyz^
 ||feizl.com/images/smdd/
 ||fekpcd.icu^
+||fendeyrziz.top^
 ||fenem.top^
 ||fengyukun03.cn^
 ||fenxi.com^$third-party
@@ -6104,6 +6107,7 @@
 ||ghreha.top^
 ||ghsnhjk.cn^
 ||giaoji.com/Runtime/Js/
+||gibzz.xyz^
 ||gicjtss.cn^
 ||giga.de/static-local/dist/theme/assets/js/module/giga-*.mobile-stopper.js
 ||gimy.*/images/eee*.png
@@ -7051,6 +7055,7 @@
 ||hwfoct.icu^
 ||hwhacum.cn^
 ||hwivedn.icu^
+||hwjyingshi.xyz^
 ||hwnod.xyz^
 ||hwpvbdj.xyz^
 ||hwuogmusthxfpk.xyz^
@@ -8011,6 +8016,7 @@
 ||js.oh100.com^
 ||js.ruiwen.com^
 ||js.shangxueba.com^
+||js.shunqi.com^
 ||js.spreton.com^
 ||js.tlt.cn/js/
 ||js.ubaike.cn^
@@ -9841,6 +9847,7 @@
 ||mwrf.net/images/js/*mrf.js
 ||mwrf.net/images/mrf/
 ||mwzbp.iask.com.cn^
+||mx-movie.nan-net.jp/system/s-profile/banner/mx_bottom/
 ||mxaserver.mxplay.com^
 ||mxeq.cn^
 ||mxevdii.cn^
@@ -11103,6 +11110,7 @@
 ||qaxkwxpf.cn^
 ||qayqa.com:6868/jquery/
 ||qbcmws.xyz^
+||qbdjfce.com^
 ||qbhjokk.xyz^
 ||qbhmz3.com^
 ||qbhzghb.xyz^
@@ -17328,6 +17336,9 @@ acwifi.net##.article-content > div[style="float: none; margin:10px 0 10px 0; tex
 acwifi.net##.widget_ssr
 acwifi.net,zhain8.com##.ssr
 ad-contents.jp##.mobile-big-banner
+adacomi.com##a[href][target] > .bbs_box
+adacomi.com##body > a[href] ~ .bbs_box
+adacomi.com##body > div[style*="min-height:"][align="center"]
 adacomi.com##div[style="width:300px;"]
 adguard.info,adguard.com,adguard.app##.hello_from_adguard_chinese
 adguard.info,adguard.com,adguard.app##.hello_from_adguard_mobile
@@ -20196,6 +20207,7 @@ esnai.com##table[width="960"] > tbody > tr > td[height="90"]
 esports.net##.parallax-container
 esquire.com#?#section > div[class*="css"]:has(> div.ad-container)
 estadao.com.br##.area-flying-carpet-wrapper
+estadao.com.br##.house-ads-container
 estadao.com.br##.jc-sticky-ad-wrapper
 estadao.com.br##.pAd-banner
 estadao.com.br##.pAd-mold
@@ -20290,6 +20302,7 @@ familydoctor.com.cn##.global-top-links-wrap
 famitsu.com##.banner-header-video-container
 famitsu.com##.banner-window-jack-wrapper
 famitsu.com##div[class^="BasicLayout_movieBanner_"]
+famitsu.com##div[class^="SpecialBanner_container_"]
 fanat1k.ru##iframe[width="100%"][height="90px"]
 fanbyte.com###fanbyte_sticky-unit
 fandom.com###article-featured-video-container
@@ -20537,6 +20550,7 @@ fortunechina.com##.pinglunmask
 fortunechina.com##.pinglunwindow
 forum.donanimhaber.com###primeContainerMobil
 forum.donanimhaber.com##+js(set-session-storage-item, pageCount, $remove$)
+forum.donanimhaber.com##article > div[style]:has(> div[style] > div.empower-ad)
 forum.donanimhaber.com##div[style^="width: 100%;"][style*="height: auto;"]
 forum.finanzaonline.com###leoskin-content
 forum.flprog.ru###phpbb_announcement
@@ -22510,6 +22524,7 @@ jiaodong.net###leftBanner
 jiaodong.net###rightBanner
 jiayongluyou.com#?#.widget_html_myimg:has(> ins.adsbygoogle)
 jiayongluyou.com,tmioe.com##.widget_image_myimg
+jieav.com###jieav_a1,#jieav_a2,#jieav_a3,#jieav_a4,#jieav_a5,#jieav_a6,#jieav_b1,#jieav_b2,#jieav_b3,#jieav_b4,#jieav_b4,#jieav_b5,#jieav_b6
 jieav.com##ul[id^="jieav_"]
 jieav.com#$##comment { margin-bottom: 0 !important; }
 jieav.com,miliav.com##.b300
@@ -24468,9 +24483,6 @@ mvcat.com###ad-jd
 mvcat.com##.jsalert
 mwed.jp##.displayable[data-controller="bottom-fixed-advertisement"]
 mwrf.net##.uc1_focus_pics
-mx3a.nan-net.jp##+js(remove-node-text, script, adblock)
-mx3a.nan-net.jp##div[class^="adblock"]
-mx3a.nan-net.jp##div[id^="adblock"]
 mxdm9.com,ntdm9.com,mxdm6.com,ntdm6.com##[style$='background-size: 400px 127px !important;'],[style$='bottom: 127px;']
 my-best.com##.css-1dcxir4
 my-best.com##.l-wrapper > div > a[href^="https://hb.afl.rakuten.co.jp/ichiba"][target="_blank"]
@@ -24561,17 +24573,19 @@ naifei.im##div[class^="wp-none"]
 naifei.im##div[style="position: fixed;bottom: -10px;right:0;z-index:999;width:250px"]
 nakiny.com,gosunkugi.com###mobile_text-2
 nakkheeran.in##.post-block .auto-responsive-ad
-nan-net.com###adblock_guide_mask
 nan-net.com###bottomad2
 nan-net.com###middleadv-nex
-nan-net.com##.adblock_guide_box
 nan-net.com##.bbs_box[style="height:50px;"]
 nan-net.com##a[href="https://search.nan-net.com/bbslist.php"] + div.bbs_box
+nan-net.com##body > a + div.bbs_box:has(> script)
 nan-net.com##body > div[style="background-color:#333;margin-bottom:-20px;"]
 nan-net.com##div[style*="height:250px;"]
 nan-net.com##div[style^="background-color:#f5f5f5; margin-top:0px"] > div[style$="height:40px;"]
 nan-net.com##iframe[id^="bottomad"]
 nan-net.com#?#.bbs_box > div > script[src^="https://img.ad-nex.com"]:upward(2)
+nan-net.jp,nan-net.com###adblock_guide_mask
+nan-net.jp,nan-net.com##+js(remove-node-text, script, adblock)
+nan-net.jp,nan-net.com##.adblock_guide_box
 nanfengyl.com##.index-top-ad1
 nanfengyl.com##.top-ad-txt
 nanrenwo.net##div[id^="content"]
@@ -25048,7 +25062,9 @@ olx.com.br#?##ad-list > li:has(> div[class] > div:contains(PUBLICIDADE))
 olyrix.com##.mobile-interstitial
 olyrix.com##.pub
 omezame.biz,fuzoku-move.net##.sp_ad_box
-omofun.link##.module-adslist + div[id]
+omofuns.link,omofuns.top,omofuns.top,omofuns.live,omofuns.buzz,omofun.link,omofun.top,omofun.live,omofun.buzz##.ads_w + div[id][style]
+omofuns.link,omofuns.top,omofuns.top,omofuns.live,omofuns.buzz,omofun.link,omofun.top,omofun.live,omofun.buzz##.module + div[id][style]
+omofuns.link,omofuns.top,omofuns.top,omofuns.live,omofuns.buzz,omofun.link,omofun.top,omofun.live,omofun.buzz##.module-adslist + div[id]
 on3.com##.adhesion
 onagazou.info,mrank.tv,xvideos-dl.com,erodera.net,spankbang-dl.com,fig-memo-r18.site###overlay_area
 onebox.mydown.com##.fcAgain
@@ -28299,6 +28315,7 @@ xiaozhongjishu.com##.apd > a[target="_blank"] > img
 xiashanet.com###top_content
 xiashuyun.com##[id^="downapp"]
 xiashuyun.com##div#navdown
+xiazai.zol.com.cn##img[alt^="AiPPT"]
 xiazaizhijia.com###gg_2
 xiazaizhijia.com###public_right_mid_ad
 xiazaizhijia.com##.down_list
@@ -29274,6 +29291,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .com:8007/*/*?*=$third-party
 .com:8007/cc/*?*=$third-party
 .com:8007/cc/*?is_not=$third-party
+.com:8007/d/*?c=
 .com:8007/sc/*?*=$third-party
 .com:8008/*/*?*=$third-party
 .com:8008/cc/*?*=$third-party
@@ -29660,9 +29678,11 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .xyz:*/cc/*?is_not=$document
 .xyz:*/cc/*?is_not=$third-party
 .xyz:*/cc/*?is_not=$~third-party
+.xyz:*/d/*?t=
 .xyz:*/mnrt/*.json
 .xyz:*/waga*.html$document
 .xyz:*/waga*.html$~third-party
+.xyz:30009/d/*?t=
 .xyz:80*/sc/*?is_not=$third-party
 .xyz:8009/11?x=
 .zone/ads/
@@ -31257,6 +31277,11 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 :*/static/lbsite/*/*.js?v=16$third-party
 :*/ty/*-*-*-*.alpha$third-party
 :*/ty/*-*-*-*.blpha$third-party
+://*.*.*:*/cc/$domain=omofuns.link|omofuns.top|omofuns.top|omofuns.live|omofuns.buzz|omofun.link|omofun.top|omofun.live|omofun.buzz
+://*.*.*:*/d/$domain=omofuns.link|omofuns.top|omofuns.top|omofuns.live|omofuns.buzz|omofun.link|omofun.top|omofun.live|omofun.buzz
+://*.*.*:*/sc/$domain=omofuns.link|omofuns.top|omofuns.top|omofuns.live|omofuns.buzz|omofun.link|omofun.top|omofun.live|omofun.buzz
+://*.*.*:*/vh*/$domain=omofuns.link|omofuns.top|omofuns.top|omofuns.live|omofuns.buzz|omofun.link|omofun.top|omofun.live|omofun.buzz
+://*.*.*:*/vj*/$domain=omofuns.link|omofuns.top|omofuns.top|omofuns.live|omofuns.buzz|omofun.link|omofun.top|omofun.live|omofun.buzz
 ://*.*.com/asdzx.html$document
 ://*.*.com/asdzx.html$~third-party
 ://*.*.xyz/*/*-*-*-*/$third-party
@@ -38318,12 +38343,14 @@ zle.com$script
 @@||youku.com/cms/playlog/get?
 @@||youmaker.com/js/prebid.js$domain=epochtimes.com
 @@||youneed.win^$generichide
+@@||youporn.com/media/$domain=you-porn.com|youporngay.com|youpornru.com|youporn.*|youporn.com|youporngay.com|you-porn.com|youpornru.com|youporn.fyi
 @@||youtube.com/ads/preferences/$popup
 @@||youtube.com/embed/$domain=masterani.me
 @@||youtube.com/get_video_info*&el=editpage
 @@||youtube.com/get_video_info?$xmlhttprequest,domain=music.youtube.com|tv.youtube.com
 @@||youtube.com/get_video_info?*embedded$~third-party
 @@||youtube.com/my_video_ad$document
+@@||ypncdn.com^$domain=you-porn.com|youporngay.com|youpornru.com|youporn.*|youporn.com|youporngay.com|you-porn.com|youpornru.com|youporn.fyi
 @@||ytimg.com^*_banner$domain=youtube.com
 @@||yummy.best^$generichide
 @@||yunduanxin.xyz/static/js/banger.js
