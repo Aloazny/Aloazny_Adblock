@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: hrKihb6aPl/5i7LTwkfhyw
+! Checksum: 8vKgBgLn6AU2svpnWY9QzA
 ! Title: Aloazny Chinese fiter
-! Version: 20240425003129
+! Version: 20240425100556
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-04-25 00:31:29
-! Total Count: 38593
-! Blocked Filters: 38593
+! Last modified: 2024-04-25 10:05:56
+! Total Count: 38600
+! Blocked Filters: 38600
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -5130,6 +5130,7 @@
 ||e9377f.com^$redirect=noop-0.1s.mp3,domain=eastday.com,media
 ||eaaaej.icu^$third-party
 ||eabids.com^
+||eaezoi.xyz^
 ||eaica.xyz^
 ||ealdi.xyz^
 ||eamobile.com/gameasset/direct/draper/*/ads/
@@ -5771,6 +5772,7 @@
 ||fpdisplay.com/templates/default/js/palyflash_
 ||fpdisplay.com/upload/n_ad/
 ||fpjjjh.xyz^
+||fptbdr.xyz^
 ||fptdxkm.com^
 ||fpvdrzx.xyz^
 ||fq67.top^
@@ -9117,6 +9119,7 @@
 ||lysq.com/data/attachment/portal/
 ||lyszsz.cn^
 ||lyua.cn^
+||lyuwkbl.top^
 ||lywdoo.cn^
 ||lywww.com/data/js.php?id=
 ||lywww.com/header_pic.php
@@ -11671,6 +11674,7 @@
 ||rockstargame.su/adb_script$script
 ||rofmjd.xyz^
 ||roio.top^
+||romiyee.icu^
 ||ronbbf.xyz^
 ||rongedui.com^
 ||ronm.top^
@@ -13700,6 +13704,7 @@
 ||uugtv.com/x/app/videoSpread?
 ||uuishsa.com^
 ||uujhveglpo.xyz^
+||uunfybw.cn^
 ||uunrkj.com^$document
 ||uunrkj.com^$~third-party
 ||uuoizbtl.xyz^
@@ -24341,6 +24346,8 @@ motor-talk.de##._3-tNbUATNO0WRlLabLpJ1f
 motor-talk.de##._3UX4iw_RfDDHxnGpW3dbU0
 motor1.com,motor1.uol.com.br,rideapart.com,insideevs.*###container_3rd_party_service
 motor1.com,motor1.uol.com.br,rideapart.com,insideevs.*##.apInarticleSmallRes
+motorauthority.com##.adv-spacer
+motorauthority.com##.adv-spacer-top-wraper
 motortrend.com###content *[class]:not([class=""]):has(> div[class=""] div[id][class]):not(:has(> div[class=""] ~ *))
 motortrend.com##section[data-c="body"] > div[class]:has(.lazyload-placeholder)
 motortrend.com##section[data-c="body"] > div[class]:has(div[data-freestar-placement-name])
