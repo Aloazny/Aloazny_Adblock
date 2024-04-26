@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: nN4AuR1a4VDhtVcP1msC1A
+! Checksum: GzMpfFSy1nECSF2mOTiOxA
 ! Title: Aloazny Chinese fiter
-! Version: 20240426003109
+! Version: 20240426100409
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-04-26 00:31:09
-! Total Count: 38631
-! Blocked Filters: 38631
+! Last modified: 2024-04-26 10:04:09
+! Total Count: 38641
+! Blocked Filters: 38641
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -4331,6 +4331,7 @@
 ||cw9twuas.xyz^
 ||cwandlf.top^
 ||cwc494e.cn^
+||cweriof.top^
 ||cwgshkz.cn^
 ||cwmlm.com^$third-party
 ||cwrxgb.icu^
@@ -5731,6 +5732,7 @@
 ||fmre1.com^
 ||fmssoj.icu^
 ||fmvbyji.cn^
+||fmvzzh.xyz^
 ||fmzifaqi.xyz^
 ||fnbhxv.xyz^
 ||fnfhjka.xyz^
@@ -8243,6 +8245,7 @@
 ||kanwby.com^
 ||kanxiao.net^$third-party
 ||kaolashuwu.com/zb_users/plugin/ZF_tanchuang/
+||kaosts.com^
 ||kaoyan1v1.com/IAA/
 ||kart2ks.icu^
 ||kasdwergv.com^
@@ -8327,6 +8330,7 @@
 ||kggikf.icu^
 ||kghgmn.top^
 ||kgqcse.xyz^
+||khcsvdc.icu^
 ||khgjfm16.com^
 ||khrtac.xiangha.com^
 ||khzyojb.cn^
@@ -8432,6 +8436,7 @@
 ||knlk2md.cn^
 ||knmwrkw.xyz^
 ||knowmore.cc/style/head.js
+||knpkxgfp.xyz^
 ||knuaxfv.cn^
 ||knxvwxe.cn^
 ||ko2v.eiya.net^
@@ -11581,6 +11586,7 @@
 ||resource.baomihua.com^
 ||restartad.com^
 ||restorationbowelsunflower.com^
+||retinaesprent.com^
 ||retrieval-bd.duote.com^
 ||rett.top^
 ||revcontent.com^
@@ -11884,6 +11890,7 @@
 ||same.chinadaily.com.cn^
 ||same.eastmoney.com^
 ||samfw.com/js/script.js
+||samoryinaner.com^
 ||samsung-com.112.2o7.net^
 ||samsungads.com^
 ||sange20221226.xyz^
@@ -15296,6 +15303,7 @@
 ||ym.oaclrst.cn^$third-party
 ||ymcdn.ymtrack6.co/ads_file/
 ||ymcdn.ymtrack6.co/offer_single_files/
+||ymcnsq.xyz^
 ||ymdxl.com^
 ||ymgjc.com^
 ||ymhyw6.lol^
@@ -20501,6 +20509,8 @@ firefoxchina.cn##ul[track-key="adv_links"]
 firefoxchina.cn,hao123.com,muzhi.baidu.com##.bottom-banner
 firefoxchina.cn,mephimnhat.com##.ff-banner
 firefoxchina.cn,taoyitu.com##.float-banner
+firstpost.com##.mblad
+firstpost.com##.stkadbtm
 fishki.net###fixed-mobile
 fishki.net##.mobile-float-nav.visible-xs.visible
 fishpi.cn##a[href*="guangdianhong.com"]
