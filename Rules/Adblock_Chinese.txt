@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: mRQSBGmkbmi3hre00jG5fQ
+! Checksum: Sl+xRdOyXd8iEIC6db+ugQ
 ! Title: Aloazny Chinese fiter
-! Version: 20240427100424
+! Version: 20240427162713
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-04-27 10:04:24
-! Total Count: 38653
-! Blocked Filters: 38653
+! Last modified: 2024-04-27 16:27:13
+! Total Count: 38659
+! Blocked Filters: 38659
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -11133,6 +11133,7 @@
 ||qbtd.xyz^
 ||qc1.cheshipin.com^
 ||qcb2xeg.icu^
+||qcepqj.icu^
 ||qchannel03.cn$third-party
 ||qchannel03.cn^
 ||qcmm01.com^
@@ -25852,6 +25853,10 @@ qunar.com##.flight_ad
 qunar.com##.list_promotion_bar
 quoka.de#$#.headroom--banner-top { top: 0 !important; }
 quora.com#$#body.q-platform--mobile { position: static !important; }
+quotes.sina.cn##.app-footer-sina
+quotes.sina.cn##.js-app-header
+quotes.sina.cn##[class*="callup"]
+quotes.sina.cn##[class*="wb-btn-wrap"]
 quotidiano.net##+js(set-local-storage-item, pwa_show, true)
 qwerwrrt.one,sehuatang.org##div[class^="show-text"]
 qxfun.com###beautiful-things
@@ -35757,6 +35762,7 @@ zle.com$script
 ##a[href^="https://xlivesex.com/"]
 ##a[href^="https://xxuudxdu.live?"]
 ##a[href^="https://ycmw647.com"][target="_blank"]
+##a[href^="intent://"]
 ##a[href^="javascript:GoDb"]
 ##a[href^="javascript:gl012"]
 ##a[href^="javascript:gl012"] + img

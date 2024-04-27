@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: BjDsshGO1dSEtuS0Aw1JLA
+! Checksum: Qpkt4BcuILgzg3nrPLUTFQ
 ! Title: Aloazny attach fiter
-! Version: 20240427100409
+! Version: 20240427162657
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-04-27 10:04:09
-! Total Count: 13432
-! Blocked Filters: 13432
+! Last modified: 2024-04-27 16:26:57
+! Total Count: 13437
+! Blocked Filters: 13437
 ! Description: 合并混合规则的补充规则，轻量规则，可作为补充规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -6482,6 +6482,10 @@ qinav.com##div[id^="qinav_b"]
 qq.com##.VideoArticleBottomAdContainer,.ssp.nospl[data-boss-once='true'],DIV[data-boss-expo*='ad&s_or'],DIV[id^='App_WAP_share_page_']
 qq.com##A[dt-eid^='em_item_ad']
 qq.com##[id^='App_WAP_share_page']
+quotes.sina.cn##.app-footer-sina
+quotes.sina.cn##.js-app-header
+quotes.sina.cn##[class*="callup"]
+quotes.sina.cn##[class*="wb-btn-wrap"]
 radio.yandex.by,radio.yandex.kz,radio.yandex.ru##.notify
 radiox.com##.notifyjs-corner
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.PostsList > div article:has(> .Post__header-wrapper .PostHeader__post-descriptor-line-overflow > span > .PostHeader__promoted-post-descriptor)
@@ -12139,6 +12143,7 @@ zle.com$script
 ##a[href^="https://xlivesex.com/"]
 ##a[href^="https://xxuudxdu.live?"]
 ##a[href^="https://ycmw647.com"][target="_blank"]
+##a[href^="intent://"]
 ##a[href^="javascript:linkto"][href*="_blank"] > img
 ##a[id$="ads-link"]
 ##a[id][href*="/c.php?s="][href$="="]
