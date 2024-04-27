@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: Sl+xRdOyXd8iEIC6db+ugQ
+! Checksum: c63MRZEs1mUuVb1W/TPXXw
 ! Title: Aloazny Chinese fiter
-! Version: 20240427162713
+! Version: 20240428002742
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-04-27 16:27:13
-! Total Count: 38659
-! Blocked Filters: 38659
+! Last modified: 2024-04-28 00:27:42
+! Total Count: 38663
+! Blocked Filters: 38663
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -19183,6 +19183,8 @@ cointelegraph.com##.asia-posts-listing-mobile__item_press-releases
 coinwarz.com,makepolo.com,mycar168.com,mysteel.com,pchome.net,rjfcw.cn##div[id^="ad"]
 cojicaji.jp##.dfp-cci-rectangle-wrapper
 colamanga.com##iframe[style*="important"]
+colamanga.com#$#div[class^="layui-layer-"] { display: none !important; }
+colamanga.com,ezneering.com,m.livehindustan.com#$#html { overflow: auto !important; }
 colamanhua.com,colamanga.com##[class$="i"][style*="bottom"],[class$="h"][style*="bottom"],[class$="_b"],[class$="c"][style*="bottom"],embed[src],canvas,*[style*="fixed"][style*="bottom"][style*="display"][style*="block"][style*="vw"]
 colamanhua.com,ddgys.com,ddg66.com,ddg44.com,ddg33.com,dadagui.me,colamanga.com##[class$="i"][style*="bottom"],[class$="h"][style*="bottom"],[class$="_b"],[class$="c"][style*="bottom"]
 collectionofbestporn.com##.banner-mobile-header
@@ -20308,7 +20310,6 @@ eyy5.cn##.wzgg
 ez3c.tw##.ypa-custom2
 ezgif.com###hdr
 ezneering.com#$#.pum-overlay { display: none !important; }
-ezneering.com,m.livehindustan.com#$#html { overflow: auto !important; }
 ezprice.com.tw##.col-md-3
 ezvivi.com###table1[width="336"]
 f2dsex1.com##.ad-recommend
@@ -28774,6 +28775,8 @@ zhaosw.com##div.recommend
 zhaotianbao1.cn/*/ywy*.apk$document
 zhaotianbao1.cn/*/ywy*.apk$~third-party
 zhazhijiav.com##a[class^="propa_bottom"],img[style="width:100%;height:auto;margin-bottom:2px;max-height:100px"],img[style="width:100%;height:auto;margin-bottom:2px;"]
+zhcw.com##.ycxdZw
+zhcw.com##.yzjggw
 zhenbuka.com##+js(no-setTimeout-if, ad_ids)
 zhenbuka3.com,zhenbuka2.com,bukaivip.com##+js(adjust-setTimeout, CloseAd, , 0.02)
 zhibo8.cc##.ad_box_250
@@ -37574,6 +37577,7 @@ zle.com$script
 @@||cnzz.com/z_stat.php?id=$domain=fapiao.bangnimang.net
 @@||cocomanga.com/js/ad*/*.js
 @@||cocomanga.com/js/ad_/$image
+@@||colamanga.com^$generichide
 @@||colatour.com.tw/webDM/*/adbanner$~third-party
 @@||colatour.com.tw^$generichide
 @@||content.s8bbs.com/ad/bbs/*.jpg
@@ -38448,7 +38452,7 @@ cnki.net#@#.ad_right
 cnys.tv#@#.player-news > .news-list
 codejie.net,docsmall.com,xbgame.net#@##google-ads
 cokemine.com,eveaz.com,jubuzz.com,skyarea.cn,tianfateng.cn#@#.category-share
-colamanga.com,colamanhua.com#@#.gg_950
+colamanhua.com,colamanga.com#@#.gg_950
 comptoir-info.com#@#.textad
 coolapk.com#@#[class$="ad-box"]
 coolapk.com#@#[id$="ad-box"]
