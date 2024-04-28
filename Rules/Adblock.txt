@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: xn+9YVTmGkczLhLdKWKUNA
+! Checksum: p8HFiJOR6b0NMGCXyiZofA
 ! Title: Aloazny Mobile fiter
-! Version: 20240428102005
+! Version: 20240428162917
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-04-28 10:20:05
-! Total Count: 75661
-! Blocked Filters: 75661
+! Last modified: 2024-04-28 16:29:17
+! Total Count: 75659
+! Blocked Filters: 75659
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -19396,6 +19396,7 @@
 ||reg.jiayuan.com^$document
 ||reg.jiayuan.com^$~third-party
 ||regulatesleet.com^$third-party
+||regwiuv.cn^
 ||rehabilitatereason.com^$third-party
 ||reindeer.iainbroome.com^
 ||reindeer.pablomaceda.com^
@@ -28885,9 +28886,9 @@ $~third-party,xmlhttprequest,script,redirect-rule=noop.txt,domain=zertalious.xyz
 91porny.com,9s102.xyz,jiuse205.com,jiuse390.xyz,jiuse970.com##.container-fluid.p-0[class*="mb-"]
 91porny.com,9s102.xyz,jiuse205.com,jiuse390.xyz,jiuse970.com##.jsv-g1
 91porny.com/api/getPos?jspath=/
-91porny.org,jiuse.io###main > div[id^="rd"]
-91porny.org,jiuse.io##.footer + .block
-91porny.org,jiuse.io#?#.card:-abp-has(>.card-image>a[href^="http"])
+91porny.org,jiuse.io,haijiao35.com###main > div[id^="rd"]
+91porny.org,jiuse.io,haijiao35.com##.footer + .block
+91porny.org,jiuse.io,haijiao35.com#?#.card:-abp-has(>.card-image>a[href^="http"])
 91rb99.com,danude.com,diamondfaucet.space,epicgfs.com,franczyzawhandlu.pl,freeporn8.com,pornachi.com,pornchimp.com,porndr.com,shemalesin.com,sortporn.com,zeenite.com##.top
 91short.com##.player-info
 91short.com##[class$="i"][style*="bottom"],[class$="h"][style*="bottom"],[class$="_b"],[class$="c"][style*="bottom"],embed[src],canvas,*[style*="fixed"][style*="bottom"][style*="display"][style*="block"][style*="vw"],img[src*="cn-chengdu.aliyuncs.com/"],a[href*=".top"] > img[src],div[class^="shortcuts-"][class$="-overlay"],a[href] > h3,[class][style*="131px"]
@@ -60605,9 +60606,6 @@ youtube.com###shorts-inner-container > .ytd-shorts:has(> .ytd-reel-video-rendere
 youtube.com###video-masthead
 youtube.com###watch-buy-urls
 youtube.com###watch7-branded-banner
-youtube.com##+js(json-prune, playerResponse.playerConfig.ssapConfig playerResponse.streamingData.serverAbrStreamingUrl playerConfig.ssapConfig streamingData.serverAbrStreamingUrl)
-youtube.com##+js(json-prune-fetch-response, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, , /playlist\?list=|player\?|watch\?v=/)
-youtube.com##+js(json-prune-xhr-response, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, , /playlist\?list=|player\?|watch\?v=/)
 youtube.com##+js(set-constant, google_ad_status, 1)
 youtube.com##.GoogleActiveViewElement
 youtube.com##.ad-showing > .html5-video-container
