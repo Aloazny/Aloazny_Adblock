@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: tL7QKqZzsKNLZMfv11M/rQ
+! Checksum: DMZgElL/7b966xlk7eLpXQ
 ! Title: Aloazny Chinese fiter
-! Version: 20240429163133
+! Version: 20240430003141
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-04-29 16:31:33
-! Total Count: 38871
-! Blocked Filters: 38871
+! Last modified: 2024-04-30 00:31:41
+! Total Count: 38873
+! Blocked Filters: 38873
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -19455,6 +19455,7 @@ dahe.cn###adsg
 daily.co.jp##div[id^="dssp-native"]
 dailydot.com###bottombar-textarea + div.col-lg-4
 dailymail.co.uk##.mpu
+dailymaverick.co.za##.dm_add_wrapper
 dailynews.sina.com##.TopNav + table
 dailynk.jp,mudainodocument.com#$##im_interstitial_panel { display: none!important; }
 dailynk.jp,mudainodocument.com#$#body { overflow: auto!important; position: static!important; }
@@ -19644,6 +19645,7 @@ dismall.com##.d_money
 disp.cc###ads_page_b
 disp.cc###ads_page_r
 disp.cc##.ads_bot_block
+dissoku.net##img[src*=".dlsite.com/img/nijiyome/sp/bn_"][src*="_300_250_"]
 ditu.so.com##.label-ads
 ditu.so.com##a[class^="index-bcItem"]
 ditu.so.com##a[href^="https://e.so.com/"]
