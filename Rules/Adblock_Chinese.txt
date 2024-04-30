@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: Hi6kzCneF3zZqInOEI8pXw
+! Checksum: tqd7P+OBRtwPJpvMm1ZHsg
 ! Title: Aloazny Chinese fiter
-! Version: 20240430162955
+! Version: 20240501003320
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-04-30 16:29:55
-! Total Count: 40531
-! Blocked Filters: 40531
+! Last modified: 2024-05-01 00:33:20
+! Total Count: 40539
+! Blocked Filters: 40539
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -1643,6 +1643,7 @@
 ||ad.12306.cn/res/*.html
 ||ad.52av.one^
 ||ad.52av.tv^
+||ad.886112.xyz^
 ||ad.a-ads.com^
 ||ad.adondemand.com^
 ||ad.apps.fm^
@@ -2379,7 +2380,7 @@
 ||apfobmfr.cn^
 ||api*.batmobi.net^
 ||api*.batmobil.net^
-||api-*.bidmachine.io^
+||api*.bidmachine.io^
 ||api-a.ganjingworld.com/*/adsserver/get-vast-xml/
 ||api-a.op-mobile.opera.com^
 ||api-ad-adapter.wps.com^
@@ -11730,6 +11731,7 @@
 ||rotondelibya.com^
 ||rottenray.com^$third-party
 ||rou.video/_next/static/chunks/pages/fuli-
+||rou.video/js/exo.js
 ||rou3.xyz^
 ||roughharmony.com^$third-party
 ||rouman5.com/a2/*.gif
@@ -13680,6 +13682,7 @@
 ||uooyoo.com/hz/*str.js
 ||uopsawxst.cyou^
 ||uoqsxdpx.xyz^
+||uosxdmk.cn^
 ||up.qingdaonews.com/up/$object,script
 ||upaiyun.com/system/post_tile/new_web_banners/
 ||upgrade.xl9.xunlei.com^
@@ -22076,6 +22079,7 @@ hmoe.one#?#.widget_text > .inn-sidebar__widget:has(> .poi-panel__header > .poi-p
 hmoe.one,hmoe.moe##a[href^="https://item.taobao.com"]
 hmoe12.com##.poi-container > div > a[href^="https://www.hmoe12.com/wp-admin/admin-ajax.php?action="][target="_blank"]
 hmoeh.com##+js(set-constant, google_tag_data, {})
+hmoeh.com##div[class] > div[class]:has(> a[href] > img[src^="https://ad."])
 hmv.co.jp#?#.contentsBlock.fitLR:has(> div.bannerBlock)
 hnyysc.com###ithhylve
 hnyysc.com###tghysvad
@@ -23272,6 +23276,7 @@ jstv.com##.jadv
 jthysh.com##.box980
 juejin.im##.banner-section
 juejin.im##.feedAdsense
+juken.oricon.co.jp#$#div[style="min-height:100px;"] { min-height: 0 !important; }
 jukenbbs.com##body > div[style] > a[href="https://j-baseball.club/"]
 jukenbbs.com##body > div[style] > a[href="https://j-basketball.club/"]
 jukenbbs.com##div[style="margin-top:10px; margin-bottom:10px; text-align:center;"]
@@ -23681,6 +23686,7 @@ libvio.me##.hidden-log
 libvio.me##.inner-advertise
 libvio.one,www.92kyy.com,www.80yy3.com##a[href*=".kekexc.com/"]
 liderform.com.tr##.advertising-top-container
+life.oricon.co.jp,juken.oricon.co.jp##aside[style="min-height:100px"]
 life.tw##div[style="width:630px;height:700px;"]
 life.tw,m.life.tw###fbFixedAd
 lifehack.org##[id^="lifehack_m_"][id*="TF"]
@@ -27010,6 +27016,8 @@ romzj.com##.sectionThree
 root-nation.com###tdi_3
 root-nation.com###tdi_95
 rottentomatoes.com##.sticky-footer-link
+rou.video##.grid > div[class^="col-span"]:has(> div[class] > div[id^="ts_ad_native"])
+rou.video##.grid > div[class^="col-span"]:has(> div[class] > ins)
 rouman5.com##.fixed-bottom
 rouman5.com##a[href*=".tapdb.net"]
 rouman5.com##a[href*="tyrantdb.com"]
