@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: DMZgElL/7b966xlk7eLpXQ
+! Checksum: ejcqn1/f+XgYRJNsJX0KGQ
 ! Title: Aloazny Chinese fiter
-! Version: 20240430003141
+! Version: 20240430100434
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-04-30 00:31:41
-! Total Count: 38873
-! Blocked Filters: 38873
+! Last modified: 2024-04-30 10:04:34
+! Total Count: 38885
+! Blocked Filters: 38885
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -4452,6 +4452,7 @@
 ||daddq.cn^
 ||dadms.cn^
 ||dadwu.cn^
+||dadxnl.xyz^
 ||dadzz.cn^
 ||daede.cn^
 ||daeis.cn^
@@ -5136,6 +5137,7 @@
 ||e9377f.com^$redirect=noop-0.1s.mp3,domain=eastday.com,media
 ||eaaaej.icu^$third-party
 ||eabids.com^
+||eabvmue.cn^
 ||eaezoi.xyz^
 ||eaica.xyz^
 ||ealdi.xyz^
@@ -7524,6 +7526,7 @@
 ||ipqc5ejfe.icu^
 ||iprefer.com.tw^$third-party
 ||ipryes.top^
+||ipsoazr.icu^
 ||ipssn.haffo*.com^$third-party
 ||ipssss.com^
 ||iptv444.com/ad-
@@ -8579,6 +8582,7 @@
 ||kvyyyde.cn^
 ||kwcmrfb.cn^
 ||kwdgudw.cn^
+||kweriod.top^
 ||kwflvcdn.000dn.com^*.flv
 ||kwivb.cn^
 ||kwo-0115.cc^
@@ -13756,6 +13760,7 @@
 ||uuxfznnf.xyz^
 ||uuzsfpju.xyz^
 ||uuzwvqc.cn^
+||uvklgw.xyz^
 ||uvnjlm.cn^
 ||uvpqrydt.xyz^
 ||uwadakest.cyou^
@@ -15062,6 +15067,7 @@
 ||xxmh645.com^
 ||xxniln.xyz^
 ||xxooos.com/mm/
+||xxsmad1.com^
 ||xxsmcps.com^
 ||xxsywxj.com^
 ||xxtalp.xyz^
@@ -16918,9 +16924,6 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 5184.com##.fixed_bgg
 5184.com##.fixed_bgg2
 5184.com##.gg600
-51cg1.com##[class*="-ads"]
-51cg1.com##[id*="-ads"]
-51cg1.com##img[id][src^="data:"]
 51credit.com###leftLayerDown
 51credit.com##.credit-box
 51credit.com##.main-r-ka
@@ -17198,6 +17201,12 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 91.com,beihaiting.com,guitarchina.com,hao123.com,site.baidu.com,sojson.com##.banner2
 91.com,hao123.com##.cn_banner
 91.com,hao123.com,site.baidu.com###midline
+91cg1.com,51cg1.com,h3tgz4.uysdpthc.com,h3tgz3.woqrzdwcl.org,h3tgz2.ytorthjii.com,h3tgz1.ytorthjii.com,h3tgz4.ytorthjii.com,h3tgz3.ytorthjii.com,h3tgz6.ytorthjii.com,h3tgz5.ytorthjii.com,h3tgz8.ytorthjii.com,h3tgz7.ytorthjii.com##.adspop
+91cg1.com,51cg1.com,h3tgz4.uysdpthc.com,h3tgz3.woqrzdwcl.org,h3tgz2.ytorthjii.com,h3tgz1.ytorthjii.com,h3tgz4.ytorthjii.com,h3tgz3.ytorthjii.com,h3tgz6.ytorthjii.com,h3tgz5.ytorthjii.com,h3tgz8.ytorthjii.com,h3tgz7.ytorthjii.com##.post-card:has(div[style*="data:image/gif"])
+91cg1.com,51cg1.com,h3tgz4.uysdpthc.com,h3tgz3.woqrzdwcl.org,h3tgz2.ytorthjii.com,h3tgz1.ytorthjii.com,h3tgz4.ytorthjii.com,h3tgz3.ytorthjii.com,h3tgz6.ytorthjii.com,h3tgz5.ytorthjii.com,h3tgz8.ytorthjii.com,h3tgz7.ytorthjii.com##[class*="-ads"]
+91cg1.com,51cg1.com,h3tgz4.uysdpthc.com,h3tgz3.woqrzdwcl.org,h3tgz2.ytorthjii.com,h3tgz1.ytorthjii.com,h3tgz4.ytorthjii.com,h3tgz3.ytorthjii.com,h3tgz6.ytorthjii.com,h3tgz5.ytorthjii.com,h3tgz8.ytorthjii.com,h3tgz7.ytorthjii.com##[id*="-ads"]
+91cg1.com,51cg1.com,h3tgz4.uysdpthc.com,h3tgz3.woqrzdwcl.org,h3tgz2.ytorthjii.com,h3tgz1.ytorthjii.com,h3tgz4.ytorthjii.com,h3tgz3.ytorthjii.com,h3tgz6.ytorthjii.com,h3tgz5.ytorthjii.com,h3tgz8.ytorthjii.com,h3tgz7.ytorthjii.com##a[href]:has(> img[src^="data:image/horizontal-banner"])
+91cg1.com,51cg1.com,h3tgz4.uysdpthc.com,h3tgz3.woqrzdwcl.org,h3tgz2.ytorthjii.com,h3tgz1.ytorthjii.com,h3tgz4.ytorthjii.com,h3tgz3.ytorthjii.com,h3tgz6.ytorthjii.com,h3tgz5.ytorthjii.com,h3tgz8.ytorthjii.com,h3tgz7.ytorthjii.com##img[id][src^="data:"]
 91danji.com###bg_ad
 91danji.com##.zlVideTowNav
 91duba.com###leftBar
@@ -17327,6 +17336,7 @@ aajtak.in##.mobileAd
 aaread.club##.footer > div[class][id][style],cloudflare-app,.mybook-game-ad,img[id^="GGADIMG"][src]
 aaread.space##div[style^="position: fixed; bottom:"]
 aaread.space,sex-gen.com##.navi
+aba-net.com##.sp_header_banner
 abc-fonts.me###galepro-core-adb-enabled
 abc-people.com##div[style*="background-color"][style*="position"][style*="z-index"]
 abc.es##.publicidad-portada
@@ -20102,6 +20112,8 @@ elespanol.com###sticky_container
 elespectador.com#?#.swiper-slide:has(> div.Widget-fullHeight > div[id^="Personalizado"])
 elhow.ru###b-info-wrapper
 elle.com,elledecor.com,runnersworld.com#?#div[class*="css-"]:has(> div.ad-container)
+elle.com.hk##.tpc-container
+elle.com.hk##article > div.block-default:has(> div.content-wrapper p > span:contains(Cosmart))
 elog-ch.*##.sp_banner
 elpasotimes.com##div[class^="gnt_xmst"]
 emome.net##.source_advertising
