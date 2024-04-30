@@ -1,0 +1,13 @@
+[Adblock Plus 2.0]
+! Checksum: gm757LoyBAxtWSgRfjIkDg
+! Title: Aloazny拓展规则
+! Version: 20240430123735
+! Last modified: 2024-04-30 12:37:36
+! Total Count: 2
+! Blocked Filters: 2
+! Description: 
+! Homepage: https://github.com/Aloazny/Aloazny_Adblock
+! Github raw link: https://raw.githubusercontent.com/Aloazny/Aloazny_Adblock/main/base/Aolanzy_105_webview.txt
+
+##.post-card:has(div[style*="data:image/gif"])
+##a[href] > img[src^="data:image/horizontal-banner"])
