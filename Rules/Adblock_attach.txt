@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 3WLytiNacplpP1L+T9XqEw
+! Checksum: hhay/+VWzefcS+teLRSu9g
 ! Title: Aloazny attach fiter
-! Version: 20240502100515
+! Version: 20240502162851
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-05-02 10:05:15
-! Total Count: 17856
-! Blocked Filters: 17856
+! Last modified: 2024-05-02 16:28:51
+! Total Count: 17984
+! Blocked Filters: 17984
 ! Description: 合并混合规则的补充规则，轻量规则，可作为补充规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -4508,6 +4508,7 @@
 ||unwieldyplastic.com^$third-party
 ||unypud.cn^
 ||uo12.com^
+||uoosqk.xyz^
 ||uopsawxst.cyou^
 ||upgrade.xl9.xunlei.com^
 ||uphzxdv.cn^
@@ -4653,6 +4654,7 @@
 ||vulrxr.xyz^
 ||vuntbnc.cn^$document
 ||vuntbnc.cn^$~third-party
+||vuyibsm.icu^
 ||vv.nettierbrakier.com^
 ||vvdzucs.cn^
 ||vvfht.fun^
@@ -6047,8 +6049,9 @@ apkmirror.com##div[id^="adtester-container-"]
 apkmirror.com#$##ezmob-wrapper { display: none !important; }
 apkmirror.com#$#html > body { padding-top: 0 !important; }
 apkmonk.com##.col > div[class]:has(> ins.adsbygoogle)
-apkpure.com,apkpure.*###iframe_download + .slide-wrap > .bd > .tempWrap > ul[style^="width: 1656px;"] > li[style*="float: left; width: 828px;"]:has(> a[href^="https://yaksgames.com/?utm_source"])
-apkpure.com,apkpure.*##.right > div[style*="position: relative;"][style*="height:"]:has(a[href="https://www.macblurayplayer.com/spyhunter-malware-removal-windows.htm"])
+apkpure.com,apkpure.net,apkpure.*###iframe_download + .slide-wrap > .bd > .tempWrap > ul[style^="width: 1656px;"] > li[style*="float: left; width: 828px;"]:has(> a[href^="https://yaksgames.com/?utm_source"])
+apkpure.com,apkpure.net,apkpure.*##.js-ad-slot
+apkpure.com,apkpure.net,apkpure.*##.right > div[style*="position: relative;"][style*="height:"]:has(a[href="https://www.macblurayplayer.com/spyhunter-malware-removal-windows.htm"])
 apkpure.net,apkpure.com##DIV.js-ad-slot
 app-liv.jp##.c-app-card:not([class^="js-native-ranking-card"]):has(> div > span.app-ranking_label--pr)
 app.qq.com###old-floatingad
@@ -11007,24 +11010,34 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .cn:80*/sc/*?*=$third-party
 .cn:8001/*/*?*=$third-party
 .cn:8001/cc/*?is_not=
+.cn:8001/d/*?*=$third-party
 .cn:8001/sc/*?is_not=
 .cn:8002/cc/*?is_not=
+.cn:8002/d/*?*=$third-party
 .cn:8002/sc/*?is_not=
 .cn:8003/cc/*?is_not=
+.cn:8003/d/*?*=$third-party
 .cn:8003/sc/*?is_not=
 .cn:8004/cc/*?is_not=
+.cn:8004/d/*?*=$third-party
 .cn:8004/sc/*?is_not=
 .cn:8005/cc/*?is_not=
+.cn:8005/d/*?*=$third-party
 .cn:8005/sc/*?is_not=
 .cn:8006/cc/*?is_not=
+.cn:8006/d/*?*=$third-party
 .cn:8006/sc/*?is_not=
 .cn:8007/cc/*?is_not=
+.cn:8007/d/*?*=$third-party
 .cn:8007/sc/*?is_not=
 .cn:8008/cc/*?is_not=
+.cn:8008/d/*?*=$third-party
 .cn:8008/sc/*?is_not=
 .cn:8009/cc/*?is_not=
+.cn:8009/d/*?*=$third-party
 .cn:8009/sc/*?is_not=
 .cn:8010/cc/*?is_not=
+.cn:8010/d/*?*=$third-party
 .cn:8010/sc/*?is_not=
 .co/ajd.php?pid=$third-party
 .co/ajtop.php?pid=*$third-party
@@ -11149,36 +11162,46 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .com:80*/d/*?c=*&$third-party,script
 .com:8001/*/*?*=$third-party
 .com:8001/cc/*?*=$third-party
+.com:8001/d/*?*=$third-party
 .com:8001/sc/*?*=$third-party
 .com:8001/sc/*?n=$third-party
 .com:8001/sc/*?x=$third-party
 .com:8002/cc/*?*=$third-party
+.com:8002/d/*?*=$third-party
 .com:8002/sc/*?*=$third-party
 .com:8003/cc/*?*=$third-party
 .com:8003/d/*&n=$third-party
+.com:8003/d/*?*=$third-party
 .com:8003/sc/*?*=$third-party
 .com:8003/sc/*?n=$third-party
 .com:8004/*/*?*=$third-party
 .com:8004/cc/*?*=$third-party
+.com:8004/d/*?*=$third-party
 .com:8004/sc/*?*=$third-party
 .com:8005/*&n=$third-party
 .com:8005/cc/*?*=$third-party
+.com:8005/d/*?*=$third-party
 .com:8005/sc/*?*=$third-party
+.com:8006/d/*?*=$third-party
 .com:8007/*/*?*=$third-party
 .com:8007/cc/*?*=$third-party
 .com:8007/cc/*?is_not=$third-party
+.com:8007/d/*?*=$third-party
 .com:8007/d/*?c=
 .com:8007/sc/*?*=$third-party
 .com:8008/*/*?*=$third-party
 .com:8008/cc/*?*=$third-party
+.com:8008/d/*?*=$third-party
 .com:8008/sc/*?*=$third-party
 .com:8008/sc/*?n=$third-party
 .com:8009/cc/*?*=$third-party
+.com:8009/d/*?*=$third-party
 .com:8009/sc/*?*=$third-party
 .com:8010/cc/
 .com:8010/cc/*?*=$third-party
 .com:8010/cc/*?is_not=1&target=1$document
 .com:8010/cc/*?is_not=1&target=1$~third-party
+.com:8010/d/*?*=$third-party
 .com:8010/sc/*?*=$third-party
 .com:8891/vh3/
 .com:8891/vj3/
@@ -11219,6 +11242,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .icu/js/gg.js$script
 .icu/pssbk?$third-party
 .icu/pssbk?*16$third-party
+.icu/reacre*?$third-party
 .icu/release*ts?*16$third-party
 .icu:$third-party,domain=btmovi.kim|btsj6.com|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylengmen.com|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|shenyedushu.com|soosadfun.com|sqruitu.com|tangsanshu.info|tinghao8.com|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghua8.tv|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
 .icu:28883/*/*$third-party
@@ -11471,6 +11495,16 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .xyz:*/waga*.html$~third-party
 .xyz:30009/d/*?t=
 .xyz:80*/sc/*?is_not=$third-party
+.xyz:8001/d/*?*=$third-party
+.xyz:8002/d/*?*=$third-party
+.xyz:8003/d/*?*=$third-party
+.xyz:8004/d/*?*=$third-party
+.xyz:8005/d/*?*=$third-party
+.xyz:8006/d/*?*=$third-party
+.xyz:8007/d/*?*=$third-party
+.xyz:8008/d/*?*=$third-party
+.xyz:8009/d/*?*=$third-party
+.xyz:8010/d/*?*=$third-party
 /#/home?c=ggcha$document
 /#/home?c=ggcha$~third-party
 /#/pages/video/video/?shareName=$document
@@ -15416,8 +15450,97 @@ zle.com$script
 ##.item-ad
 ##.j-cctv-click
 ##.js-ad
+##.js-ad-banner-container
+##.js-ad-buttons
+##.js-ad-container
+##.js-ad-dynamic
+##.js-ad-frame
+##.js-ad-home
+##.js-ad-hover
+##.js-ad-loader-bottom
+##.js-ad-slot
+##.js-ad-static
+##.js-ad-unit
+##.js-ad-unit-bottom
 ##.js-ad-whitelist-notice
+##.js-ad-wrapper
+##.js-adExternalPage
+##.js-ad_iframe
+##.js-ad_iframe_wrap
+##.js-adb-msg
+##.js-adfliction-iframe
+##.js-adfliction-standard
+##.js-ads
+##.js-ads-carousel
+##.js-ads-header-content
+##.js-adv-rotator-image
+##.js-advert
+##.js-advert--responsive
+##.js-advert--vc
+##.js-advert-container
+##.js-advert-upsell-popup
+##.js-advertising__placeholder1
+##.js-adzone
+##.js-anchor-ad
+##.js-article-advert-injected
+##.js-billboard-advert
+##.js-cardview_ad-320x180
+##.js-cardview_ad-320x50
 ##.js-checkad-warning
+##.js-cui-pt-item[data-qhb]
+##.js-dfp-ad
+##.js-dfp-ad-bottom
+##.js-dfp-ad-top
+##.js-footer-zerg
+##.js-googleAdSuperHeader-wrapper
+##.js-gpt-ad
+##.js-gptAd
+##.js-header-ad
+##.js-header-ad-wrapper
+##.js-lazy-ad
+##.js-mapped-ad
+##.js-mpu
+##.js-native-ad
+##.js-no-sticky-ad
+##.js-outbrain-container
+##.js-overlay_ad
+##.js-product-ad-slider
+##.js-react-simple-ad
+##.js-results-ads
+##.js-right-ad-block
+##.js-sidebar-ads
+##.js-site-header-advert
+##.js-skyscraper-ad
+##.js-slide-right-ad
+##.js-slide-top-ad
+##.js-slim-nav-ad
+##.js-sticky-ad
+##.js-sticky-advert-details-mpu
+##.js-stream-ad
+##.js-stream-featured-ad
+##.js-toggle-ad
+##.js-underplayerAd
+##.jsAdSlot
+##.jsMPUSponsor
+##.jsOneAd
+##.js_ad-sticky-footer
+##.js_adContainer
+##.js_ad_wrapper
+##.js_contained-ad-container
+##.js_deferred-ad
+##.js_desktop-horizontal-ad
+##.js_midbanner_ad_slot
+##.js_movable_ad_slot
+##.js_preheader-ad-container
+##.js_related-stories-inset
+##.js_slideshow-full-width-ad
+##.js_slideshow-sidebar-ad
+##.js_sticky-top-ad
+##.jsv > .mobile-adv
+##.jumboAd
+##.jw-ad
+##.jw-ad-block
+##.jw-ad-label
 ##.kill-adblock-container
 ##.label-ad
 ##.left > .b300
@@ -15706,6 +15829,8 @@ zle.com$script
 ##.ssr1
 ##.svg-adblock-full
 ##.svg-adblock-full--box
+##.swiper-android > .swiper-wrapper > .swiper-slide[style="width: 407px;"]
+##.swiper-ios > .swiper-wrapper > .swiper-slide[style="width: 407px;"]
 ##.swiper-wrapper.gpwggaoh
 ##.swipercctv
 ##.synopsisAd
@@ -16510,6 +16635,7 @@ zle.com$script
 ##body > [style$="background-size: 407px 95px !important;"]
 ##body > [style$="width:9.6vw;height:8.5vw;background: #000;opacity:0.01;"]
 ##body > [style$="width:9.6vw;height:8.5vw;background:#000;opacity:0.01;"]
+##body > [style*="background"][style*="#000"][style$="opacity:0.01;"]
 ##body > [style*="position:fixed; bottom:0vw; left:0vw; z-index:"]
 ##body > [style^="display: block; z-index: 2147483647; width: 10%;"][style$="!important;"]
 ##body > a[id*='hudie_']
@@ -16946,6 +17072,7 @@ zle.com$script
 ##img[id^="GGADIMG"][src]
 ##img[id^="daohang_hengfu"][width="100%"]
 ##img[onclick^="golh"][onclick$=")"][width="100%"],img[onclick^="golh"][onclick$=")"][src$=".gif"]
+##img[spm*="广告"]
 ##img[src$="-960x100.gif"]
 ##img[src$="-960x60.gif"]
 ##img[src$="-960x80.gif"]
@@ -17062,6 +17189,7 @@ zle.com$script
 ##script + iframe[src^="https://s.uuidksinc.net"]
 ##script > .p-screen-dialog
 ##script[src$="/js/jads.js"] + ins[id]
+##script[src*=".icu/"] + script + script + div[id]
 ##secion#ly LI[role='group'],secion#ly > H2
 ##section > .friendlylink > .w
 ##section > SPAN[style='display: block; clear: both; overflow: hidden;']
