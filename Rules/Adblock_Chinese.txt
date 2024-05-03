@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: Aq+0arJxj6TjVITLyJTF0w
+! Checksum: hoZfDJIx3SYOXuByeCCBZA
 ! Title: Aloazny Chinese fiter
-! Version: 20240503162808
+! Version: 20240503195023
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-05-03 16:28:08
-! Total Count: 40838
-! Blocked Filters: 40838
+! Last modified: 2024-05-03 19:50:23
+! Total Count: 40846
+! Blocked Filters: 40846
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -11198,6 +11198,7 @@
 ||qdzyspjx.com^
 ||qedvcu.com^
 ||qejjhnq.cn^
+||qescaen.com^
 ||qetskupch581.shop^
 ||qetskupyka61.shop^
 ||qeuckn.icu^
@@ -26635,6 +26636,11 @@ pornodiamant.com##.sticky-banner
 pornone.com##div[class^="flex-initial"]
 pornovsem.net##.video-wide-br
 pornpapa.com##.mobile-device
+pornpics.com,pornpics.de##.ad-text
+pornpics.com,pornpics.de##.adss-mob
+pornpics.com,pornpics.de##.r-frame
+pornpics.com,pornpics.de##.stamp-bn-1
+pornpics.com,pornpics.de##.thumbwook + li[class]:has(.ad-text)
 pornsitetest.com##div[id^="eroti-"]
 pornstarbyface.com##div[id^="sponcored-content-"]
 porntrex.com##.content > div[class]:has(> div[style*="text-align"] > center > script)
@@ -32513,6 +32519,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 /remix_banner.gif
 /res/kj/hf*.js?v=
 /resource/common/tongzhuo/game_info.json
+/resource?zones=$domain=pornpics.com|pornpics.de
 /rs/js/temp_1.js$script,third-party
 /rs/shto/*?n=*&p=false&t=16$third-party
 /runtime/ad/*
@@ -35816,6 +35823,7 @@ zle.com$script
 ##.adslot_1
 ##.adsmall
 ##.adsoho
+##.adss-mob
 ##.adstop
 ##.adswarning
 ##.adtop
@@ -40764,7 +40772,6 @@ new.qq.com#@##TopAd
 news.infoseek.co.jp#@#.ad_area
 nfmovies.com#@##adleft
 nfmovies.com#@##adright
-nr19.cn,bilibili.com,youku.com,v.qq.com,acfun.cn#@#img[alt*="广告"][src]
 ntm.gov.tw#@#.ad-left
 ntunhs.edu.tw,ntust.edu.tw,sjsmitaa.org#@#.module-ads
 numberempire.com#@##perm_ad
@@ -40783,6 +40790,7 @@ pornhub.com#@#div > [style*="width: 100%;"]:first-child
 pornhub.com,pornhub.org,pornhub.net#@#[style] > div > iframe[width]:first-child
 pornhub.com,pornhub.org,pornhub.net#@#div > [style] iframe[width][height]
 pornhub.com,redtube.com,tube8.com,tube8.es,tube8.fr#@#[src^="bLob:"]
+pornpics.com,pornpics.de,nr19.cn,bilibili.com,youku.com,v.qq.com,acfun.cn#@#img[alt*="广告"][src]
 pptstore.net#@#.ad-big
 psahz.com#@#.ad_960
 qq.com#@#.ad-icon

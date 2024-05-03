@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: /0JOGt5LmljxoPHc9HkcdQ
+! Checksum: N1GZfDKr0uXwgkt2VrIqJA
 ! Title: Aloazny attach fiter
-! Version: 20240503162749
+! Version: 20240503195004
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-05-03 16:27:49
-! Total Count: 15791
-! Blocked Filters: 15791
+! Last modified: 2024-05-03 19:50:04
+! Total Count: 15798
+! Blocked Filters: 15798
 ! Description: 合并混合规则的补充规则，轻量规则，可作为补充规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -7576,6 +7576,11 @@ pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com,spankbang.party##[style*="blob:"]
 pornhub.com,redtube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com,youporngay.com##[style*="blob:"]:not(video)
 pornhub.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporngay.com##img[src*="blob:" i]:not(video)
+pornpics.com,pornpics.de##.ad-text
+pornpics.com,pornpics.de##.adss-mob
+pornpics.com,pornpics.de##.r-frame
+pornpics.com,pornpics.de##.stamp-bn-1
+pornpics.com,pornpics.de##.thumbwook + li[class]:has(.ad-text)
 pornsitetest.com##div[id^="eroti-"]
 pornstarbyface.com##div[id^="sponcored-content-"]
 porntrex.com##.content > div[class]:has(> div[style*="text-align"] > center > script)
@@ -10063,6 +10068,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 /popup/adblocker
 /redbaiduct.com?s=
 /redbaiduct.com?s=$third-party
+/resource?zones=$domain=pornpics.com|pornpics.de
 /rs/js/temp_1.js$script,third-party
 /rs/shto/*?n=*&p=false&t=16$third-party
 /sad3.js?$third-party
@@ -12822,6 +12828,7 @@ zle.com$script
 ##.adslot
 ##.adslot_1
 ##.adsmall
+##.adss-mob
 ##.adstop
 ##.adswarning
 ##.adtop
@@ -15802,11 +15809,11 @@ manwa1.vip,manwa2.vip,manwa3.vip,manwa4.vip,manwa5.vip,manwa6.vip,manwa7.vip,man
 mi.com#@#[style*="mi-img.com"]
 mpo18.com#@#.bottomad
 mydrivers.com#@#a[href*="/bp.ashx"]
-nr19.cn,bilibili.com,youku.com,v.qq.com,acfun.cn#@#img[alt*="广告"][src]
 ot-boutique.fr#@##publicite
 pornhub.com,pornhub.org,pornhub.net#@#[style] > div > iframe[width]:first-child
 pornhub.com,pornhub.org,pornhub.net#@#div > [style] iframe[width][height]
 pornhub.com,redtube.com,tube8.com,tube8.es,tube8.fr#@#[src^="bLob:"]
+pornpics.com,pornpics.de,nr19.cn,bilibili.com,youku.com,v.qq.com,acfun.cn#@#img[alt*="广告"][src]
 reshu.by,reshuent.kz,reshuolymp.ru,sdamgia.ru#@#.googlead
 rouwenge.vip,jpq.me#@#[class$="ad-container"]
 shahid4u.club#@#.adsBox
