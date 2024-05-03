@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: qNo0eceGU5BMv6BFvLZmTw
+! Checksum: /0JOGt5LmljxoPHc9HkcdQ
 ! Title: Aloazny attach fiter
-! Version: 20240503101052
+! Version: 20240503162749
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-05-03 10:10:52
-! Total Count: 15778
-! Blocked Filters: 15778
+! Last modified: 2024-05-03 16:27:49
+! Total Count: 15791
+! Blocked Filters: 15791
 ! Description: 合并混合规则的补充规则，轻量规则，可作为补充规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -3488,6 +3488,7 @@
 ||pos.baidu.com^
 ||postserviceuk.com^
 ||powedw.com^
+||ppdod.com^$third-party
 ||ppedp.cn^
 ||pplnjoow.com^
 ||ppyibei.com^
@@ -7677,6 +7678,8 @@ shuhuang.la,qianrenge.cc,biqulou.net,bxwx.la,kenwen.com,e8zw.com,lingdiankanshu.
 shushu8.com##[src*="gif"]
 shushu8.com##div[class*="ggadread"]
 shushudu.com##[style*="width:"][style*="100%"],[style*="width:"][style*="99%"],[width*="99%"],[width*="100%"],div[class][style*="display: block;"][style*="131px;"],div[class][style*="width: 100%;"][style*="131px;"],div[class][style*="z-index: 2147483646;"][style*="131px"],div[class][style*="position: fixed;"][style*="131px"]
+shzsmy.net##.tp_advertising
+shzsmy.net##div[style="margin:0 auto;"] 
 sina.cn###float-btn.callApp_fl_btn
 sina.cn##.article-sax
 sina.cn##.callApp_fl_btn
@@ -8556,6 +8559,7 @@ youtube.com##ytm-companion-slot
 youtube.com##ytm-promoted-sparkles-text-search-renderer
 youtube.com##ytm-promoted-sparkles-web-renderer
 youtube.com#?#ytd-rich-grid-renderer ytd-rich-item-renderer div > ytd-display-ad-renderer:upward(2)
+ypcgw.com##[class$="_acmsd"]
 ys137.com##a[class="ask-online"]
 ys137.com##div[style^="text-align:center;padding: 20px 0"]
 ys137.com,mipsm.ys137.com##div[class*="baidu-union-"]
@@ -9252,6 +9256,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .xyz/svelte?$third-party
 .xyz/ttdlyqbff/*/*.gif?$third-party,image
 .xyz/ty/*-*-*$third-party
+.xyz/ty/*-*-*.$third-party,~image,~script
 .xyz/ty/*-*.alpha$third-party
 .xyz/ty/*-*.blpha$third-party
 .xyz/user?$third-party
@@ -10098,6 +10103,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 /template/js/adsData.js
 /template/mytheme/statics/js/listing.js
 /template/paody/aaaa/all-top.js
+/template/piankuwap/js/afoot.js
 /template/shoujigg/*
 /template/znfls/asd/*
 /template/zsy_badian/dddytt-gg/*
@@ -13621,8 +13627,14 @@ zle.com$script
 ##.ssr1
 ##.svg-adblock-full
 ##.svg-adblock-full--box
-##.swiper-android > .swiper-wrapper > .swiper-slide[style="width: 407px;"]
-##.swiper-ios > .swiper-wrapper > .swiper-slide[style="width: 407px;"]
+##.swiper-android > .swiper-wrapper > .swiper-slide[style*="width: 387px;"]
+##.swiper-android > .swiper-wrapper > .swiper-slide[style*="width: 407px;"]
+##.swiper-container-android > .swiper-wrapper > .swiper-slide[style*="width: 387px;"]
+##.swiper-container-android > .swiper-wrapper > .swiper-slide[style*="width: 407px;"]
+##.swiper-container-ios > .swiper-wrapper > .swiper-slide[style*="width: 387px;"]
+##.swiper-container-ios > .swiper-wrapper > .swiper-slide[style*="width: 407px;"]
+##.swiper-ios > .swiper-wrapper > .swiper-slide[style*="width: 387px;"]
+##.swiper-ios > .swiper-wrapper > .swiper-slide[style*="width: 407px;"]
 ##.swiper-wrapper.gpwggaoh
 ##.swipercctv
 ##.synopsisAd
@@ -13655,6 +13667,7 @@ zle.com$script
 ##.topad2
 ##.topadbox
 ##.topads
+##.tp_advertising
 ##.trc-content-sponsored
 ##.trc_rbox .syndicatedItem
 ##.trc_rbox_border_elm .syndicatedItem

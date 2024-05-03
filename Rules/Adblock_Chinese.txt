@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: Dq3C3JoEZu0PU80nDL+y8Q
+! Checksum: Aq+0arJxj6TjVITLyJTF0w
 ! Title: Aloazny Chinese fiter
-! Version: 20240503101110
+! Version: 20240503162808
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-05-03 10:11:10
-! Total Count: 40824
-! Blocked Filters: 40824
+! Last modified: 2024-05-03 16:28:08
+! Total Count: 40838
+! Blocked Filters: 40838
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -10964,6 +10964,7 @@
 ||poyang.com^
 ||pozrwj.icu^
 ||pp1hl.xyz^
+||ppdod.com^$third-party
 ||ppedp.cn^
 ||ppenid.xyz^
 ||ppjttn.xyz^
@@ -13261,6 +13262,7 @@
 ||tqjqripb.xyz^
 ||tqmcj.cn^
 ||tqrznqs.cn^
+||tquspo.com^
 ||tqvnzj.xyz^
 ||tqytqdrq.icu^
 ||tqznjujv.xyz^
@@ -14490,6 +14492,7 @@
 ||ww9874.com/asset/playerInit.js
 ||wwads.cn^
 ||wwandle.top^
+||wwerioe.top^
 ||wwggnaw.xyz^
 ||wwgqqq.com^
 ||wwhsxwow.xyz^
@@ -25654,8 +25657,8 @@ netfly.*,netfly.tv##div[class*="tt-"] > a[target="_blank"] + span.tt-icon-close
 netfly.*,netfly.tv##div[class*="tt-"] > a[target="_blank"] > img
 netfly.fun##.player-box-main ~ [style^="display: flex; justify-content: space-between;"]
 netfly.fun#?#.content > div:not([class]):has(> [style="display: flex; justify-content: space-between; width: 100%;"])
-netfly.fun,netfly.tv##.banner[href^="http"]
-netfly.fun,netfly.tv,www.netfly.fun##[style^="display: flex;"]
+netfly.fun,netfly.tv,netflytv.xyz##.banner[href^="http"]
+netfly.fun,netfly.tv,netflytv.xyz,www.netfly.fun##[style^="display: flex;"]
 netfly.lol##.module-tglist
 nettavisen.no###sportspill-box-top
 netzwelt.de###leaderboard_mobile
@@ -26930,8 +26933,8 @@ quyitu.vip##div[class="aggd list_aggd"]
 qwerwrrt.one,sehuatang.org##div[class^="show-text"]
 qxfun.com###beautiful-things
 qxfun.com###reward-me > figure:nth-child(n+2)
-qyun.vip##.tp_advertising
 qyun.vip##a[href*="/ad."]
+qyun.vip,shzsmy.net##.tp_advertising
 qyw0.com##.iad
 qyw0.com##.s11
 qzone.qq.com###QM_Container_100005
@@ -27419,6 +27422,7 @@ shuowan.com##.side_flash
 shushu8.com##[src*="gif"]
 shushu8.com##div[class*="ggadread"]
 shushudu.com##[style*="width:"][style*="100%"],[style*="width:"][style*="99%"],[width*="99%"],[width*="100%"],div[class][style*="display: block;"][style*="131px;"],div[class][style*="width: 100%;"][style*="131px;"],div[class][style*="z-index: 2147483646;"][style*="131px"],div[class][style*="position: fixed;"][style*="131px"]
+shzsmy.net##div[style="margin:0 auto;"] 
 si.com##amp-video-iframe[src^="//player.ex.co/"]
 siamblockchain.com###inarticle-banner-mobile
 sibdom.ru##.fixed-position
@@ -30136,6 +30140,7 @@ youxi.baidu.com###coupletBanner
 youxi.kugou.com###scrollUp
 yoyaku-top10.jp##.p-floating_banner_box
 yp868.com##iframe[src="/js/loading.html"]
+ypcgw.com##[class$="_acmsd"]
 ypojie.com#?#.excerpt:-abp-has(>.focus[href^="http"]:not([href*="ypojie"]))
 ys137.com##a[class="ask-online"]
 ys137.com##div[style^="text-align:center;padding: 20px 0"]
@@ -31189,6 +31194,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .xyz/svelte?$third-party
 .xyz/ttdlyqbff/*/*.gif?$third-party,image
 .xyz/ty/*-*-*$third-party
+.xyz/ty/*-*-*.$third-party,~image,~script
 .xyz/ty/*-*.alpha$third-party
 .xyz/ty/*-*.blpha$third-party
 .xyz/upload/ad/
@@ -32608,6 +32614,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 /template/m1938pc/bd/*.js
 /template/mytheme/statics/js/listing.js
 /template/paody/aaaa/all-top.js
+/template/piankuwap/js/afoot.js
 /template/shoujigg/*
 /template/znfls/asd/*
 /template/zsy_badian/dddytt-gg/*
@@ -36885,8 +36892,14 @@ zle.com$script
 ##.svg-adblock-full
 ##.svg-adblock-full--box
 ##.svg-icon + #player_pause
-##.swiper-android > .swiper-wrapper > .swiper-slide[style="width: 407px;"]
-##.swiper-ios > .swiper-wrapper > .swiper-slide[style="width: 407px;"]
+##.swiper-android > .swiper-wrapper > .swiper-slide[style*="width: 387px;"]
+##.swiper-android > .swiper-wrapper > .swiper-slide[style*="width: 407px;"]
+##.swiper-container-android > .swiper-wrapper > .swiper-slide[style*="width: 387px;"]
+##.swiper-container-android > .swiper-wrapper > .swiper-slide[style*="width: 407px;"]
+##.swiper-container-ios > .swiper-wrapper > .swiper-slide[style*="width: 387px;"]
+##.swiper-container-ios > .swiper-wrapper > .swiper-slide[style*="width: 407px;"]
+##.swiper-ios > .swiper-wrapper > .swiper-slide[style*="width: 387px;"]
+##.swiper-ios > .swiper-wrapper > .swiper-slide[style*="width: 407px;"]
 ##.swiper-wrapper.gpwggaoh
 ##.swipercctv
 ##.sxAdBox
@@ -36942,6 +36955,7 @@ zle.com$script
 ##.topbanner + .nav + .banner
 ##.toy52_outer
 ##.toy52apparel_ALL
+##.tp_advertising
 ##.trad3
 ##.trc-content-sponsored
 ##.trc_rbox .syndicatedItem
