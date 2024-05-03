@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: hoZfDJIx3SYOXuByeCCBZA
+! Checksum: i1R64FbZEL8Z4Cm4kaAl4A
 ! Title: Aloazny Chinese fiter
-! Version: 20240503195023
+! Version: 20240504003213
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-05-03 19:50:23
-! Total Count: 40846
-! Blocked Filters: 40846
+! Last modified: 2024-05-04 00:32:13
+! Total Count: 40851
+! Blocked Filters: 40851
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -11685,6 +11685,7 @@
 ||right.com.cn/logo/yyb.png
 ||riju.com/pr/$domain=jpfans.com|jpseek.com
 ||rilwzsit.icu^
+||ringingneo.com^
 ||rinshy17.xyz^
 ||riqmqrd.icu^
 ||riscil.com^
@@ -11852,6 +11853,7 @@
 ||rwarwf.icu^
 ||rwftzx.xyz^
 ||rwnmcum.cn^
+||rxfygd.cn^
 ||rxlidz.ink^
 ||rxojynr.icu^
 ||rxrdjb.xyz^
@@ -21699,6 +21701,7 @@ gs.chinanews.com.cn##.div1000_2 + .div980
 gsminfo.com.ua###custom_html-10
 gsminfo.com.ua###custom_html-12
 gsminfo.com.ua###custom_html-15
+gsmservice.pl###tdi_14
 gsp.ro##.banner-branding
 gsp.ro##div[style="height: 601px"]
 gta.com.ua##body > div[id][style*="background"][style*="visible"]
@@ -21883,6 +21886,8 @@ hao.360.com##.cube-container div.cube-mod:has(span.adMark)
 hao.360.com##.cube-mod:has(.dh-cpcad-container)
 hao.360.com##.cube-mod:has(> .cube-bd > .cube-card > .project-root > ._CUBE_A_D_CLK_)
 hao.360.com##.licai-right
+hao.360.com##.right-nav-bar-hd
+hao.360.com##div[id^="rightBottom_"]
 hao.360.com#?#.cube-container div.cube-mod:has(span.adMark)
 hao.360.com#?#.cube-list-recommend > div.cube-mod.cpc-card > div.cube-bd > div.cube-card > div.dh-cpcad-container:upward(div.cube-mod.cpc-card)
 hao.360.com#?#.cube-mod:-abp-has(.dh-cpcad-container)
@@ -23911,6 +23916,8 @@ lostfilm.tv##div[class^="alarm"]
 lovedan.net##[style^="display: block; z-index: 2147483646;"],[style$="!important;"],[style*="0vw;"],[class^="tsgg"],[id*="ggsj"]
 loveha.net#?#.chapter-content > .quang-cao:has(> h3 > font[color="white"])
 loveshang.com##div[class^="float-ad-"]
+lpl.qq.com,v.qq.com##+js(set-constant, CreativePlayerwebPlugin.AD_EVENT.AD_DESTROY, '')
+lpl.qq.com,v.qq.com##+js(set-constant, CreativePlayerwebPlugin.AD_EVENT.AD_LOAD_START, '')
 lqz.cn###ad_index
 lr-club.com##a[href="https://adblockplus.org/ru/faq_basics#disable"]
 lsj.ac##div[class="col-12"] > div[class="poster"]
@@ -28846,8 +28853,6 @@ v.ifeng.com##div[class="deeplink deeplink_white js_pull"]
 v.ifeng.com##div[id="js_header"]
 v.pptv.com###video-download-game
 v.qq.com###iwan-gamependant-page
-v.qq.com##+js(set-constant, CreativePlayerwebPlugin.AD_EVENT.AD_DESTROY, '')
-v.qq.com##+js(set-constant, CreativePlayerwebPlugin.AD_EVENT.AD_LOAD_START, '')
 v.qq.com##.game-switch-ad
 v.qq.com##.module-image[style*="width:1100px;"]
 v.qq.com##.module-image[style*="width:1240px;"]
