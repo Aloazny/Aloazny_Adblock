@@ -36,15 +36,6 @@ body:
       required: true
 
   - type: textarea
-    id: blocklistothers
-    attributes:
-      label: 在这里输入你所使用的其他规则
-      description: | 
-        如果上面没有选择其他规则可以忽略
-    validations:
-      required: false
-
-  - type: textarea
     id: content
     attributes:
       label: 问题描述
