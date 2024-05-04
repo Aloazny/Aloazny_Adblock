@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: WRYJ0Hecejtd7AT6lWBi0A
+! Checksum: vxRdPJjwShqeawXwAbzFuQ
 ! Title: Aloazny attach fiter
-! Version: 20240504162725
+! Version: 20240505002922
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-05-04 16:27:25
-! Total Count: 15801
-! Blocked Filters: 15801
+! Last modified: 2024-05-05 00:29:22
+! Total Count: 15811
+! Blocked Filters: 15811
 ! Description: 合并混合规则的补充规则，轻量规则，可作为补充规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -1299,6 +1299,7 @@
 ||dfgymtx.icu^
 ||dfjd.xyz^
 ||dfkd.xyz^
+||dflkndkzf.com^$third-party
 ||dfsvhv88.com^
 ||dfxwdc.com^
 ||dfyl.eeeeehfghrq555^$document
@@ -6442,6 +6443,8 @@ fanyi.baidu.com##H1,H3,.intro-nav.clearfix,.intro-copyrigh,A.app-bar,.intro-copy
 fanyi.baidu.com##[class^="jifeng-"]
 fanyi.baidu.com##a[class="app-bar"]
 fctvhd.com##.mw-adblock
+fcwei.com##div:has(> [style*=".myqcloud.com/img/"])
+fcwei.com##script + [id$="_rfymty"]
 feng.ifeng.com##div[class="box-1l44VvMs"]
 fenghuo123.com##div[id="mi2"]
 fightnews.info##body > blockquote
@@ -6949,6 +6952,7 @@ koreaporn.net##div.bb_mobile
 kswlgg.com##.a-loading
 ktmukmx.com##.container > div[style] > div.row > .col-sm-3 > a[target="_blank"]
 kubik3.ru##.adbs
+kwoo50.icu##div.mod:has(.biaoti)
 kxgdyw.com##a[ontouchstart='this.click();']
 kxgdyw.com##img[src*='88/center']
 kxs7.com,biquku.co,mxzw.com,soudu.org##[id^="foot"]
@@ -8864,6 +8868,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .com/?invite=*&nt=0$document
 .com/?invite=*&nt=0$~third-party
 .com/?token=*&screen_*=*&ref=$third-party
+.com/VVAvcnms/$third-party
 .com/ad-provider.js$third-party
 .com/adv1/?q=
 .com/aff-w2aK$document
@@ -14082,6 +14087,7 @@ zle.com$script
 ##[name^="google_ads_iframe"]
 ##[onclick*="//xxl.skdvkslkdb.com"]
 ##[onclick*="content.ad/"]
+##[onclick*="https://xxl."][onclick*=".com/bd-"]
 ##[onclick*="trackEvent', 'ad"]
 ##[onclick*='https://i.opiwb.com:']
 ##[onclick*='pypyj.com']
@@ -14329,6 +14335,7 @@ zle.com$script
 ##a[href="極樂夜王"][target="_blank"]
 ##a[href="紳士冒險"][target="_blank"]
 ##a[href="賢者同盟"][target="_blank"]
+##a[href][rel="nofollow"] > img.nature
 ##a[href][style*="overflow:hidden;display:block;"] > img[src$=".gif"][style*="width:100%"]
 ##a[href][style="display:none!important"]
 ##a[href][target="_blank"] > img[id*="GGADIMG"]
@@ -15282,6 +15289,7 @@ zle.com$script
 @@.com/xxgg/comm.js$~third-party
 @@.com/xxgg/yuedu.js$~third-party
 @@.cos.ap-guangzhou.myqcloud.com/jm/mxtheme
+@@.icu/js/gg.js$script,domain=kwoo50.icu
 @@.info/*/*/comm*.js$~third-party
 @@.info/*/*zepto*.js$~third-party
 @@.info/*/comm*.js$~third-party
@@ -15802,6 +15810,8 @@ goha.ru#@#.goha_ads
 goha.ru#@#.goha_ads_acceptable
 hanime.tv#@#.ad-content-area
 hanime.tv#@#.vertical-ad
+hentaicomic.ru#@#.Flagrow-Ads-under-header
+hentaicomic.ru#@#.pcd_ad
 hkcards.com#@##ad-slot
 hypebeast.com,hypebeast.kr#@#.ad-blocked
 inbox.io,hanime.tv,pbs.org#@#.banner-ad

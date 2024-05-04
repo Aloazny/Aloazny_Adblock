@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: xFUqrwaR2QcstO6AmxU1lg
+! Checksum: AwQcxUVakKBAcJv0fCFCOA
 ! Title: Aloazny Chinese fiter
-! Version: 20240504162744
+! Version: 20240505002940
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-05-04 16:27:44
-! Total Count: 40865
-! Blocked Filters: 40865
+! Last modified: 2024-05-05 00:29:40
+! Total Count: 40873
+! Blocked Filters: 40873
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -4658,6 +4658,7 @@
 ||dfgymtx.icu^
 ||dfjd.xyz^
 ||dfkd.xyz^
+||dflkndkzf.com^$third-party
 ||dfninp.xyz^
 ||dfsgppz.icu^
 ||dfsvhv88.com^
@@ -20888,6 +20889,8 @@ fc2.com##body > div[style="position: fixed; bottom: 0px; left: 0px; right: 0px; 
 fctvhd.com##.mw-adblock
 fcw45.com##.bottom-adv
 fcw45.com##div[id^="layui-layer"]
+fcwei.com##div:has(> [style*=".myqcloud.com/img/"])
+fcwei.com##script + [id$="_rfymty"]
 fdc.com.cn##.yifangbanner
 feebee.com.tw###ad_bottom_module
 feebee.com.tw###ad_mid_module
@@ -23661,6 +23664,7 @@ kurier.de,np-coburg.de,frankenpost.de##div[data-b-title*="Traffective"]
 kutchkhabar.com##.advertise-horizontal-mobile
 kutv.com,wlos.com##.displayAd
 kwongwah.com.my##.kp-adv-widget
+kwoo50.icu##div.mod:has(.biaoti)
 kxdw.com###downloadTop
 kxgdyw.com##a[ontouchstart='this.click();']
 kxgdyw.com##img[src*='88/center']
@@ -30659,6 +30663,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .com/Public/js/duileft.js
 .com/Public/js/duiright.js
 .com/Runtime/js/psCreat.js
+.com/VVAvcnms/$third-party
 .com/a_d/
 .com/ad-provider.js$third-party
 .com/adv1/?q=
@@ -37439,6 +37444,7 @@ zle.com$script
 ##[name^="google_ads_iframe"]
 ##[onclick*="//xxl.skdvkslkdb.com"]
 ##[onclick*="content.ad/"]
+##[onclick*="https://xxl."][onclick*=".com/bd-"]
 ##[onclick*="trackEvent', 'ad"]
 ##[onclick*='https://i.opiwb.com:']
 ##[onclick*='pypyj.com']
@@ -37799,6 +37805,7 @@ zle.com$script
 ##a[href="極樂夜王"][target="_blank"]
 ##a[href="紳士冒險"][target="_blank"]
 ##a[href="賢者同盟"][target="_blank"]
+##a[href][rel="nofollow"] > img.nature
 ##a[href][style*="overflow:hidden;display:block;"] > img[src$=".gif"][style*="width:100%"]
 ##a[href][style="display:none!important"]
 ##a[href][target="_blank"] > img[id*="GGADIMG"]
@@ -38920,6 +38927,7 @@ zle.com$script
 @@.cos.ap-guangzhou.myqcloud.com/jm/mxtheme
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.google-analytics.com%2Fanalytics.js$domain=free.com.tw
+@@.icu/js/gg.js$script,domain=kwoo50.icu
 @@.info/*/*/comm*.js$~third-party
 @@.info/*/*zepto*.js$~third-party
 @@.info/*/comm*.js$~third-party
@@ -40729,6 +40737,8 @@ hanime.tv#@#.vertical-ad
 hboav.com#@#.close_box0
 hboav.com#@#script + div[class="cc5278_banner_ad"]
 help.xunlei.com#@#.a_fr
+hentaicomic.ru,wnacg.com#@#.Flagrow-Ads-under-header
+hentaicomic.ru,wnacg.com#@#.pcd_ad
 hibox.hinet.net#@#.adarea
 hipertextual.com,hyperallergic.com#@#.ad-above-footer
 hkcards.com#@##ad-slot
@@ -40864,7 +40874,6 @@ weiyun.com#@#.page-share-box
 wenku8.net#@##adtop
 wenxuecity.com#@#.otherposts
 wnacg.com#@##adsbox
-wnacg.com#@#.Flagrow-Ads-under-header
 wnacg.com#@#.RMss1
 wnacg.com#@#.Text-Advertising
 wnacg.com#@#.a_ssk_cn
@@ -40872,7 +40881,6 @@ wnacg.com#@#.a_xsfl
 wnacg.com#@#.ctm_ad
 wnacg.com#@#.ff-ads
 wnacg.com#@#.hlol_ad
-wnacg.com#@#.pcd_ad
 wnacg.com,xbgame.net#@#.google-ads
 workercn.cn#@#.ad_main
 world.huanqiu.com#@#.ad_all

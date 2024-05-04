@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: qKWM6mcNIN9VE/82z22X0Q
+! Checksum: kPLDb6X6ckNvvZem6g14fg
 ! Title: Aloazny Mobile fiter
-! Version: 20240504162915
+! Version: 20240505003109
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-05-04 16:29:15
-! Total Count: 77911
-! Blocked Filters: 77911
+! Last modified: 2024-05-05 00:31:09
+! Total Count: 77919
+! Blocked Filters: 77919
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -8471,6 +8471,7 @@
 ||dfjd.xyz^
 ||dfjlgfb4lxka5.cloudfront.net^
 ||dfkd.xyz^
+||dflkndkzf.com^$third-party
 ||dfninp.xyz^
 ||dfsgppz.icu^
 ||dfsvhv88.com^
@@ -38082,6 +38083,8 @@ fcportables.com,ps2-bios.com##div[id$="____equal"]:not(.ad)
 fctables.com##body > div[style^="background:#e3e3e3;"][style*="height:110px;"]
 fctvhd.com##.mw-adblock
 fcw45.com##div[id^="layui-layer"]
+fcwei.com##div:has(> [style*=".myqcloud.com/img/"])
+fcwei.com##script + [id$="_rfymty"]
 fdc.com.cn##.yifangbanner
 fdewsdc.sbs,recordplay.biz,jodwish.com,anitaku.to,alions.pro,vidhidevip.com,moviekhhd.online,cdnwish.com,anime4low.sbs,anime7u.com,flaswish.com,obeywish.com,guccihide.store,fsdcmo.sbs,gaystream.cloud,javlion.xyz,fviplions.com,sfastwish.com,cabecabean.lol,wishfast.top,vidmoviesb.xyz,vhmovies.to,awish.pro,fc2stream.tv,sub123.xyz,leakslove.net,mwish.pro,embedwish.com,javhahaha.us,streamvid.top,playertv.net,sbrity.com,doodporn.xyz,mycloud123.top,streamsb.click,streamxxx.online,trafficdepot.re,sblona.com,filelions.*,ahvsh.com,sbrapid.com,streaamss.com,louishide.com,projectfreetv.lol,streamwish.to,lvturbo.com,javb1.com,sbface.com,rbtstream.info,vidgo.top,sbhight.com,sbbrisk.com,streamhide.to,cloudrls.com,mm9846.com,streamm4u.club,sbchill.com,fbjav.com,imfb.xyz,sbrulz.xyz,baldrfilms.xyz,javbigo.xyz,dizivap.*,dvapizle.*,sblongvu.com,mavavid.com,fembed9hd.com,xsub.cc,sbthe.com,sbanh.com,mm9844.*,anigogo.net,faptiti.com,javsubbed.xyz,sblanh.com,av4asia.com,playerjavseen.com,pornhubed.com,streamsss.net,sbspeed.com,vcdn-stream.xyz,vanfem.com,javuncen.xyz,javenglish.me,ssbstream.net,zojav.com,watch-jav-english.live,javpornhd.online,yuamikami.xyz,embed-media.com,obaplayer.xyz,cdn-myhdjav.info,dlmovies.link,watchjavnow.xyz,luxubu.review,nsfwzone.xyz,viplayer.cc,sbfast.com,iframe2videos.xyz,streamas.cloud,jav247.top,viewsb.com,myvideoplayer.monster,cloudemb.com,moviesland.xyz,jvembed.com,javleaked.com,pornhole.club,ndrama.xyz,fembed-hd.com,netflav.com,cutl.xyz,playerjavhd.com,suzihaza.com,embedsb.com,layarkacaxxi.icu,nekolink.site,sbflix.xyz,javhdfree.icu,streamsb.net,rubicstreaming.com,javside.com,gdstream.net,animepl.xyz,watchsb.com,sbplay2.*,hentai4.me,playersb.com,streamabc.xyz,ns21.online,diasfem.com,milfnut.net,pelispop.net,tubesb.com,fplayer.info,mm9842.com,sbplay1.com,javmvp.com,japopav.tv,pelistop.co,vidcloud.*,xxxjaa.xyz,mavplayer.xyz,sbplay.*,sbvideo.net,sbembed4.com,dfmagazine.co.uk,down-paradise.com,embedsito.com,serverf4.org##+js(abort-on-property-read, __Y)
 fdocuments.in##a[href="https://cupdf.com/"] > img
@@ -45097,6 +45100,7 @@ kuyhaa-me.com##.entry-content > center > input[src]
 kuyhaa-me.com,meganei.net##+js(addEventListener-defuser, load, daadb_get_data)
 kwejk.pl#$#.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links.adsbygoogle { display: block!important; }
 kwongwah.com.my##.kp-adv-widget
+kwoo50.icu##div.mod:has(.biaoti)
 kxdw.com###downloadTop
 kxgdyw.com##a[ontouchstart='this.click();']
 kxgdyw.com##img[src*='88/center']
@@ -63025,6 +63029,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=noop.txt,domain=zertalious.xyz
 .com/Public/js/duileft.js
 .com/Public/js/duiright.js
 .com/Runtime/js/psCreat.js
+.com/VVAvcnms/$third-party
 .com/aS/feedclick?s=$all,match-case
 .com/a_d/
 .com/ablck/250-300/
@@ -70640,6 +70645,7 @@ zle.com$script
 ##[name^="google_ads_iframe"]
 ##[onclick*="//xxl.skdvkslkdb.com"]
 ##[onclick*="content.ad/"]
+##[onclick*="https://xxl."][onclick*=".com/bd-"]
 ##[onclick*="trackEvent', 'ad"]
 ##[onclick*='https://i.opiwb.com:']
 ##[onclick*='pypyj.com']
@@ -71003,6 +71009,7 @@ zle.com$script
 ##a[href="極樂夜王"][target="_blank"]
 ##a[href="紳士冒險"][target="_blank"]
 ##a[href="賢者同盟"][target="_blank"]
+##a[href][rel="nofollow"] > img.nature
 ##a[href][style*="overflow:hidden;display:block;"] > img[src$=".gif"][style*="width:100%"]
 ##a[href][style="display:none!important"]
 ##a[href][target="_blank"] > img[id*="GGADIMG"]
@@ -72185,6 +72192,7 @@ zle.com$script
 @@.doubleclick.net^$domain=mcstatic.com
 @@.gif#$domain=b168.net|cnprint.org|direct-link.net|huhupan.com|tgfcer.com|wgun.net
 @@.google-analytics.com%2Fanalytics.js$domain=free.com.tw
+@@.icu/js/gg.js$script,domain=kwoo50.icu
 @@.info/*/*/comm*.js$~third-party
 @@.info/*/*zepto*.js$~third-party
 @@.info/*/comm*.js$~third-party
@@ -77503,6 +77511,8 @@ hdblog.it#@#[id^="banner"]
 hdblog.it#@#a[href^="https://www.amazon."][href*="tag="]
 healthline.com#@#div.css-0 > div[class]:not([id])
 help.xunlei.com#@#.a_fr
+hentaicomic.ru,wnacg.com#@#.Flagrow-Ads-under-header
+hentaicomic.ru,wnacg.com#@#.pcd_ad
 hflight.net#@#.ipsAd
 hgh14x.com#@#.adlist
 hibox.hinet.net#@#.adarea
@@ -77887,7 +77897,6 @@ weiyun.com#@#.page-share
 weiyun.com#@#.page-share-box
 wenku8.net#@##adtop
 wenxuecity.com#@#.otherposts
-wnacg.com#@#.Flagrow-Ads-under-header
 wnacg.com#@#.RMss1
 wnacg.com#@#.Text-Advertising
 wnacg.com#@#.a_ssk_cn
@@ -77895,7 +77904,6 @@ wnacg.com#@#.a_xsfl
 wnacg.com#@#.ctm_ad
 wnacg.com#@#.ff-ads
 wnacg.com#@#.hlol_ad
-wnacg.com#@#.pcd_ad
 womenoftrek.com#@#iframe[width="468"][height="60"]
 workercn.cn#@#.ad_main
 world.huanqiu.com#@#.ad_all
