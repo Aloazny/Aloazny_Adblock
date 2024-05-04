@@ -35,7 +35,7 @@ body:
     validations:
       required: true
 
-  - type: input
+  - type: textarea
     id: blocklistothers
     attributes:
       label: 在这里输入你所使用的其他规则
@@ -43,6 +43,13 @@ body:
         如果上面没有选择其他规则可以忽略
     validations:
       required: false
+
+- type: textarea
+  id: adblock-rules
+  attributes:
+    label: Adblock Rules
+    description: Please copy and paste your Adblock rules here. Format them as you would in an Adblock filter list.
+    render: yaml
 
   - type: textarea
     id: content
