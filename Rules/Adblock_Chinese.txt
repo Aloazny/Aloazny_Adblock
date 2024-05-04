@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: Rg6Atve2kbE3q2ngdnHRJw
+! Checksum: xFUqrwaR2QcstO6AmxU1lg
 ! Title: Aloazny Chinese fiter
-! Version: 20240504100216
+! Version: 20240504162744
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-05-04 10:02:16
-! Total Count: 40857
-! Blocked Filters: 40857
+! Last modified: 2024-05-04 16:27:44
+! Total Count: 40865
+! Blocked Filters: 40865
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -9507,6 +9507,7 @@
 ||mengte.top^
 ||mephimnhat.com/vast*.xml
 ||meqanhm.icu^
+||mercor.cn^
 ||merqieth.com^
 ||merwds.qwuidbn.com^$third-party
 ||merywf.xyz^
@@ -11480,6 +11481,7 @@
 ||qweasd.vip^
 ||qweewq2021.online^
 ||qwer220.cn^
+||qwerioy.top^
 ||qwertyuadf.com^
 ||qwesaz.com^
 ||qwfbiujsknjk.com^
@@ -15029,6 +15031,7 @@
 ||xs.dmzj.com^
 ||xs.houyi.baofeng.net^
 ||xsbdj6.com^
+||xsbiquge.la/js/detail.js
 ||xsfajf.xyz^
 ||xsjh001.xyz^
 ||xstt5.com/skin/v3/js/dibu.js
@@ -15141,6 +15144,7 @@
 ||xznizrhd.xyz^
 ||xzrhvv.xyz^
 ||xzvahr.xyz^
+||xzvhyx.com^
 ||xzxforn.xyz^
 ||xzxhpcdz.icu^
 ||y.21haodianmt.com^$third-party
@@ -36416,6 +36420,7 @@ zle.com$script
 ##.itopbar + .container
 ##.j-cctv-click
 ##.jav-nav + .bcpic
+##.jav-nav + .bcpic2
 ##.jingqun_tu
 ##.jq_infoflow_ad_wrap
 ##.jq_mediav_ad_report
@@ -39766,6 +39771,7 @@ zle.com$script
 @@||cq.qq.com/js/cody/*scroll_ad.js
 @@||crackedresource.com^$generichide
 @@||cre.dp.sina.cn^
+@@||creaders.net^$generichide
 @@||create.jd.com/ad/
 @@||cruisecenter.com.tw/data/ad/
 @@||csdn.net/static/static/js/apps/popShow.js
@@ -39952,6 +39958,7 @@ zle.com$script
 @@||googletagmanager.com/gtag/js?id=$domain=av01.tv
 @@||googletagmanager.com/gtm.js$domain=asus.com.cn|mamibuy.com.tw|support.amd.com|warnermusic.com.tw
 @@||googletagservices.com/tag/js/gpt.js$domain=koigaku.machicon.jp|tvb.com|ukr.net|www.gamer.com.tw
+@@||googletagservices.com^$script,domain=creaders.net
 @@||gooogle.how^$generichide
 @@||gov.cn/scripts/Comm/AdRotator.js
 @@||grattable.com/blogads.css
@@ -40277,6 +40284,7 @@ zle.com$script
 @@||ptitchef.com/js/ads.js
 @@||pttplay.com/js/momo/adsbygoogle.js
 @@||pub.alimama.com/common/adzone/
+@@||pub.network^$script,domain=creaders.net
 @@||pubads.g.doubleclick.net/activity;$domain=15min.lt
 @@||pubads.g.doubleclick.net/gampad/ads?*&description_url=https%3A%2F%2Fani.gamer.com.tw$domain=imasdk.googleapis.com
 @@||pubads.g.doubleclick.net/gampad/ads?ad_rule=0&d_imp=1&gdfp_req=1&impl=ifr$domain=youtube.com

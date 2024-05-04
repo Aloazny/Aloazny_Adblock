@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 4hCJltDtQq8l1HrDp8Z6HA
+! Checksum: qKWM6mcNIN9VE/82z22X0Q
 ! Title: Aloazny Mobile fiter
-! Version: 20240504100345
+! Version: 20240504162915
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-05-04 10:03:45
-! Total Count: 77903
-! Blocked Filters: 77903
+! Last modified: 2024-05-04 16:29:15
+! Total Count: 77911
+! Blocked Filters: 77911
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -15982,6 +15982,7 @@
 ||mepirtedic.com^$third-party
 ||meqanhm.icu^
 ||mercadojobs.com/GpoJoboAC/getAjaxA
+||mercor.cn^
 ||mercurial.cointelegraph.com^$xmlhttprequest
 ||mercury.akamaized.net/v/*.mp4$domain=jiocinema.com
 ||merqieth.com^
@@ -19252,6 +19253,7 @@
 ||qweasd.vip^
 ||qweewq2021.online^
 ||qwer220.cn^
+||qwerioy.top^
 ||qwertty.net/templates/kinowa/js/open-single.js
 ||qwertyuadf.com^
 ||qwesaz.com^
@@ -26030,6 +26032,7 @@
 ||xs.odesschemes.com^
 ||xs213.javgg.club^
 ||xsbdj6.com^
+||xsbiquge.la/js/detail.js
 ||xserve.zapurl.cc^
 ||xsfajf.xyz^
 ||xsjh001.xyz^
@@ -26207,6 +26210,7 @@
 ||xzrhvv.xyz^
 ||xzvahr.xyz^
 ||xzvdfjp.com^
+||xzvhyx.com^
 ||xzxforn.xyz^
 ||xzxhpcdz.icu^
 ||y.21haodianmt.com^$third-party
@@ -69550,6 +69554,7 @@ zle.com$script
 ##.itopbar + .container
 ##.j-cctv-click
 ##.jav-nav + .bcpic
+##.jav-nav + .bcpic2
 ##.jetblocker-wrapper
 ##.jetblocker_overlay
 ##.jingqun_tu
@@ -73976,6 +73981,7 @@ zle.com$script
 @@||crazygames.com/prebid.js$script,~third-party
 @@||crbmpurga.ru/files/files/ads/$image
 @@||cre.dp.sina.cn^
+@@||creaders.net^$generichide
 @@||create.jd.com/ad/
 @@||creative.wwwpromoter.com/*.js?d=300x250$script,domain=hdmoviezone.net
 @@||creative.wwwpromoter.com/*.js?d=728x90$script,domain=hdmoviezone.net
@@ -74618,6 +74624,7 @@ zle.com$script
 @@||googletagservices.com/tag/js/gpt.js$script,domain=financemonk.net|rtxkeeda.com|houseofblogger.com|dropgalaxy.com|djxmaza.in|miuiflash.com|thecubexguide.com|jytechs.in
 @@||googletagservices.com/tag/js/gpt.js?ad_tag=$domain=clipmyhorse.tv
 @@||googletagservices.com/tag/js/gpt_mobile.js$domain=www.vulture.com
+@@||googletagservices.com^$script,domain=creaders.net
 @@||googleusercontent.com^$media,domain=kimcartoon.to
 @@||googlevideo.com/videoplayback/*dclk_video_ads$domain=10play.com.au
 @@||gooogle.how^$generichide
@@ -75836,6 +75843,7 @@ zle.com$script
 @@||pub.doubleverify.com/dvtag/signals/*/pub.json$domain=ladbible.com|unilad.com|unilad.co.uk|gamingbible.com|tyla.com|sportbible.com
 @@||pub.doubleverify.com/signals/pub.js$domain=ladbible.com|unilad.com|unilad.co.uk|gamingbible.com|tyla.com|sportbible.com
 @@||pub.doubleverify.com/signals/pub.json$domain=ladbible.com|unilad.com|unilad.co.uk|gamingbible.com|tyla.com|sportbible.com
+@@||pub.network^$script,domain=creaders.net
 @@||pub.pixels.ai/prebid_standard.js$domain=standard.co.uk
 @@||pub.pixels.ai/wrap-independent-prebid-lib.js$domain=independent.co.uk
 @@||pubads.g.doubleclick.net/activity;$domain=15min.lt
