@@ -35,7 +35,7 @@ body:
     validations:
       required: true
 
-  - type: textarea
+  - type: input
     id: blocklistothers
     attributes:
       label: 在这里输入你所使用的其他规则
