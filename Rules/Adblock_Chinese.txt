@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 9Rqj93MeZH+57MvTTXPczA
+! Checksum: lo2ITNKcUP94dQK6EVZLnA
 ! Title: Aloazny Chinese fiter
-! Version: 20240505162629
+! Version: 20240506003112
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-05-05 16:26:29
-! Total Count: 38744
-! Blocked Filters: 38744
+! Last modified: 2024-05-06 00:31:12
+! Total Count: 38755
+! Blocked Filters: 38755
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -868,6 +868,7 @@
 ||54new.com*/da/
 ||55555555555.xyz^
 ||555bbb333bbb.com^
+||555bbb555www.com^
 ||5588.tv/js/piaofuImg.js
 ||5598tp.com^$domain=9xav.cc
 ||55sky.com/js/diecuo/
@@ -4167,6 +4168,7 @@
 ||conqueredallrightswell.com^$~third-party
 ||content-settings.com^$third-party
 ||contextualadv.com^
+||cooann.top^
 ||coolaler.com/index_ads/
 ||coolpc.com.tw/home/img/right2.html
 ||coolpc.com.tw/img/topweb.html
@@ -9509,6 +9511,7 @@
 ||mengbli.com^
 ||mengte.top^
 ||mephimnhat.com/vast*.xml
+||mepupr486.top^
 ||meqanhm.icu^
 ||mercor.cn^
 ||merqieth.com^
@@ -10539,6 +10542,7 @@
 ||oslbahk.top^
 ||osnignsk.xyz^
 ||oss-ap-southeast-1.aliyuncs.com/js/copy.js
+||oss-cn-beijing.aliyuncs.com/llv3/*.js$third-party
 ||oss-cn-shanghai.aliyuncs.com/feimobileA.js
 ||ossfile001.com^
 ||ostjpig.cn^
@@ -17190,7 +17194,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 52ch.net##div[style^="margin-top:5px; height:60px;"]
 52che.com##a[href^="http://count.52che.com/goto.html?"]
 52fx.cn##.nex_index_top_ads
-52fzwg.com,79tao.com,hqol.cn,icabbs.com,k7d.com,kxdao.net,mcncc.com,sunwy.org,twunbbs.com,wnflb.com,wnflb2023.com,wnflb66.com,xkeba.com,zn501.cc##.GzList
+52fzwg.com,79tao.com,hqol.cn,icabbs.com,k7d.com,kxdao.net,mcncc.com,sunwy.org,twunbbs.com,wnflb.com,wnflb2023.com,wnflb66.com,xkeba.com,zn502.cc##.GzList
 52kd.com###frame2cu3VU
 52life.cc##table[style="margin-top:0"]
 52movieba.com,acg18.us,acgbuster.com,acglala.cc,acglala.me,acglala.net,ainuody.com,awaker.cn,bimiacg4.net,bimiacg5.net,cangku.in,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dm1080p.com,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gaoqingkong.com,gmgard.com,halihali.tv,haochi123.com,hcomic.in,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,hmog.me,htcui.com,huan.moe,idanmu.at,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,jobbole.com,kelatv.com,kisssub.org,languang.co,liuli.pw,llss.bz,moe-acg.cc,moe-acg.us,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,touchgal.org,toutiao.com,uraban.me,whsir.com,xxshe.info,xxshe.xyz,youku.com,zimuzu.tv##a[href*=".taobao.com"]
@@ -17600,6 +17604,7 @@ abjav.com,aniporn.com##.header__item
 ablesci.com##.able-container-body-right > div.fly-panel:has(> div[style="text-align: center; padding: 5px"] > img[src$="-alipay-hongbao.png"])
 ablesci.com##.fly-panel img[src*="-alipay-autumn-hongbao.png"]
 ablesci.com#?#.able-container-body-right > .fly-panel:has(> div > img[src*="-alipay-autumn-hongbao.png"])
+ablesci.com#?#.fly-panel:-abp-has(img[src*="-hongbao."])
 abmedia.io###block-12
 abmedia.io##.pum
 abmedia.io##a[href^="https://ace.io/"]
@@ -22413,6 +22418,7 @@ huya.com###ggcomment
 huya.com###huya-ab
 huya.com###huya-ab-fixed
 huya.com###template
+huya.com##.end-ab-banner
 huya.com##.end-ab-wrap
 huya.com##.j_posterItem[href^="http"]:not([href*=".huya."])
 huya.com##.nav-expand-list #J_tt_hd_category_ad
@@ -23990,6 +23996,7 @@ lzacg.one##.content-layout .zib-widget > .textwidget > a[target="blank"]
 lzacg.one##.sidebar .zib-widget > .textwidget > a[target="blank"]
 lzacg.one#?#.content-layout .zib-widget:has(> .textwidget:only-child > a[target="blank"])
 lzacg.one#?#.sidebar .zib-widget:has(> .textwidget:only-child > a[target="blank"])
+lzcfz2.com##body > .cl.wp
 lzcfz2.com##body > div.wp.cl
 lzdcctv.cn##.ac_pc
 lzdcctv.cn##.focusmo + table
@@ -30362,8 +30369,8 @@ zmovs.com#$#body { position: inherit!important; }
 zmovs.com#?#.player-spot__title:contains(Advertisement)
 zmz2019.com###float_ad
 zn-ua.cdn.ampproject.org,zn.ua##div[class^="mix_advert_ads_"]
-zn501.cc###klp_hdp
-zn501.cc#?##portal_block_69_content > li:-abp-has(a[href^="http"])
+zn502.cc###klp_hdp
+zn502.cc#?##portal_block_69_content > li:-abp-has(a[href^="http"])
 znak.com##.SVKNative-Widget li[data-unit-type="promo"]
 zockify.de#?#.embed-responsive:has(> .embed-responsive-item > .vm-placement)
 zol.com,m.zol.com.cn##div[class$="-top"]
@@ -31141,6 +31148,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .top:*/vh5/$third-party
 .top:*/waga*.html$document
 .top:*/waga*.html$~third-party
+.top^*-960x80-*.gif
 .tor*/js/jquery.bpopup.
 .tv/js/ads/
 .tv/style/vue.js?v=
@@ -35592,6 +35600,7 @@ zle.com$script
 ##IMG[referrerpolicy='no-referrer'][style='box-sizing: border-box;height:calc(10vh); width:100%;padding: 0px 15px 10px 15px;']
 ##IMG[src$='.dl'][style='width:100% !important;height:90px'][onclick]
 ##IMG[src$='tywheying/vv2-960x80.gif']
+##IMG[src*=".meiyida.tv/"]
 ##IMG[src*='.xyz/tupian/'][src$='/h5.gif']
 ##IMG[src*='//img4.qv1.ru/data/game/']
 ##IMG[src*='/ds3/ssmh/']
@@ -36020,6 +36029,7 @@ zle.com$script
 ##a[href*=".yezere.com/"]
 ##a[href*=".ysmdhk.com/"]
 ##a[href*=".zcxnbj.com/"]
+##a[href*=".zxzja.com/"]
 ##a[href*="//ad.doubleclick.net"]
 ##a[href*="//adclick.g.doubleclick.net"]
 ##a[href*="//adultfriendfinder.com"]
@@ -36876,6 +36886,7 @@ zle.com$script
 ##img[src*="//image.suning.cn/uimg/ZR/share_order"]
 ##img[src*="//tupian888.bj.bcebos.com/"]
 ##img[src*="//upliadli.yingxuguoji.xyz/images"][src$=".txt"]
+##img[src*="/?url=https://imgsrc.baidu.com/forum/pic/item/"]
 ##img[src*="/Ayi-GG"]
 ##img[src*="/advertise/"]
 ##img[src*="/gg/"][src$=".gif"]

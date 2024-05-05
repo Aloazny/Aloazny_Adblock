@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: HKSaF/s1K4upuYsepqnt7Q
+! Checksum: ErnA9YDTVxSfTp3jf1i++A
 ! Title: Aloazny attach fiter
-! Version: 20240505162611
+! Version: 20240506003053
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-05-05 16:26:11
-! Total Count: 13676
-! Blocked Filters: 13676
+! Last modified: 2024-05-06 00:30:53
+! Total Count: 13678
+! Blocked Filters: 13678
 ! Description: 合并混合规则的补充规则，轻量规则，可作为补充规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -3341,6 +3341,7 @@
 ||osancik.top^
 ||oslbahk.top^
 ||osnignsk.xyz^
+||oss-cn-beijing.aliyuncs.com/llv3/*.js$third-party
 ||ossfile001.com^
 ||otienlk.top^
 ||oueia.xyz^
@@ -13299,6 +13300,7 @@ zle.com$script
 ##img[src*="//image.suning.cn/uimg/ZR/share_order"]
 ##img[src*="//tupian888.bj.bcebos.com/"]
 ##img[src*="//upliadli.yingxuguoji.xyz/images"][src$=".txt"]
+##img[src*="/?url=https://imgsrc.baidu.com/forum/pic/item/"]
 ##img[src*="/Ayi-GG"]
 ##img[src*="/advertise/"]
 ##img[src*="/gg/"][src$=".gif"]
