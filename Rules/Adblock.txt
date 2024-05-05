@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: kPLDb6X6ckNvvZem6g14fg
+! Checksum: 9VDSH19ch40kw55Brri5qw
 ! Title: Aloazny Mobile fiter
-! Version: 20240505003109
+! Version: 20240505101826
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-05-05 00:31:09
-! Total Count: 77919
-! Blocked Filters: 77919
+! Last modified: 2024-05-05 10:18:26
+! Total Count: 77915
+! Blocked Filters: 77915
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -16170,6 +16170,7 @@
 ||mlegyu.xyz^
 ||mlhdvjv.xyz^
 ||mlhtr.cn^
+||mlicci.xyz^
 ||mlog.aipai.com^
 ||mlstx.cn^
 ||mltmjevd.xyz^
@@ -26981,6 +26982,7 @@
 ||zeti.com^$third-party
 ||zetporn.com/*/custom_vast/$xmlhttprequest
 ||zetporn.com/LQMDQSMLDAZAEHERE/
+||zeuqmpe.icu^
 ||zeusnews.it/antiadb.js
 ||zevbzn.xyz^
 ||zevera.com/*.swf$third-party
@@ -27280,6 +27282,7 @@
 ||zvtnj.icu^
 ||zvvg678.xyz^
 ||zw.cacajaoarmfuls.com^
+||zwdtvx.xyz^
 ||zwdu.com/getuserinfo.php
 ||zwfkxb.xyz^
 ||zwjaoni.cn^
@@ -27294,6 +27297,7 @@
 ||zxpgfl.xyz^
 ||zxptw.cn^$third-party
 ||zxpvalr.xyz^
+||zxqiwe.cn^
 ||zxrcfw.com^
 ||zxsnllo.cn^
 ||zxw51.com^$third-party
@@ -70089,14 +70093,6 @@ zle.com$script
 ##.svg-adblock-full
 ##.svg-adblock-full--box
 ##.svg-icon + #player_pause
-##.swiper-android > .swiper-wrapper > .swiper-slide[style*="width: 387px;"]
-##.swiper-android > .swiper-wrapper > .swiper-slide[style*="width: 407px;"]
-##.swiper-container-android > .swiper-wrapper > .swiper-slide[style*="width: 387px;"]
-##.swiper-container-android > .swiper-wrapper > .swiper-slide[style*="width: 407px;"]
-##.swiper-container-ios > .swiper-wrapper > .swiper-slide[style*="width: 387px;"]
-##.swiper-container-ios > .swiper-wrapper > .swiper-slide[style*="width: 407px;"]
-##.swiper-ios > .swiper-wrapper > .swiper-slide[style*="width: 387px;"]
-##.swiper-ios > .swiper-wrapper > .swiper-slide[style*="width: 407px;"]
 ##.swiper-wrapper.gpwggaoh
 ##.swipercctv
 ##.sxAdBox
