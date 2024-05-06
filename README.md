@@ -1,35 +1,30 @@
 # Aloazny 自用规则
-### 自动更新(2024-05-06 16:31:13)
+### 自动更新(2024-05-06 21:26:40)
 
 > ### 补充规则
-- #### GITHUB链接
-```
-https://raw.githubusercontent.com/Aloazny/Aloazny_Adblock/main/Rules/Adblock_attach.txt
-```
-- #### Gitlink链接
-```
-https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_attach.txt?ref=main
-```
+<details>
+<summary>点击查看补充规则订阅链接</summary>
+<li> <a href="https://raw.githubusercontent.com/Aloazny/Aloazny_Adblock/main/Rules/Adblock_attach.txt" target="_blank" > GITHUB链接 </a> </li>
+<li> <a href="https://raw.gimirror.com/Aloazny/Aloazny_Adblock/main/Rules/Adblock_attach.txt" > Git加速订阅链接 </a> </li>
+<li> <a href="https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_attach.txt?ref=main" target="_blank" > Gitlink订阅链接 </a> </li>
+</details>
 
 > ### 中文规则
-- #### GITHUB链接
-```
-https://raw.githubusercontent.com/Aloazny/Aloazny_Adblock/main/Rules/Adblock_Chinese.txt
-```
-- #### Gitlink链接
-```
-https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
-```
+<details>
+<summary>点击查看中文规则订阅链接</summary>
+<li> <a href="https://raw.githubusercontent.com/Aloazny/Aloazny_Adblock/main/Rules/Adblock_Chinese.txt" target="_blank" > GITHUB链接 </a> </li>
+<li> <a href="https://raw.gimirror.com/Aloazny/Aloazny_Adblock/main/Rules/Adblock_Chinese.txt" > Git加速订阅链接 </a> </li>
+<li> <a href="https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main" target="_blank" > Gitlink订阅链接 </a> </li>
+</details>
 
 > ### 移动端规则
-- #### GITHUB链接
-```
-https://raw.githubusercontent.com/Aloazny/Aloazny_Adblock/main/Rules/Adblock.txt
-```
-- #### Gitlink链接
-```
-https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock.txt?ref=main
-```
+<details>
+<summary>点击查看移动端规则订阅链接</summary>
+<li> <a href="https://raw.githubusercontent.com/Aloazny/Aloazny_Adblock/main/Rules/Adblock.txt" target="_blank" > GITHUB链接 </a> </li>
+<li> <a href="https://raw.gimirror.com/Aloazny/Aloazny_Adblock/main/Rules/Adblock.txt" > Git加速订阅链接 </a> </li>
+<li> <a href="https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock.txt?ref=main" target="_blank" > Gitlink订阅链接 </a> </li>
+</details>
+
 
 ### 上游规则
 #### 感谢各位大佬❤ (ɔˆз(ˆ⌣ˆc)
