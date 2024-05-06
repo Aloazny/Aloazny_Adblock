@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: y1F5XT95WrPhdjO0tZmW+Q
+! Checksum: QPb6QZD7sz6bUi0VkbWA+Q
 ! Title: Aloazny Chinese fiter
-! Version: 20240506212515
+! Version: 20240507010714
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-05-06 21:25:15
-! Total Count: 37064
-! Blocked Filters: 37064
+! Last modified: 2024-05-07 01:07:14
+! Total Count: 37087
+! Blocked Filters: 37087
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -13329,6 +13329,7 @@
 ||twinrdsrv.com$xmlhttprequest,third-party
 ||twinrdsrv.com^$document
 ||twinrdsrv.com^$~third-party
+||twinredads.com^$third-party
 ||twj6s.icu^
 ||twjsx.cn^
 ||twlcyc.cn^
@@ -14672,6 +14673,7 @@
 ||xghylt.com/api.php?mod=ad&adid=
 ||xgjidt.xyz^
 ||xgrcfz.xyz^
+||xgroovy.com/rtb2.php?$third-party
 ||xgzdys.com^
 ||xh33g.net^
 ||xhbheroq.xyz^
@@ -21395,7 +21397,6 @@ haoxxoo.com##.nrad2
 happy-travel.jp##.t
 happymag.tv###site-leader
 happymh.com##[src="https://c.nationaltcm.com/ad/tm1111dd.png"]
-hatena.blog##.globalPage-ad
 hatena.ne.jp,hateblo.jp,hatenablog.*,hatenadiary.*##.variable-rectangle-ad
 hatimitukarupisu.blogterest.net##.clickclick
 haus.de##a[href*="?utm_campaign"][target="_blank"]
@@ -22647,6 +22648,7 @@ jiuse.io##main .jsv
 jiyingdm.com###otherWindowBox
 jiyingdm.com##.abcde
 jiyingw.vip##div[style="text-align:center"] > a > img
+jizzberry.com,xgroovy.com,xxxshake.com##.in.is_mobile
 jizzoncam.com,camwhores.video,moreamateurs.com,faptor.com,pornachi.com,porndude.wtf,orgazmax.com,pornwex.tv,pornfd.com,area51.porn,pornrabbit.com,milf-porn.xxx,sextaped.com,pornxpert.com,perverttube.com,fapnow.xxx,epicgfs.com,scatkings.com,pornflix.to,xbjav.com,heavyfetish.com,tabootube.xxx,amateur8.com,maturetubehere.com,crazyporn.xxx,pornissimo.org,lesbian8.com,enf-cmnf.com,filtercams.com,bigassporn.tv,porn00.org,keekass.com,fuckit.cc,camwhoresbay.com,camwhoreshd.com##.block-video > div.table
 jj-jj.net###main > div[style="text-align:center;"] > div[style="display:inline-block;margin:20px 0;"]
 jj-jj.net##.ad_sp_center
@@ -25584,6 +25586,8 @@ pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com,spankbang.party##[style*="blob:"]
 pornhub.com,redtube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com,youporngay.com##[style*="blob:"]:not(video)
 pornhub.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporngay.com##img[src*="blob:" i]:not(video)
+pornlib.com###spot_video_livecams
+pornlib.com##.spot:has(script[src*="/ad-provider.js"])
 pornlulu.com##.row.links
 pornodiamant.com##.sticky-banner
 pornone.com##div[class^="flex-initial"]
@@ -28339,11 +28343,12 @@ xgan.cn##a[href^="https://www.jspp9.xyz"]
 xgan.cn##body > center > a[target="_blank"][rel="nofollow"]
 xgrb.cn##.d_2016_ggw
 xgroovy.com##.adsbyexoclick
+xgroovy.com##.fluid-b
 xgroovy.com##.fluid_ad_cta
 xgroovy.com##[class^="fluid-b"]
 xgroovy.com##[class^="headA"],[class^="headC"]
-xgroovy.com##div[class^="in is_mobile"]
-xgroovy.com,xxxshake.com,jizzberry.com##.in.is_mobile
+xgroovy.com##[class^="jsm-"]
+xgroovy.com##div[id^="head"]:has(.adsbyexoclick)
 xgw5.com###app-card-list
 xgw5.com##div[style="z-index:10;margin-bottom: 10px;margin-top:10px"]
 xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhadult2.com,xhmoon5.com,xhamster3.com,xhamster18.desi,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.com,xhamster14.com,xhamster15.com,xhamster17.com,xhamster18.com,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##.thumb-list-mobile-item:has(> amp-iframe)
@@ -31107,11 +31112,27 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 /red2/ad/*
 /redbaiduct.com?s=
 /redbaiduct.com?s=$third-party
+/redirect/?spot_id=
+/redirect?tid=
+/redirect_awe.
+/redpop_ads/*
+/refads/*
+/refreshads-
+/reklam-ads2.
 /release100009ts?$script,third-party
 /remix_banner.gif
 /res/kj/hf*.js?v=
 /resource/common/tongzhuo/game_info.json
 /resource?zones=$domain=pornpics.com|pornpics.de
+/resources/ads/*
+/resources/ads_
+/responsive-ad-
+/responsive-ads.
+/responsive/ad_
+/responsive_ads.
+/responsive_ads.js
+/responsive_dfp.
+/responsive_dfp_
 /rs/js/temp_1.js$script,third-party
 /rs/shto/*?n=*&p=false&t=16$third-party
 /runtime/ad/*
@@ -32935,7 +32956,6 @@ zle.com$script
 ##.california-sticky-footer-ad-container
 ##.callApp_fl_btn[onclick^="open_app"]
 ##.cari-ads
-##.cc5278_banner_ad
 ##.cctv_banner_dv
 ##.center-div.sponsor
 ##.centerAd
@@ -35307,6 +35327,7 @@ zle.com$script
 ##iframe[src^="https://vidsservices.space/"]
 ##iframe[style$="margin: auto 0px !important; padding: 0px; border: none; outline: none; box-sizing: border-box; position: fixed; color-scheme: none; inset: 0px 0px 0px auto !important; overflow: hidden; z-index: 2147483647;"]
 ##iframe[style^="width: 100% !important; height: 100% !important; margin: 0px; padding: 0px; border: none; outline: none; box-sizing: border-box; position: fixed; color-scheme: none; inset: 0px; overflow: hidden; z-index: 21474"]
+##iframe[title="Advertisement"]
 ##iframe[width="0"][height="0"]
 ##iframe[width="100%"][height="120"]
 ##iframe[width="100%"][height="90"]
@@ -36302,7 +36323,9 @@ zle.com$script
 @@||hao123img.com/resource/zt/widget/service/util/clickTrack.
 @@||haokoubei.top/sz/tos_v_f.js
 @@||haoweichi.com/Public/js/ads.js
+@@||hboav.com/guga/ads.js
 @@||hboav.com/guga/adss.js
+@@||hboav.com/guga/images/20201021.jpg
 @@||hboav.com/js/wlfloat.js
 @@||hbu.cn^*/ad.css?$stylesheet
 @@||hc360.com/ad/*.css

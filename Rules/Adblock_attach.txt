@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: I20Cv14Wn0qQ8cuzCcdpBQ
+! Checksum: yZFaUNzjAR6zr+XYoeRo3Q
 ! Title: Aloazny attach fiter
-! Version: 20240506212457
+! Version: 20240507010657
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-05-06 21:24:57
-! Total Count: 13674
-! Blocked Filters: 13674
+! Last modified: 2024-05-07 01:06:57
+! Total Count: 13698
+! Blocked Filters: 13698
 ! Description: 合并混合规则的补充规则，轻量规则，可作为补充规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -4417,6 +4417,7 @@
 ||twinrdsrv.com$xmlhttprequest,third-party
 ||twinrdsrv.com^$document
 ||twinrdsrv.com^$~third-party
+||twinredads.com^$third-party
 ||twjsx.cn^
 ||twlcyc.cn^
 ||twqtf.boats^
@@ -4963,6 +4964,7 @@
 ||xfgctg.com^
 ||xflsj.com^
 ||xfztgxt.com^
+||xgroovy.com/rtb2.php?$third-party
 ||xgzdys.com^
 ||xheqbc.cn^
 ||xhiit0n.xyz^
@@ -7599,6 +7601,8 @@ pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,spankbang.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com,spankbang.party##[style*="blob:"]
 pornhub.com,redtube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com,youporngay.com##[style*="blob:"]:not(video)
 pornhub.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporngay.com##img[src*="blob:" i]:not(video)
+pornlib.com###spot_video_livecams
+pornlib.com##.spot:has(script[src*="/ad-provider.js"])
 pornpics.com,pornpics.de##.ad-text
 pornpics.com,pornpics.de##.adss-mob
 pornpics.com,pornpics.de##.r-frame
@@ -8385,10 +8389,13 @@ xdingdiann.com##a[href*="biqudu.la"]
 xdingdiann.com##div[onclick*="window"]
 xfami.com##div[id="hgf8898"]
 xgroovy.com##.adsbyexoclick
+xgroovy.com##.fluid-b
 xgroovy.com##.fluid_ad_cta
+xgroovy.com##.in.is_mobile
 xgroovy.com##[class^="fluid-b"]
 xgroovy.com##[class^="headA"],[class^="headC"]
-xgroovy.com##div[class^="in is_mobile"]
+xgroovy.com##[class^="jsm-"]
+xgroovy.com##div[id^="head"]:has(.adsbyexoclick)
 xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhadult2.com,xhmoon5.com,xhamster3.com,xhamster18.desi,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.com,xhamster14.com,xhamster15.com,xhamster17.com,xhamster18.com,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##.thumb-list-mobile-item:has(> amp-iframe)
 xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##.main-wrap > aside:has(> div.yxd-j > div.yxd-jcams-widget)
 xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##.main-wrap div.yxd-j:has(div.yxd-jcams-widget)
@@ -10097,7 +10104,23 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 /popup/adblocker
 /redbaiduct.com?s=
 /redbaiduct.com?s=$third-party
+/redirect/?spot_id=
+/redirect?tid=
+/redirect_awe.
+/redpop_ads/*
+/refads/*
+/refreshads-
+/reklam-ads2.
 /resource?zones=$domain=pornpics.com|pornpics.de
+/resources/ads/*
+/resources/ads_
+/responsive-ad-
+/responsive-ads.
+/responsive/ad_
+/responsive_ads.
+/responsive_ads.js
+/responsive_dfp.
+/responsive_dfp_
 /rs/js/temp_1.js$script,third-party
 /rs/shto/*?n=*&p=false&t=16$third-party
 /sad3.js?$third-party
@@ -13206,6 +13229,7 @@ zle.com$script
 ##iframe[src^="https://vidsservices.space/"]
 ##iframe[style$="margin: auto 0px !important; padding: 0px; border: none; outline: none; box-sizing: border-box; position: fixed; color-scheme: none; inset: 0px 0px 0px auto !important; overflow: hidden; z-index: 2147483647;"]
 ##iframe[style^="width: 100% !important; height: 100% !important; margin: 0px; padding: 0px; border: none; outline: none; box-sizing: border-box; position: fixed; color-scheme: none; inset: 0px; overflow: hidden; z-index: 21474"]
+##iframe[title="Advertisement"]
 ##iframe[width="0"][height="0"]
 ##iframe[width="100%"][height="120"]
 ##iframe[width="100%"][height="90"]
