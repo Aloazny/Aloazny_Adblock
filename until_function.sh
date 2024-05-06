@@ -388,7 +388,7 @@ done
 function lite_Uadblock_Rules(){
 local file="${1}"
 test ! -f "${file}" && return
-local lite_content="$(cat ${file} | grep -Ev '\$\$|\$@\$|#\%#|#\@\%#|#\@\$\?#|#\$\?#|#\%#\/\/scriptlet|\$dnsrewrite=|\,replace=|:-abp-properties|:matches-attr|:matches-property|:nth-ancestor' | sort | uniq)"
+local lite_content="$(cat ${file} | grep -Ev '\$\$|\$@\$|#\%#|#\@\%#|#\@\$\?#|#\$\?#|#\%#\/\/scriptlet|\$dnsrewrite=|redirect=|\,replace=|redirect-rule=|\,badfilter\,|\$generichide|\,generichide\,|\,generichide$|\$important|\,important\,|\,important$|\$empty|\,empty\,|\,empty$|\$popup|\,popup\,|\,popup$|\$media|\,media\,|\,media$|\$object-subrequest|\$~object-subrequest|\$csp|\,csp=|:-abp-properties|:matches-attr|:matches-property|:nth-ancestor|\:matches-path' | sort | uniq)"
 echo "${lite_content}" > "${file}"
 }
 
