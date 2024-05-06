@@ -34,6 +34,7 @@ cp -rf "${Download_Folder}/其他.txt" "${Sort_Folder}/enhance"
 cp -rf "${Download_Folder}/轻量规则.txt" "${Sort_Folder}/enhance"
 #合并文件
 Combine_adblock_original_file "${Rules_Folder}/Adblock_attach.txt" "${Sort_Folder}/enhance"
+lite_Adblock_Rules "${Rules_Folder}/Adblock_attach.txt"
 #净化去重规则
 modtify_adblock_original_file "${Rules_Folder}/Adblock_attach.txt"
 #读取白名单 剔除规则
@@ -44,6 +45,10 @@ fixed_css_white_conflict "${Rules_Folder}/Adblock_attach.txt"
 Running_sort_domain_Combine "${Rules_Folder}/Adblock_attach.txt"
 #去除指定重复的Css
 Running_sort_Css_Combine "${Rules_Folder}/Adblock_attach.txt"
+#去除不必要的CSS扩展选择器
+modtify_adblock_original_file "${Rules_Folder}/Adblock_attach.txt" '\$removeheader|:matches-property|:nth-ancestor|\$removeparam|,removeparam'
+fix_Rules "${Rules_Folder}/Adblock_attach.txt" ':remove\(\)' ''
+fix_Rules "${Rules_Folder}/Adblock_attach.txt" '\{[[:space:]]remove:[[:space:]]true\;[[:space:]]\}' ''
 #再次净化去重
 modtify_adblock_original_file "${Rules_Folder}/Adblock_attach.txt"
 #规则分类
@@ -57,6 +62,7 @@ cp -rf "${Download_Folder}/Adguard_mobile.txt" "${Sort_Folder}/Chinese"
 cp -rf "${Download_Folder}/Adguard_Chinese.txt" "${Sort_Folder}/Chinese"
 #合并文件
 Combine_adblock_original_file "${Rules_Folder}/Adblock_Chinese.txt" "${Sort_Folder}/Chinese"
+lite_Adblock_Rules "${Rules_Folder}/Adblock_Chinese.txt"
 #净化去重规则
 modtify_adblock_original_file "${Rules_Folder}/Adblock_Chinese.txt"
 #读取白名单 剔除规则
@@ -77,8 +83,14 @@ write_head "${Rules_Folder}/Adblock_Chinese.txt" "Aloazny Chinese fiter" "合并
 #处理规则
 cp -rf "${Rules_Folder}/Adblock_Chinese.txt" "${Sort_Folder}/all"
 cp -rf "${Download_Folder}/2_without_easylist.txt" "${Sort_Folder}/all"
+
 #合并文件
 Combine_adblock_original_file "${Rules_Folder}/Adblock.txt" "${Sort_Folder}/all"
+#规则小修
+fix_Rules "${Rules_Folder}/Adblock.txt" ':-abp-contains(' ':has-text('
+fix_Rules "${Rules_Folder}/Adblock.txt" ':-abp-has(' ':has('
+#去除Ublock不支持的规则
+lite_Uadblock_Rules "${Rules_Folder}/Adblock.txt"
 #净化去重规则
 modtify_adblock_original_file "${Rules_Folder}/Adblock.txt"
 #读取白名单 剔除规则

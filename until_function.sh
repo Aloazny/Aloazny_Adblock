@@ -384,6 +384,20 @@ do
 done
 }
 
+#精简规则 去除Ublock不支持的规则
+function lite_Uadblock_Rules(){
+local file="${1}"
+test ! -f "${file}" && return
+local lite_content="$(cat ${file} | grep -Ev '\$\$|\$@\$|#\%#|#\@\%#|#\@\$\?#|#\$\?#|#\%#\/\/scriptlet|\$dnsrewrite=|\,replace=|:-abp-properties|:matches-attr|:matches-property|:nth-ancestor' | sort | uniq)"
+echo "${lite_content}" > "${file}"
+}
+
+#精简规则，剔除Via不支持的规则
+function lite_Adblock_Rules(){
+local file="${1}"
+local lite_content="$(cat ${file} | grep -Ev '#\@\?#|\$\@\$|#\%#|#\@\%#|#\@\$\?#|#\$\?#|#\$#|#\?#|##\+js\(|#\%#\/\/scriptlet|redirect=|\,replace=|redirect-rule=|\$badfilter|\,badfilter$|\,badfilter\,|\$generichide|\,generichide\,|\,generichide$|\$important|\,important\,|\,important$|\$empty|\,empty\,|\,empty$|\$match-case|\,match-case\,|\,match-case$|\$popup|\,popup\,|\,popup$|\$media|\,media\,|\,media$|\$object-subrequest|\$~object-subrequest|\$csp|\,csp=|\,denyallow=|\:matches-path' | sort | uniq)"
+echo "${lite_content}" > "${file}"
+}
 
 #更新README信息
 function update_README_info(){
@@ -394,34 +408,29 @@ cat << key > "${file}"
 ### 自动更新(`date +'%F %T'`)
 
 > ### 补充规则
-- #### GITHUB链接
-\`\`\`
-https://raw.githubusercontent.com/Aloazny/Aloazny_Adblock/main/Rules/Adblock_attach.txt
-\`\`\`
-- #### Gitlink链接
-\`\`\`
-https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_attach.txt?ref=main
-\`\`\`
+<details>
+<summary>点击查看补充规则订阅链接</summary>
+<li> <a href="https://raw.githubusercontent.com/Aloazny/Aloazny_Adblock/main/Rules/Adblock_attach.txt" target="_blank" > GITHUB链接 </a> </li>
+<li> <a href="https://raw.gimirror.com/Aloazny/Aloazny_Adblock/main/Rules/Adblock_attach.txt" > Git加速订阅链接 </a> </li>
+<li> <a href="https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_attach.txt?ref=main" target="_blank" > Gitlink订阅链接 </a> </li>
+</details>
 
 > ### 中文规则
-- #### GITHUB链接
-\`\`\`
-https://raw.githubusercontent.com/Aloazny/Aloazny_Adblock/main/Rules/Adblock_Chinese.txt
-\`\`\`
-- #### Gitlink链接
-\`\`\`
-https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
-\`\`\`
+<details>
+<summary>点击查看中文规则订阅链接</summary>
+<li> <a href="https://raw.githubusercontent.com/Aloazny/Aloazny_Adblock/main/Rules/Adblock_Chinese.txt" target="_blank" > GITHUB链接 </a> </li>
+<li> <a href="https://raw.gimirror.com/Aloazny/Aloazny_Adblock/main/Rules/Adblock_Chinese.txt" > Git加速订阅链接 </a> </li>
+<li> <a href="https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main" target="_blank" > Gitlink订阅链接 </a> </li>
+</details>
 
 > ### 移动端规则
-- #### GITHUB链接
-\`\`\`
-https://raw.githubusercontent.com/Aloazny/Aloazny_Adblock/main/Rules/Adblock.txt
-\`\`\`
-- #### Gitlink链接
-\`\`\`
-https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock.txt?ref=main
-\`\`\`
+<details>
+<summary>点击查看移动端规则订阅链接</summary>
+<li> <a href="https://raw.githubusercontent.com/Aloazny/Aloazny_Adblock/main/Rules/Adblock.txt" target="_blank" > GITHUB链接 </a> </li>
+<li> <a href="https://raw.gimirror.com/Aloazny/Aloazny_Adblock/main/Rules/Adblock.txt" > Git加速订阅链接 </a> </li>
+<li> <a href="https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock.txt?ref=main" target="_blank" > Gitlink订阅链接 </a> </li>
+</details>
+
 
 ### 上游规则
 #### 感谢各位大佬❤ (ɔˆз(ˆ⌣ˆc)
