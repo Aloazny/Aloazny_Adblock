@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: Q4ooe9/q//ySgaPx1EhANA
+! Checksum: Md/tK6qQYaq34M35DPRRwA
 ! Title: Aloazny Mobile fiter
-! Version: 20240506003243
+! Version: 20240506101258
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-05-06 00:32:43
-! Total Count: 75802
-! Blocked Filters: 75802
+! Last modified: 2024-05-06 10:12:58
+! Total Count: 75806
+! Blocked Filters: 75806
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -11992,6 +11992,7 @@
 ||hgads.com^$third-party
 ||hgehse.site^
 ||hgf8hck.com^
+||hgfutf.xyz^
 ||hghjks2.com^
 ||hgiaef.site^
 ||hgiafe.site^
@@ -12339,6 +12340,7 @@
 ||httpwwwdcom.com/js/aaa/
 ||htubzpb.cn^
 ||htvixv.xyz^
+||hty9m.cn^
 ||htyusiu.top^
 ||hu.claspedammu.com^
 ||hu.xxifineer.com^
@@ -22046,6 +22048,7 @@
 ||sxeimg.com/u/20191108/13082210.gif
 ||sxguowei.com^
 ||sxk9m8x.cn^
+||sxoejoc.icu^
 ||sxtnpzd.xyz^
 ||sxundrh.cn^
 ||sxyprn.*/player/p12.js
@@ -26757,6 +26760,7 @@
 ||yxdown.com/cj/
 ||yxdown.com/zt/zt/js/zt.js
 ||yxgfcj.com^$third-party
+||yxgqgq.xyz^
 ||yxhjt.com^
 ||yximgs.com/bs2/adcarsku/sku1563a96c-38ca-4563-a4b5-522208113126.
 ||yximgs.com/bs2/adcarsku/sku9c0e68cc-2f12-4e47-a340-a7293ee88c88.
@@ -68801,7 +68805,6 @@ zle.com$script
 ##IMG[referrerpolicy='no-referrer'][style='box-sizing: border-box;height:calc(10vh); width:100%;padding: 0px 15px 10px 15px;']
 ##IMG[src$='.dl'][style='width:100% !important;height:90px'][onclick]
 ##IMG[src$='tywheying/vv2-960x80.gif']
-##IMG[src*=".meiyida.tv/"]
 ##IMG[src*='.xyz/tupian/'][src$='/h5.gif']
 ##IMG[src*='//img4.qv1.ru/data/game/']
 ##IMG[src*='/ds3/ssmh/']
@@ -70097,6 +70100,7 @@ zle.com$script
 ##img[src*=".c-ctrip.com"][style="width:100%;height:70px;"]
 ##img[src*=".jd.com"][style="width:100%;height:70px;"]
 ##img[src*=".meituan.net"][style="width:100%;height:70px;"]
+##img[src*=".meiyida.tv/"]
 ##img[src*=".qpic.cn"][width="980"][height="80"]
 ##img[src*=".secureserver.net/"][src*=".gif"],img[src*=".secureserver.net/"][src*="960x"],img[src*=".secureserver.net/"][src*="960_"]
 ##img[src*=".sinaimg."][style="width:1025px;height:80px"]
