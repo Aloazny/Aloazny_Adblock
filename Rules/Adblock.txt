@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: Q4XiBdw+ung3lRTFlOH0Zg
+! Checksum: CPU0jyjugzosckETAO2I6w
 ! Title: Aloazny Mobile fiter
-! Version: 20240507010835
+! Version: 20240507102420
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-05-07 01:08:35
-! Total Count: 72788
-! Blocked Filters: 72788
+! Last modified: 2024-05-07 10:24:20
+! Total Count: 72798
+! Blocked Filters: 72798
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -11956,6 +11956,7 @@
 ||hptyp.icu^
 ||hpvl2kb.icu^
 ||hpvwdkn.cn^
+||hpy9w.cn^
 ||hq390.xyz^
 ||hq3x.com^
 ||hqbang.com/n/
@@ -11966,6 +11967,7 @@
 ||hqdlhgx.cn^
 ||hqdoor.com/Web/
 ||hqgearb.icu^
+||hqhspv.xyz^
 ||hqjstd.xyz^
 ||hqnpwzu.cn^
 ||hqol.cn/up/ad/
@@ -13970,6 +13972,7 @@
 ||kjjjusb.xyz^
 ||kjos.vo.llnwd.net^
 ||kjrspnbf.xyz^
+||kjubky.xyz^
 ||kjugr.xyz^
 ||kjuwxmi.xyz^
 ||kjvaqbyebqarl.top^
@@ -15029,6 +15032,7 @@
 ||lv.myapks.com^
 ||lvcha99.cc^
 ||lvdedf.xyz^
+||lveodaz.icu^
 ||lvjtiaa.xyz^
 ||lvnlrmn.xyz^
 ||lvphbj.xyz^
@@ -17241,6 +17245,7 @@
 ||owandlk.top^
 ||owap.su^$third-party
 ||oweeiyw.icu^
+||oweriok.top^
 ||owfrbdikoorgn.xyz^
 ||owiurjngsd.com^
 ||owkmmo.xyz^
@@ -38938,7 +38943,7 @@ giardiniblog.it##.uzuwtdg
 gieldarolna.pl##.sda-banner
 gifans.com##+js(abort-on-stack-trace, $, HTMLScriptElement.onerror)
 gifans.com##body > div.adb
-gifdb.com,liaoningmovie.net,mangafox.fun,mangahub.io,mangareader.site,nimbusweb.me,playtube.pk,tickertape.in,wallpaper-house.com,websiteplanet.com##.ads-container
+gifdb.com,liaoningmovie.net,mangafox.fun,mangahub.io,mangareader.site,nimbusweb.me,playtube.pk,speakerdeck.com,tickertape.in,wallpaper-house.com,websiteplanet.com##.ads-container
 gifer.com##.page-media__banner
 gifer.com##.page-tag__banner
 gifer.com##article > div[style^="overflow: hidden; min-height:"][style*="background:"][style*="/gifer_adv."]
@@ -66303,7 +66308,7 @@ zle.com$script
 ##.ssr1
 ##.standard-article-vertical-ad
 ##.static-a2d
-##.stickyads:not([style^="width: 32px"], [style^="width: 33px"]):not(:empty)
+##.stickyads:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"]):not(:empty)
 ##.stky-ad-footer
 ##.story-ad
 ##.storyAd
@@ -69515,6 +69520,7 @@ zle.com$script
 @@||concertads-configs.vox-cdn.com/sbn/sbn/arrowheadpride/config.json$domain=arrowheadpride.com
 @@||concertads-configs.vox-cdn.com/sbn/sbn/config.json$domain=bavarianfootballworks.com|goldenstateofmind.com|mmafighting.com
 @@||concertads-configs.vox-cdn.com/sbn/verge/config.json$domain=theverge.com
+@@||config.aps.amazon-adsystem.com/configs/$domain=kitco.com
 @@||config.playwire.com/*/zeus.json$domain=explosm.net
 @@||connect.facebook.*/en_US/AudienceNetworkPrebid.js$domain=cbssports.com
 @@||content*.uplynk.com/channel/*.m3u8?$domain=abc.com|abcnews.go.com
@@ -71182,11 +71188,11 @@ zle.com$script
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_$script,domain=m.timesofindia.com
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=10play.com.au|agario-play.com|akinator.com|arcai.com|autocentre.ua|beinsports.com|castlesiege.io|clipmyhorse.tv|ctv.ca|dallasnews.com|downdetector.in|downdetector.it|downdetector.ru|envedette.ca|etf.com|factable.com|falkirkherald.co.uk|flagandcross.com|forums.hardwarezone.com.sg|gamer.com.tw|games.gamesplaza.com|gentside.com|gotrip.hk|gq-magazine.co.uk|hdblog.it|infocar.ua|irctc.co.in|livexlive.com|maharashtratimes.com|midomi.com|motociclismo.it|musixmatch.com|navbharattimes.indiatimes.com|ndtv.in|news.tvb.com|newschannel9.com|ohmymag.com|pacman.io|portmiamiwebcam.com|purepeople.com|sahibinden.com|sinarharian.com.my|softonic.com|t13.cl|tetrads.io|tetris.com|thedailybeast.com|thestar.co.uk|topuniversities.com|ukr.net|vegetarbloggen.no|vogue.ru|watoday.com.au|webmd.com|weheartit.com|wunderground.com|xn--allestrungen-9ib.de
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_108.js^$domain=pocketnow.com
-@@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$domain=abccar.com.tw|line.me|manchestereveningnews.co.uk|purepeople.com|worldsurfleague.com
+@@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$domain=abccar.com.tw|kitco.com|line.me|manchestereveningnews.co.uk|purepeople.com|worldsurfleague.com
 @@||securepubads.g.doubleclick.net/pagead/ppub_config$domain=downdetector.in|independent.co.uk
 @@||securepubads.g.doubleclick.net/pagead/ppub_config?$domain=bloomberg.com|purepeople.com
 @@||securepubads.g.doubleclick.net/pagead/ppub_config?ippd=$xmlhttprequest,domain=financemonk.net|rtxkeeda.com|houseofblogger.com|dropgalaxy.com|djxmaza.in|miuiflash.com|thecubexguide.com|jytechs.in
-@@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=10play.com.au|abccar.com.tw|agario-play.com|blog.carstopia.net|blog.coinsvalue.net|blog.cookinguide.net|blog.freeoseocheck.com|blog.makeupguide.net|blog.wiki-topia.com|bloomberg.com|castlesiege.io|digitaltrends.com|epaper.timesgroup.com|factable.com|foodbusinessnews.net|games.gamesplaza.com|gamespot.com|gazetakrakowska.pl|gentside.com|govsfid.com|gq-magazine.co.uk|line.me|maharashtratimes.com|manchestereveningnews.co.uk|midomi.com|navbharattimes.indiatimes.com|ohmymag.com|play.fancade.com|portmiamiwebcam.com|purepeople.com|shahid.mbc.net|sinarharian.com.my|softonic.com|soranews24.com|telex.hu|tetrads.io|vogue.ru|wunderground.com
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=10play.com.au|abccar.com.tw|agario-play.com|blog.carstopia.net|blog.coinsvalue.net|blog.cookinguide.net|blog.freeoseocheck.com|blog.makeupguide.net|blog.wiki-topia.com|bloomberg.com|castlesiege.io|digitaltrends.com|epaper.timesgroup.com|factable.com|foodbusinessnews.net|games.gamesplaza.com|gamespot.com|gazetakrakowska.pl|gentside.com|govsfid.com|gq-magazine.co.uk|kitco.com|line.me|maharashtratimes.com|manchestereveningnews.co.uk|midomi.com|navbharattimes.indiatimes.com|ohmymag.com|play.fancade.com|portmiamiwebcam.com|purepeople.com|shahid.mbc.net|sinarharian.com.my|softonic.com|soranews24.com|telex.hu|tetrads.io|vogue.ru|wunderground.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=financemonk.net|rtxkeeda.com|houseofblogger.com|dropgalaxy.com|djxmaza.in|miuiflash.com|thecubexguide.com|jytechs.in
 @@||securepubads.g.doubleclick.net^$domain=hoyts.com.au
 @@||secureservercdn.net/*.myftpupload.com/wp-content/themes/jannah/assets/js/advertisement.js$domain=sailuniverse.com
@@ -71391,11 +71397,15 @@ zle.com$script
 @@||static.ads-twitter.com/uwt.js$domain=cms.nova.cz
 @@||static.adsafeprotected.com/favicon.ico$domain=tf1info.fr
 @@||static.adsafeprotected.com/iasPET*.js$domain=independent.co.uk
+@@||static.adsafeprotected.com/skeleton.gif?*adid=
 @@||static.adsafeprotected.com/skeleton.gif?*adslot=
 @@||static.adsafeprotected.com/skeleton.gif?*adunitid=
 @@||static.adsafeprotected.com/skeleton.gif?*bannnerid=
+@@||static.adsafeprotected.com/skeleton.gif?*zoneid=
 @@||static.adsafeprotected.com/skeleton.js$domain=cwtv.com
+@@||static.adsafeprotected.com/skeleton.js?*adid=
 @@||static.adsafeprotected.com/skeleton.js?adslot=
+@@||static.adsafeprotected.com/skeleton.js?adspot_id=
 @@||static.adsafeprotected.com/skeleton.js?adunitid=
 @@||static.adsafeprotected.com/skeleton.js?bannnerid=
 @@||static.adsafeprotected.com/vans-adapter-google-ima.js$domain=forbes.com|motorsport.tv|tyla.com
