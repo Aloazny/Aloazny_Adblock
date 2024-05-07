@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: CPU0jyjugzosckETAO2I6w
+! Checksum: /k0dQAhdDREsRNh23aIKAw
 ! Title: Aloazny Mobile fiter
-! Version: 20240507102420
+! Version: 20240507105104
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-05-07 10:24:20
+! Last modified: 2024-05-07 10:51:04
 ! Total Count: 72798
 ! Blocked Filters: 72798
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock.txt?ref=main
 
 
-! 域名规则 起始 !
+!<<<<<域名规则>>>>>26712
 |http$third-party,script,domain=kinotut.tv
 |http*://$image,third-party,domain=rmdown.com
 |http*://$script,third-party,domain=stream2watch.org,badfilter
@@ -26727,9 +26727,9 @@
 ||zzyy20.top^
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-! 域名规则 结束  !
+!<<<<<域名规则 结束>>>>>
 
-! 网站单独规则 起始 !
+!<<<<<网站单独规则>>>>>33916
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe.com,badfilter
 $image,third-party,denyallow=cdn77.org|fpbns.net|others-cdn.com|rncdn7.com|sb-cd.com|stream.highwebmedia.com|upsiloncdn.net|xvideos-cdn.com|youjizz.com|ypncdn.com,domain=pussyspace.com|pussyspace.net
@@ -60646,9 +60646,9 @@ zzztube.com,me-gay.com,gaysuperman.com##.mobile-random
 zzztube.com,videoporn.tube##.b-random-column
 zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymaletube.name,gayporn.fm,gaysuperman.com##.b-uvb-spot
 zzzyk.com###Tinfo
-! 网站单独规则 结束 !
+!<<<<<网站单独规则 结束>>>>>
 
-! 通配符规则 起始 !
+!<<<<<通配符规则>>>>>3357
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe.com,badfilter
 $image,third-party,denyallow=cdn77.org|fpbns.net|others-cdn.com|rncdn7.com|sb-cd.com|stream.highwebmedia.com|upsiloncdn.net|xvideos-cdn.com|youjizz.com|ypncdn.com,domain=pussyspace.com|pussyspace.net
@@ -64006,9 +64006,9 @@ yhdm*.com/js/wap2-jm-ms.js?ver=
 zhaotianbao1.cn/*/ywy*.apk$document
 zhaotianbao1.cn/*/ywy*.apk$~third-party
 zle.com$script
-! 通配符规则 结束 !
+!<<<<<通配符规则 结束>>>>>
 
-! 通用Css规则 起始 !
+!<<<<<通用Css规则>>>>>4130
 ###ADbox
 ###ADtip
 ###AdBlockDialog
@@ -68139,9 +68139,9 @@ zle.com$script
 ~www.wp.pl,wp.pl###aSlot3
 ~xinshula.com,~yanqing123.net,~ypyxs.com,~wap.kanmaoxian.com,~xs520.cc###xinxi
 ~xxgxw.com##div[id^="C"][style*="height:"][class^="C"]
-! 通用Css规则 结束 !
+!<<<<<通用Css规则 结束>>>>>
 
-! 放行白名单 起始 !
+!<<<<<放行白名单>>>>>4683
 #@##adblocktest
 #@#.ADV320_50_100
 #@#.ad-box
@@ -72825,4 +72825,4 @@ zuketcreation.net#@##docmainad
 zuketcreation.net#@##myAd
 zuketcreation.net#@##travel_ad
 zwiftinsider.com#@#.td-a-rec-id-custom_ad_2
-! 放行白名单 结束 !
+!<<<<<放行白名单 结束>>>>>
