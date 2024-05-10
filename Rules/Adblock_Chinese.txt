@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: dWEVw/aSc8lZ7mRAR/Qt7w
+! Checksum: CMybBP0pfShjZhKPlwOdpw
 ! Title: Aloazny Chinese fiter
-! Version: 20240510090052
+! Version: 20240510202517
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-05-10 09:00:52
-! Total Count: 36805
-! Blocked Filters: 36805
+! Last modified: 2024-05-10 20:25:17
+! Total Count: 36813
+! Blocked Filters: 36813
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>15836
+!<<<<<域名规则>>>>>15840
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|cyxse.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.360118.com|m.37zw.net|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zwdu.com
 |http://*.cn/ad/
@@ -1164,6 +1164,7 @@
 ||88lm11.com^
 ||88lm12.com^
 ||88lm13.com^
+||88lm15.com^
 ||88ys.cc/js/abcd.js
 ||8961.jianbihua.com^
 ||89hdn.cn^
@@ -7028,6 +7029,7 @@
 ||iadsdk.apple.com^
 ||iam.datasavannah.com^
 ||ianyshare.xyz^
+||iaosua.com^
 ||iapolo.com/myjs/
 ||iask.ca/img/*.gif
 ||iask.cn^*.data.
@@ -9482,6 +9484,7 @@
 ||mmevt.icu^
 ||mmfcezwqaz.com^
 ||mmftdt.com^
+||mmgap.cn^
 ||mmgg62.com^
 ||mmiedf.xyz^
 ||mmkkhhnn.cn^
@@ -12309,7 +12312,7 @@
 ||sparklingshelf.com^$third-party
 ||spcode.baidu.com^
 ||speakgrandfather.com^$third-party
-||speedtest.cn/api/v2/show?
+||speedtest.cn/api/v2/show
 ||speedtest.cn/assets/images/ce_
 ||speee-ad.akamaized.net^
 ||spl.ztvx8.com^$third-party
@@ -15248,6 +15251,7 @@
 ||ysjkbk.com^
 ||ysm.ezprice.net^$third-party
 ||ysqlmpo.cn^
+||yssryr.cn^
 ||ysx8.vip^$third-party
 ||ysxs8.vip/js/bd_top.js
 ||ysxs8.vip/js/play_db.js
@@ -15853,7 +15857,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>13044
+!<<<<<网站单独规则>>>>>13045
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.net
@@ -24876,6 +24880,7 @@ nowscore.com##div[style="background-color:#F0F0F0;line-height:25px;height:25px;t
 nsfwyoutube.com##img[src*="data"]
 ntp.msn.cn##recommended-sites
 ntpcb.com##img[width="1195"]
+ntv.com.tr##.mobile-mpu-area
 nu.nl##div[data-type="tealium"]
 nudeteenwhore.com##.mobile-block
 nudevista.at,nudevista.be,nudevista.com,nudevista.com.br,nudevista.com.pl,nudevista.es,nudevista.it,nudevista.net,nudevista.nl,nudevista.se,nudevista.tw##.mob_adv
@@ -26956,6 +26961,7 @@ tgfcer.com##.ad_headerbanner
 tgfcer.com##.ad_text
 tgfcer.com##.portalbox
 tgfcer.com##div[id^="ad_thread"]
+tgrthaber.com,turkiyegazetesi.com.tr,mavikadin.com##.footer-sticky-ad
 tgrthaber.com.tr##.detay-kare-container
 th7.cn###PcPoPmarket
 th7.cn##.main > .mb5
@@ -27239,7 +27245,6 @@ turbopages.org##.page__result > div[class*="type_native"]
 turbopages.org##.turbo-advert
 turbopages.org##div[class*="type_adfox"]
 turizmekstra.com##img[src^="https://www.turizminsesi.com/d/banner/"]
-turkiyegazetesi.com.tr,mavikadin.com##.footer-sticky-ad
 tut.by##body > div[style*="position: fixed;"][style*="right: 0;"]
 tutudao.net##.m_adv > a[href="https://m.13xp.com/"]
 tutudao.net##a[href="https://hhyy33.com/"][target="_blank"]
@@ -31463,7 +31468,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 zle.com$script
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>3902
+!<<<<<通用Css规则>>>>>3903
 ###ADbox
 ###ADtip
 ###AdBlockDialog
@@ -34057,6 +34062,7 @@ zle.com$script
 ##[href='https://click.aliyun.com/m/1000332699/']
 ##[href='https://dpurl.cn/HifSTUtz']
 ##[href='https://okok.com.tw/']
+##[href='https://ttaxz087b.xyz']
 ##[href='https://www.aiwajbh.com/mh.php']
 ##[href] > .add
 ##[href^="https://9996867.com"]
@@ -35368,8 +35374,9 @@ zle.com$script
 ~xxgxw.com##div[id^="C"][style*="height:"][class^="C"]
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1463
+!<<<<<放行白名单>>>>>1465
 #@##adblocktest
+#@#.col-lg-3.col-xs-6 > .well
 #@#.has-ad
 012.tw#@#.ad728
 10jqka.com.cn,dep-family.hccg.gov.tw,faxingw.cn,gdmm.com#@#.ad_1
@@ -35378,6 +35385,7 @@ zle.com$script
 15min.lt#@#.ads
 15min.lt#@#.widget.ads
 163.com#@#.s-btns
+18-comic.work,18-comicfreedom.org,18-comicfreedom.xyz,18-comicstellar.art,18comic.org,18comic.vip,jm-comic1.cc,jm-comic2.cc,jmcomic.me,jmcomic1.me,jmcomic2.me#@#.col-lg-3.col-xs-6 > .well
 189.cn#@##linkShare
 189.cn#@#.adLink
 189.cn#@#.adlink

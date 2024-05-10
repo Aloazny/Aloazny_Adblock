@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: tH8XogAFsBgjiWaMnUQHiA
+! Checksum: J2EWbNGZO7KI7GRoeKQ2Nw
 ! Title: Aloazny attach fiter
-! Version: 20240510090035
+! Version: 20240510202500
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-05-10 09:00:35
-! Total Count: 13468
-! Blocked Filters: 13468
+! Last modified: 2024-05-10 20:25:00
+! Total Count: 13471
+! Blocked Filters: 13471
 ! Description: 合并混合规则的补充规则，轻量规则，可作为补充规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -10260,7 +10260,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 zle.com$script
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>2995
+!<<<<<通用Css规则>>>>>2996
 ###ADbox
 ###AdBlockDialog
 ###AdBox2
@@ -12193,6 +12193,7 @@ zle.com$script
 ##[href='https://click.aliyun.com/m/1000332699/']
 ##[href='https://dpurl.cn/HifSTUtz']
 ##[href='https://okok.com.tw/']
+##[href='https://ttaxz087b.xyz']
 ##[href='https://www.aiwajbh.com/mh.php']
 ##[href] > .add
 ##[href^="https://9996867.com"]
@@ -13258,8 +13259,10 @@ zle.com$script
 ~xxgxw.com##div[id^="C"][style*="height:"][class^="C"]
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>236
+!<<<<<放行白名单>>>>>238
 #@##adblocktest
+#@#.col-lg-3.col-xs-6 > .well
+18-comic.work,18-comicfreedom.org,18-comicfreedom.xyz,18-comicstellar.art,18comic.org,18comic.vip,jm-comic1.cc,jm-comic2.cc,jmcomic.me,jmcomic1.me,jmcomic2.me#@#.col-lg-3.col-xs-6 > .well
 520cc.com,520cc.cc#@##inplayer
 520cc.com,520cc.cc#@#iframe[width="300"][height="250"]
 85tube.com,camhub.cc,camhub.world,fuckit.cc,thothd.com,watchporn.to#@#.ads-iframe
