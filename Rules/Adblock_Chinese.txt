@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: WldPml8RaijB+6XwP7KMtA
+! Checksum: OIdIxetwpvXtQ8tV+VS9Ow
 ! Title: Aloazny Chinese fiter
-! Version: 20240511090036
+! Version: 20240511202351
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-05-11 09:00:36
-! Total Count: 36819
-! Blocked Filters: 36819
+! Last modified: 2024-05-11 20:23:51
+! Total Count: 36823
+! Blocked Filters: 36823
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>15846
+!<<<<<域名规则>>>>>15850
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|cyxse.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.360118.com|m.37zw.net|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zwdu.com
 |http://*.cn/ad/
@@ -986,6 +986,7 @@
 ||69wx1.top^
 ||6avz.com^$script,third-party
 ||6b70b1086b.com^
+||6b856ee58e.com^
 ||6cdwf.xyz^
 ||6cyfvvs.com^
 ||6functf.com^
@@ -1736,6 +1737,7 @@
 ||adl-hunter.com^
 ||adlaunch.qtfm.cn^
 ||adleads.com^
+||adlhxwb.xyz^
 ||adlibr.com^
 ||adm.52swine.com^
 ||adm.6park.com^
@@ -7137,6 +7139,7 @@
 ||igaworks.com/AdPOPcorn/
 ||igetnaughty.com^
 ||igexin.com^
+||igidskio.top^
 ||igkgag.xyz^
 ||ignulsniy.com^
 ||igscn.com^
@@ -15761,6 +15764,7 @@
 ||zrakpxsf.com^
 ||zrblog.net/gg/
 ||zrblog.net/zanzhu/virpus.gif
+||zrdga.cn^
 ||zrgbh6bm.icu^
 ||zrljzgs.xyz^
 ||zrrnqq.com^
@@ -15863,7 +15867,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>13045
+!<<<<<网站单独规则>>>>>13046
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.net
@@ -16346,6 +16350,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 1p7oic.com,www.2maoaj.com,o2ehzi.com,100maoah.com,www.5maoaj.com,1fx8po.com,du2bcg.com,www.6maoaj.com,www.4maoaj.com,tr5b18.com,1maoaj.com,www.7maoaj.com,11maoaj.com,uxybkby.com,cakcj2x.com,crod174.com,10maoaj.com,12maoaj.com,13maoaj.com###right_couplet.close_discor
 1point3acres.com###portal_block_479
 1point3acres.com##div[style="width: 450px; min-height: 210px;"]
+1point3acrescom###portal_block_567
 1rankup.jp##.million-ads100-center
 1reg.by##.article-content-inner > div:not([class]) > p ~ div[class][style]
 1shorten.com,antiscan.me,app.stream2watch.sx,aylink.co,b.best-hit.tv,bets.pl,blogmado.com,cryptofuns.ru,dooseries.org,downturk.net,filma24.*,filmeserialehd.biz,flacdl.com,flashx.net,gdrivez.xyz,gitlink.pro,illink.net,kvador.com,manga168.com,modsfire.com,plawarn-manga.net,pornstash.in,privatemoviez.*,spaste.com,speed4up.com,tlin.me,tweetycoin.com,uploadflix.org,uploadraja.com,vezionlinefilme.com,xxx888porn.com,yeyemo10.com,yeyemo4.com,yeyemo5.com,yeyemo6.com,yeyemo7.com,yeyemo8.com,yeyemo9.com##center > a[target="_blank"] > img
@@ -22846,6 +22851,7 @@ kxmusic.cn,kxmusic.top##a[href*="smsf8.com"]
 kxs7.com,biquku.co,mxzw.com,soudu.org##[id^="foot"]
 kxyes.com##span[style*="393px"][style*="0px 0px"][style*="border-image-source:url"],img[src*="//image.suning.cn/uimg/ZR/share_order"],.cpcad.nopc
 kyunto.com,krautundrueben.de,areamobile.de##.rectangle
+kzs1w.com,sehuatang.org##div[class^="show-text"]
 kztarif.ru##.stadck-content
 l-a-w.ru,mhelp.kz##.swal2-container
 lab.timee.co.jp##.timee-c-appBtn
@@ -25771,7 +25777,6 @@ quotes.sina.cn##.js-app-header
 quotes.sina.cn##[class*="callup"]
 quotes.sina.cn##[class*="wb-btn-wrap"]
 quyitu.vip##div[class="aggd list_aggd"]
-qwerwrrt.one,sehuatang.org##div[class^="show-text"]
 qxfun.com###beautiful-things
 qxfun.com###reward-me > figure:nth-child(n+2)
 qyun.vip##a[href*="/ad."]
@@ -31474,7 +31479,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 zle.com$script
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>3903
+!<<<<<通用Css规则>>>>>3902
 ###ADbox
 ###ADtip
 ###AdBlockDialog
@@ -34503,7 +34508,6 @@ zle.com$script
 ##a[href="賢者同盟"][target="_blank"]
 ##a[href][rel="nofollow"] > img.nature
 ##a[href][style*="overflow:hidden;display:block;"] > img[src$=".gif"][style*="width:100%"]
-##a[href][style="display:none!important"]
 ##a[href][target="_blank"] > img[id*="GGADIMG"]
 ##a[href][target="_blank"] > img[referrerpolicy="no-referrer"][src*=".yximgs.com/"]
 ##a[href][target="_blank"] > img[src*=".cos.ap-"][src*=".myqcloud.com/"][src$=".gif"][alt]
