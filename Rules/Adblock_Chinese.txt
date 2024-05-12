@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: OIdIxetwpvXtQ8tV+VS9Ow
+! Checksum: gpe+zLGl9t4rbj06PtGKYA
 ! Title: Aloazny Chinese fiter
-! Version: 20240511202351
+! Version: 20240512090547
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-05-11 20:23:51
-! Total Count: 36823
-! Blocked Filters: 36823
+! Last modified: 2024-05-12 09:05:47
+! Total Count: 36831
+! Blocked Filters: 36831
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>15850
+!<<<<<域名规则>>>>>15858
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|cyxse.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.360118.com|m.37zw.net|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zwdu.com
 |http://*.cn/ad/
@@ -2472,6 +2472,7 @@
 ||ariqye.xyz^
 ||ark.le.com/s?vid=
 ||ark.letv.com/s?
+||arkkcu.xyz^
 ||arkn81.com^
 ||arnhhwo.xyz^
 ||arpg2.com^
@@ -2862,6 +2863,7 @@
 ||bcc878.com/js/abc/
 ||bccnsoft.com/aac/
 ||bceapp.com/jj/1716mid.js
+||bcebos.com/24x360x528.gif
 ||bcebos.com/59x360x528.gif
 ||bcebos.com/725c659194eeebb8c6b970e52e2dc8aa.
 ||bcebos.com/ad/
@@ -4262,6 +4264,7 @@
 ||cwc494e.cn^
 ||cweriof.top^
 ||cwgshkz.cn^
+||cwgucvm.icu^
 ||cwiuhtp.icu^
 ||cwmlm.com^$third-party
 ||cwrxgb.icu^
@@ -5571,6 +5574,7 @@
 ||fhsmtrnsfnt.com^
 ||fhtfnb.xyz^
 ||fhvbhx.xyz^
+||fhvzrr.xyz^
 ||fidelius.cn^
 ||fifqjp.xyz^
 ||fijipic.xyz^
@@ -5662,6 +5666,7 @@
 ||forestseasons.com.cn^
 ||foreveryoung.gz01.bdysite.com^
 ||forflygonom.com^
+||forrzp.xyz^
 ||fortxfq.cn^
 ||forum.lowyat.net/random-mobile.php
 ||forzubatr.com^
@@ -7659,6 +7664,7 @@
 ||jg1668.com^$third-party
 ||jgblvt.xyz^
 ||jghklz.xyz^
+||jgidskia.top^
 ||jgmywh.icu^
 ||jgsajfggv.xyz^
 ||jgstny.com^$third-party
@@ -8826,6 +8832,7 @@
 ||lmnpd.xyz^
 ||lmrhhn.xyz^
 ||lmtnfl.xyz^
+||lmvotk.cn^
 ||lmx7.com^
 ||lmxiqf.icu^
 ||lmxxxz.com^
@@ -9516,6 +9523,7 @@
 ||mnnmnn.com^
 ||mnorkc.xyz^
 ||mnpbxjq.cn^
+||mnpzrgz.xyz^
 ||mnrrk.com/yuhe/ote/js/pcgg.js
 ||mnvxdkd.xyz^
 ||mnwor.xuanlishi.com^
@@ -16112,6 +16120,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 123movies.net,4anime.gg,actvid.com,animefreak.site,apkmody.io,batotoo.com,beetoon.net,bollyflix.loan,bravoporn.com,cineb.net,coloredmanga.com,downloadlagu321.site,dragontranslation.com,dramacool.sr,gogoanime.co.in,gogoanime.run,harimanga.com,hds-streaming-hd.com,himovies.to,hurawatch.cc,iflixmovies.lol,instamod.co,jujutsukaisenonline.net,leercapitulo.com,linksly.co,mangadna.com,mangageko.com,mangahere.today,manganatos.com,mangatigre.net,manhuafast.com,manhwadesu.ink,manhwalist.xyz,membed.net,messitv.net,miraculous.to,movies-watch.com.pk,moviesmod.pro,nkiri.com,prmovies.beauty,putlocker.vc,putlockers.fm,putlockers.li,sflix.se,sockshare.ac,ssoap2day.to,streamingcommunity.mom,sukidesuost.info,tamilyogi.bike,uwatchfre.cam,waploaded.com,watchomovies.net,y-2mate.com,yomovies.team,ytmp3.cc,yts-subs.com##iframe[style*="z-index: 2147483647"]
 123pan.com##.ant-carousel
 123pan.com##.baidu-banner-container
+123pan.com##.banner-container-h5
 123pan.com##.banner-container-pc
 123pan.com##[class*="adv-container"]
 123pan.com##div[style="width:100%;position:absolute;bottom:0;height:96px"]
@@ -16350,7 +16359,6 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 1p7oic.com,www.2maoaj.com,o2ehzi.com,100maoah.com,www.5maoaj.com,1fx8po.com,du2bcg.com,www.6maoaj.com,www.4maoaj.com,tr5b18.com,1maoaj.com,www.7maoaj.com,11maoaj.com,uxybkby.com,cakcj2x.com,crod174.com,10maoaj.com,12maoaj.com,13maoaj.com###right_couplet.close_discor
 1point3acres.com###portal_block_479
 1point3acres.com##div[style="width: 450px; min-height: 210px;"]
-1point3acrescom###portal_block_567
 1rankup.jp##.million-ads100-center
 1reg.by##.article-content-inner > div:not([class]) > p ~ div[class][style]
 1shorten.com,antiscan.me,app.stream2watch.sx,aylink.co,b.best-hit.tv,bets.pl,blogmado.com,cryptofuns.ru,dooseries.org,downturk.net,filma24.*,filmeserialehd.biz,flacdl.com,flashx.net,gdrivez.xyz,gitlink.pro,illink.net,kvador.com,manga168.com,modsfire.com,plawarn-manga.net,pornstash.in,privatemoviez.*,spaste.com,speed4up.com,tlin.me,tweetycoin.com,uploadflix.org,uploadraja.com,vezionlinefilme.com,xxx888porn.com,yeyemo10.com,yeyemo4.com,yeyemo5.com,yeyemo6.com,yeyemo7.com,yeyemo8.com,yeyemo9.com##center > a[target="_blank"] > img
