@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: pIUOxr/EcgTE8I5rKauQkA
+! Checksum: tVmdMiNBSGW8yNgg1Pfysg
 ! Title: Aloazny Chinese fiter
-! Version: 20240513090245
+! Version: 20240513202652
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-05-13 09:02:45
-! Total Count: 38070
-! Blocked Filters: 38070
+! Last modified: 2024-05-13 20:26:52
+! Total Count: 38074
+! Blocked Filters: 38074
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -17114,7 +17114,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>13046
+!<<<<<网站单独规则>>>>>13050
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.net
@@ -18920,6 +18920,8 @@ applica.info##div[class*="sp-ad-"]
 applion.jp##div[style="display: block; height: 50px; text-align: center; margin: 5px 0px;"]
 applion.jp##div[style^="display: block; height: 250px"]
 apprcn.com##a[href*=".lizhi."]
+apps.jeurissen.co##html > body .cja-maincontent .cja-btmimage
+apps.jeurissen.co##html > body .cja-pagewrapper .cja-landing__content > div.cja-sqrimage
 aqa.ru##span[style="height: 300px; padding: 0; width: 100%; display: block;"]
 ar15.com,armageddonexpo.com,audiforums.com,danceclassonline.in,f1gamesetup.com,ferrarichat.com,hanime.tv,hotrodhotline.com,jaguarforums.com,linuxmint.com,pypi.org,smashingmagazine.com,thebugle.co.za,waamradio.com,wbal.com,webtorrent.io##.sponsors
 arabam.com##.min-md-width > .homepage-jellybean-wrapper
@@ -19463,7 +19465,7 @@ bdys03.com##.artplayer-plugin-ads
 beauty.oricon.co.jp##aside[style="text-align:center;margin-top:3px;min-height:100px; margin-bottom: 20px;"]
 beauty.rakuten.co.jp###footerPr
 beauty321.com##.pc_ads
-beemtube.com,chengdu.cn,eprice.com.tw,gry-online.pl,m.eprice.com.hk,m.eprice.com.tw,oeeee.com,ofweek.com,physicsandmathstutor.com,setn.com##div[class^="ad-"]
+beemtube.com,chengdu.cn,eprice.com.tw,gry-online.pl,m.eprice.com.hk,m.eprice.com.tw,natgeomedia.com,oeeee.com,ofweek.com,physicsandmathstutor.com,setn.com##div[class^="ad-"]
 beephone.com.tw##a[href^="http://www.beephone.com.tw/adlink.php?id="]
 beianbeian.com##div[style="height: 62px;margin-bottom: 20px;"] + .layui-table
 beinsports.com,pastebin.com,ratemyteachers.com##.banner_728
@@ -22720,6 +22722,7 @@ hkcards.com###ad-slot-01
 hkcards.com###ad-slot[style="min-width: 300px; min-height: 300px;"]
 hkcards.com##.row > .col-12 > #ad-slot
 hkdm688.com##.bb01
+hkepc.com###headBanner
 hkepc.com##.headBanner
 hkgolden.com,md.hkgolden.com##.hkg-ad
 hkmovie6.com##.hotmobad
@@ -25825,6 +25828,7 @@ nasimke.ru##.data-ad-client
 nasyun.com##img[width="275"]
 nasyun.com##img[width="970"]
 natgeo.nikkeibp.co.jp##.contentsAd
+natgeomedia.com##div[id^="AD-970x250"]
 nation.africa##.ad-mobile-leaderboard_wrap
 nationalworld.com##body div[class^="Dailymotion__Wrapper-"]
 natural-cosmetology.ru##body > div[style*="background-color:#ff0000;color:#ffffff;"]
