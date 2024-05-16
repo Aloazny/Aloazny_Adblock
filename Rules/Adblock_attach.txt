@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: H5YZQZj+0pCbU+FZ3GniBA
+! Checksum: Q6xe9PK9lvk/CziORPSerg
 ! Title: Aloazny attach fiter
-! Version: 20240516090126
+! Version: 20240516202647
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-05-16 09:01:26
-! Total Count: 14732
-! Blocked Filters: 14732
+! Last modified: 2024-05-16 20:26:47
+! Total Count: 14735
+! Blocked Filters: 14735
 ! Description: 合并混合规则的补充规则，轻量规则，可作为补充规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_attach.txt?ref=main
 
 
-!<<<<<域名规则>>>>>6655
+!<<<<<域名规则>>>>>6657
 |https://m.frgls.com/js/*.js?v=
 ||*ggua.xyz^$third-party
 ||000123456789.online^
@@ -160,6 +160,7 @@
 ||4199tv.com^
 ||42yenxh.cn^
 ||44r9fl.xyz^
+||47.100.89.163/10524.apk$~third-party
 ||4asfgyx.com^
 ||4d0m.cn^
 ||4dyt.cn^
@@ -6235,6 +6236,7 @@
 ||xyadtlyy.com^
 ||xybnfn.xyz^
 ||xyizgh.cn^
+||xz.nbbww.com/apk$~third-party
 ||xzezapozghp.com^
 ||xzvahr.xyz^
 ||xzvhyx.com^
@@ -9858,7 +9860,7 @@ zybang.com##a[class="top-banner"]
 zybang.com##div[id="askTeacher-after-adx-wrap"]
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>1655
+!<<<<<通配符规则>>>>>1656
 $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.xyz
 &adZones$xmlhttprequest
 &ad_block=
@@ -10070,7 +10072,6 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .com/js/gg.js$script
 .com/k/*$script,third-party
 .com/m-*-*$third-party,domain=manhuagou.com
-.com/m-2697|$third-party
 .com/new/5*.html$~third-party
 .com/new/8*.html$~third-party
 .com/o.js$third-party
@@ -11342,6 +11343,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 /yeyue*.html?channelCode=$~third-party
 /yinghuacd/bottom.js
 /ylnew/*.js$image
+/ymqdjw2.apk$~third-party
 139.196.80.247$~third-party
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group#.bot-per-times
 91porny.com/api/getPos?jspath=/
@@ -11413,6 +11415,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 ://dpic.*.cn/*.txt$third-party
 ://e.*.xyz/apps/sdk$third-party
 ://go.*.com/smartpop/*?*=$third-party
+://hf.*.com/*m-2697$third-party,other
 ://im.ifengsong888.com/*.gif
 ://im.ifengsong888.com/*.jpg
 ://im.yfled888.com/*.gif
