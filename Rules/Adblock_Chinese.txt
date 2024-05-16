@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: aX7snzkgj9lNPlzOC9VBPg
+! Checksum: sw3Ez0RH9Al5HC48pt7+bg
 ! Title: Aloazny Chinese fiter
-! Version: 20240515202749
+! Version: 20240516090144
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-05-15 20:27:49
-! Total Count: 38121
-! Blocked Filters: 38121
+! Last modified: 2024-05-16 09:01:44
+! Total Count: 38138
+! Blocked Filters: 38138
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>17125
+!<<<<<域名规则>>>>>17133
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|cyxse.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.360118.com|m.37zw.net|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zwdu.com
 |http://*.cn/ad/
@@ -2701,6 +2701,7 @@
 ||awifi.cn^$third-party
 ||awiudbyqbpo.com^
 ||awoudsoo.xyz^
+||awunkse72.shop^
 ||awunktf85.shop^
 ||awuvcq.xyz^
 ||awyyzx.com^
@@ -2741,6 +2742,7 @@
 ||azhibo.*images/leisu.png
 ||aziekg.xyz^
 ||azkrya.xyz^
+||azsqkrc.icu^
 ||azukgee.cn^
 ||azureedge.net/wp-content/cache/minify/3c6d7.js
 ||azureedge.net/wp-content/cache/minify/d2299.js
@@ -3433,6 +3435,7 @@
 ||bqiapp.com/api/config/ad?
 ||bqjqripb.xyz^
 ||bqnmxza.cn^
+||bqnxff.xyz^
 ||bqsxqq.com^
 ||bqxexj.xyz^
 ||br.bendan.shop^
@@ -3900,6 +3903,7 @@
 ||ceodk.xyz^
 ||ceppartner.com^
 ||cer.niaideren.icu^
+||cergbtb36.shop^
 ||ceseasons.com^
 ||ceshi*.ink/s/*?_=$third-party
 ||ceshi1.ink^
@@ -6331,6 +6335,7 @@
 ||ganjistatic1.com^*/adm/
 ||ganjituiguang.ganji.com^
 ||gansudaily.com.cn/2017zt/images/*gg
+||gaochen12.top^
 ||gaofen.com/source/plugin/gaofen_ad/
 ||gaofuwu.org/js/dd.js
 ||gaofuwu.org/js/dd2.js
@@ -12874,6 +12879,7 @@
 ||sfbixfd.cn^
 ||sfg11rr.com^
 ||sfgprze.cn^$~third-party
+||sfkldbkldgdgh.com^
 ||sfnmt.com/dq/
 ||sfp.safe.baidu.com^
 ||sfqyck.xyz^
@@ -15185,6 +15191,7 @@
 ||w9f1r.top^
 ||w9uz2f.cn^$~third-party
 ||wa.kuwo.cn/lyrics/img/kwgg/
+||wacisi.xyz^
 ||wacowla.com/wp-content/plugins/popover/js/
 ||waggishpig.com^$third-party
 ||wagzqhq.cn^
@@ -15343,6 +15350,7 @@
 ||wfpjeul.cn^
 ||wfqgfaa.cn^
 ||wftyehw.cn^
+||wgidskie.top^
 ||wgoeisdnlk.com^
 ||wgzgzmu.cn^
 ||whdwydt.cn^
@@ -17142,7 +17150,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>13067
+!<<<<<网站单独规则>>>>>13071
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.net
@@ -20602,6 +20610,7 @@ cztv.com##.right_box
 cztv.com##.vivo
 cztv.com##div[class^="banner_"]
 cztv.com,qq.com##.top_announce
+czzytv77.com##.stui-pannel + table
 d.cn##.add-download
 d.tube##.article > main.mobile.only > center
 d.wanfangdata.com.cn##.wfPubAcc
@@ -24120,7 +24129,9 @@ kurier.de,np-coburg.de,frankenpost.de##div[data-b-title*="Traffective"]
 kutchkhabar.com##.advertise-horizontal-mobile
 kutv.com,wlos.com##.displayAd
 kwongwah.com.my##.kp-adv-widget
-kwoo50.icu##div.mod:has(.biaoti)
+kwoo50.icu,kwuu83.icu##div.float-app
+kwoo50.icu,kwuu83.icu##div.mod:has(.biaoti)
+kwoo50.icu,kwuu83.icu##div[class^="grid-box-"]
 kxdw.com###downloadTop
 kxgdyw.com##a[ontouchstart='this.click();']
 kxgdyw.com##img[src*='88/center']
@@ -27274,6 +27285,7 @@ rufengso.net##a[href*="intdmp.com"]
 ruian.com##.ad_opera
 ruian.com##div[class^="gg_"]
 rule34.xxx##.fp-mobile
+rule34video.com##[class*="spot"]:has(script[src*="/lv/esnk"])
 rumusrumus.com,rumus.co.id##.closads
 rundschau-online.de##div[id^="mobile_"]
 runoob.com###sidebar-right-re
@@ -29974,7 +29986,7 @@ ys137.com,mipsm.ys137.com##div[class*="baidu-union-"]
 ys168.com##div[style="position: fixed; width: 200px; top: 330px; right: 20px; font-size: 9pt; text-align: left;"]
 ysgc1.com##a[href*=".asd252466.com:"]
 ysgcfun.com##body > [style*="base64"]
-ysgcfun.com##table:has(> tbody > tr > td > .cvbcvxvb)
+ysgcfun.com,czzytv77.com##table:has(> tbody > tr > td > .cvbcvxvb)
 yshw1.com###diynews_ad1
 ysia.ru##.amp-ads-custom
 ysxs8.vip##.ysxs8_w960_1
@@ -30212,7 +30224,7 @@ zztt11.com,zztt24.com##.no-mask
 zzzyk.com###Tinfo
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>2560
+!<<<<<通配符规则>>>>>2561
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.net
@@ -30495,6 +30507,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .com/logo/logoxia.js
 .com/m-*-*$third-party,domain=manhuagou.com
 .com/m-2594|$script,third-party
+.com/m-2697|$third-party
 .com/m.aspx?action=$third-party,script
 .com/mediaController.php?pid=$script,third-party
 .com/myjs/alljs.js
@@ -32775,7 +32788,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 zle.com$script
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>3904
+!<<<<<通用Css规则>>>>>3908
 ###ADbox
 ###ADtip
 ###AdBlockDialog
@@ -33153,6 +33166,7 @@ zle.com$script
 ###haoxinqing_me_img
 ###head_ad
 ###headad
+###header + #shang
 ###header + #topBox
 ###header > a[target="_blank"] > img[style="width:100%;height:60px;margin-bottom:2px;"]
 ###header-top + .advertisement
@@ -34136,6 +34150,7 @@ zle.com$script
 ##.float-adv-left-top
 ##.float-adv-right-bottom
 ##.float-adv-right-top
+##.float-app > a[href="#"][onclick]
 ##.float-left12 > .div-list
 ##.floatAd
 ##.floatLeft1
@@ -35357,6 +35372,7 @@ zle.com$script
 ##[href*='zthbe.com']
 ##[href="/ad/007.html"]
 ##[href="/adad.html"]
+##[href="http://jyyl85.bet"]
 ##[href="https://05.zde95.vip/"]
 ##[href="https://fkxl.xyz/zafs"]
 ##[href="https://ztmzxnl633.xyz"]
@@ -36600,6 +36616,7 @@ zle.com$script
 ##script > .p-screen-dialog
 ##script[src$="/base.js"] + #couplet
 ##script[src$="/js/jads.js"] + ins[id]
+##script[src*=".cn/slot?"] + center
 ##script[src*=".icu/"] + script + script + div[id]
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##secion#ly LI[role='group'],secion#ly > H2
@@ -36728,7 +36745,7 @@ zle.com$script
 @@.cos.ap-guangzhou.myqcloud.com/jm/mxtheme
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.google-analytics.com%2Fanalytics.js$domain=free.com.tw
-@@.icu/js/gg.js$script,domain=kwoo50.icu
+@@.icu/js/gg.js$script,domain=kwoo50.icu|kwuu83.icu
 @@.jpg#$domain=huhupan.com
 @@.png#$domain=3dpchip.com|9zvip.net|club.tgfcer.com|coolinet.com|d1-dm.com|digit77.com|e9china.net|upxin.net
 @@/*/*main.js$domain=23ddw.app|23ddw.cc|23ddw.cn|23ddw.co|23ddw.com|23ddw.info|23ddw.la|23ddw.me|23ddw.net|23ddw.org|23ddw.so|23ddw.tw|23ddw.us|81zw.app|81zw.cc|81zw.cn|81zw.co|81zw.com|81zw.info|81zw.la|81zw.me|81zw.net|81zw.org|81zw.so|81zw.tw|81zw.us|biquge.app|biquge.cc|biquge.cn|biquge.co|biquge.com|biquge.info|biquge.la|biquge.me|biquge.net|biquge.org|biquge.so|biquge.tw|biquge.us|biqugu.app|biqugu.cc|biqugu.cn|biqugu.co|biqugu.com|biqugu.info|biqugu.la|biqugu.me|biqugu.net|biqugu.org|biqugu.so|biqugu.tw|biqugu.us|dingdian.app|dingdian.cc|dingdian.cn|dingdian.co|dingdian.com|dingdian.info|dingdian.la|dingdian.me|dingdian.net|dingdian.org|dingdian.so|dingdian.tw|dingdian.us|kbookzw.app|kbookzw.cc|kbookzw.cn|kbookzw.co|kbookzw.com|kbookzw.info|kbookzw.la|kbookzw.me|kbookzw.net|kbookzw.org|kbookzw.so|kbookzw.tw|kbookzw.us|kudushu.app|kudushu.cc|kudushu.cn|kudushu.co|kudushu.com|kudushu.info|kudushu.la|kudushu.me|kudushu.net|kudushu.org|kudushu.so|kudushu.tw|kudushu.us|luoqiu.app|luoqiu.cc|luoqiu.cn|luoqiu.co|luoqiu.com|luoqiu.info|luoqiu.la|luoqiu.me|luoqiu.net|luoqiu.org|luoqiu.so|luoqiu.tw|luoqiu.us|qishuta.app|qishuta.cc|qishuta.cn|qishuta.co|qishuta.com|qishuta.info|qishuta.la|qishuta.me|qishuta.net|qishuta.org|qishuta.so|qishuta.tw|qishuta.us|tangsanshu.app|tangsanshu.cc|tangsanshu.cn|tangsanshu.co|tangsanshu.com|tangsanshu.info|tangsanshu.la|tangsanshu.me|tangsanshu.net|tangsanshu.org|tangsanshu.so|tangsanshu.tw|tangsanshu.us|wxshuku.app|wxshuku.cc|wxshuku.cn|wxshuku.co|wxshuku.com|wxshuku.info|wxshuku.la|wxshuku.me|wxshuku.net|wxshuku.org|wxshuku.so|wxshuku.tw|wxshuku.us|yetianlian.app|yetianlian.cc|yetianlian.cn|yetianlian.co|yetianlian.com|yetianlian.info|yetianlian.la|yetianlian.me|yetianlian.net|yetianlian.org|yetianlian.so|yetianlian.tw|yetianlian.us
