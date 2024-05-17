@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: EPqA1WfSGI+BVhNgLNA7gQ
+! Checksum: waXwI1zjaNprtGeLqRFssw
 ! Title: Aloazny Chinese fiter
-! Version: 20240516202706
+! Version: 20240517090247
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-05-16 20:27:06
-! Total Count: 38143
-! Blocked Filters: 38143
+! Last modified: 2024-05-17 09:02:47
+! Total Count: 38157
+! Blocked Filters: 38157
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>17137
+!<<<<<域名规则>>>>>17147
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|cyxse.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.360118.com|m.37zw.net|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zwdu.com
 |http://*.cn/ad/
@@ -3905,6 +3905,7 @@
 ||ceppartner.com^
 ||cer.niaideren.icu^
 ||cergbtb36.shop^
+||cergbwa97.shop^
 ||ceseasons.com^
 ||ceshi*.ink/s/*?_=$third-party
 ||ceshi1.ink^
@@ -7346,11 +7347,13 @@
 ||houseads.ttpsdk.info^
 ||houstonbbs.com/data/ad/
 ||houyi.baofeng.net^*.html
+||hoxdotye.icu^
 ||hozatr.xyz^
 ||hpcwwd.com^
 ||hpd.baidu.com^
 ||hpg786n.cn^
 ||hpgmkbt.icu^
+||hphvd.cn^
 ||hpiekt.cn^
 ||hpjzpn.xyz^
 ||hppmy.cn^
@@ -7739,6 +7742,7 @@
 ||illinvention.com^$third-party
 ||illustriousoatmeal.com^$third-party
 ||ilph0.icu^
+||ilvqyya.cn^
 ||ilxdh.com/navig/2020-09-08/1599538164_1474.png
 ||ilyf4amifh.com^
 ||im-x.jd.com^
@@ -7766,6 +7770,7 @@
 ||imanhuapi.com/style/js/mpmh.js
 ||imapi-sg.isnssdk.com^
 ||imasdk.googleapis.com^
+||imawwq.xyz^
 ||imbikh.icu^
 ||imedown.info/03.jpg
 ||imedown.info^*.gif
@@ -10044,6 +10049,7 @@
 ||mg21.com/wp-content/uploads/ad/
 ||mgage.com^
 ||mggzah.icu^
+||mgidskix.top^
 ||mgivkqk.cn^
 ||mgsm.pl/js/get*AdsMobile.xhtml
 ||mgzjin.cn^$third-party
@@ -10563,6 +10569,7 @@
 ||ncgqmzm.cn^
 ||nchxzmhr.com^
 ||ncjpbv.xyz^
+||nclljn.xyz^
 ||ncmxwhf.icu^
 ||ncnfjasd.net^
 ||ncyksuw.xyz^
@@ -11853,6 +11860,7 @@
 ||qfdtqq.com^
 ||qfnoyix.cn^
 ||qgfzb.com^$~third-party
+||qgidskiy.top^
 ||qgl27.xyz^
 ||qgrnyis.cn^
 ||qguwoq.cn^$third-party
@@ -13411,6 +13419,7 @@
 ||sscefsol.com^
 ||ssdfgq7.com^
 ||ssdtour.com^
+||ssestherssa.com^
 ||ssgg.chazidian.com^
 ||ssh.*.com^*!$script,third-party
 ||ssh.q4hwkg.cn^
@@ -14447,6 +14456,7 @@
 ||txbhhh.xyz^
 ||txcv68f.com^
 ||txjfso.com^
+||txmeeqz.icu^
 ||txscn.cn^
 ||txtyuzhaiwu.com/astyle/wap.js
 ||txzepl.xyz^
@@ -17154,7 +17164,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>13071
+!<<<<<网站单独规则>>>>>13075
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.net
@@ -17399,11 +17409,11 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 123movies.net,4anime.gg,actvid.com,animefreak.site,apkmody.io,batotoo.com,beetoon.net,bollyflix.loan,bravoporn.com,cineb.net,coloredmanga.com,downloadlagu321.site,dragontranslation.com,dramacool.sr,gogoanime.co.in,gogoanime.run,harimanga.com,hds-streaming-hd.com,himovies.to,hurawatch.cc,iflixmovies.lol,instamod.co,jujutsukaisenonline.net,leercapitulo.com,linksly.co,mangadna.com,mangageko.com,mangahere.today,manganatos.com,mangatigre.net,manhuafast.com,manhwadesu.ink,manhwalist.xyz,membed.net,messitv.net,miraculous.to,movies-watch.com.pk,moviesmod.pro,nkiri.com,prmovies.beauty,putlocker.vc,putlockers.fm,putlockers.li,sflix.se,sockshare.ac,ssoap2day.to,streamingcommunity.mom,sukidesuost.info,tamilyogi.bike,uwatchfre.cam,waploaded.com,watchomovies.net,y-2mate.com,yomovies.team,ytmp3.cc,yts-subs.com##iframe[style*="z-index: 2147483647"]
 123pan.com##.ant-carousel
 123pan.com##.baidu-banner-container
-123pan.com##.banner-container-h5
 123pan.com##.banner-container-pc
 123pan.com##[class*="adv-container"]
 123pan.com##div[style="width:100%;position:absolute;bottom:0;height:96px"]
 123pan.com,www.123pan.com##.advBanner
+123pan.com,www.123pan.com##.banner-container-h5
 123telugu.com##img[id^="mobile_flk_"]
 123telugu.com,coin-turk.com,amazon.co.uk,amazon.com,amazon.de###mobile-ad
 125.la##.forumlist_ad
@@ -19645,6 +19655,7 @@ bing.com##.tob_calcontainer > div.slide:has(> div.tobitem > a[href*="/tracking?a
 bing.com##[id$="adsMvCarousel"]
 bing.com##a[h$=",Ads"]
 bing.com##a[href*="/aclick?ld="]
+bing.com##div#sacs_win
 bing.com##div.BottomAppPro
 bing.com##li[class="b_algo"]:has(.b_attribution[data-partnertag]+p[class])
 bing.com##li[class="sa_hd"][role="option"]
@@ -22044,6 +22055,7 @@ gaytail.com##.happy-before-list
 gaytail.com##.happy-before-video
 gazeta.uz##.adv-placeholder
 gazetadopovo.com.br##.ads-mobile
+gazo-chat.net##a[href^="https://fam-ad.com/"]
 gazo-chat.net##div[id^="carousel_wrap"]
 gazo-chat.net,gorilife.com,keitaijoho.com,nknews.jp,wikiru.jp###slide_wrap
 gb.9a07g.com,j300.jstv9168.com,kgr.9a07q.com,gb.9a07q.com,gb.9a07j.com,gb.jiuse9170.com,gb.9a07s.com,zero.9a07s.com##.fixed-bottom.jsv.jsv-g1
@@ -25247,6 +25259,7 @@ mangabz.com##[id^="mb-"]
 manganelo.com##div[style*="width: 300px;"][style*="height: 250px;"]
 mangapanda.com,memecenter.com,mangareader.net,animeland.tv,animetoon.org,goodanime.co,animeplus.tv,animeflv.net,toonova.net,gogoanime.in,kiss-anime.me##div[class^="ads"]
 mangapanda.com,memecenter.com,mangareader.net,animeland.tv,animetoon.org,goodanime.co,animeplus.tv,animeflv.net,toonova.net,gogoanime.in,kiss-anime.me##iframe[src*="/Ads"]
+mangapark.io##main > div:has(> div.px-3 > a[href][target="_blank"][q\:key="CY_1"])
 mangastream.com##.mobile-ad-home
 manhua.weibo.com###p-nav-fix + .p-area.w980
 manhuadb.com##.d-flex.px-2
@@ -26380,6 +26393,7 @@ otzovik.com##.ypluss16_age
 otzovik.com##bigBanner
 oukutuan.com##mip-fixed[type="bottom"]
 oukutuan.com##mip-img[layout="responsive"]
+oumobook.com##span#wap-tip
 outkick.com##div[class*="outki-mobile-anchor"]
 outlook.live.com###OwaContainer
 outlook.live.com###app > .ms-Fabric > div[class] > div[class] > div[class]:has(> div > div > div[id^="owaadbar"])
