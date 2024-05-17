@@ -69,7 +69,13 @@ baidu.com.*#results[[:space:]]>[[:space:]]div\[class\]:not(.result):not(.result-
 ^##\[style=\"position:[[:space:]]absolute;[[:space:]]inset:[[:space:]]0px;\"\]$
 ! Miaozhen(秒针系统官网)
 ^\|\|miaozhen.com\^$
-
+! 斗鱼游戏
+^wan.douyu.com$
+^\|\|wan.douyu.com^$
+! xnxx.com白屏
+^xnxx.com##\[class\*=\"ad-\"\]$
+! 禁漫误杀
+^##\.col-lg-3\.col-xs-6[[:space:]]>[[:space:]]\.well$
 
 
 
