@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: q1jSTN++xW+oriM4DEWmdA
+! Checksum: OJz+Kxfuagg974iyuo22ug
 ! Title: Aloazny Chinese fiter
-! Version: 20240517202525
+! Version: 20240518090045
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-05-17 20:25:25
-! Total Count: 38168
-! Blocked Filters: 38168
+! Last modified: 2024-05-18 09:00:45
+! Total Count: 38177
+! Blocked Filters: 38177
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>17153
+!<<<<<域名规则>>>>>17157
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|cyxse.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.360118.com|m.37zw.net|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zwdu.com
 |http://*.cn/ad/
@@ -1301,6 +1301,7 @@
 ||999aa666bb.com^
 ||999bb222ww.com^
 ||999d.com^$third-party
+||999db.cn^
 ||999gg.net^
 ||999meiju.com/js/tj
 ||999pro.top^
@@ -10314,6 +10315,7 @@
 ||mpn56e.cn^
 ||mps.wenkuzu.com^
 ||mpyerxzn.xyz^
+||mqcoycx.icu^
 ||mqjqripb.xyz^
 ||mql5.com/rq?
 ||mqrupjsm.xyz^
@@ -13987,6 +13989,7 @@
 ||tgdopodk.com^
 ||tgfyq.cn^
 ||tggsd07.com^
+||tgidskii.top^
 ||tgjdbx.xyz^
 ||tgvgzt.xyz^
 ||tgwfaz.icu^
@@ -14853,6 +14856,7 @@
 ||uyflu0x7.xyz^
 ||uym11.xyz^
 ||uymahuxv.xyz^
+||uyohyy.xyz^
 ||uyq3ruf.icu^
 ||uysdxmo.com^
 ||uyt79.top^
@@ -17170,7 +17174,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>13080
+!<<<<<网站单独规则>>>>>13085
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.net
@@ -18106,7 +18110,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 4travel.jp,appmedia.jp##.ad_sp_header
 4wank.com,91rb99.com,danude.com,daporn.com,diamondfaucet.space,epicgfs.com,euobserver.com,fpo.xxx,franczyzawhandlu.pl,freeporn8.com,hentai-moon.com,medicinehatnews.com,pornachi.com,pornchimp.com,porndr.com,pornmix.org,scatxxxporn.com,shemalesin.com,sortporn.com,xmateur.com,zeenite.com##.top
 4wxw.com,1980xx.com,1909.tv##div[class="lggg"]
-4x4magazin.hu,8tracks.com,aan.com,aarp.org,additudemag.com,aicoin.net.cn,animax-asia.com,annapurnapost.com,apkforpc.com,audioxpress.com,axn-asia.com,bccn.net,blavity.com,bravotv.com,cinestaan.com,citiblog.co.uk,cnbctv18.com,cnn59.com,controleng.com,cumlouder.com,dcfever.com,digiday-com.cdn.ampproject.org,discordemoji.com,douyuex.com,dw.com,dwturkce.com,elcorreogallego.es,escapeatx.com,flyingjizz.com,foodsforbetterhealth.com,gaodun.com,gemtvasia.com,generatorlinkpremium.com,gotporn.com,gramfile.com,hcn.org,hkepc.com,huffingtonpost.co.uk,ichgcp.net,indaily.com.au,inqld.com.au,internationalnewsandviews.com,investmentnews.com,iviewui.com,jagonews24.com,japan-whores.com,jewishworldreview.com,juejin.cn,legion.org,lifezette.com,livestly.com,m.haberturk.com,m.huffingtonpost.jp,magtheweekly.com,mathopenref.com,moneyland.ch,motoroctane.com,nuvid.*,offshore-energy.biz,onetvasia.com,operanews.com,outlookindia.com,oxygen.com,pch.com,perfectgirls.net,playlive.pw,porntube.com,prospectmagazine.co.uk,prothomalo.com,readamericanfootball.com,readarsenal.com,readastonvilla.com,readbasketball.com,readbetting.com,readbournemouth.com,readboxing.com,readbrighton.com,readbundesliga.com,readburnley.com,readcars.co,readceltic.com,readchampionship.com,readchelsea.com,readcricket.com,readcrystalpalace.com,readersdigest.ca,readeverton.com,readeverything.co,readfashion.co,readfilm.co,readfood.co,readfootball.co,readgaming.co,readgolf.com,readhorseracing.com,readhuddersfield.com,readhull.com,readinternationalfootball.com,readlaliga.com,readleicester.com,readliverpoolfc.com,readmancity.com,readmanutd.com,readmiddlesbrough.com,readmma.com,readmotorsport.com,readmusic.co,readnewcastle.com,readnorwich.com,readnottinghamforest.com,readolympics.com,readpl.com,readrangers.com,readrugbyunion.com,readseriea.com,readshowbiz.co,readsouthampton.com,readsport.co,readstoke.com,readsunderland.com,readswansea.com,readtech.co,readtennis.co,readtottenham.com,readtv.co,readussoccer.com,readwatford.com,readwestbrom.com,readwestham.com,readwsl.com,reason.com,redvoicemedia.com,revolver.news,rogerebert.com,serverhunter.com,smithsonianmag.com,soft112.com,streamingmedia.com,tasteofhome.com,the-scientist.com,thecatholicthing.org,therighthairstyles.com,video.fc2.com,vip-front.video.g.fc2.com,weatherwatch.co.nz,wheels.ca,woot.com,worldofbitco.in##.advertisement
+4x4magazin.hu,8tracks.com,aan.com,aarp.org,additudemag.com,aicoin.net.cn,animax-asia.com,annapurnapost.com,apkforpc.com,audioxpress.com,axn-asia.com,bccn.net,blavity.com,bravotv.com,cinestaan.com,citiblog.co.uk,cnbctv18.com,cnn59.com,controleng.com,cumlouder.com,dcfever.com,digiday-com.cdn.ampproject.org,discordemoji.com,douyuex.com,dw.com,dwturkce.com,elcorreogallego.es,escapeatx.com,flyingjizz.com,foodsforbetterhealth.com,gaodun.com,gemtvasia.com,generatorlinkpremium.com,gotporn.com,gramfile.com,hcn.org,hkepc.com,huffingtonpost.co.uk,ichgcp.net,indaily.com.au,inqld.com.au,internationalnewsandviews.com,investmentnews.com,iviewui.com,jagonews24.com,japan-whores.com,jewishworldreview.com,juejin.cn,legion.org,lifezette.com,livestly.com,m.haberturk.com,m.huffingtonpost.jp,magtheweekly.com,mathopenref.com,moneyland.ch,motoroctane.com,nhentai.net,nuvid.*,offshore-energy.biz,onetvasia.com,operanews.com,outlookindia.com,oxygen.com,pch.com,perfectgirls.net,playlive.pw,porntube.com,prospectmagazine.co.uk,prothomalo.com,readamericanfootball.com,readarsenal.com,readastonvilla.com,readbasketball.com,readbetting.com,readbournemouth.com,readboxing.com,readbrighton.com,readbundesliga.com,readburnley.com,readcars.co,readceltic.com,readchampionship.com,readchelsea.com,readcricket.com,readcrystalpalace.com,readersdigest.ca,readeverton.com,readeverything.co,readfashion.co,readfilm.co,readfood.co,readfootball.co,readgaming.co,readgolf.com,readhorseracing.com,readhuddersfield.com,readhull.com,readinternationalfootball.com,readlaliga.com,readleicester.com,readliverpoolfc.com,readmancity.com,readmanutd.com,readmiddlesbrough.com,readmma.com,readmotorsport.com,readmusic.co,readnewcastle.com,readnorwich.com,readnottinghamforest.com,readolympics.com,readpl.com,readrangers.com,readrugbyunion.com,readseriea.com,readshowbiz.co,readsouthampton.com,readsport.co,readstoke.com,readsunderland.com,readswansea.com,readtech.co,readtennis.co,readtottenham.com,readtv.co,readussoccer.com,readwatford.com,readwestbrom.com,readwestham.com,readwsl.com,reason.com,redvoicemedia.com,revolver.news,rogerebert.com,serverhunter.com,smithsonianmag.com,soft112.com,streamingmedia.com,tasteofhome.com,the-scientist.com,thecatholicthing.org,therighthairstyles.com,video.fc2.com,vip-front.video.g.fc2.com,weatherwatch.co.nz,wheels.ca,woot.com,worldofbitco.in##.advertisement
 500.com###live_top_ad
 500.com##.tz_pai
 500.com##a[href*="sanyol.cn"]
@@ -18338,8 +18342,14 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 6park.com##a[href*="bpropolis."]
 6park.com##a[href*="geekbuying."]
 6park.com##a[href*="jdoqocy."]
+6park.com##div[align="center"][style="background:#fbfeea;min-height:90px;"]
+6park.com##div[style^="width:990px;background:white;"]
 6park.com##img[width="980"][height="90"]
 6park.com##table[width="89%"][height="60"]
+6park.com##table[width][align="center"] > tbody > tr > td[bgcolor="#FFFFEE"]:has(> div.adv-6park)
+6park.com##table[width][align="center"] > tbody > tr > td[bgcolor="#FFFFEE"]:has(> div[id*="ScriptRoot"])
+6park.com##table[width][align="center"] > tbody > tr > td[bgcolor="#FFFFEE"]:has(> table[width="100%"] > tbody > tr > td > div.adv-6park)
+6park.com,club.6parkbbs.com##.adv-6park
 6parknews.com##.other_list_ad
 703804.com##.hotad
 7060.la,bimiacg.net##.tuiguang
@@ -20304,7 +20314,6 @@ cloud.mail.ru##div[class^="Page-touch__root"] > div[id][class][style="visibility
 cloud.mail.ru##div[class^="page-wrapper_"] > div[id="portal-menu-banner"] + div[style] + div[id]:empty
 cloud.tencent.com##.cdc-commercial-swiper
 cloud.tencent.com##.mod-commercial
-club.6parkbbs.com##.adv-6park
 club.6parkbbs.com##.body_center:has(> div.adv-6park)
 cm.k366.com##.rightpart td[height="260"]
 cm.k366.com##.rightpart td[width="300"][height="270"]
@@ -21747,7 +21756,6 @@ forbes.com##.incontent-placeholder-row
 forbes.com##.mobile-sticky-ed-placeholder
 foreca.com##.a1i32s5g
 formel1.de,m.formel1.de##.b-top-container
-forocoches.com,macg.co##.optidigital-wrapper-div
 fortune.com###content div[class$=" simple"]
 fortunechina.com##.pinglunmask
 fortunechina.com##.pinglunwindow
@@ -21839,6 +21847,7 @@ fun48.com###float2016
 fun48.com##.margin-big-bottom
 fund.eastmoney.com##div[data-url^="//same.eastmoney.com/"]
 fusetter.com##a[href^="https://mahoyaku.onelink.me/"] > img
+futura-sciences.com,forocoches.com,macg.co##.optidigital-wrapper-div
 futurezone.de##.contentAd--amp
 futurezone.de##.contentAd--inline-amp
 futurezone.de##div[class^="contentAd-"]
