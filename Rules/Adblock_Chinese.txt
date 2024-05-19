@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: zOPbEV/J2CkGunVCbQz9NA
+! Checksum: 7IoygZ/QUBE6muqlfA/abw
 ! Title: Aloazny Chinese fiter
-! Version: 20240518202447
+! Version: 20240519090604
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-05-18 20:24:47
-! Total Count: 38185
-! Blocked Filters: 38185
+! Last modified: 2024-05-19 09:06:04
+! Total Count: 38212
+! Blocked Filters: 38212
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>17165
+!<<<<<域名规则>>>>>17183
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|cyxse.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.360118.com|m.37zw.net|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zwdu.com
 |http://*.cn/ad/
@@ -1302,6 +1302,7 @@
 ||999bb222ww.com^
 ||999d.com^$third-party
 ||999db.cn^
+||999fb.cn^
 ||999gg.net^
 ||999meiju.com/js/tj
 ||999pro.top^
@@ -1886,7 +1887,7 @@
 ||ads.xlxtra.com^
 ||ads.yahoo.com^
 ||ads.yap.yahoo.com^
-||ads.youtube.com^
+||ads.youtube.com^$domain=~ads.youtube.com
 ||ads30.adcolony.com^
 ||adsage.com^$third-party
 ||adsapi.manhuaren.com^
@@ -6113,6 +6114,7 @@
 ||fortxfq.cn^
 ||forum.lowyat.net/random-mobile.php
 ||forzubatr.com^
+||foscvbu.icu^
 ||fotao9.com^
 ||fotaxf.xyz^
 ||fotoable.com/Advertise/
@@ -6663,6 +6665,8 @@
 ||google.com/pagead/
 ||googleadservices.com^
 ||googletagmanager.com^
+||googlevideo.com/initplayback?source=youtube*&c=TVHTML5&oad=$xmlhttprequest,domain=youtube.com
+||googlevideo.com/videoplayback*&ctier=L&*%2Cctier%2C$xmlhttprequest,third-party,domain=m.youtube.com|music.youtube.com|www.youtube.com
 ||goproxy.cc/api.php
 ||gorgeousground.com^$third-party
 ||gorgon.youdao.com^
@@ -9467,6 +9471,7 @@
 ||lnifdlal.top^
 ||lniwe.xyz^
 ||lnpqqq.com^
+||lnxkrd.xyz^
 ||lnxpdj.xyz^
 ||lnzjlr.xyz^
 ||lnzqw.net/js/
@@ -9567,6 +9572,7 @@
 ||lsntzzy3.com/Runtime/js/psData.js
 ||lsnzxzy1.com/Runtime/js/psData.js
 ||ltbyw.top/data/images/*.gif
+||ltfpbp.xyz^
 ||lthmfx.xyz^
 ||ltht.tech^
 ||ltienll.top^
@@ -9760,6 +9766,7 @@
 ||m.ygexing.com/d/js/acmsd
 ||m.yhdm.so/bar/yfgg.js
 ||m.yinghuacd.com/bar
+||m.youtube.com/*/ad.js$script
 ||m.ysxs8.com/js/content_db.js
 ||m03dv.xyz^
 ||m05ib.xyz^
@@ -11151,6 +11158,7 @@
 ||owyame.xyz^
 ||oxj8hcfg.xyz^
 ||oxkyaq.xyz^
+||oxmvcg.xyz^
 ||oxrvfsi.xyz^
 ||oxvlxwz.xyz^
 ||oyfnkle.cn^
@@ -14615,6 +14623,7 @@
 ||ug.snssdk.com^
 ||ugbjqwe.com^
 ||ugbler.icu^
+||ugidskit.top^
 ||ugkpsi.xyz^
 ||ugolue.xyz^
 ||ugpibtpk.xyz^
@@ -15717,6 +15726,13 @@
 ||www.xxmh*.com^
 ||www.ykjyyy.com/8888/
 ||www.ynxjf.com^
+||www.youtube.com/@Channel-Links/
+||www.youtube.com/@DOWNLOAD-LINKK/
+||www.youtube.com/channel/UCCmzcphyrH6Br5eNUnQR2mw/
+||www.youtube.com/channel/UCS9ql1ylQmDx7o_6v15X7mw/
+||www.youtube.com/channel/UCq4LVl85fFC88_G5pT54dbw/
+||www.youtube.com/channel/UCuHeiORKwgjZ5-n8xoq_zVA/
+||www.youtube.com/channel/UCwmnsubfOCTN_xMhg4czo5A/
 ||www.youzonggw.com^
 ||www.yueyuego.com^
 ||www.yuyue008.cn^
@@ -16519,6 +16535,7 @@
 ||youtube.com/_get_ads?
 ||youtube.com/ad_companion
 ||youtube.com/api/stats/ads
+||youtube.com/embed/*$domain=1shortlink.com
 ||youtube.com/embed/wqLWTeNBEEQ?
 ||youtube.com/get_midroll_
 ||youtube.com/get_midroll_$domain=youtube.com
@@ -16527,6 +16544,7 @@
 ||youtube.com/iframe_api$domain=nownews.com
 ||youtube.com/pagead/
 ||youtube.com/ptracking?
+||youtube.com^$domain=1link.vip|tejtime24.com|thevouz.in
 ||youtubee.top^
 ||youxi.baidu.com/tips/bdtips_min.js
 ||youy14.com/js/tj.js
@@ -17182,7 +17200,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>13085
+!<<<<<网站单独规则>>>>>13092
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.net
@@ -22966,6 +22984,7 @@ hupu.com##.maibghref
 hupu.com##.topPub
 hupu.com##.voice-ad300-250
 hupu.com##.voteIndex
+hupu.com##div[class*="-banner_"]
 hupu.com##div[class*="ad200-200"]
 hupu.com##div[class*="ad240-200"]
 hupu.com##div[class*="ad728-90"]
@@ -26783,16 +26802,21 @@ pornhd8k.me##.content-kus
 pornhd8k.me,xtits.com,camwhores.film,masturhub.com,fapnado.com,adultepic.com,videocelebs.net##iframe[width="300"][height="100"]
 pornhk.org##video[preload][playsinline="true"]
 pornhub-com.appspot.com,pornhub.com,pornhub.net,pornhubthbh7ap3u.onion,tube8.com,tube8.es,tube8.fr,tube8.net,youporn.com###pb_template
+pornhub.com###pb_block
+pornhub.com###relatedVideosCenter > .wrapVideoBlock
 pornhub.com###relatedVideosCenter > .wrapVideoBlock:has(> .videoSpiceVidsBlock span.bg-spice-badge)
 pornhub.com###relatedVideosCenter > li[class^="related"]
 pornhub.com###singleFeedSection > .emptyBlockSpace
 pornhub.com##.sectionWrapper:has(> #bottomVideos > .wrapVideoBlock)
 pornhub.com##.sniperModeEngaged
 pornhub.com##.topAdContainter
+pornhub.com##.video-wrapper > #player ~ .hd.clear
 pornhub.com##.videoPremiumBlock
 pornhub.com##[srcset*="bloB:"]
 pornhub.com##a[href^="https://www.uviu.com"]
+pornhub.com##div.container:style(margin-top: 0px !important)
 pornhub.com##div[class="video-wrapper"] > .clear.hd:has(.adsbytrafficjunky)
+pornhub.com##div[id^="customSkin"]
 pornhub.com##img[srcset]
 pornhub.com,pornhub.net,pornhub.org##.realsex
 pornhub.com,pornhub.org,pornhub.net###abAlert
@@ -29988,6 +30012,7 @@ youtube.com##.ytd-rich-item-renderer > ytd-ad-slot-renderer
 youtube.com##.ytd-search-pyv-renderer
 youtube.com##.ytd-video-masthead-ad-primary-video-overlay-renderer
 youtube.com##.ytd-video-masthead-ad-v3-renderer
+youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container > .yt-virtual-list__item--visible.yt-virtual-list__item--selected.yt-virtual-list__item:has-text(Ad)
 youtube.com##.ytp-ad-action-interstitial-background-container
 youtube.com##.ytp-ad-action-interstitial-slot
 youtube.com##.ytp-ad-button
@@ -36746,9 +36771,8 @@ zle.com$script
 ~xxgxw.com##div[id^="C"][style*="height:"][class^="C"]
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1465
+!<<<<<放行白名单>>>>>1467
 #@##adblocktest
-#@#.col-lg-3.col-xs-6 > .well
 #@#.has-ad
 012.tw#@#.ad728
 10jqka.com.cn,dep-family.hccg.gov.tw,faxingw.cn,gdmm.com#@#.ad_1
@@ -36757,7 +36781,7 @@ zle.com$script
 15min.lt#@#.ads
 15min.lt#@#.widget.ads
 163.com#@#.s-btns
-18-comic.work,18-comicfreedom.org,18-comicfreedom.xyz,18-comicstellar.art,18comic.org,18comic.vip,jm-comic1.cc,jm-comic2.cc,jmcomic.me,jmcomic1.me,jmcomic2.me#@#.col-lg-3.col-xs-6 > .well
+18-comic.work,18-comicfreedom.org,18-comicfreedom.xyz,18-comicstellar.art,18comic.org,18comic.vip,jm-comic1.cc,jm-comic2.cc,jmcomic.me,jmcomic1.city,jmcomic1.group,jmcomic1.me,jmcomic1.win,jmcomic2.me#@#.col-lg-3.col-xs-6 > .well
 189.cn#@##linkShare
 189.cn#@#.adLink
 189.cn#@#.adlink
@@ -37415,6 +37439,7 @@ zle.com$script
 @@||googletagservices.com^$script,domain=creaders.net
 @@||gov.cn/scripts/Comm/AdRotator.js
 @@||grattable.com/blogads.css
+@@||gstatic.com^$script,domain=pch.com|pornhub.com|pornhub.net|pornhub.org
 @@||gtimg.cn/images/nz/cp/*/adimg.png$domain=qq.com
 @@||gtimg.cn/qz-proj/wy-pc-v3/static/img/svg/icon-share-
 @@||guahao.cn/common/js/plugins/fingerprint.js
@@ -37774,6 +37799,7 @@ zle.com$script
 @@||sports.ru^*/adfox.$xmlhttprequest
 @@||ssports.com/images/resources/web/live/js/LiveAds.js
 @@||st.tubecup.org/releted_hdzog/json.php?page=$domain=m.hdzog.com
+@@||static-ppp.portalcdn.com/$script,domain=pornhub.com
 @@||static.adsafeprotected.com/favicon.ico$domain=tf1info.fr
 @@||static.chartbeat.com/js/chartbeat.js$domain=m.timesofindia.com
 @@||static.clmbtech.com^$domain=timesofindia.com,script
@@ -37902,6 +37928,7 @@ zle.com$script
 @@||youtube.com/get_video_info*&el=editpage
 @@||youtube.com/get_video_info?$xmlhttprequest,domain=music.youtube.com|tv.youtube.com
 @@||youtube.com/get_video_info?*embedded$~third-party
+@@||youtube.com/yts/jsbin/*$script,domain=breathecast.com|classicalite.com|crossmap.com|hallels.com|newseveryday.com|returnofkings.com
 @@||ypncdn.com^$domain=you-porn.com|youporngay.com|youpornru.com|youporn.*|youporn.com|youporngay.com|you-porn.com|youpornru.com|youporn.fyi
 @@||ytimg.com^*_banner$domain=youtube.com
 @@||yunduanxin.xyz/static/js/banger.js
