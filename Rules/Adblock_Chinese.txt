@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 7IoygZ/QUBE6muqlfA/abw
+! Checksum: hDAq988VrfAhbCa/BeNJgg
 ! Title: Aloazny Chinese fiter
-! Version: 20240519090604
+! Version: 20240519202504
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-05-19 09:06:04
-! Total Count: 38212
-! Blocked Filters: 38212
+! Last modified: 2024-05-19 20:25:04
+! Total Count: 38215
+! Blocked Filters: 38215
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -17200,7 +17200,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>13092
+!<<<<<网站单独规则>>>>>13095
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.net
@@ -20363,12 +20363,12 @@ cnbctv18.com##.below-summary-ad
 cnbeta.com###aswift_0_expand
 cnbeta.com###job_box
 cnbeta.com###upcoming_box
-cnbeta.com##.article-global
 cnbeta.com##.article-topic
 cnbeta.com##.cbv810
 cnbeta.com##.cbv:not(#cb_share)
 cnbeta.com##.left300
 cnbeta.com##a[href*="cloud.tencent."]
+cnbeta.com,cnbeta.com.tw##.article-global
 cnbeta.com.tw##.cbv:not(#cb_share) a
 cnbeta.com.tw##.tks
 cnbeta.com.tw##[class^="cbv"]
@@ -26620,6 +26620,7 @@ pianku.me###playad
 pianyuan.org###myModal
 piaoliang.com##.hot990
 pic4you.ru,pic5you.ru##body > #bb
+picnob.com,pixwox.com##.ah-box
 pictbland.net##.full.text-center[style*="height"]
 pigai.org###newnotice
 pikabu.ru##.ads-under-post
@@ -26694,6 +26695,8 @@ pixnet.net##div[id*="-aD-"]
 pixnet.net##div[style="width: 620px; height: 250px; padding-bottom: 10px;"]
 pixnet.net##div[style^="width: 630px;"][style*="height: 250px"]
 pixwox##.ah-box
+pixwox.com##[id^="browsi_wrapper"][id*="_ai_"]
+pixwox.com##div[id]:has([id^="browsi_ad"])
 pjtime.com###Couplet_l_big
 pjtime.com###Couplet_l_small
 pjtime.com###Couplet_r_big

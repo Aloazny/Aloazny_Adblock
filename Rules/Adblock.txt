@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: CGp0lmi3fpBPDgTEF8kd+g
+! Checksum: +V/gknvXvmzYARJfNjRwYw
 ! Title: Aloazny Mobile fiter
-! Version: 20240519090728
+! Version: 20240519202628
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-05-19 09:07:28
-! Total Count: 74085
-! Blocked Filters: 74085
+! Last modified: 2024-05-19 20:26:28
+! Total Count: 74088
+! Blocked Filters: 74088
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -28026,7 +28026,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>34064
+!<<<<<网站单独规则>>>>>34067
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe.com,badfilter
 $image,third-party,denyallow=cdn77.org|fpbns.net|others-cdn.com|rncdn7.com|sb-cd.com|stream.highwebmedia.com|upsiloncdn.net|xvideos-cdn.com|youjizz.com|ypncdn.com,domain=pussyspace.com|pussyspace.net
@@ -34676,12 +34676,12 @@ cnbctv18.com##.desk_header_banner
 cnbeta.com###aswift_0_expand
 cnbeta.com###job_box
 cnbeta.com###upcoming_box
-cnbeta.com##.article-global
 cnbeta.com##.article-topic
 cnbeta.com##.cbv810
 cnbeta.com##.cbv:not(#cb_share)
 cnbeta.com##.left300
 cnbeta.com##a[href*="cloud.tencent."]
+cnbeta.com,cnbeta.com.tw##.article-global
 cnbeta.com.tw##.cbv:not(#cb_share) a
 cnbeta.com.tw##.tks
 cnbeta.com.tw##[class^="cbv"]
@@ -51218,6 +51218,7 @@ pick-up-artist-forum.com##div[id^="popup"]
 pickmypostcode.com###v-aside-rb
 pickmypostcode.com##.aside-sponsored
 pickvideo.net##.downloadSection > span[style="font-style: italic; color: #949494; text-align: center;"]
+picnob.com,pixwox.com##.ah-box
 pics4upload.com,imgsen.com##a[href="https://besthotgayporn.com/"] > img
 pics4you.net##a[href="http://nngirls.party/"]
 pics4you.net##body > div[style*="width: 100%; z-index: "]
@@ -51403,6 +51404,8 @@ pixroute.com,imgspice.com##table[width="612"][height="262"]
 pixrqqz.shop,imgqec.online,imgwbfh.online,imgyer.store,imgxuh.cfd,imgngc.sbs,imgezx.sbs,imgxza.store,imgwqr.online,imagehaha.com,imgblaze.net,imgkaka.xyz,pixsera.net,imgfrost.net,imgair.net##+js(addEventListener-defuser, click, checkTarget)
 pixrqqz.shop,imgwqr.online,imagehaha.com,imgblaze.net,imgkaka.xyz,pixsera.net,imgfrost.net,imgair.net##+js(window.open-defuser, /prcf.fiyar|themes|pixsense|.jpg/)
 pixwox##.ah-box
+pixwox.com##[id^="browsi_wrapper"][id*="_ai_"]
+pixwox.com##div[id]:has([id^="browsi_ad"])
 pjtime.com###Couplet_l_big
 pjtime.com###Couplet_l_small
 pjtime.com###Couplet_r_big
