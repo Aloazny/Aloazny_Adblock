@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: p4QTv2zosdeW6ru624VFbg
+! Checksum: kpkhila6Mb6fOuG+8fAOTw
 ! Title: Aloazny attach fiter
-! Version: 20240521202606
+! Version: 20240522090154
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-05-21 20:26:06
-! Total Count: 14764
-! Blocked Filters: 14764
+! Last modified: 2024-05-22 09:01:54
+! Total Count: 14763
+! Blocked Filters: 14763
 ! Description: 合并混合规则的补充规则，轻量规则，可作为补充规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -11546,7 +11546,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 zle.com$script
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>3001
+!<<<<<通用Css规则>>>>>2999
 ###ADbox
 ###AdBlockDialog
 ###AdBox2
@@ -13367,7 +13367,6 @@ zle.com$script
 ##[class$="card-ad-video"]
 ##[class$="play-adv"]
 ##[class$="video-ads"]
-##[class*="adbox"]
 ##[class*="ads-block"]
 ##[class*="ads_"]
 ##[class*="ads_border"]
@@ -13558,7 +13557,6 @@ zle.com$script
 ##[onclick*='https://i.opiwb.com:']
 ##[onclick*='pypyj.com']
 ##[onclick*='www.l4lui.com'],.col-12.position-relative>b
-##[onclick="ga('send', 'event', { eventCategory: 'tlavban', eventAction: 'mobile', eventLabel: '台灣情趣用品'});"]
 ##[onclick="window.open('http://682kg.com/')"]
 ##[onclick="window.open('https://docs.qq.com/doc/DZGtmWUxpamJGTnNY');"]
 ##[onclick="window.open(this.url)"][src]
@@ -14550,7 +14548,7 @@ zle.com$script
 ~xxgxw.com##div[id^="C"][style*="height:"][class^="C"]
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>240
+!<<<<<放行白名单>>>>>241
 #@##adblocktest
 18-comic.work,18-comicfreedom.org,18-comicfreedom.xyz,18-comicstellar.art,18comic.org,18comic.vip,jm-comic1.cc,jm-comic2.cc,jmcomic.me,jmcomic1.city,jmcomic1.group,jmcomic1.me,jmcomic1.win,jmcomic2.me#@#.col-lg-3.col-xs-6 > .well
 520cc.com,520cc.cc#@##inplayer
@@ -14716,6 +14714,7 @@ zle.com$script
 @@||sexwebvideo.me/js/advertising.js
 @@||sports.ru^*/adfox.$xmlhttprequest
 @@||static-ppp.portalcdn.com/$script,domain=pornhub.com
+@@||static.admysports.com/hb/site/als/hb_allosurf.js$domain=allosurf.net
 @@||static.adsafeprotected.com/favicon.ico$domain=tf1info.fr
 @@||static.koreus.com/js/advert.js
 @@||static.tieba.baidu.com/tb/editor/images/client/image_emoticon*.png
