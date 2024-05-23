@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: /fFQ1wcgOSMtIhWt8WYe9A
+! Checksum: Zd1C9IRsL8XwLj6cobHvOw
 ! Title: Aloazny attach fiter
-! Version: 20240522202657
+! Version: 20240523090123
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-05-22 20:26:57
-! Total Count: 14766
-! Blocked Filters: 14766
+! Last modified: 2024-05-23 09:01:23
+! Total Count: 14770
+! Blocked Filters: 14770
 ! Description: 合并混合规则的补充规则，轻量规则，可作为补充规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_attach.txt?ref=main
 
 
-!<<<<<域名规则>>>>>6671
+!<<<<<域名规则>>>>>6674
 |https://m.frgls.com/js/*.js?v=
 ||*ggua.xyz^$third-party
 ||000123456789.online^
@@ -1605,6 +1605,7 @@
 ||dieka888.com^
 ||dif1qbzytaymu.cloudfront.net^
 ||differentcoat.com^$third-party
+||difficult-help.com^$third-party
 ||difficultfog.com^$third-party
 ||dig.bdurl.net^
 ||dig.qbao.com^
@@ -3244,6 +3245,7 @@
 ||lb5o9.com^
 ||lbnqnp.xyz^
 ||lbprjdi.cn^
+||lby2kd27c.com^$third-party
 ||lccfjszp.cn^
 ||ldjhlqr.cn^
 ||ldxinb.xyz^
@@ -3599,6 +3601,7 @@
 ||missav.com/pop?url=
 ||missav123.com/pop?url=
 ||missav789.com/pop?url=
+||misterbangingfancied.com^$third-party
 ||mistyhorizon.com^$third-party
 ||mittencattle.com^$third-party
 ||mixedreading.com^$third-party
@@ -9890,7 +9893,7 @@ zybang.com##a[class="top-banner"]
 zybang.com##div[id="askTeacher-after-adx-wrap"]
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>1656
+!<<<<<通配符规则>>>>>1657
 $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.xyz
 &adZones$xmlhttprequest
 &ad_block=
@@ -11004,6 +11007,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 /index.html#/register$~third-party
 /index.html?channelCode=
 /index.html?shareName=$~third-party
+/invoke.js$domain=141jav.com|123putlocker.io|94funtv.com|koomanga.com|yifyhdtorrent.org|9anime.city|noveleandofree.com|mcmcryptos.xyz|terabox.fun|cin.cx|cin.ac
 /javascript/ads/*
 /javascript/gpt-
 /javascripts/ads/*
