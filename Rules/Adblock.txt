@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: vkHDkgNNvurp+PzmC9aq9Q
+! Checksum: xcECFzIjZZ1CRYQ73Hj1sg
 ! Title: Aloazny Mobile fiter
-! Version: 20240523202819
+! Version: 20240524090349
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-05-23 20:28:19
-! Total Count: 73268
-! Blocked Filters: 73268
+! Last modified: 2024-05-24 09:03:49
+! Total Count: 73282
+! Blocked Filters: 73282
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock.txt?ref=main
 
 
-!<<<<<域名规则>>>>>27117
+!<<<<<域名规则>>>>>27124
 |http$third-party,script,domain=kinotut.tv
 |http*://$image,third-party,domain=rmdown.com
 |http*://$script,third-party,domain=stream2watch.org,badfilter
@@ -10223,6 +10223,7 @@
 ||foizico.cn^
 ||fol9v.xyz^
 ||followborder.com^$third-party
+||fonfn.com^
 ||fonolive.com/promoted-ads
 ||fontke.com/custom/
 ||fontsrepo.com/plugin/*/inc/pause-front.js
@@ -13719,6 +13720,7 @@
 ||jrltdiu.cn^
 ||jrmianban.com/img/images/g-g/
 ||jrmrijv.icu^
+||jrpolj.xyz^
 ||jrtwi.xyz^
 ||jrzaht.xyz^
 ||jrzeiotwaq.com^
@@ -13869,6 +13871,7 @@
 ||jsx.luyouwang.com^
 ||jsxwfb.xyz^
 ||jsyefc.com^
+||jsyliea.top^
 ||jsyunmy.com^
 ||jszavs1.com^
 ||jszctech.com^
@@ -17639,6 +17642,7 @@
 ||outbrain.com^
 ||outbrain.com^$domain=wenxuecity.com
 ||outbrainimg.com^$domain=rocketnews24.com|youpouch.com|soranews24.com
+||outheelrelict.com^
 ||outlook.live.com/ows/*/OutlookOptions/AdsAggregate
 ||outoctillerytor.com^
 ||outpush.net^
@@ -24855,6 +24859,7 @@
 ||wpnsrv.com^
 ||wpoarjokzgi.com^
 ||wpshsdk.com^$third-party
+||wpuiuwh.icu^
 ||wpwpquse.cn^
 ||wqcfg.cn^
 ||wqdro6us.icu^
@@ -24881,6 +24886,7 @@
 ||ws.wenshenxiu.com^
 ||wsacjdg.cn^
 ||wsadad.cn^
+||wscewc.xyz^
 ||wschao.xyz^
 ||wsdfame.com^
 ||wsdwbfs.cn^
@@ -26140,6 +26146,7 @@
 ||yg006.com/attachment/js/
 ||yg006.com/attachment/xjdb.jpg
 ||ygfgzmzo.xyz^
+||ygh5.cn^
 ||ygshu.com/js/h
 ||ygwdai.cn^
 ||ygxgk.cn^
@@ -27134,7 +27141,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>34120
+!<<<<<网站单独规则>>>>>34125
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe.com,badfilter
 $image,third-party,denyallow=cdn77.org|fpbns.net|others-cdn.com|rncdn7.com|sb-cd.com|stream.highwebmedia.com|upsiloncdn.net|xvideos-cdn.com|youjizz.com|ypncdn.com,domain=pussyspace.com|pussyspace.net
@@ -39048,6 +39055,7 @@ gamingbible.com,ladbible.com,sportbible.com,unilad.com,tyla.com##+js(set-constan
 gamingbible.com,ladbible.com,sportbible.com,unilad.com,tyla.com##+js(set-constant, pbjs.rp.requestVideoBids, noopFunc)
 gamingbible.com,sportbible.com,unilad.com,ladbible.com##div[class^="article-observer_bottomAd"]
 gamingbolt.com##.small-ad
+gamingbolt.com##.thrid-party-content-break
 gamingintelligence.com##div[class$="adsanity-"]
 gamingintelligence.com#?#.col-lg-3 > .main > .mb-3 > div[class$="adsanity-"]:upward(2)
 gamitisa.com##.aff-banners-cont
@@ -47020,6 +47028,7 @@ mindmegette.hu##.laku-3articles-slider-box
 mine-3m.com##.gtm-affiliate-button-3
 mine-3m.com##.mn-ad-block
 mine-3m.com##.mn-footer-banner
+minecraft.buzz##+js(abort-on-property-read, nitroAds)
 minecraftforge.net##.promo-container
 minecraftforum.net###nav-free-minecraft-server-hosting
 minecraftforum.net##.server-forum-after-comment-ad
@@ -51637,8 +51646,9 @@ pubhtml5.com##.ph5---banner---container
 public.upera.co##center > a[href^="http://upera.shop/"]
 publicdomainr.net,publicdomainq.net###footercredits + div[id][class*=" "]
 publico.es##.pb-mobile-ads
+publicspeed5c.*,determinemousecshe.*,currentcolorq2dv.*,somehowrockyng.*,leadmorning4ivn.*,strangernervousql.*,blewdiffera3j2.*,differenceprimitive85p.*,masterenjoyao.*,monkeynecktj4w.*,mindmotion93y8.*,homebasis4d.*,linelocatemfsn.*,superbarca77.*,superargo77.*,superleo77.*,superlee77.*,superdom77.*,superabbit33.*,live-streamfootball.*,superabbit77.*,rbtv77.*##.iframe-wrapper > #iframe-id  + div[class*=" "]:has(> img)
 publicspeed5c.*,determinemousecshe.*,currentcolorq2dv.*,somehowrockyng.*,leadmorning4ivn.*,strangernervousql.*,blewdiffera3j2.*,differenceprimitive85p.*,masterenjoyao.*,monkeynecktj4w.*,mindmotion93y8.*,homebasis4d.*,linelocatemfsn.*,superbarca77.*,superargo77.*,superleo77.*,superlee77.*,superdom77.*,superabbit33.*,live-streamfootball.*,superabbit77.*,rbtv77.*##.player-wrapper > .d-l
-publicspeed5c.*,determinemousecshe.*,currentcolorq2dv.*,somehowrockyng.*,leadmorning4ivn.*,strangernervousql.*,blewdiffera3j2.*,differenceprimitive85p.*,masterenjoyao.*,monkeynecktj4w.*,mindmotion93y8.*,homebasis4d.*,linelocatemfsn.*,superbarca77.*,superargo77.*,superleo77.*,superlee77.*,superdom77.*,superabbit33.*,live-streamfootball.*,superabbit77.*,rbtv77.*##div[class*="-reselle"]
+publicspeed5c.*,determinemousecshe.*,currentcolorq2dv.*,somehowrockyng.*,leadmorning4ivn.*,strangernervousql.*,blewdiffera3j2.*,differenceprimitive85p.*,masterenjoyao.*,monkeynecktj4w.*,mindmotion93y8.*,homebasis4d.*,linelocatemfsn.*,superbarca77.*,superargo77.*,superleo77.*,superlee77.*,superdom77.*,superabbit33.*,live-streamfootball.*,superabbit77.*,rbtv77.*##div[class*="-resel"]
 publika.az##.adv-horizontal
 pudelek.pl##body > #__next > div[data-testid="container"] > div[class] > div[class]:not([id]):empty
 pudelek.pl##div[class^="_"][style^="position: relative;"] > a[href][target="_blank"]:only-child > div[style^="position:"][style*="background-image: url"]
@@ -55940,6 +55950,7 @@ the-miyanichi.co.jp##.sp_all_header
 the-sun.com##.amp-adv-wrapper
 the-village.com.ua##.infoA
 theage.com.au###jobs
+theage.com.au##header > div[class]:has(> div.container > div.ad)
 theage.com.au##iframe[name="compare_save"]
 theage.com.au##iframe[name="domain_dream_homes"]
 theage.com.au,brisbanetimes.com.au,smh.com.au#$##app nav + header.noPrint { top: 0 !important; }
@@ -58604,6 +58615,7 @@ vxjbdagjdec-eviewporn-com.cdn.ampproject.org###popups
 vxw2.mengzhan65.top##.gg-box
 vxxx.com###player-1 > div[style="display:flex !important"] > div
 vxxx.com##.popular-models + div[class]
+vxxx.com##.ttapdaaoaotttt
 vxxx.com##.video-page-content + div[class]
 vxxx.com##.video-page-content-left + div[class]:last-child
 vxxx.com##.videoplayer + div > div[class]
@@ -61257,7 +61269,7 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 zzzyk.com###Tinfo
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>3213
+!<<<<<通配符规则>>>>>3212
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe.com,badfilter
 $image,third-party,denyallow=cdn77.org|fpbns.net|others-cdn.com|rncdn7.com|sb-cd.com|stream.highwebmedia.com|upsiloncdn.net|xvideos-cdn.com|youjizz.com|ypncdn.com,domain=pussyspace.com|pussyspace.net
@@ -62265,7 +62277,6 @@ $xmlhttprequest,third-party,denyallow=rsc.cdn77.org|linkvertise.com|fastly.net|s
 /?tm=1&subid4=*&kw=$all
 /?track=ad:$third-party
 /?uclick=*&uclickhash=$all
-/?utm_source=*&utm_campaign=*$~third-party
 /A-Tian/Tian-*-good.js
 /A-duoduo/Add-
 /AD2v1.1.js
@@ -64473,7 +64484,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 zle.com$script
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>4147
+!<<<<<通用Css规则>>>>>4149
 ###ADbox
 ###ADtip
 ###AdBlockDialog
@@ -67903,8 +67914,10 @@ zle.com$script
 ##body > div[class$="m"][style="display: block; width: 100%; height: 135px;"]
 ##body > div[class="swiper swiper-initialized swiper-horizontal swiper-ios swiper-backface-hidden"]
 ##body > div[class][style="bottom: 129px;"]
+##body > div[class][style="display: block; width: 100%; height: 129px;"]
 ##body > div[class][style="display: block; width: 100%; height: 135px;"]
 ##body > div[class][style="display: block; width: 100%; left: 0px; position: fixed; z-index: 2147483646; height: 95px; top: 101px;"]
+##body > div[class][style="top: 129px;"]
 ##body > div[class][style^="display: block; width: 100%; left: 0px; position: fixed; z-index: 2147"][style$="top: 135px;"]
 ##body > div[class][style^="display: block; width: 100%; left: 0px; position: fixed; z-index: 21474"]
 ##body > div[id][style="display: block; width: 100%; position: relative; height: 127.188px; margin: 0px; padding: 0px; border: 0px none; background: none;"]
@@ -68623,7 +68636,7 @@ zle.com$script
 ~xxgxw.com##div[id^="C"][style*="height:"][class^="C"]
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>4671
+!<<<<<放行白名单>>>>>4672
 #@##adblocktest
 #@#.ADV320_50_100
 #@#.ad-box
@@ -70688,6 +70701,7 @@ zle.com$script
 @@||images.gmanetwork.com/res/dist/js/adsTracking.gz.js
 @@||images.intellicast.com/App_Scripts/ad.min.js
 @@||images.intellicast.com/Scripts/ad-v3.js
+@@||images.macrumors.com/*/article-new/
 @@||images.taboola.com^$domain=samsung.com|thestartmagazine.com|taboolanews.com
 @@||imasdk.googleapis.com$domain=video.huffingtonpost.it
 @@||imasdk.googleapis.com/*/ima3.js$domain=player.glomex.com

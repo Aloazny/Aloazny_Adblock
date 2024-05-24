@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 4qTboSBqov2ekA6b0CMIBQ
+! Checksum: BQEp6IIeOp3LHq2SYrkMBw
 ! Title: Aloazny attach fiter
-! Version: 20240523202634
+! Version: 20240524090206
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-05-23 20:26:34
-! Total Count: 14770
-! Blocked Filters: 14770
+! Last modified: 2024-05-24 09:02:06
+! Total Count: 14771
+! Blocked Filters: 14771
 ! Description: 合并混合规则的补充规则，轻量规则，可作为补充规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -9893,7 +9893,7 @@ zybang.com##a[class="top-banner"]
 zybang.com##div[id="askTeacher-after-adx-wrap"]
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>1657
+!<<<<<通配符规则>>>>>1656
 $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.xyz
 &adZones$xmlhttprequest
 &ad_block=
@@ -10533,7 +10533,6 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 /?dc=guochao$~third-party
 /?linkid=*&pop=1$~third-party
 /?linkid=*&type=$~third-party
-/?utm_source=*&utm_campaign=*$~third-party
 /AdS/RAD.
 /AdServlet?
 /AdSpace160x60.
@@ -11553,7 +11552,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 zle.com$script
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>2999
+!<<<<<通用Css规则>>>>>3001
 ###ADbox
 ###AdBlockDialog
 ###AdBox2
@@ -13941,8 +13940,10 @@ zle.com$script
 ##body > div[class$="m"][style="display: block; width: 100%; height: 135px;"]
 ##body > div[class="swiper swiper-initialized swiper-horizontal swiper-ios swiper-backface-hidden"]
 ##body > div[class][style="bottom: 129px;"]
+##body > div[class][style="display: block; width: 100%; height: 129px;"]
 ##body > div[class][style="display: block; width: 100%; height: 135px;"]
 ##body > div[class][style="display: block; width: 100%; left: 0px; position: fixed; z-index: 2147483646; height: 95px; top: 101px;"]
+##body > div[class][style="top: 129px;"]
 ##body > div[class][style^="display: block; width: 100%; left: 0px; position: fixed; z-index: 2147"][style$="top: 135px;"]
 ##body > div[class][style^="display: block; width: 100%; left: 0px; position: fixed; z-index: 21474"]
 ##body > div[id][style="display: block; width: 100%; position: relative; height: 127.188px; margin: 0px; padding: 0px; border: 0px none; background: none;"]
