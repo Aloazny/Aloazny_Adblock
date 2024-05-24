@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: xGdtuMf+reqM9JP28KnfJA
+! Checksum: IEue+Omcql/dtbLMGqWfXA
 ! Title: Aloazny Chinese fiter
-! Version: 20240524090225
+! Version: 20240524202618
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-05-24 09:02:25
-! Total Count: 38302
-! Blocked Filters: 38302
+! Last modified: 2024-05-24 20:26:18
+! Total Count: 38294
+! Blocked Filters: 38294
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>17241
+!<<<<<域名规则>>>>>17246
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|cyxse.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.360118.com|m.37zw.net|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zwdu.com
 |http://*.cn/ad/
@@ -613,6 +613,7 @@
 ||360yield.com^
 ||365kl.net/data/attachment/portal/
 ||365rich.cn/ba.aspx
+||369bgrec.top^
 ||36htg.fun^
 ||36img.com/ad/
 ||36kr.com/pp/api/ap/plan?
@@ -1261,7 +1262,6 @@
 ||92ph.cn^
 ||92uq.com/Ads/
 ||933m.com/1.js
-||939394.xyz^$image
 ||941novel.com/wp-content/uploads/*.gif
 ||94994.com*/js/plugin/shoppingMall/
 ||949949.com/2013/end/hot_news.js
@@ -2082,6 +2082,9 @@
 ||ai36588.com^
 ||aiai123.cc/js/*.js
 ||aibing.cc/vip/img/gou.gif
+||aiboav.vip/wp-content/uploads/*/3aaa-
+||aiboav.vip/wp-content/uploads/ad/
+||aiboav.vip/wp-content/uploads/uu-chat/*.gif
 ||aichuangfu.cn/jquery/
 ||aiclk.com^
 ||aidmat.icu^
@@ -6065,6 +6068,7 @@
 ||fkf5.com/public/js/static.js
 ||fkhxlz.xyz^
 ||fkjsjwbs.xyz^
+||fklgndklbngg.com^
 ||fl6n.com/adtop/
 ||flagshipism.com^
 ||flakyfeast.com^$third-party
@@ -9146,6 +9150,7 @@
 ||l5kt1.icu^
 ||l74co.xyz^
 ||l7ghj.xyz^
+||l7u3kf.cn^
 ||l80ays.com^
 ||laawmmy.cn^
 ||labadena.com^$third-party
@@ -10034,7 +10039,6 @@
 ||meitu.com/js/floatxiuxiu.js
 ||meituan.com/ptapi/recommends?
 ||meituan.com/xiuxianyule/api/getRecommendList?
-||meituan.net^$domain=939394.xyz
 ||meitui.org^*.js
 ||meitulu.com/css/*showgg.js
 ||meiweifood.xyz^
@@ -14851,6 +14855,7 @@
 ||uslsjwnk.xyz^
 ||uslsxe.com^
 ||usltmus.cn^
+||usmgoxe.cn^
 ||usp1.baidu.com^
 ||uspauline.com^
 ||usphfiona.com^
@@ -17258,7 +17263,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>13111
+!<<<<<网站单独规则>>>>>13097
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.net
@@ -18553,21 +18558,6 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 92ghai.com##.yttl_x_g
 92sucai.com##.adtg2
 92wy.com##.adhengfu
-939394.xyz##.allBg > div[style="display: block;"]
-939394.xyz##.j_r_w
-939394.xyz##.j_r_w + a
-939394.xyz##.wrap.mb8.mt5 ~ div[class]:not(.outer)
-939394.xyz##a[href*="base."]
-939394.xyz##a[href="https://pic.13709394.net/upload/"]
-939394.xyz##a[href^="/"]:not([href*="."]) > img[src*=".gif"]
-939394.xyz##a[href^="/"][href$=".html"] > img[src*=".gif"]:not([data-original])
-939394.xyz##a[style="display: block;"]
-939394.xyz##div[class] > div:not([class]):not([id])
-939394.xyz##div[id^="left_layer"]
-939394.xyz##img[src*=".xyz"][src*=".gif"]
-939394.xyz##img[src^="/"]
-939394.xyz##img[src^="\\"]
-939394.xyz,vipmv.tv##div[style*="position: fixed;"]
 94itv.app##a[href="https://leo535.com/"]
 95ziyuan.cn##.jiuwu
 962.net##.g-962-ad
@@ -29026,6 +29016,7 @@ vip-front.video.g.fc2.com,video.fc2.com###ad_middle2
 vip-front.video.g.fc2.com,video.fc2.com##.ad_area_top
 vip.de##.content-teaser-ad
 vip.de##.rtli-master-morecontent__items > .centered-ad
+vipmv.tv##div[style*="position: fixed;"]
 vippers.jp##.res_content ~ .include1 > .show-iphone
 vippers.jp##.rev-access-ranking
 vippers.jp,burusoku-vip.com,negisoku.com###fluct_overlay
@@ -32939,7 +32930,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 zle.com$script
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>3917
+!<<<<<通用Css规则>>>>>3918
 ###ADbox
 ###ADtip
 ###AdBlockDialog
@@ -34050,6 +34041,7 @@ zle.com$script
 ##.affTpllay[style]
 ##.affiliate-mrec-iframe
 ##.afs_ads
+##.aiboav-ads
 ##.alert_windows > .q-card__actions > a
 ##.amp-ad container
 ##.amp-ad-container
