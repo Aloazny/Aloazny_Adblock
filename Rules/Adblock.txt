@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: IJqdciL69JcnttJN8srzuw
+! Checksum: akGBb/b60EW/A++dCbjiuw
 ! Title: Aloazny Mobile fiter
-! Version: 20240526090831
+! Version: 20240526202600
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-05-26 09:08:31
-! Total Count: 73330
-! Blocked Filters: 73330
+! Last modified: 2024-05-26 20:26:00
+! Total Count: 73333
+! Blocked Filters: 73333
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock.txt?ref=main
 
 
-!<<<<<域名规则>>>>>27157
+!<<<<<域名规则>>>>>27160
 |http$third-party,script,domain=kinotut.tv
 |http*://$image,third-party,domain=rmdown.com
 |http*://$script,third-party,domain=stream2watch.org,badfilter
@@ -988,6 +988,7 @@
 ||360.cn/int/getadurls?
 ||360.cn/popup/popinfo/
 ||360114.xyz^
+||3601880.xyz^
 ||360640.com^
 ||360adshost.com^$third-party
 ||360buyimg.com/babel/jfs/t1/209256/22/21888/60206/627b7a6aEa5f2d78b/219868beb169203f.jpg
@@ -11391,6 +11392,7 @@
 ||gw.glassbogey.com^
 ||gw.precislooed.com^
 ||gw1jvhs.com^
+||gw2cddpt2hao.asia^
 ||gwbnsh.net.cn/hd/unicom/ad.html
 ||gwdobvs.cn^
 ||gwertyuadf.com^
@@ -17511,6 +17513,7 @@
 ||ontj.com^
 ||onx8.com/theme/tange/add/
 ||onx8.com/zb_users/theme/ydgreen/style/ad/
+||onxeacj.cn^
 ||onxtxdm.xyz^
 ||oodcd.cn/pan/config/ad.json
 ||oodcd.cn/pan/config/copy.
