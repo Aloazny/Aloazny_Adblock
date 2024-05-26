@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: Z18vBv1DLW0/npv4DeNnNw
+! Checksum: IJqdciL69JcnttJN8srzuw
 ! Title: Aloazny Mobile fiter
-! Version: 20240525202645
+! Version: 20240526090831
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-05-25 20:26:45
-! Total Count: 73323
-! Blocked Filters: 73323
+! Last modified: 2024-05-26 09:08:31
+! Total Count: 73330
+! Blocked Filters: 73330
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock.txt?ref=main
 
 
-!<<<<<域名规则>>>>>27151
+!<<<<<域名规则>>>>>27157
 |http$third-party,script,domain=kinotut.tv
 |http*://$image,third-party,domain=rmdown.com
 |http*://$script,third-party,domain=stream2watch.org,badfilter
@@ -3379,6 +3379,7 @@
 ||aiqu28.com/da/
 ||aiqu288.com/*/*.js$~third-party
 ||aiqu288.com/da/
+||aiqu789.com/*/*.js$~third-party
 ||air2s.com^$third-party
 ||airav.cc/AirADPic/
 ||airav.cc/Ucenter/*_Ad
@@ -12487,6 +12488,7 @@
 ||iask.cn^*/qiye.
 ||iask.cn^*commercial.
 ||iask.cn^*model.
+||ibaglhc.icu^
 ||ibb.co/*/f1.webp
 ||ibetadvdqrn.com^
 ||ibf.tw/js/jquery.blockUI.js
@@ -13987,6 +13989,7 @@
 ||jxtest.bolecdn.com/player/*.gif
 ||jxuhurp.icu^
 ||jxvyrv.xyz^
+||jxwqu.cn^
 ||jy.astylararsines.com^
 ||jy.epoxideouttop.com^
 ||jy.zhongxues.com^
@@ -21595,6 +21598,7 @@
 ||sss777.net/Alove-A/
 ||sssvd.china.com^
 ||sssxwsry.com^
+||ssylieb.top^
 ||ssyy881.com/zz/
 ||st-fly.b-cdn.net^
 ||st.1001fonts.net/build/common/ads.*.$script,stylesheet
@@ -23699,6 +23703,7 @@
 ||uqrcuxp.cn^
 ||uqueae.xyz^
 ||uqwbcm.xyz^
+||uqydcs.xyz^
 ||ur.meteredrato.com^
 ||ur.olivetkneel.com^
 ||uraseszincy.com^
@@ -26977,6 +26982,7 @@
 ||zlnmzc.top^
 ||zlongad.com^$third-party
 ||zlp6s.pw^$third-party
+||zltndp.xyz^
 ||zlut.com/_ad$subdocument
 ||zlut.com/jss/external_pop.js
 ||zlvlciv.xyz^
@@ -61302,7 +61308,7 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 zzzyk.com###Tinfo
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>3217
+!<<<<<通配符规则>>>>>3218
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe.com,badfilter
 $image,third-party,denyallow=cdn77.org|fpbns.net|others-cdn.com|rncdn7.com|sb-cd.com|stream.highwebmedia.com|upsiloncdn.net|xvideos-cdn.com|youjizz.com|ypncdn.com,domain=pussyspace.com|pussyspace.net
@@ -64232,6 +64238,7 @@ $xmlhttprequest,third-party,denyallow=rsc.cdn77.org|linkvertise.com|fastly.net|s
 ://*.27txt.La/*/*.js$~third-party
 ://*.27txt.La/xi.js$~third-party
 ://*.adfsda*.xyz/*/*$third-party
+://*.aiqu*8*.com/*/*.js$~third-party
 ://*.aj25*.bid/*.js$third-party
 ://*.beeg.com/*.php?_=$script
 ://*.bid^$script,third-party,domain=xxxmax.net|watchfreexxx.net|speedporn.net|filmlinks4u.is|needgayporn.com|gaypornmasters.com|uploadbank.com|ouo.press|dir50.com|thepiratebay.org|psarips.com|ouo.io|apkmirrorfull.com
