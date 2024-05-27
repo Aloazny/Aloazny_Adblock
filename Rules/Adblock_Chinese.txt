@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: JVzYk+mwmb6nmUQG1083Iw
+! Checksum: CF3Gyc4sz7uUWuf8BWpcwg
 ! Title: Aloazny Chinese fiter
-! Version: 20240526202431
+! Version: 20240527090322
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-05-26 20:24:31
-! Total Count: 38332
-! Blocked Filters: 38332
+! Last modified: 2024-05-27 09:03:22
+! Total Count: 38347
+! Blocked Filters: 38347
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>17271
+!<<<<<域名规则>>>>>17277
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|cyxse.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.360118.com|m.37zw.net|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zwdu.com
 |http://*.cn/ad/
@@ -703,6 +703,7 @@
 ||40wan.com/js/www2/
 ||415677.com^
 ||4199tv.com^
+||420909.cn^
 ||42yenxh.cn^
 ||4399.com/baiduad/
 ||4399.com/jss/*coup.js
@@ -3635,6 +3636,7 @@
 ||bzhanyy.com^*.gif
 ||bzhn9y.icu^
 ||bznizrhd.xyz^
+||bzqqftz.icu^
 ||bzthxv.xyz^
 ||bzverx.xyz^
 ||bzvhgbr.xyz^
@@ -5574,6 +5576,7 @@
 ||eheb8.cn^
 ||eheuye.xyz^
 ||ehfjup.xyz^
+||ehhjfgs.xyz^
 ||ehk.trenhdg.com^
 ||ehrhrrx.xyz^
 ||eht116.com^
@@ -5738,6 +5741,7 @@
 ||esqhsm.xyz^
 ||estcruden.biz^
 ||estixfl.cn^
+||esyliew.top^
 ||et-code.ru^
 ||etadult.com*/images/20
 ||etahub.com^
@@ -11141,6 +11145,7 @@
 ||opticsky.cn/images/2015/gy-px201
 ||optimallimit.com^$third-party
 ||opwofty.cn^
+||opwoga.xyz^
 ||opzksyy.cn^
 ||oq6ry.com^
 ||oq8.top^
@@ -17220,6 +17225,7 @@
 ||zvnjvd.xyz^
 ||zvtnj.icu^
 ||zvvg678.xyz^
+||zvvlbf.xyz^
 ||zwdtvx.xyz^
 ||zwdu.com/getuserinfo.php
 ||zwfkxb.xyz^
@@ -17288,7 +17294,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>13107
+!<<<<<网站单独规则>>>>>13116
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.net
@@ -19575,6 +19581,7 @@ baoliny.com,gasaq.com,hgitv.com,ifooday.cn,nen.com.cn,world68.com##.guanggao
 baomidou.com##.sidebar-content > astro-island
 baomoi.com###content-main > div[class] > div[class] > div[class]:has(> div[class] > a[href] div button[title="Báo lôi"])
 baseball.yahoo.co.jp##.bb-modCommon05
+baseball.yahoo.co.jp,soccer.yahoo.co.jp,sports.yahoo.co.jp##div[class*="-modCommon0"] > div[class*="-overlay"]
 bash.im##div[style*="width: 300px; height: 250px;"]
 baumpflegeportal.de##.baump-mobil-unten
 bbc.com###sticky-leaderboard
@@ -23618,6 +23625,9 @@ iqiyi.com##a[href*=".banggo."]
 iqiyi.com##a[href*=".oppo."]
 iqiyi.com##a[id^="100000"]
 iqiyi.com##div[class^="ad-piclist-"]
+iqiyi.com##div[class^="video-slide_normal"]>a[href^="http"]:not([href*="iqiyi.com"]) div[class^="video-slide_row"]
+iqiyi.com##div[class^="video-slide_normal"]>a[href^="http"]:not([href*="iqiyi.com"])>div>img
+iqiyi.com##div[class^="video-slide_threeImagePages"]>a[href^="http"]:not([href*="iqiyi.com"])>div
 iqiyi.com##div[id^="100000"]
 iqiyi.com##div[id^="div_theatre"]
 iqiyi.com##li[data-flag="shop"]
@@ -25392,6 +25402,7 @@ mangapanda.com,memecenter.com,mangareader.net,animeland.tv,animetoon.org,goodani
 mangapanda.com,memecenter.com,mangareader.net,animeland.tv,animetoon.org,goodanime.co,animeplus.tv,animeflv.net,toonova.net,gogoanime.in,kiss-anime.me##iframe[src*="/Ads"]
 mangapark.io##main > div:has(> div.px-3 > a[href][target="_blank"][q\:key="CY_1"])
 mangastream.com##.mobile-ad-home
+mangaworld.ac###reader > .has-shadow.top-wrapper:has(> div > script)
 manhua.weibo.com###p-nav-fix + .p-area.w980
 manhuadb.com##.d-flex.px-2
 manhuagui.com##.gg_728
@@ -28150,9 +28161,13 @@ sports.yahoo.co.jp###ad-smon
 sports.yahoo.co.jp###ydn-nm
 sports.yahoo.co.jp##.sn-videoEmbed__banner
 sports.yahoo.co.jp##.sn-videoEmbed__credit
+sports.yahoo.co.jp##[class$="-modAd"]
 sports.yahoo.co.jp##div[class^="rg-modCommon"]:has(> div#ad-mmon)
 sports.yahoo.co.jp##div[class^="yf-modCommon"]
+sports.yahoo.co.jp##section[class*="-modCommon0"]:has(> div#ad-smon)
+sports.yahoo.co.jp##section[class*="-modCommon0"]:has(> div#im_low)
 sportsbrief.com,legit.ng##.interscroller
+sportsnavi.ht.kyodo-d.jp##.sn-modAd
 sportsplanetmag.com##.adshow
 sportsv.net##.adv01
 spravportal.ru##a[href="/apps/who-calls"]
