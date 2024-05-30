@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: QN0nBy28oH5ZK+pi4LpHBw
+! Checksum: BGCEW/yrB0zjkSesaa3tHA
 ! Title: Aloazny Mobile fiter
-! Version: 20240529202857
+! Version: 20240530090433
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-05-29 20:28:57
-! Total Count: 73577
-! Blocked Filters: 73577
+! Last modified: 2024-05-30 09:04:33
+! Total Count: 73590
+! Blocked Filters: 73590
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock.txt?ref=main
 
 
-!<<<<<域名规则>>>>>27351
+!<<<<<域名规则>>>>>27357
 |http$third-party,script,domain=kinotut.tv
 |http*://$image,third-party,domain=rmdown.com
 |http*://$script,third-party,domain=stream2watch.org,badfilter
@@ -10245,6 +10245,7 @@
 ||fjjmnh.com^
 ||fjlqqc.com/common/api/v1.0/slot-code/
 ||fjnsnt.xyz^
+||fjqcqdr.icu^
 ||fjshxjs.cn^
 ||fjsytjs.cn^
 ||fjtroip.cn^
@@ -12285,6 +12286,7 @@
 ||hpvl2kb.icu^
 ||hpvwdkn.cn^
 ||hpy9w.cn^
+||hpzktd.xyz^
 ||hq390.xyz^
 ||hq3x.com^
 ||hqbang.com/n/
@@ -16744,6 +16746,7 @@
 ||myabandonware.com/media/img/wgm/
 ||myabandonware.com/media/js/blckevent.js
 ||myads.cc^
+||mybgrea97.shop^
 ||mybjx.net/theme/default/js/common/bjx_service_
 ||mybjx.net/theme/default/js/common/duilianchn.js
 ||mycartoonsexgames.com/thumbs/*/$image
@@ -19369,6 +19372,7 @@
 ||qsptv.com/tpl/newstyle/js/extension.js
 ||qsptv.net/tpl/newstyle/js/pv.js
 ||qstzar.cn^
+||qsyliey.top^
 ||qtciam.xyz^
 ||qtd95fj.online^
 ||qtienly.top^
@@ -26784,6 +26788,7 @@
 ||yzdh44.com/js/
 ||yzerabwdkpaee.com^
 ||yzfrapd.xyz^
+||yzgbsg.xyz^
 ||yzgid.cn^
 ||yziwoidi.icu^
 ||yziwujuzq.live^
@@ -27066,6 +27071,7 @@
 ||zhengjie.com/a_d?
 ||zhengliyqq.com^
 ||zhengshaoze.com^
+||zhengwei3.top^
 ||zhengxiaoliu.top^
 ||zhengzhou12.top^
 ||zhenjiang365.cn/*/ad_
@@ -27368,7 +27374,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>34177
+!<<<<<网站单独规则>>>>>34184
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe.com,badfilter
 $image,third-party,denyallow=cdn77.org|fpbns.net|others-cdn.com|rncdn7.com|sb-cd.com|stream.highwebmedia.com|upsiloncdn.net|xvideos-cdn.com|youjizz.com|ypncdn.com,domain=pussyspace.com|pussyspace.net
@@ -30867,6 +30873,7 @@ arstechnica.com#$#.ad_fullwidth { position: absolute!important; left: -10000px!i
 arstechnica.com#$#.ad_xrail { position: absolute!important; left: -10000px!important; }
 arte.sky.it##.adv-section-side
 artfile.me###jadb
+article.auone.jp##.appeal__text-lower
 articlerewritertool.com,free-article-spinner.com,paraphrasing-tool.com,spinbot.com##+js(abort-current-script, angular, /whiteListRequestMessage|canRunAds/)
 articles.mercola.com##.coupon-code
 artima.com,gtloli.one,in-pocasi.cz,turbobit.net###topbanner
@@ -33502,8 +33509,7 @@ cheatsheet.com,cjn.cn##.sidebar
 cheatsheet.com,jin10.com##.top-ad
 cheb.ru###content > div[id="text"] > div[class] > a[target="_blank"] > img
 cheb.ru##.topbanpda
-check-host.net##.specgo
-check-host.net##a:contains(/[Aa]?[Zz][Aa]|[Aa]?[eE][xX]|[𝅺]/):upward(3)
+check-host.net##a:contains(/[Aa]?[Zz][Aa]|[Aa]?[eE][xX]|[Oo]?[fF][sS]|[𝅺]/):upward(3)
 check-plagiarism.com,editpad.org,leonardo.it,paraphraser.io,rephrase.info#$#body #detect[class] { display: block !important; }
 checkfresh.com##+js(set-constant, canCanCan, 1)
 checkpagerank.net##div[style="text-align:center;"] > table[style="text-align:center; display:inline-block;"] > tbody
@@ -39290,7 +39296,6 @@ gaming-city.com##.mobile-footer-ad
 gaming.co.ua,pingvin.pro##body > div[id][class][style*="z-index"][style*="9999"],body > div[id][class][style*="z-index"][style*="9999"] + div[class][style*="z-index"][style*="9999"]
 gamingbible.com##div[class^="advert-"]
 gamingbible.com,ladbible.com,sportbible.com,tyla.com,unilad.com#$#body > div[id].margin-Advert { display: block !important; }
-gamingbible.com,sportbible.com,unilad.com,ladbible.com##div[class^="article-observer_bottomAd"]
 gamingbolt.com##.small-ad
 gamingbolt.com##.thrid-party-content-break
 gamingintelligence.com##div[class$="adsanity-"]
@@ -44564,7 +44569,6 @@ lacuerda.net##.ban320cont
 lacuerda.net##div[style^="height:250px;"][style*="width:300px;"]
 ladbible.com###vidazoo-0
 ladbible.com##div[data-cypress="sticky-header"]
-ladbible.com,unilad.com,unilad.co.uk,gamingbible.com,tyla.com,sportbible.com##+js(adjust-setTimeout, loadVideo, *, 0.02)
 ladbible.com,unilad.com,unilad.co.uk,gamingbible.com,tyla.com,sportbible.com##.css-mg9b9w
 ladbible.com,unilad.com,unilad.co.uk,gamingbible.com,tyla.com,sportbible.com##div[class$="-margin-Advert"]
 ladbible.com,unilad.com,unilad.co.uk,gamingbible.com,tyla.com,sportbible.com##div[data-cypress="sticky-header"] div[class$="-Advert"]
@@ -45264,6 +45268,7 @@ lnk.to##div[data-advertiser="amazon-music"]
 lo4d.com#?#.Bcolumn_2 > div:not([class]):not([id]):has(>.glbt > .adsbygoogle)
 lo4d.com#?#ul > li.feedb2.bbcr:has(>.glbt > .adsbygoogle)
 loadout.tf##+js(no-setTimeout-if, htmlAd.getBoundingClientRect)
+local10.com##div:has(> h5 + form.formField)
 localgymsandfitness.com##center[style="min-height:100px"]
 localking.com.tw###adbannerurl
 lodynet.co##.Ad160
@@ -47601,6 +47606,8 @@ moddb.com#?#.column > div.normalbox:has(> div.inner > div.body > ins.adsbygoogle
 modded-1.com##div[style="color: #909090; text-align: center;"]
 moddingzone.in#$#.wpsafe-top { margin-top: 100px !important; }
 moddroid.com##.text-center > div.swiper-pointer-events
+modelbazar.cz##.ftra > div[style="height:280px;"]
+modelbazar.cz##div[style^="width:100%;max-width:"]
 modelsxxxtube.com##div[class^="adx-"]
 modelsxxxtube.com,pornexpanse.com,pornxxxplace.com,tubesex.me,tubevintageporn.com,whitexxxtube.com,xxxadd.com###invideo_new
 modern.az##.bnr_300_250
@@ -53328,6 +53335,7 @@ scribegeser.weebly.com##+js(abort-current-script, document.write, atob)
 script-stack.com,thewpclub.net##.bsac
 scriptinghelpers.org##.shvertise-banner
 scroll.in##.in-article-adx
+scrolller.com##+js(json-prune, data.getAffiliateItems)
 scrolller.com##.gallery-view > .vertical-view > .vertical-view__columns > .vertical-view__column > a[href^="https://trk.scrolller.com/"]
 scrolller.com##.popup:has(> .popup__box > .ad-block-popup)
 scrolller.com##button[aria-label="Close fullscreen"] + div[class^="sc-"]
@@ -58051,6 +58059,8 @@ unilad.com,unilad.co.uk#$#div[class$="-ArticleBodyContainer"] { min-height: auto
 uniladtech.com,gamingbible.com,ladbible.com,sportbible.com,unilad.com,tyla.com##+js(adjust-setTimeout, e(), 3500, 0.001)
 uniladtech.com,gamingbible.com,ladbible.com,sportbible.com,unilad.com,tyla.com##+js(set-constant, pbjs.rp, noopFunc)
 uniladtech.com,gamingbible.com,ladbible.com,sportbible.com,unilad.com,tyla.com##+js(set-constant, pbjs.rp.requestVideoBids, noopFunc)
+uniladtech.com,gamingbible.com,sportbible.com,unilad.com,ladbible.com##div[class^="article-observer_bottomAd"]
+uniladtech.com,ladbible.com,unilad.com,unilad.co.uk,gamingbible.com,tyla.com,sportbible.com##+js(adjust-setTimeout, loadVideo, *, 0.02)
 uniladtech.com,sportbible.com,unilad.com,ladbible.com##div[class^="advert-placeholder"]
 uniladtech.com,sportbible.com,unilad.com,ladbible.com##div[class^="floating-video-player_container"]:has(> div#primisPlayer)
 uniladtech.com,sportbible.com,unilad.com,ladbible.com##div[class^="sticky-top-ad_container"]
@@ -59549,6 +59559,9 @@ windows10gadgets.pro#?#.content-box > .row > .col-1-4:has(>.wrap-col > .item-con
 windows7en.com##.fu-welcome
 windowsactivationkey.com##center > div[style] > img.user
 windowsactivationkey.com,mrpcgamer.co,hornygamer.com##center > a[onclick^="window.open("]
+windowsblogitalia.com##.tile-content:has(> ins.adsbygoogle)
+windowsblogitalia.com##.tile-header:has(> div.ad-box-title)
+windowsblogitalia.com#$#.sidebar > div.tile:has(> div.tile-header > form[role="search"]) { height: 0 !important; }
 windowsbulletin.com##.entry-content > div[class][style="text-align:center;margin-left:auto;margin-right:auto;margin-top:8px;margin-bottom:8px;"]
 windowscentral.com###bordeaux-static-slot-0
 windowscentral.com##.adunit.inline-text

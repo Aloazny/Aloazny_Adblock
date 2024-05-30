@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: dvy40TgRlYbuMjkCoQxE1g
+! Checksum: 58m4MYd4Hs/iX62qcxJtkQ
 ! Title: Aloazny Chinese fiter
-! Version: 20240529202731
+! Version: 20240530090307
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-05-29 20:27:31
-! Total Count: 38392
-! Blocked Filters: 38392
+! Last modified: 2024-05-30 09:03:07
+! Total Count: 38399
+! Blocked Filters: 38399
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>17299
+!<<<<<域名规则>>>>>17305
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|cyxse.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.360118.com|m.37zw.net|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zwdu.com
 |http://*.cn/ad/
@@ -6080,6 +6080,7 @@
 ||fjjmnh.com^
 ||fjlqqc.com/common/api/v1.0/slot-code/
 ||fjnsnt.xyz^
+||fjqcqdr.icu^
 ||fjshxjs.cn^
 ||fjsytjs.cn^
 ||fjtroip.cn^
@@ -7417,6 +7418,7 @@
 ||hpvl2kb.icu^
 ||hpvwdkn.cn^
 ||hpy9w.cn^
+||hpzktd.xyz^
 ||hq390.xyz^
 ||hqbuoh.com^
 ||hqcx.net/images/baidu.jpg
@@ -10528,6 +10530,7 @@
 ||my0832.com/xyz/xx/
 ||my4700.com/js/*.js
 ||myads.cc^
+||mybgrea97.shop^
 ||mybjx.net/theme/default/js/common/bjx_service_
 ||mybjx.net/theme/default/js/common/duilianchn.js
 ||mycodes.net/js/$image
@@ -12181,6 +12184,7 @@
 ||qsptv.com/tpl/newstyle/js/extension.js
 ||qsptv.net/tpl/newstyle/js/pv.js
 ||qstzar.cn^
+||qsyliey.top^
 ||qtciam.xyz^
 ||qtd95fj.online^
 ||qtienly.top^
@@ -16811,6 +16815,7 @@
 ||yzcpgadw.icu^
 ||yzdh44.com/js/
 ||yzfrapd.xyz^
+||yzgbsg.xyz^
 ||yzgid.cn^
 ||yziwoidi.icu^
 ||yziwujuzq.live^
@@ -17055,6 +17060,7 @@
 ||zhengjie.com/a_d?
 ||zhengliyqq.com^
 ||zhengshaoze.com^
+||zhengwei3.top^
 ||zhengxiaoliu.top^
 ||zhengzhou12.top^
 ||zhenjiang365.cn/*/ad_
@@ -17316,7 +17322,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>13129
+!<<<<<网站单独规则>>>>>13130
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.net
@@ -19140,6 +19146,7 @@ arstechnica-com.cdn.ampproject.org##.instream-wrap
 arstechnica.com##.ad_crown
 arstechnica.com##.ad_fullwidth
 artfile.me###jadb
+article.auone.jp##.appeal__text-lower
 as.ro###digitalag-sticky
 asagei.com##.popular-article-side ~ div[style^="text-align"]:has(> a[href] > img[src*="images/bn/"])
 asahi.co.jp###jp_abc_sp_article_underarticle
@@ -22176,7 +22183,6 @@ gamicsoft.com##A[onclick*="'Advertisement"] + .absolute
 gaming-city.com##.m-top-banner
 gaming-city.com##.mobile-footer-ad
 gaming.co.ua,pingvin.pro##body > div[id][class][style*="z-index"][style*="9999"],body > div[id][class][style*="z-index"][style*="9999"] + div[class][style*="z-index"][style*="9999"]
-gamingbible.com,sportbible.com,unilad.com,ladbible.com##div[class^="article-observer_bottomAd"]
 gamme.com.tw###bd
 gamme.com.tw##.ad_down
 gamme.com.tw##.adread
@@ -28956,6 +28962,7 @@ unikoshardware.com##.elementor-image > a[href^="https://bit.ly/"]
 unikoshardware.com##.elementor-popup-modal
 unikoshardware.com##.elementor-widget-sidebar a[href^="https://bit.ly/"]
 unikoshardware.com##.theiaStickySidebar a[href^="https://bit.ly/"]
+uniladtech.com,gamingbible.com,sportbible.com,unilad.com,ladbible.com##div[class^="article-observer_bottomAd"]
 universfreebox.com###megaban-head-moneytag
 universfreebox.com###pave-ad-mobile-in-article
 universfreebox.com###taboola-mobile-below-article-thumbnails
