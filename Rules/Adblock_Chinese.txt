@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: Sb5loGFpnbdgR09/l5i44g
+! Checksum: LsK7n/6oOG/+j1kXPdDhiQ
 ! Title: Aloazny Chinese fiter
-! Version: 20240530202657
+! Version: 20240531090338
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-05-30 20:26:57
-! Total Count: 38405
-! Blocked Filters: 38405
+! Last modified: 2024-05-31 09:03:38
+! Total Count: 38419
+! Blocked Filters: 38419
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>17313
+!<<<<<域名规则>>>>>17322
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|cyxse.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.360118.com|m.37zw.net|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zwdu.com
 |http://*.cn/ad/
@@ -3206,6 +3206,7 @@
 ||bfdcuy9.com^
 ||bfgtfxd.com^
 ||bfjk360.com^
+||bfjsliv.top^
 ||bfjszxzfvf.com^
 ||bflybplr.xyz^
 ||bfpgf.com/wp-content/uploads/2015/08/360dxs.jpg
@@ -4915,6 +4916,7 @@
 ||dffrahax.com^
 ||dffy.com/static/popUp.
 ||dfg6.top^
+||dfgfdffg.cn^
 ||dfghaqea.xyz^
 ||dfgpifa.com^
 ||dfgsdfgr.xyz^$~third-party
@@ -5429,6 +5431,7 @@
 ||e.hnr.cn/choose/view/
 ||e.kuaishou.com^
 ||e.qq.com^
+||e.so.com/search/pcnew?
 ||e0514.com/do/js.
 ||e0514.com/gglist/
 ||e0575.cn/js/corea/jquery.popup.js
@@ -9146,6 +9149,7 @@
 ||kycxhgrp.xyz^
 ||kydb.xyz^
 ||kydzfldt.xyz^
+||kyemwo.xyz^
 ||kygso.com/js/lrtk.js
 ||kyikdee.cn^
 ||kyjwtxei.xyz^
@@ -11859,6 +11863,7 @@
 ||pvymlsvo.xyz^
 ||pw.lpsxssm.com^$third-party
 ||pw.xenthoril.com^$third-party
+||pw2ct1.asia^
 ||pw321.com/bulu/
 ||pw321.com^*.gif
 ||pwbuhb.xyz^
@@ -12144,6 +12149,7 @@
 ||qq.com/tousu/img/20210511/8966052_1620746143.jpg
 ||qq.com/tousu/img/20210522/4340189_1621663491.jpg
 ||qq.com/vfpage/visual_focus_page.
+||qq.xxiaoguaishou.com^$third-party
 ||qq260.com/shout.js
 ||qq745.com/m/ad/
 ||qqainj.cn^
@@ -14918,6 +14924,7 @@
 ||ustv123.com/images/axd.js
 ||usvkfwth.xyz^
 ||usxuyr.icu^
+||usyliet.top^
 ||utienlt.top^
 ||utkauo.xyz^
 ||utlove02.com^$third-party
@@ -16304,6 +16311,7 @@
 ||xw.ooegpip.cn^$third-party,image
 ||xwbspx.xyz^
 ||xwbxsw.com/js/app_wap.
+||xwdjnj.xyz^
 ||xwdsp.com^
 ||xwlnhw.com^
 ||xwlyfl.xyz^
@@ -16423,6 +16431,7 @@
 ||yccz.net/xml/
 ||ycdywl.com^
 ||ycgkol.icu^
+||ycgmnpp.icu^
 ||ycgy8888.com^
 ||ychkujj.cn^
 ||yclxrj.top^$third-party
@@ -17330,7 +17339,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>13130
+!<<<<<网站单独规则>>>>>13134
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.net
@@ -26550,6 +26559,7 @@ oricon.co.jp##.top-inline-banner
 oricon.co.jp##.top-inline-banner-wrapper
 oricon.co.jp##article > div[style="margin-bottom: 20px; min-height:100px;"]
 orsoon.com###new-actentry
+ortacizgi.com##div.display:has(> div.post-ad-title)
 oschina.net###project_ad_banner
 oschina.net##.aside-topjj
 oschina.net##.blog-left-ad
@@ -28103,6 +28113,7 @@ sosok.grid.id##div[id^="div-Inside-MediumRectangle"]
 sostav.ru###rek_blocker
 sotokabe.net###footer_sticky_menu
 sou-yun.cn###ads_index_2
+sou.com###ad_wrapper_cpc_conversation-comment-right
 soufun.com##.danmu_inbox
 soundofhope.org###itb_ads_catfish
 soundofhope.org##.itb_ads
@@ -28194,6 +28205,7 @@ sport.de###topbanner-mobile
 sport.sky.de##.sdc-site-au--amp > .sdc-site-au__label
 sport1.de##.amp-ad-align-center
 sport1.de##.s1-placement-label
+sport24.ru###adfox_Sport24_branding
 sportiva.shueisha.co.jp###piano-widget-hand-picked-posts
 sportiva.shueisha.co.jp###piano-widget-hand-picked-posts + div.block-banner-a-a
 sports-ndtv-com.cdn.ampproject.org,ndtv.com##amp-iframe[src^="https://drop.ndtv.com/common/gadgets360/pricee/pricee-widget.html?"]
@@ -29926,6 +29938,7 @@ xzji.com##.speed
 ya.ru##services-feed div.banner
 ya.ru,yandex.*##.DirectStripe
 ya.ru,yandex.*##div[class^="serp-list"] > div.serp-item:has(> div[data-bem*="organic"] > div.Organic-Columns > div.Organic-Column > a[href][data-event-required])
+ya.ru,yandex.*##div[class^="serp-list"] > div.serp-item:has(> div[data-bem*="organic"] > div[class^="Organic"] > div[class^="VanillaReact"] > a[data-event-required])
 ya.ru,yandex.*##div[class^="serp-list"] > div.serp-item:has(> div[data-bem*="organic"] > div[class^="VanillaReact"] > a[href][data-event-required])
 ya.ru,yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua,yandex.*##.SearchBlock:has(> div.DirectStripe)
 ya.ru,yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua,yandex.*##div[class^="serp-list"] > div.serp-item:has(> div[data-bem*="organic"] > div.Organic-Columns > div.Organic-Column > a[href][data-event-required])
@@ -30463,7 +30476,7 @@ zztt11.com,zztt24.com##.no-mask
 zzzyk.com###Tinfo
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>2568
+!<<<<<通配符规则>>>>>2569
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.net
@@ -32872,6 +32885,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 ://m.*.pw/*/*.js?$third-party
 ://m.*.top/*.js?ssid=_
 ://m.91zww.com/0x*/0x*.js?v=$~third-party
+://m.gufengmh*.com/*xuanfu.js
 ://missav*.com/pop?url=$~third-party
 ://mobi*.*.*/*_*?$third-party
 ://mobivx.*.cam$third-party

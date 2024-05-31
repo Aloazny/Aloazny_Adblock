@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: lEOu7ifKS30SIA7QXou+0A
+! Checksum: cKa7kKZBSdZrziKgZyRlJA
 ! Title: Aloazny attach fiter
-! Version: 20240530202638
+! Version: 20240531090320
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-05-30 20:26:38
-! Total Count: 14808
-! Blocked Filters: 14808
+! Last modified: 2024-05-31 09:03:20
+! Total Count: 14810
+! Blocked Filters: 14810
 ! Description: 合并混合规则的补充规则，轻量规则，可作为补充规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_attach.txt?ref=main
 
 
-!<<<<<域名规则>>>>>6698
+!<<<<<域名规则>>>>>6699
 |https://m.frgls.com/js/*.js?v=
 ||*ggua.xyz^$third-party
 ||000123456789.online^
@@ -4365,6 +4365,7 @@
 ||qpolkmbbf.com$third-party
 ||qpztub.xyz^
 ||qq-hls.xyz^
+||qq.xxiaoguaishou.com^$third-party
 ||qqdata.ab.qq.com^
 ||qqnde.xyz^
 ||qqq123987.site^
@@ -9922,7 +9923,7 @@ zybang.com##a[class="top-banner"]
 zybang.com##div[id="askTeacher-after-adx-wrap"]
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>1659
+!<<<<<通配符规则>>>>>1660
 $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.xyz
 &adZones$xmlhttprequest
 &ad_block=
@@ -11494,6 +11495,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 ://ln.*.mobi$third-party
 ://ly*.guixiangyuan.xyz$~third-party
 ://m.91zww.com/0x*/0x*.js?v=$~third-party
+://m.gufengmh*.com/*xuanfu.js
 ://missav*.com/pop?url=$~third-party
 ://mobi*.*.*/*_*?$third-party
 ://mobivx.*.cam$third-party
