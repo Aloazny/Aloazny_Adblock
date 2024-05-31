@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: LsK7n/6oOG/+j1kXPdDhiQ
+! Checksum: lwsUm7nhlxpLibp2JRc19A
 ! Title: Aloazny Chinese fiter
-! Version: 20240531090338
+! Version: 20240531202648
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-05-31 09:03:38
-! Total Count: 38419
-! Blocked Filters: 38419
+! Last modified: 2024-05-31 20:26:48
+! Total Count: 38422
+! Blocked Filters: 38422
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -17339,7 +17339,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>13134
+!<<<<<网站单独规则>>>>>13137
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.net
@@ -23978,6 +23978,7 @@ jin.baidu.com##div[class="shortcut shortcut-t"]
 jin10.com###J_wdgg_t
 jin10.com##.l-main > div > .jin-timeline
 jin10.com##.l-main > div > div[class^="jin-"] > .jin-timeline > div[class^="jin-1"]
+jin10.com##.side-module-2
 jin10.com##.top-ad
 jin10.com##div[id^="J_wdgg_"]
 jin115.com###article-contents > .article_mid + .article-body-more
@@ -26022,6 +26023,8 @@ mydrivers.com##.good_ths
 mydrivers.com##.jdong11
 mydrivers.com##.jdong11bg
 mydrivers.com##.main_right_div[style="padding-top: 10px;"]
+mydrivers.com##.vwE9JmqU
+mydrivers.com##.yTv3AMqP
 mydrivers.com##a[href*=".dangbei.com"]
 mydrivers.com##div[class^="jdong11"]
 mydrivers.com##div[style*="/ad/"]
