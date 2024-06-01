@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: qunYB2fN6jaDa3T2nhbL0g
+! Checksum: q+n99hYeyeUbFTH1wRkxZg
 ! Title: Aloazny Mobile fiter
-! Version: 20240601090756
+! Version: 20240601202646
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-06-01 09:07:56
-! Total Count: 73651
-! Blocked Filters: 73651
+! Last modified: 2024-06-01 20:26:46
+! Total Count: 73656
+! Blocked Filters: 73656
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock.txt?ref=main
 
 
-!<<<<<域名规则>>>>>27387
+!<<<<<域名规则>>>>>27391
 |http$third-party,script,domain=kinotut.tv
 |http*://$image,third-party,domain=rmdown.com
 |http*://$script,third-party,domain=stream2watch.org,badfilter
@@ -3340,6 +3340,7 @@
 ||af29.com/banner/
 ||af2e7c6814.d78eee025b.com^
 ||af31f.site^
+||af9dc9.xyz^
 ||afablca.cn^
 ||afafevk.com^
 ||afcav.com^
@@ -7526,6 +7527,7 @@
 ||cped7.xyz^
 ||cperformmedia-a.akamaihd.net/dpfm.js
 ||cpffkbpq.xyz^
+||cpgou.cn^
 ||cpkxahje.xyz^
 ||cpm.adlive.io^
 ||cpm.audience.media^
@@ -8924,6 +8926,7 @@
 ||dspplatform.anytheengmedia.com^
 ||dspunion.com^
 ||dsqzk.cn^
+||dssdfsf.cn^
 ||dstbekdf.xyz^
 ||dstbunkfw.xyz^
 ||dswcrlf.cn^
@@ -11268,6 +11271,7 @@
 ||googlevideo.com/initplayback?source=youtube&*&c=TVHTML5&oad=$xmlhttprequest,domain=youtube.com
 ||googlevideo.com/initplayback?source=youtube*&c=TVHTML5&oad=$xmlhttprequest,domain=youtube.com
 ||googlevideo.com/videoplayback*&ctier=L&*%2Cctier%2C$xmlhttprequest,third-party,domain=m.youtube.com|music.youtube.com|www.youtube.com
+||goole20.shop^
 ||gooqlevideo.com/*.xml
 ||goose.accountsjs.com^
 ||goose.markerchase.com^
@@ -64845,7 +64849,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 zle.com$script
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>4155
+!<<<<<通用Css规则>>>>>4156
 ###ADbox
 ###ADtip
 ###AdBlockDialog
@@ -67358,6 +67362,7 @@ zle.com$script
 ##A[href*='youqu.buzz']
 ##A[href*='zbkrv.com']
 ##A[href="http://t.cn/A6hQCVsv"]
+##A[href="javascript:;"][onclick^="todkjermyd"]
 ##A[href='/?'][target='_blank']
 ##A[href='/hth.html']
 ##A[href='/iwagbwfiwehaeyh/']
