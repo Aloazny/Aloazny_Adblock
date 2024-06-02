@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: EAAmvDEdGmSeWY+h9ooLZg
+! Checksum: QMlrhCdy8MN+eA1yp557mA
 ! Title: Aloazny Mobile fiter
-! Version: 20240602090833
+! Version: 20240602202609
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-06-02 09:08:33
-! Total Count: 73655
-! Blocked Filters: 73655
+! Last modified: 2024-06-02 20:26:09
+! Total Count: 73668
+! Blocked Filters: 73668
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock.txt?ref=main
 
 
-!<<<<<域名规则>>>>>27385
+!<<<<<域名规则>>>>>27392
 |http$third-party,script,domain=kinotut.tv
 |http*://$image,third-party,domain=rmdown.com
 |http*://$script,third-party,domain=stream2watch.org,badfilter
@@ -2651,6 +2651,7 @@
 ||abtest.alibaba.com^
 ||abtest.mistat.xiaomi.com^
 ||abtest.swrve.com^
+||abtfliping.top^
 ||abtt.pufenchuanmu.com^
 ||abucki.xyz^
 ||ac*.786ip.com^
@@ -7069,6 +7070,7 @@
 ||classicporn.club/ab_bl.php
 ||classicporn.club/ab_fl.js
 ||clb.biz/Public/static/js/common-v2.js
+||clck.adskeeper.com^
 ||clcmdie.com^
 ||cldxphtg.xyz^
 ||cleaner.noxgroup.org/activity/ads/*
@@ -7573,7 +7575,6 @@
 ||cpro.zol.com.cn^
 ||cpro88.vip^
 ||cpt.9136.com/img/b_special/
-||cpt.9136.com^
 ||cpucdn.baidu.com^
 ||cpv.popxml.com^
 ||cpwlctfk.xyz^
@@ -8093,6 +8094,7 @@
 ||daishudy.com/js/g/b_1.js
 ||daiwofei2019.top^
 ||dajiadu8.com/17.js
+||dajiahao10.top^
 ||dajiahao9.top^
 ||dajiazhao.com/login/reg.js
 ||dakawm.cc^
@@ -9922,6 +9924,7 @@
 ||faucet4news.xyz/img/adend.gif
 ||faucet4news.xyz/img/tempmailad.gif
 ||faucetfoot.com^$third-party
+||faulterdeplume.com^
 ||faultycanvas.com^$third-party
 ||faultyfowl.com^$third-party
 ||faxffjo.com^
@@ -10092,6 +10095,7 @@
 ||fiktvlnc.icu^
 ||file.imgprox.net/728x90
 ||file.imgprox.net/mba79.gif
+||fileinvite.top^
 ||filelions.live/assets/jquery/adult100.js
 ||filemoon.*/js/apoh2.js
 ||filerio.in/interstl.html
@@ -16520,6 +16524,7 @@
 ||mouse.anthony-noel.com^
 ||mouse.botreach.co^
 ||mouseflow.com^
+||mouton.foramscoypou.com^
 ||movcpm.com/watch.xml?key=
 ||movemeal.com^$third-party
 ||movie007hd.com/wp-content/uploads/*.gif
@@ -21301,6 +21306,7 @@
 ||slkdnlkfnskl.com^
 ||slkkbnsgn.com^
 ||sllo.top^
+||slobodnadalmacija.hr/templates/site/js/adrecover.js$script
 ||slonlyuse.shop^
 ||slopesoap.com^$third-party
 ||sloppycalculator.com^$third-party
@@ -22145,6 +22151,7 @@
 ||summer5188.com^
 ||summerobject.com^$third-party
 ||sumotorrent.sx/img/ip_vanish_
+||sump4.cc/js/wcount.js
 ||sums.suning.com^$third-party
 ||sun66387567606.online^
 ||sun66387567606.site^
@@ -27402,7 +27409,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>34216
+!<<<<<网站单独规则>>>>>34218
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe.com,badfilter
 $image,third-party,denyallow=cdn77.org|fpbns.net|others-cdn.com|rncdn7.com|sb-cd.com|stream.highwebmedia.com|upsiloncdn.net|xvideos-cdn.com|youjizz.com|ypncdn.com,domain=pussyspace.com|pussyspace.net
@@ -33803,6 +33810,7 @@ cilimao.co,cilimao.one##div[class^="FixBanner"]
 cimanow.cc##+js(set-constant, zJSYdQ, true)
 cin.ac###recomendation > div > a:not([href^="/v/"])
 cin.ac##a[href^="https://s.zlinkc.com"]
+cin.cx##body > iframe[style*="z-index: 2147483647"]
 cinafoniaci.com##.tm-sidebar-b > .uk-panel > center > a[href][target="_blank"] > img
 cinafoniaci.com#?#.tm-sidebar-b > .uk-panel > center:has(> a[href][target="_blank"] > img)
 cine24.online##+js(disable-newtab-links)
@@ -59744,6 +59752,7 @@ wnd.com##.leader-board-top
 wnp.pl###target-5d
 wnp.pl##body div.ad.block
 wo2viral.com##a[href][target="_blank"].button
+woaimoon.com##DIV[id^="juan_"]
 woaizhui.com,imomoe.la,imomoe.live,yy6080.cn##img[style="width: 100%;"]
 wolframclient.net#?#.post-content > div:has(ins.adsbygoogle)
 wolfstream.tv,highstream.tv###customAnnouncement
@@ -61621,7 +61630,7 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 zzzyk.com###Tinfo
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>3224
+!<<<<<通配符规则>>>>>3227
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe.com,badfilter
 $image,third-party,denyallow=cdn77.org|fpbns.net|others-cdn.com|rncdn7.com|sb-cd.com|stream.highwebmedia.com|upsiloncdn.net|xvideos-cdn.com|youjizz.com|ypncdn.com,domain=pussyspace.com|pussyspace.net
@@ -61725,6 +61734,7 @@ $xmlhttprequest,third-party,denyallow=rsc.cdn77.org|linkvertise.com|fastly.net|s
 .app/js/gg.js$script
 .app:*/?i_code=$~third-party
 .app?c=ggcha$~third-party
+.art/?jy=jyZMQ3Ih$~third-party
 .asp?wg&df=$script,third-party
 .asp?wsg&df=$script,third-party
 .at/ads/
@@ -61904,6 +61914,7 @@ $xmlhttprequest,third-party,denyallow=rsc.cdn77.org|linkvertise.com|fastly.net|s
 .com/ad_js/
 .com/ads/$domain=pornbraze.com|hdbraze.com
 .com/adv1/?q=
+.com/aff-AarP$~third-party
 .com/aff-w2aK$~third-party
 .com/afu.php?zoneid=$all
 .com/api/getPos?jspath=/$~third-party
@@ -62133,6 +62144,7 @@ $xmlhttprequest,third-party,denyallow=rsc.cdn77.org|linkvertise.com|fastly.net|s
 .cyou/xtub_*_rony.js$third-party
 .cyou:$third-party,domain=applnn.cc|btmovi.kim|btsj6.com|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylengmen.com|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|shenyedushu.com|soosadfun.com|sqruitu.com|tangsanshu.info|tinghao8.com|tinghaodebook.com|toosadfun.com|xhzysh.com|yhdmp.net|yhdmz.org|yhpdm.com|yinghua8.tv|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
 .cz/ads/$~object,domain=~hcplzen.cz
+.dajiahao*.top/getCodeDomain/
 .doc?f=1&sid=$all
 .doc?t=popunder$all
 .doublepimp.com^$third-party
@@ -64848,7 +64860,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 zle.com$script
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>4156
+!<<<<<通用Css规则>>>>>4157
 ###ADbox
 ###ADtip
 ###AdBlockDialog
@@ -67904,6 +67916,7 @@ zle.com$script
 ##a[href*=".top:"][target="_blank"][class] > span
 ##a[href*=".ufinkln.com/"]
 ##a[href*=".umtrack.com/"]
+##a[href*=".uu2123sd.vip"]
 ##a[href*=".vip:"] > img[src]
 ##a[href*=".wzfqitm.com/"]
 ##a[href*=".xacg.info/"]
