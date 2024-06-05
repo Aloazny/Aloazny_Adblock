@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: uFy4xC9HUHXWNfj43piHzQ
+! Checksum: idmwHiDM2PTHTZPFNyxszg
 ! Title: Aloazny Mobile fiter
-! Version: 20240605090459
+! Version: 20240605202858
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-06-05 09:04:59
-! Total Count: 73628
-! Blocked Filters: 73628
+! Last modified: 2024-06-05 20:28:58
+! Total Count: 73638
+! Blocked Filters: 73638
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock.txt?ref=main
 
 
-!<<<<<域名规则>>>>>27324
+!<<<<<域名规则>>>>>27327
 |http$third-party,script,domain=kinotut.tv
 |http*://$image,third-party,domain=rmdown.com
 |http*://$script,third-party,domain=stream2watch.org,badfilter
@@ -7047,6 +7047,7 @@
 ||cinemabonus.com^$third-party
 ||ciqahsejb.com^
 ||circlelevel.com^$third-party
+||circleofcricket.com/assets/adv/
 ||cire.pl/files/portal/*/campaign/$image
 ||cirsoaksat.net^
 ||city.tsuyama.lg.jp/common/photo/banner_ad/
@@ -8640,6 +8641,7 @@
 ||dlbghx.xyz^
 ||dlbooks.to/img/smart/bn_
 ||dlili.tv/ufile/22222.js
+||dljzcl.cn^
 ||dlkoo.cc/down/copy
 ||dlkoo.com/down/copy
 ||dlmonitize.com^$all
@@ -24138,6 +24140,7 @@
 ||vfgajrk.cn^
 ||vfjsa6do.icu^
 ||vflorp.xyz^
+||vfphbh.xyz^
 ||vfrdewsdg.xyz^
 ||vfsdgjrr.xyz^
 ||vfsdsdeq.xyz^
@@ -27341,7 +27344,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>34240
+!<<<<<网站单独规则>>>>>34246
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe.com,badfilter
 $image,third-party,denyallow=cdn77.org|fpbns.net|others-cdn.com|rncdn7.com|sb-cd.com|stream.highwebmedia.com|upsiloncdn.net|xvideos-cdn.com|youjizz.com|ypncdn.com,domain=pussyspace.com|pussyspace.net
@@ -29340,7 +29343,7 @@ abcya.com##+js(set-constant, Bolt._adBlockDetected, true)
 abczdrowie.pl#?#.article__textbox > script:contains(registerSlot):upward(1)
 abczdrowie.pl#?#.article__textbox:has(> div[class] > div[id^="div-gpt-ad"])
 abczdrowie.pl#?#.content-aside__item > script:contains(registerSlot):upward(1)
-abczdrowie.pl,adshrink.it,animefillerlist.com,apuntesdeingles.com,aranzulla.it,chrohat.com,cnbeta.com.tw,dailymail.co.uk,drikpanchang.com,ettoday.net,f1-gate.com,gazeta.pl,i.pl,ilmeteo.it,interia.pl,japan.techinsight.jp,learn-japanese-adventure.com,lidovky.cz,medevel.com,medonet.pl,nikkei225jp.com,onet.pl,smstome.com,thetvdb.com,tvn24.pl,tvp.info#$#body { overflow: visible !important; }
+abczdrowie.pl,adshrink.it,animefillerlist.com,apuntesdeingles.com,aranzulla.it,chrohat.com,circleofcricket.com,cnbeta.com.tw,dailymail.co.uk,drikpanchang.com,ettoday.net,f1-gate.com,gazeta.pl,i.pl,ilmeteo.it,interia.pl,japan.techinsight.jp,learn-japanese-adventure.com,lidovky.cz,medevel.com,medonet.pl,nikkei225jp.com,onet.pl,smstome.com,thetvdb.com,tvn24.pl,tvp.info#$#body { overflow: visible !important; }
 abczdrowie.pl,animefillerlist.com,apuntesdeingles.com,aranzulla.it,cnbeta.com.tw,dailymail.co.uk,drikpanchang.com,ettoday.net,f1-gate.com,gazeta.pl,i.pl,ilmeteo.it,interia.pl,japan.techinsight.jp,learn-japanese-adventure.com,lidovky.cz,medevel.com,medonet.pl,nikkei225jp.com,onet.pl,smstome.com,thetvdb.com,tvn24.pl,tvp.info#$#body div.fc-ab-root:not(#style_important) { display: none !important; }
 abendblatt.de,morgenpost.de,derwesten.de,waz.de##.article__body > .admarker + amp-fx-flying-carpet
 abendzeitung-muenchen.de##.ad-widebox
@@ -30151,7 +30154,7 @@ amp.tagesspiegel.de##.ts-article-content > amp-embed[class*="notbuilt"]
 amp.theguardian.com,google.ad,google.ae,google.al,google.am,google.as,google.at,google.az,google.ba,google.be,google.bf,google.bg,google.bi,google.bj,google.bs,google.bt,google.by,google.ca,google.cat,google.cd,google.cf,google.cg,google.ch,google.ci,google.cl,google.cm,google.cn,google.co.ao,google.co.bw,google.co.ck,google.co.cr,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.ls,google.co.ma,google.co.mz,google.co.nz,google.co.th,google.co.tz,google.co.ug,google.co.uk,google.co.uz,google.co.ve,google.co.vi,google.co.za,google.co.zm,google.co.zw,google.com,google.com.af,google.com.ag,google.com.ai,google.com.ar,google.com.au,google.com.bd,google.com.bh,google.com.bn,google.com.bo,google.com.br,google.com.bz,google.com.co,google.com.cu,google.com.cy,google.com.do,google.com.ec,google.com.eg,google.com.et,google.com.fj,google.com.gh,google.com.gi,google.com.gt,google.com.hk,google.com.jm,google.com.kh,google.com.kw,google.com.lb,google.com.ly,google.com.mm,google.com.mt,google.com.mx,google.com.my,google.com.na,google.com.nf,google.com.ng,google.com.ni,google.com.np,google.com.om,google.com.pa,google.com.pe,google.com.pg,google.com.ph,google.com.pk,google.com.pr,google.com.py,google.com.qa,google.com.sa,google.com.sb,google.com.sg,google.com.sl,google.com.sv,google.com.tj,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vc,google.com.vn,google.cv,google.cz,google.de,google.dj,google.dk,google.dm,google.dz,google.ee,google.es,google.fi,google.fm,google.fr,google.ga,google.ge,google.gg,google.gl,google.gm,google.gp,google.gr,google.gy,google.hn,google.hr,google.ht,google.hu,google.ie,google.im,google.iq,google.is,google.it,google.je,google.jo,google.kg,google.ki,google.kz,google.la,google.li,google.lk,google.lt,google.lu,google.lv,google.md,google.me,google.mg,google.mk,google.ml,google.mn,google.ms,google.mu,google.mv,google.mw,google.ne,google.nl,google.no,google.nr,google.nu,google.pl,google.pn,google.ps,google.pt,google.ro,google.rs,google.ru,google.rw,google.sc,google.se,google.sh,google.si,google.sk,google.sm,google.sn,google.so,google.sr,google.st,google.td,google.tg,google.tk,google.tl,google.tm,google.tn,google.to,google.tt,google.vg,google.vu,google.ws,ampproject.org###ad-undefined
 amp.theguardian.com,itavisen.no,ltn.com.tw,marketrealist.com##div[id^="ad-"]
 amp.tvspielfilm.de##.amp_ad
-amp.ura.news,basketball-reference.com,fbref.com,forum.qrz.ru,life.ru,m.ashemaletube.com,mastergrad.com,onmsft.com,rtlxl.nl,softperfect.com,wallpapershome.ru##.adblock
+amp.ura.news,basketball-reference.com,fbref.com,flixscans.net,forum.qrz.ru,life.ru,m.ashemaletube.com,mastergrad.com,onmsft.com,rtlxl.nl,softperfect.com,wallpapershome.ru##.adblock
 amp.usatoday.com##.ad-last
 amp.usatoday.com##.padded-container.taboola
 amp.vip.de##.ems-ad
@@ -32977,6 +32980,7 @@ ca168.com###slideshow_wrapper
 ca168.com##.admarket
 ca168.com,cs.com.cn,qiannao.com,qinbing.cn,sonimei.cn###rightDiv
 cableabc.com##a[href*="/img1/"]
+cablevisionhd.com,telegratishd.com##.site-access-popup
 cachevalleydaily.com##.main-top-ad
 cadlinecommunity.co.uk###sidebar_advert
 cafef.vn##div[class^="ads_admzone"]
@@ -33792,6 +33796,9 @@ cinestrenostv.tv###capa1
 cinestrenostv.tv###closeX1
 cioupdate.com.tr,moumentec.com##+js(set-constant, tie.ad_blocker_disallow_images_placeholder, '')
 circa.com##.Page-ad
+circleofcricket.com##div.container-full.add:has(> a[href]:first-child)
+circleofcricket.com#$##myModal { display: none !important; }
+circleofcricket.com,cloudpaten.pro,course-downloader.com,gofile.io,live7.vebo3.org,mdn.lol,theportugalnews.com#$#.modal-backdrop { display: none !important; }
 circuitdigest.com##+js(no-setTimeout-if, #myModalwel)
 cire.pl##img[src^="/files/portal/"][src*="/campaign/"]
 cire.pl#?#div[class^="sc-"]:has(> div:first-child:contains(/^(SPONSORZY PORTALU|PARTNERZY PORTALU)$/) + div:last-child > a[href][target="_blank"] > img)
@@ -33944,7 +33951,6 @@ cloudgallery.net,imgair.net##.odlake
 cloudgallery.net,imgair.net##.qwrcb
 cloudgallery.net,imgair.net#$#.big_img[style*="margin-top:"] { margin-top: 0!important; }
 cloudpaten.pro#$##load-modal { display: none !important; }
-cloudpaten.pro,course-downloader.com,gofile.io,live7.vebo3.org,mdn.lol,theportugalnews.com#$#.modal-backdrop { display: none !important; }
 cloudstorageoptions.com##.adslot_left
 cloudycdn.services##+js(json-prune, source.ads)
 club-opel.com,renault-club.cz,toyota-club.eu##+js(remove-attr, class, body > div#obalovydiv)
@@ -36224,7 +36230,6 @@ duplichecker.com,vpnmentor.com#$##bio_ep { display: none!important; }
 duplichecker.com,vpnmentor.com#$##bio_ep_bg { display: none!important; }
 dutafilm.*##+js(abort-on-property-read, Object.prototype.Focm)
 dutafilm.*##+js(addEventListener-defuser, load, banner_id)
-dutafilm.*##+js(window.open-defuser, bit.ly)
 dutafilm.*##.imgbanner
 dutafilm.*##.left-content a[href][target="_blank"] > img
 dutafilm.*##.right-content > #orbit
@@ -36233,6 +36238,7 @@ dutafilm.*##.swal-overlay
 dutafilm.*##a[href="/loker/"] > img
 dutafilm.*##body > a[href] > div[style^="position:absolute;"][style*="z-index:"]
 dutafilm.*##iframe[data-glx][style*="z-index"]
+dutafilm.*,meczyki.pl,televisiongratisenvivo.com##+js(window.open-defuser, bit.ly)
 dutchycorp.ovh##.hide-on-small-only > div[class^="sidenav_"]
 dutchycorp.ovh##body.interstitial-page iframe#frame
 dutchycorp.ovh##center > iframe[src*="dutchy"][src$=".php"]
@@ -46874,12 +46880,14 @@ meczyki.pl##.content > .grid-news-slider > .large:has(> a[rel] .ads-info)
 meczyki.pl##.d-none > .sticky.margin > .box.margin[data-area-id]
 meczyki.pl##.grid-news-slider > div.news-item:has(> a[href^="https://www.meczyki.pl/link/bukmacher/"])
 meczyki.pl##.page-wrapper > .container > .box > a[target="_blank"] > img
+meczyki.pl##.screening
 meczyki.pl##.vi-ai-banner
 meczyki.pl##.zabka-overlay > .content-news-image + .box > img.jush-logo
 meczyki.pl##.zabka-overlay > .content-news-image + .box > img.jush-logo + .content
 meczyki.pl##body .ejected-banner
 meczyki.pl##div[data-area-id] > a[href^="https://bit.ly/"]
 meczyki.pl##div[id^="screeningBackground"]
+meczyki.pl#$#.has-screening { background-image: none !important; cursor: auto !important; }
 meczyki.pl#$#.zabka-overlay { background: none !important; }
 meczyki.pl#$#:not(.onnetwork-banner) > .placeholder:not(.onnetwork-banner) { height: 0 !important; min-height: 0 !important; visibility: hidden !important; }
 meczyki.pl#?#.collapse-container > .row > .col-lg-4:has(> a[target="_blank"] > .news-item > .news-image > .ads-info)
@@ -56101,7 +56109,6 @@ telerium.digital,dtefrc.online,lowend.xyz##+js(abort-on-property-read, popurl)
 telesputnik.ru##.adbPopup
 teletoonplus.pl###nctopcontainer
 teletoonplus.pl##iframe#nctop
-televisiongratisenvivo.com##+js(window.open-defuser, bit.ly)
 televisiongratisenvivo.com,tv-onlinehd.com###divadblock
 tellerreport.com#?#article.flex-column > div[class]:contains(/^ADS$/):upward(2)
 telling.asahi.com##.p-banner-wrapper
@@ -56370,8 +56377,8 @@ theguardian.com##.js-outbrain
 theguardian.com##.top-fronts-banner-ad-container
 thehackernews.com###articlebody > div[class]:has(> center > a:is([rel^="nofollow"], [target^="_blank"]) > img)
 thehackernews.com##+js(abort-current-script, Math.random, /[Bb]anner|\.innerHTML/)
+thehackernews.com##+js(abort-current-script, onload, /[Bb]anner|\.innerHTML/)
 thehackernews.com##.ad_two
-thehackernews.com##.akku
 thehackernews.com##.av-side-box
 thehackernews.com##.blog-posts > .body-post:has(> a[target="_blank"])
 thehackernews.com##.deal-store
@@ -56380,6 +56387,8 @@ thehackernews.com##.right-box > .zoho-box
 thehackernews.com##.sidewalaad
 thehackernews.com##:is(aside, section, [id*="-"], [class*="right"], [class*="side"]) a > img[target="_blank"]
 thehackernews.com##:is(aside, section, [id*="-"], [class*="right"], [class*="side"]) a[target="_blank"] > img
+thehackernews.com##:is(aside, section, [id*="-"], [class*="right"], [class*="side"]):has(> div[class] + script)
+thehackernews.com##a.custom-link[rel*="sponsored"]
 thehackernews.com##body > .google.cf
 thehackernews.com##body > [class]:has(> a[href][target="_blank"])
 thehackernews.com##body > [class]:has(> center a[href][target="_blank"])
@@ -61584,7 +61593,7 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 zzzyk.com###Tinfo
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>3228
+!<<<<<通配符规则>>>>>3229
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe.com,badfilter
 $image,third-party,denyallow=cdn77.org|fpbns.net|others-cdn.com|rncdn7.com|sb-cd.com|stream.highwebmedia.com|upsiloncdn.net|xvideos-cdn.com|youjizz.com|ypncdn.com,domain=pussyspace.com|pussyspace.net
@@ -63108,6 +63117,7 @@ $xmlhttprequest,third-party,denyallow=rsc.cdn77.org|linkvertise.com|fastly.net|s
 /adx_iframe_
 /adxads.
 /aeiou/*$domain=discuss.com.hk|uwants.com
+/aero_modernv2/js/0.js|$domain=aeroinsta.com
 /afd/entry
 /aff_c?*offer_id=*&aff_id=
 /aff_r?*offer_id=*&aff_id=
@@ -69488,7 +69498,7 @@ zle.com$script
 @@||acceptable.a-ads.com/1^$domain=go.freetrx.fun
 @@||acceptable.a-ads.com/1^$xmlhttprequest,domain=gainl.ink
 @@||acdn.adnxs.com/as/1h/pages/sport1.js$domain=sport1.de
-@@||acdn.adnxs.com/ast/ast.js$domain=ekstrabladet.dk|msn.com|svd.se|totaaltv.nl
+@@||acdn.adnxs.com/ast/ast.js$domain=ekstrabladet.dk|msn.com|svd.se
 @@||acdn.adnxs.com/video/mediation/VastMediationManager.js$domain=thechive.com
 @@||acdn.adnxs.com/video/mediation/apn_overlay_integration.js$domain=thechive.com
 @@||acgbenzi.com//dist/images/top.png
@@ -69681,8 +69691,6 @@ zle.com$script
 @@||advertisement.vg.no/1v*.js?v=$domain=e24.no
 @@||advertisement.vg.no/1v*.js?v=$~third-party
 @@||advertiser.cyberghostvpn.com/www/$domain=cyberghostvpn.com
-@@||advertising-cdn.dpgmedia.cloud/native-renderer/main.js$domain=totaaltv.nl
-@@||advertising-cdn.dpgmedia.cloud/web-advertising/$domain=totaaltv.nl
 @@||advertising.yahoo.com^$~third-party
 @@||adverts.ie/css/
 @@||advertserve.com^$domain=trk-imps.com|lewdninja.com
@@ -73152,6 +73160,9 @@ forum.virtualdjing.com#@#.adFrame
 forum.xda-developers.com#@#.adonis-placeholder
 fqsousou.com,kengso.com#@#.user-share
 freecodecamp.cn,freecodecamp.one#@#.btn-social
+freeminecrafthost.com#@#.Textads
+freeminecrafthost.com#@#.textAds
+freeminecrafthost.com,javgg.net,vidmoly.me,vidmoly.net,vidmoly.to#@#.AdsBox
 freethesaurus.com#@#.TopBannerAd
 freeupscmaterials.org#@#.quads-location
 freevpn4you.net,zeste.ca#@##adBanner:not([style^="position: absolute; left: -5000px"]):not([data-testid="adBlockTest"])
@@ -73269,7 +73280,6 @@ javcrave.com#@#.widget_custom_html
 javfinder.sh#@##preroll
 javgg.net#@##AD_160
 javgg.net#@##ad_160
-javgg.net,vidmoly.me,vidmoly.net,vidmoly.to#@#.AdsBox
 jd.com#@#.ads-content
 jd.com#@#.ads-item
 jd.com#@#.adwords
