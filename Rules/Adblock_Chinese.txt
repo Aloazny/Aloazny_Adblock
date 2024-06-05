@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: x5tAnnTM8xbkPvHB+lJ7vw
+! Checksum: ub7Dv0Yk1ox07by0BGGsIQ
 ! Title: Aloazny Chinese fiter
-! Version: 20240604202731
+! Version: 20240605090334
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-06-04 20:27:31
-! Total Count: 38494
-! Blocked Filters: 38494
+! Last modified: 2024-06-05 09:03:34
+! Total Count: 38504
+! Blocked Filters: 38504
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>17375
+!<<<<<域名规则>>>>>17385
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|cyxse.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.360118.com|m.37zw.net|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zwdu.com
 |http://*.cn/ad/
@@ -3248,6 +3248,7 @@
 ||bi.yeshen.com^
 ||bian-min.com/javascript/a/detail.js
 ||biancheng.net/uploads/ggxc/
+||biancitiao.com^
 ||bianshengruanjian.com/tu/%E6%89%93%E8%B5%8F.
 ||bianxianmao.com^$third-party
 ||bianzhirensheng.com/img/banner.jpg
@@ -3277,6 +3278,7 @@
 ||bimiacg*.net/template/JOELEO/asset/js/jquery.leeleo.js
 ||bimiacg4.net/template/JOELEO/asset/js/jquery.common.js
 ||bing001.shop^
+||bing003.shop^
 ||bing005.shop^
 ||binqriksc.com^
 ||bio-equip.com/dimg/
@@ -7243,6 +7245,7 @@
 ||hfhytx.xyz^
 ||hfjhr.cn^
 ||hfjk3wa.com^
+||hfjsliu.top^
 ||hfk7j.top^
 ||hflwgg.xyz^
 ||hfqdipw.cn^
@@ -9436,6 +9439,7 @@
 ||lianyexiuchang.cc/js/
 ||liaoxuefeng.com/files/attachments/00144*/0
 ||liates.top^
+||libhzf.xyz^
 ||licai18.com/henyepweb/
 ||licai18.com/pic/article/*.gif
 ||lichunxiao.cn^
@@ -12163,6 +12167,7 @@
 ||qpb0.sohu.com^
 ||qpb1.sohu.com^
 ||qpcvlbp.cn^
+||qpesok.xyz^
 ||qpgyy.com/add01.html
 ||qpic.cn/qq_public/$domain=m.nfydd.com
 ||qpic.cn/qqgameedu/0/cfc175896f5b4d6a9ff115b3096dcebe_
@@ -15006,6 +15011,7 @@
 ||uuuzuu.xyz^
 ||uuvzmba.cn^
 ||uuxfznnf.xyz^
+||uuysiaq.com^
 ||uuzsfpju.xyz^
 ||uuzwvqc.cn^
 ||uvklgw.xyz^
@@ -15625,6 +15631,7 @@
 ||wjoxqd.com^
 ||wjtij.top^
 ||wjwod.cyou^
+||wkjyxcheng.top^
 ||wkrcbszi.xyz^
 ||wkrhel.icu^
 ||wkybwa.xyz^
@@ -15983,6 +15990,7 @@
 ||xav*.icu/base/js/other.js
 ||xayjbz.com/static/images/apc.
 ||xazbts.com^
+||xbbhwggj.icu^
 ||xbiqu5.com/12345678.
 ||xbiqu5.com/12345678.js
 ||xbiqugela.com/js/basisc.
@@ -16408,6 +16416,7 @@
 ||xymahuxv.xyz^
 ||xyqmy.xyz^
 ||xyryjt.xyz^
+||xysefte.icu^
 ||xytcboyz.icu^
 ||xywy.com/gk?a=
 ||xywy.com/zhixing/
@@ -17303,6 +17312,7 @@
 ||zt.chuanke.com/?mod=
 ||zt2088.com^
 ||ztaan.top^
+||zthxobgk.icu^
 ||ztjal.info/wp-content/plugins/kill-adblock/
 ||ztqdkzn.cn^
 ||ztshg.cn^
