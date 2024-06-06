@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: L3Cf5gMEUJrTu41D+o+Blg
+! Checksum: wXMYnbMCrIroOC/qSGPAtQ
 ! Title: Aloazny attach fiter
-! Version: 20240606090306
+! Version: 20240606202732
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-06-06 09:03:06
-! Total Count: 14833
-! Blocked Filters: 14833
+! Last modified: 2024-06-06 20:27:32
+! Total Count: 14831
+! Blocked Filters: 14831
 ! Description: 合并混合规则的补充规则，轻量规则，可作为补充规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_attach.txt?ref=main
 
 
-!<<<<<域名规则>>>>>6718
+!<<<<<域名规则>>>>>6720
 |https://m.frgls.com/js/*.js?v=
 ||*ggua.xyz^$third-party
 ||000123456789.online^
@@ -4393,6 +4393,7 @@
 ||qrirud.xyz^
 ||qrjsz.top^
 ||qrjxween.com^
+||qrmozsc.icu^
 ||qrxmgfz.cn^
 ||qsanciy.top^
 ||qsbgubdez120.com^$~third-party
@@ -5677,6 +5678,7 @@
 ||uujhveglpo.xyz^
 ||uunrkj.com^$~third-party
 ||uuoozz.com/L7QQ.js
+||uuysiaq.com^
 ||uuzwvqc.cn^
 ||uvnjlm.cn^
 ||uwadakest.cyou^
@@ -11608,7 +11610,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 zle.com$script
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>3004
+!<<<<<通用Css规则>>>>>3000
 ###ADbox
 ###AdBlockDialog
 ###AdBox2
@@ -13408,7 +13410,6 @@ zle.com$script
 ##SPAN.closebox1,SPAN.closebox2,SPAN.closebox3,SPAN.closebox4
 ##SPAN[style$='font-size: 6vw; color:#fff; text-align: center; transform: rotate(-90deg);']
 ##SPAN[style^="position: fixed; bottom: 30vh; z-index: 2147483647; right: 0px; margin-right: 6vw; padding: 0px; text-decoration: none; background-color: red; width: 7vw; height: 7vw; border-radius: 7vw; font-size: 6vw; color:"]
-##UL.myui-extra.clearfix
 ##UL[style='margin: 0px; padding: 0px; font-size: 0px; display: flex;']
 ##VIDEO[loop='true'][muted='true'][autoplay='true'][playsinline='true'][preload='auto']
 ##[ad_display_dot]
@@ -14005,7 +14006,6 @@ zle.com$script
 ##body > div[id][style="display: block; width: 100%; position: relative; height: 127.188px; margin: 0px; padding: 0px; border: 0px none; background: none;"]
 ##body > embed[id][src*="://"][src$="="]
 ##body > embed[id][src^="https:///"]
-##body > h1 > strong > title > a
 ##body > script + *[id][class][classname]
 ##body > span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
 ##body#app.pc.mobile
@@ -14116,7 +14116,6 @@ zle.com$script
 ##div.suiji.bottom,div.suiji.topad
 ##div.swiper-slide > A[rel='nofollow noopenner']
 ##div.synopsisArea > a[id*='hudie_']
-##div.video-box > div.hf > a
 ##div[class$="_b"][style^="bottom:"][style$="display: block;"]
 ##div[class$="d"] > span[class^="closebox"]
 ##div[class$="pic"] > span[class^="closebox"]
@@ -14580,7 +14579,6 @@ zle.com$script
 ##ul > li > a[href*=".pojuko.buzz/"]
 ##ul > li > a[href][data-id][data-type][data-position][target="_self"]
 ##ul#page-list.layui-clear.page-wz > ul > li:not([class])
-##ul.content-list > li.content-tb
 ##ul.thread_detail_ads
 ##ul[style="margin:0px; padding:0px;overflow:hidden;width:100%;"]
 ~10jqka.com.cn##.ad_1

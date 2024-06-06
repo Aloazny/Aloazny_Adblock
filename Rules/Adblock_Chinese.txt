@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: TlMePtt+1evupM6N6psBgQ
+! Checksum: CDc8WH08KBNkCsox2p1USg
 ! Title: Aloazny Chinese fiter
-! Version: 20240606090324
+! Version: 20240606202751
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-06-06 09:03:24
+! Last modified: 2024-06-06 20:27:51
 ! Total Count: 38515
 ! Blocked Filters: 38515
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
@@ -17412,7 +17412,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>13150
+!<<<<<网站单独规则>>>>>13154
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.net
@@ -21355,6 +21355,7 @@ dzen.ru##.zenad-card-rtb
 dzen.ru##div[class*="news"] > div[class*="_banner_"]
 dzen.ru##div[class*="topContent"][class*="mobile__hasBanner"]
 dzen.ru##div[class^="dzen-mobile__bannerMain-"]
+dzen.ru##div[class^="dzen-mobile__widgetContainer-"] ~ div[class*=" dzen-mobile__"]  div[style^="padding-top:"]
 dzfoot.com##.messageB
 dzwww.com##.popular
 dzwww.com##div[style="margin:0;padding:0;width:620px;height:345px;overflow:hidden;background-color:#fff;"]
@@ -22426,6 +22427,7 @@ gizbot.com###perIframe
 gizbot.com###taboola-mid-category-thumbnails
 gizbot.com##.ads-mobi-block
 gizchina.com,01net.com,ghacks.net,sagligabiradim.com##.mrf-adv
+gizmodo.com##.ad-mobile-dynamic
 gizmodo.com.au##.leader-mobile-bottom
 gk-stalker.xyz###gkadblock
 gl.baidu.com##.wk-download-banner
@@ -24474,6 +24476,7 @@ laopinion.com.co##.header_suscripciones
 laopiniondemurcia.es##._mo_recs
 laowang.vip###frameYl5IOf
 laozuo.org##.s_ad125
+lapkins.ru##.start .start-ban
 laravel-news.com##.site-main > div.container > div.callout:first-child
 lasela.jp##div[style^="max-width: 336px; min-width: 250px"]
 last.fm##.chartlist-row--interlist-ad
@@ -27709,6 +27712,7 @@ se533.com##div[style="width:960px;margin:0 auto;text-align:center;"]
 seajav.com##.under_player,img[border="0"][width="300"][height="80"],[class*="lg:hidden"],[class][style*="131px"]
 search.bilibili.com##.video-list > div.col_3:has(> div.bili-video-card > div.bili-video-card__wrap > a[href*="&csource="])
 search.bilibili.com##.video-list > div.col_3:has(> div.bili-video-card a[href*="//cm.bilibili.com/"])
+search.chongbuluo.com##.search > div > a[target="_blank"] > img
 search.kakaku.com,s.kakaku.com##.subCtsArea
 search.yahoo.co.jp##.TSg_Ad
 search.yahoo.co.jp##article[class^="W2ARailway_"]
@@ -33142,7 +33146,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 zle.com$script
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>3923
+!<<<<<通用Css规则>>>>>3919
 ###ADbox
 ###ADtip
 ###AdBlockDialog
@@ -35601,7 +35605,6 @@ zle.com$script
 ##SPAN.closebox1,SPAN.closebox2,SPAN.closebox3,SPAN.closebox4
 ##SPAN[style$='font-size: 6vw; color:#fff; text-align: center; transform: rotate(-90deg);']
 ##SPAN[style^="position: fixed; bottom: 30vh; z-index: 2147483647; right: 0px; margin-right: 6vw; padding: 0px; text-decoration: none; background-color: red; width: 7vw; height: 7vw; border-radius: 7vw; font-size: 6vw; color:"]
-##UL.myui-extra.clearfix
 ##UL[style='margin: 0px; padding: 0px; font-size: 0px; display: flex;']
 ##VIDEO[loop='true'][muted='true'][autoplay='true'][playsinline='true'][preload='auto']
 ##[ad_display_dot]
@@ -36367,7 +36370,6 @@ zle.com$script
 ##body > div[style="width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !important; flex-flow: row wrap !important; background: rgb(255, 255, 255) !important; color: transparent !important; font-size: 0px !important; text-indent: -10000px !important; line-height: 0px !important;"]
 ##body > embed[id][src*="://"][src$="="]
 ##body > embed[id][src^="https:///"]
-##body > h1 > strong > title > a
 ##body > script + *[id][class][classname]
 ##body > span[style*="bottom:"][style*="30vh"][style*="position"][style*="fixed"]
 ##body > style + div[id="ics"]
@@ -36487,7 +36489,6 @@ zle.com$script
 ##div.suiji.bottom,div.suiji.topad
 ##div.swiper-slide > A[rel='nofollow noopenner']
 ##div.synopsisArea > a[id*='hudie_']
-##div.video-box > div.hf > a
 ##div:not(#video)[style^="width: 100%;"][style$="display: block;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[align="center"] > a[href^="/url/"] > img[src*=".alicdn.com"]
 ##div[align="center"] > a[href^="/url/"] > img[src*=".qpic.cn"]
@@ -37020,7 +37021,6 @@ zle.com$script
 ##ul > li > a[href*=".pojuko.buzz/"]
 ##ul > li > a[href][data-id][data-type][data-position][target="_self"]
 ##ul#page-list.layui-clear.page-wz > ul > li:not([class])
-##ul.content-list > li.content-tb
 ##ul.thread_detail_ads
 ##ul[style="margin:0px; padding:0px;overflow:hidden;width:100%;"]
 ##vg-pause-ads
