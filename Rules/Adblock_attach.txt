@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 8/hejZNCvmxzO/76EgsOwQ
+! Checksum: agmFUsCvs+xV1B59buY5DA
 ! Title: Aloazny attach fiter
-! Version: 20240607090537
+! Version: 20240607202815
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-06-07 09:05:37
-! Total Count: 14831
-! Blocked Filters: 14831
+! Last modified: 2024-06-07 20:28:15
+! Total Count: 14835
+! Blocked Filters: 14835
 ! Description: 合并混合规则的补充规则，轻量规则，可作为补充规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_attach.txt?ref=main
 
 
-!<<<<<域名规则>>>>>6720
+!<<<<<域名规则>>>>>6722
 |https://m.frgls.com/js/*.js?v=
 ||*ggua.xyz^$third-party
 ||000123456789.online^
@@ -1747,6 +1747,7 @@
 ||dt243100.com^
 ||dtckvpc.cn^
 ||dtfyhdghsd.online^
+||dtnaximya.360doc.cn^
 ||dtrcw.cc^
 ||dtscout.com^
 ||dtsxn.cn^
@@ -6170,6 +6171,7 @@
 ||xhzysh.com/runtime/ad$~third-party
 ||xiangwangdesh.com^
 ||xiangzishop.com^$third-party
+||xianpowei.com^
 ||xianzhice.com^
 ||xiaobao8888.com^
 ||xiaodongrui.com^
@@ -11610,7 +11612,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 zle.com$script
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>3000
+!<<<<<通用Css规则>>>>>3002
 ###ADbox
 ###AdBlockDialog
 ###AdBox2
@@ -13694,6 +13696,8 @@ zle.com$script
 ##[style^="display:block;left:0;right:0;position:fixed;border-left:1px"]
 ##[style^="pointer-events: none;background-image:url('https://33789.qqqwww987.site"],[style^='z-index: 2147483647; height: 123px; ']
 ##[style^='bottom: 0px; width: 100%; height: 50vw; position: fixed; left: 0px; right: 0px; margin: 0px; background: url("https://']
+##[style^='display: block; z-index: 2147483646; width: 10%;']
+##[style^='display: block; z-index: 2147483646; width: 17px; ']
 ##[style^='position: fixed; bottom: 20%; z-index: 19999 !important; ']
 ##[style^='position: fixed; color: transparent; line-height: 100vh; width: 100vw; z-index: '][style*='; top: 0px; left: 0px;']
 ##[style^='position: fixed; z-index: 2147483616; width: 10%; height: 32.5px;']
