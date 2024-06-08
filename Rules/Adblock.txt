@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: r59de69Fbt1QGLKJf9Bmog
+! Checksum: ZlaDWH0/W9/lAUpDGPWkoA
 ! Title: Aloazny Mobile fiter
-! Version: 20240607203003
+! Version: 20240608090500
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-06-07 20:30:03
-! Total Count: 73703
-! Blocked Filters: 73703
+! Last modified: 2024-06-08 09:05:00
+! Total Count: 73718
+! Blocked Filters: 73718
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock.txt?ref=main
 
 
-!<<<<<域名规则>>>>>27358
+!<<<<<域名规则>>>>>27364
 |http$third-party,script,domain=kinotut.tv
 |http*://$image,third-party,domain=rmdown.com
 |http*://$script,third-party,domain=stream2watch.org,badfilter
@@ -3821,6 +3821,7 @@
 ||amjadfreesoft.com^$third-party,image
 ||ammcg.imgscloud.com/toy/
 ||amobee.com^
+||amocyq.xyz^
 ||amon1.net^
 ||amp.lk21official.mom/xjs.js
 ||amphibian.foodfamily.app^
@@ -5536,6 +5537,7 @@
 ||bm.h576.com^
 ||bmatgg18.xyz^
 ||bmbets.com/banner.aspx
+||bmhept.xyz^
 ||bmiea.xyz^
 ||bmjidc.xyz^$all
 ||bmjs.xzw.com^
@@ -7054,6 +7056,7 @@
 ||circleofcricket.com/assets/adv/
 ||cire.pl/files/portal/*/campaign/$image
 ||cirsoaksat.net^
+||cismqdx.icu^
 ||city.tsuyama.lg.jp/common/photo/banner_ad/
 ||city.youpukeji.cn^
 ||citynow.it/wp-content/uploads/*/336x250-GLA.gif
@@ -14331,9 +14334,11 @@
 ||kfdrc.cyou^
 ||kfejnjs.cn^
 ||kfjpren.xyz^
+||kfjslid.top^
 ||kflybplr.xyz^
 ||kfpicimage.xyz^
 ||kfpnqug.cn^
+||kfqizu.cn^
 ||kfvjdvjzhddhc.com^
 ||kfyg.xyz^
 ||kgcyvd.com^
@@ -23591,6 +23596,7 @@
 ||ua.hullockotxi.com^
 ||uafuzcxr.xyz^
 ||uahozcfq.xyz^
+||uaiosio.top^
 ||uakxkb.icu^
 ||uavejnys.xyz^
 ||ub1.job592.com^
@@ -27375,7 +27381,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>34282
+!<<<<<网站单独规则>>>>>34291
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe.com,badfilter
 $image,third-party,denyallow=cdn77.org|fpbns.net|others-cdn.com|rncdn7.com|sb-cd.com|stream.highwebmedia.com|upsiloncdn.net|xvideos-cdn.com|youjizz.com|ypncdn.com,domain=pussyspace.com|pussyspace.net
@@ -30855,7 +30861,7 @@ armidaleexpress.com.au##.bg-gray-100[id^="story"][id$="-container"]
 armidaleexpress.com.au##.invisible
 armidaleexpress.com.au##.lg\:max-w-mrec
 armidaleexpress.com.au#$#.top-0.sticky { top: 0 !important; }
-armidaleexpress.com.au,crookwellgazette.com.au,dailyadvertiser.com.au,newcastleherald.com.au,thecourier.com.au,thesenior.com.au###billboard-container
+armidaleexpress.com.au,crookwellgazette.com.au,dailyadvertiser.com.au,newcastleherald.com.au,northerndailyleader.com.au,thecourier.com.au,thesenior.com.au###billboard-container
 armidaleexpress.com.au,newcastleherald.com.au##div[id^="mrec-"]
 armorgames.com##.promos
 armorgames.com,onrpg.com,mmohuts.com,newgrounds.com##+js(set-constant, cpmstar_siteskin_settings, {})
@@ -32965,6 +32971,7 @@ businessnamegenerator.com##a[data-action="Adverts"]
 businessnamegenerator.com##a[href^="https://domainify.com/"]
 businessnamegenerator.com##div[class*="domainify"]
 businessnamegenerator.com##div[class^="leader-"]
+businessoffashion.com,chalkbeat.org##.b-ads-block
 businesstoday.com.tw##.article__mainevent[style^="min-height:"]
 businesstoday.in###adbocker_alt
 businesstoday.in##.ad__betweenwidget
@@ -33091,6 +33098,8 @@ cambay.tv##.fp-logo
 cambay.tv##iframe[src^="https://www.cambay.tv/player/html.php?aid="]
 cambb.xxx##.model-out-col
 cambb.xxx#?#.thumb div.ad:upward(.thumb)
+cambro.tv##+js(abort-current-script, window.onload, puURLcb24)
+cambro.tv##.container > div[style]:has(> div#object_container)
 camcam.cc##.videos-list > article.sticky
 camerabay.tv##.popupad
 camgirlbay.net##.list-videos > .margin-fix > .place
@@ -33438,7 +33447,6 @@ chajia123.com###dy2
 chajia123.com##.foot_dybox
 chajiaotong.com##div[id^="cjtad_"]
 chakuwiki.org##.adia
-chalkbeat.org##.b-ads-block
 champion.gg##.aside-content-column
 chan.sankakucomplex.com##div[align="center"][class^="scad"]
 chan.sankakucomplex.com#$#body.no-scroll { overflow: auto !important; position: static !important; width: unset !important; }
@@ -45980,9 +45988,9 @@ m.news.de##[data-widget="plista_widget_topArticle"] + div[style="height: 100px"]
 m.news.de##p.articleTeaser+div[style="height: 500px"]
 m.nfydd.com##div[style="width: 100%; height: 110px;"]
 m.nihaogood.com##.Adinfo
-m.nivod9.tv,m.nivod8.tv,m.nivod7.tv,m.nivod4.tv,m.nivod5.tv###hellBoy > li:not([track-by]) > img
-m.nivod9.tv,m.nivod8.tv,m.nivod7.tv,m.nivod4.tv,m.nivod5.tv###video-container + ul[style^="width:"] > li > img
-m.nivod9.tv,m.nivod8.tv,m.nivod7.tv,m.nivod4.tv,m.nivod5.tv##.v-ad
+m.nivod2.com,m.nivod2.tv,m.nivod4.com,m.nivod4.tv,m.nivod5.com,m.nivod5.tv,m.nivod7.com,m.nivod7.tv,m.nivod8.com,m.nivod8.tv,m.nivod9.com,m.nivod9.tv###hellBoy > li:not([track-by]) > img
+m.nivod2.com,m.nivod2.tv,m.nivod4.com,m.nivod4.tv,m.nivod5.com,m.nivod5.tv,m.nivod7.com,m.nivod7.tv,m.nivod8.com,m.nivod8.tv,m.nivod9.com,m.nivod9.tv###video-container + ul[style^="width:"] > li > img
+m.nivod2.com,m.nivod2.tv,m.nivod4.com,m.nivod4.tv,m.nivod5.com,m.nivod5.tv,m.nivod7.com,m.nivod7.tv,m.nivod8.com,m.nivod8.tv,m.nivod9.com,m.nivod9.tv##.v-ad
 m.nownews.com##.ui-footer-fixed
 m.nownews.com##a[href^="http://ad1.nownews.com"]
 m.ntv.ru###topbnr
@@ -49288,10 +49296,10 @@ niutuku.com###downAD1
 niutuku.com##.sideAD
 niutuku.com,sina.cn##.bannerAD
 niutuku.com,toy-people.com##.listAD
+nivod2.com,nivod2.tv,nivod4.com,nivod4.tv,nivod5.com,nivod5.tv,nivod7.com,nivod7.tv,nivod8.com,nivod8.tv,nivod9.com,nivod9.tv##.img-list > .img-item:has(> a[href*=".ad_click"])
+nivod2.com,nivod2.tv,nivod4.com,nivod4.tv,nivod5.com,nivod5.tv,nivod7.com,nivod7.tv,nivod8.com,nivod8.tv,nivod9.com,nivod9.tv##a.focus_title_inner[href*=".ad_click"]
 nivod5.tv,nivod8.tv##.qy20-h-carousel__li:nth-child(-n+2)
 nivod9.tv,nivod8.tv,nivod7.tv##.nav-ads
-nivod9.tv,nivod8.tv,nivod7.tv,nivod5.tv,nivod4.tv##.img-list > .img-item:has(> a[href*=".ad_click"])
-nivod9.tv,nivod8.tv,nivod7.tv,nivod5.tv,nivod4.tv##a.focus_title_inner[href*=".ad_click"]
 nizarstream.com,doods.pro,dooood.com,dood.yt,dood.re,dood.wf,dood.la,dood.pm,dood.so,dood.to,dood.watch,dood.ws,60fps.xyz,nowagoal2.xyz,strtapewithadblock.*,player.bizzstreams2u.xyz,strtapeadblocker.art,strtapeadblocker.*,starlive.xyz,aeblender.com,aileen-novel.online,ytstvmovies.xyz,javhay.net,mrunblock.*,hentaitube.online,ustream.to,freepornxxxhd.com,givemenflstreams.com,givemenbastreams.com,givememmastreams.com,givemeredditstreams.com,shinden.pl,ozporno.com,area51deportiva.com,xxxfree.watch,linksly.co,mhometheater.com##+js(abort-current-script, String.fromCharCode, constructor)
 nizarstream.xyz,teamkong.tk,rulesofcheaters.net,codinghumans.xyz,rachidscience.com,technopratik.com,electricaleasy.com###HTML4
 nj.com#$#.ad--in-article { visibility: hidden; min-height: 0!important; margin: 0!important; padding: 0!important; }
@@ -49374,6 +49382,10 @@ northantstelegraph.co.uk##div[class*="piano"][class*="-banner"]
 northern-scot.co.uk###TaboolaMain
 northern-scot.co.uk##.TaboolaSide
 northern-scot.co.uk##div[class="DMPU"]
+northerndailyleader.com.au###story-comment-container
+northerndailyleader.com.au##div[id^="main-side-"][id$="-container"]
+northerndailyleader.com.au##div[id^="newswell"][id$="-container"]
+northerndailyleader.com.au##div[id^="story"][id$="-container"]
 northumberlandgazette.co.uk##div[class^="sc-"]::before
 nosalty.hu##.rubAd
 nosteamgames.ro##+js(abort-current-script, jQuery, AdBlock)
@@ -49800,6 +49812,8 @@ omni.se##.pre-banner
 omnicalculator.com##.contentPartPromo
 omnicalculator.com##.leftAndCenterPromo
 omnicoreagency.com###text-59
+omnitalk.com##td[bgcolor="#ffffc8"]
+omnitalk.com##tr[bgcolor="ffffc8"]
 omofuns.link,omofuns.top,omofuns.top,omofuns.live,omofuns.buzz,omofun.link,omofun.top,omofun.live,omofun.buzz##.ads_w + div[id][style]
 omofuns.link,omofuns.top,omofuns.top,omofuns.live,omofuns.buzz,omofun.link,omofun.top,omofun.live,omofun.buzz##.module + div[id][style]
 omofuns.link,omofuns.top,omofuns.top,omofuns.live,omofuns.buzz,omofun.link,omofun.top,omofun.live,omofun.buzz##.module-adslist + div[id]
@@ -52544,10 +52558,10 @@ rawinfopages.com##.region-sidebar-second > #block-block-9
 rawinfopages.com##a[href^="http://www.infolinks.com/join-us?aid="] > img
 rawinfopages.com##a[href^="https://macpaw.audw.net/"][rel="sponsored"] > img
 rawkuma.com###sidebar > .widget_text > .custom-html-widget:empty
-rawkuma.com##+js(addEventListener-defuser, mousedown, shown_at)
 rawkuma.com##+js(addEventListener-defuser, readystatechange, document.removeEventListener)
 rawkuma.com#?##sidebar > .widget_text > .textwidget > script:contains(var ad_idzone):upward(2)
 rawkuma.com#?##sidebar > .widget_text > .textwidget > script[id*="clb"]:upward(2)
+rawkuma.com,zoechip.com##+js(addEventListener-defuser, mousedown, shown_at)
 rawstory.com##.mgid_1x8
 rawstory.com##.paypal
 rawstory.com##.rs_ad_block
@@ -53750,8 +53764,6 @@ sgamer.com##.plc > div > a[href*=".vgcool.com"]
 sgcn.com##.bigaimg
 sgcn.com##.oyad2.cl
 sgcn.com,wangjing.cn##.fad
-sgpokemap.com,sydneypogomap.com##+js(remove-attr, style, #map)
-sgpokemap.com,sydneypogomap.com##.please
 sgxnifty.org###aub
 sgxnifty.org###aub_cover
 shaalaa.com##.zxc_wrap
@@ -56893,6 +56905,7 @@ tikmate.app##+js(set-constant, powerAPITag, {})
 tikmate.app##.AT-ads
 tikmate.app##.res-ad
 tikmate.app#$#button#download-hd[onclick="downloadHD(this);"] { display: block !important; }
+tiktok.com##+js(json-prune-fetch-response, itemList.*.ad_info.ad_id, , api/recommend/item_list)
 tim.it#$##modal_offerta { display:none!important; }
 tim.it#$#.modal-backdrop { display:none!important; }
 time.com##.X9rgC5Js
@@ -58466,6 +58479,8 @@ vanityfair.com##div[class^="StickyHeroAdWrapper"]
 vanpeople.com##.advlr
 vanpeople.com##.banneradv-newbox
 vanpeople.com##.main-adv
+vanpokemap.com,sgpokemap.com,sydneypogomap.com##+js(remove-attr, style, #map)
+vanpokemap.com,sgpokemap.com,sydneypogomap.com##.please
 vansky.com##.liAds
 vansky.com##.safari_pop
 vansky.com##.scol-banner
