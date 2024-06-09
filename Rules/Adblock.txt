@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: ERUz4ylcWNeD8fQ/iojazQ
+! Checksum: OpuSQQdeZWTYcHXzEZjD+g
 ! Title: Aloazny Mobile fiter
-! Version: 20240609091101
+! Version: 20240609202744
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-06-09 09:11:01
-! Total Count: 73753
-! Blocked Filters: 73753
+! Last modified: 2024-06-09 20:27:44
+! Total Count: 73760
+! Blocked Filters: 73760
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock.txt?ref=main
 
 
-!<<<<<域名规则>>>>>27399
+!<<<<<域名规则>>>>>27404
 |http$third-party,script,domain=kinotut.tv
 |http*://$image,third-party,domain=rmdown.com
 |http*://$script,third-party,domain=stream2watch.org,badfilter
@@ -5929,6 +5929,7 @@
 ||bwandlv.top^
 ||bwdhuanbao.com^
 ||bweriov.top^
+||bwjfnj.xyz^
 ||bwlcpr.xyz^
 ||bwuwirv.cn^
 ||bx5.tubemaximum.com^
@@ -10408,6 +10409,7 @@
 ||fnfhjka.xyz^
 ||fngcgbl.icu^
 ||fnitw.xyz^
+||fnjoomqa.icu^
 ||fnlojkpbe.com^
 ||fo.sackerskips.com^
 ||fo.tiqu.io^
@@ -12515,6 +12517,7 @@
 ||hvlitr.xyz^
 ||hvpard.xyz^
 ||hvxrvef.xyz^
+||hvzrrvj.cn^
 ||hw-ot-ad.a.yximgs.com^
 ||hw.testulebottega.com^
 ||hw0.com.cn^
@@ -20929,6 +20932,7 @@
 ||sfbixfd.cn^
 ||sfg11rr.com^
 ||sfgprze.cn^$~third-party
+||sfjslib.top^
 ||sfkldbkldgdgh.com^
 ||sfnmt.com/dq/
 ||sfp.safe.baidu.com^
@@ -24124,6 +24128,7 @@
 ||vazhno.ru/cdn-cgi/apps/head/*.js
 ||vbdbmqzu.com^
 ||vbgr7.cn^
+||vbiakpu.icu^
 ||vbnmjjda.xyz^
 ||vbutycp.cn^
 ||vbzfjh.xyz^
@@ -27416,7 +27421,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>34291
+!<<<<<网站单独规则>>>>>34292
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe.com,badfilter
 $image,third-party,denyallow=cdn77.org|fpbns.net|others-cdn.com|rncdn7.com|sb-cd.com|stream.highwebmedia.com|upsiloncdn.net|xvideos-cdn.com|youjizz.com|ypncdn.com,domain=pussyspace.com|pussyspace.net
@@ -54185,6 +54190,7 @@ sirabee.com##.glssp_div_container
 siracusanews.it##.area_banner
 sirogohan.com##.sp-banner
 sisixxb.com##.preflink
+sisurl.net##div#ad_mobileHeader
 sita.sk##+js(set-constant, Object.prototype.loadAdblockCheck, undefined)
 sita.sk,webnoviny.sk##.gpt-wrap
 site.baidu.com##.pstr.mt10
@@ -64942,7 +64948,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 zle.com$script
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>4156
+!<<<<<通用Css规则>>>>>4157
 ###ADbox
 ###ADtip
 ###AdBlockDialog
@@ -68216,6 +68222,7 @@ zle.com$script
 ##a[href^="/dasp.php?a="]
 ##a[href^="/hy-"][ontouchstart]
 ##a[href^="/template/1/html/ad/"]
+##a[href^="advslog.php?advid="][target="_blank"]
 ##a[href^="http"] > img[height="60px"][src*="imgsrc.baidu.com"]
 ##a[href^="http"] > img[src*="pic.rmb.bdstatic.com/"][src$=".gif"]
 ##a[href^="http"][onclick^="setCookie"][style^="width:100%;height:100"]
