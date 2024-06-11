@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: Z4lihgVXXjsZPZzGSh2bmQ
+! Checksum: 4TKu7jYWF/Mh+XaKFZiWiA
 ! Title: Aloazny Chinese fiter
-! Version: 20240610202823
+! Version: 20240611090437
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-06-10 20:28:23
-! Total Count: 38576
-! Blocked Filters: 38576
+! Last modified: 2024-06-11 09:04:37
+! Total Count: 38583
+! Blocked Filters: 38583
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>17442
+!<<<<<域名规则>>>>>17450
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|cyxse.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.360118.com|m.37zw.net|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zwdu.com
 |http://*.cn/ad/
@@ -3286,6 +3286,7 @@
 ||bing005.shop^
 ||bing007.shop^
 ||binga01.shop^
+||binga03.shop^
 ||binqriksc.com^
 ||bio-equip.com/dimg/
 ||bio-equip.com/dimgs/
@@ -7513,6 +7514,7 @@
 ||hshmbx.xyz^
 ||hsi2i.fun^
 ||hslbahu.top^
+||hsoubnp.icu^
 ||hspdiom.cn^
 ||hsrgnac.cn^
 ||hssapp.shop^
@@ -8326,6 +8328,7 @@
 ||jcbjcb9.cn^
 ||jcde.site^
 ||jcdf99.com/hzz/scripts/new
+||jcfnbhqo.icu^
 ||jched3.com^
 ||jcheys.com^
 ||jciske.top^
@@ -8993,6 +8996,7 @@
 ||kjdbcjkmc.com^
 ||kjeqga.xyz^
 ||kjggk1.xyz^
+||kjipko.xyz^
 ||kjjjusb.xyz^
 ||kjos.vo.llnwd.net^
 ||kjrspnbf.xyz^
@@ -11988,6 +11992,7 @@
 ||pzphmkf.xyz^
 ||pzpivx.xyz^
 ||pzqqstb.icu^
+||pztezl.xyz^
 ||pztjlr.xyz^
 ||pzwjonv.icu^
 ||pzykrcq.cn^
@@ -12553,6 +12558,7 @@
 ||restructureinvention.com^$third-party
 ||retinaesprent.com^
 ||retintsmillion.com^
+||retrefsf.cn^
 ||retrieval-bd.duote.com^
 ||retrievemint.com^$third-party
 ||rett.top^
@@ -12712,6 +12718,7 @@
 ||rpyor0k.xyz^
 ||rqauutf.icu^
 ||rqmob.com^
+||rqnefp.xyz^
 ||rqrvfp.xyz^
 ||rqxtbr.xyz^
 ||rqytqq.com^
@@ -15617,6 +15624,7 @@
 ||wewbnso.cn^
 ||wewlkq.com^
 ||wfiles.hcomic.net/indexSwiper/*_*x*_*_TC_gif.gif
+||wfjslie.top^
 ||wfndponfd.com^
 ||wfpjeul.cn^
 ||wfqgfaa.cn^
@@ -17459,7 +17467,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>13161
+!<<<<<网站单独规则>>>>>13160
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.net
@@ -21569,7 +21577,6 @@ elespanol.com###homeMobileAdvertising2
 elespanol.com###sticky_container
 elhow.ru###b-info-wrapper
 elle.com.hk##.tpc-container
-elle.com.hk##article > div.block-default:has(> div.content-wrapper p > span:contains(Cosmart))
 elog-ch.*##.sp_banner
 elpasotimes.com##div[class^="gnt_xmst"]
 emome.net##.source_advertising
@@ -23517,6 +23524,7 @@ ikjzd.com##.wv-head-img > .wv-head-item-img:last-child
 ikjzd.com##.wv-right-content > .imgTop-right
 ikjzd.com##a[href*="/redirect-ad-url?"]
 ilengmen.com,newpopo.com,soosadfun.com,mylewen.com,haitangdushu.com,sadhub.org,mobidushu.com,fuwen123.com,lengmen.org,newhaitang.com,tinghaodebook.com,haitangdushu.com,myshenye.com,myfeiyanqing.com,tinghaodebook.com,zongcai666.com,iyungong.com,lookmht.com,peakread.com,lengmenread.com,shenyedushu.com##[style*="0vw"][style*="0vh"][style*="0px"],[style*="z-index"][style*="background:"],[id][style*="width"][style*="100%"],div[class][style^="line-height:"][style$="no-repeat; position: relative;"]
+ilfattoquotidiano.it###adk-interstitial-list
 ilgiorno.it##div[style="min-height:100px"]
 ilgiorno.it##div[style^="min-height: 100px; top:"]
 illust-pocket.com##.adAuto
@@ -23664,8 +23672,6 @@ ipcfun.com###sidebar > ul > div[style]
 ipcfun.com###sidebar > ul > li[style]
 ipcfun.com##div[style="height:280px;width:336px;margin:-10px auto 20px auto"]
 iphone-mania.jp###jack_overlay
-iphone-mania.jp##.related:contains(PR)
-iphone-mania.jp##.related:contains(PR) + div.top_new_menu_ul
 iphoneitalia.com##.ad_300x250_mob_top
 iphonesoft.fr,iphonetweak.fr###msgUser
 iphonetweak.fr##.pubMobile > div.ArticlePreview
@@ -25863,6 +25869,8 @@ mmff30.com##.titletablediv .titletablecell > a[target="_blank"]:not([href$="html
 mmff30.com##a[href$="/ref.html"]
 mmff30.com##span[id$="_gg"]
 mmff30.com,~ghostoact.com##.top_box
+mnews.tw##.ad-container-pc
+mnews.tw##.ad-container-pc-only
 mnogoto4ka.ru###sb-site > div[class][style*="z-index"][style*="999999"]
 mnw.cn##.mnw_685
 mnw.cn##.mnw_960
@@ -30450,7 +30458,6 @@ zeekmagazine.com##.td-all-devices
 zeenews.india.com##.outbrain-bg
 zeiri4.com##div[class^="adContainer"]
 zen.yandex.by,zen.yandex.com,zen.yandex.kz,zen.yandex.ru##.article-render-mobile__block_embed
-zentrum-der-gesundheit.de##.container > div.fixed:has(> button:contains(Interessante Produkte für Sie))
 zerohedge.com###leaderboard-mobile
 zerohedge.com##div[class^="ContentPack_cp__"]:has(> div[id^="rc-widget-"])
 zerohedge.com##iframe[src^="//www.dianomi.com"]
