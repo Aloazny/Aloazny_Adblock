@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: S4x9pPmN7Q0wBnO8G5SyfA
+! Checksum: I0CH4BZExAETmRnN1w/qcg
 ! Title: Aloazny Chinese fiter
-! Version: 20240611202829
+! Version: 20240612090444
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-06-11 20:28:29
-! Total Count: 38588
-! Blocked Filters: 38588
+! Last modified: 2024-06-12 09:04:44
+! Total Count: 38601
+! Blocked Filters: 38601
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>17453
+!<<<<<域名规则>>>>>17462
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|cyxse.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.360118.com|m.37zw.net|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zwdu.com
 |http://*.cn/ad/
@@ -2569,6 +2569,7 @@
 ||aqc.gucheng.com^
 ||aqdy.net/js/banner.js
 ||aqdy.net/js/tj.js
+||aqeivzm.icu^
 ||aqhfqaaq.xyz^
 ||aqhnmof.cn^
 ||aqi.wd.amberweather.com^
@@ -4189,6 +4190,7 @@
 ||ckg.vipyl.com^
 ||cklithuw.xyz^
 ||ckmbig.xyz^
+||ckqebz.cn^
 ||ckxxbao.com/templets/default/js/wx.js
 ||cl-ad.x-flow.app^
 ||clamcelery.com^$third-party
@@ -5843,6 +5845,7 @@
 ||evenyw.xyz^
 ||everestop.io^
 ||everyonepiano.cn/Public/*0x
+||evgaow.xyz^
 ||evidhjksdtgyxrh.xyz^
 ||evscnfj.cn^
 ||evtubescms.phncdn.com^
@@ -6538,6 +6541,7 @@
 ||gfan.com/press/
 ||gfbdb1.com^
 ||gfdfegg.cn^
+||gfdfgfgr.cn^
 ||gfdgfhh.cn^
 ||gfjn5.xyz^
 ||gfpvvwf.xyz^
@@ -6614,6 +6618,7 @@
 ||gixhlii.xyz^
 ||gizlnr.com^
 ||gjh9v.tianshilv.cn^
+||gjhjjhgc.cn^
 ||gjipd.xyz^
 ||gjkame6.com^
 ||gjmqqq.com^
@@ -12068,6 +12073,7 @@
 ||qfblqq.com^
 ||qfcdgy.cn^
 ||qfdtqq.com^
+||qfjsliy.top^
 ||qfnoyix.cn^
 ||qgfzb.com^$~third-party
 ||qgidskiy.top^
@@ -12434,6 +12440,7 @@
 ||rangecake.com^$third-party
 ||rangeplayground.com^$third-party
 ||raolmsc.com^
+||rapfdf.xyz^
 ||rapidkittens.com^$third-party
 ||rapsmnz.cyou^
 ||rarbt.cc/js/index960_
@@ -14230,6 +14237,7 @@
 ||tgymhwt.cn^
 ||tgyxpfjws.com^
 ||thallus.net^
+||thavrils.com^
 ||thboxp.xyz^
 ||thcaes.top^
 ||thcdy.co/baidu2/foot.js
@@ -16407,6 +16415,7 @@
 ||xuexiwa.com^$script,third-party
 ||xukang09.cn^
 ||xukou.net^
+||xuldtcip.icu^
 ||xulizui6.com^
 ||xunsfr.xyz^
 ||xunsu.cc/js/indexbottom.js
@@ -17470,7 +17479,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>13161
+!<<<<<网站单独规则>>>>>13165
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.net
@@ -19066,6 +19075,7 @@ amarujala.com##.ad-mb
 amateur8.com##.rmp-container
 amateur8.com,freeporn8.com##.mobile_nav.pignr
 amateurphotographer.com##.post-content-ad
+amazon.*###px-profile_feature_div
 amazon.*###recsWidget
 amazon.*##.csm-widget-type-sponsored-products-mobile-list-card
 amazon.*##div[cel_widget_id="mobile-dp-sims_SPThematicBrand_Same"]
@@ -22049,6 +22059,7 @@ focus.ua##.u-m-h-250
 followme.cn##.fm-banner-social
 followme.cn##.money-box
 fontanka.ru###onesignal-promt-target div[class]:has(> div[class] >#adv_mob_hb-top)
+fontanka.ru##.gridFullMobile > div:has(div.flickity-enabled a[href*="/?erid="])
 foodistnote.recipe-blog.jp##.ad-area-sp
 foodmate.net##.ad5
 foodmate.net##.m[style="height:40px;"]
@@ -26331,6 +26342,7 @@ news.denfaminicogamer.jp##.inst_overlap_cover
 news.dwango.jp##.overlay-footer_ad
 news.ebc.net.tw###marquee-box
 news.ebc.net.tw##.fncnews-content > div.raw-style > div > p > a[href]
+news.ebc.net.tw##.inline_text.has_marker
 news.ebc.net.tw##a[href^="http://www.ebcbuzz.com/url/"]
 news.gamebase.com.tw##.MobileNewsArticleMiddleDownAds
 news.gamebase.com.tw##.PCAD
@@ -26375,6 +26387,7 @@ news.sohu.com##.god-first
 news.tbs.co.jp##.cp-spAd
 news.tvbs.com.tw##.article_ad_top
 news.tvbs.com.tw##.flexd_bottom_ad
+news.tvbs.com.tw##.sidebar_div:has(> div.nolazydiv)
 news.xfastest.com##.vw-sticky-sidebar-wrapper #custom_html-5
 news.yahoo.co.jp##a[data-cl-params$="cl_link:bnr_b;"]
 news.yahoo.co.jp##img[class^="ArticleBanner__Img-"]

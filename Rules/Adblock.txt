@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: oY9SoJumvpc1m7hHXmRpNA
+! Checksum: sJgdvUxQU6lg7Bbv06U/5g
 ! Title: Aloazny Mobile fiter
-! Version: 20240611202952
+! Version: 20240612090613
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-06-11 20:29:52
-! Total Count: 73911
-! Blocked Filters: 73911
+! Last modified: 2024-06-12 09:06:13
+! Total Count: 73930
+! Blocked Filters: 73930
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock.txt?ref=main
 
 
-!<<<<<域名规则>>>>>27538
+!<<<<<域名规则>>>>>27547
 |http$third-party,script,domain=kinotut.tv
 |http*://$image,third-party,domain=rmdown.com
 |http*://$script,third-party,domain=stream2watch.org,badfilter
@@ -4306,6 +4306,7 @@
 ||aqc.gucheng.com^
 ||aqdy.net/js/banner.js
 ||aqdy.net/js/tj.js
+||aqeivzm.icu^
 ||aqhfqaaq.xyz^
 ||aqhnmof.cn^
 ||aqi.wd.amberweather.com^
@@ -7193,6 +7194,7 @@
 ||ckl.fbmedia-ckl.com^$all
 ||cklithuw.xyz^
 ||ckmbig.xyz^
+||ckqebz.cn^
 ||ckxxbao.com/templets/default/js/wx.js
 ||cl-ad.x-flow.app^
 ||cl.durezzacrowns.com^
@@ -9826,6 +9828,7 @@
 ||everyonepiano.cn/Public/*0x
 ||everythingrf.com/wsFEGlobal.asmx/GetStaticImages
 ||everythingrf.com/wsFEGlobal.asmx/GetWallpaper
+||evgaow.xyz^
 ||evidhjksdtgyxrh.xyz^
 ||evscnfj.cn^
 ||evtubescms.phncdn.com^
@@ -11092,6 +11095,7 @@
 ||gfan.com/press/
 ||gfbdb1.com^
 ||gfdfegg.cn^
+||gfdfgfgr.cn^
 ||gfdgfhh.cn^
 ||gfjn5.xyz^
 ||gfpvvwf.xyz^
@@ -11194,6 +11198,7 @@
 ||gizmodo.in/gzdics/
 ||gjc.gjirafa.com^
 ||gjh9v.tianshilv.cn^
+||gjhjjhgc.cn^
 ||gjipd.xyz^
 ||gjkame6.com^
 ||gjmqqq.com^
@@ -19287,6 +19292,7 @@
 ||qfblqq.com^
 ||qfcdgy.cn^
 ||qfdtqq.com^
+||qfjsliy.top^
 ||qfnoyix.cn^
 ||qfyavpwmraqibv.com^
 ||qgfzb.com^$~third-party
@@ -19727,6 +19733,7 @@
 ||rangeplayground.com^$third-party
 ||raolmsc.com^
 ||rapeboard.net/dep_bdsm.png
+||rapfdf.xyz^
 ||rapidgator.net/images/pics/36_300%D1%85250_$third-party
 ||rapidgatorporn.net/templates/rapidgatorporn/images/Flashbit.gif
 ||rapidkittens.com^$third-party
@@ -22853,6 +22860,7 @@
 ||th.micheryfrugal.com^
 ||thallus.net^
 ||thatsthem.com/img/spokeo-identity-protect-*.jpg
+||thavrils.com^
 ||thboxp.xyz^
 ||thcaes.top^
 ||thcdy.co/baidu2/foot.js
@@ -26258,6 +26266,7 @@
 ||xuexiwa.com^$script,third-party
 ||xukang09.cn^
 ||xukou.net^
+||xuldtcip.icu^
 ||xulizui6.com^
 ||xunsfr.xyz^
 ||xunsu.cc/js/indexbottom.js
@@ -27555,7 +27564,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>34302
+!<<<<<网站单独规则>>>>>34312
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe.com,badfilter
 $image,third-party,denyallow=cdn77.org|fpbns.net|others-cdn.com|rncdn7.com|sb-cd.com|stream.highwebmedia.com|upsiloncdn.net|xvideos-cdn.com|youjizz.com|ypncdn.com,domain=pussyspace.com|pussyspace.net
@@ -29122,7 +29131,7 @@ $xmlhttprequest,third-party,denyallow=rsc.cdn77.org|linkvertise.com|fastly.net|s
 58.com##a[href*="to8to.com"]
 58.com##div[id$="_gdbg"]
 58.com##tr[sortid]:has(> .t > .ico.accurate)
-58.com,discuss.com.hk,fap18.net,gamereactor.eu,musescore.com,pcpop.com,phpernote.com,tameteo.com,zh141.com##div[id^="ad_"]
+58.com,discuss.com.hk,fap18.net,gamereactor.eu,musescore.com,pcpop.com,phpernote.com,playzone.cz,tameteo.com,zh141.com##div[id^="ad_"]
 58avgo.com##.BillingLeft
 58avgo.com##.BillingRight
 58b.tv##.closead
@@ -30239,6 +30248,7 @@ amazfitwatchfaces.com#?#.col-md-12 > .panel:has(> .panel-body > .advp)
 amazingribs.com###main-body-wedge
 amazingribs.com##div[class*="ad-space-"]
 amazon.*###dp-container > #px-profile_feature_div[data-csa-c-type="widget"]
+amazon.*###px-profile_feature_div
 amazon.*###recsWidget
 amazon.*##.csm-widget-type-sponsored-products-mobile-list-card
 amazon.*##.s-search-results > div[data-asin] div[data-component-props*="Sponsored"]
@@ -30250,6 +30260,7 @@ amazon.*##div[class*="btf_ad-placements-"]
 amazon.*##div[data-cel-widget^="MAIN-SHOPPING_ADVISER-"]
 amazon.*##div[data-csa-c-painter="ad-topper-desktop-card"]
 amazon.*##div[data-csm-widget-type="sponsored-products-mobile-grid-card"]
+amazon.*##div[id^="dp-ads-"]
 amazon.*##section[class*="csm-placement-id"]
 amazon.*##span[class*="top-slot_hsa-id"]
 amazon.*#?##similarities_feature_div span[id^="ad-feedback-text"]:upward(#similarities_feature_div)
@@ -30996,6 +31007,7 @@ arcadepunks.com##a[href="https://www.arcadepunks.com/go/arcade_systems_skyscrape
 arcadepunks.com##a[href^="https://www.arcadepunks.com/go/grs-foot-"]
 arcadewank.com##a[href^="http://hits.epochstats.com/hits.php"]
 arcai.com##+js(set-constant, window.canRunAds, true)
+arcasiangrocer.store,hdfungamezz.xyz,poscitechs.xyz,rapelust.com##+js(abort-current-script, Object.create, break;case)
 arcfly.net##.elementor-widget-foxiz-ad-image
 arcfly.net,freewebcart.com,igeeksblog.com##+js(no-setTimeout-if, placebo.height)
 arch-ware.org##.post center > a[rel="nofollow"]
@@ -34136,7 +34148,7 @@ clickondetroit.com##.fixedAd
 clicksbee.com,cutlinks.pro,kissmanga.*,leechpremium.link,listendata.com,mangastream.mobi,megaurl.in,moviesroot.club,pianyuan.org,vidzstore.com###myModal
 clickscoin.com##+js(abort-current-script, $, 'body')
 clickscoin.com,adsy.pw##.box-main > center
-client.falixnodes.net,cnpics.org,cnxx.me,edealinfo.com,ovabee.com,paidinsurance.in##+js(abort-on-property-write, detectAdBlock)
+client.falixnodes.net,cnpics.org,cnxx.me,edealinfo.com,ovabee.com,paidinsurance.in,yourimageshare.com##+js(abort-on-property-write, detectAdBlock)
 client.googiehost.com##center > p > strong
 clik.pw##iframe[id^="frame"]
 clikern.com,oceantech.xyz,adnangamer.com##.banner ~ .blog-item
@@ -36491,6 +36503,8 @@ dvdgayonline.com,gaypornhdfree,dood.re##+js(set-constant, bab, noopFunc)
 dvdgayporn.com##.sidebar a[href^="http://join."][href*=".com/track/"] > img
 dvdizzy.com#?#.primary-custom-header > div.header-content:has(> ins.adsbygoogle)
 dvdsreleasedates.com###field > div[style*="width:728px;height:90px;"]
+dvdsreleasedates.com##div[style*="width:728px;height:90px;"]
+dvdsreleasedates.com,newpct1.com##div[style*="width:300px;height:250px;"]
 dvtk.eu##a[href^="/advertise/href/"]
 dwell.com#?#figure + div[class]:has(> div[class] > div[id^="div-gpt-ad-"])
 dxqck.com##.myadswiper
@@ -38437,6 +38451,7 @@ fonewalls.com##div[class^="midspot-"]
 fonewalls.com##div[style="min-height:90px;"]
 fonewalls.com##div[style^="color:#869aab;"][style*="font-size:10px;"]
 fontanka.ru###onesignal-promt-target div[class]:has(> div[class] >#adv_mob_hb-top)
+fontanka.ru##.gridFullMobile > div:has(div.flickity-enabled a[href*="/?erid="])
 fontesk.com##.postlist > .postlist-col:has(> aside > .textwidget > .feed-ads)
 fontke.com##.index-adver
 fontspace.com#?#.content-rounded-both .font-container:not([style*="background-color"]) > .text-center > .proper-ad-unit:upward(2)
@@ -39602,6 +39617,7 @@ gaypornwave.com##.thr-ot > .refill[style*="width:100%;"]
 gaypornwave.com,proporn.com,winporn.com##.it-sponsor-site
 gaystream.pw##+js(set-cookie, popcashpu, 1)
 gaystream.pw##.a-block
+gaystream.pw##.entry-bottom-ads
 gaystream.pw,gayxx.net,hentaifox.com##+js(abort-on-property-read, adsbyjuicy)
 gaystream.pw,onedio.com###sponsored
 gaytail.com##.happy-before-list
@@ -40398,6 +40414,7 @@ gousfbulls.com##.row > ads-component
 gousfbulls.com##.stickybar
 govsfid.com##+js(set-constant, AdBDetected, noopFunc)
 gowork.pl##.sidebar-banners
+goworkship.com##.sideAds-top
 gozofinder.com##div[data-testid="advert"]
 gozofinder.com#$#.advertisement-branding { margin-top: 0px !important; }
 gozofinder.com#?##root > div[class]:has(> .advert-iframe)
@@ -49090,7 +49107,6 @@ newmobilelife.com###ATS_sticky
 newmofu.doorblog.jp##.content > #lite_link:first-of-type
 newnavitel.blogspot.com##.post-body > div[dir] > div[dir] > h1#result
 newpct1.com##.pub728x90
-newpct1.com##div[style*="width:300px;height:250px;"]
 newpost.gr##div[id^="billboard"]
 news-724.com###divOfx
 news-channel.doorblog.jp##.section-box:last-child > div.plugin-free_area
@@ -49136,6 +49152,7 @@ news.denfaminicogamer.jp##.inst_overlap_cover
 news.dwango.jp##.overlay-footer_ad
 news.ebc.net.tw###marquee-box
 news.ebc.net.tw##.fncnews-content > div.raw-style > div > p > a[href]
+news.ebc.net.tw##.inline_text.has_marker
 news.ebc.net.tw##a[href^="http://www.ebcbuzz.com/url/"]
 news.fidelityhouse.eu##.hb_ad
 news.gamebase.com.tw##.MobileNewsArticleMiddleDownAds
@@ -49192,6 +49209,7 @@ news.sohu.com##.god-first
 news.tbs.co.jp##.cp-spAd
 news.tvbs.com.tw##.article_ad_top
 news.tvbs.com.tw##.flexd_bottom_ad
+news.tvbs.com.tw##.sidebar_div:has(> div.nolazydiv)
 news.xfastest.com##.vw-sticky-sidebar-wrapper #custom_html-5
 news.xiaomi-miui.gr##aside div.widget:has(> div[class^="google_responsive_"])
 news.xiaomi-miui.gr##div[class^="google_responsive_"]
@@ -51195,6 +51213,8 @@ playvids.com##+js(set-constant, pop_clicked, 1)
 playvids.com##.block-advert
 playzone.cz###ad-top-first
 playzone.cz###ad-top-second
+playzone.cz##.ad-sas-wrap
+playzone.cz##div[id^="block-ad-sas-"]
 playzuan.com###ShouYe_ShangBu
 plaza.rakuten.co.jp##.pr01
 pless.pl##.wybory-reklama-modul
@@ -52686,7 +52706,6 @@ ranobes.net##div[id^="pf-"]
 rap-up.com#$#.header.no-header-top { top: 0 !important; }
 rapeboard.net##div[style="padding:0px 25px 0px 25px"] > center > a > img
 rapeboard.net##div[style="padding:0px 25px 0px 25px"] > center > img
-rapelust.com##+js(abort-current-script, Object.create, break;case)
 rapidgatorporn.net##.full-block > center > [href][target="_blank"] > img
 rapidleaks.com,dkoding.in##.sidebar_inner > #custom_html-2
 rapidtyping.com##.center-col > div.sec.s-body
@@ -56682,6 +56701,7 @@ thehindu.com##.flooting-ad
 thehindu.com,goodreturns.in##.vuukle-ads
 thehindu.com,radiotimes.com,theargus.co.uk##body .dfp-ad
 thehindubusinessline.com##.footer-mobile-ad
+thehindubusinessline.com,tv3.lv,bangordailynews.com,hnonline.sk,vijesti.me##+js(abort-on-property-read, setNptTechAdblockerCookie)
 thehouseofportable.com##+js(no-setTimeout-if, openInNewTab)
 thehouseofportable.com##a[href^="https://billing.purevpn.com/aff.php?"]
 thehouseofportable.com#$##htp { display: none !important; }
@@ -57950,7 +57970,6 @@ tv24.co.uk##li[id^="infeed"]
 tv3.lt##img[height="200px"][width="980px"]
 tv3.lt#?##sidebar > div.custom-div:contains(REKLAMA)
 tv3.lv##+js(set-cookie, __adblocker, false)
-tv3.lv,bangordailynews.com,hnonline.sk,vijesti.me##+js(abort-on-property-read, setNptTechAdblockerCookie)
 tv3box.com,5iwanyouxi.com,tv1box.com,166xs.com,91bqg.net,biqubao.com,kygnew.com,zhongjidouluo.cn,qxs.la,emddm.net,zwdu.com,dbbqb.com,soducc.com,wufudy.com,kukudyw.com##[src*=".gif"]
 tv4play.se##+js(json-prune, ad.*)
 tv521.net,dadatutv.net##div[class="visible-xs"]
