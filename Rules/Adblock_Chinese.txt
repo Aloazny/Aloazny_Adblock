@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: LPhez+9g0Nrza7JcR+kQlQ
+! Checksum: pbcwTBLlcstkGlyDSfZkSQ
 ! Title: Aloazny Chinese fiter
-! Version: 20240612202900
+! Version: 20240613090414
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-06-12 20:29:00
-! Total Count: 38604
-! Blocked Filters: 38604
+! Last modified: 2024-06-13 09:04:14
+! Total Count: 38629
+! Blocked Filters: 38629
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>17464
+!<<<<<域名规则>>>>>17486
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|cyxse.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.360118.com|m.37zw.net|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zwdu.com
 |http://*.cn/ad/
@@ -204,6 +204,7 @@
 ||1017.cn^
 ||1017facai8.xyz^
 ||1024down.com/images/*.gif
+||1028images.com^
 ||102tv.cn/js/main.js
 ||104.199.8.250^*/webservices/getDialogAdDetails.php
 ||109218er.xyz^
@@ -849,6 +850,7 @@
 ||52z.com/images/52zgg/
 ||52zpi.com/gg/
 ||52zy.com/other/js/
+||537images1.com^
 ||5399.com^$third-party
 ||53shop.com/ime/*.js
 ||53shop.com/img/*.js
@@ -995,6 +997,7 @@
 ||66wz.com/adv2/
 ||66wz.com/data/attachment/portal/
 ||66wz.com/eap/
+||67.21.92.163^
 ||670t5x.cn^
 ||6789.net^$third-party
 ||68710266.com^
@@ -1039,6 +1042,7 @@
 ||70r8fo5.com^
 ||70url.com/aiaike/bood.js$domain=yingwangtv.com
 ||7160.com/js/tiaozhuanquanju.js
+||7299tu75.cc^
 ||73652253191.com^$third-party
 ||738atf.xyz^
 ||75.125.41.29:8080/
@@ -1137,6 +1141,7 @@
 ||82zcb.icu^
 ||83.222.115.150/?type=
 ||83133.com/api/
+||835images1.com^
 ||84zm8.xyz^
 ||85566.net/js/loadjs/jquery
 ||8585go.com/recommend
@@ -3849,6 +3854,7 @@
 ||ccav5.com/static/js/floatImgAd.js
 ||ccb.com.cn/V5/images5/left0.gif
 ||ccb.com.cn/V5/images5/right0.gif
+||ccccc67kkkkk.com^
 ||ccdm*/Scripts/ccMedia.js
 ||ccement.com/index/index/fetchAd
 ||ccement.com/js/ccement_new/open.js
@@ -4681,6 +4687,7 @@
 ||d1net.com/index.php?m=poster&
 ||d1pmhihatyvp1k.cloudfront.net^
 ||d1q4x2p7t0gq14.cloudfront.net^
+||d1zoi2q7y0e4d.cloudfront.net^
 ||d20903hof2l33q.cloudfront.net^
 ||d227cncaprzd7y.cloudfront.net^
 ||d239g0z67jcted.cloudfront.net^
@@ -6897,6 +6904,7 @@
 ||gtoyouin.biz^
 ||gtpso.com/Home/TopSdk/getFavCoupItems
 ||gtpxvpi.cn^
+||gtrhnhg.cn^
 ||gts-ads.twistbox.com^
 ||gtxkze.cn^
 ||guang.sdsgwy.com^
@@ -9433,6 +9441,7 @@
 ||lfffzv.xyz^
 ||lfhdryz.xyz^
 ||lfhnzbj.xyz^
+||lfjslil.top^
 ||lfjtiuy.cn^
 ||lflmdm.com^
 ||lfrfzr.xyz^
@@ -10258,6 +10267,7 @@
 ||mifengtd.cn/ad-
 ||mifyeldx.top^
 ||mightyspiders.com^$third-party
+||migo011.top^
 ||miguyu.com/AD/
 ||miiepofl.xyz^
 ||mikanani.me/images/Masha/
@@ -10667,6 +10677,7 @@
 ||mypianku.net/ajax/MyJs/
 ||myqcloud.com/ad/
 ||myqcloud.com/wp-content/uploads/huoxingyun.
+||myreadcloud.com^
 ||mysteelcdn.com/advert/
 ||mysteelcdn.com/common/*/js/img_ad.
 ||mysteelcdn.com/common/mysteel/home/v2/js/index_image.
@@ -12089,6 +12100,7 @@
 ||qhdlz.net/ssyyss/m.js
 ||qhdlz.net/uploads/glxs/980x120.jpg
 ||qhemphox.com^
+||qheose.xyz^
 ||qheoy.cn^
 ||qhicumg.cn^
 ||qhimg.com/ssl/20212c7594890e1c.js
@@ -14372,6 +14384,7 @@
 ||tjjd83.xyz^
 ||tjnwfjy.cn^
 ||tjqwb.cn^
+||tjuspyk.icu^
 ||tjwzyjx.icu^
 ||tk.504pk.com^
 ||tk0x1.com^
@@ -14640,6 +14653,7 @@
 ||tunovl.xyz^
 ||tuoizbtl.xyz^
 ||tuotianxia.top^
+||tupian6666.com^
 ||tupian888.*.bcebos.com^
 ||tuplzt.xyz^
 ||tupwiwm.com^
@@ -15063,6 +15077,7 @@
 ||uu1.3gu.com^
 ||uu11881.com^
 ||uu22002.com^
+||uu22112.com^
 ||uu22332.com^
 ||uu22662.com^
 ||uu3192uu.com^
@@ -15080,6 +15095,7 @@
 ||uunrkj.com^$~third-party
 ||uuoizbtl.xyz^
 ||uuoozz.com/L7QQ.js
+||uuuutp.com^
 ||uuuzuu.xyz^
 ||uuvzmba.cn^
 ||uuxfznnf.xyz^
@@ -15453,6 +15469,7 @@
 ||vxhtxt.xyz^
 ||vxinzheng.xyz^
 ||vxotu.com/i/*.gif
+||vxpdfb.xyz^
 ||vxvtzx.xyz^
 ||vydbvp.xyz^
 ||vydqknuy.xyz^
@@ -16324,6 +16341,7 @@
 ||xn--m7r781dz66a.cn^
 ||xn--qrq171dxpq.com^
 ||xn--swt207gl1hzc.net^
+||xn--w9q675dm1p7em.net^
 ||xn--wgvp78a61swpe6zdozj.cn^
 ||xn--wxtr44c.video^
 ||xn--wxtr9fwyxk9c.xn--fiqs8s^
@@ -16456,6 +16474,7 @@
 ||xwsqtngwa.xyz^
 ||xwvnhe.cn^
 ||xww360.com^
+||xx3691b.com^
 ||xxba.cc^
 ||xxczdfb.cn^
 ||xxdm.in/js/union/
@@ -16481,6 +16500,7 @@
 ||xxtalp.xyz^
 ||xxxviijmp.com^
 ||xxxvjmp.com^
+||xxxx68xxxx.com^
 ||xyadtlyy.com^
 ||xybnfn.xyz^
 ||xycxhgrp.xyz^
@@ -17309,6 +17329,7 @@
 ||zkappsart.com^$third-party,xmlhttprequest
 ||zkbsvx.xyz^
 ||zkfojr.xyz^
+||zkrdzn.xyz^
 ||zkzpgz.icu^
 ||zlbcxr.xyz^
 ||zlclgzs.cn^
@@ -17326,6 +17347,7 @@
 ||zlyk.com/Runtime/Js/m_footer_top.js
 ||zlyk.com/Runtime/Js/m_nav_bottom.js
 ||zlyk.com^*/ysapp.
+||zmbmoxij.icu^
 ||zmdjbl.xyz^
 ||zmfcnlvu.xyz^
 ||zmhqhuq.cn^
@@ -17481,7 +17503,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>13166
+!<<<<<网站单独规则>>>>>13167
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.net
@@ -29158,6 +29180,7 @@ universfreebox.com###pave-ad-mobile-in-article
 universfreebox.com###taboola-mobile-below-article-thumbnails
 unpkg.com/aladug/*.js
 unwire.hk###post-sidebar-ad
+unwire.hk##.post-main-ad
 uotan.cn###fuck-ads
 up.taoseye.com##a[target="_blank"],[ontouchstart]
 up.ymgt.xyz##.play-wrap > #background
@@ -30650,7 +30673,7 @@ zzkdhb.com##p[style^="width: 100%; margin: 0px;"]
 zzzyk.com###Tinfo
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>2574
+!<<<<<通配符规则>>>>>2576
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.net
@@ -31293,6 +31316,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .top/ad/
 .top/ads/
 .top/appinstall.js$third-party,script
+.top/g3/myString3AsyncG?$third-party
 .top/get?$third-party
 .top/gluinfo.php?s=$third-party
 .top/gyxx_*_aubi.js$third-party
@@ -32699,6 +32723,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 /skin/middle.$domain=iimanhua.cc|iimh.net
 /skin/tb12/*$domain=firefox.com.cn|firefoxchina.cn
 /skin/view/ft$domain=iimanhua.cc|iimh.net
+/smflow/get.*=gAdCallback_
 /sobt_adv.js
 /socket?platform=*&href=$third-party,websocket
 /source/plugin/drk_ledadv/*
@@ -35542,7 +35567,6 @@ zle.com$script
 ##A[href*='youqu.buzz']
 ##A[href*='zbkrv.com']
 ##A[href="http://t.cn/A6hQCVsv"]
-##A[href="javascript:;"][onclick^="iwjfewufewekjr"]
 ##A[href='/?'][target='_blank']
 ##A[href='/hth.html']
 ##A[href='/iwagbwfiwehaeyh/']
@@ -36261,6 +36285,7 @@ zle.com$script
 ##a[href="https://sk83k.com"][target="_blank"]
 ##a[href="https://ttzzz11.com"]
 ##a[href="https://ttzzz22.com"]
+##a[href="javascript:;"][onclick^="iwjfewufewekjr"]
 ##a[href="javascript:GoGd();"]
 ##a[href="javascript:GoTp();"]
 ##a[href="javascript:void(0)"][rel="nofollow"][target="_new"] > img[src]
