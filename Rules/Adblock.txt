@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 1iDM1G3oPT9qJMB6xXgCtA
+! Checksum: RB4qjkuHSAPGpseFZOyGnA
 ! Title: Aloazny Mobile fiter
-! Version: 20240615090541
+! Version: 20240615202746
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-06-15 09:05:41
-! Total Count: 74022
-! Blocked Filters: 74022
+! Last modified: 2024-06-15 20:27:46
+! Total Count: 74032
+! Blocked Filters: 74032
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock.txt?ref=main
 
 
-!<<<<<域名规则>>>>>27596
+!<<<<<域名规则>>>>>27603
 |http$third-party,script,domain=kinotut.tv
 |http*://$image,third-party,domain=rmdown.com
 |http*://$script,third-party,domain=stream2watch.org,badfilter
@@ -2207,6 +2207,7 @@
 ||9208.4puuqeh41.com^
 ||920share.com/layer/layer.js
 ||920share.com/wp-content/uploads/*/911
+||9216tp1.com^
 ||922tp.com/wp-content/uploads/*0x
 ||9253.79j68qav2.com^
 ||9287.4puuqeh41.com^
@@ -5052,6 +5053,7 @@
 ||bbnfcfrvjs.com^
 ||bbphonix.xyz^
 ||bbpic.ru/js/plears.js
+||bbqoa.top^
 ||bbrnpj.xyz^
 ||bbs.a9vg.com/showit/img_show.php
 ||bbs.gmbbk.com^*.js
@@ -10539,6 +10541,7 @@
 ||foamyfood.com^$third-party
 ||fobshanghai.com/bbsad/
 ||focas.jp^
+||fogolakda.top^
 ||fogsham.com^$third-party
 ||fohikrs.com^
 ||foirkrt.icu^
@@ -15429,6 +15432,7 @@
 ||lnifdlal.top^
 ||lniwe.xyz^
 ||lnk.news/links/flash-ad?u_id=
+||lnlkmr.xyz^
 ||lnpqqq.com^
 ||lnxkrd.xyz^
 ||lnxpdj.xyz^
@@ -19204,6 +19208,7 @@
 ||pwnews.net/des/antiblock.js$script
 ||pwr-ads.com^
 ||pwuxnr.cn^
+||pwxlbsie.icu^
 ||px.adhigh.net^
 ||px.ucweb.com^
 ||px9.nuderedtube.com^
@@ -22521,6 +22526,7 @@
 ||szbxw.cn^
 ||szbzp.cn^
 ||szdaqi88.com^
+||szdpk.cn^
 ||szfcol.com/images/wxright240.jpg
 ||szfcol.com/js/siteAd.js
 ||szfhl99.com^
@@ -25786,6 +25792,7 @@
 ||xiacaidd.com/xiacai/ad/
 ||xiangwangdesh.com^
 ||xiangzishop.com^$third-party
+||xianliao.voto^
 ||xianpowei.com^
 ||xianshuabao.com/ashx/pt.ashx?cmd=record&filter=&order=all&
 ||xianzhenyuan.cn/data/attachment^$image
@@ -27613,7 +27620,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>34348
+!<<<<<网站单独规则>>>>>34351
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe.com,badfilter
 $image,third-party,denyallow=cdn77.org|fpbns.net|others-cdn.com|rncdn7.com|sb-cd.com|stream.highwebmedia.com|upsiloncdn.net|xvideos-cdn.com|youjizz.com|ypncdn.com,domain=pussyspace.com|pussyspace.net
@@ -32824,6 +32831,7 @@ boldsky.com#$#header { margin-bottom: 65px!important; }
 boldsky.com,drivespark.com,filmibeat.com,gizbot.com,goodreturns.in,oneindia.com##.oiad-txt
 boldsky.com,filmibeat.com,gizbot.com###lightbox-popup-ad
 boldsky.com,filmibeat.com,oneindia.com##.inhouse-content
+bole90.com###xy_toast_ad
 bolecdn.com,gzzwrh.com##div[id="player_pause"]
 bollywoodlife.com##.art_content > div[style*="border:"][style*="min-height:"][style*="width:"][style*="margin-bottom:"]
 bollywoodmdb.com##.ads_width
@@ -61176,6 +61184,8 @@ yes-news.com##.notification
 yesiltopuklar.com##.home-adbox-for-m
 yesiltopuklar.com##div[class^="mobil-header-banner"]
 yesky.com##.abox
+yesky.com##.main_left_advertisement
+yesky.com##.rightGg
 yesky.com##div[class^="ad1"]
 yesky.com##div[class^="ad7"]
 yesmovies.mn,dopebox.to,fmoviesto.cc,movies2watch.tv,myflixer.to###gift-top
