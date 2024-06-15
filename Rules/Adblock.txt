@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: Q1sN9HENWksOBVT0udlxyg
+! Checksum: 1iDM1G3oPT9qJMB6xXgCtA
 ! Title: Aloazny Mobile fiter
-! Version: 20240614202912
+! Version: 20240615090541
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-06-14 20:29:12
-! Total Count: 74011
-! Blocked Filters: 74011
+! Last modified: 2024-06-15 09:05:41
+! Total Count: 74022
+! Blocked Filters: 74022
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock.txt?ref=main
 
 
-!<<<<<域名规则>>>>>27588
+!<<<<<域名规则>>>>>27596
 |http$third-party,script,domain=kinotut.tv
 |http*://$image,third-party,domain=rmdown.com
 |http*://$script,third-party,domain=stream2watch.org,badfilter
@@ -6604,6 +6604,7 @@
 ||cdn.htkcm.com^
 ||cdn.ianjumb.com^
 ||cdn.insidesport.co/banners/
+||cdn.insurads.com^
 ||cdn.iople.com^
 ||cdn.isgost.com^
 ||cdn.itoim.mn/banner/
@@ -8314,6 +8315,7 @@
 ||dasistnews.net^$third-party
 ||daslethv.com^
 ||dasljfoq.top^
+||daslkdlqk.top^
 ||dastelefonbuch.de/banner^
 ||dasv10rewq.xyz^
 ||dat.yl-zipper.com^
@@ -9993,6 +9995,7 @@
 ||f96b968227.12a640bb5e.com^
 ||f9755640df.5eef1ed9ac.com^
 ||fa21aff8b2.1a714ee67c.com^
+||faaqgje.icu^
 ||fabulousterritory.com^$third-party
 ||fabuye.vip/zhuanfa/
 ||facai383.oss-cn-guangzhou.aliyuncs.com^
@@ -12161,6 +12164,7 @@
 ||hetaer.xyz^
 ||hetang123.com/assets/public/$script
 ||hetcash.com^
+||hevctt.xyz^
 ||hexcvb.xyz^
 ||hexun.*/hxpage/index.html
 ||hexun.com*/hx_news/hx_news_finalpage.js
@@ -12376,6 +12380,7 @@
 ||homelycrown.com^$third-party
 ||homemoviestube.com/nb^
 ||homepage.tiscali.it/int/static/js/plnr.js
+||homesports.net/iframe/aclib.js
 ||honeybulb.com^$third-party
 ||honeycombabstinence.com^
 ||honeygoldfish.com^$third-party
@@ -17691,6 +17696,7 @@
 ||offerwall.yandex.net^
 ||official.cam/*/?track=*&*&campaign=$domain=ratedgross.com
 ||ofgsqic.cn^$~third-party
+||ofjslik.top^
 ||ofkcww.xyz^
 ||ofleafeona.com^
 ||ofooe.cn^
@@ -17942,6 +17948,7 @@
 ||os.scmpacdn.com^
 ||osafsr.xyz^
 ||osancik.top^
+||osanyc.xyz^
 ||oschina.net/promotion/
 ||oschina.net/uploads/ad/
 ||oschina.net/uploads/cooperation/
@@ -21726,6 +21733,7 @@
 ||sovelswpq.com^
 ||sowlettuce.com^$third-party
 ||sowsuwm.icu^
+||sowx.cn^
 ||sozi.cn/images/tj/downad
 ||sozi.cn/images/tj/hukead.gif
 ||sozi.cn/images/tj/szdown
@@ -27605,7 +27613,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>34346
+!<<<<<网站单独规则>>>>>34348
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe.com,badfilter
 $image,third-party,denyallow=cdn77.org|fpbns.net|others-cdn.com|rncdn7.com|sb-cd.com|stream.highwebmedia.com|upsiloncdn.net|xvideos-cdn.com|youjizz.com|ypncdn.com,domain=pussyspace.com|pussyspace.net
@@ -29906,7 +29914,7 @@ afkgaming.com##div[class^="story-card-gap"] > div:not(.lazyload-wrapper)
 afkgaming.com##div[id$="_sticky_footer"]
 afkgaming.com##div[id*="-story-ad"]
 afly.pro##center > a[href*="?utm_source"]
-afly.pro,bestreamsports.org,bloggingguidance.com,cyfostreams.com,dviraly.uk,eegybest.xyz,footy.to,footybite.to,gamerarcades.com,girls-like.me,go4kora.com,greaterkashmir.com,hesgoals.top,laroza.net,maxsports.site,mcrypto.club,metaporky.site,mysocceraustralia.com,nbabite.to,nbagaffer.net,nbalivestream.top,netcomsports.com,nflbite.to,olympicology.com,onroid.com,pawastreams.*,playstore.pw,rayinfosports.com,ripple-stream.com,sakarnewz.com,sequencecard.xyz,sevenjournals.com,soccerstreams.football,sportfacts.net,sportschamp.fun,supertipz.com,thesportsupa.com,thestreamhub.net,topsporter.net,totalsportek.soccer,welovemanga.net,wpking.in,yalla-kora.tv,youm7.com###id-custom_banner
+afly.pro,bestreamsports.org,bloggingguidance.com,cyfostreams.com,dviraly.uk,eegybest.xyz,footy.to,footybite.to,gamerarcades.com,girls-like.me,go4kora.com,greaterkashmir.com,hesgoals.top,laroza.net,maxsports.site,mcrypto.club,metaporky.site,mysocceraustralia.com,nbabite.to,nbagaffer.net,nbalivestream.top,netcomsports.com,nflbite.to,olympicology.com,onroid.com,pawastreams.*,playstore.pw,rayinfosports.com,ripple-stream.com,sakarnewz.com,saveinsta.cam,sequencecard.xyz,sevenjournals.com,soccerstreams.football,sportfacts.net,sportschamp.fun,supertipz.com,thesportsupa.com,thestreamhub.net,topsporter.net,totalsportek.soccer,welovemanga.net,wpking.in,yalla-kora.tv,youm7.com###id-custom_banner
 afly.us#?##link-view > .form-group + div:not([class]):not([id]):has(> center:contains(/^Advertisement/))
 afpbb.com##amp-iframe[src^="https://cdn.cxpublic.com/amp-recs-template.html"]
 afpbb.com##aside[style="text-align: center; min-height: 180px;"]
@@ -31980,6 +31988,7 @@ baseball.yahoo.co.jp##.bb-modCommon05
 baseball.yahoo.co.jp,soccer.yahoo.co.jp,sports.yahoo.co.jp##div[class*="-modCommon0"] > div[class*="-overlay"]
 basenotes.net##.advertblock
 bash.im,dvdtrailertube.com,kimcartoon.li,kimcartoon.pro,librarywhispering.com,readcomiconline.li,weekendnotes.com##div[style*="width: 300px; height: 250px;"]
+baskino.film###trickorlife
 batch.id##.sidebar > .klan300
 batimes.com.ar##.bg-ads-space
 batimes.com.ar##div[class^="ads-space"]
@@ -37769,6 +37778,7 @@ famitsu.com##div[class^="RectangleBanner"]
 famitsu.com##div[class^="SpecialBanner_container_"]
 famousinternetgirls.com##.sidebar > div[id^="text-"][class="widget widget_text"]
 famousinternetgirls.com##.video-details ~ div[id^="text-"][class="widget widget_text"]
+fan10.saveinsta.cam##.widget-area
 fanat1k.ru##iframe[width="100%"][height="90px"]
 fanatik.ro##.strawberry-ads-manager-container
 fanbyte.com###fanbyte_sticky-unit
@@ -65190,7 +65200,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 zle.com$script
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>4160
+!<<<<<通用Css规则>>>>>4161
 ###ADbox
 ###ADtip
 ###AdBlockDialog
@@ -67616,6 +67626,7 @@ zle.com$script
 ##.video_details > .banner
 ##.videojs-hero-overlay
 ##.videos-ad
+##.view-ads
 ##.view-video-advertisements
 ##.vodads
 ##.w-full > .banner.el-carousel
