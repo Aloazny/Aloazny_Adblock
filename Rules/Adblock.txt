@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: lsnp2Yt+bA0/KSO0LeoZBw
+! Checksum: PQlZGp1MXiSYfxdPWiu3jQ
 ! Title: Aloazny Mobile fiter
-! Version: 20240616091100
+! Version: 20240616202729
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-06-16 09:11:00
-! Total Count: 74058
-! Blocked Filters: 74058
+! Last modified: 2024-06-16 20:27:29
+! Total Count: 74062
+! Blocked Filters: 74062
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock.txt?ref=main
 
 
-!<<<<<域名规则>>>>>27629
+!<<<<<域名规则>>>>>27633
 |http$third-party,script,domain=kinotut.tv
 |http*://$image,third-party,domain=rmdown.com
 |http*://$script,third-party,domain=stream2watch.org,badfilter
@@ -9073,6 +9073,7 @@
 ||dryden.cn^
 ||drydrum.com^$third-party
 ||drzgtli.com^
+||ds.ruanwengfa.com^
 ||ds1.kaijia.com^
 ||dsa22.com^
 ||dsbfpt.xyz^
@@ -10747,6 +10748,7 @@
 ||fujifood.hk^
 ||fujiladder.com^$third-party
 ||fujincenter.com^
+||fujnrh.xyz^
 ||fulibac.com/images/upload/ad/
 ||fulibl.com/wp-content/uploads/2016/06/320-230.jpg
 ||fuliwang.cc^
@@ -16855,6 +16857,7 @@
 ||mtburn.jp^
 ||mtddqjk.cn^
 ||mtgglobals.com^
+||mtguwx.xyz^
 ||mthhhuq.cn^
 ||mtienlx.top^
 ||mtime.cn/tg/
@@ -17667,6 +17670,7 @@
 ||obgekjz.icu^
 ||obl74.xyz^
 ||obmenvsem.org/static/images/*banners*450x75.png
+||obmphi.xyz^
 ||obscenesidewalk.com^$third-party
 ||observantice.com^$third-party
 ||obserwatorlogistyczny.pl/wp-content/uploads/*/Banner-1PT.png
