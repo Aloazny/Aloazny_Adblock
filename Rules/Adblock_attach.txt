@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: VnwWoE89VptaizGGAnoX0Q
+! Checksum: 33DbRzYkTD4IAeZ7QhEN7g
 ! Title: Aloazny attach fiter
-! Version: 20240618090438
+! Version: 20240618202735
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-06-18 09:04:38
-! Total Count: 14836
-! Blocked Filters: 14836
+! Last modified: 2024-06-18 20:27:35
+! Total Count: 14834
+! Blocked Filters: 14834
 ! Description: 合并混合规则的补充规则，轻量规则，可作为补充规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_attach.txt?ref=main
 
 
-!<<<<<域名规则>>>>>6729
+!<<<<<域名规则>>>>>6730
 |https://m.frgls.com/js/*.js?v=
 ||*ggua.xyz^$third-party
 ||000123456789.online^
@@ -2074,6 +2074,7 @@
 ||fish882.xyz^
 ||fiwyjar.cn^
 ||fixedfold.com^$third-party
+||fjbglfrv.com^
 ||fjctlnn.top^
 ||fjjmnh.com^
 ||fjshxjs.cn^
@@ -9268,7 +9269,7 @@ toutiao.com##div[class="box-content"]
 toutiao.com##div[class="top-banner-container"]
 toutiao.com##section[class="has_action"]>a:nth-child(2)
 trackr.fr##.alert-dashed
-trafficjunky.com$third-party
+trafficjunky.com$third-part
 trakt.tv##DIV[id$='-wrapper']
 tripadvisor.cn###smartbanner
 ts1712736452.lvejhco.cn,ts1712737585.wmgqp.cn,xvlz1kzzrf.xn--nqvxwikn87h.com,ts1712822900.ycojlt.cn,ts1712824701.ycojlt.cn,kxjg3d8r8h.xn--nqvxwikn87h.com,ts1712825834.wmgqp.cn,ts1712826502.ycojlt.cn,q21ogs1qzx.xn--nqvxwikn87h.com,ts1712912282.wmgqp.cn,ts1712911149.ycojlt.cn,ts1712995796.ycojlt.cn,ts1712998730.tgeuuy.cn,ts1713081576.tgeuuy.cn,1eycx57uvj.xn--nqvxwikn87h.com,ts1713085178.tgeuuy.cn,ts1713168024.tgeuuy.cn,ts1713858963.jsfyfw.cn,ts1713864366.jsfyfw.cn,ts1713862760.stvzozh.cn,ts1713947212.mmpikn.cn,ts1714035461.mmpikn.cn,ts1714035690.ifdeas.cn###bottommob.bottommob
@@ -9951,7 +9952,7 @@ zybang.com##a[class="top-banner"]
 zybang.com##div[id="askTeacher-after-adx-wrap"]
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>1657
+!<<<<<通配符规则>>>>>1654
 $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.xyz
 &adZones$xmlhttprequest
 &ad_block=
@@ -10073,6 +10074,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .cn/x/*-*-*.as$third-party
 .cn:*/?channelCode=$~third-party
 .cn:*/c.php?s=
+.cn:*/d/*?c=*$third-party
 .cn:*/d/*?t=
 .cn:*/mnrt/*.json
 .cn:*/sc/*?c=$third-party
@@ -10087,7 +10089,6 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .cn:80*/cc/*?is_not=$third-party
 .cn:80*/d/*?*=$third-party
 .cn:80*/sc/*?*=$third-party
-.cn:8001/*/*?*=$third-party
 .cn:8001/cc/*?is_not=
 .cn:8001/d/*?*=$third-party
 .cn:8001/sc/*?is_not=
@@ -10245,7 +10246,6 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .com:8003/d/*&n=$third-party
 .com:8003/d/*?*=$third-party
 .com:8003/sc/*?*=$third-party
-.com:8004/*/*?*=$third-party
 .com:8004/cc/*?*=$third-party
 .com:8004/d/*?*=$third-party
 .com:8004/sc/*?*=$third-party
@@ -10254,13 +10254,11 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .com:8005/d/*?*=$third-party
 .com:8005/sc/*?*=$third-party
 .com:8006/d/*?*=$third-party
-.com:8007/*/*?*=$third-party
 .com:8007/cc/*?*=$third-party
 .com:8007/cc/*?is_not=$third-party
 .com:8007/d/*?*=$third-party
 .com:8007/d/*?c=
 .com:8007/sc/*?*=$third-party
-.com:8008/*/*?*=$third-party
 .com:8008/cc/*?*=$third-party
 .com:8008/d/*?*=$third-party
 .com:8008/sc/*?*=$third-party
@@ -11602,7 +11600,7 @@ mobi*.*.xyz/*_$third-party
 outlook.live.com._6tqjFb_HmyQup_NPe6dhC
 php?ad=
 template/m1938pc/ads/*.js
-trafficjunky.com$third-party
+trafficjunky.com$third-part
 unpkg.com/aladug/*.js
 xmh/200/200-*.gif
 xn--*.*/ins/js/*16$third-party,script
@@ -12582,7 +12580,6 @@ zle.com$script
 ##.gg_sj
 ##.ggad
 ##.ggbox
-##.globalPadding
 ##.global_video_bottom_dbtc
 ##.goads
 ##.goafrica-ad
@@ -13618,6 +13615,7 @@ zle.com$script
 ##[onclick*="content.ad/"]
 ##[onclick*="https://xxl."][onclick*=".com/bd-"]
 ##[onclick*="trackEvent', 'ad"]
+##[onclick*='fjbglfrv.com']
 ##[onclick*='https://i.opiwb.com:']
 ##[onclick*='pypyj.com']
 ##[onclick*='www.l4lui.com'],.col-12.position-relative>b
