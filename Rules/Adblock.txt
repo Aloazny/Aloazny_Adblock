@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: wAxO/BZ1D2ypRTc7TKXT+A
+! Checksum: zsH3Zvk7sfYKVKOPbeWC4Q
 ! Title: Aloazny Mobile fiter
-! Version: 20240623091021
+! Version: 20240623202726
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-06-23 09:10:21
-! Total Count: 74356
-! Blocked Filters: 74356
+! Last modified: 2024-06-23 20:27:26
+! Total Count: 74357
+! Blocked Filters: 74357
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock.txt?ref=main
 
 
-!<<<<<域名规则>>>>>27849
+!<<<<<域名规则>>>>>27850
 |http$third-party,script,domain=kinotut.tv
 |http*://$image,third-party,domain=rmdown.com
 |http*://$script,third-party,domain=stream2watch.org,badfilter
@@ -26776,6 +26776,7 @@
 ||ycc90.xyz^
 ||yccz.net/xml/
 ||ycdywl.com^
+||ycgfdf.cn^
 ||ycgkol.icu^
 ||ycgmnpp.icu^
 ||ycgy8888.com^
