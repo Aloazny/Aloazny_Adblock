@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: zsH3Zvk7sfYKVKOPbeWC4Q
+! Checksum: BWo4qhD5iuUvkPFgQD5sKg
 ! Title: Aloazny Mobile fiter
-! Version: 20240623202726
+! Version: 20240624090719
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-06-23 20:27:26
-! Total Count: 74357
-! Blocked Filters: 74357
+! Last modified: 2024-06-24 09:07:19
+! Total Count: 74366
+! Blocked Filters: 74366
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock.txt?ref=main
 
 
-!<<<<<域名规则>>>>>27850
+!<<<<<域名规则>>>>>27859
 |http$third-party,script,domain=kinotut.tv
 |http*://$image,third-party,domain=rmdown.com
 |http*://$script,third-party,domain=stream2watch.org,badfilter
@@ -1699,6 +1699,7 @@
 ||66.fmx.cn/js/
 ||6600.5clo0xmbf.com^
 ||6613.79j68qav2.com^
+||663008888.com^
 ||66308888.com^
 ||6633091.com^$~third-party
 ||6643.34gwl8v1a.com^
@@ -4708,6 +4709,7 @@
 ||awunkse72.shop^
 ||awunktf85.shop^
 ||awuvcq.xyz^
+||awyuge.xyz^
 ||awyyzx.com^
 ||awzbijw.com^$third-party
 ||awzddev.cn^
@@ -5539,6 +5541,7 @@
 ||birgga.top^
 ||birglucy.xyz^
 ||birjkhm.cn^
+||birtw.cn^
 ||bis8j.com^
 ||bisecthosting.com/partners/custom-banners/$third-party
 ||bison.joshhanley.com.au^
@@ -8500,6 +8503,7 @@
 ||ddkh59.com^
 ||ddllhqj.xyz^
 ||ddlvpmt.xyz^
+||ddnzpr.xyz^
 ||ddownr.com/assets/images/convertr.png
 ||ddqkqq.com^
 ||ddqmlfu.icu^
@@ -10616,6 +10620,7 @@
 ||fmgmh.com/template/wap/default/js/lunbo.js
 ||fmhua.com/template/*/images/g_js/*.html
 ||fmild.xyz^
+||fmjjvb.xyz^
 ||fmlabsonline.com^
 ||fmmods.com/bnbanner/
 ||fmovies.*/*.hahaadblock
@@ -24077,6 +24082,7 @@
 ||uejdsw.com^
 ||uejnmjdpd.xyz^
 ||uekmhvbb.xyz^
+||uessnah.icu^
 ||ueumdkc.cn^
 ||uf.disbendcrumby.com^
 ||ufgg55.xyz^
@@ -24409,6 +24415,7 @@
 ||uunrkj.com^$~third-party
 ||uuoizbtl.xyz^
 ||uuoozz.com/L7QQ.js
+||uutytp.com^
 ||uuuutp.com^
 ||uuuzuu.xyz^
 ||uuvzmba.cn^
@@ -24999,6 +25006,7 @@
 ||w.k3718qw08.com^
 ||w.send.cm/www/d/a.php
 ||w.xiaopiaoyou.com^
+||w0057.com^
 ||w11.zhongkaohelp.com^
 ||w18.9939.com^
 ||w23eidn9j.com^
@@ -25152,6 +25160,7 @@
 ||wddsva0.com^
 ||wdff.buzz/hengf.
 ||wdig.vo.llnwd.net^
+||wdoshbe.top^
 ||wdpkx.cn^
 ||wdrpmu632.shop^
 ||wdswgjn.cn^
@@ -29679,16 +29688,16 @@ $xmlhttprequest,third-party,denyallow=rsc.cdn77.org|linkvertise.com|fastly.net|s
 91porn.com##iframe[src$="/fans/ad.php"]
 91porn.com#?##videodetails > div:has(> a[href][target="_blank"])
 91porn.com,its.porn##.preroll-blocker
+91porny.com##.container-fluid.p-0[class*="mb-"]
+91porny.com##.jsv-g1
 91porny.com##.mobile-jsv-bottom,.mb-3.p-0,.d-sm-none,.mb-0.p-0
 91porny.com##.row > div.colVideoList:has(> div.video-elem > a[target="_blank"])
 91porny.com##A.display.d-block[href^='http'],A.display.d-block[href^='http'] ~ *
-91porny.com,9s102.xyz,jiuse205.com,jiuse390.xyz,jiuse970.com##.container-fluid.p-0[class*="mb-"]
-91porny.com,9s102.xyz,jiuse205.com,jiuse390.xyz,jiuse970.com##.jsv-g1
 91porny.com,gb.9a07j.com,gb.9a07q.com,gb.9a07s.com,j300.jstv9168.com,zero.9a07s.com###playerJsvLayer.jsv-layer
 91porny.com/api/getPos?jspath=/
-91porny.org,haijiao35.com,jiuse.io###main > div[id^="rd"]
 91porny.org,haijiao35.com,jiuse.io##.card:has(>.card-image>a[href^="http"])
-91porny.org,haijiao35.com,jiuse.io##.footer + .block
+91porny.org,x9av7.com,jiuse.io###main > div[id^="rd"]
+91porny.org,x9av7.com,jiuse.io##.footer + .block
 91short.com##.player-info
 91short.com##[class$="i"][style*="bottom"],[class$="h"][style*="bottom"],[class$="_b"],[class$="c"][style*="bottom"],embed[src],canvas,*[style*="fixed"][style*="bottom"][style*="display"][style*="block"][style*="vw"],img[src*="cn-chengdu.aliyuncs.com/"],a[href*=".top"] > img[src],div[class^="shortcuts-"][class$="-overlay"],a[href] > h3,[class][style*="131px"]
 920share.com###layui-layer1

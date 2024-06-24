@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: OW6hNVrFatDgSYCUj1MpIg
+! Checksum: pixXV104SO5LCzznUZ90MA
 ! Title: Aloazny Chinese fiter
-! Version: 20240623202601
+! Version: 20240624090554
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-06-23 20:26:01
-! Total Count: 38787
-! Blocked Filters: 38787
+! Last modified: 2024-06-24 09:05:54
+! Total Count: 38796
+! Blocked Filters: 38796
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>17597
+!<<<<<域名规则>>>>>17606
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|cyxse.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.360118.com|m.37zw.net|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zwdu.com
 |http://*.cn/ad/
@@ -978,6 +978,7 @@
 ||6528fdyngk.xyz^
 ||65432.pw^
 ||66.fmx.cn/js/
+||663008888.com^
 ||66308888.com^
 ||6633091.com^$~third-party
 ||6651tp.com^
@@ -2762,6 +2763,7 @@
 ||awunkse72.shop^
 ||awunktf85.shop^
 ||awuvcq.xyz^
+||awyuge.xyz^
 ||awyyzx.com^
 ||awzbijw.com^$third-party
 ||awzddev.cn^
@@ -3320,6 +3322,7 @@
 ||birgga.top^
 ||birglucy.xyz^
 ||birjkhm.cn^
+||birtw.cn^
 ||bis8j.com^
 ||bisonads.com^
 ||bitauto.com/js/sense*.js
@@ -4890,6 +4893,7 @@
 ||ddkh59.com^
 ||ddllhqj.xyz^
 ||ddlvpmt.xyz^
+||ddnzpr.xyz^
 ||ddqkqq.com^
 ||ddqmlfu.icu^
 ||ddreminder.appspot.com/android_ad_target.txt
@@ -6228,6 +6232,7 @@
 ||fmgmh.com/template/wap/default/js/lunbo.js
 ||fmhua.com/template/*/images/g_js/*.html
 ||fmild.xyz^
+||fmjjvb.xyz^
 ||fmre1.com^
 ||fmssoj.icu^
 ||fmvbyji.cn^
@@ -14965,6 +14970,7 @@
 ||uejdsw.com^
 ||uejnmjdpd.xyz^
 ||uekmhvbb.xyz^
+||uessnah.icu^
 ||ueumdkc.cn^
 ||ufgg55.xyz^
 ||ufile.cc/crod.js
@@ -15194,6 +15200,7 @@
 ||uunrkj.com^$~third-party
 ||uuoizbtl.xyz^
 ||uuoozz.com/L7QQ.js
+||uutytp.com^
 ||uuuutp.com^
 ||uuuzuu.xyz^
 ||uuvzmba.cn^
@@ -15588,6 +15595,7 @@
 ||w.anmeihe.cn^
 ||w.bnlg.fun^
 ||w.xiaopiaoyou.com^
+||w0057.com^
 ||w11.zhongkaohelp.com^
 ||w18.9939.com^
 ||w3.ting55.com^
@@ -15681,6 +15689,7 @@
 ||wddsva0.com^
 ||wdff.buzz/hengf.
 ||wdig.vo.llnwd.net^
+||wdoshbe.top^
 ||wdpkx.cn^
 ||wdrpmu632.shop^
 ||wdswgjn.cn^
@@ -18901,16 +18910,16 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 91porn.com##.preroll-blocker
 91porn.com##.vjs-preroll
 91porn.com##iframe[src$="/fans/ad.php"]
+91porny.com##.container-fluid.p-0[class*="mb-"]
+91porny.com##.jsv-g1
 91porny.com##.mobile-jsv-bottom,.mb-3.p-0,.d-sm-none,.mb-0.p-0
 91porny.com##.row > div.colVideoList:has(> div.video-elem > a[target="_blank"])
 91porny.com##A.display.d-block[href^='http'],A.display.d-block[href^='http'] ~ *
-91porny.com,9s102.xyz,jiuse205.com,jiuse390.xyz,jiuse970.com##.container-fluid.p-0[class*="mb-"]
-91porny.com,9s102.xyz,jiuse205.com,jiuse390.xyz,jiuse970.com##.jsv-g1
 91porny.com,gb.9a07j.com,gb.9a07q.com,gb.9a07s.com,j300.jstv9168.com,zero.9a07s.com###playerJsvLayer.jsv-layer
 91porny.com/api/getPos?jspath=/
-91porny.org,haijiao35.com,jiuse.io###main > div[id^="rd"]
 91porny.org,haijiao35.com,jiuse.io##.card:has(>.card-image>a[href^="http"])
-91porny.org,haijiao35.com,jiuse.io##.footer + .block
+91porny.org,x9av7.com,jiuse.io###main > div[id^="rd"]
+91porny.org,x9av7.com,jiuse.io##.footer + .block
 91short.com##.player-info
 91short.com##[class$="i"][style*="bottom"],[class$="h"][style*="bottom"],[class$="_b"],[class$="c"][style*="bottom"],embed[src],canvas,*[style*="fixed"][style*="bottom"][style*="display"][style*="block"][style*="vw"],img[src*="cn-chengdu.aliyuncs.com/"],a[href*=".top"] > img[src],div[class^="shortcuts-"][class$="-overlay"],a[href] > h3,[class][style*="131px"]
 920share.com###layui-layer1
