@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: BWo4qhD5iuUvkPFgQD5sKg
+! Checksum: vK5pD8WOi6qERmJ8rNe0Vg
 ! Title: Aloazny Mobile fiter
-! Version: 20240624090719
+! Version: 20240624202944
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-06-24 09:07:19
-! Total Count: 74366
-! Blocked Filters: 74366
+! Last modified: 2024-06-24 20:29:44
+! Total Count: 74436
+! Blocked Filters: 74436
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock.txt?ref=main
 
 
-!<<<<<域名规则>>>>>27859
+!<<<<<域名规则>>>>>27916
 |http$third-party,script,domain=kinotut.tv
 |http*://$image,third-party,domain=rmdown.com
 |http*://$script,third-party,domain=stream2watch.org,badfilter
@@ -103,6 +103,7 @@
 ||0179.k3718qw08.com^
 ||0189.4puuqeh41.com^
 ||0190.seponews.com^
+||01916a3ce8.8b1e836a75.com^
 ||0193.4puuqeh41.com^
 ||01u.net/js/tj.js
 ||01v62.xyz^
@@ -152,11 +153,13 @@
 ||039nez.com^
 ||03asdf.com^
 ||042.cn/adver/
+||0421.5clo0xmbf.com^
 ||0437.k3718qw08.com^
 ||0439.5clo0xmbf.com^
 ||0439.com/javascript.php?part=advertisement&
 ||0440.79j68qav2.com^
 ||0445.833enmhob.com^
+||0452.5clo0xmbf.com^
 ||0460.com/images/ad/
 ||0460.com/images/banner/
 ||0460.com/js/txtrec.js
@@ -179,6 +182,7 @@
 ||0575bbs.com/js/float.js
 ||0575bbs.com/updateimeags/
 ||0579.cn/SHow/Showplacenew.aspx
+||0581.5clo0xmbf.com^
 ||05826.online^
 ||0589.79j68qav2.com^
 ||0591.4puuqeh41.com^
@@ -376,7 +380,6 @@
 ||1024down.com/images/*.gif
 ||1028images.com^
 ||102tv.cn/js/main.js
-||1038f134c9.18772b5091.com^
 ||104.199.8.250^*/webservices/getDialogAdDetails.php
 ||1048.5clo0xmbf.com^
 ||1062.5clo0xmbf.com^
@@ -419,6 +422,7 @@
 ||1171.cosmicnewspulse.com^
 ||1182.5clo0xmbf.com^
 ||1187.4puuqeh41.com^
+||1188.79j68qav2.com^
 ||1188.com^$third-party
 ||118d05e5f1.fd2cd5c351.com^
 ||119c0c90cd.e46271be93.com^
@@ -480,6 +484,7 @@
 ||13.th2mbxzqe.com^
 ||13.wemakebestnews.com^
 ||13.y2sysv81v.com^
+||1307.79j68qav2.com^
 ||131458.com/union/
 ||1319.4puuqeh41.com^
 ||1328f.com/js/jquery.js
@@ -511,7 +516,6 @@
 ||144w6.com^$~third-party
 ||1459.cosmicnewspulse.com^
 ||147cd49082.05e11c9f6f.com^
-||1480.79j68qav2.com^
 ||149.bestinterestings.com^
 ||14d9ce6824.1a5db63693.com^
 ||14ec0e14c1.aac0dba6de.com^
@@ -600,7 +604,6 @@
 ||17.wemakebestnews.com^
 ||1708t.com/js/jquery.js
 ||17123.net^
-||1713.79j68qav2.com^
 ||17173.com/advideo/
 ||17173.com/api/video/PlayerPopup?
 ||17173.com/if/
@@ -696,6 +699,7 @@
 ||1agds.4puuqeh41.com^
 ||1atgds.4puuqeh41.com^
 ||1atkygds.4puuqeh41.com^
+||1atkysgds.4puuqeh41.com^
 ||1b4aced679.09b1fcc95e.com^
 ||1b4e52a966.7253d56acf.com^
 ||1b9ff89c22.f145794b22.com^
@@ -809,6 +813,7 @@
 ||2132dfd3.fsseeewzz.lol^
 ||214ef3ad99.ab728d9dc8.com^
 ||2162.5clo0xmbf.com^
+||2178.5clo0xmbf.com^
 ||217eda37ff.eca8bef536.com^
 ||217hs.com/js/jquery.js
 ||2189.cosmicnewspulse.com^
@@ -854,6 +859,7 @@
 ||235.rhsy174op.com^
 ||2350.l5eamr17d.com^
 ||2352.5clo0xmbf.com^
+||2356.34gwl8v1a.com^
 ||23583.79j68qav2.com^
 ||2361.ogrt80r65.com^
 ||2376.4puuqeh41.com^
@@ -903,22 +909,22 @@
 ||2574.5clo0xmbf.com^
 ||258ydh.com^$third-party
 ||258zw.com^$third-party
-||259luxu.xyz^
-||25fc4f9e23.a9ce112bde.com^
 ||25ktra.cn^
 ||25serve.yourporngod.com^
 ||2616.34gwl8v1a.com^
+||2671.5clo0xmbf.com^
 ||2687.79j68qav2.com^
 ||268de.com/js/
 ||2694.5clo0xmbf.com^
 ||26gg.bnq86.com^$third-party
 ||26niao20230505.live^
-||2713.5clo0xmbf.com^
 ||2717.terranewsblast.com^
 ||273knt.xyz^
 ||2760.833enmhob.com^
 ||277txt.com/da/*.js
 ||27c784b8b7.b58e782dc5.com^
+||27c83c607f.40aa881a9f.com^
+||27cac6453c.bcd8072b72.com^
 ||27d8ec8a23.7737d3a561.com^
 ||27niao20230506.live^
 ||27w8f.com^
@@ -927,8 +933,6 @@
 ||283.laobanfa.com^
 ||2839f789ab.f092680893.com^
 ||2860.5clo0xmbf.com^
-||286e04b0d2.cc954a8da8.com^
-||287298de5c.c86e7c49a2.com^
 ||2875.5clo0xmbf.com^
 ||2877.5clo0xmbf.com^
 ||2882d038b6.96a3bc8522.com^
@@ -942,9 +946,11 @@
 ||2989.4puuqeh41.com^
 ||299bf6b4b4.9a55672b0c.com^
 ||299dcc6f32.d37914770f.com^
+||29a01916a1.041353e6dd.com^
 ||29spp.com/js/tj.js
 ||2a3fa3df2e.3d285d98de.com^
 ||2aa1110514.69d11079bf.com^
+||2ac8cd2314.b754af79a7.com^
 ||2adultflashgames.com/img/677x250_
 ||2asd3413.fsseeewzz.lol^
 ||2b033c0409.1239feffd9.com^
@@ -953,6 +959,7 @@
 ||2biqu.com/static/*/*.js
 ||2btu.com/gg.jpg
 ||2c0a5.xyz^
+||2c84016452.4d658ab856.com^
 ||2ccc.com/images/WebXone.gif
 ||2ccc.com/images/aobi.gif
 ||2ccc.com/images/sdo.jpg
@@ -963,8 +970,10 @@
 ||2cnjuh34jbpoint.com^
 ||2cq.com/third/tieba/sidebar
 ||2cursjb.com^
+||2d363be680.abf77420f8.com^
 ||2d4f.com/love/
 ||2dctkld.com^
+||2eb3b8d787.53e91a4877.com^
 ||2fa057254b.445d1bd01a.com^
 ||2fa20230511.live^
 ||2fe60939ce.4eecd9e9bd.com^
@@ -1029,6 +1038,7 @@
 ||33.autohome.com.cn^
 ||3306.4puuqeh41.com^
 ||3324.cn^$third-party
+||332e4cb7aa.d0e564588b.com^
 ||3337126.com^
 ||3337723.com^
 ||3337738.com^
@@ -1048,6 +1058,7 @@
 ||336t.com/img/boss/*.gif$domain=wmsj.pw
 ||3371.79j68qav2.com^
 ||3373.833enmhob.com^
+||3376.5clo0xmbf.com^
 ||3390.935ft4j96.com^
 ||3397ys.com/e/public/onclick/
 ||3399.com/act/$third-party
@@ -1068,6 +1079,7 @@
 ||34b6714314.592749d456.com^
 ||34iq.com/index
 ||35.232.188.118^$domain=35.232.188.118
+||3517ff54c9.8a67b58b74.com^
 ||3520.cc/js/3520/
 ||352131387c.1f84e33459.com^
 ||35336.net/35336.jpg
@@ -1099,6 +1111,7 @@
 ||365rich.cn/ba.aspx
 ||3660.79j68qav2.com^
 ||367321.ogrt80r65.com^
+||3679a9b56f.b1298d230d.com^
 ||369bgrec.top^
 ||36b963fd4a.b5c28f9b84.com^
 ||36c4345fdc.c473f6ab10.com^
@@ -1110,6 +1123,7 @@
 ||37.1.213.100^
 ||37.1.213.100^$all
 ||373nn.com/java/
+||3758.79j68qav2.com^
 ||3797.79j68qav2.com^
 ||3798.com^$third-party
 ||37bhof.com^
@@ -1182,6 +1196,7 @@
 ||3f2c49ab2d.265641f673.com^
 ||3f4340fabe.69b61ba7d6.com^
 ||3f6df5f3ef.442fc29954.com^
+||3f85d85a52.699bfcf9d9.com^
 ||3fa20230512.live^
 ||3fb4026cec.ffbd26c481.com^
 ||3fcce9277a.5029bb74f2.com^
@@ -1259,6 +1274,7 @@
 ||42d086866d.9e4c6b5c4f.com^
 ||42yenxh.cn^
 ||4307.k3718qw08.com^
+||43681e8af5.dde2488558.com^
 ||4399.com/baiduad/
 ||4399.com/jss/*coup.js
 ||4399.com/loadimg/iframe_
@@ -1280,12 +1296,12 @@
 ||4493.935ft4j96.com^
 ||4497.4puuqeh41.com^
 ||4497.5clo0xmbf.com^
-||44cb7ead33.5caa478343.com^
 ||44jui.top^
 ||44pd.com^*xds/
 ||44pv.com^$third-party
 ||44r9fl.xyz^
 ||4508.5clo0xmbf.com^
+||4510.5clo0xmbf.com^
 ||4513.4puuqeh41.com^
 ||4557.4puuqeh41.com^
 ||4567.org^$third-party
@@ -1329,6 +1345,7 @@
 ||4d0m.cn^
 ||4d657489e0.247dbf848b.com^
 ||4d716774ff.7d3906347f.com^
+||4da887985a.ec2867edc4.com^
 ||4downfiles.org/open4downfiles2.js
 ||4dyt.cn^
 ||4e8bjpldk.com^
@@ -1446,7 +1463,6 @@
 ||52996.me/upload/ad/
 ||52acc.cn^
 ||52aoteman.com^
-||52c2be887f.84cd8c4d7e.com^
 ||52c470b4ed.633c66f0dc.com^
 ||52che.com/Inc/FooterComm_
 ||52che.com/NewLocal/TemplateHtml/headflash1_
@@ -1484,7 +1500,6 @@
 ||5431.79j68qav2.com^
 ||5442tu.com/style/ads5442.js
 ||5475feaab.clicknplay.to^
-||54a5b53903.2ace95e2ce.com^
 ||54a9c3de7c.5ba9bf8065.com^
 ||54admin.net/images/ad_
 ||54askjdklm.xyz^
@@ -1493,7 +1508,6 @@
 ||54gtlb.cn^
 ||54kefu.net^$third-party
 ||54new.com*/da/
-||55.uyybde07w.com^
 ||55.wemakebestnews.com^
 ||55.y2sysv81v.com^
 ||552f323934.f5e03754b3.com^
@@ -1513,10 +1527,12 @@
 ||5613.833enmhob.com^
 ||5630.4puuqeh41.com^
 ||563fe72ecf.ad2db78801.com^
+||5675.833enmhob.com^
 ||5679.79j68qav2.com^
 ||5698tp.com^
 ||56ads.com/js/main.js
 ||56b01cfb58.f8be4be498.com^
+||56c30cd3c4.0d0e65883b.com^
 ||56fba.cn^
 ||56fff.net^$third-party
 ||56img.com^*/baidu-promotion.js
@@ -1525,7 +1541,6 @@
 ||56yk.com^
 ||571a16a42b.a7a2789124.com^
 ||57236.79j68qav2.com^
-||5736.8pv9vvi9b.com^
 ||5764.ogrt80r65.com^
 ||5765.5clo0xmbf.com^
 ||576tv.com/Scripts/home.js
@@ -1569,7 +1584,7 @@
 ||591hx.com/lunbo/
 ||591hx.com/zyrk_dy/gwjl.html
 ||5934.5clo0xmbf.com^
-||5943.5clo0xmbf.com^
+||5968b480a8.7fcc03ee92.com^
 ||5980.5clo0xmbf.com^
 ||5984927702.3071caa5ff.com^
 ||59gt.cn^
@@ -1635,8 +1650,10 @@
 ||6.y2sysv81v.com^
 ||60.190.139.164^
 ||600km.com/template/*/ad/
+||6021bfc225.a5058f0d07.com^
 ||6027.34gwl8v1a.com^
 ||6053.cosmicnewspulse.com^
+||6079.5clo0xmbf.com^
 ||6080aa.com/template/*/images/g_js/
 ||6080aa.com/zhongguo/
 ||6080w.com/template/ttk/img/
@@ -1665,14 +1682,11 @@
 ||627txt.com/da/*js
 ||6299ffe8d6.25073bb296.com^
 ||629de87520.f983cf2155.com^
-||62f74791d5.2f1969b0e8.com^
 ||62h45d14.shrweea.lat^
 ||62h4a154.shrweea.lat^
 ||62hs2454.shrweea.lat^
 ||62mao.com/52
 ||63007.com:82/haodxi.js
-||6300ffc51b.bad027ae34.com^
-||6352.k45z7tagm.com^
 ||637o.top^
 ||6387.l5eamr17d.com^
 ||63ef.com^*.js
@@ -1684,7 +1698,6 @@
 ||6463.34gwl8v1a.com^
 ||648db44857.5bdc059842.com^
 ||6494.5clo0xmbf.com^
-||64edfecf07.52ee3dc5fe.com^
 ||64ma.com/tv/images/web.png
 ||6506.cosmicnewspulse.com^
 ||651e963c09.6de72955d8.com^
@@ -1692,6 +1705,7 @@
 ||65432.pw^
 ||654629.4puuqeh41.com^
 ||654b11e34e.2eb4977fca.com^
+||6579.5clo0xmbf.com^
 ||6579.79j68qav2.com^
 ||6589.cosmicnewspulse.com^
 ||658df0f059.6b70b1086b.com^
@@ -1727,12 +1741,14 @@
 ||67.21.92.163^
 ||670t5x.cn^
 ||674715bc8d.1db10dd33b.com^
+||6778.5clo0xmbf.com^
 ||6789.net^$third-party
 ||6793.l5eamr17d.com^
 ||6840.5clo0xmbf.com^
 ||6846.5clo0xmbf.com^
 ||68710266.com^
 ||6886.5clo0xmbf.com^
+||6887.79j68qav2.com^
 ||6893.4puuqeh41.com^
 ||6899.4puuqeh41.com^
 ||689ac20aa2.d3da127b69.com^
@@ -1771,12 +1787,11 @@
 ||6cf0e7801e8cd.clicknplay.to^
 ||6cyfvvs.com^
 ||6d3002c602.1d0ec98437.com^
-||6dd83d1cf6.8a00fb3fc1.com^
 ||6df90c4978.0eade9dd8d.com^
-||6e8a9948e0.6e391732a2.com^
 ||6f0e0a9e80.5f6efdfc05.com^
 ||6f9978f41d.f3e3a6cea1.com^
 ||6fb11f4b6e.7981d0e1b2.com^
+||6fb345e22a.0f3f317f1d.com^
 ||6fbb07e2de.7aa82805b9.com^
 ||6functf.com^
 ||6gcstb.xyz^
@@ -1791,6 +1806,7 @@
 ||6oja.cc^$domain=9xav.cc
 ||6park.com/img/*0.gif
 ||6park.com/parks/$script
+||6pznpz.com^
 ||6quspne.com^
 ||6slb0.cyou^
 ||6tofsu.com^
@@ -1809,13 +1825,13 @@
 ||7046.5clo0xmbf.com^
 ||7073.5clo0xmbf.com^
 ||70822.com/agfile/
+||7087.k3718qw08.com^
 ||7087092fd7.0881dd11d9.com^
 ||70b25fad84.ecaecc3e17.com^
 ||70r8fo5.com^
 ||70url.com/aiaike/bood.js$domain=yingwangtv.com
 ||7113.4puuqeh41.com^
 ||7120.5clo0xmbf.com^
-||7135.4puuqeh41.com^
 ||7160.com/js/tiaozhuanquanju.js
 ||7185.4puuqeh41.com^
 ||71ccccb47f.dcefdf0e05.com^
@@ -1848,7 +1864,6 @@
 ||75616927db.6096db9a2b.com^
 ||7606.5clo0xmbf.com^
 ||7649.79j68qav2.com^
-||76500faa1b.c015f80df2.com^
 ||7651.cosmicnewspulse.com^
 ||7652.5clo0xmbf.com^
 ||7676.com^$third-party
@@ -1895,8 +1910,9 @@
 ||77zz7.com^
 ||78.138.126.253/www/
 ||780bcb6370.679aa5fd02.com^
+||7811.5clo0xmbf.com^
 ||7811.cosmicnewspulse.com^
-||7871.5clo0xmbf.com^
+||7812.833enmhob.com^
 ||78847f3987.20211144a8.com^
 ||7890.5clo0xmbf.com^
 ||7892.5clo0xmbf.com^
@@ -2001,7 +2017,6 @@
 ||80yc.com/js/yidong/
 ||810236abc0.dfec4f079e.com^
 ||8115.5clo0xmbf.com^
-||8116.5clo0xmbf.com^
 ||8131.qizhihaotian.cn^
 ||8133.5clo0xmbf.com^
 ||8185.5clo0xmbf.com^
@@ -2012,18 +2027,17 @@
 ||81e98c5a38.aac585e70c.com^
 ||81wx.info^
 ||823d58dda1.3edcc83467.com^
-||82c39cef22.0a3036d0e7.com^
 ||82o9v830.com^$third-party
 ||82zcb.icu^
 ||83.222.115.150/?type=
 ||83133.com/api/
 ||831e34ade6.ccaa0e51d8.com^
 ||8320.5clo0xmbf.com^
+||8345efe11f.8d742929b8.com^
 ||835images1.com^
-||8379.4puuqeh41.com^
 ||8383.5clo0xmbf.com^
 ||83c6c19972.776173f9e6.com^
-||8442.5clo0xmbf.com^
+||843104bed7.65f249bd43.com^
 ||8461.5clo0xmbf.com^
 ||8482.sosqboh85.com^
 ||84a0e8beca.5ede78f7a0.com^
@@ -2053,18 +2067,17 @@
 ||8684.com/com/sys_ad_
 ||8684.com/local/bdadv.
 ||8684.com/shuang11/
-||8692.79j68qav2.com^
 ||86uk.com/banners/
 ||86uk.com/uploads/*0.gif
 ||86uk.com/uploads/*0x
 ||8714.5clo0xmbf.com^
+||8715.bestinterestings.com^
 ||87442aa6f2.d473c08307.com^
 ||874547.men^
 ||8746.79j68qav2.com^
 ||8759.bestinterestings.com^
 ||8767.5clo0xmbf.com^
 ||876920.com^
-||8796.4puuqeh41.com^
 ||87asa.com^
 ||87d.xv5b.com^
 ||87f81e4343.d7ea5cbf87.com^
@@ -2148,6 +2161,7 @@
 ||8d8039a1eb.f63777e43d.com^
 ||8d80fcb421.a700fb9c8d.com^
 ||8d8d.me/images/dealer.gif
+||8d9a34f9cc.1c2884f59e.com^
 ||8e3aa1fda4.93c398a59e.com^
 ||8en.net^$third-party
 ||8feichai.com^
@@ -2325,7 +2339,6 @@
 ||9938.net/video/tvg/hot.js
 ||993ed443d6.f0c9ef4ecb.com^
 ||9944.seponews.com^
-||9945.4puuqeh41.com^
 ||9947.5clo0xmbf.com^
 ||9948.4puuqeh41.com^
 ||9949.4puuqeh41.com^
@@ -2368,6 +2381,7 @@
 ||99zns.top^
 ||99zuowen.com^*/gg.js
 ||9a15f0c926.02ce917efd.com^
+||9a3d699a42.f4042bb57f.com^
 ||9a6cds03.com^
 ||9a8123bbe5.73a70e581b.com^
 ||9a9c55f07d.665166e5a9.com^
@@ -2379,11 +2393,9 @@
 ||9c9281c723.fd39024d2a.com^
 ||9c93c6787b.a9ae7df45f.com^
 ||9cc9ckp.com^
-||9d17867bcd.4d3278a1fa.com^
 ||9d3464a212.eac77b4889.com^
 ||9d5ed16be3.2f2bef3deb.com^
 ||9d70e2dcea.c4024c9266.com^
-||9d7b16253b.58802ce8d9.com^
 ||9duw.com/js/sj
 ||9duw.com/pic/
 ||9e6b79c0d0.f4961f1b2e.com^
@@ -2440,6 +2452,7 @@
 ||a.10tianqi.com^
 ||a.1film.to^
 ||a.320981a9244924ef86ebdbb9eb877e9f21ce83f1e3cc89b2c5e7c3ff.com^
+||a.344eva.com^
 ||a.4aqq.com^
 ||a.52wubi.com^
 ||a.52zxw.com^
@@ -2489,6 +2502,7 @@
 ||a.cookpad-ads.com^
 ||a.cpbj8ddae04d.shop^
 ||a.craftbeerclub.com.ua^
+||a.cromq.xyz^
 ||a.dhoma.xyz^
 ||a.digitalgiftshopping.com^
 ||a.dlads.cn^$third-party
@@ -2661,7 +2675,7 @@
 ||a2.b310.com^
 ||a2.hotpornfile.org^
 ||a2.xinhuanet.com^
-||a21d5d92c2.59e5e13578.com^
+||a2712396a5.eed795c63c.com^
 ||a2d99f3f21.d02d499310.com^
 ||a2da7a7023.ada91b7b0f.com^
 ||a2dfp.net^
@@ -2705,7 +2719,9 @@
 ||a99hz.space^
 ||a9able.com^
 ||a9o.youlikeboys.com^
+||aa.429men.com^
 ||aa.4wank.com^
+||aa.fapnado.xxx^
 ||aa.gushiwen.org^
 ||aa.pornvideotop.com^
 ||aa.xiangxiangmf.com^
@@ -3147,6 +3163,7 @@
 ||admin.datingclix.com^
 ||admin.etology.com^
 ||admin.gettopple.com^
+||admin.redpathmedia.com^
 ||admin.shafttraffic.com^
 ||admin.trafficfactory.com^
 ||admin25.com/ad/
@@ -3399,6 +3416,7 @@
 ||adsupplyexchange.com^
 ||adsxtits.com^
 ||adsxtits.pro^
+||adsxyz.com^
 ||adsy.mail.bg^
 ||adsy.pw/games/games/adblocker2.js
 ||adsyou.pro^$third-party
@@ -4765,6 +4783,7 @@
 ||azdxypf.cn^
 ||azedu.az/share/share.php
 ||azedu.az/uploads/adds/
+||azenka.one^
 ||azerbaycan24.com/wp-content/uploads/*/on-off-electronics_n.gif
 ||azhibo.*/media/aimg/*.gif
 ||azhibo.*images/leisu.png
@@ -4870,7 +4889,6 @@
 ||baby-kingdom.com/reqsads?
 ||baby.thinkmore.top^
 ||babylon.com/*affID=$third-party
-||babynaz.xyz^
 ||bacdcdb004.88cff7936f.com^
 ||bacder.fun^
 ||bace10.top^
@@ -4976,6 +4994,8 @@
 ||baiduvjsbvjknlsvsv.com^
 ||baifen.music.baidu.com^
 ||baihuwang.com^$third-party
+||baijs02.xyz^
+||baijs03.xyz^
 ||baike.com/iframeheightforad.
 ||baikebcs.bdimg.com/*banner*.jpg
 ||baimakanshu.com/assets/public/
@@ -5646,7 +5666,6 @@
 ||blobopics.biz^$domain=picfox.org|picbank.tk
 ||block.s*block.com^$third-party
 ||blog-sokuhou.com^$domain=bakufu.jp
-||blog.andropps.com^
 ||blog.ipleaders.in/wp-content/uploads/2018/11/IPLEADERS-BLOG-calling-for-ads-1.png
 ||blog.ipleaders.in/wp-content/uploads/2018/11/lawsikho-ad-22112018.gif
 ||blog.ipleaders.in/wp-content/uploads/2021/01/Internship-Banner.jpg
@@ -6183,7 +6202,6 @@
 ||c170ec0046.240aca2365.com^
 ||c18b449823.b616ca211a.com^
 ||c196c337d9.ade6b8430d.com^
-||c19dc968bf.561e861cb4.com^
 ||c1a6a94262.4a1c2f215f.com^
 ||c1d8i3p6.com^
 ||c1ecda.com^
@@ -6195,7 +6213,6 @@
 ||c2c24.pl^$third-party
 ||c2i.startappnetwork.com^
 ||c2s.startappnetwork.com^
-||c348ffe089.b7f977b78d.com^
 ||c365b42d0b.50005582df.com^
 ||c3c450ea59.538ad181ab.com^
 ||c3s.bionestraff.pro^
@@ -6222,6 +6239,7 @@
 ||c59049439d.68d6b65e65.com^
 ||c5fa208d2a.feb6262526.com^
 ||c6.friok.com^
+||c632b21431.e3103b0963.com^
 ||c690749e06.6001628d3d.com^
 ||c6s.bionestraff.pro^
 ||c72w6.com^
@@ -6441,7 +6459,6 @@
 ||cb.momistmatico.com^
 ||cb1d14ec96.c38f521ff4.com^
 ||cb4265700a.4ed196b502.com^
-||cb489223cf.6e26fb1ae7.com^
 ||cb8fc37529.d15699e8b0.com^
 ||cba.pl/min.cba.js
 ||cbc9313ed1.7d3656bee3.com^
@@ -6499,6 +6516,7 @@
 ||cctv5.name/js/*foot.js
 ||cctv567.com/b/
 ||ccwxma.xyz^
+||cd612e7a49.4901967b4b.com^
 ||cda.pl/xml/pool.php
 ||cda.pl/xml_pool/*pool*.php
 ||cdazjxso.xyz^
@@ -6581,7 +6599,6 @@
 ||cdn.applixir.com^$third-party
 ||cdn.appnext.com^
 ||cdn.asce.xyz^
-||cdn.asdb.xyz^
 ||cdn.asdfix.com^
 ||cdn.asdnow.xyz^
 ||cdn.asecv.xyz^
@@ -6741,7 +6758,6 @@
 ||cdn.netcatx.com/adxchange^
 ||cdn.netcatx.com/bid^
 ||cdn.nlkli.com^
-||cdn.nlop.xyz^
 ||cdn.nmkli.com^
 ||cdn.norymo.com^
 ||cdn.npcta.xyz^
@@ -6994,10 +7010,12 @@
 ||ceshi127722.obs.cn-north-4.myhuaweicloud.com^
 ||cf-ads.pinger.com^
 ||cf035299fa.9123c34615.com^
+||cf0b61e617.f0eba64ba6.com^
 ||cf1fdc09bb.96424fcd96.com^
 ||cf5.rackcdn.com^$script,domain=cbssports.com
 ||cf545aa526.3eab231aec.com^
 ||cf7f345e1e.536e9f9126.com^
+||cf95d2fe6b.9159f9a13d.com^
 ||cf9c86d5de.f33207dc6c.com^
 ||cfateu.xyz^
 ||cfda4acf08.2f1a1a7f62.com^
@@ -7768,6 +7786,7 @@
 ||cpm.adlive.io^
 ||cpm.adoptadx.com^
 ||cpm.arbigo.com^
+||cpm.atunwadigital.com^
 ||cpm.audience.media^
 ||cpm.audiencedevelopers.com^
 ||cpm.brightmountainads.com^
@@ -7779,12 +7798,15 @@
 ||cpm.ergadx.com^
 ||cpm.felixads.com^
 ||cpm.geoadserver.com^
+||cpm.gravityadnetwork.io^
 ||cpm.gwmexchange.com^
+||cpm.kremsondigital.com^
 ||cpm.mediahubserver.com^
 ||cpm.metaadserving.com^
 ||cpm.monetixads.com^
 ||cpm.pubgenius.io^
 ||cpm.pulsefintech.net^
+||cpm.readywind.media^
 ||cpm.revlift.io^
 ||cpm.rtbanalytica.com^
 ||cpm.rtbwire.com^
@@ -8261,10 +8283,10 @@
 ||d5.sina.com.cn^$image,domain=~www.sina.com.cn
 ||d5004b487f.91a8a068d5.com^
 ||d56p.com/love/
+||d5ade17e1c.1e3de63378.com^
 ||d6.mobaders.com^
 ||d63784ea7f.cbd2dd06ba.com^
 ||d67p.com/love/
-||d692b70a4e.a6dc99d1a8.com^
 ||d6cto2pyf2ks.cloudfront.net^$domain=60fps.xyz
 ||d6swopgiplmy0.cloudfront.net^
 ||d7644a4674.d53d0454c1.com^
@@ -8275,6 +8297,7 @@
 ||d899faa8b1.79b1c4498b.com^
 ||d8a69af452.2392e86acc.com^
 ||d8fd54c4c5.7807091956.com^
+||d91b4c3a52.b4dda3f4a1.com^
 ||d985a9d2clzq5.cloudfront.net^
 ||d9leupuz17y6i.cloudfront.net^
 ||d9tnvwv7i2n85.cloudfront.net^
@@ -8845,7 +8868,6 @@
 ||dkvakldvnsv.com^
 ||dkyd6.xyz^
 ||dl.4kdownload.com/app/advertisement/
-||dl.4kporn.xxx^
 ||dl.crazyporn.xxx^
 ||dl.dropboxusercontent.com/s/*/progress-bar-scroll-ads.js
 ||dl.fatimacapos.com^
@@ -9044,6 +9066,7 @@
 ||doujinnomori.com/ad/
 ||doujs01.xyz^
 ||doujs02.xyz^
+||doujs03.xyz^
 ||douploads.net/sw_newone.js
 ||doupocangqiong1.com/js/ptwap.js
 ||doutula.com/img/upupoo/
@@ -9408,7 +9431,6 @@
 ||e8b77a634b.eddffea7e1.com^
 ||e9313b99fb.49f411f93f.com^
 ||e9b729472c.39268ea911.com^
-||ea18dad2af.82308721ac.com^
 ||ea2f8770c9.3e950d4353.com^
 ||eaaaej.icu^$third-party
 ||eab41496ab.7335ffd8bc.com^
@@ -9497,12 +9519,12 @@
 ||ebuqxsjq.com^
 ||ebwonro.cn^
 ||ec.didnsunns.com^
-||ec7ee6de9c.fd2a9dd918.com^
 ||ecami.xyz^
 ||eccbb.com^
 ||eccki.cn^
 ||eccn.com/js/gg.js
 ||eccn.com/js/popupad_
+||ecf076c000.3fe21d10b7.com^
 ||ecf31c06c3.d52a6b131d.com^
 ||echidna.hellotomorrow.agency^
 ||echidna.honeybadger.io^
@@ -10058,10 +10080,11 @@
 ||f18d369ca1.9d4e58e3a9.com^
 ||f1lws.top^
 ||f1tfmxzg.icu^
-||f217d2f8b9.bf18c2661e.com^
+||f2009d2dde.3d13c6ba2a.com^
 ||f21ea56300.e16a8cbec4.com^
 ||f23al.xyz^
 ||f23jjd8.xyz^
+||f29cf1f006.5cf02ebcd5.com^
 ||f2dsex1.com/public/fb*.png
 ||f32572586e.6207684432.com^
 ||f362.nola.com/script.js
@@ -10074,8 +10097,10 @@
 ||f526711e35.072c4580e8.com^
 ||f53773d684.b5942f941d.com^
 ||f53a.com^
+||f679bab577.ffd8c0e0ac.com^
 ||f6d49ce515.32abd54344.com^
 ||f70d00bbcf.614c5b2887.com^
+||f75516db7f.fff4e1295e.com^
 ||f75726ff72.4b7140e260.com^
 ||f7642e332d.6771600c3f.com^
 ||f77j6t2b.com^
@@ -10083,6 +10108,7 @@
 ||f780f.space^
 ||f7fe0.cyou^
 ||f8260e364f.9a08103287.com^
+||f860ddd061.6bc1f4d014.com^
 ||f87b2eeef9.1ad6ea4211.com^
 ||f8dy.tv/template/m1938/js/b
 ||f8dy.tv/template/m1938/js/foot.js
@@ -10154,7 +10180,6 @@
 ||fanpingbi*.gaokao.com^
 ||fanquanwang.com/uploads/ad/
 ||fans.*.space/fans/*.php
-||fansang.xyz^
 ||fantasticsmash.com^$third-party
 ||fantuan.name^
 ||fanyi.baidu.com/wise/afd
@@ -10318,6 +10343,7 @@
 ||ff.meikanguo.com^
 ||ff.psd8.com^
 ||ff.qichetansuo.com^
+||ff14044536.14a9004c2a.com^
 ||ffawfa.cn^
 ||ffb7c5bd32.05951bf6a3.com^
 ||ffdafx.xyz^
@@ -10402,8 +10428,11 @@
 ||filmstreaminghd.biz/player/banner.png
 ||filmstreaminghd.biz/player/play.php
 ||filmweb.pl/adbchk?v=
+||filter-eu.adportonic.com^
 ||filter-eu.dollopsdigital.com^
 ||filter-eu.expialidosius.com^
+||filter-eu.fstsrv9.com^
+||filter-eu.nexrtb.com^
 ||filter-eu.re-media.info^
 ||filter-eu.saroadexchange.com^
 ||filter.adflores.com^
@@ -11431,6 +11460,7 @@
 ||go-v4.savethereef.xyz^
 ||go.adltserv.com^
 ||go.admost.com^
+||go.bbrdbr.com^
 ||go.bestmobiworld.com^$third-party
 ||go.c4ptainn3lson.xyz^
 ||go.c4ptainr0berts.xyz^
@@ -11551,6 +11581,7 @@
 ||google-analytics.com$third-party
 ||google-analytics.com/analytics.js
 ||google-analytics.com^
+||google-js-01.xyz^
 ||google.com/ads/search/app?
 ||google.com/ads/search/app?*&caps=*sdkAdmobApiForAds
 ||google.com/adsense/ad
@@ -14885,6 +14916,7 @@
 ||kppt.cc/zhifu.jpg
 ||kpshx.douguo.com^
 ||kpyerxzn.xyz^
+||kq.myrtolbanzai.com^
 ||kqbrgl.icu^
 ||kqduogttdmryguw.com^
 ||kqjqripb.xyz^
@@ -15258,7 +15290,6 @@
 ||lendc.xyz^
 ||leng8.cc/assets/public/$script
 ||lengmen.cc/assets/public/
-||lengtikto.xyz^
 ||lenosoft.net/js/ad
 ||lenovo.com.cn/cms/2018-07-20/201807201014498251793.png
 ||lenovo.com.cn/lenovo/bid?clientType=
@@ -15295,6 +15326,7 @@
 ||lezbrja.cn^
 ||lezhutv.com/static/jquerys.js
 ||lf.hagweedtoytown.com^
+||lf.taxwaxgrego.com^
 ||lf9-static.bytednsdoc.com/obj/tos-cn-i-0813
 ||lfffzv.xyz^
 ||lffl.org/wp-content/uploads/*/Scopri-il-GM6.png
@@ -16848,7 +16880,6 @@
 ||motcmn.icu^
 ||moth.artsmia.org^
 ||moth.jkundp.at^
-||moth.treeferral.com^
 ||moth.underscoretw.com^
 ||motherless.com/floater_iframe.php
 ||motherporno.com/player/html.php?aid=
@@ -17148,7 +17179,6 @@
 ||mylengmen.com/assets/public/$script
 ||mylink.vc/nordcode.php
 ||mylinksite.com/wp-content/uploads/*/ads.jpg
-||mylives.xyz^
 ||mylmad.com^
 ||mylomza.pl/static/files/inline_images/*/inline__
 ||mylust.com/*.jsx
@@ -17802,6 +17832,7 @@
 ||oafishobservation.com^$third-party
 ||oaftaijo.net^
 ||oaihiiacb.com^
+||oainzuo.xyz^
 ||oajfpqojev.net^
 ||oalmbmf.xyz^
 ||oapsoulreen.net^
@@ -18012,6 +18043,7 @@
 ||onmstgh.icu^
 ||onnetwork.tv^$domain=ppe.pl
 ||onosyej.icu^
+||ontj.com^
 ||onx8.com/theme/tange/add/
 ||onx8.com/zb_users/theme/ydgreen/style/ad/
 ||onxeacj.cn^
@@ -18234,7 +18266,6 @@
 ||p.deporno.online^
 ||p.eikuaitao.com^$third-party
 ||p.gerdasetmay.site^
-||p.hgfdtujlknhkghf.site^
 ||p.htdjylhttfm0424.space^
 ||p.imagevk.site^
 ||p.junshi881.com^
@@ -19660,7 +19691,6 @@
 ||qontent.pomvideo.cc^
 ||qooav.top^
 ||qoqoangry.com^
-||qoqv.com^
 ||qortex.ai^
 ||qoswfds.cn^
 ||qovua60gue.tubewolf.com^
@@ -19794,6 +19824,7 @@
 ||quirkysugar.com^$third-party
 ||quitzon.net^$all
 ||quiziizz.github.io/cdnjs.js
+||quizna.xyz^
 ||quizzicalpartner.com^$third-party
 ||quizzicalzephyr.com^$third-party
 ||qujishu.com^
@@ -20107,6 +20138,7 @@
 ||regulatesleet.com^$third-party
 ||regwiuv.cn^
 ||rehabilitatereason.com^$third-party
+||reindeer.cablemod.com^
 ||reindeer.iainbroome.com^
 ||reindeer.pablomaceda.com^
 ||rejectfairies.com^$third-party
@@ -20150,6 +20182,7 @@
 ||reqde.afreecatv.com^
 ||requirejs.cn/ts.png
 ||reryn3ce.com^
+||rerynjia.com^
 ||rerynjie.com^
 ||res.17track.net/asset/imgs/shopify/ShopifyApp.gif
 ||res.adx.opera.com^
@@ -20441,6 +20474,7 @@
 ||rtb-apac-v4.voisetech.com^
 ||rtb-apac.adportmedia.com^
 ||rtb-apac.broadadx.com^
+||rtb-apac.ergadx.com^
 ||rtb-apac.houseofpubs.com^
 ||rtb-apac.intellectscoop.com^
 ||rtb-apac.kinesis-rtb.com^
@@ -20449,6 +20483,7 @@
 ||rtb-as-uswest.pulsefintech.net^
 ||rtb-eu-v4.adlive.io^
 ||rtb-eu-v4.admozartexchange.com^
+||rtb-eu-v4.clickmi.net^
 ||rtb-eu-v4.monetixads.com^
 ||rtb-eu-v4.servvidisplay.com^
 ||rtb-eu-v4.voisetech.com^
@@ -20472,6 +20507,7 @@
 ||rtb-useast-v4.cranberryads.com^
 ||rtb-useast-v4.datadrives.ai^
 ||rtb-useast-v4.infinityexplorers.com^
+||rtb-useast-v4.intelligent.bid^
 ||rtb-useast-v4.nebulaads.com^
 ||rtb-useast-v4.pronivydigital.com^
 ||rtb-useast-v4.sahrel-server.com^
@@ -20518,23 +20554,28 @@
 ||rtb-useast.rtbflairads.com^
 ||rtb-useast.stringads.com^
 ||rtb-useast.superads.cn^
+||rtb-useast.thetrafficboss.com^
 ||rtb-useast.voisetech.com^
 ||rtb-useast.vyadd.com^
 ||rtb-useast.westcom.tv^
 ||rtb-useast.wxadserve.xyz^
+||rtb-uswest-ak.solomath.com^
 ||rtb-uswest-v4.admozartexchange.com^
 ||rtb-uswest-v4.voisetech.com^
+||rtb-uswest.adflores.com^
 ||rtb-uswest.admeridianopenrtb.com^
 ||rtb-uswest.admidadsp.com^
 ||rtb-uswest.adokutrtb.com^
 ||rtb-uswest.audience.media^
 ||rtb-uswest.boffoadsapi.com^
 ||rtb-uswest.denakop.com^
+||rtb-uswest.hueadsortb.com^
 ||rtb-uswest.imprexis.biz^
 ||rtb-uswest.kremsondigital.com^
 ||rtb-uswest.mobclixs.com^
 ||rtb-uswest.nativeadshb.com^
 ||rtb-uswest.next-traffic.com^
+||rtb-uswest.omnijay.com^
 ||rtb-uswest.rtbflairads.com^
 ||rtb.advertrek.com^
 ||rtb.appbid.com^
@@ -20542,6 +20583,7 @@
 ||rtb.nowsrv.com^
 ||rtb.trafficfactory.com^
 ||rtb2-apac.applabs.live^
+||rtb2-apac.gravityadnetwork.io^
 ||rtb2-apac.onenativeads.com^
 ||rtb2-apac.torchad.com^
 ||rtb2-eu.applabs.live^
@@ -20554,9 +20596,11 @@
 ||rtb2-useast.engagesimply.com^
 ||rtb2-useast.gammae.com^
 ||rtb2-useast.geopop.io^
+||rtb2-useast.gravityadnetwork.io^
 ||rtb2-useast.t3dsp.com^
 ||rtb2-useast.torchad.com^
 ||rtb2-uswest.applabs.live^
+||rtb2-uswest.n-data.io^
 ||rtb2-uswest.webithr.com^
 ||rtb2.vashoot.com^
 ||rtbadzesto.com^
@@ -20684,6 +20728,7 @@
 ||s-msn.com/portal/xiatui.js
 ||s-odx.oleads.com^
 ||s.*.com/pp.php?uid=$third-party
+||s.344eva.com^
 ||s.4cola.com^$third-party
 ||s.4tr.cc^$third-party
 ||s.a3ion.com/splash.php?$removeparam
@@ -22245,6 +22290,7 @@
 ||static-rtb.adksrv.com^
 ||static-rtb2.adpix.online^
 ||static-rtb2.applabs.live^
+||static-rtb2.gravityadnetwork.io^
 ||static-rtb2.n-data.io^
 ||static-rtb2.torchad.com^
 ||static-ss.xvideos-cdn.com/*/js/skins/min/default.pp.static.js
@@ -22320,6 +22366,7 @@
 ||static.rtb-serve.com^
 ||static.rtbwire.com^
 ||static.rtxfeed.com^
+||static.rvndigital.com^
 ||static.selfpua.com/mnpw.js
 ||static.servingserved.com^
 ||static.showheroes.com/publishertag.js
@@ -22677,6 +22724,7 @@
 ||sxundrh.cn^
 ||sxvideohs48241.34gwl8v1a.com^
 ||sxvideohsa48243.34gwl8v1a.com^
+||sxvideohsa48244.34gwl8v1a.com^
 ||sxyprn.*/player/p12.js
 ||sy.sartishmoop.com^
 ||sybnzs.cn^
@@ -22835,7 +22883,6 @@
 ||tafuzcxr.xyz^
 ||tag.atom.gamedistribution.com/v*/rainbow?
 ||tag.winister.app^
-||tagbucks.xyz^
 ||tagmai.xyz^
 ||tagrec.sphdigital.com^
 ||tagrua.xyz^
@@ -23428,7 +23475,6 @@
 ||tnvnnn.xyz^
 ||tnwcdn.com/assets/next/js/tnw-ads.*.js
 ||tny.so/sw-$script
-||toabuck.xyz^
 ||toad.ettiennevorster.co.za^
 ||toastspinner.com^
 ||tobapplog.ctobsnssdk.com^
@@ -23564,6 +23610,7 @@
 ||tq-eu.minsonbar2.online^
 ||tq-eu.mpds-smart1.online^
 ||tq-eu.mpds-smart2.online^
+||tq-eu.mpds-smart3.online^
 ||tq-eu.optimalscreen2.online^
 ||tq.clouback-1.online^
 ||tq.clouback-3.online^
@@ -23571,8 +23618,10 @@
 ||tq.ldnpointer.online^
 ||tq.martlochoco1.online^
 ||tq.martlochoco2.online^
+||tq.minsonbar2.online^
 ||tq.mpds-smart1.online^
 ||tq.mpds-smart2.online^
+||tq.mpds-smart3.online^
 ||tq.optimalscreen2.online^
 ||tq.otbackstage1.online^
 ||tq.pdn-eu.com^
@@ -23610,6 +23659,7 @@
 ||tracking.rus.miui.com^
 ||tracking.scenepass.com^
 ||trackitonline.ru/pics/lety.gif
+||trackwilltrk.com^
 ||tradeadexchange.com^
 ||traderviet.com/data/Siropu/$image
 ||tradetooth.com^$third-party
@@ -23855,6 +23905,7 @@
 ||tuwan.com/myad/
 ||tuwaqtjcood.com^
 ||tuyyex.icu^
+||tv.terbit21.app/client.php
 ||tv2box.com/img_1g/
 ||tv699.com/AllTemplet/js/
 ||tv699.com/Templet699/js/
@@ -24775,7 +24826,6 @@
 ||vivud.com/eb/api.php^
 ||vivud.com/iframe/MOBILE_TOP_PLAYER/
 ||vivud.com/js/pns.min.js
-||vivuple.xyz^
 ||vixajghi.xyz^
 ||vizacasa.xyz^
 ||vizcloud.co/AAA/$script
@@ -25366,6 +25416,7 @@
 ||wildebeest.soft-spoken.dev^
 ||wildebeest.trigo.dev^
 ||wildernesscamera.com^$third-party
+||wildfowl.getmoneyoff.com^
 ||wildfowl.minter.io^
 ||wildwist.com^
 ||willalland.info^$third-party
@@ -25376,6 +25427,7 @@
 ||win-rtb2-useast.assemblyexchange.com^
 ||win-rtb2-useast.torchad.com^
 ||win-rtb2-useast.webithr.com^
+||win-rtb2-uswest.n-data.io^
 ||win007.com/js/flashad
 ||win007.com/mn/
 ||win0168.com/images/item.gif
@@ -25619,7 +25671,6 @@
 ||wwqfqq.com^
 ||www-dnwx-com.anquanbao.cn/pic
 ||www-moviesflix.com^$domain=zipurls.com
-||www.0s09t235s.com^
 ||www.16m.cc^
 ||www.200ps.com^
 ||www.288txt.com/da/*.js
@@ -25655,7 +25706,6 @@
 ||www.china.com.cn/node_$domain=news.china.com.cn
 ||www.cicamica.xyz^
 ||www.claiks.com^
-||www.cosmicnewspulse.com^
 ||www.cqyj3ii7r.com^
 ||www.dahe6f.com^
 ||www.dayangfa.com^
@@ -26174,6 +26224,7 @@
 ||xml-eu-v4.9versemedia.com^
 ||xml-eu-v4.adportonic.com^
 ||xml-eu-v4.adsfloow.net^
+||xml-eu-v4.clickmi.net^
 ||xml-eu-v4.clouback-1.online^
 ||xml-eu-v4.clouback-3.online^
 ||xml-eu-v4.clouback-4.online^
@@ -26187,6 +26238,7 @@
 ||xml-eu-v4.minsonbar2.online^
 ||xml-eu-v4.mpds-smart1.online^
 ||xml-eu-v4.mpds-smart2.online^
+||xml-eu-v4.mpds-smart3.online^
 ||xml-eu-v4.optimalscreen2.online^
 ||xml-eu-v4.otbackstage1.online^
 ||xml-eu-v4.pxfind3.com^
@@ -26203,6 +26255,7 @@
 ||xml-v4.100conversions.com^
 ||xml-v4.9versemedia.com^
 ||xml-v4.adportonic.com^
+||xml-v4.adscholars.com^
 ||xml-v4.adsfloow.net^
 ||xml-v4.adtapmedia.com^
 ||xml-v4.adzreach.com^
@@ -26238,6 +26291,7 @@
 ||xml-v4.minsonbar2.online^
 ||xml-v4.mpds-smart1.online^
 ||xml-v4.mpds-smart2.online^
+||xml-v4.mpds-smart3.online^
 ||xml-v4.nexrtb.com^
 ||xml-v4.optimalscreen2.online^
 ||xml-v4.otbackstage1.online^
@@ -26266,6 +26320,7 @@
 ||xml.adkrivmedia.com^
 ||xml.admozartppc.com^
 ||xml.adportonic.com^
+||xml.ads9.com^
 ||xml.adsailor.com^
 ||xml.adscompute.com^
 ||xml.adsfloow.net^
@@ -26335,6 +26390,7 @@
 ||xml.mobreach.com^
 ||xml.mpds-smart1.online^
 ||xml.mpds-smart2.online^
+||xml.mpds-smart3.online^
 ||xml.myadcampaigns.com^
 ||xml.mymedia.club^
 ||xml.nexrtb.com^
@@ -26861,6 +26917,7 @@
 ||yfsstec96.xyz^
 ||yfzpxnb.xyz^
 ||yg.coehornjobbet.com^
+||yg.jivinggrazers.com^
 ||yg006.com/attachment/js/
 ||yg006.com/attachment/xjdb.jpg
 ||ygfgzmzo.xyz^
@@ -27876,7 +27933,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>34419
+!<<<<<网站单独规则>>>>>34431
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe.com,badfilter
 $image,third-party,denyallow=cdn77.org|fpbns.net|others-cdn.com|rncdn7.com|sb-cd.com|stream.highwebmedia.com|upsiloncdn.net|xvideos-cdn.com|youjizz.com|ypncdn.com,domain=pussyspace.com|pussyspace.net
@@ -28047,7 +28104,7 @@ $xmlhttprequest,third-party,denyallow=rsc.cdn77.org|linkvertise.com|fastly.net|s
 111.90.150.149##.theiaStickySidebar a[target="_blank"] > img
 111.90.159.132##+js(set-constant, Object.prototype.shouldPlayPreroll, falseFunc)
 1111.baidu.com,ala.baidu.com,bdimg.com,nani.baidu.com,tieba.baidu.com,tieba.com,wefan.baidu.com,xingqu.baidu.com##.tbui_aside_float_bar + .clearfix
-1111.baidu.com,bdimg.com,ehftv.com,galleryxh.site,hamsterix.*,m.bombardir.ru,megaxh.com,openxh.com,openxh1.com,pornone.com,rambler.ru,seexh.com,stripchat.com,taoxh.life,tieba.baidu.com,tieba.com,xhaccess.com,xhadult2.com,xhadult3.com,xhamster.com,xhamster.desi,xhamster.one,xhamster1.desi,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster16.*,xhamster17.*,xhamster18.*,xhamster18.desi,xhamster19.com,xhamster19.desi,xhamster2.com,xhamster2.desi,xhamster20.com,xhamster20.desi,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,xhamster3.*,xhamster3.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster39.com,xhamster4.desi,xhamster40.com,xhamster42.desi,xhamster5.desi,xhamster7.com,xhamster8.com,xhamster9.com,xhbig.com,xhbranch5.com,xhmoon5.com,xhofficial.com,xhopen.com,xhplanet2.com,xhtab2.com,xhvid.com,xhwebsite2.com,xhwide1.com,xingqu.baidu.com,xxxvogue.net##.banner-wrapper
+1111.baidu.com,bdimg.com,ehftv.com,galleryxh.site,hamsterix.*,m.bombardir.ru,megaxh.com,openxh.com,openxh1.com,pornone.com,rambler.ru,seexh.com,stripchat.com,taoxh.life,tieba.baidu.com,tieba.com,xhaccess.com,xhadult2.com,xhadult3.com,xhamster.com,xhamster.desi,xhamster.one,xhamster1.desi,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster16.*,xhamster17.*,xhamster18.*,xhamster18.desi,xhamster19.com,xhamster19.desi,xhamster2.com,xhamster2.desi,xhamster20.com,xhamster20.desi,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,xhamster3.*,xhamster3.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster39.com,xhamster4.desi,xhamster40.com,xhamster42.desi,xhamster5.desi,xhamster7.com,xhamster8.com,xhamster9.com,xhbig.com,xhbranch5.com,xhmoon5.com,xhofficial.com,xhopen.com,xhplanet2.com,xhtab2.com,xhtab4.com,xhvid.com,xhwebsite2.com,xhwide1.com,xingqu.baidu.com,xxxvogue.net##.banner-wrapper
 1111.baidu.com,bdimg.com,live.baidu.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###fixed_bar
 1111.baidu.com,bdimg.com,live.baidu.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###fixed_daoliu
 1111.baidu.com,bdimg.com,live.baidu.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###global_notice_wrap
@@ -28205,7 +28262,7 @@ $xmlhttprequest,third-party,denyallow=rsc.cdn77.org|linkvertise.com|fastly.net|s
 123-hd.com,ksbbs.com,kshot.com###banner_top
 123-movies.life##.les-content > a.streamaly
 123-movies.life,123movies4u.icu##.ann-home
-123-movies.zone,1337xx.to,19turanosephantasia.com,1l1l.to,30sensualizeexpression.com,321naturelikefurfuroid.com,35volitantplimsoles5.com,449unceremoniousnasoseptal.com,allmoviesforyou.net,anichin.top,antecoxalbobbing1010.com,apinchcaseation.com,arponag.xyz,audaciousdefaulthouse.com,availedsmallest.com,bigclatterhomesguideservice.com,bluemediadownload.*,bluemediafile.*,bluemediafiles.*,bluemedialink.online,bluemediaurls.lol,boonlessbestselling244.com,bradleyviewdoctor.com,brookethoughi.com,brucevotewithin.com,chromotypic.com,cigarlessarefy.com,cindyeyefinal.com,cineb.net,cineb.rs,coinsearns.com,coinsurl.com,coolrea.link,counterclockwisejacky.com,cuevana3.*,cyamidpulverulence530.com,d0000d.com,d000d.com,denisegrowthwide.com,dlpanda.com,do0od.com,dood.la,dood.pm,dood.re,dood.so,dood.to,dood.watch,dood.wf,dood.ws,dood.yt,doods.pro,dooood.com,dropgalaxy.com,ds2play.com,edwardarriveoften.com,exe.app,exee.app,exep.app,f2movies.to,figeterpiazine.com,fireload.com,fittingcentermondaysunday.com,fraudclatterflyingcar.com,gamoneinterrupted.com,generatesnitrosate.com,get-to.link,graceaddresscommunity.com,guidon40hyporadius9.com,himovies.sx,housecardsummerbutton.com,igg-games.co,igg-games.com,jamesstartstudent.com,jamiesamewalk.com,jasonresponsemeasure.com,javhd.today,jayservicestuff.com,johntryopen.com,just-upload.com,kathleenmemberhistory.com,kennethofficialitem.com,kimcartoon.li,kissanimefree.cc,kissasian.*,klmanga.net,launchreliantcleaverriver.com,limetorrents.lol,loriwithinfamily.com,luckydice.net,lukecomparetwo.com,mangago.me,markstyleall.com,matriculant401merited.com,metagnathtuggers.com,michaelapplysome.com,monorhinouscassaba.com,morganoperationface.com,moviesjoyhd.to,musichq.pe,nectareousoverelate.com,nonesnanking.com,oxtorrent.sk,pahe.li,paulkitchendark.com,pelisplushd.net,phenomenalityuniform.com,prefulfilloverdoor.com,rationalityaloelike.com,realfinanceblogcenter.com,rebeccaneverbase.com,reputationsheriffkennethsand.com,ryanagoinvolve.com,sandrataxeight.com,scatch176duplicities.com,seanshowcould.com,sethniceletter.com,shannonpersonalcost.com,sharonwhiledemocratic.com,simpulumlamerop.com,sizyreelingly.com,soap2day.*,solarmovie.pe,stevenimaginelittle.com,strawberriesporail.com,streamvid.net,timberwoodanotia.com,tinycat-voe-fashion.com,tinyzonetv.se,torrentmac.net,toxitabellaeatrebates306.com,troyyourlead.com,truyengihotnhat.com,tubelessceliolymph.com,tuktukcinema.*,tummulerviolableness.com,un-block-voe.net,updown.ninja,uptodatefinishconferenceroom.com,urlbluemedia.*,urlcut.ninja,urochsunloath.com,v-o-e-unblock.com,valeronevijao.com,vdbtm.shop,vincentincludesuccessful.com,voe-un-block.com,voe-unblock.*,voe.bar,voe.sx,voeun-block.net,voeunbl0ck.com,voeunblck.com,voeunblk.com,voeunblock.com,voeunblock1.com,voeunblock2.com,voeunblock3.com,w123moviesfree.net,wolfdyslectic.com,yodelswartlike.com,ziperto.com,zoro.se##+js(abort-current-script, globalThis, break;case)
+123-movies.zone,1337xx.to,19turanosephantasia.com,1l1l.to,30sensualizeexpression.com,321naturelikefurfuroid.com,35volitantplimsoles5.com,449unceremoniousnasoseptal.com,allmoviesforyou.net,anichin.top,antecoxalbobbing1010.com,apinchcaseation.com,arponag.xyz,audaciousdefaulthouse.com,availedsmallest.com,bigclatterhomesguideservice.com,bluemediadownload.*,bluemediafile.*,bluemediafiles.*,bluemedialink.online,bluemediaurls.lol,boonlessbestselling244.com,bradleyviewdoctor.com,brookethoughi.com,brucevotewithin.com,chromotypic.com,cigarlessarefy.com,cindyeyefinal.com,cineb.net,cineb.rs,coinsearns.com,coinsurl.com,coolrea.link,counterclockwisejacky.com,cuevana3.*,cyamidpulverulence530.com,d0000d.com,d000d.com,denisegrowthwide.com,dlpanda.com,do0od.com,dood.la,dood.pm,dood.re,dood.so,dood.to,dood.watch,dood.wf,dood.ws,dood.yt,doods.pro,dooood.com,dropgalaxy.com,ds2play.com,edwardarriveoften.com,exe.app,exee.app,exep.app,f2movies.to,figeterpiazine.com,fireload.com,fittingcentermondaysunday.com,fraudclatterflyingcar.com,gamoneinterrupted.com,generatesnitrosate.com,get-to.link,graceaddresscommunity.com,guidon40hyporadius9.com,himovies.sx,housecardsummerbutton.com,igg-games.co,igg-games.com,jamesstartstudent.com,jamiesamewalk.com,jasonresponsemeasure.com,javhd.today,jayservicestuff.com,johntryopen.com,just-upload.com,kathleenmemberhistory.com,kennethofficialitem.com,kimcartoon.li,kissanimefree.cc,kissasian.*,klmanga.net,launchreliantcleaverriver.com,limetorrents.lol,loriwithinfamily.com,luckydice.net,lukecomparetwo.com,mangago.me,markstyleall.com,matriculant401merited.com,metagnathtuggers.com,michaelapplysome.com,monorhinouscassaba.com,morganoperationface.com,moviesjoyhd.to,musichq.pe,nectareousoverelate.com,nonesnanking.com,oxtorrent.sk,pahe.li,paulkitchendark.com,pelisplushd.net,phenomenalityuniform.com,prefulfilloverdoor.com,rationalityaloelike.com,readcomiconline.li,realfinanceblogcenter.com,rebeccaneverbase.com,reputationsheriffkennethsand.com,ryanagoinvolve.com,sandrataxeight.com,scatch176duplicities.com,seanshowcould.com,sethniceletter.com,shannonpersonalcost.com,sharonwhiledemocratic.com,simpulumlamerop.com,sizyreelingly.com,soap2day.*,solarmovie.pe,stevenimaginelittle.com,strawberriesporail.com,streamvid.net,timberwoodanotia.com,tinycat-voe-fashion.com,tinyzonetv.se,torrentmac.net,toxitabellaeatrebates306.com,troyyourlead.com,truyengihotnhat.com,tubelessceliolymph.com,tuktukcinema.*,tummulerviolableness.com,un-block-voe.net,updown.ninja,uptodatefinishconferenceroom.com,urlbluemedia.*,urlcut.ninja,urochsunloath.com,v-o-e-unblock.com,valeronevijao.com,vdbtm.shop,vincentincludesuccessful.com,voe-un-block.com,voe-unblock.*,voe.bar,voe.sx,voeun-block.net,voeunbl0ck.com,voeunblck.com,voeunblk.com,voeunblock.com,voeunblock1.com,voeunblock2.com,voeunblock3.com,w123moviesfree.net,wolfdyslectic.com,yodelswartlike.com,ziperto.com,zoro.se##+js(abort-current-script, globalThis, break;case)
 123.chinaso.com##.right-list6
 123.com.cn##.img-banner
 123.sogou.com,daohang.qq.com,hao.qq.com##.guess
@@ -31817,7 +31874,7 @@ azertag.az##[href^="https://goo.gl"][target="_blank"] > img
 azlyrics.com##.lboard-wrap
 azlyrics.com##.ringtone
 azlyrics.com#?#.noprint:has(> span[id^="cf_async_"])
-azmath.info,hiraethtranslation.com,idlixofficial.co,idlixofficial.net,idlixofficials.com,mhdmaxtv.net,mhdsportstv.com,mhdtvmax.com,poplinks.sbs,sampledrive.in,sonixgvn.net,top10cafe.se##+js(abort-on-stack-trace, DOMTokenList.prototype.contains, manageBodyClasses)
+azmath.info,hiraethtranslation.com,idlixofficial.co,idlixofficial.net,idlixofficials.com,idlixplus.*,mhdmaxtv.net,mhdsportstv.com,mhdtvmax.com,poplinks.sbs,sampledrive.in,sonixgvn.net,top10cafe.se##+js(abort-on-stack-trace, DOMTokenList.prototype.contains, manageBodyClasses)
 azofreeware.com,gizguide.com,novelasesp.blogspot.com,pusatporn18.com,techcracked.com###HTML7
 azofreeware.com,itscybertech.com,keralatelecom.info,novelasesp.blogspot.com,pttjoke.com###HTML3
 azoranov.com##div[id^="sticky-ads-az-"]
@@ -36036,6 +36093,7 @@ di.se##.site-header__panorama
 diabetesincontrol.com#?#.theiaStickySidebar > div.widget:has(> div[class] > h4:contains(Advertisement))
 diamond.jp###gpt-dol-infeed-ranking
 diamond.jp###reworded-info
+diamond.jp##.list-box > div:has(> div.ad-related2)
 diamondfaucet.space##.form-group > div[id^="adm-container-"]
 diamondfaucet.space##.widget-3
 diamondfaucet.space##div.ablinksgroup
@@ -36307,6 +36365,7 @@ dmzj.com,mycq.qq.com##div[style^="width:960px;"]
 dn.pt##.t-columns-sys-col-2 > div[class^="t-columns-sys-col-box-"]
 dn.se##.sponsored-teaser
 dnaav.com##div[id^="dnaav_b"]
+dnaindia.com,wionews.com##.ads-box-300x250
 dndsearch.in#$#.myTestAd { height:1px !important; }
 dnepr.info##.img-top-abs
 dnes.cz##[id^="r-"]
@@ -44784,6 +44843,7 @@ kiemlua24h.co###d7b2
 kijiji.ca##div[data-testid="adsense-container"]
 kijiji.ca#?##base-layout-main-wrapper > div[class^="sc-"]:has(> div[class^="sc-"] > div#gpt-leaderboard-top)
 kijyomatome-ch.com,openworldnews.net,majikichi.com,majikichi.com,girlsvip-matome.com,sutekinakijo.com,onecall2ch.com,jin115.com,chaos2ch.com,bipblog.com,akb48matomemory.com,himasoku.com,blog.esuteru.com,kyousoku.net,vipsister23.com,blog.jp,2chblog.jp,doorblog.jp,livedoor.biz,blog.livedoor.jp###article-1_5
+kikibobo.com##.boxzilla-overlay
 kikinote.net##.pc_ad
 kikt-hentai.com##body > div[id="header_search"] + div[id][class]
 kiktu.com##+js(abort-current-script, $, google_ads_iframe_)
@@ -44868,6 +44928,7 @@ kisssub.org###kanban
 kisssub.org##a > img[src*=".0o0.ooo/"]
 kisstvshow.net,kisstvshow.to##.barContent > div:not([class]):not([id]) > div[style="width: 300px; margin: 0px auto;"]:not([class]):not([id])
 kisstvshow.net,kisstvshow.to##div[style="width: 620px; margin: 0px auto; overflow: hidden;"]:not([class]):not([id])
+kisstvshow.net,lifestylehack.info,keephealth.info,kimcartoon.li,kissorg.net,kisstvshow.to,kissasian.*##+js(abort-on-property-write, checkAdsBlocked)
 kisstvshow.net,lifestylehack.info,keephealth.info,kimcartoon.li,kissorg.net,kisstvshow.to,kissasian.*##+js(no-xhr-if, /mgid\.com|pagead2\.googlesyndication\.com/)
 kisstvshow.net,lifestylehack.info,keephealth.info,kimcartoon.li,kissorg.net,kisstvshow.to,kissasian.*##+js(set-constant, alb, false)
 kisstvshow.net,lifestylehack.info,keephealth.info,kimcartoon.li,kissorg.net,kisstvshow.to,kissasian.*##+js(set-constant, isAdb, false)
@@ -45127,9 +45188,9 @@ kurashiru.com###footer_banner_app
 kurashiru.com##.SpRoot-adsWrapper
 kurazone.net##.anuads
 kurier.de,np-coburg.de,frankenpost.de##div[data-b-title*="Traffective"]
-kurnik.pl#$#body .adsbygoogle { display: block!important; height: 2px!important; width: 1px!important; }
+kurnik.pl##+js(abort-on-property-write, abask)
+kurnik.pl#$#body ins.adsbygoogle[data-ad-slot] { display: block !important; height: 2px !important; width: 1px !important; }
 kurnik.pl#@$#.adsbygoogle { height: 1px !important; width: 1px !important; }
-kurnik.pl,playok.com##+js(abort-on-property-read, abask)
 kurobatch.com##body > #page > script + div[id][class*=" "]
 kursjs.pl##+js(no-setTimeout-if, wstretne-reklamy)
 kursors.lv##.wpb_wrapper small > span[style="color:gray"]
@@ -51562,6 +51623,7 @@ playno1.com##.eis_adv2
 playno1.com##.eis_mtm[style="border-top:1px dashed #CDCDCD;padding-top:10px; padding-bottom:15px"]
 playno1.com##.mn > div[style="margin-bottom:10px;"]
 playno1.com##.sd.pph
+playok.com##+js(abort-on-property-read, abask)
 playonlinux.com##div[style="text-align:center;  border-radius:7px; width:160px;  border:1px solid #666666;  margin-left:5px;padding-right:5px;color:#FFF;  background-color:#666;font-family:Maven Pro,century gothic, arial, helvetica, sans serif;padding-top:94px;  height:600px;  padding-left:5px; font-size:18px; "]
 playonlinux.com#?#.aside-menu > h1:contains(/Ads|Publicité|Werbung|Publicidad|Reklama|Реклама|Annonser|Reclame/)
 playporngames.com##+js(addEventListener-defuser, DOMContentLoaded, window.open)
@@ -53182,8 +53244,12 @@ rdc.pl##.advertisement_holder_box
 rdxhd.me##.add_poster
 react.libhunt.com##.lib-list > .feed-item:not(.lib)
 read.qidian.com##.operation-wrap
+readcomiconline.li###adbWarnContainer
 readcomiconline.li###ads-top-wrap
 readcomiconline.li##+js(abort-current-script, document.createElement, .quit))
+readcomiconline.li##+js(abort-on-property-write, checkAdsBlocked)
+readcomiconline.li##+js(no-xhr-if, /bidgear\.com|mgid\.com|pagead2\.googlesyndication\.com/)
+readcomiconline.li##+js(set-constant, isAdb, false)
 readheroacademia.com#?##main > .chapter_coin > center:has(> h3 > strong:contains(Advertisement))
 readheroacademia.com#?##main > .code-block[style] > center:has(> h3 > strong:contains(Advertisement))
 readhxh.com,readsnk.com,readkingdom.com,readonepiece.com,readvinlandsaga.com,watchoverlord2.com,demonslayermanga.com,read7deadlysins.com,readfairytail.com,readnaruto.com,watchsao.tv,watchgoblinslayer.com,readdrstone.com,dbsmanga.com,readopm.com,readkaguyasama.com,readjujutsukaisen.com,readtowerofgod.com,readnoblesse.com,readmha.com##.justify-center > div > b:first-child
@@ -59141,6 +59207,7 @@ vedbex.com###pasos
 vedbex.com##.card-body:has(> div > a > img[src^="/assets/banners/"])
 vedbex.com#$##pasosz { display: none !important; }
 veev.to##+js(abort-on-property-read, VEEVPop)
+veev.to##+js(set-constant, $veevplayer.context.$adblock.isEnabled, false)
 veev.to##+js(set-constant, fapit.check, noopFunc)
 veev.to##.player-video-av .info-card > a[target="_blank"] > img
 veev.to##.player-video-av:has(.info-card > a[target="_blank"] > img)
@@ -60341,6 +60408,7 @@ wiocha.pl###tnewsm
 wiocha.pl##div[id^="mrectinfo"]
 wiocha.pl##iframe[src^="https://www.wiocha.pl/subpages/"][src*=".php"]
 wionews.com##+js(set-constant, vgrAdBlock, false)
+wionews.com##.ad_fixed
 wionews.com##.ads-box-d90-m300
 wionews.com##body .posrelativebox
 wired.com##.ad-component--box
@@ -60813,6 +60881,7 @@ www.yelu-9dc5w3.top:42137,137.175.33.56:46789,www.lu-65369.top:42137,www.ldstv-9
 www.yelu-9dc5w3.top:42137,137.175.33.56:46789,www.lu-65369.top:42137,www.ldstv-97312.com:2083,www.khaingo.org,avwc.tv,xn--i8sw4gbv7cqbl.avwc542.top,www.okys51.com:2083,137.175.33.52:46789,www.ldstv-98217.com:2083###bottomNavad
 www.yitongqinba.com,tv.wssjczx.com##a[href*="/js/aa/*.html"]
 www.ykqzy.com##div[style="height: 122px;"]
+www.youtube.com##+js(adjust-setTimeout, [native code], 17000, 0.001)
 www.zhihu.com##A.MBannerAd
 www.zhihu.com##A.MHotFeedAd,.MRelateFeedAd,.WeiboAd-wrap,.AdvertImg.AdvertImg--isLoaded.MBannerAd-image,.Banner-adTag,[href='https://maimai.cn/']
 www.zhihu.com##button[class="DownloadGuide-downloadButton"]
@@ -60998,34 +61067,34 @@ xhamster.com#$#div[style*="adVideo"] { position: absolute!important; left: -3000
 xhamster11.com##+js(abort-on-property-write, wio-vpopunder)
 xhamster5.desi##+js(abort-on-property-read, wih-popunder)
 xhand.com##.video div[style^="text-align: center"]
-xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhadult2.com,xhmoon5.com,xhamster3.com,xhamster18.desi,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.com,xhamster14.com,xhamster15.com,xhamster17.com,xhamster18.com,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##.main-wrap div.ll-oTO
-xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhadult2.com,xhmoon5.com,xhamster3.com,xhamster18.desi,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.com,xhamster14.com,xhamster15.com,xhamster17.com,xhamster18.com,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##.thumb-list-mobile-item--widget
-xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhadult2.com,xhmoon5.com,xhamster3.com,xhamster18.desi,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.com,xhamster14.com,xhamster15.com,xhamster17.com,xhamster18.com,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##div[class*="banner-container"]
-xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster13.*,xhamster18.*,xhamster19.*,xhamster11.*,xhamster5.*,xhamster10.*,xhamster4.*,xhamster3.*,xhamster2.*,xhamster.*##.thumb-list-mobile > .thumb-list-mobile-item--widget
-xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster13.*,xhamster18.*,xhamster19.*,xhamster11.*,xhamster5.*,xhamster10.*,xhamster4.*,xhamster3.*,xhamster2.*,xhamster.*##.video-page__layout-ad
-xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.*,xhplanet2.com,xhamster18.*,xhamster17.*,megaxh.com,xhamster16.*,hamsterix.*,xhamster13.*,xhamster10.*,xhamster4.*,xhamster3.*,xhamster2.*,xhamster.*##+js(abort-current-script, document.createElement, initTabUnder)
-xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.*,xhplanet2.com,xhamster18.*,xhamster17.*,megaxh.com,xhamster16.*,hamsterix.*,xhamster13.*,xhamster10.*,xhamster4.*,xhamster3.*,xhamster2.*,xhamster.*##+js(cookie-remover, video_view_count)
-xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.*,xhplanet2.com,xhamster18.*,xhamster17.*,megaxh.com,xhamster16.*,hamsterix.*,xhamster13.*,xhamster10.*,xhamster4.*,xhamster3.*,xhamster2.*,xhamster.*##+js(set-local-storage-item, popseen, true)
-xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##.clipstore-bottom
-xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##.traffic-stars
-xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##.video-thumb[class*="__look-like-item"]
-xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##.xplayer-banner
-xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##[class^="yld-pc"]
-xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##a[href^="https://faphouse.com/"]
-xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##div.xp-banner-bottom
-xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##div[class$="-containerPauseSpot"]
-xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##div[class*="cams-wgt"]
-xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##div[class*="containerBottomSpot"]
-xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##div[class*="pauseSpotContainer"]
-xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##div[class*="premium-overlay"]
-xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##div[class*="sp-b"]
-xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##div[data-testid="right-banner-section"]
 xhdporno.sexy#?#.contentbl > #preview:has(> .innercont > div[class^="preview_screen"] > .preview_title:contains(Advertisement))
 xhofficial.com,xhamster.com,xhamster2.com,xhamster.desi,xhamster18.desi,xhamster2.desi,xhamster19.com,xhofficial.desi,xhamster1.desi##.bottom-widget-section,.clipstore-bottom,.player-add-overlay,.promo-message,.sponsorBottom,.video-view-ads,.xplayer-b,.xplayer-hover-menu
 xhofficial.com,xhamster.com,xhamster2.com,xhamster.desi,xhamster18.desi,xhamster2.desi,xhamster19.com,xhofficial.desi,xhamster1.desi##.rCTON-zHMno-ts-init
 xhofficial.com,xhamster.com,xhamster2.com,xhamster.desi,xhamster18.desi,xhamster2.desi,xhamster19.com,xhofficial.desi,xhamster1.desi##[class$="-pause"],[class*="ads"],[class*="video-view-ads"],[class*="view-ads"],[class*="wio-"],[class*="wixx-"],[class*="yld-"],[class*="yxd-j"],[class^="xp-banner"],[class^="xplayer-banner"],a[href*="adblocked"][target="_blank"],[data-role^="yld-"],[class^="xplayer-ads"]
 xhofficial.com,xhamster.com,xhamster2.com,xhamster.desi,xhamster18.desi,xhamster2.desi,xhamster19.com,xhofficial.desi,xhamster1.desi##aside:nth-child(n+1)
 xhofficial.com,xhamster.com,xhamster2.com,xhamster.desi,xhamster18.desi,xhamster2.desi,xhamster19.com,xhofficial.desi,xhamster1.desi##div[class]:has(> div > a[href*="live."])
+xhtab4.com,xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhadult2.com,xhmoon5.com,xhamster3.com,xhamster18.desi,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.com,xhamster14.com,xhamster15.com,xhamster17.com,xhamster18.com,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##.main-wrap div.ll-oTO
+xhtab4.com,xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhadult2.com,xhmoon5.com,xhamster3.com,xhamster18.desi,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.com,xhamster14.com,xhamster15.com,xhamster17.com,xhamster18.com,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##.thumb-list-mobile-item--widget
+xhtab4.com,xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhadult2.com,xhmoon5.com,xhamster3.com,xhamster18.desi,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.com,xhamster14.com,xhamster15.com,xhamster17.com,xhamster18.com,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##div[class*="banner-container"]
+xhtab4.com,xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster13.*,xhamster18.*,xhamster19.*,xhamster11.*,xhamster5.*,xhamster10.*,xhamster4.*,xhamster3.*,xhamster2.*,xhamster.*##.thumb-list-mobile > .thumb-list-mobile-item--widget
+xhtab4.com,xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster13.*,xhamster18.*,xhamster19.*,xhamster11.*,xhamster5.*,xhamster10.*,xhamster4.*,xhamster3.*,xhamster2.*,xhamster.*##.video-page__layout-ad
+xhtab4.com,xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.*,xhplanet2.com,xhamster18.*,xhamster17.*,megaxh.com,xhamster16.*,hamsterix.*,xhamster13.*,xhamster10.*,xhamster4.*,xhamster3.*,xhamster2.*,xhamster.*##+js(abort-current-script, document.createElement, initTabUnder)
+xhtab4.com,xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.*,xhplanet2.com,xhamster18.*,xhamster17.*,megaxh.com,xhamster16.*,hamsterix.*,xhamster13.*,xhamster10.*,xhamster4.*,xhamster3.*,xhamster2.*,xhamster.*##+js(cookie-remover, video_view_count)
+xhtab4.com,xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.*,xhplanet2.com,xhamster18.*,xhamster17.*,megaxh.com,xhamster16.*,hamsterix.*,xhamster13.*,xhamster10.*,xhamster4.*,xhamster3.*,xhamster2.*,xhamster.*##+js(set-local-storage-item, popseen, true)
+xhtab4.com,xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##.clipstore-bottom
+xhtab4.com,xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##.traffic-stars
+xhtab4.com,xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##.video-thumb[class*="__look-like-item"]
+xhtab4.com,xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##.xplayer-banner
+xhtab4.com,xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##[class^="yld-pc"]
+xhtab4.com,xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##a[href^="https://faphouse.com/"]
+xhtab4.com,xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##div.xp-banner-bottom
+xhtab4.com,xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##div[class$="-containerPauseSpot"]
+xhtab4.com,xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##div[class*="cams-wgt"]
+xhtab4.com,xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##div[class*="containerBottomSpot"]
+xhtab4.com,xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##div[class*="pauseSpotContainer"]
+xhtab4.com,xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##div[class*="premium-overlay"]
+xhtab4.com,xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##div[class*="sp-b"]
+xhtab4.com,xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##div[data-testid="right-banner-section"]
 xhtml?$domain=kanshu8.net
 xhvid.com,xhwebsite2.com,xhadult3.com,xhmoon5.com,xhamster3.*,xhplanet2.com,xhamster16.*,hamsterix.*,xhamster13.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.com,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,xhamsterpremium.com#$#.thumb-list > .video-thumb { margin-right: 0px !important; }
 xhzysh.com,rujiapawn.com,sysjbz.com,zq3q.com,j1069.com,tvyb03.com,tvyb01.com,tvyb02.com,tvyb06.com,hktv02.com,hktv06.com,meijumi.xyz,meijumi.buzz,meijumi.com,sbdm.net,fantuanhd.com,kankanju.cc,renren.pro,sstv.fun##*[style*="bottom"],[class$="_b"]
@@ -62298,7 +62367,7 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 zzzyk.com###Tinfo
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>3245
+!<<<<<通配符规则>>>>>3246
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe.com,badfilter
 $image,third-party,denyallow=cdn77.org|fpbns.net|others-cdn.com|rncdn7.com|sb-cd.com|stream.highwebmedia.com|upsiloncdn.net|xvideos-cdn.com|youjizz.com|ypncdn.com,domain=pussyspace.com|pussyspace.net
@@ -65322,6 +65391,7 @@ $xmlhttprequest,third-party,denyallow=rsc.cdn77.org|linkvertise.com|fastly.net|s
 ://dpic.*.cn/*.txt$third-party
 ://dreemdmbabys.oss-cn-
 ://e.*.xyz/apps/sdk$third-party
+://go.*.com/*=WidgetV4Universal
 ://go.*.com/smartpop/*?*=$third-party
 ://gom.ge/cookie.js
 ://hf.*.com/*m-2697$third-party,other
@@ -65546,7 +65616,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 zle.com$script
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>4162
+!<<<<<通用Css规则>>>>>4164
 ###ADbox
 ###ADtip
 ###AdBlockDialog
@@ -69386,6 +69456,7 @@ zle.com$script
 ##iframe[src^="/ad"][src$=".html"]
 ##iframe[src^="/ai/s/s/su.php"]
 ##iframe[src^="/frd5/s/s/su.php?"]
+##iframe[src^="https://adsxyz.com"]
 ##iframe[src^="https://av.ageverify.co/"]
 ##iframe[src^="https://baimei511.mom"]
 ##iframe[src^="https://creative."][src*="/widgets/"]
@@ -69562,6 +69633,7 @@ zle.com$script
 ##img[src^="https://888bb111ww.com/"]
 ##img[src^="https://888xx222kk.com/"]
 ##img[src^="https://888xx555kk.com"]
+##img[src^="https://adsxyz.com"]
 ##img[src^="https://bejjci.twqtf.boats"]
 ##img[src^="https://img"][src*="//upload/"][src$=".js"]
 ##img[src^="https://imgsrc.baidu.com/forum/pic/item/"][class]
@@ -69711,7 +69783,7 @@ zle.com$script
 ~xxgxw.com##div[id^="C"][style*="height:"][class^="C"]
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>4681
+!<<<<<放行白名单>>>>>4679
 #@##adblocktest
 #@#.ADV320_50_100
 #@#.ad-box
@@ -69765,7 +69837,6 @@ zle.com$script
 90xz.com#@#.share-btn
 9anime.skin,agar.red,artunnel57.com,aruble.net,bestjavporn.com,bstlar.com,gogoanime.*,gosugamers.net,jasonsavard.com,javdock.com,javhdporn.net,javxxx.me,kituweh.xyz,mm9841.cc,pops.tv,svapo.it,toeic-testpro.com,video.bestjavporn.com,viu.tv,youtubemultidownloader.com#@#.ad-placement
 @@&ad_type=$domain=ultimate-guitar.com
-@@*ad*.cms$domain=indiatimes.com|timesofindia.com
 @@-social-bar.$domain=mobi.yahoo.com
 @@-template-ads/*$domain=rapidgrab.pl
 @@.adcenter.$domain=indiansgetfucked.com
@@ -71396,7 +71467,6 @@ zle.com$script
 @@||forexprostools.com^$domain=shougedui.com
 @@||forgeofempires.com/game/json
 @@||forrest.adverticum.net/inapp/user^$domain=embed.indavideo.hu
-@@||forum.adguard.com/index.php$xmlhttprequest
 @@||forum.admiregirls.com/js/*/ad160.js
 @@||forum.notebookreview.com/threads^
 @@||forum.release-apk.com/*#/*/ad/$image
@@ -71842,7 +71912,6 @@ zle.com$script
 @@||indiafreestuff.in/forum/public/*/facebook_
 @@||indianrailways.info/js/adblocker.js
 @@||indiatimes.com/configspace/
-@@||indiatimes.com/wp-content/themes/*/js/*ads*.js
 @@||indiatoday.in/embed-live-tv?
 @@||infectiousmedia.com/iab^$domain=youronlinechoices.com
 @@||infobel.com/Scripts/custom/*.js
@@ -72984,7 +73053,7 @@ zle.com$script
 @@||static.cz.prg.cmestatic.com/static/cz/shared/js/advert.js
 @@||static.cz.prg.cmestatic.com/static/shared/app/videojs/plugins/ads/ads.integration.*.js$domain=nova.cz
 @@||static.cz.prg.cmestatic.com/static/shared/app/videojs/plugins/ads/videojs.ads.js$domain=nova.cz
-@@||static.doubleclick.net/instream/ad_status.js$domain=alliptvlinks.com|bloggingsathi.com|game3rb.com|idlixofficial.co|idlixofficial.net|idlixofficials.com|investing.com|laksa19.github.io|linkneverdie.com|mhdtvmax.net|pewgame.com|sonixgvn.net|tweakcentral.net|youtube.com
+@@||static.doubleclick.net/instream/ad_status.js$domain=alliptvlinks.com|bloggingsathi.com|game3rb.com|idlixofficial.co|idlixofficial.net|idlixofficials.com|idlixplus.*|investing.com|laksa19.github.io|linkneverdie.com|mhdtvmax.net|pewgame.com|sonixgvn.net|tweakcentral.net|youtube.com
 @@||static.ex.co/pb-play/production/*/playbuzz-viewer-play.es5.js
 @@||static.ex.co/pb-story/paragraph/production/*/paragraph-viewer.js
 @@||static.ex.co/pb-story/production/*/story-viewer.js
@@ -74022,6 +74091,7 @@ kbb.com#@#.gpt-ad
 kijiji.it#@##post-ad
 kijiji.it#@#.ad__item
 kinemaster.cc,tech.bloggertheme.xyz,technoashwath.com#@##ad-top
+kisstvshow.net,lifestylehack.info,keephealth.info,kimcartoon.li,kissorg.net,kisstvshow.to,kissasian.*#@##ad-promo
 kitguru.net#@#div > a[class] > img[src]
 kituweh.xyz,artunnel57.com#@#.BannerAd
 kituweh.xyz,artunnel57.com#@#.adbadge
