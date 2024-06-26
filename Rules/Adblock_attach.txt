@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Ti00lSZ+A80pTgqwZZvYxA
+! Checksum: lgcXwNYNK1SNHPVIEfyQmA
 ! Title: Aloazny attach fiter
-! Version: 20240626090429
+! Version: 20240626202906
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-06-26 09:04:29
+! Last modified: 2024-06-26 20:29:06
 ! Total Count: 14870
 ! Blocked Filters: 14870
 ! Description: 合并混合规则的补充规则，轻量规则，可作为补充规则使用。
@@ -14816,7 +14816,7 @@ zle.com$script
 @@||realsrv.com/video-outstream.js$domain=chutlunds.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=shahid.mbc.net
 @@||sexwebvideo.me/js/advertising.js
-@@||sobot.com^$~third-party
+@@||sobot.com^$domain=yaofangwang.com
 @@||sports.ru^*/adfox.$xmlhttprequest
 @@||static-ppp.portalcdn.com/$script,domain=pornhub.com
 @@||static.admysports.com/hb/site/als/hb_allosurf.js$domain=allosurf.net
