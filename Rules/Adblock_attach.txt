@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8tH2NQMyqcoV8f3incLzxg
+! Checksum: Ti00lSZ+A80pTgqwZZvYxA
 ! Title: Aloazny attach fiter
-! Version: 20240625202736
+! Version: 20240626090429
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-06-25 20:27:36
+! Last modified: 2024-06-26 09:04:29
 ! Total Count: 14870
 ! Blocked Filters: 14870
 ! Description: 合并混合规则的补充规则，轻量规则，可作为补充规则使用。
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_attach.txt?ref=main
 
 
-!<<<<<域名规则>>>>>6736
+!<<<<<域名规则>>>>>6735
 |https://m.frgls.com/js/*.js?v=
 ||*ggua.xyz^$third-party
 ||000123456789.online^
@@ -5169,7 +5169,6 @@
 ||stripedbat.com^$third-party
 ||strivesidewalk.com^$third-party
 ||strivesquirrel.com^$third-party
-||stroi-help.ru/forum/script_new.js
 ||strongersummon.com^$~third-party
 ||structurerod.com^$third-party
 ||studylabs.cn^
@@ -8858,6 +8857,7 @@ pornpics.com,pornpics.de##.thumbwook + li[class]:has(.ad-text)
 pornsitetest.com##div[id^="eroti-"]
 pornstarbyface.com##div[id^="sponcored-content-"]
 porntrex.com##.content > div[class]:has(> div[style*="text-align"] > center > script)
+pornve.com##.video_ad_mob
 pornwhite.com##.container-side:has(> b:first-child + div[data-banner]:last-child)
 pornwhite.com##.items-container > div.items-holder:has(> div[data-banner])
 pornwhite.com,sleazyneasy.com##div[data-banner]
@@ -9670,7 +9670,6 @@ xmkanshu.com##[id*="download"]
 xmkanshu.com##[id="oAR"]
 xn--*.*/ins/js/*16$third-party,script
 xn--6frva992v.avwc22.com,xn--7dvrl.6luan.tv,hs.taokong4.com,avwc.tv,www.dym05.cc:2008,xn--i8sw4gbv7cqbl.avwc542.top,zhixiang021.com##.m1938-container
-xn--80aikhbrhr.net,кинокрад.net##.warning-adblock-box
 xnxx-sexfilme.com,hd-easyporn.com,pornblade.com,pornfelix.com##.vjs-overlayed
 xnxx.com###content-ad-side
 xnxx.com##.mobile-only-hide
@@ -14651,7 +14650,7 @@ zle.com$script
 ~xxgxw.com##div[id^="C"][style*="height:"][class^="C"]
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>245
+!<<<<<放行白名单>>>>>246
 #@##adblocktest
 18-comic.work,18-comicblade.art,18-comicblade.club,18-comicblade.org,18-comicblade.xyz,18-comicfreedom.org,18-comicfreedom.xyz,18-comicstellar.art,18-comicstellar.xyz,18comic.org,18comic.vip,jm-comic1.cc,jm-comic2.cc,jmcomic.me,jmcomic1.city,jmcomic1.group,jmcomic1.me,jmcomic1.win,jmcomic2.me#@#.col-lg-3.col-xs-6 > .well
 18-comic.work,18-comicblade.art,18-comicblade.org,18-comicblade.xyz,18-comicfreedom.org,18-comicfreedom.xyz,18-comicstellar.art,18comic.org,18comic.vip,jm-comic1.cc,jm-comic2.cc,jmcomic.me,jmcomic1.city,jmcomic1.group,jmcomic1.me,jmcomic1.win,jmcomic2.me#@#img[alt][src^="/static/resources/"]
@@ -14817,6 +14816,7 @@ zle.com$script
 @@||realsrv.com/video-outstream.js$domain=chutlunds.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=shahid.mbc.net
 @@||sexwebvideo.me/js/advertising.js
+@@||sobot.com^$~third-party
 @@||sports.ru^*/adfox.$xmlhttprequest
 @@||static-ppp.portalcdn.com/$script,domain=pornhub.com
 @@||static.admysports.com/hb/site/als/hb_allosurf.js$domain=allosurf.net

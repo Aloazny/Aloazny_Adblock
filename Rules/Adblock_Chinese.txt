@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 2FhiyvjSxUrRgr1U5UOusw
+! Checksum: idwMSOmELH1MB7JGkFmm8Q
 ! Title: Aloazny Chinese fiter
-! Version: 20240625202754
+! Version: 20240626090448
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-06-25 20:27:54
-! Total Count: 38825
-! Blocked Filters: 38825
+! Last modified: 2024-06-26 09:04:48
+! Total Count: 38831
+! Blocked Filters: 38831
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>17626
+!<<<<<域名规则>>>>>17630
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|cyxse.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.360118.com|m.37zw.net|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zwdu.com
 |http://*.cn/ad/
@@ -2129,6 +2129,7 @@
 ||aifei0755.net/123/
 ||aiiaqw.xyz^
 ||aijiamao.top^
+||aiknx.cn^
 ||ailehui9149.com^
 ||aili.com^$third-party
 ||ainunu.*/vad.js
@@ -6413,6 +6414,7 @@
 ||fvl1f.pw^$third-party
 ||fvpboxu.xyz^
 ||fvxlhn.xyz^
+||fvyqblc.icu^
 ||fwcnex.icu^
 ||fweia.xyz^
 ||fwepd.xyz^
@@ -9901,6 +9903,7 @@
 ||lxg8s.xyz^
 ||lxksalary.com^
 ||lxqcgj.com^
+||lxryhx.xyz^
 ||lxting.com^
 ||lxtuzcb.cn^
 ||lxyl66.cn^
@@ -13955,7 +13958,6 @@
 ||stripedbat.com^$third-party
 ||strivesidewalk.com^$third-party
 ||strivesquirrel.com^$third-party
-||stroi-help.ru/forum/script_new.js
 ||strongersummon.com^$~third-party
 ||structurerod.com^$third-party
 ||studylabs.cn^
@@ -14276,6 +14278,7 @@
 ||tdjdpyrt.xyz^
 ||tdljuuw.xyz^
 ||tdlyfz.xyz^
+||tdoshbi.top^
 ||tdsahkln.xyz^
 ||tduenkq839.shop^
 ||tdzvm.pw^$third-party
@@ -16819,6 +16822,7 @@
 ||yht7.com/web/assets/js/right.js
 ||yhtpsy8888.cc^
 ||yhubsxmg.xyz^
+||yhutou.xyz^
 ||yhz18.com^
 ||yhzjidgc.xyz^
 ||yhzm.xyz^
@@ -17643,7 +17647,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>13207
+!<<<<<网站单独规则>>>>>13208
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.net
@@ -27384,6 +27388,7 @@ pornsitetest.com##div[id^="eroti-"]
 pornstarbyface.com##div[id^="sponcored-content-"]
 porntrex.com##.content > div[class]:has(> div[style*="text-align"] > center > script)
 porntrex.com##.pop-adv
+pornve.com##.video_ad_mob
 pornwatchers.com,stileproject.com##.mobile-vda
 pornwhite.com##.container-side:has(> b:first-child + div[data-banner]:last-child)
 pornwhite.com##.items-container > div.items-holder:has(> div[data-banner])
@@ -28496,6 +28501,7 @@ sozcu.com.tr##.ad-mobile-masthead
 sozcu.com.tr##.has-ad
 sozcu.com.tr##.load_masthead
 sp.manga.nicovideo.jp##div[data-ads-name]
+sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 sp.netkeiba.com##.nk_AdvBox_sp_01
 sp.nicovideo.jp###jsBlockedPremiumBottomFixedBannerContainer
 sp.nicovideo.jp###jsTagRelatedBannerContainer
@@ -30254,7 +30260,6 @@ xmkanshu.com##[id*="download"]
 xmkanshu.com##[id="oAR"]
 xn--*.*/ins/js/*16$third-party,script
 xn--6frva992v.avwc22.com,xn--7dvrl.6luan.tv,hs.taokong4.com,avwc.tv,www.dym05.cc:2008,xn--i8sw4gbv7cqbl.avwc542.top,zhixiang021.com##.m1938-container
-xn--80aikhbrhr.net,кинокрад.net##.warning-adblock-box
 xn--gmq92kd2rm1kx34a.com###sp-widget
 xn--h-k9tybb8g5ivhkczry701afhpm4sru6d.net##.toppr300
 xn--r8jwklh769h2mc880dk1o431a.com,onagazou.info,mrank.tv,xvideos-dl.com,erodera.net,spankbang-dl.com,fig-memo-r18.site###overlay_area
@@ -37378,7 +37383,7 @@ zle.com$script
 ~xxgxw.com##div[id^="C"][style*="height:"][class^="C"]
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1473
+!<<<<<放行白名单>>>>>1474
 #@##adblocktest
 #@#.has-ad
 012.tw#@#.ad728
@@ -38393,6 +38398,7 @@ zle.com$script
 @@||slit.cn/source/plugin/unadblock/*.js
 @@||smedia2.intoday.in/aajtak_pwapp$script
 @@||snssdk.com/video/drm/v*/play_licenses
+@@||sobot.com^$~third-party
 @@||sogou.com/adpub/cfg/sendmsg.
 @@||sogou.com/pv.gif?*&stype=showskinpanel
 @@||sohu.com/cityjson$domain=51credit.com|castech.com|eduyun.cn|ems.com.cn|jdboshi.com|jialingmm.net|lcm88.com|mop.com|platinum-pen.com.cn|shouji.com.cn|skk.moe|vivo.com.cn
