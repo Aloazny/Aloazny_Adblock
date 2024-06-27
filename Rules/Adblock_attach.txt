@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: v5rgvnchljrhly1+tfcIYA
+! Checksum: i/bcD3NbbqwmUS59/6vbTw
 ! Title: Aloazny attach fiter
-! Version: 20240627090438
+! Version: 20240627202749
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-06-27 09:04:38
-! Total Count: 14870
-! Blocked Filters: 14870
+! Last modified: 2024-06-27 20:27:49
+! Total Count: 14875
+! Blocked Filters: 14875
 ! Description: 合并混合规则的补充规则，轻量规则，可作为补充规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_attach.txt?ref=main
 
 
-!<<<<<域名规则>>>>>6735
+!<<<<<域名规则>>>>>6738
 |https://m.frgls.com/js/*.js?v=
 ||*ggua.xyz^$third-party
 ||000123456789.online^
@@ -332,6 +332,7 @@
 ||a0b22.com^
 ||a1.itc.cn^
 ||a168888.top^
+||a1bw2cup.top^
 ||a48505.cn^
 ||a4sz.xyz^
 ||a8age.com^
@@ -1815,6 +1816,7 @@
 ||ed.gumoda.top^
 ||edlzedu.cn^$~third-party
 ||edong.link^
+||edoshbw.top^
 ||edssnet.changchunets.com^
 ||eduizioq.com^
 ||eedudwr.cn^
@@ -2183,6 +2185,7 @@
 ||fvl1f.pw^$third-party
 ||fvxlhn.xyz^
 ||fwepd.xyz^
+||fwlrv.cn^
 ||fwmbjrl.cn^
 ||fwzvlp.xyz^
 ||fxbcpr.xyz^
@@ -14650,7 +14653,7 @@ zle.com$script
 ~xxgxw.com##div[id^="C"][style*="height:"][class^="C"]
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>246
+!<<<<<放行白名单>>>>>248
 #@##adblocktest
 18-comic.work,18-comicblade.art,18-comicblade.club,18-comicblade.org,18-comicblade.xyz,18-comicfreedom.org,18-comicfreedom.xyz,18-comicstellar.art,18-comicstellar.xyz,18comic.org,18comic.vip,jm-comic1.cc,jm-comic2.cc,jmcomic.me,jmcomic1.city,jmcomic1.group,jmcomic1.me,jmcomic1.win,jmcomic2.me#@#.col-lg-3.col-xs-6 > .well
 18-comic.work,18-comicblade.art,18-comicblade.org,18-comicblade.xyz,18-comicfreedom.org,18-comicfreedom.xyz,18-comicstellar.art,18comic.org,18comic.vip,jm-comic1.cc,jm-comic2.cc,jmcomic.me,jmcomic1.city,jmcomic1.group,jmcomic1.me,jmcomic1.win,jmcomic2.me#@#img[alt][src^="/static/resources/"]
@@ -14816,6 +14819,7 @@ zle.com$script
 @@||realsrv.com/video-outstream.js$domain=chutlunds.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=shahid.mbc.net
 @@||sexwebvideo.me/js/advertising.js
+@@||sobot.com^
 @@||sobot.com^$domain=yaofangwang.com
 @@||sports.ru^*/adfox.$xmlhttprequest
 @@||static-ppp.portalcdn.com/$script,domain=pornhub.com
@@ -14823,12 +14827,13 @@ zle.com$script
 @@||static.adsafeprotected.com/favicon.ico$domain=tf1info.fr
 @@||static.koreus.com/js/advert.js
 @@||static.tieba.baidu.com/tb/editor/images/client/image_emoticon*.png
-@@||stripe.com$domain=pay.openai.com
+@@||stripe.com^$domain=pay.openai.com
 @@||tv.bili96.co^
 @@||tyue.me^$image
 @@||universfreebox.com/js/advertisement.js
 @@||v.fwmrm.net/ad/g/1?$xmlhttprequest,domain=www.mycanal.fr
 @@||wamiz.com/css/ads.css
+@@||wan.douyu.com^
 @@||wan.douyu.com^$domain=wan.douyu.com
 @@||woocall.sina.com.cn^$domain=sina.cn
 @@||www.google-analytics.com^$domain=myqqjd.com
