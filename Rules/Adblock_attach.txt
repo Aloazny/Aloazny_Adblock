@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: i/bcD3NbbqwmUS59/6vbTw
+! Checksum: RxTszGiX4669YqBthB056Q
 ! Title: Aloazny attach fiter
-! Version: 20240627202749
+! Version: 20240628090439
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-06-27 20:27:49
-! Total Count: 14875
-! Blocked Filters: 14875
+! Last modified: 2024-06-28 09:04:39
+! Total Count: 14878
+! Blocked Filters: 14878
 ! Description: 合并混合规则的补充规则，轻量规则，可作为补充规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_attach.txt?ref=main
 
 
-!<<<<<域名规则>>>>>6738
+!<<<<<域名规则>>>>>6740
 |https://m.frgls.com/js/*.js?v=
 ||*ggua.xyz^$third-party
 ||000123456789.online^
@@ -5782,6 +5782,7 @@
 ||vkjqbb.xyz^
 ||vkjsnvk.com^
 ||vktztp.xyz^
+||vl1xu8erx9.xyz^
 ||vlets.kyzx.xyz^
 ||vlets.qkobbgs.cyou^
 ||vlets.qosbbzw.cyou^
@@ -6460,6 +6461,7 @@
 ||ytqeavc.icu^
 ||ytqlyw.xyz^
 ||ytvwhbejc.com^
+||yu.paeqmjq.cn^
 ||yuanlin15.cn^
 ||yuanmengbi.com^
 ||yuanxiang19.fun^
@@ -9963,7 +9965,7 @@ zybang.com##a[class="top-banner"]
 zybang.com##div[id="askTeacher-after-adx-wrap"]
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>1675
+!<<<<<通配符规则>>>>>1676
 $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.xyz
 &adZones$xmlhttprequest
 &ad_block=
@@ -10573,6 +10575,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .xyz:*/mnrt/*.json
 .xyz:*/waga*.html$~third-party
 .xyz:30009/d/*?t=
+.xyz:4022//SSDA/*-*-*/ttZ/$third-party
 .xyz:80*/sc/*?is_not=$third-party
 .xyz:8001/d/*?*=$third-party
 .xyz:8002/d/*?*=$third-party
