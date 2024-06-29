@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: Jey0VcEdBCnrEZDIuHYwkw
+! Checksum: Z1RCuGVkTNmyUkdOkGK5hg
 ! Title: Aloazny Mobile fiter
-! Version: 20240629090530
+! Version: 20240629202826
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-06-29 09:05:30
-! Total Count: 74603
-! Blocked Filters: 74603
+! Last modified: 2024-06-29 20:28:26
+! Total Count: 74609
+! Blocked Filters: 74609
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock.txt?ref=main
 
 
-!<<<<<域名规则>>>>>27995
+!<<<<<域名规则>>>>>27998
 |http$third-party,script,domain=kinotut.tv
 |http*://$image,third-party,domain=rmdown.com
 |http*://$script,third-party,domain=stream2watch.org,badfilter
@@ -6319,7 +6319,6 @@
 ||camel.nonpopularopinion.com^
 ||camel.warvik.no^
 ||camep.xyz^
-||camhub.cc/static/js/bgscript.js
 ||cammak.xyz^
 ||camonster.io^$domain=hardgif.com
 ||campaign.brandseven.com/get^$third-party
@@ -14925,6 +14924,7 @@
 ||kontrolnaya-rabota.ru^*/toastr.$script,stylesheet
 ||kop02.com^$~third-party
 ||kopde.xyz^
+||kopvx.cn^
 ||koqjok.xyz^
 ||koqsxdpx.xyz^
 ||korewaeroi.com/fukugan_sp_3x4_rec.html
@@ -17306,6 +17306,7 @@
 ||n2.hk/apps/car_feed/tb/*/banner.html
 ||n2.hk/promo/
 ||n2faw.site^
+||n2wqmr4lmaummar.xyz^
 ||n3567.com^
 ||n3xpjc.xyz^
 ||n4403ad.doubleclick.net^
@@ -22849,6 +22850,7 @@
 ||szbxw.cn^
 ||szbzp.cn^
 ||szdaqi88.com^
+||szddm.cn^
 ||szdgl.cn^
 ||szdpk.cn^
 ||szdtf.cn^
@@ -25068,6 +25070,7 @@
 ||vungle.com^
 ||vuntbnc.cn^$~third-party
 ||vupload.duowan.com^
+||vupsnx.xyz^
 ||vuruzy.xyz^
 ||vuryua.ru^$third-party
 ||vutjnt.xyz^
@@ -28012,7 +28015,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>34501
+!<<<<<网站单独规则>>>>>34503
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe.com,badfilter
 $image,third-party,denyallow=cdn77.org|fpbns.net|others-cdn.com|rncdn7.com|sb-cd.com|stream.highwebmedia.com|upsiloncdn.net|xvideos-cdn.com|youjizz.com|ypncdn.com,domain=pussyspace.com|pussyspace.net
@@ -33778,6 +33781,7 @@ camgirlbay.net##.list-videos > .margin-fix > .place
 camgirlbay.net,camwhores.adult##body > .top[style="text-align:center;font-size:16px;"]:not([id])
 camgirls.casa##a[href^="/click.php?"]
 camgirls.casa,zeriun.cc##+js(abort-on-property-write, p$00a)
+camhub.world#$#body iframe#ads_iframe[src*="/player_ads.html"] { display: block !important; }
 caminspector.net##.block-video > .table .spot
 caminspector.net##.box > .list-videos > .margin-fix[id^="list_videos_"] > noindex > div.place
 caminspector.net##.box > .list-videos.list-live-models
@@ -60995,6 +60999,7 @@ www.tu93.net##video[style="width: 100%; height: auto; top: 0; left: 0"]
 www.wangbaom1.buzz,www.younvxxs5.buzz,www.wangbaom2.buzz###photo-header-title-content-text-dallor
 www.wangjing.cn##.content > div[style*="980px;"]
 www.wasu.cn##div[class="hd l"]
+www.wdbay.com##[class][classname]
 www.wenshushu.cn##A[href^='https://wenshushu.cn/ad/']
 www.wenxuecity.com###leftside
 www.wenxuecity.com###rightside
@@ -62516,7 +62521,7 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 zzzyk.com###Tinfo
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>3251
+!<<<<<通配符规则>>>>>3252
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe.com,badfilter
 $image,third-party,denyallow=cdn77.org|fpbns.net|others-cdn.com|rncdn7.com|sb-cd.com|stream.highwebmedia.com|upsiloncdn.net|xvideos-cdn.com|youjizz.com|ypncdn.com,domain=pussyspace.com|pussyspace.net
@@ -65256,6 +65261,7 @@ $xmlhttprequest,third-party,denyallow=authkong.com|rsc.cdn77.org|linkvertise.com
 /topperad.
 /toprightads.
 /tops.ads.
+/tops/fmt.js?v=
 /torget_ads.
 /torrenttrackerlist.com\/(wp-content)\/(uploads)\/[a-zA-Z0-9]{10,}\/[a-zA-Z0-9]{10,}.js/
 /tourl.html?url=
