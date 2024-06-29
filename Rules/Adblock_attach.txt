@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: P7znUsDZYWL8Wz9HMwUuCQ
+! Checksum: 79GOhMaCNYxvk+AudQK65w
 ! Title: Aloazny attach fiter
-! Version: 20240628202732
+! Version: 20240629090346
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-06-28 20:27:32
-! Total Count: 14878
-! Blocked Filters: 14878
+! Last modified: 2024-06-29 09:03:46
+! Total Count: 14879
+! Blocked Filters: 14879
 ! Description: 合并混合规则的补充规则，轻量规则，可作为补充规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_attach.txt?ref=main
 
 
-!<<<<<域名规则>>>>>6740
+!<<<<<域名规则>>>>>6741
 |https://m.frgls.com/js/*.js?v=
 ||*ggua.xyz^$third-party
 ||000123456789.online^
@@ -3492,6 +3492,7 @@
 ||lzljhs.com^
 ||lzmvcrp.icu^
 ||lzzzjx.xyz^
+||m.ad-expo.com/*/*.js?v=
 ||m.atm.youku.com^
 ||m.biqooge.com/js/wap.js
 ||m.do.downcdn.top^
