@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: MFixL0ryQg74aPMUwhEhWg
+! Checksum: 9DNIRAslkg+eMWXGpd8PdA
 ! Title: Aloazny Chinese fiter
-! Version: 20240703202837
+! Version: 20240704090552
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-07-03 20:28:37
-! Total Count: 39006
-! Blocked Filters: 39006
+! Last modified: 2024-07-04 09:05:52
+! Total Count: 39009
+! Blocked Filters: 39009
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>17727
+!<<<<<域名规则>>>>>17731
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|cyxse.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.360118.com|m.37zw.net|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zwdu.com
 |http://*.cn/ad/
@@ -4642,6 +4642,7 @@
 ||ctvrtrya.xyz^
 ||ctydsy.xyz^
 ||ctyusif.top^
+||cuaeblh.icu^
 ||cubchannel.com^$third-party
 ||cuioxbqi.com^
 ||culturedfeather.com^$third-party
@@ -7775,6 +7776,7 @@
 ||hy.huangye88.net^
 ||hy.luassane.cn^
 ||hy5.com.cn/admin/
+||hy90.cn^
 ||hybird.rayjump.com^
 ||hybrid.ai^
 ||hyeqp.xyz^
@@ -7959,6 +7961,7 @@
 ||igscn.com^
 ||ih336.com^*a.js
 ||ihclam.cn^
+||ihcxue.xyz^
 ||ihhmh.com/mg/show
 ||ihtqqws.cn^
 ||ihwdun.xyz^
@@ -8391,6 +8394,7 @@
 ||iyfbodn.com^
 ||iyingdi.com/goood?
 ||iyinghua.io/bar/
+||iyisloo.top^
 ||iykig.cn^
 ||iytrn.xyz^
 ||iyuedu.cn.com^
@@ -24884,7 +24888,7 @@ le.com##.lay_body[style^="width:980px;height:90px;"]
 le.com##.lay_title[style^="width:490px;height:60px;"]
 le.com##.lbzDaoliu
 le.com##div[data-type="bottomLayerView"]
-le.com,m.airporthaber.com##.Banner
+le.com,m.airporthaber.com,m.airporthaber1.com##.Banner
 league-funny.com###popupvideoad
 league-funny.com##.google_more
 league-funny.com##.more2ad_bb
@@ -37550,7 +37554,7 @@ zle.com$script
 ~xxgxw.com##div[id^="C"][style*="height:"][class^="C"]
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1482
+!<<<<<放行白名单>>>>>1481
 #@##adblocktest
 #@#.has-ad
 012.tw#@#.ad728
@@ -37577,7 +37581,6 @@ zle.com$script
 51cto.com#@#.addarea
 520cc.com,520cc.cc#@##inplayer
 520cc.com,520cc.cc#@#iframe[width="300"][height="250"]
-52bdys.com#@##ayx
 52vfx.com#@##head_ad
 5dm.link#@#.tm-share-this
 7b2.com,thh521.com,vikacg.com,zhujib.com#@#.social-top:not(html):not(body)
