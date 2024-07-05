@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: WEl9VJmOV4nFYRvOxLp16g
+! Checksum: Gw8SlG52vUhkivV+TzJI/Q
 ! Title: Aloazny Chinese fiter
-! Version: 20240704202801
+! Version: 20240705090510
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-07-04 20:28:01
-! Total Count: 39027
-! Blocked Filters: 39027
+! Last modified: 2024-07-05 09:05:10
+! Total Count: 39038
+! Blocked Filters: 39038
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>17741
+!<<<<<域名规则>>>>>17752
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|cyxse.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.360118.com|m.37zw.net|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zwdu.com
 |http://*.cn/ad/
@@ -316,6 +316,7 @@
 ||163disk.com/static/images/51
 ||163disk.com/static/www/
 ||1640831964042.se-life.cn^
+||165tchuang.com^
 ||168.it168.com^$script
 ||1684sm.com/js/1684/
 ||1688.com/b2bxad?
@@ -1323,6 +1324,7 @@
 ||9669.com^$script,third-party
 ||96kso.online^
 ||973.com/static/js/pccom.js
+||97ii.cn^
 ||97kpz.com/js/bbk/g.js
 ||98.126.219.*/ads/
 ||98158.com^
@@ -2963,6 +2965,8 @@
 ||baihuwang.com^$third-party
 ||baijs02.xyz^
 ||baijs03.xyz^
+||baijs05.xyz^
+||baijs06.xyz^
 ||baike.com/iframeheightforad.
 ||baikebcs.bdimg.com/*banner*.jpg
 ||baimakanshu.com/assets/public/
@@ -5319,6 +5323,8 @@
 ||doujs01.xyz^
 ||doujs02.xyz^
 ||doujs03.xyz^
+||doujs05.xyz^
+||doujs06.xyz^
 ||doupocangqiong1.com/js/ptwap.js
 ||doutula.com/img/upupoo/
 ||douyaobuy.com^
@@ -8953,6 +8959,7 @@
 ||jyfw.cn/nav/cf_
 ||jygiizv.icu^
 ||jyhlo0.com^
+||jyisloa.top^
 ||jynthelon.com^
 ||jypvzd.xyz^
 ||jyqkijp.icu^
@@ -15263,6 +15270,7 @@
 ||urlkwqi.cn^
 ||urqwzbu.cn^
 ||ursegreatm.fun^
+||urtlist.top^
 ||urtr4hrq.com^
 ||urueuah.cn^
 ||us-west1.cdngcloud.com^
@@ -15656,6 +15664,7 @@
 ||vsping-*.myqcloud.com/ggw/
 ||vsping.com/website/adLinks?
 ||vsping.com/website/ads?
+||vsqovxf.icu^
 ||vstat.v.blog.sohu.com^
 ||vsthouse.ru/a-detector/
 ||vswswlz.icu^
@@ -16687,6 +16696,7 @@
 ||xuwfmhh.icu^
 ||xuyanlong1.cn^
 ||xuzhi.net/uploadfile/poster/960x50.jpg
+||xuzsdn.xyz^
 ||xv.leirsw.com^
 ||xv98.com/js/daohang
 ||xv98.com/js/hengfu
@@ -17695,6 +17705,7 @@
 ||zwfkxb.xyz^
 ||zwjaoni.cn^
 ||zwlikv.cn^
+||zwlxnj.xyz^
 ||zwxxcb.icu^
 ||zwzdjb.xyz^
 ||zx.docin.com^
@@ -22254,8 +22265,7 @@ filmibeat.com,goodreturns.in##.amp-flying-carpet
 filmibeat.com,goodreturns.in##.amp-inner-ad
 filmix.biz,filmix.ac,filmix.tech,filmix.zone###branding_zone
 filmix.biz,filmix.ac,filmix.tech,filmix.zone###information > div[style="height:200px!important;overflow:hidden"]
-filmix.biz,filmix.date,filmix.life,filmix.tech,filmix.zone###oframeplayer > #player_control_play-icon ~ pjsdiv[style^="position: absolute; left:"][style*="pointer-events: none; display: block; visibility:"]
-filmix.biz,filmix.date,filmix.life,filmix.tech,filmix.zone##.remove-sda-wrap
+filmix.fm,filmix.date,filmix.life,filmix.pub,filmix.tech,filmix.zone##.remove-sda-wrap
 filmvilag.me,liderendeportes.com,serieskao.tv,freefilm.to,ac24.cz,nsfwyoutube.com,jpblow.info,hesgoal.com,filmisub.com,igg-games.com,ruwhite.info,slones.info,ukhello.info,uaclips.com,thodkyaat.com,kzclip.com,onlymen.cz,ultimasnoticias.com.ve,freeserial.to,ibb.co##pp
 finance.ettoday.net##.all_news_text1
 finance.ifeng.com###box_img
@@ -28734,10 +28744,11 @@ sports.sohu.com##.allsee-list > .bd-wrap
 sports.yahoo.co.jp###ad-smon
 sports.yahoo.co.jp###ydn-nm
 sports.yahoo.co.jp##[class$="-modAd"]
+sports.yahoo.co.jp##[class*="-modCommon0"]:has(> div#im_low)
+sports.yahoo.co.jp##[class*="-modCommon0"]:has(> div#ydn-low)
+sports.yahoo.co.jp##[class*="-modCommon0"]:has(> div[id^="ad-"][id$="mon"])
 sports.yahoo.co.jp##div[class^="rg-modCommon"]:has(> div#ad-mmon)
 sports.yahoo.co.jp##div[class^="yf-modCommon"]
-sports.yahoo.co.jp##section[class*="-modCommon0"]:has(> div#ad-smon)
-sports.yahoo.co.jp##section[class*="-modCommon0"]:has(> div#im_low)
 sportsbrief.com,legit.ng##.interscroller
 sportsnavi.ht.kyodo-d.jp##.sn-modAd
 sportsplanetmag.com##.adshow
