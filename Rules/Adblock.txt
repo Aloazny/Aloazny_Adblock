@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 8kLHGFg7JJeV9yL/ej7vuA
+! Checksum: roy6xNG7oKwHtWSe/xLFrw
 ! Title: Aloazny Mobile fiter
-! Version: 20240706090516
+! Version: 20240706202719
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-07-06 09:05:16
-! Total Count: 74964
-! Blocked Filters: 74964
+! Last modified: 2024-07-06 20:27:19
+! Total Count: 74975
+! Blocked Filters: 74975
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock.txt?ref=main
 
 
-!<<<<<域名规则>>>>>28170
+!<<<<<域名规则>>>>>28175
 |http$third-party,script,domain=kinotut.tv
 |http*://$image,third-party,domain=rmdown.com
 |http*://$script,third-party,domain=stream2watch.org,badfilter
@@ -12601,6 +12601,7 @@
 ||hkkeafj.cn^
 ||hkljed.xyz^
 ||hkmte.com/seo.js
+||hknoq.cn^
 ||hkpeghqu.icu^
 ||hkrytf.xyz^
 ||hkscldggm.xyz^
@@ -13719,6 +13720,7 @@
 ||ipeen.com.tw/js/frame/ad-actions.js
 ||ipeen.com.tw/photo/ad/
 ||ipgeaif.blairmacintyre.me^
+||ipgsgtptgatf.xyz^
 ||iphonecake.com/images/dl_download.png
 ||ipip.net/loveapp/ipip/tools/theme/partner/
 ||ipleak.org/bannerbest*.$image
@@ -14870,6 +14872,7 @@
 ||kikinote.net/iframe
 ||killcovid2021.com/*.mp4
 ||kimcartoon.li/Ads/
+||kimcartoon.li/Scripts/ozzz.min.js
 ||kimcartoon.me/External/NativeKC
 ||kimcartoon.me/Scripts^$image
 ||kimcartoon.me/widgets/exo5x1.aspx
@@ -15946,6 +15949,7 @@
 ||lrdyfz.xyz^
 ||lrlsrz.xyz^
 ||lrqpyhn.icu^
+||lrtlisl.top^
 ||lrvalstybe.lt/storage/*/Arvikta_baneris.gif
 ||lrvalstybe.lt/storage^*1200x100$image
 ||lrvalstybe.lt/storage^*125x125$image
@@ -26738,6 +26742,7 @@
 ||xn--lms23v745btkai5c.net^$third-party,script
 ||xn--m7r781dz66a.cn^
 ||xn--qrq171dxpq.com^
+||xn--sssy7vrppusjyv0a.com^
 ||xn--swt207gl1hzc.net^
 ||xn--w9q675dm1p7em.net^
 ||xn--wgvp78a61swpe6zdozj.cn^
@@ -28187,7 +28192,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>34644
+!<<<<<网站单独规则>>>>>34648
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe.com,badfilter
 $image,third-party,denyallow=cdn77.org|fpbns.net|others-cdn.com|rncdn7.com|sb-cd.com|stream.highwebmedia.com|upsiloncdn.net|xvideos-cdn.com|youjizz.com|ypncdn.com,domain=pussyspace.com|pussyspace.net
@@ -28514,7 +28519,7 @@ $xmlhttprequest,third-party,denyallow=authkong.com|rsc.cdn77.org|linkvertise.com
 123-hd.com,ksbbs.com,kshot.com###banner_top
 123-movies.life##.les-content > a.streamaly
 123-movies.life,123movies4u.icu##.ann-home
-123-movies.zone,1337xx.to,19turanosephantasia.com,1l1l.to,30sensualizeexpression.com,321naturelikefurfuroid.com,35volitantplimsoles5.com,449unceremoniousnasoseptal.com,allmoviesforyou.net,anichin.top,antecoxalbobbing1010.com,apinchcaseation.com,arponag.xyz,audaciousdefaulthouse.com,availedsmallest.com,bigclatterhomesguideservice.com,bluemediadownload.*,bluemediafile.*,bluemediafiles.*,bluemedialink.online,bluemediaurls.lol,boonlessbestselling244.com,bradleyviewdoctor.com,brookethoughi.com,brucevotewithin.com,chromotypic.com,cigarlessarefy.com,cindyeyefinal.com,cineb.net,cineb.rs,coinsearns.com,coinsurl.com,coolrea.link,counterclockwisejacky.com,cuevana3.*,cyamidpulverulence530.com,d0000d.com,d000d.com,denisegrowthwide.com,dlpanda.com,do0od.com,dood.la,dood.pm,dood.re,dood.so,dood.to,dood.watch,dood.wf,dood.ws,dood.yt,doods.pro,dooood.com,dropgalaxy.com,ds2play.com,edwardarriveoften.com,exe.app,exee.app,exep.app,f2movies.to,figeterpiazine.com,fireload.com,fittingcentermondaysunday.com,fraudclatterflyingcar.com,gamoneinterrupted.com,generatesnitrosate.com,get-to.link,graceaddresscommunity.com,guidon40hyporadius9.com,himovies.sx,housecardsummerbutton.com,igg-games.co,igg-games.com,jamesstartstudent.com,jamiesamewalk.com,jasonresponsemeasure.com,javhd.today,jayservicestuff.com,johntryopen.com,just-upload.com,kathleenmemberhistory.com,kennethofficialitem.com,kimcartoon.li,kissanimefree.cc,kissasian.*,klmanga.net,launchreliantcleaverriver.com,limetorrents.lol,loriwithinfamily.com,luckydice.net,lukecomparetwo.com,mangago.me,markstyleall.com,matriculant401merited.com,metagnathtuggers.com,michaelapplysome.com,monorhinouscassaba.com,morganoperationface.com,moviesjoyhd.to,musichq.pe,nectareousoverelate.com,nonesnanking.com,oxtorrent.sk,pahe.li,paulkitchendark.com,pelisplushd.net,phenomenalityuniform.com,prefulfilloverdoor.com,rationalityaloelike.com,readcomiconline.li,realfinanceblogcenter.com,rebeccaneverbase.com,reputationsheriffkennethsand.com,roberteachfinal.com,ryanagoinvolve.com,sandrataxeight.com,scatch176duplicities.com,seanshowcould.com,sethniceletter.com,shannonpersonalcost.com,sharonwhiledemocratic.com,simpulumlamerop.com,sizyreelingly.com,soap2day.*,solarmovie.pe,stevenimaginelittle.com,strawberriesporail.com,streamvid.net,timberwoodanotia.com,tinycat-voe-fashion.com,tinyzonetv.se,torrentmac.net,toxitabellaeatrebates306.com,troyyourlead.com,truyengihotnhat.com,tubelessceliolymph.com,tuktukcinema.*,tummulerviolableness.com,un-block-voe.net,updown.ninja,uptodatefinishconferenceroom.com,urlbluemedia.*,urlcut.ninja,urochsunloath.com,v-o-e-unblock.com,valeronevijao.com,vdbtm.shop,vincentincludesuccessful.com,voe-un-block.com,voe-unblock.*,voe.bar,voe.sx,voeun-block.net,voeunbl0ck.com,voeunblck.com,voeunblk.com,voeunblock.com,voeunblock1.com,voeunblock2.com,voeunblock3.com,w123moviesfree.net,wolfdyslectic.com,yodelswartlike.com,ziperto.com,zoro.se##+js(abort-current-script, globalThis, break;case)
+123-movies.zone,1337xx.to,19turanosephantasia.com,1l1l.to,30sensualizeexpression.com,321naturelikefurfuroid.com,35volitantplimsoles5.com,449unceremoniousnasoseptal.com,allmoviesforyou.net,anichin.top,antecoxalbobbing1010.com,apinchcaseation.com,arponag.xyz,audaciousdefaulthouse.com,availedsmallest.com,bigclatterhomesguideservice.com,bluemediadownload.*,bluemediafile.*,bluemediafiles.*,bluemedialink.online,bluemediaurls.lol,boonlessbestselling244.com,bradleyviewdoctor.com,brookethoughi.com,brucevotewithin.com,chromotypic.com,cigarlessarefy.com,cindyeyefinal.com,cineb.net,cineb.rs,coinsearns.com,coinsurl.com,coolrea.link,counterclockwisejacky.com,cuevana3.*,cyamidpulverulence530.com,d0000d.com,d000d.com,denisegrowthwide.com,dlpanda.com,do0od.com,dood.la,dood.pm,dood.re,dood.so,dood.to,dood.watch,dood.wf,dood.ws,dood.yt,doods.pro,dooood.com,dropgalaxy.com,ds2play.com,edwardarriveoften.com,erikcoldperson.com,exe.app,exee.app,exep.app,f2movies.to,figeterpiazine.com,fireload.com,fittingcentermondaysunday.com,fraudclatterflyingcar.com,gamoneinterrupted.com,generatesnitrosate.com,get-to.link,graceaddresscommunity.com,guidon40hyporadius9.com,himovies.sx,housecardsummerbutton.com,igg-games.co,igg-games.com,jamesstartstudent.com,jamiesamewalk.com,jasonresponsemeasure.com,javhd.today,jayservicestuff.com,johntryopen.com,just-upload.com,kathleenmemberhistory.com,kennethofficialitem.com,kimcartoon.li,kissanimefree.cc,kissasian.*,klmanga.net,launchreliantcleaverriver.com,limetorrents.lol,loriwithinfamily.com,luckydice.net,lukecomparetwo.com,mangago.me,markstyleall.com,matriculant401merited.com,metagnathtuggers.com,michaelapplysome.com,monorhinouscassaba.com,morganoperationface.com,moviesjoyhd.to,musichq.pe,nectareousoverelate.com,nonesnanking.com,oxtorrent.sk,pahe.li,paulkitchendark.com,pelisplushd.net,phenomenalityuniform.com,prefulfilloverdoor.com,rationalityaloelike.com,readcomiconline.li,realfinanceblogcenter.com,rebeccaneverbase.com,reputationsheriffkennethsand.com,roberteachfinal.com,ryanagoinvolve.com,sandrataxeight.com,scatch176duplicities.com,seanshowcould.com,sethniceletter.com,shannonpersonalcost.com,sharonwhiledemocratic.com,simpulumlamerop.com,sizyreelingly.com,soap2day.*,solarmovie.pe,stevenimaginelittle.com,strawberriesporail.com,streamvid.net,timberwoodanotia.com,tinycat-voe-fashion.com,tinyzonetv.se,torrentmac.net,toxitabellaeatrebates306.com,troyyourlead.com,truyengihotnhat.com,tubelessceliolymph.com,tuktukcinema.*,tummulerviolableness.com,un-block-voe.net,updown.ninja,uptodatefinishconferenceroom.com,urlbluemedia.*,urlcut.ninja,urochsunloath.com,v-o-e-unblock.com,valeronevijao.com,vdbtm.shop,vincentincludesuccessful.com,voe-un-block.com,voe-unblock.*,voe.bar,voe.sx,voeun-block.net,voeunbl0ck.com,voeunblck.com,voeunblk.com,voeunblock.com,voeunblock1.com,voeunblock2.com,voeunblock3.com,w123moviesfree.net,wolfdyslectic.com,yodelswartlike.com,ziperto.com,zoro.se##+js(abort-current-script, globalThis, break;case)
 123.chinaso.com##.right-list6
 123.com.cn##.img-banner
 123.sogou.com,daohang.qq.com,hao.qq.com##.guess
@@ -31615,6 +31620,7 @@ appleinsider.com#$#.ad-wrap { min-height: 50px !important; }
 applica.info##div[class*="sp-ad-"]
 applion.jp##div[style="display: block; height: 50px; text-align: center; margin: 5px 0px;"]
 applion.jp##div[style^="display: block; height: 250px"]
+applnn.cc##DIV.html-box
 appmedia.jp###recommend_posts_ad
 appnee.com##+js(abort-current-script, document.getElementById, alert)
 appnee.com##img[alt="Ads Place"]
@@ -37916,6 +37922,9 @@ equity.today##.popup_module_container
 equity.today##.read_carefully_subcontent > a[rel="noopener"] > img
 erightsoft.com##font[color="#7d7d7d"] >  font[size="1"]
 erightsoft.com##td font[color="#666666"] > font[size="1"]
+erikcoldperson.com,roberteachfinal.com,loriwithinfamily.com,rebeccaneverbase.com,brucevotewithin.com,sethniceletter.com,michaelapplysome.com,cindyeyefinal.com,shannonpersonalcost.com,graceaddresscommunity.com,jasonresponsemeasure.com,ryanagoinvolve.com,jamesstartstudent.com,brookethoughi.com,vincentincludesuccessful.com,sharonwhiledemocratic.com,jayservicestuff.com,sandrataxeight.com,markstyleall.com,morganoperationface.com,johntryopen.com,seanshowcould.com,jamiesamewalk.com,bradleyviewdoctor.com,kennethofficialitem.com,edwardarriveoften.com,paulkitchendark.com,stevenimaginelittle.com,troyyourlead.com,denisegrowthwide.com,kathleenmemberhistory.com,nonesnanking.com,prefulfilloverdoor.com,phenomenalityuniform.com,nectareousoverelate.com,apinchcaseation.com,timberwoodanotia.com,strawberriesporail.com,valeronevijao.com,cigarlessarefy.com,figeterpiazine.com,yodelswartlike.com,generatesnitrosate.com,chromotypic.com,gamoneinterrupted.com,metagnathtuggers.com,wolfdyslectic.com,rationalityaloelike.com,sizyreelingly.com,simpulumlamerop.com,urochsunloath.com,monorhinouscassaba.com,counterclockwisejacky.com,availedsmallest.com,tubelessceliolymph.com,tummulerviolableness.com,35volitantplimsoles5.com,scatch176duplicities.com,matriculant401merited.com,antecoxalbobbing1010.com,boonlessbestselling244.com,cyamidpulverulence530.com,guidon40hyporadius9.com,449unceremoniousnasoseptal.com,321naturelikefurfuroid.com,30sensualizeexpression.com,19turanosephantasia.com,toxitabellaeatrebates306.com,tinycat-voe-fashion.com,realfinanceblogcenter.com,uptodatefinishconferenceroom.com,bigclatterhomesguideservice.com,fraudclatterflyingcar.com,housecardsummerbutton.com,fittingcentermondaysunday.com,reputationsheriffkennethsand.com,launchreliantcleaverriver.com,audaciousdefaulthouse.com,v-o-e-unblock.com,un-block-voe.net,voeun-block.net,voe-un-block.com,voeunblk.com,voeunblck.com,voeunbl0ck.com,voeunblock3.com,voeunblock2.com,voeunblock1.com,voeunblock.com,voe-unblock.*,voe.bar,voe.sx##+js(abort-current-script, document.createElement, _blank)
+erikcoldperson.com,roberteachfinal.com,loriwithinfamily.com,rebeccaneverbase.com,brucevotewithin.com,sethniceletter.com,michaelapplysome.com,cindyeyefinal.com,shannonpersonalcost.com,graceaddresscommunity.com,jasonresponsemeasure.com,ryanagoinvolve.com,jamesstartstudent.com,brookethoughi.com,vincentincludesuccessful.com,sharonwhiledemocratic.com,jayservicestuff.com,sandrataxeight.com,markstyleall.com,morganoperationface.com,johntryopen.com,seanshowcould.com,jamiesamewalk.com,bradleyviewdoctor.com,kennethofficialitem.com,lukecomparetwo.com,edwardarriveoften.com,paulkitchendark.com,stevenimaginelittle.com,troyyourlead.com,denisegrowthwide.com,kathleenmemberhistory.com,nonesnanking.com,prefulfilloverdoor.com,phenomenalityuniform.com,nectareousoverelate.com,apinchcaseation.com,timberwoodanotia.com,strawberriesporail.com,valeronevijao.com,cigarlessarefy.com,figeterpiazine.com,yodelswartlike.com,generatesnitrosate.com,chromotypic.com,gamoneinterrupted.com,metagnathtuggers.com,wolfdyslectic.com,rationalityaloelike.com,sizyreelingly.com,simpulumlamerop.com,urochsunloath.com,monorhinouscassaba.com,counterclockwisejacky.com,availedsmallest.com,tubelessceliolymph.com,tummulerviolableness.com,35volitantplimsoles5.com,scatch176duplicities.com,matriculant401merited.com,antecoxalbobbing1010.com,boonlessbestselling244.com,cyamidpulverulence530.com,guidon40hyporadius9.com,449unceremoniousnasoseptal.com,321naturelikefurfuroid.com,30sensualizeexpression.com,19turanosephantasia.com,toxitabellaeatrebates306.com,20demidistance9elongations.com,tinycat-voe-fashion.com,realfinanceblogcenter.com,uptodatefinishconferenceroom.com,bigclatterhomesguideservice.com,fraudclatterflyingcar.com,housecardsummerbutton.com,fittingcentermondaysunday.com,reputationsheriffkennethsand.com,launchreliantcleaverriver.com,audaciousdefaulthouse.com,v-o-e-unblock.com,un-block-voe.net,voeun-block.net,voe-un-block.com,voeunblk.com,voeunblck.com,voeunbl0ck.com,voeunblock3.com,voeunblock2.com,voeunblock1.com,voeunblock.com,voe-unblock.*,voe.bar,voe.sx,crownmakermacaronicism.com##+js(abort-current-script, $, /\.fadeIn|\.show\(.?\)/)
+erikcoldperson.com,roberteachfinal.com,loriwithinfamily.com,rebeccaneverbase.com,brucevotewithin.com,sethniceletter.com,michaelapplysome.com,cindyeyefinal.com,shannonpersonalcost.com,graceaddresscommunity.com,jasonresponsemeasure.com,ryanagoinvolve.com,jamesstartstudent.com,brookethoughi.com,vincentincludesuccessful.com,sharonwhiledemocratic.com,jayservicestuff.com,sandrataxeight.com,markstyleall.com,morganoperationface.com,johntryopen.com,seanshowcould.com,jamiesamewalk.com,bradleyviewdoctor.com,kennethofficialitem.com,lukecomparetwo.com,edwardarriveoften.com,paulkitchendark.com,stevenimaginelittle.com,troyyourlead.com,denisegrowthwide.com,kathleenmemberhistory.com,nonesnanking.com,prefulfilloverdoor.com,phenomenalityuniform.com,nectareousoverelate.com,apinchcaseation.com,timberwoodanotia.com,strawberriesporail.com,valeronevijao.com,cigarlessarefy.com,figeterpiazine.com,yodelswartlike.com,generatesnitrosate.com,chromotypic.com,gamoneinterrupted.com,metagnathtuggers.com,wolfdyslectic.com,rationalityaloelike.com,sizyreelingly.com,simpulumlamerop.com,urochsunloath.com,monorhinouscassaba.com,counterclockwisejacky.com,availedsmallest.com,tubelessceliolymph.com,tummulerviolableness.com,35volitantplimsoles5.com,scatch176duplicities.com,matriculant401merited.com,antecoxalbobbing1010.com,boonlessbestselling244.com,cyamidpulverulence530.com,guidon40hyporadius9.com,449unceremoniousnasoseptal.com,321naturelikefurfuroid.com,30sensualizeexpression.com,19turanosephantasia.com,toxitabellaeatrebates306.com,tinycat-voe-fashion.com,realfinanceblogcenter.com,uptodatefinishconferenceroom.com,bigclatterhomesguideservice.com,fraudclatterflyingcar.com,housecardsummerbutton.com,fittingcentermondaysunday.com,reputationsheriffkennethsand.com,launchreliantcleaverriver.com,audaciousdefaulthouse.com,v-o-e-unblock.com,un-block-voe.net,voeun-block.net,voe-un-block.com,voeunblk.com,voeunblck.com,voeunbl0ck.com,voeunblock3.com,voeunblock2.com,voeunblock1.com,voeunblock.com,voe-unblock.*,voe.bar,voe.sx##+js(addEventListener-defuser, click, VODMonetisation)
 erji.com,erji.net##.black.y-style
 erkiss.live###upa
 ero-comic-hunter.net,eromanga-castle.com,nukerumannga.com,ero-mangasokuhou.com,ero-mangalife.com,eromanga-cafe.com,doujincafe.com##.archive > div[style="margin:0 auto;"]:not([class])
@@ -45208,6 +45217,7 @@ kiktu.com,techcyan.com##div[id^="wggen"] a
 kiktu.com,techcyan.com#$#a[target="_blank"][rel] { clip-path: circle(0) !important; }
 kimcartoon.*##.kcAds1
 kimcartoon.*##div[style^="float: left; width: 300px; height: 250px;"]
+kimcartoon.li##+js(no-setTimeout-if, (), 15000)
 kimcartoon.li,kimcartoon.*###ads-top-wrap
 kimcartoon.me###mgiframe2
 kimcartoon.me##.kcAds
@@ -45284,11 +45294,12 @@ kisstvshow.net,kisstvshow.to##.barContent > div:not([class]):not([id]) > div[sty
 kisstvshow.net,kisstvshow.to##div[style="width: 620px; margin: 0px auto; overflow: hidden;"]:not([class]):not([id])
 kisstvshow.net,lifestylehack.info,keephealth.info,kimcartoon.li,kissorg.net,kisstvshow.to,kissasian.*##+js(abort-on-property-write, ads_urls)
 kisstvshow.net,lifestylehack.info,keephealth.info,kimcartoon.li,kissorg.net,kisstvshow.to,kissasian.*##+js(abort-on-property-write, checkAdsBlocked)
-kisstvshow.net,lifestylehack.info,keephealth.info,kimcartoon.li,kissorg.net,kisstvshow.to,kissasian.*##+js(no-xhr-if, /mgid\.com|pagead2\.googlesyndication\.com/)
+kisstvshow.net,lifestylehack.info,keephealth.info,kimcartoon.li,kissorg.net,kisstvshow.to,kissasian.*##+js(abort-on-property-write, xaZlE)
+kisstvshow.net,lifestylehack.info,keephealth.info,kimcartoon.li,kissorg.net,kisstvshow.to,kissasian.*##+js(no-xhr-if, /mgid\.com|pagead2\.googlesyndication\.com|\/ads\/advert/)
 kisstvshow.net,lifestylehack.info,keephealth.info,kimcartoon.li,kissorg.net,kisstvshow.to,kissasian.*##+js(set-constant, alb, false)
 kisstvshow.net,lifestylehack.info,keephealth.info,kimcartoon.li,kissorg.net,kisstvshow.to,kissasian.*##+js(set-constant, isAdb, false)
+kisstvshow.net,lifestylehack.info,keephealth.info,kimcartoon.li,kissorg.net,kisstvshow.to,kissasian.*##+js(set-constant, tryHard, noopFunc)
 kisstvshow.net,lifestylehack.info,keephealth.info,kimcartoon.li,kissorg.net,kisstvshow.to,kissasian.*##.kcAds1:not(#ad-promo)
-kisstvshow.net,lifestylehack.info,keephealth.info,kimcartoon.li,kissorg.net,kisstvshow.to,kissasian.*#$#body #ad-promo[style] { display: block !important; }
 kisstvshow.to#$##divContentVideo { width: 100% !important; }
 kisstvshow.to#$#div[class="w-left"][style^="float: left;"] { width: 100% !important; }
 kisstvshow.to#$#iframe[id^="my_video_"] { width: 100% !important; }
@@ -54022,9 +54033,6 @@ road.cc##.adtech-ad
 road.cc##.adtech-copy
 roadmap.sh###carbonads
 roadtovr.com##footer > div.td-post-content
-roberteachfinal.com,loriwithinfamily.com,rebeccaneverbase.com,brucevotewithin.com,sethniceletter.com,michaelapplysome.com,cindyeyefinal.com,shannonpersonalcost.com,graceaddresscommunity.com,jasonresponsemeasure.com,ryanagoinvolve.com,jamesstartstudent.com,brookethoughi.com,vincentincludesuccessful.com,sharonwhiledemocratic.com,jayservicestuff.com,sandrataxeight.com,markstyleall.com,morganoperationface.com,johntryopen.com,seanshowcould.com,jamiesamewalk.com,bradleyviewdoctor.com,kennethofficialitem.com,edwardarriveoften.com,paulkitchendark.com,stevenimaginelittle.com,troyyourlead.com,denisegrowthwide.com,kathleenmemberhistory.com,nonesnanking.com,prefulfilloverdoor.com,phenomenalityuniform.com,nectareousoverelate.com,apinchcaseation.com,timberwoodanotia.com,strawberriesporail.com,valeronevijao.com,cigarlessarefy.com,figeterpiazine.com,yodelswartlike.com,generatesnitrosate.com,chromotypic.com,gamoneinterrupted.com,metagnathtuggers.com,wolfdyslectic.com,rationalityaloelike.com,sizyreelingly.com,simpulumlamerop.com,urochsunloath.com,monorhinouscassaba.com,counterclockwisejacky.com,availedsmallest.com,tubelessceliolymph.com,tummulerviolableness.com,35volitantplimsoles5.com,scatch176duplicities.com,matriculant401merited.com,antecoxalbobbing1010.com,boonlessbestselling244.com,cyamidpulverulence530.com,guidon40hyporadius9.com,449unceremoniousnasoseptal.com,321naturelikefurfuroid.com,30sensualizeexpression.com,19turanosephantasia.com,toxitabellaeatrebates306.com,tinycat-voe-fashion.com,realfinanceblogcenter.com,uptodatefinishconferenceroom.com,bigclatterhomesguideservice.com,fraudclatterflyingcar.com,housecardsummerbutton.com,fittingcentermondaysunday.com,reputationsheriffkennethsand.com,launchreliantcleaverriver.com,audaciousdefaulthouse.com,v-o-e-unblock.com,un-block-voe.net,voeun-block.net,voe-un-block.com,voeunblk.com,voeunblck.com,voeunbl0ck.com,voeunblock3.com,voeunblock2.com,voeunblock1.com,voeunblock.com,voe-unblock.*,voe.bar,voe.sx##+js(abort-current-script, document.createElement, _blank)
-roberteachfinal.com,loriwithinfamily.com,rebeccaneverbase.com,brucevotewithin.com,sethniceletter.com,michaelapplysome.com,cindyeyefinal.com,shannonpersonalcost.com,graceaddresscommunity.com,jasonresponsemeasure.com,ryanagoinvolve.com,jamesstartstudent.com,brookethoughi.com,vincentincludesuccessful.com,sharonwhiledemocratic.com,jayservicestuff.com,sandrataxeight.com,markstyleall.com,morganoperationface.com,johntryopen.com,seanshowcould.com,jamiesamewalk.com,bradleyviewdoctor.com,kennethofficialitem.com,lukecomparetwo.com,edwardarriveoften.com,paulkitchendark.com,stevenimaginelittle.com,troyyourlead.com,denisegrowthwide.com,kathleenmemberhistory.com,nonesnanking.com,prefulfilloverdoor.com,phenomenalityuniform.com,nectareousoverelate.com,apinchcaseation.com,timberwoodanotia.com,strawberriesporail.com,valeronevijao.com,cigarlessarefy.com,figeterpiazine.com,yodelswartlike.com,generatesnitrosate.com,chromotypic.com,gamoneinterrupted.com,metagnathtuggers.com,wolfdyslectic.com,rationalityaloelike.com,sizyreelingly.com,simpulumlamerop.com,urochsunloath.com,monorhinouscassaba.com,counterclockwisejacky.com,availedsmallest.com,tubelessceliolymph.com,tummulerviolableness.com,35volitantplimsoles5.com,scatch176duplicities.com,matriculant401merited.com,antecoxalbobbing1010.com,boonlessbestselling244.com,cyamidpulverulence530.com,guidon40hyporadius9.com,449unceremoniousnasoseptal.com,321naturelikefurfuroid.com,30sensualizeexpression.com,19turanosephantasia.com,toxitabellaeatrebates306.com,20demidistance9elongations.com,tinycat-voe-fashion.com,realfinanceblogcenter.com,uptodatefinishconferenceroom.com,bigclatterhomesguideservice.com,fraudclatterflyingcar.com,housecardsummerbutton.com,fittingcentermondaysunday.com,reputationsheriffkennethsand.com,launchreliantcleaverriver.com,audaciousdefaulthouse.com,v-o-e-unblock.com,un-block-voe.net,voeun-block.net,voe-un-block.com,voeunblk.com,voeunblck.com,voeunbl0ck.com,voeunblock3.com,voeunblock2.com,voeunblock1.com,voeunblock.com,voe-unblock.*,voe.bar,voe.sx,crownmakermacaronicism.com##+js(abort-current-script, $, /\.fadeIn|\.show\(.?\)/)
-roberteachfinal.com,loriwithinfamily.com,rebeccaneverbase.com,brucevotewithin.com,sethniceletter.com,michaelapplysome.com,cindyeyefinal.com,shannonpersonalcost.com,graceaddresscommunity.com,jasonresponsemeasure.com,ryanagoinvolve.com,jamesstartstudent.com,brookethoughi.com,vincentincludesuccessful.com,sharonwhiledemocratic.com,jayservicestuff.com,sandrataxeight.com,markstyleall.com,morganoperationface.com,johntryopen.com,seanshowcould.com,jamiesamewalk.com,bradleyviewdoctor.com,kennethofficialitem.com,lukecomparetwo.com,edwardarriveoften.com,paulkitchendark.com,stevenimaginelittle.com,troyyourlead.com,denisegrowthwide.com,kathleenmemberhistory.com,nonesnanking.com,prefulfilloverdoor.com,phenomenalityuniform.com,nectareousoverelate.com,apinchcaseation.com,timberwoodanotia.com,strawberriesporail.com,valeronevijao.com,cigarlessarefy.com,figeterpiazine.com,yodelswartlike.com,generatesnitrosate.com,chromotypic.com,gamoneinterrupted.com,metagnathtuggers.com,wolfdyslectic.com,rationalityaloelike.com,sizyreelingly.com,simpulumlamerop.com,urochsunloath.com,monorhinouscassaba.com,counterclockwisejacky.com,availedsmallest.com,tubelessceliolymph.com,tummulerviolableness.com,35volitantplimsoles5.com,scatch176duplicities.com,matriculant401merited.com,antecoxalbobbing1010.com,boonlessbestselling244.com,cyamidpulverulence530.com,guidon40hyporadius9.com,449unceremoniousnasoseptal.com,321naturelikefurfuroid.com,30sensualizeexpression.com,19turanosephantasia.com,toxitabellaeatrebates306.com,tinycat-voe-fashion.com,realfinanceblogcenter.com,uptodatefinishconferenceroom.com,bigclatterhomesguideservice.com,fraudclatterflyingcar.com,housecardsummerbutton.com,fittingcentermondaysunday.com,reputationsheriffkennethsand.com,launchreliantcleaverriver.com,audaciousdefaulthouse.com,v-o-e-unblock.com,un-block-voe.net,voeun-block.net,voe-un-block.com,voeunblk.com,voeunblck.com,voeunbl0ck.com,voeunblock3.com,voeunblock2.com,voeunblock1.com,voeunblock.com,voe-unblock.*,voe.bar,voe.sx##+js(addEventListener-defuser, click, VODMonetisation)
 robinwidget.org##.banner-1
 robinwidget.org##.banner-2
 roblox.com##.abp-spacer
@@ -61554,6 +61562,7 @@ xhtab4.com,xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,se
 xhtab4.com,xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##div[class*="pauseSpotContainer"]
 xhtab4.com,xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##div[class*="premium-overlay"]
 xhtab4.com,xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##div[class*="sp-b"]
+xhtab4.com,xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##div[class*="widget-section"]
 xhtab4.com,xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,taoxh.life,xhamster42.desi,xhvid.com,xhtab2.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,megaxh.com,xhamster16.*,hamsterix.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##div[data-testid="right-banner-section"]
 xhtml?$domain=kanshu8.net
 xhvid.com,xhwebsite2.com,xhadult3.com,xhmoon5.com,xhamster3.*,xhplanet2.com,xhamster16.*,hamsterix.*,xhamster13.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.com,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster35.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,xhamsterpremium.com#$#.thumb-list > .video-thumb { margin-right: 0px !important; }
@@ -62834,7 +62843,7 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 zzzyk.com###Tinfo
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>3261
+!<<<<<通配符规则>>>>>3262
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe.com,badfilter
 $image,third-party,denyallow=cdn77.org|fpbns.net|others-cdn.com|rncdn7.com|sb-cd.com|stream.highwebmedia.com|upsiloncdn.net|xvideos-cdn.com|youjizz.com|ypncdn.com,domain=pussyspace.com|pussyspace.net
@@ -62868,6 +62877,7 @@ $xmlhttprequest,third-party,denyallow=authkong.com|rsc.cdn77.org|linkvertise.com
 &rb=*&zoneid=$script,xmlhttprequest,third-party
 &request_ab*&zoneid=$all
 &siteid=*&adid=$removeparam
+&spotPageType=videoPage$domain=seexh.com|taoxh.life|xhamster42.desi|xhvid.com|xhtab2.com|xhamster20.desi|xhamster19.desi|xhwebsite2.com|xhamster18.desi|xhadult3.com|xhadult2.com|xhmoon5.com|xhwide1.com|xhamster3.com|xhplanet2.com|megaxh.com|xhamster16.*|hamsterix.*|xhamster.com|xhamster2.com|xhamster7.com|xhamster8.com|xhamster9.com|xhamster10.com|xhamster12.com|xhamster13.*|xhamster14.com|xhamster15.com|xhamster17.*|xhamster18.*|xhamster19.com|xhamster1.desi|xhamster2.desi|xhamster3.*|xhamster4.desi|xhamster20.com|xhamster22.com|xhamster23.com|xhamster25.com|xhamster26.com|xhamster27.com|openxh.com|xhamster31.com|xhamster32.com|xhamster34.com|xhamster35.com|xhamster36.com|xhamster37.com|xhamster38.com|xhamster5.desi|xhopen.com|openxh1.com|xhamster39.com|xhamster40.com|xhamster.one|xhamster.desi
 &subAffId=tall^$script,subdocument,third-party
 &subAffId={SUBAFFID}^$script,subdocument,third-party
 &type=dynamic_banner$subdocument,third-party
@@ -70291,7 +70301,7 @@ zle.com$script
 ~xxgxw.com##div[id^="C"][style*="height:"][class^="C"]
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>4699
+!<<<<<放行白名单>>>>>4700
 #@##adblocktest
 #@#.ADV320_50_100
 #@#.ad-box
@@ -74184,7 +74194,8 @@ aiqicha.baidu.com,xinmin.cn#@#.share-title
 alamelsyarat.net#@#.adscenter
 ali213.net#@#.subscribe-container
 alle-lkw.de#@##gwd-ad
-alliptvlinks.com,android-doc.com,anydebrid.com,apk.tw,bedfix.wurstclient.net,chaojizhibo.net,chtoen.com,copyseeker.net,cutty.app,dizhishengcheng.com,doitwell.tw,domhouse.it,epinv.com,estudyme.com,ff14angler.com,fxpan.com,gergerhaber.net,haoweichi.com,karvitt.com,logi.im,lspdfrcn.com,mcoc-guide.com,moa.tw,moe48.com,mohammedkhc.com,numberempire.com,okdebrid.com,playok.com,receive-a-sms.com,reh.tw,rjno1.com,safe.elektroupdate.com,shenfendaquan.com,skmedix.pl,smsonline.cloud,sonixgvn.net,tamrieltradecentre.com,technoarabi.com,teemo.gg,vaptcha.com,yoykp.com,ytlarge.com,znaki.edu.pl#@#ins.adsbygoogle[data-ad-slot]
+alliptvlinks.com,android-doc.com,anydebrid.com,apk.tw,bedfix.wurstclient.net,chaojizhibo.net,chtoen.com,copyseeker.net,cutty.app,dizhishengcheng.com,doitwell.tw,domhouse.it,epinv.com,estudyme.com,ff14angler.com,fxpan.com,gergerhaber.net,haoweichi.com,karvitt.com,logi.im,lspdfrcn.com,mcoc-guide.com,moa.tw,moe48.com,mohammedkhc.com,numberempire.com,okdebrid.com,playok.com,receive-a-sms.com,reh.tw,rjno1.com,safe.elektroupdate.com,shenfendaquan.com,skmedix.pl,smsonline.cloud,sonixgvn.net,tamrieltradecentre.com,technoarabi.com,teemo.gg,vaptcha.com,yoykp.com,ytlarge.com,zefoy.com,znaki.edu.pl#@#ins.adsbygoogle[data-ad-slot]
+alliptvlinks.com,anydebrid.com,bedfix.wurstclient.net,copyseeker.net,cutty.app,download.mokeedev.com,estudyme.com,gergerhaber.net,j-basketball.club,karvitt.com,mcoc-guide.com,mohammedkhc.com,okdebrid.com,receive-a-sms.com,rjno1.com,safe.elektroupdate.com,smsonline.cloud,sonixgvn.net,tamrieltradecentre.com,teemo.gg,yoykp.com,ytlarge.com#@#ins.adsbygoogle[data-ad-client]
 allsmo.com,anhdep24.net,antiadblockscript.com,br0wsers.com,dailymotion.com,softwaresblue.com,softwaresde.com,techyhit.com,zamkomania.pl#@#.ad_box
 allurekorea.com#@#.paszone_container
 allurekorea.com#@#.wppaszone
