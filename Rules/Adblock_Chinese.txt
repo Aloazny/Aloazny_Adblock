@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: ECXflHlmkN4bMCJqcaNzAg
+! Checksum: USPQlR4wCQfcn4aM5N5UvQ
 ! Title: Aloazny Chinese fiter
-! Version: 20240705202731
+! Version: 20240706090349
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-07-05 20:27:31
-! Total Count: 39044
-! Blocked Filters: 39044
+! Last modified: 2024-07-06 09:03:49
+! Total Count: 39055
+! Blocked Filters: 39055
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>17754
+!<<<<<域名规则>>>>>17763
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|cyxse.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.360118.com|m.37zw.net|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zwdu.com
 |http://*.cn/ad/
@@ -6148,6 +6148,7 @@
 ||featherstage.com^$third-party
 ||featured.perfectionholic.com^
 ||februarylovestory.com^$third-party
+||febtzd.xyz^
 ||feebleshock.com^$third-party
 ||feed.baidu.com^
 ||feesoon.com/js/cnzz_
@@ -6195,6 +6196,7 @@
 ||fguhyg.cn^
 ||fgukchz.icu^
 ||fgwerg.top^
+||fgwuw.com^
 ||fh21.com.cn/partners/
 ||fhcmeiju.com/template/DYXS2/html/1.
 ||fhddnh.xyz^
@@ -6982,6 +6984,7 @@
 ||gstatic.com/shopping?q=tbn$image,domain=rocketnews24.com|youpouch.com|soranews24.com
 ||gsuxyg.xyz^
 ||gsxbxvd.cn^
+||gsywcc.xyz^
 ||gszetzdm.xyz^
 ||gt.duowan.com^
 ||gt.yy.com^
@@ -7077,6 +7080,7 @@
 ||gw1jvhs.com^
 ||gw2cddpt2hao.asia^
 ||gw2cddpt2hao.cloud^
+||gw2cddpt2hao.site^
 ||gwbnsh.net.cn/hd/unicom/ad.html
 ||gwdobvs.cn^
 ||gwertyuadf.com^
@@ -8264,6 +8268,7 @@
 ||ipsoazr.icu^
 ||ipssn.haffo*.com^$third-party
 ||ipssss.com^
+||iptuy.cn^
 ||iptv444.com/ad-
 ||ipuswrg.cn^
 ||iqbecde.cn^$~third-party
@@ -9402,6 +9407,7 @@
 ||kyemwo.xyz^
 ||kygso.com/js/lrtk.js
 ||kyikdee.cn^
+||kyislod.top^
 ||kyjwtxei.xyz^
 ||kykqss.xyz^
 ||kymahuxv.xyz^
@@ -9672,6 +9678,7 @@
 ||liisex.com/images/banners/
 ||liitwrz.icu^
 ||lijie.in^
+||lijlrz.xyz^
 ||lijunkai.com^
 ||likdie.com^
 ||liktufmruav.com^$third-party
@@ -11376,6 +11383,7 @@
 ||oldulgk.cn^
 ||olelive.com/v1/pub/index/anchor/check/pc/e?
 ||olgame.tw/home/attachment/
+||olgcpwc.icu^
 ||olltcqg.xyz^
 ||olmnvbgufy.top^
 ||olmsoneenh.info^$domain=avgle.com
@@ -15914,6 +15922,7 @@
 ||whdwydt.cn^
 ||whdx.cc/js/
 ||whe0nqk.icu^
+||wheregoes.com/c/uploads/$script
 ||whfpbc.99.com.cn^
 ||whichav.*/qq/qq.js
 ||whineattempt.com^$third-party
@@ -17771,7 +17780,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>13261
+!<<<<<网站单独规则>>>>>13263
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.net
@@ -19535,6 +19544,8 @@ aol.com,fossbytes.com##div[class^="index__adWrapper"]
 aoshu.com,zhongkao.com,zuowen.com##.bottomImg
 aotter.net##.ag-revenue
 aotu43.com##center > a[rel="nofollow"] > .king
+apachecn.org###coo_banner_WideScreen
+apachecn.org##.md-banner
 apexlegends-leaksnews.com##.ad-inserter
 api.so.lianmeng.360.cn,jr442.hxfwxh4jg.com,kvspay.com,pos.baidu.com##body
 apiref.com###navbarRightAd
