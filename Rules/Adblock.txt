@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: GZ2SabVKxiIDp1PSxNnsfQ
+! Checksum: TTDecEJlEoHp1aTlCkoU/g
 ! Title: Aloazny Mobile fiter
-! Version: 20240707091231
+! Version: 20240707202725
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-07-07 09:12:31
-! Total Count: 74984
-! Blocked Filters: 74984
+! Last modified: 2024-07-07 20:27:25
+! Total Count: 74992
+! Blocked Filters: 74992
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock.txt?ref=main
 
 
-!<<<<<域名规则>>>>>28182
+!<<<<<域名规则>>>>>28188
 |http$third-party,script,domain=kinotut.tv
 |http*://$image,third-party,domain=rmdown.com
 |http*://$script,third-party,domain=stream2watch.org,badfilter
@@ -4058,6 +4058,7 @@
 ||americass.net/interstice-ad
 ||amerzbj.cn^
 ||amethystzenith.com^$third-party
+||amfhby.cn^
 ||amidicestrins.com^
 ||amillionads.com^
 ||amjadfreesoft.com^$third-party,image
@@ -6042,6 +6043,7 @@
 ||browsec-promo.s3.eu-central-1.amazonaws.com/*.html$all
 ||browser.sentry-cdn.com^$third-party
 ||browserkernel.baidu.com^
+||brtlisv.top^
 ||brtzgnd.xyz^
 ||bruisebaseball.com^$third-party
 ||brunettemattersrefused.com^
@@ -9184,6 +9186,7 @@
 ||doujs03.xyz^
 ||doujs05.xyz^
 ||doujs06.xyz^
+||doujs07.xyz^
 ||douploads.net/sw_newone.js
 ||doupocangqiong1.com/js/ptwap.js
 ||doutula.com/img/upupoo/
@@ -24094,6 +24097,7 @@
 ||tuotianxia.top^
 ||tupian6666.com^
 ||tupian888.*.bcebos.com^
+||tupian9999.com^
 ||tuplzt.xyz^
 ||tupwiwm.com^
 ||tuqnwz.icu^
@@ -26997,6 +27001,8 @@
 ||xxxwebdlxxx.org/*%*.js|
 ||xxxx.se/d/$subdocument
 ||xxxx68xxxx.com^
+||xxxx88xxxx.com^
+||xxxx96xxxx.com^
 ||xxxxtube-porn.com/helper/tos.js
 ||xxxymovies.com/player/html.php?aid=pause_html&video_id=*&referer=
 ||xyadtlyy.com^
@@ -28199,7 +28205,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>34649
+!<<<<<网站单独规则>>>>>34650
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe.com,badfilter
 $image,third-party,denyallow=cdn77.org|fpbns.net|others-cdn.com|rncdn7.com|sb-cd.com|stream.highwebmedia.com|upsiloncdn.net|xvideos-cdn.com|youjizz.com|ypncdn.com,domain=pussyspace.com|pussyspace.net
@@ -44022,6 +44028,7 @@ iqiyi.com##.zzVideo
 iqiyi.com##:not(.qy-index-page) > div[id^="100000"]
 iqiyi.com##a[href*=".banggo."]
 iqiyi.com##a[href*=".oppo."]
+iqiyi.com##a[href^="https://ads.game.iqiyi.com"]
 iqiyi.com##a[id^="100000"]
 iqiyi.com##div[class^="ad-piclist-"]
 iqiyi.com##div[class^="video-slide_normal"] > a[href^="http"]:not([href*="iqiyi.com"]) > div > img
@@ -66116,7 +66123,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 zle.com$script
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>4190
+!<<<<<通用Css规则>>>>>4191
 ###ADbox
 ###ADtip
 ###AdBlockDialog
@@ -66670,6 +66677,7 @@ zle.com$script
 ###piao_div_3[style*="width:140px;"]
 ###piao_div_4[style*="width:140px;"]
 ###piao_div_5[style*="width:140px;"]
+###play[style="padding: 10px;"] > a[href="/0705.html"]
 ###player-advertising
 ###player-bottom-ads
 ###playerAdvLayer
