@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 64PBEE+dcHORDrkOASCzbA
+! Checksum: BDy+teG8JvW43jeSB33YQQ
 ! Title: Aloazny attach fiter
-! Version: 20240706202531
+! Version: 20240707091046
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-07-06 20:25:31
-! Total Count: 14959
-! Blocked Filters: 14959
+! Last modified: 2024-07-07 09:10:46
+! Total Count: 14960
+! Blocked Filters: 14960
 ! Description: 合并混合规则的补充规则，轻量规则，可作为补充规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14737,7 +14737,7 @@ zle.com$script
 ~xxgxw.com##div[id^="C"][style*="height:"][class^="C"]
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>248
+!<<<<<放行白名单>>>>>249
 #@##adblocktest
 18-comic.work,18-comicblade.art,18-comicblade.club,18-comicblade.org,18-comicblade.xyz,18-comicfreedom.org,18-comicfreedom.xyz,18-comicstellar.art,18-comicstellar.xyz,18comic-erdtree.xyz,18comic.org,18comic.vip,jm-comic1.cc,jm-comic2.cc,jmcomic.me,jmcomic1.city,jmcomic1.group,jmcomic1.me,jmcomic1.win,jmcomic2.me#@#.col-lg-3.col-xs-6 > .well
 18-comic.work,18-comicblade.art,18-comicblade.org,18-comicblade.xyz,18-comicfreedom.org,18-comicfreedom.xyz,18-comicstellar.art,18comic.org,18comic.vip,jm-comic1.cc,jm-comic2.cc,jmcomic.me,jmcomic1.city,jmcomic1.group,jmcomic1.me,jmcomic1.win,jmcomic2.me#@#img[alt][src^="/static/resources/"]
@@ -14848,6 +14848,7 @@ zle.com$script
 @@||ddzswov1e84sp.cloudfront.net^$script,domain=free-content.pro
 @@||dn0qt3r0xannq.cloudfront.net/*/default/prebid-library.js$domain=nationalreview.com
 @@||dn0qt3r0xannq.cloudfront.net/*/default/prebid-load.js$domain=nationalreview.com
+@@||download.megaup.net/openads.js$script,~third-party
 @@||eporner.com^$~third-party
 @@||f*.baidu.com/it/u=*,*&fm=$domain=baidu.com
 @@||fapcat.com^$~third-party

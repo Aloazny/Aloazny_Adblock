@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: roy6xNG7oKwHtWSe/xLFrw
+! Checksum: GZ2SabVKxiIDp1PSxNnsfQ
 ! Title: Aloazny Mobile fiter
-! Version: 20240706202719
+! Version: 20240707091231
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-07-06 20:27:19
-! Total Count: 74975
-! Blocked Filters: 74975
+! Last modified: 2024-07-07 09:12:31
+! Total Count: 74984
+! Blocked Filters: 74984
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock.txt?ref=main
 
 
-!<<<<<域名规则>>>>>28175
+!<<<<<域名规则>>>>>28182
 |http$third-party,script,domain=kinotut.tv
 |http*://$image,third-party,domain=rmdown.com
 |http*://$script,third-party,domain=stream2watch.org,badfilter
@@ -10801,6 +10801,7 @@
 ||foamyfood.com^$third-party
 ||fobshanghai.com/bbsad/
 ||focas.jp^
+||fodrxl.xyz^
 ||fogolakda.top^
 ||fogsham.com^$third-party
 ||fohikrs.com^
@@ -12574,6 +12575,7 @@
 ||hiy.vidzi.tv/socket.io^
 ||hizliresimyukle.com/images/2018/02/13/banner-1.jpg
 ||hj.faggotbovidae.com^
+||hjammiz.icu^
 ||hjbqnwb.com^
 ||hjdha.cn^
 ||hjdkvt.xyz^
@@ -14986,6 +14988,7 @@
 ||kmr.rsvqlz.cn^
 ||kmr.vcunkbo.cn^
 ||kmr.wdjptto.cn^
+||kmruv.cn^
 ||kms-full.com^$all
 ||kms-tool.com^$all
 ||kmsofficial.org^$all
@@ -21431,6 +21434,7 @@
 ||selfishsnake.com^$third-party
 ||selornews.com^
 ||semawur.com/download3.png
+||semhgk.xyz^
 ||seminarski-diplomski.co.rs/js/custom.js
 ||sendit.cloud/images/banner/$third-party
 ||sendvid.com/tpd.png
@@ -22950,6 +22954,7 @@
 ||sycrgc.xyz^
 ||sydz.tw^
 ||sygmtz.com^
+||syislob.top^
 ||syiwgwsqwngrdw.xyz^
 ||syjkscy.cn^
 ||syltfvcaa.com^
@@ -26881,6 +26886,7 @@
 ||xunyugong.xyz/sitejs/xunyugong.js
 ||xuoizbtl.xyz^
 ||xuwfmhh.icu^
+||xuxwvh.xyz^
 ||xuyanlong1.cn^
 ||xuzhi.net/uploadfile/poster/960x50.jpg
 ||xuzsdn.xyz^
@@ -26944,6 +26950,7 @@
 ||xxooos.com/mm/
 ||xxsmad1.com^
 ||xxsmad2.com^
+||xxsmad3.com^
 ||xxsmcps.com^
 ||xxsywxj.com^
 ||xxtalp.xyz^
@@ -28192,7 +28199,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>34648
+!<<<<<网站单独规则>>>>>34649
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe.com,badfilter
 $image,third-party,denyallow=cdn77.org|fpbns.net|others-cdn.com|rncdn7.com|sb-cd.com|stream.highwebmedia.com|upsiloncdn.net|xvideos-cdn.com|youjizz.com|ypncdn.com,domain=pussyspace.com|pussyspace.net
@@ -31759,6 +31766,7 @@ asahi.com##.PrInfoBlock
 asahi.com##.Rbdo3
 asahi.com##.list-adL
 asahi.com##.p-topBanner
+asahi.com##.top-banner.sp
 asahi.com##body > div.notPrint
 asahi.com##li.FeatureBox_list
 asajo.jp##.ad-area-upper
@@ -70301,7 +70309,7 @@ zle.com$script
 ~xxgxw.com##div[id^="C"][style*="height:"][class^="C"]
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>4700
+!<<<<<放行白名单>>>>>4701
 #@##adblocktest
 #@#.ADV320_50_100
 #@#.ad-box
@@ -71840,6 +71848,7 @@ zle.com$script
 @@||download.hr/module/detector/adsbygoogle.js
 @@||download.inventivetalent.org/external/adfly/make.php
 @@||download.megaup.net/*.js$~third-party
+@@||download.megaup.net/openads.js$script,~third-party
 @@||download.mokeedev.com/js/show_ads_impl.js$domain=download.mokeedev.com
 @@||downloadfreecourse.com/ads-prebid.js
 @@||downloads.freevintageposters.com/advertising-posters.jpg
