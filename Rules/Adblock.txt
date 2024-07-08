@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: TTDecEJlEoHp1aTlCkoU/g
+! Checksum: xrftHF791/SzQ4Iu7GuvNQ
 ! Title: Aloazny Mobile fiter
-! Version: 20240707202725
+! Version: 20240708090859
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-07-07 20:27:25
-! Total Count: 74992
-! Blocked Filters: 74992
+! Last modified: 2024-07-08 09:08:59
+! Total Count: 75002
+! Blocked Filters: 75002
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock.txt?ref=main
 
 
-!<<<<<域名规则>>>>>28188
+!<<<<<域名规则>>>>>28194
 |http$third-party,script,domain=kinotut.tv
 |http*://$image,third-party,domain=rmdown.com
 |http*://$script,third-party,domain=stream2watch.org,badfilter
@@ -2963,6 +2963,7 @@
 ||aclsx.cn^
 ||acode.b2b.cn/JS/
 ||acodes.b2b.cn^
+||acqaghx.icu^
 ||acqc9.com^
 ||acridtwist.com^$third-party
 ||acronymfinder.com/*/housebanners^
@@ -5330,6 +5331,7 @@
 ||bddb2d2561.62b81f5af3.com^
 ||bddwm.com^
 ||bdfg9a.icu^
+||bdfjw.cn^
 ||bdgest.com/js/site.js?
 ||bdgg.qjy168.com^
 ||bdhcpll.cn^
@@ -9969,6 +9971,7 @@
 ||eqcwpeo.cn^
 ||eqghuu.com^
 ||eqknlsw.xyz^
+||eqkvks.xyz^
 ||eqlidke.cn^
 ||eqqi.cn^
 ||eqqwgw.xyz^
@@ -15528,6 +15531,7 @@
 ||lgoewtd.icu^
 ||lgohse.fun^
 ||lgoseh.fun^
+||lgpjw.cn^
 ||lgtpdt.xyz^
 ||lguaud.icu^
 ||lgygy.cn^
@@ -17969,6 +17973,7 @@
 ||nychinaren.com/houbei/
 ||nycp-hlb.dvgtm.akadns.net^
 ||nyfgpbsc.xyz^
+||nyfstb.xyz^
 ||nyhgjmlg.xyz^
 ||nyhgvn.xyz^
 ||nyihcpzdloe.com^
@@ -21351,6 +21356,7 @@
 ||sdg.desihamster.pro^
 ||sdhjueue.com^
 ||sdhuawen.cn^
+||sdipsumb.top^
 ||sdjbcjsbdjk.com^
 ||sdjbvjsbvjz.com^
 ||sdjbvskjvds.com^
@@ -28205,7 +28211,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>34650
+!<<<<<网站单独规则>>>>>34654
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe.com,badfilter
 $image,third-party,denyallow=cdn77.org|fpbns.net|others-cdn.com|rncdn7.com|sb-cd.com|stream.highwebmedia.com|upsiloncdn.net|xvideos-cdn.com|youjizz.com|ypncdn.com,domain=pussyspace.com|pussyspace.net
@@ -38441,10 +38447,12 @@ familyporn.tv###player_adv
 familyporn.tv##.media_spot_holder
 familyporn.tv##.row > div.col-last:has(> div.player-adverts)
 familyporn.tv##.textlink
+famitsu.com###yahoo-banner
 famitsu.com##.banner-header-video-container
 famitsu.com##.banner-window-jack-wrapper
 famitsu.com##div[class^="ArticleDetail_headerBanner"]
 famitsu.com##div[class^="BasicLayout_movieBanner_"]
+famitsu.com##div[class^="HeaderBannerForSp_container_"]
 famitsu.com##div[class^="MiddleBanner_"]
 famitsu.com##div[class^="RectangleBanner"]
 famitsu.com##div[class^="SpecialBanner_container_"]
@@ -44741,6 +44749,8 @@ jipinsoft.com,tromcap.com,tinys.click,mdhstream.cc,serverbd247.com,cronachesaler
 jirou.com###guanggao
 jisilu.cn##.foot_ad
 jisilu.cn##div[style^="height:60px; width:960px;"]
+jisin.jp##.zoom_2
+jisin.jp##div[style="width:100%;height:120px;"]
 jisuxz.com##.dl_gaosu
 jitashe.org##.bc_side_250
 jitashe.org##a[href*=".makeding.com/"]
