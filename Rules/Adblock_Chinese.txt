@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: XFRIlQZValXAzi73HcnVeQ
+! Checksum: v4UDRyMRgbq8pqsmcjDjmg
 ! Title: Aloazny Chinese fiter
-! Version: 20240710090637
+! Version: 20240710202850
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-07-10 09:06:37
-! Total Count: 39123
-! Blocked Filters: 39123
+! Last modified: 2024-07-10 20:28:50
+! Total Count: 39124
+! Blocked Filters: 39124
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -17830,7 +17830,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>13277
+!<<<<<网站单独规则>>>>>13278
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.net
@@ -25109,6 +25109,7 @@ livejournal.com##div[id^="billboard_mobile_"]
 livelaw.in##.ad-popup-wrap
 livemint.com##.fixadheight
 livemint.com##.fixadtopadheight
+livemint.com##.inlineAds
 livemint.com##div[class^="lastadHeight"]
 livestrong.com##.js-mobile_adsense
 livestrong.com##section[class*="js-mobile_adsense"]
