@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: v4UDRyMRgbq8pqsmcjDjmg
+! Checksum: lmak4X79UPSFuXAN1E90XA
 ! Title: Aloazny Chinese fiter
-! Version: 20240710202850
+! Version: 20240711090714
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-07-10 20:28:50
-! Total Count: 39124
-! Blocked Filters: 39124
+! Last modified: 2024-07-11 09:07:14
+! Total Count: 39155
+! Blocked Filters: 39155
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>17813
+!<<<<<域名规则>>>>>17828
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|cyxse.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.360118.com|m.37zw.net|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zwdu.com
 |http://*.cn/ad/
@@ -2364,6 +2364,7 @@
 ||am15.net^
 ||amanad.adtdp.com^
 ||amazingairplane.com^$third-party
+||amazon-adsystem.com^
 ||amazonaws.com.cn/static-documents/marketing/uda_banner_
 ||amazonaws.com/91/ads_
 ||amazonaws.com/appodeal
@@ -2694,6 +2695,7 @@
 ||atala-apw.com/domredirect?$~third-party
 ||atanx.alicdn.com^
 ||atbdkmt.xyz^
+||atbif.cn^
 ||atdlbgx.xyz^
 ||athecsz.cn^
 ||athena.api.kwalee.com^
@@ -4840,6 +4842,7 @@
 ||dajiadu8.com/17.js
 ||dajiahao10.top^
 ||dajiahao17.top^
+||dajiahao8.top^
 ||dajiahao9.top^
 ||dajiazhao.com/login/reg.js
 ||dajkqqpz.top^
@@ -4924,6 +4927,7 @@
 ||dcdglb.xyz^
 ||dceuhnpc57.shop^
 ||dciep.xyz^
+||dclpjx.xyz^
 ||dcnytdpke.xyz^
 ||dcqs4.com^
 ||dcsxv.com^
@@ -5324,6 +5328,7 @@
 ||doubanio.com^*/js/ad.
 ||doubleclick.ctfile.com^
 ||doubleclick.net^
+||doubleverify.com^$third-party
 ||doubtfulrainstorm.com^$third-party
 ||dougle.one/wp-content/uploads/*/baner
 ||douguo.net/upload/post/d/
@@ -6306,6 +6311,7 @@
 ||fmhua.com/template/*/images/g_js/*.html
 ||fmild.xyz^
 ||fmjjvb.xyz^
+||fmmirep.icu^
 ||fmre1.com^
 ||fmssoj.icu^
 ||fmvbyji.cn^
@@ -6753,6 +6759,7 @@
 ||gjh9v.tianshilv.cn^
 ||gjhjjhgc.cn^
 ||gjipd.xyz^
+||gjjskhdnm.top^
 ||gjkame6.com^
 ||gjmqqq.com^
 ||gjwind.com/xxmh.gif
@@ -8783,6 +8790,7 @@
 ||jrmianban.com/img/images/g-g/
 ||jrmrijv.icu^
 ||jrpolj.xyz^
+||jrtlisa.top^
 ||jrtwi.xyz^
 ||jrzaht.xyz^
 ||jrzj.com/images/bgright_ad.jpg
@@ -10734,6 +10742,7 @@
 ||mryqtym.cn^
 ||mryshl.com^
 ||ms*.applvn.com^
+||ms-ads-monitoring-events.presage.io
 ||ms.cnbanbao.com^
 ||mscbsc.com/images/5g300x90.jpg
 ||mscs.svaeuzh.cn^$third-party
@@ -11310,6 +11319,7 @@
 ||oaftaijo.net^
 ||oaihiiacb.com^
 ||oajfpqojev.net^
+||oakmn.top^
 ||oalmbmf.xyz^
 ||oapyrzde.xyz^
 ||oaqrui.xyz^
@@ -11435,6 +11445,7 @@
 ||one101.xyz/data/images/*.gif
 ||one6u.xyz^
 ||onedala.tv/uploads/banner/
+||onefuq.xyz^
 ||onegreen.net/MyFile/
 ||oneinstack.com/images/oneinstack-
 ||onesignal.com^$third-party
@@ -12289,6 +12300,7 @@
 ||qdaily.com/mount_details/pc/
 ||qdcxia.xyz^
 ||qdczx66.com^
+||qdipsumy.top^
 ||qdjimo.com/html/js/
 ||qdlzj.cn^
 ||qdoshby.top^
@@ -13207,6 +13219,7 @@
 ||sc.smardroid.com^
 ||sc126.com^
 ||sc4mh.cn^
+||scanfang.com^
 ||scannapp.xyz^
 ||scarcecard.com^$third-party
 ||scarcesign.com^$third-party
@@ -14424,6 +14437,7 @@
 ||tdljuuw.xyz^
 ||tdlyfz.xyz^
 ||tdoshbi.top^
+||tdpujn.xyz^
 ||tdsahkln.xyz^
 ||tduenkq839.shop^
 ||tdzvm.pw^$third-party
@@ -16950,6 +16964,7 @@
 ||yenyshy.com^
 ||yepgdita.xyz^
 ||yerecpa.cn/uploadsb/app_adv/
+||yerhfnytky.top^
 ||yes-24-go.cc^
 ||yes1.feng.com^$domain=feng.com
 ||yeshefb.com/template/conch/dd/
@@ -17830,7 +17845,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>13278
+!<<<<<网站单独规则>>>>>13281
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.net
@@ -22719,7 +22734,6 @@ games.nme-jp.com##header.sp
 games.qq.com##.dc-kf_list
 gamesaktuell.de,videogameszone.de,pcgames.de,pcgameshardware.de,buffed.de##.static_banner
 gamespark.jp##div[style^="min-height:280px;"]
-gamespark.jp,s.inside-games.jp##.aside-box-ad
 gamespark.jp,s.inside-games.jp##div[style^="text-align"][style*="min-height:2"]
 gamesradar.com##div[class^="slot-mpu"][style^="position: relative; box-sizing: border-box; height:"]
 gamesradar.com##div[class^="slot-single-height-"]
@@ -28155,10 +28169,12 @@ s.minkabu.jp###ad9101_wrapper
 s.minkabu.jp###ad9102
 s.minkabu.jp###layout > div.min-h-\[120px\]
 s.resemom.jp##.aside-box.aside-box-ad
+s.response.jp###ad20
 s.response.jp##.arti-body > p[style="margin-bottom:5px;"] > .bottom-link
 s.response.jp##.aside-box-ifad
 s.response.jp##.relation-arti-list
 s.response.jp##div[style*="width:100%;min-height:280px"]
+s.response.jp,gamespark.jp,s.inside-games.jp##.aside-box-ad
 s.tabelog.com##.ad-rstdtl-wrap
 s.tabelog.com##.c-ad-hidden
 s.tabelog.com##.contents-ad
@@ -29118,6 +29134,8 @@ tgrthaber.com.tr##.detay-kare-container
 th7.cn###PcPoPmarket
 th7.cn##.main > .mb5
 the-ans.jp##.banner-list-item > a:not([href*="the-ans.jp"])
+the-boys.fandom.com##.cnx-main-container
+the-boys.fandom.com##div.notifications-box
 the-miyanichi.co.jp##.banner:has(> div[id^="div-gpt-"])
 the-miyanichi.co.jp##.sp_all_header
 the-sun.com##.amp-adv-wrapper
@@ -31111,7 +31129,7 @@ zzkdhb.com##p[style^="width: 100%; margin: 0px;"]
 zzzyk.com###Tinfo
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>2598
+!<<<<<通配符规则>>>>>2611
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.net
@@ -33149,12 +33167,25 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 /sbhf.js$script,third-party
 /sc_ifeng/*
 /scr/wtixyd.js
+/scripts/AdService_
+/scripts/ads/*
 /scripts/snstyle.js?v=2$~third-party
 /scrollgg_index.js
 /sda/*$domain=chineseinla.com
 /sdk/push_web/?zid=
+/search/ads?
+/search/ads_
 /search/tsc.php?
+/searchAdsIframe.
+/search_ads.
+/searchad.
+/searchad_
+/searchads/*$domain=~searchads.apple.com
+/secondads.
+/secondads_
 /secretmine_out.js
+/secureads.
+/securepubads.
 /secureserver.net\/.*[-\/]\d+x\d+\.gif/$domain=h-ciyuan.com
 /see200vipghajq/*
 /sfsafsadfjbbj-dsafjnb-1321533417.
