@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 7SsBXFtjCpqc1QHd5Hyx0A
+! Checksum: UFJc2xk39Wsf1/kjRbPfgg
 ! Title: Aloazny Chinese fiter
-! Version: 20240711202836
+! Version: 20240712090530
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-07-11 20:28:36
-! Total Count: 39166
-! Blocked Filters: 39166
+! Last modified: 2024-07-12 09:05:30
+! Total Count: 39176
+! Blocked Filters: 39176
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>17834
+!<<<<<域名规则>>>>>17840
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|cyxse.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.360118.com|m.37zw.net|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zwdu.com
 |http://*.cn/ad/
@@ -5247,6 +5247,7 @@
 ||dmfjeu.xyz^
 ||dmg-dd.oss-accelerate.aliyuncs.com^
 ||dmm.aizhan.com^
+||dmnqfn.xyz^
 ||dmnxkj.cn^
 ||dmpqjn.xyz^
 ||dmr.cnhoney.com^
@@ -8450,6 +8451,7 @@
 ||iyuwkbo.top^
 ||iyybqzv.cn^
 ||izalflh.cn^
+||izcqyy.xyz^
 ||izmiua.xyz^
 ||izqogb.cn^
 ||iztwp.com/images/
@@ -13258,6 +13260,7 @@
 ||scintillatingsilver.com^$third-party
 ||scintillatingspace.com^$third-party
 ||scjpqut.cn^
+||scoev.cn^
 ||sconline.com.tw/top/coolpc_
 ||scorecardresearch.com^
 ||scqaaf.cn^
@@ -13603,6 +13606,7 @@
 ||singmwn51g.com^
 ||singmwn54g.com^
 ||singroot.com^$third-party
+||singtao.ca/editions/affiliate_
 ||sinkbooks.com^$third-party
 ||sinodan.link/js/js4.js?v=
 ||sinolub.com/index.php?m=poster&
@@ -14439,6 +14443,7 @@
 ||tdhserg.cn^
 ||tdid.m.qq.com^
 ||tdigcw.com^
+||tdipsumi.top^
 ||tdjdpyrt.xyz^
 ||tdljuuw.xyz^
 ||tdlyfz.xyz^
@@ -17090,6 +17095,7 @@
 ||yk-ssp.ad.youku.com^
 ||ykad-data.youku.com^
 ||ykcjxvg.cn^
+||ykcsldm.icu^
 ||ykgfcs.xyz^
 ||ykkbwdf.cn^
 ||ykkhihg.cn^
@@ -17851,7 +17857,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>13284
+!<<<<<网站单独规则>>>>>13288
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.net
@@ -18662,6 +18668,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 3g.163.com,m.163.com##div.backflow-floating
 3g.163.com,m.163.com##section.recommend.js-recommend
 3g.163.com,m.163.com##span.s-openApp
+3g.baidu.com,baidu.com,m.baidu.com,m5.baidu.com,www.baidu.com##.na-ec-waterfall
 3g.baidu.com,m.baidu.com,m5.baidu.com##.blank-frame
 3g.baidu.com,m.baidu.com,m5.baidu.com##div[style="overflow: hidden;background: #fff;position: relative;"]
 3g.baidu.com,m.baidu.com,m5.baidu.com,www.baidu.com##div:has(>.openBox-container)
@@ -21451,6 +21458,7 @@ ddooo.com##.xzbtn
 ddrk.me##a[onclick^="ClickobayST();"]
 ddrk.me##div[id="afc_sidebar_2842"]
 ddrk.me##img[src^="/mtp/"]
+ddxs.vip##.content > p > font[color="red"]
 ddxsku.com##.adhtml
 ddys.tv,ddys.art,ddys.*,ddrk.me,ddys.pro,ddys2.me##a[href="###"] img:not(#trk_hcaptcha):not([src^="https://captcha.su.baidu.com"])
 ddys.tv,ddys.art,ddys.*,ddrk.me,ddys.pro,ddys2.me##a[href^="javascript"] img:not(#trk_hcaptcha):not([src^="https://captcha.su.baidu.com"])
@@ -21528,6 +21536,8 @@ dictionary.cambridge.org##div[id^="ad_topslot"]
 didispace.com##.widget-wrap > p[style="text-align: left;padding-bottom: 20px;line-height: 30px;"]
 digit.in##.footerCatfishAdArea
 digit.in##iframe[src^="/blockarticledetailad/"][title="Advertisement"]
+digitimes.com.tw##.dt-ad-block
+digitimes.com.tw##a[href*="/webad/"]
 digle.tokyo##.u-ad--300-280
 dilidili.name##div[id="newapp2018"]
 dilidili.one##div[id^="newapp"]
@@ -24410,9 +24420,10 @@ jalan.net##.jlnsp-banner-frame
 jalan.net##.jlnsp-iframeItems
 jalan.net##.jsc-top__specialAdArea
 jandan.net###random-ads
+jandan.net###sidebar > UL:nth-child(2)
 jandan.net###sidebar > div#box
-jandan.net###sidebar > ul[style="height:480px"]
 jandan.net##.goods2-list
+jandan.net##.post[style="padding-left:150px;width:336px;height:280px;"]
 jandan.net##a[href*="/money.php?"]
 jandan.net##a[href^="//api.jandan.net/money.php?"]
 japantoday.com##div[data-href^="https://go.injapan.com/zP2Vrj"]
@@ -24699,8 +24710,7 @@ jstv.com##.jadv
 jthysh.com##.box980
 juejin.im##.banner-section
 juejin.im##.feedAdsense
-jukenbbs.com##body > div[style] > a[href="https://j-baseball.club/"]
-jukenbbs.com##body > div[style] > a[href="https://j-basketball.club/"]
+jukenbbs.com##body > div[style^="box-sizing:border-box; width:100%; max-height:100px; background-color:#"][style$="overflow:hidden;"]
 jukenbbs.com##div[style="margin-top:10px; margin-bottom:10px; text-align:center;"]
 jukenbbs.com##div[style="margin-top:1px; margin-bottom:1px;"]
 juksy.com###cover.modal__mask
@@ -27154,6 +27164,7 @@ oppaisan.com###fix-bottom-AD
 oppaisan.com##.header_koukoku
 opticsky.cn###head > .tac
 opticsky.cn##.p83_gridC > .cc
+orangenews.hk##img[advid]
 order-order.com##.v-footer--sticky-ad
 ore-nijigazo.com##.commonAd01
 oreno3d.com##.video-figure > div[style^="position: absolute; top: 0px; left: 0px;"]
@@ -30260,7 +30271,6 @@ www.asasmr3.com,777jg.top,data.2qssj.com,xn--hiqeg.xvxv5.shop,kb19.xxxxxxav1sim1
 www.b954880a9e62.com,www.e9991d768e6a.com,www.50567dc902eb.com,www.bc68k.com,www.bc73c.com,www.bc72x.com,www.8c9037689e42.com,www.de8f294fd21e.com,www.d79d0a1ae694.com,www.2c2z3.com,www.bc67k.com,www.074293facad2.com,www.f27909335e7a.com,www.2c2k2.com##div.s_h
 www.b954880a9e62.com,www.e9991d768e6a.com,www.50567dc902eb.com,www.bc68k.com,www.bc73c.com,www.bc72x.com,www.8c9037689e42.com,www.de8f294fd21e.com,www.d79d0a1ae694.com,www.2c2z3.com,www.bc67k.com,www.074293facad2.com,www.f27909335e7a.com,www.2c2k2.com##div.s_h+div
 www.b954880a9e62.com,www.e9991d768e6a.com,www.50567dc902eb.com,www.bc68k.com,www.bc73c.com,www.bc72x.com,www.8c9037689e42.com,www.de8f294fd21e.com,www.d79d0a1ae694.com,www.2c2z3.com,www.bc67k.com,www.074293facad2.com,www.f27909335e7a.com,www.2c2k2.com##img[src$="//images/header/dwn.gif"]+div
-www.baidu.com,3g.baidu.com,m.baidu.com,m5.baidu.com##.na-ec-waterfall
 www.baidu.com,3g.baidu.com,m.baidu.com,m5.baidu.com##.news-list-wrapper
 www.bb-qj.com,www.wuhanzoo.com,www.a4yyinyd.com,www.nunuys2.com,www.qdm18.com,v.kuudy.com,txydd.com,www.365tvv.com,www.baipiaotv.com,www.hwsky.com,www.74us.com,v.xhhhzs.com,365tvv.com,www.tianlongren.com,v.lq010.com,www.nanhuyt.com##.tab-content + .col-pd
 www.bq383.com,www.bohuangsiwang.com,www.bx700.com##div[style="display:block;width:100%;height:140px;overflow:hidden;background:#f1efe9;"]
