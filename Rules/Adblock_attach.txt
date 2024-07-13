@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: QkxB90ArCswQoK2DvurELw
+! Checksum: fVhEs71hmlhc3Gfzwwz9EA
 ! Title: Aloazny attach fiter
-! Version: 20240712202852
+! Version: 20240713090624
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-07-12 20:28:52
-! Total Count: 14990
-! Blocked Filters: 14990
+! Last modified: 2024-07-13 09:06:24
+! Total Count: 14999
+! Blocked Filters: 14999
 ! Description: 合并混合规则的补充规则，轻量规则，可作为补充规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_attach.txt?ref=main
 
 
-!<<<<<域名规则>>>>>6780
+!<<<<<域名规则>>>>>6781
 |https://m.frgls.com/js/*.js?v=
 ||*ggua.xyz^$third-party
 ||000123456789.online^
@@ -5975,6 +5975,7 @@
 ||wlhcb.cn^
 ||wlsyuule.cam^
 ||wmqfey.com^
+||wmqsjpwwqqchywwbqvikmsanixmryngn.oss-cn-shanghai.aliyuncs.com^$~third-party
 ||wmxke.com^
 ||wn68din.cn^
 ||wn80drk.shop^
@@ -10036,7 +10037,7 @@ zybang.com##a[class="top-banner"]
 zybang.com##div[id="askTeacher-after-adx-wrap"]
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>1696
+!<<<<<通配符规则>>>>>1702
 $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.xyz
 &adZones$xmlhttprequest
 &ad_block=
@@ -10086,6 +10087,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .adwolf.
 .ae/ads/
 .ai/ads.
+.alb.aliyuncs.com:*/*/gougou.html?k=$~third-party
 .app/*/*.js$domain=23ddw.app|23ddw.cc|23ddw.cn|23ddw.co|23ddw.com|23ddw.info|23ddw.la|23ddw.me|23ddw.net|23ddw.org|23ddw.so|23ddw.tw|23ddw.us|81zw.app|81zw.cc|81zw.cn|81zw.co|81zw.com|81zw.info|81zw.la|81zw.me|81zw.net|81zw.org|81zw.so|81zw.tw|81zw.us|biquge.app|biquge.cc|biquge.cn|biquge.co|biquge.com|biquge.info|biquge.la|biquge.me|biquge.net|biquge.org|biquge.so|biquge.tw|biquge.us|biqugu.app|biqugu.cc|biqugu.cn|biqugu.co|biqugu.com|biqugu.info|biqugu.la|biqugu.me|biqugu.net|biqugu.org|biqugu.so|biqugu.tw|biqugu.us|dingdian.app|dingdian.cc|dingdian.cn|dingdian.co|dingdian.com|dingdian.info|dingdian.la|dingdian.me|dingdian.net|dingdian.org|dingdian.so|dingdian.tw|dingdian.us|kbookzw.app|kbookzw.cc|kbookzw.cn|kbookzw.co|kbookzw.com|kbookzw.info|kbookzw.la|kbookzw.me|kbookzw.net|kbookzw.org|kbookzw.so|kbookzw.tw|kbookzw.us|kudushu.app|kudushu.cc|kudushu.cn|kudushu.co|kudushu.com|kudushu.info|kudushu.la|kudushu.me|kudushu.net|kudushu.org|kudushu.so|kudushu.tw|kudushu.us|luoqiu.app|luoqiu.cc|luoqiu.cn|luoqiu.co|luoqiu.com|luoqiu.info|luoqiu.la|luoqiu.me|luoqiu.net|luoqiu.org|luoqiu.so|luoqiu.tw|luoqiu.us|qishuta.app|qishuta.cc|qishuta.cn|qishuta.co|qishuta.com|qishuta.info|qishuta.la|qishuta.me|qishuta.net|qishuta.org|qishuta.so|qishuta.tw|qishuta.us|tangsanshu.app|tangsanshu.cc|tangsanshu.cn|tangsanshu.co|tangsanshu.com|tangsanshu.info|tangsanshu.la|tangsanshu.me|tangsanshu.net|tangsanshu.org|tangsanshu.so|tangsanshu.tw|tangsanshu.us|wxshuku.app|wxshuku.cc|wxshuku.cn|wxshuku.co|wxshuku.com|wxshuku.info|wxshuku.la|wxshuku.me|wxshuku.net|wxshuku.org|wxshuku.so|wxshuku.tw|wxshuku.us|yetianlian.app|yetianlian.cc|yetianlian.cn|yetianlian.co|yetianlian.com|yetianlian.info|yetianlian.la|yetianlian.me|yetianlian.net|yetianlian.org|yetianlian.so|yetianlian.tw|yetianlian.us
 .app/js/gg.js$script
 .app:*/?i_code=$~third-party
@@ -10257,9 +10259,11 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .com/gg/*?x=$script,third-party
 .com/gyxx_*_aubi.js$third-party
 .com/h.html?id=$~third-party
+.com/hanxiucao-$~third-party
 .com/in/multy$third-party
 .com/inc/?s=$third-party
 .com/j/*$script,third-party
+.com/jjshipin-$~third-party
 .com/js/g.js
 .com/js/gg.js$script
 .com/js/xuanfu.js$script
@@ -10877,6 +10881,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 /ad_utils.
 /ad_ver/*
 /ad_vert.
+/adamo/XT*-YS.html?k=$~third-party
 /adb-watch.
 /adbDetect.
 /adbDetect/*
@@ -11084,6 +11089,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 /bultykh/ipp24/7/*$third-party
 /c1.html?c=axza$~third-party
 /channel/downApk*&appName=antv$~third-party
+/chatIndex?kefu_id=$~third-party
 /chunyu*.html?channelCode=$~third-party
 /clientapi/app/getinfo?appid=*&android=true$third-party
 /cnzz/tongji.php
@@ -11639,6 +11645,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 ://im.ifengsong888.com/*.jpg
 ://im.yfled888.com/*.gif
 ://im.yfled888.com/*.jpg
+://image.uc.cn/s/*/berg/static/archer*index*.js
 ://kpic.*.cn/*.js$third-party
 ://kpic.*.cn/*.txt$third-party
 ://ln.*.cyou$third-party
@@ -11735,7 +11742,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 zle.com$script
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>3029
+!<<<<<通用Css规则>>>>>3031
 ###ADbox
 ###AdBlockDialog
 ###AdBox2
@@ -12594,6 +12601,7 @@ zle.com$script
 ##.bottom_fixed > a[rel="nofollow"][target="_blank"]
 ##.bottom_fixed > a[rel='nofollow'][target='_blank']
 ##.bottomads
+##.bottommob.swiper-container-horizontal
 ##.box-ad
 ##.boxAd
 ##.btn-ad
@@ -13994,6 +14002,7 @@ zle.com$script
 ##a[href="https://sk83k.com"][target="_blank"]
 ##a[href="https://ttzzz11.com"]
 ##a[href="https://ttzzz22.com"]
+##a[href="javascript:void(0)"][onclick*="clickHandler"][onclick*="undefined"]
 ##a[href="javascript:void(0)"][rel="nofollow"][target="_new"] > img[src]
 ##a[href="墮落姬甲"][target="_blank"]
 ##a[href="天下布魔"][target="_blank"]
