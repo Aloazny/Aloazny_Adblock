@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: iSv7gtVX9+Imn6zAW9gS9g
+! Checksum: Bb8RZdgI02+ODkdoa1k1qQ
 ! Title: Aloazny Mobile fiter
-! Version: 20240713090809
+! Version: 20240713202710
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-07-13 09:08:09
-! Total Count: 75569
-! Blocked Filters: 75569
+! Last modified: 2024-07-13 20:27:10
+! Total Count: 75572
+! Blocked Filters: 75572
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock.txt?ref=main
 
 
-!<<<<<域名规则>>>>>28651
+!<<<<<域名规则>>>>>28654
 |http$third-party,script,domain=kinotut.tv
 |http*://$image,third-party,domain=rmdown.com
 |http*://$script,third-party,domain=stream2watch.org,badfilter
@@ -4664,6 +4664,7 @@
 ||asdf.eldos.xyz^
 ||asdfdr.cfd^$all
 ||asdffe22.com^
+||asdji2.cn^
 ||asds.hentaitimes.com^
 ||asdx55.com^
 ||asdyui16.cn^
@@ -10170,6 +10171,7 @@
 ||ersjnpwf837.shop^
 ||ert.pengwenli.top^
 ||ertgbme.com^
+||ertlisw.top^
 ||erty0yx.com^
 ||erutxdk.cn^
 ||es.ylilauta.org^
@@ -19126,6 +19128,7 @@
 ||phoorned.com^
 ||photo.*.html?tk=$script,third-party
 ||photo.*/native?tk=$third-party
+||photo07.xyz^
 ||photo2.tinhte.vn^$domain=live7.vebo3.org
 ||photographpan.com^$third-party
 ||photos.iboys.com/live/ads/
