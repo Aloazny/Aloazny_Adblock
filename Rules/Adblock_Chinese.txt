@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: S2IeXRKXRoFHPKdkHEXbiQ
+! Checksum: 9pUuD6m4HXCUl4ywNu/1Og
 ! Title: Aloazny Chinese fiter
-! Version: 20240714203753
+! Version: 20240715090819
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-07-14 20:37:53
-! Total Count: 39232
-! Blocked Filters: 39232
+! Last modified: 2024-07-15 09:08:19
+! Total Count: 39245
+! Blocked Filters: 39245
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>17869
+!<<<<<域名规则>>>>>17879
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|cyxse.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.360118.com|m.37zw.net|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zwdu.com
 |http://*.cn/ad/
@@ -701,6 +701,7 @@
 ||3prndxd.cn^
 ||3q1lsj.cn^
 ||3q3l.cn^
+||3ri.cc^
 ||3rsppty.cn^
 ||3t769up6.com^
 ||3uvz5.xyz^
@@ -3696,6 +3697,7 @@
 ||bvrzwnq.xyz^
 ||bvsfv6.com^
 ||bvtvlp.xyz^
+||bvubasnf.com^
 ||bvvb9.com^
 ||bvxiht.xyz^
 ||bw5388.vip^
@@ -4730,6 +4732,7 @@
 ||cyhbrjf.cn^
 ||cypcb.net^
 ||cyq3noz.icu^
+||cyretuf.top^
 ||cyuwkbf.top^
 ||czexrhl.cn^
 ||czghjt.com^
@@ -5498,6 +5501,7 @@
 ||dustyrabbits.com^$third-party
 ||dustywave.com^$third-party
 ||duxingangtiaoban.com^
+||duyewnf.icu^
 ||duyixpy.top^
 ||duyvtanrheje.xyz^
 ||dv.amtwcvh.cn^
@@ -6411,6 +6415,7 @@
 ||free3dgame.xyz^
 ||freedidi.com/wp-content/plugins/death-luhubaoyu/
 ||freehao123.com/wp-content/uploads/2017/05/mmkdm.png
+||freeiptvplayer.net/wp-content/uploads/$script
 ||freejavbt.com/assets/images/banner
 ||freezingbuilding.com^$third-party
 ||freshmarketer.com^
@@ -7164,6 +7169,7 @@
 ||h1.kukuw.com^
 ||h1.wk2.com^
 ||h2ji5.xyz^
+||h2tcbox.baidu.com^
 ||h45pmx1.cn^
 ||h4b0srs.cn^
 ||h5.dzgsdswh5.xyz^
@@ -14252,6 +14258,7 @@
 ||swoole.com/_images/w7.jpg
 ||swordgoose.com^$third-party
 ||swsegi.xyz^
+||swwdke.xyz^
 ||swwwxww.oss-cn-hangzhou.aliyuncs.com^
 ||sx.fakjkwp.cn^
 ||sxeimg.com/u/20191108/13082210.gif
@@ -14834,6 +14841,7 @@
 ||tqjqripb.xyz^
 ||tqmcj.cn^
 ||tqrznqs.cn^
+||tqtqvb.xyz^
 ||tquspo.com^
 ||tqvnzj.xyz^
 ||tqytqdrq.icu^
@@ -15174,6 +15182,7 @@
 ||udeztrb.cn^
 ||udheansv.com^
 ||udiab1.jianshu.com^
+||udipsumt.top^
 ||udjdpyrt.xyz^
 ||udkpcc.xyz^
 ||udn.com.tw/upf/*_banners/BD/
@@ -15203,6 +15212,7 @@
 ||ufjslit.top^
 ||uflybplr.xyz^
 ||ufz.doesxyz.com^
+||ug.baidu.com^
 ||ug.snssdk.com^
 ||ugbjqwe.com^
 ||ugbler.icu^
@@ -17886,7 +17896,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>13297
+!<<<<<网站单独规则>>>>>13300
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.net
@@ -19824,7 +19834,6 @@ autohome.com.cn##a[href="https://m.autohome.com.cn/activity/special/autohome29.h
 autohome.com.cn##div[class="adv-mixture mark-hide union-ad-placeholder"]
 autohome.com.cn##div[class^="myAppendList"]
 autohome.com.cn##ol
-autohome.com.cn##ol > li,.evade-operate
 autohome.com.cn##section[class="athm-generalize-img43 mark-hide fn-mt"]
 autohome.com.cn,image.baidu.com,nongjitong.com##.recommend
 autohome.com.cn,sina.com.cn##div[class*="game"]
@@ -20263,6 +20272,7 @@ bccn.net,dm88.me,dm99.me,dmh8.me##img[src*="data:"]
 bcquan.me##.bcqad
 bd-film.cc##div[id="gg_tonglan"]
 bd-sanctuary.com,cine-sanctuary.com,comics-sanctuary.com,manga-sanctuary.com##div[style^="background:#444;"]
+bdimg.com##div[data-track*="fengchao"]
 bdimg.com,tieba.baidu.com,tieba.com,tiebac.baidu.com##div[class][lgoinprompt="prompt"]
 bdimg.com,tieba.baidu.com,tieba.com,tiebac.baidu.com,wapp.baidu.com###pblist > li[class]:not(.j_post_list_item)
 bdimg.com,tieba.baidu.com,tiebac.baidu.com,tieba.com##.tl_shadow + * + li[class]:not([class="tl_shadow tl_shadow_new"]):not([class="tl_shadow tl_shadow_new "]):not([class="tl_shadow tl_shadow_new shadow"])
@@ -26177,7 +26187,10 @@ maxthon.cn##.top-right-pop-wrapper
 mb.jorudan.co.jp##.area > div[height="50"][style="height:50px !important;"]
 mbasic.facebook.com,d.facebook.com,free.facebook.com,free.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,mbasic.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,d.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,m.facebook.com,m.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,b-m.facebook.com,b-m.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,mobile.facebook.com,mobile.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,0.facebook.com,0.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[role="article"][data-ft*='"originated_from_recommendation":"1"']
 mbd.baidu.com###content_wrapper + div + .default-container
+mbd.baidu.com##.drag-wrap
+mbd.baidu.com##.mergeVideoTop
 mbd.baidu.com##.related-news > section:first-child + div
+mbd.baidu.com##[class$="=="]:has(span[class$="="])
 mc.163.com###NIE-topBar-news
 mcar.cc##.showhide > video + div[style="background-color:#FC0;margin-top:1px; width:500px; height:90px;"]
 mcar.cc##.showhide > video + div[style="background-color:#FC0;margin-top:1px; width:500px; height:90px;"] + div[style="background-color:#FF0;background-float:right;margin-top:-371px;margin-left:500px; width:234px; height:375px;"]
