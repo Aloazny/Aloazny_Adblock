@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: FAvbxH9sU8dMunmhWWW6sQ
+! Checksum: ZbfKbCC+AysliIwSxgT6NA
 ! Title: Aloazny Chinese fiter
-! Version: 20240716090750
+! Version: 20240716202850
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-07-16 09:07:50
-! Total Count: 39256
-! Blocked Filters: 39256
+! Last modified: 2024-07-16 20:28:50
+! Total Count: 39264
+! Blocked Filters: 39264
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>17890
+!<<<<<域名规则>>>>>17894
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|cyxse.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.360118.com|m.37zw.net|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zwdu.com
 |http://*.cn/ad/
@@ -5995,6 +5995,7 @@
 ||ewtyewj.com^
 ||ewxufqs.cn^
 ||ewzavfde.xyz^
+||ex5tsc73m4.xyz^
 ||exampleshake.com^$third-party
 ||excelhome.net/js/banner-
 ||exclusivebrass.com^$third-party
@@ -6294,6 +6295,7 @@
 ||fkhxlz.xyz^
 ||fkjsjwbs.xyz^
 ||fklgndklbngg.com^
+||fkxl.xyz^
 ||fkxs.net/tops/
 ||fl6n.com/adtop/
 ||flagshipism.com^
@@ -15188,6 +15190,7 @@
 ||udb3n.icu^
 ||udc.yahoo.com^
 ||udcm.yahoo.com^
+||udd1i5.zhihu.com^
 ||udeztrb.cn^
 ||udheansv.com^
 ||udiab1.jianshu.com^
@@ -16602,6 +16605,7 @@
 ||xinbo-lora.cn^
 ||xinerdact.com^
 ||xineurope.com/static/image/banner/
+||xinfubao.site^
 ||xingwangzz.com/123/
 ||xingyou25.xyz^
 ||xinhuanet.com/iframe/ad
@@ -19301,12 +19305,12 @@ a9vg.com##div[id="downa9vg"]
 aa25.cn###content_head
 aa25.cn,kafan.cn###content_top
 aaaweb.cn##a[href$=".yhzu.cn"]
+aabook.cyou,aabook.xyz,aaread.club,aastory.space,fqbook.cc,fqbook.cyou##.footer > div[class][id][style],cloudflare-app,.mybook-game-ad,img[id^="GGADIMG"][src],div[class][id]:has(img[src][alt="xxx"]),a[href^="https://fkxl.xyz"]
 aae3.com###menu
 aae3.com##form + center > p[align="center"]
 aae3.com,qq.com###coo_qqBrowser
 aajtak.in##.adsection
 aajtak.in##.mobileAd
-aaread.club##.footer > div[class][id][style],cloudflare-app,.mybook-game-ad,img[id^="GGADIMG"][src]
 aaread.space##div[style^="position: fixed; bottom:"]
 aaread.space,sex-gen.com##.navi
 aba-net.com##.sp_header_banner
@@ -24050,7 +24054,6 @@ image.baidu.com###ecomContainer
 image.baidu.com###imgCmsAdPart
 image.baidu.com###imgid > .fcimgpage
 image.baidu.com###only-lady-sec
-image.baidu.com###pageLayoutTipWindow
 image.baidu.com###plz-albums
 image.baidu.com###plz-head-banner
 image.baidu.com###relEcom
@@ -29490,6 +29493,7 @@ tubedupe.com##iframe[src^="//tubedupe.com/banners/"]
 tubedupe.com,anyporn.com###mh-ad
 tubepornclassic.com##.left > .videoplayer + .underplayer
 tubepornclassic.com##.video__wrapper > section:has(> div > div:empty)
+tucao.buzz,tucao.cfd##div.header_rmb
 tuchkatv.ru##.adb_m
 tudou.com,docin.com###indexAppRecom
 tui18.com##.wp[style^="width:"]
@@ -31216,7 +31220,7 @@ zzkdhb.com##p[style^="width: 100%; margin: 0px;"]
 zzzyk.com###Tinfo
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>2611
+!<<<<<通配符规则>>>>>2612
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.net
@@ -31924,6 +31928,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .xyz/*_*_1_*.js?*16$third-party
 .xyz/*_*_2_*.js?*16$third-party
 .xyz//qby_*.js$third-party
+.xyz//qby_*.js?$third-party
 .xyz/99x/
 .xyz/?ch=ssmh
 .xyz/?channelCode=$~third-party
@@ -37799,7 +37804,7 @@ zle.com$script
 ~xxgxw.com##div[id^="C"][style*="height:"][class^="C"]
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1483
+!<<<<<放行白名单>>>>>1486
 #@##adblocktest
 #@#.has-ad
 012.tw#@#.ad728
@@ -39037,6 +39042,9 @@ cnki.net#@#.ad_right
 cnys.tv#@#.player-news > .news-list
 codejie.net,docsmall.com,xbgame.net#@##google-ads
 cokemine.com,eveaz.com,jubuzz.com,skyarea.cn,tianfateng.cn#@#.category-share
+colamanhua.com,colamanga.com#@#.ADFooter
+colamanhua.com,colamanga.com#@#.ADInfo
+colamanhua.com,colamanga.com#@#.ADLeader
 colamanhua.com,colamanga.com#@#.gg_950
 comptoir-info.com#@#.textad
 coolapk.com#@#[class$="ad-box"]
