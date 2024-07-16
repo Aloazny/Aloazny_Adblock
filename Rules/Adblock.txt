@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: K0FF54t2CoZiGgN/KF8eIw
+! Checksum: 5r8S/Or9Vh+dC+3DuY+gbg
 ! Title: Aloazny Mobile fiter
-! Version: 20240715203100
+! Version: 20240716090919
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-07-15 20:31:00
-! Total Count: 75709
-! Blocked Filters: 75709
+! Last modified: 2024-07-16 09:09:19
+! Total Count: 75721
+! Blocked Filters: 75721
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock.txt?ref=main
 
 
-!<<<<<域名规则>>>>>28763
+!<<<<<域名规则>>>>>28768
 |http$third-party,script,domain=kinotut.tv
 |http*://$image,third-party,domain=rmdown.com
 |http*://$script,third-party,domain=stream2watch.org,badfilter
@@ -1187,6 +1187,7 @@
 ||3797.79j68qav2.com^
 ||3798.com^$third-party
 ||37bhof.com^
+||38.33.15.10^
 ||380tv.com/upload/*-ad-
 ||38227.79j68qav2.com^
 ||383e3851cf.0115b2b799.com^
@@ -5340,6 +5341,7 @@
 ||bavde3.icu^
 ||bavei.com/img/*.png
 ||bavkvoks.xyz^
+||bavotr.xyz^
 ||bawdybalance.com^$third-party
 ||bawdybeast.com^$third-party
 ||baxbyfn.cn^
@@ -9994,6 +9996,7 @@
 ||eisamay.com/emsag/
 ||eisamay.indiatimes.com/esmag/
 ||eitb7.top^
+||eiuoom.xyz^
 ||eiv.baidu.com^
 ||eiykmtb.cn^
 ||ejdhmed.xyz^
@@ -14923,6 +14926,7 @@
 ||jy147a.com^
 ||jy8izgie.xyz^
 ||jyewkb.icu^
+||jyfdbj.xyz^
 ||jyfw.cn/gonggong/jiayu/cf_
 ||jyfw.cn/nav/cf_
 ||jygiizv.icu^
@@ -26308,6 +26312,7 @@
 ||wnllmyw.xyz^
 ||wnmaoc.xyz^
 ||wnnbvnj.cn^
+||wnootzc.icu^
 ||wnzle.com^
 ||wo1990.com^
 ||woaidu.org/images/20180802/3.jpg
@@ -28780,7 +28785,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>34760
+!<<<<<网站单独规则>>>>>34766
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe.com,badfilter
 $image,third-party,denyallow=cdn77.org|fpbns.net|others-cdn.com|rncdn7.com|sb-cd.com|stream.highwebmedia.com|upsiloncdn.net|xvideos-cdn.com|youjizz.com|ypncdn.com,domain=pussyspace.com|pussyspace.net
@@ -28908,6 +28913,9 @@ $xmlhttprequest,third-party,denyallow=authkong.com|rsc.cdn77.org|linkvertise.com
 1024tera.com,4funbox.com,terabox.*##.ad-patch-base
 1024tera.com,4funbox.com,terabox.*##.patch-ad
 1024tera.com,4funbox.com,terabox.*##.pause-patch-ad
+1024terabox.com##.video-wrap > div.loading-carousel-box
+1024terabox.com#$#.patch-ad { display: none !important; }
+1024terabox.com#$#div[class="video-wrap"][style="display: none;"] { display: block !important; }
 104.com.tw###aidma-job
 104.com.tw###aidma_128
 104.com.tw###aidma_588
@@ -33452,6 +33460,7 @@ bestprice.gr###filters-aside > .ads
 bestprice.gr##.prices__group[data-is-promoted=""]
 bestprice.gr##.product__wrapper--promoted
 bestprice.gr##a[class^="promo"]
+bestproducts.com##main > div[class^="css-"]:has(> div.ad-disclaimer)
 bestreamsports.org,bonsaiprolink.*,egbest1.xyz,eviltranslator.xyz,faqwiki.us,fctvlive.com,filerice.com,forja.me,freemodsapp.xyz,freepremiumcourse.com,gameissue05.blogspot.com,gouit.blogspot.com,iprom.pics,itscybertech.com,kinemaster.cc,lisanarb.com,loukoala.blogspot.com,lustesthd.*,misirtune.blogspot.com,news-724.com,sheetmusic-free.com,techno360.in,techymedies.com,torrents.vip,vknsorgula.net,vstdrive.in,ytstv.me,ytstvmovies.*,ytsyifymovie.com,ytsyifytorrent.com##+js(abort-current-script, document.createElement, adsbygoogle.js)
 bestreviews.net,blokt.com##.su-box
 bestshort.xyz#$#footer.pt-120 { padding-top: 220px !important; }
@@ -34959,7 +34968,7 @@ chapaofan.com##a[href^="http"]:not([href*=".chapaofan."]) > img[src*=".sinaimg."
 chapmanganato.com##.body-site > div.container-chapter-reader > div[style^="text-align: center; max-width:"]
 chapmanganato.com##div[style^="width: 100%;overflow: hidden;"]
 chapmanganelo.com##div[style^="width: "][style*="overflow: hidden;"]
-charexempire.com,shinobijawi.id,up-load.one##+js(abort-current-script, document.addEventListener, /abisuq/)
+charexempire.com,cloutgist.com,shinobijawi.id,up-load.one##+js(abort-current-script, document.addEventListener, /abisuq/)
 charismanews.com###FrontpageFeatureRightColumn
 charismanews.com###articles > article.article:has(> div.contentBoxWrap a[href^="https://servedby.aqua-adserver.com/"])
 charismanews.com##.RightBnrWrap
@@ -45935,12 +45944,13 @@ kisssub.org###kanban
 kisssub.org##a > img[src*=".0o0.ooo/"]
 kisstvshow.net,kisstvshow.to##.barContent > div:not([class]):not([id]) > div[style="width: 300px; margin: 0px auto;"]:not([class]):not([id])
 kisstvshow.net,kisstvshow.to##div[style="width: 620px; margin: 0px auto; overflow: hidden;"]:not([class]):not([id])
-kisstvshow.net,lifestylehack.info,keephealth.info,kimcartoon.li,kissorg.net,kisstvshow.to,kissasian.*###centerDivVideo > div[id]:has(> img[src^="https://i.imgur.com"])
+kisstvshow.net,lifestylehack.info,keephealth.info,kimcartoon.li,kissorg.net,kisstvshow.to,kissasian.*###gameover > div:has(> img[style="width: 100%;"])
 kisstvshow.net,lifestylehack.info,keephealth.info,kimcartoon.li,kissorg.net,kisstvshow.to,kissasian.*##+js(abort-current-script, document.getElementById, /\.indexOf[(]'iframe'[)]|isAdb|#ad-promo/)
+kisstvshow.net,lifestylehack.info,keephealth.info,kimcartoon.li,kissorg.net,kisstvshow.to,kissasian.*##+js(abort-current-script, setTimeout, .innerHTML)
 kisstvshow.net,lifestylehack.info,keephealth.info,kimcartoon.li,kissorg.net,kisstvshow.to,kissasian.*##+js(abort-on-property-write, xaZlE)
 kisstvshow.net,lifestylehack.info,keephealth.info,kimcartoon.li,kissorg.net,kisstvshow.to,kissasian.*##+js(no-fetch-if, bidgear.com/pubbidgear-ad.js)
-kisstvshow.net,lifestylehack.info,keephealth.info,kimcartoon.li,kissorg.net,kisstvshow.to,kissasian.*##+js(no-setTimeout-if, marveldc)
 kisstvshow.net,lifestylehack.info,keephealth.info,kimcartoon.li,kissorg.net,kisstvshow.to,kissasian.*##+js(no-xhr-if, /mgid\.com|pagead2\.googlesyndication\.com|\/ads\/advert/)
+kisstvshow.net,lifestylehack.info,keephealth.info,kimcartoon.li,kissorg.net,kisstvshow.to,kissasian.*##+js(set-constant, cpe, false)
 kisstvshow.net,lifestylehack.info,keephealth.info,kimcartoon.li,kissorg.net,kisstvshow.to,kissasian.*##+js(set-constant, isAdb, false)
 kisstvshow.net,lifestylehack.info,keephealth.info,kimcartoon.li,kissorg.net,kisstvshow.to,kissasian.*##+js(set-constant, tryHard, noopFunc)
 kisstvshow.net,lifestylehack.info,keephealth.info,kimcartoon.li,kissorg.net,kisstvshow.to,kissasian.*##.kcAds1:not(#ad-promo)
@@ -47254,6 +47264,7 @@ m.ac.qq.com##a[class="app-guiding-download"]
 m.ac.qq.com##section[class="app-guiding"]
 m.adevarul.ro##.article > div[style="width:336px;height:280px;margin:5px auto;"]:not([id]):not([class])
 m.ai9475.com##div.baidu-ad
+m.aksam.com.tr##div[style*="width:300px;height:310px;"]
 m.aksam.com.tr##div[style="height:130px;"]:not([class]):not([id])
 m.allboxing.ru##.arcticmodal-container
 m.alpha.facebook.com,touch.alpha.facebook.com,mtouch.alpha.facebook.com,x.alpha.facebook.com,iphone.alpha.facebook.com,touch.facebook.com,mtouch.facebook.com,x.facebook.com,iphone.facebook.com,m.beta.facebook.com,touch.beta.facebook.com,mtouch.beta.facebook.com,x.beta.facebook.com,iphone.beta.facebook.com,touch.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,mtouch.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,x.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,iphone.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,touch.beta.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,m.facebook.com,m.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,b-m.facebook.com,b-m.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,mobile.facebook.com,mobile.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion###m_newsfeed_stream article[data-ft*='"ei\":']
@@ -71034,7 +71045,7 @@ zle.com$script
 ~xxgxw.com##div[id^="C"][style*="height:"][class^="C"]
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>4701
+!<<<<<放行白名单>>>>>4702
 #@##adblocktest
 #@#.ADV320_50_100
 #@#.ad-box
@@ -74490,6 +74501,7 @@ zle.com$script
 @@||titsbox.com/js/pop.js
 @@||tkec.com.tw/api/ad/
 @@||tkqlhce.com^$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
+@@||tm.jsuol.com.br/modules/external/admanager/noticias_ads.js$domain=uol.com.br
 @@||tmall.com/add?
 @@||tmall.com/go/*/banner.php
 @@||tmearn.com/js/ads*.js
