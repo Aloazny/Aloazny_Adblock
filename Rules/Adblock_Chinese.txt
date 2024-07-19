@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: yg4aQ5jEHrueRUOOuTxo7g
+! Checksum: v2CeinJOm7qxfQMvR6OT+g
 ! Title: Aloazny Chinese fiter
-! Version: 20240719130902
+! Version: 20240719202752
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-07-19 13:09:02
-! Total Count: 39353
-! Blocked Filters: 39353
+! Last modified: 2024-07-19 20:27:52
+! Total Count: 39373
+! Blocked Filters: 39373
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>17944
+!<<<<<域名规则>>>>>17961
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|cyxse.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.360118.com|m.37zw.net|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zwdu.com
 |http://*.cn/ad/
@@ -1901,6 +1901,7 @@
 ||ads-chunks.prod.ihrhls.com^
 ||ads-cloud.rovio.com^
 ||ads-d.viber.com^
+||ads-dev.pinterest.com^
 ||ads-game-configuration-master.ads.prd.ie.internal.unity3d.com^
 ||ads-gdl.imovideo.ru^
 ||ads-interfaces.sc-cdn.net^
@@ -1909,9 +1910,11 @@
 ||ads-resources.waze.com^
 ||ads-sdk.mattel163.com^
 ||ads-sdk.nianticlabs.com^
+||ads-servebom-com.cdn.ampproject.org^
 ||ads-server.mxplay.com^
 ||ads-sg.tiktok.com^
 ||ads-union.jd.com^
+||ads-website.ytsservice.com^
 ||ads.ad2iction.com^
 ||ads.adadapted.com^
 ||ads.aerserv.com^
@@ -1921,11 +1924,14 @@
 ||ads.bulldogcpi.com^
 ||ads.edadeal.ru^
 ||ads.exoclick.com^
+||ads.facebook.com^
 ||ads.feelingtouch.com^
+||ads.google.com^
 ||ads.imbc.com^
 ||ads.imovideo.ru^
 ||ads.iosappsworld.com^
 ||ads.jianchiapp.com^
+||ads.kurir-info.rs^
 ||ads.linkedin.com^
 ||ads.mobilefuse.net^
 ||ads.mobilityware.com^
@@ -1935,15 +1941,23 @@
 ||ads.pdbarea.com^
 ||ads.pinger.com^
 ||ads.pinterest.com^
+||ads.porndoe.com^
+||ads.pornone.com^
 ||ads.pubmatic.com^
+||ads.reddit.com^
 ||ads.rmbl.ws^
+||ads.roku.com^
 ||ads.service.kugou.com^
 ||ads.sohu.com^
+||ads.sportradar.com^
+||ads.sunmaker.com^
 ||ads.superad.cc^
 ||ads.taptapnetworks.com^
 ||ads.tiktok.com^
 ||ads.traffichaus.com^
 ||ads.tvb.com^
+||ads.twitch.tv^
+||ads.twitter.com^
 ||ads.viber.com^
 ||ads.xlxtra.com^
 ||ads.yahoo.com^
@@ -1962,6 +1976,7 @@
 ||adsco.re^
 ||adscustsrv.com^
 ||adsdk.vrvm.com^
+||adsdk.yandex.ru^
 ||adsee.jp^
 ||adserve.work^$third-party
 ||adserver.*.yahoodns.net^
@@ -2034,6 +2049,7 @@
 ||advertising.apple.com^
 ||advertising.apple.com^$domain=d3ward.github.io
 ||advertising.com^
+||advertising.twitter.com^
 ||advertising.yahoo.com^
 ||advertising.yahoo.com^$domain=d3ward.github.io
 ||advertising.yandex.ru^
@@ -7233,6 +7249,7 @@
 ||hahamx.cn/img/x.jpg
 ||hahamx.cn/upload/data/detail_
 ||hahamx.cn/upload/data/list_sidebar_
+||hahusa.top^
 ||haihongzg.com^
 ||hailfi.top^
 ||haili-spitzer.com^
@@ -17961,7 +17978,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>13324
+!<<<<<网站单独规则>>>>>13327
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.net
@@ -22483,6 +22500,7 @@ filmibeat.com,goodreturns.in##.amp-inner-ad
 filmix.biz,filmix.ac,filmix.tech,filmix.zone###branding_zone
 filmix.biz,filmix.ac,filmix.tech,filmix.zone###information > div[style="height:200px!important;overflow:hidden"]
 filmix.fm,filmix.date,filmix.life,filmix.pub,filmix.tech,filmix.zone##.remove-sda-wrap
+filmvandaag.nl##body #preload-ad-billboard.is-preload-ad
 filmvilag.me,liderendeportes.com,serieskao.tv,freefilm.to,ac24.cz,nsfwyoutube.com,jpblow.info,hesgoal.com,filmisub.com,igg-games.com,ruwhite.info,slones.info,ukhello.info,uaclips.com,thodkyaat.com,kzclip.com,onlymen.cz,ultimasnoticias.com.ve,freeserial.to,ibb.co##pp
 finance.ettoday.net##.all_news_text1
 finance.ifeng.com###box_img
@@ -28318,6 +28336,7 @@ s.kakaku.com,hoken.kakaku.com##.p-publicBoard
 s.minkabu.jp###ad9101_wrapper
 s.minkabu.jp###ad9102
 s.minkabu.jp###layout > div.min-h-\[120px\]
+s.minkabu.jp##.relative.justify-center.overflow-hidden
 s.resemom.jp##.aside-box.aside-box-ad
 s.response.jp###ad20
 s.response.jp##.arti-body > p[style="margin-bottom:5px;"] > .bottom-link
@@ -31019,6 +31038,7 @@ youtube.com##[class^="ytd-display-ad-"]
 youtube.com##[layout*="display-ad-"]
 youtube.com##a[href^="http://www.youtube.com/cthru?"]
 youtube.com##a[href^="https://www.youtube.com/cthru?"]
+youtube.com##ad-slot-renderer
 youtube.com##body > ytd-app > #content.ytd-app.style-scope > ytd-page-manager#page-manager.ytd-app.style-scope > ytd-browse.ytd-page-manager.style-scope > ytd-two-column-browse-results-renderer.grid-disabled.grid.ytd-browse.style-scope > #primary.ytd-two-column-browse-results-renderer.style-scope > ytd-rich-grid-renderer.ytd-two-column-browse-results-renderer.style-scope > #contents.ytd-rich-grid-renderer.style-scope > ytd-rich-grid-row.ytd-rich-grid-renderer.style-scope > #contents.ytd-rich-grid-row.style-scope > ytd-rich-item-renderer.ytd-rich-grid-row.style-scope:has(> #content.ytd-rich-item-renderer.style-scope > ytd-ad-slot-renderer.ytd-rich-item-renderer.style-scope)
 youtube.com##div#masthead-ad
 youtube.com##ytd-ad-slot-renderer
