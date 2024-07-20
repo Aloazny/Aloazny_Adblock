@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: v2CeinJOm7qxfQMvR6OT+g
+! Checksum: 4mjAZrlGE1Ui8tpw1svmxQ
 ! Title: Aloazny Chinese fiter
-! Version: 20240719202752
+! Version: 20240720090519
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-07-19 20:27:52
-! Total Count: 39373
-! Blocked Filters: 39373
+! Last modified: 2024-07-20 09:05:19
+! Total Count: 39389
+! Blocked Filters: 39389
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>17961
+!<<<<<域名规则>>>>>17970
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|cyxse.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.360118.com|m.37zw.net|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zwdu.com
 |http://*.cn/ad/
@@ -627,6 +627,7 @@
 ||360doc.com^*.html?t=
 ||360kan.com/special/
 ||360kan.com/v1/block?blockid=544&
+||360tres.com/*rank2.js
 ||360xs.com/templates/html5/js/djtop.js
 ||360yield.com^
 ||365kl.net/data/attachment/portal/
@@ -4120,6 +4121,7 @@
 ||chaomi.cc/js/cms_
 ||chaospace.fun/wp-content/uploads/*/%E6%A3%8B%E7%89%8C-
 ||chaospace.fun/wp-content/uploads/*/tg-
+||chaoyumiao.com^
 ||charmingplate.com^$third-party
 ||chartboost.com^
 ||chartboosts.com^
@@ -4645,6 +4647,7 @@
 ||crosspromotion-us.avosapps.us^
 ||crosspromotion.weplayer.cc^
 ||crowdedmass.com^$third-party
+||crtlisf.top^
 ||crulxoits.com^$third-party
 ||crvbnac.xyz^
 ||crxs.me/plugins/jquery.modal/
@@ -6277,6 +6280,7 @@
 ||fhglcpf.icu^
 ||fhitagd.cn^
 ||fhn.hnw6.icu^
+||fhnbrx.xyz^
 ||fhrl2018.com^
 ||fhsmtrnsfnt.com^
 ||fhtfnb.xyz^
@@ -7997,6 +8001,7 @@
 ||idv.st/dns/bar.htm
 ||idynbff.cn^
 ||ieapak.xyz^
+||iecmca.xyz^
 ||ieeod0.com^
 ||ieequd.icu^
 ||ieforex.com/r/cms/www/red/red2/images/*0.
@@ -13053,6 +13058,7 @@
 ||rockradio.com^*/blockadblock-$script,domain=rockradio.com
 ||rockstargame.su/adb_script$script
 ||rodeopolice.com^$third-party
+||rodmfv.xyz^
 ||rofmjd.xyz^
 ||roio.top^
 ||rollconnection.com^$third-party
@@ -13841,6 +13847,7 @@
 ||snzfj.net^$third-party
 ||so.auto999.cn^
 ||so.clzgd.com^
+||so.com/adx/
 ||so.com/com/ads?
 ||so.com/index/advertise
 ||so.com/recomm/simi?
@@ -15214,6 +15221,7 @@
 ||u2w95z.xyz^
 ||u33011.com^
 ||u346zd.top^
+||u4ccj.icu^
 ||u55011.com^
 ||u5nvu.xyz^
 ||u68t5.icu^
@@ -15520,6 +15528,7 @@
 ||uuysiaq.com^
 ||uuzsfpju.xyz^
 ||uuzwvqc.cn^
+||uvekyvs.icu^
 ||uvklgw.xyz^
 ||uvnjlm.cn^
 ||uvpqrydt.xyz^
@@ -17978,7 +17987,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>13327
+!<<<<<网站单独规则>>>>>13333
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.net
@@ -18681,6 +18690,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 360kan.com##.info-flow__ad
 360kan.com##.js-playicon[href*="wan.360.cn/"]
 360kan.com##.js-welcome
+360kan.com##[data-so-mod="ad"]
 360kuai.com###content_top_gg
 360kuai.com###pendant_interactive_gg
 360kuai.com###xunjia-modal-btn
@@ -20306,7 +20316,6 @@ baseball.yahoo.co.jp##.bb-modCommon05
 baseball.yahoo.co.jp,soccer.yahoo.co.jp,sports.yahoo.co.jp##.sn-videoEmbed__banner
 baseball.yahoo.co.jp,soccer.yahoo.co.jp,sports.yahoo.co.jp##.sn-videoEmbed__credit
 baseball.yahoo.co.jp,soccer.yahoo.co.jp,sports.yahoo.co.jp##div[class*="-modCommon0"] > div[class*="-overlay"]
-bash.im##div[style*="width: 300px; height: 250px;"]
 baskino.film###trickorlife
 baumpflegeportal.de##.baump-mobil-unten
 bbc.com###sticky-leaderboard
@@ -21794,6 +21803,7 @@ douguo.com##.mbs
 doujin-eromanga.com###sp_header
 doujin-eromanga.com##.moemorankad2
 doujin-freee.com##div[style="width: 100%; height: 0px; position: fixed; top: 0px; z-index: 2147483647;"]
+doujinantena.top,bash.im##div[style*="width: 300px; height: 250px;"]
 douxie.com##.ndxBanner
 douxie.com##.ndxChdjBox
 douyin.com###videoSideBar iframe
@@ -22047,6 +22057,7 @@ ebc.net.tw###lotteryfnc
 ebiotrade.com###dlBoxs
 ebiotrade.com###pop_banner1
 eccn.com###sem_online
+echofm.online###echo-main > div:has(> div[id^="div-gpt-"])
 economictimes.com,gadgetsnow.com,maharashtratimes.com,mensxp.com,vijaykarnataka.com##style[type="text/css"] + div[class]:not([id]):not([style]):not([class*=" "])
 economist.com##.adComponent
 ecpoc.com##.arcbodyad
@@ -28753,6 +28764,8 @@ so.com##.mh-sad
 so.com##.news-list
 so.com##.newsfeed-popup
 so.com##.placeholder-default
+so.com##.r-results > div:has(a[href^="https://e.so.com/adx/"])
+so.com##.r-results > div:has(a[href^="https://e.so.com/search/mclick?asin"])
 so.com##.res-mediav
 so.com##.res-mediav-right
 so.com##.spread
@@ -29775,6 +29788,8 @@ uludagsozluk.com##.mobil_bugun > li > a[href^="http://bit.ly/"][rel="nofollow"]
 uludagsozluk.com##.mobil_bugun > li > a[href^="http://bit.ly/"][rel="nofollow"] + b[style="color: #a09f9f;"]
 uludagsozluk.com##.parallaxYapiskanBanner
 uludagsozluk.com##a[href^="http://bit.ly/"][target="_blank"] > img
+umamusume.net###ad-first
+umamusume.net##div[style^="margin-bottom: 10px; min-height: 280px;"]
 umatoku.hochi.co.jp##.news-list > li.news-list__item:has(> aside.ad)
 unian.net##.article-column > div[style^="height:"]
 unian.net##.tabs-with-flex > div#tab1
@@ -33931,7 +33946,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 zle.com$script
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>3977
+!<<<<<通用Css规则>>>>>3978
 ###ADbox
 ###ADtip
 ###AdBlockDialog
@@ -34574,6 +34589,7 @@ zle.com$script
 ###wrapper > div[style="padding:3px;"] > #pic
 ###wrapperBlocker
 ###wrapper_right_bg[target="_blank"]
+###wwads
 ###xinnxi
 ###xqad
 ###xqad1
