@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: whG5qOkMoUCxm/JYsR8Rfg
+! Checksum: HSDuqceWfqd72+643Xr9ow
 ! Title: Aloazny Mobile fiter
-! Version: 20240721091328
+! Version: 20240721202838
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-07-21 09:13:28
-! Total Count: 75906
-! Blocked Filters: 75906
+! Last modified: 2024-07-21 20:28:38
+! Total Count: 75934
+! Blocked Filters: 75934
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock.txt?ref=main
 
 
-!<<<<<域名规则>>>>>28865
+!<<<<<域名规则>>>>>28874
 |http$third-party,script,domain=kinotut.tv
 |http*://$image,third-party,domain=rmdown.com
 |http*://$script,third-party,domain=stream2watch.org,badfilter
@@ -958,6 +958,7 @@
 ||2542.5clo0xmbf.com^
 ||25470c9fb7.193bde9ab1.com^
 ||256097b212.5c01ad4cb7.com^
+||25662zubo23739.com^
 ||2568.seponews.com^
 ||2574.5clo0xmbf.com^
 ||258ydh.com^$third-party
@@ -1189,7 +1190,7 @@
 ||3797.79j68qav2.com^
 ||3798.com^$third-party
 ||37bhof.com^
-||38.33.15.10^
+||38.33.15.*.gif
 ||380tv.com/upload/*-ad-
 ||38227.79j68qav2.com^
 ||383e3851cf.0115b2b799.com^
@@ -2227,6 +2228,7 @@
 ||88148.com/UpFile/a/2016040849191350.jpg
 ||8818.79j68qav2.com^
 ||883.engine.mobileapptracking.com^
+||88362zubo95838.com^
 ||88448.com/images/appkai980x100.gif
 ||8861198.com^
 ||8861202.com^
@@ -5251,6 +5253,7 @@
 ||baifen.music.baidu.com^
 ||baihuwang.com^$third-party
 ||baijs010.xyz^
+||baijs011.xyz^
 ||baijs02.xyz^
 ||baijs03.xyz^
 ||baijs05.xyz^
@@ -8061,6 +8064,7 @@
 ||corrosif.science^$domain=filerev.cc|pencurimovie.pw
 ||cos.ap-*.myqcloud.com^$third-party
 ||cosmic-scans.com/wp-content/uploads/*/VID-*.mp4
+||cosmo001.top^
 ||cosmosjackson.com^$third-party
 ||cosplayjav.pl/wp-content/themes/cosplayjav/js/fuckadblock
 ||cosplayporntube.com/creatives/
@@ -12017,6 +12021,7 @@
 ||google-js-01.xyz^
 ||google-js-02.xyz^
 ||google-js-08.xyz^
+||google-js-09.xyz^
 ||google.com/ads/search/app?
 ||google.com/ads/search/app?*&caps=*sdkAdmobApiForAds
 ||google.com/adsense/ad
@@ -18094,6 +18099,7 @@
 ||news.sina.com.cn/pfpnews/js/libweb.js$domain=~www.sina.com.cn
 ||news.sina.com.tw/js/ti.js
 ||news.solitut.online^
+||news.ssp.qq.com/ad
 ||news.ssp.qq.com/app
 ||news.tagtoo.co^$third-party
 ||news18a.com/image/ad_ina/
@@ -19793,6 +19799,7 @@
 ||pptclb.xyz^
 ||pptv.com/game/aplus/client/gamedetail.html
 ||ppvpmrt.xyz^
+||ppxscy1.cn^
 ||ppyibei.com^
 ||pq.carlingquerent.com^
 ||pqaz.xyz^
@@ -25382,6 +25389,7 @@
 ||uymahuxv.xyz^
 ||uyohyy.xyz^
 ||uyq3ruf.icu^
+||uyretut.top^
 ||uysdxmo.com^
 ||uyt79.top^
 ||uyulwc.xyz^
@@ -28756,6 +28764,7 @@
 ||zpzlbv.xyz^
 ||zq.lansedir.com^
 ||zqgixxp.icu^
+||zqkxlf.com^
 ||zqzq*.com:*/da.aspx
 ||zrakpxsf.com^
 ||zrblog.net/gg/
@@ -28882,7 +28891,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>34819
+!<<<<<网站单独规则>>>>>34820
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe.com,badfilter
 $image,third-party,denyallow=cdn77.org|fpbns.net|others-cdn.com|rncdn7.com|sb-cd.com|stream.highwebmedia.com|upsiloncdn.net|xvideos-cdn.com|youjizz.com|ypncdn.com,domain=pussyspace.com|pussyspace.net
@@ -32143,6 +32152,7 @@ aol.com,fossbytes.com,iflscience.com,thepostmillennial.com##div[class^="AdChoice
 aoshu.com,zhongkao.com,zuowen.com##.bottomImg
 aotter.net##.ag-revenue
 aotu43.com##center > a[rel="nofollow"] > .king
+aowu365.com,chusixs.com,oucibook.com,sisizw.com##p:has([style^="color:"])
 aoxx69.net##.Banner_slick
 aoxx69.net##.GTM-sub-Banner
 aoxx69.net##.toast
@@ -46065,7 +46075,7 @@ kisstvshow.net,kisstvshow.to##div[style="width: 620px; margin: 0px auto; overflo
 kisstvshow.net,lifestylehack.info,keephealth.info,kimcartoon.li,kissorg.net,kisstvshow.to,kissasian.*##+js(abort-current-script, document.getElementById, /\.indexOf[(]'iframe'[)]|isAdb|#ad-promo/)
 kisstvshow.net,lifestylehack.info,keephealth.info,kimcartoon.li,kissorg.net,kisstvshow.to,kissasian.*##+js(no-fetch-if, bidgear.com/pubbidgear-ad.js)
 kisstvshow.net,lifestylehack.info,keephealth.info,kimcartoon.li,kissorg.net,kisstvshow.to,kissasian.*##+js(no-xhr-if, /mgid\.com|pagead2\.googlesyndication\.com|\/ads\/advert/)
-kisstvshow.net,lifestylehack.info,keephealth.info,kimcartoon.li,kissorg.net,kisstvshow.to,kissasian.*##+js(remove-node-text, script, /workfire|megastorm|_batCheck/)
+kisstvshow.net,lifestylehack.info,keephealth.info,kimcartoon.li,kissorg.net,kisstvshow.to,kissasian.*##+js(remove-node-text, script, /gameover|imgur|_batCheck/)
 kisstvshow.net,lifestylehack.info,keephealth.info,kimcartoon.li,kissorg.net,kisstvshow.to,kissasian.*##+js(set-constant, cpe, false)
 kisstvshow.net,lifestylehack.info,keephealth.info,kimcartoon.li,kissorg.net,kisstvshow.to,kissasian.*##+js(set-constant, isAdb, false)
 kisstvshow.net,lifestylehack.info,keephealth.info,kimcartoon.li,kissorg.net,kisstvshow.to,kissasian.*##+js(set-constant, tryHard, noopFunc)
@@ -63704,7 +63714,7 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 zzzyk.com###Tinfo
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>3290
+!<<<<<通配符规则>>>>>3295
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe.com,badfilter
 $image,third-party,denyallow=cdn77.org|fpbns.net|others-cdn.com|rncdn7.com|sb-cd.com|stream.highwebmedia.com|upsiloncdn.net|xvideos-cdn.com|youjizz.com|ypncdn.com,domain=pussyspace.com|pussyspace.net
@@ -63807,6 +63817,7 @@ $xmlhttprequest,third-party,denyallow=authkong.com|rsc.cdn77.org|linkvertise.com
 .ai/ads.
 .alb.aliyuncs.com:*/*/gougou.html?k=$~third-party
 .app/*/*.js$domain=23ddw.app|23ddw.cc|23ddw.cn|23ddw.co|23ddw.com|23ddw.info|23ddw.la|23ddw.me|23ddw.net|23ddw.org|23ddw.so|23ddw.tw|23ddw.us|81zw.app|81zw.cc|81zw.cn|81zw.co|81zw.com|81zw.info|81zw.la|81zw.me|81zw.net|81zw.org|81zw.so|81zw.tw|81zw.us|biquge.app|biquge.cc|biquge.cn|biquge.co|biquge.com|biquge.info|biquge.la|biquge.me|biquge.net|biquge.org|biquge.so|biquge.tw|biquge.us|biqugu.app|biqugu.cc|biqugu.cn|biqugu.co|biqugu.com|biqugu.info|biqugu.la|biqugu.me|biqugu.net|biqugu.org|biqugu.so|biqugu.tw|biqugu.us|dingdian.app|dingdian.cc|dingdian.cn|dingdian.co|dingdian.com|dingdian.info|dingdian.la|dingdian.me|dingdian.net|dingdian.org|dingdian.so|dingdian.tw|dingdian.us|kbookzw.app|kbookzw.cc|kbookzw.cn|kbookzw.co|kbookzw.com|kbookzw.info|kbookzw.la|kbookzw.me|kbookzw.net|kbookzw.org|kbookzw.so|kbookzw.tw|kbookzw.us|kudushu.app|kudushu.cc|kudushu.cn|kudushu.co|kudushu.com|kudushu.info|kudushu.la|kudushu.me|kudushu.net|kudushu.org|kudushu.so|kudushu.tw|kudushu.us|luoqiu.app|luoqiu.cc|luoqiu.cn|luoqiu.co|luoqiu.com|luoqiu.info|luoqiu.la|luoqiu.me|luoqiu.net|luoqiu.org|luoqiu.so|luoqiu.tw|luoqiu.us|qishuta.app|qishuta.cc|qishuta.cn|qishuta.co|qishuta.com|qishuta.info|qishuta.la|qishuta.me|qishuta.net|qishuta.org|qishuta.so|qishuta.tw|qishuta.us|tangsanshu.app|tangsanshu.cc|tangsanshu.cn|tangsanshu.co|tangsanshu.com|tangsanshu.info|tangsanshu.la|tangsanshu.me|tangsanshu.net|tangsanshu.org|tangsanshu.so|tangsanshu.tw|tangsanshu.us|wxshuku.app|wxshuku.cc|wxshuku.cn|wxshuku.co|wxshuku.com|wxshuku.info|wxshuku.la|wxshuku.me|wxshuku.net|wxshuku.org|wxshuku.so|wxshuku.tw|wxshuku.us|yetianlian.app|yetianlian.cc|yetianlian.cn|yetianlian.co|yetianlian.com|yetianlian.info|yetianlian.la|yetianlian.me|yetianlian.net|yetianlian.org|yetianlian.so|yetianlian.tw|yetianlian.us
+.app/5y*/310.$other
 .app/js/gg.js$script
 .app:*/?i_code=$~third-party
 .app?c=ggcha$~third-party
@@ -63987,6 +63998,7 @@ $xmlhttprequest,third-party,denyallow=authkong.com|rsc.cdn77.org|linkvertise.com
 .com/1clkn/
 .com/20*/*/*.txt$third-party
 .com/2?z=$script,third-party
+.com/5y*/310.$other
 .com/?channelCode=$~third-party
 .com/?invite=*&nt=0$~third-party
 .com/?token=*&screen_*=*&ref=$third-party
@@ -64367,6 +64379,7 @@ $xmlhttprequest,third-party,denyallow=authkong.com|rsc.cdn77.org|linkvertise.com
 .net/1?z=$script,third-party
 .net/20*/*/*.txt$third-party
 .net/2?z=$script,third-party
+.net/5y*/310.$other
 .net/jquerys.js
 .net/js/ads/
 .net/v2/stats/1*$third-party
@@ -64382,6 +64395,7 @@ $xmlhttprequest,third-party,denyallow=authkong.com|rsc.cdn77.org|linkvertise.com
 .oeya.com/$domain=realtw.com
 .online/*/eeeekayresrsammicraaajkaschhoilsebadhiyakuchtanahiaayaajturuionmeebbat/$document
 .org/*/*.js$domain=23ddw.app|23ddw.cc|23ddw.cn|23ddw.co|23ddw.com|23ddw.info|23ddw.la|23ddw.me|23ddw.net|23ddw.org|23ddw.so|23ddw.tw|23ddw.us|81zw.app|81zw.cc|81zw.cn|81zw.co|81zw.com|81zw.info|81zw.la|81zw.me|81zw.net|81zw.org|81zw.so|81zw.tw|81zw.us|biquge.app|biquge.cc|biquge.cn|biquge.co|biquge.com|biquge.info|biquge.la|biquge.me|biquge.net|biquge.org|biquge.so|biquge.tw|biquge.us|biqugu.app|biqugu.cc|biqugu.cn|biqugu.co|biqugu.com|biqugu.info|biqugu.la|biqugu.me|biqugu.net|biqugu.org|biqugu.so|biqugu.tw|biqugu.us|dingdian.app|dingdian.cc|dingdian.cn|dingdian.co|dingdian.com|dingdian.info|dingdian.la|dingdian.me|dingdian.net|dingdian.org|dingdian.so|dingdian.tw|dingdian.us|kbookzw.app|kbookzw.cc|kbookzw.cn|kbookzw.co|kbookzw.com|kbookzw.info|kbookzw.la|kbookzw.me|kbookzw.net|kbookzw.org|kbookzw.so|kbookzw.tw|kbookzw.us|kudushu.app|kudushu.cc|kudushu.cn|kudushu.co|kudushu.com|kudushu.info|kudushu.la|kudushu.me|kudushu.net|kudushu.org|kudushu.so|kudushu.tw|kudushu.us|luoqiu.app|luoqiu.cc|luoqiu.cn|luoqiu.co|luoqiu.com|luoqiu.info|luoqiu.la|luoqiu.me|luoqiu.net|luoqiu.org|luoqiu.so|luoqiu.tw|luoqiu.us|qishuta.app|qishuta.cc|qishuta.cn|qishuta.co|qishuta.com|qishuta.info|qishuta.la|qishuta.me|qishuta.net|qishuta.org|qishuta.so|qishuta.tw|qishuta.us|tangsanshu.app|tangsanshu.cc|tangsanshu.cn|tangsanshu.co|tangsanshu.com|tangsanshu.info|tangsanshu.la|tangsanshu.me|tangsanshu.net|tangsanshu.org|tangsanshu.so|tangsanshu.tw|tangsanshu.us|wxshuku.app|wxshuku.cc|wxshuku.cn|wxshuku.co|wxshuku.com|wxshuku.info|wxshuku.la|wxshuku.me|wxshuku.net|wxshuku.org|wxshuku.so|wxshuku.tw|wxshuku.us|yetianlian.app|yetianlian.cc|yetianlian.cn|yetianlian.co|yetianlian.com|yetianlian.info|yetianlian.la|yetianlian.me|yetianlian.net|yetianlian.org|yetianlian.so|yetianlian.tw|yetianlian.us
+.org/5y*/310.$other
 .org/jquerys.js
 .org/js/ads/
 .org/js/gg.js$script
@@ -65363,6 +65377,7 @@ $xmlhttprequest,third-party,denyallow=authkong.com|rsc.cdn77.org|linkvertise.com
 /assets/js/mob.js$domain=uptostream.com|uptobox.com
 /assets/jwplayer-*/vast.js$script,~third-party
 /assets/publi*/$script,domain=btmovi.kim|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|iyungong.com|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylengmen.com|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|shenyedushu.com|soosadfun.com|sqruitu.com|tangsanshu.info|tinghao8.com|tinghaodebook.com|toosadfun.com|xhzysh.com|ziyungong.org|zongcai666.com|tangsanshu.la|lewenlook.com|nosadfun.com|shenyelook.com|hetang123.com|tinghaolook.com|sadnofun.com|bookhaitang.com|lengmen.cc|baimakanshu.com|dayu778.com|solengmen.com
+/assets/public/chart.1.js$script,~third-party
 /assets/public/d3.2.js$script,~third-party
 /assets/public/react.3.js$script,~third-party
 /assets/publish/chart.1.js$script,~third-party
@@ -66997,7 +67012,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 zle.com$script
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>4219
+!<<<<<通用Css规则>>>>>4232
 ###ADbox
 ###ADtip
 ###AdBlockDialog
@@ -67105,6 +67120,7 @@ zle.com$script
 ###adLeft
 ###adLeftFloat
 ###adRightFloat
+###adSpot
 ###adText
 ###adTop2
 ###adUn_1
@@ -67206,10 +67222,16 @@ zle.com$script
 ###ads_top_video
 ###adsblocker_detected
 ###adsense
+###adsense-area-label
 ###adsense_center
 ###adsense_footer
 ###adsense_header
 ###adsense_insert
+###adsenseright
+###adspace-one
+###adspace-top
+###adspace300x250
+###adspaceBox
 ###adstop
 ###adtop
 ###adtop1
@@ -67261,6 +67283,8 @@ zle.com$script
 ###bfad4
 ###bfad5
 ###bfad6
+###billboard_desk
+###billboard_mob
 ###bl_mobile_float
 ###bl_mobile_float[style='height: 152px;']
 ###blox-top-promo
@@ -67456,6 +67480,8 @@ zle.com$script
 ###kfpopupDiv
 ###ks > .DaKuang
 ###ldgindexbuttom
+###leaderboard_bottom_ad
+###leaderboard_top_ad
 ###leftAD
 ###leftCouple
 ###leftCouple + #rightFloat
@@ -68777,6 +68803,7 @@ zle.com$script
 ##.idmuvi-topbanner
 ##.idmuvi-topbanner-aftermenu
 ##.ima-ad-container
+##.imagegg-container
 ##.img-cctv.lazyLoad
 ##.imgBox > div[class^="ad"]
 ##.imgad
@@ -69686,6 +69713,7 @@ zle.com$script
 ##VIDEO[loop='true'][muted='true'][autoplay='true'][playsinline='true'][preload='auto']
 ##[ad_display_dot]
 ##[ad_dot_url]
+##[alt="Ads"]
 ##[alt="要恰饭的嘛"]
 ##[alt='52bl']
 ##[alt='ACG里番']
@@ -70923,7 +70951,6 @@ zle.com$script
 ##img[alt*="bet365"][src$=".gif"]
 ##img[alt*="呦女"]
 ##img[alt*="四季体育"][src$=".gif"]
-##img[alt*="广告"][src]
 ##img[alt*="成人"][alt*="抖阴"]
 ##img[alt*="成人"][alt*="抖音"]
 ##img[alt*="新葡京"][src$=".gif"]
@@ -70947,6 +70974,7 @@ zle.com$script
 ##img[alt="太陽城集團"]
 ##img[alt="官方APP"]
 ##img[alt="小孩小呦女"]
+##img[alt="广告"]
 ##img[alt="开云体育"]
 ##img[alt="成人二次元"]
 ##img[alt="成人抖音破解"]
@@ -71242,7 +71270,7 @@ zle.com$script
 123pan.com,meidebi.com,weicaixun.com#@#.share-list
 159i.com,movieffm.net,prothomalo.com,shahid4u.club#@#.adsBox
 15min.lt#@#.widget.ads
-15min.lt,abczdrowie.pl,autocentrum.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,login.wyborcza.pl,money.pl,o2.pl,parenting.pl,player.pl,pudelek.pl,so-magazyn.pl,sportsdirect.com,vod.pl,wp.pl#@#.ads
+15min.lt,abczdrowie.pl,autocentrum.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,login.wyborcza.pl,mail.google.com,mediafire.com,money.pl,o2.pl,parenting.pl,player.pl,pudelek.pl,so-magazyn.pl,sportsdirect.com,vod.pl,wp.pl#@#.ads
 163.com#@#.s-btns
 18-comic.work,18-comicblade.art,18-comicblade.club,18-comicblade.org,18-comicblade.xyz,18-comicfreedom.org,18-comicfreedom.xyz,18-comicstellar.art,18-comicstellar.xyz,18comic-erdtree.xyz,18comic.org,18comic.vip,jm-comic1.cc,jm-comic2.cc,jmcomic.me,jmcomic1.city,jmcomic1.group,jmcomic1.me,jmcomic1.win,jmcomic2.me#@#.col-lg-3.col-xs-6 > .well
 18-comic.work,18-comicblade.art,18-comicblade.org,18-comicblade.xyz,18-comicfreedom.org,18-comicfreedom.xyz,18-comicstellar.art,18comic.org,18comic.vip,jm-comic1.cc,jm-comic2.cc,jmcomic.me,jmcomic1.city,jmcomic1.group,jmcomic1.me,jmcomic1.win,jmcomic2.me#@#img[alt][src^="/static/resources/"]
@@ -71267,6 +71295,7 @@ zle.com$script
 520cc.com,520cc.cc#@##inplayer
 52vfx.com#@##head_ad
 5dm.link#@#.tm-share-this
+61ku.com,acfun.cn,bilibili.com,h6room.com,ludown.com,lxapk.com,nr19.cn,pornpics.com,pornpics.de,v.qq.com,xhzyku.com,youku.com,yxzhi.com#@#img[alt*="广告"][src]
 7b2.com,thh521.com,vikacg.com,zhujib.com#@#.social-top:not(html):not(body)
 85novel.com,digitalocean.com,gazetadopovo.com.br,ikjzd.com,nectr.com.au,xmorex.com,xsz-av.com,xszav2.com#@#.ad-content
 85tube.com,camhub.cc,camhub.world,fuckit.cc,thothd.com,thothd.to,watchporn.to#@#.ads-iframe
@@ -75098,7 +75127,6 @@ abczdrowie.pl,autocentrum.pl,autokult.pl,billetto.*,fotoblogia.pl,gadzetomania.p
 abczdrowie.pl,autocentrum.pl,autokult.pl,duit.cc,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,pianetafanta.it,pudelek.pl,so-magazyn.pl,wikitrik.com,wp.pl#@##ad-column
 abczdrowie.pl,autocentrum.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,poczta.wp.pl,pudelek.pl,so-magazyn.pl,wp.pl#@#[class^="css-"]
 aca.best#@#body > noscript + #app
-acfun.cn,bilibili.com,h6room.com,lxapk.com,nr19.cn,pornpics.com,pornpics.de,v.qq.com,youku.com,yxzhi.com#@#img[alt*="广告"][src]
 actu17.fr,napolivillage.com,technopat.net#@#.td-ad-background-link
 ad-maven.com#@#HTML
 adblockeronstape.me,adblockplustape.xyz,adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,antiadtape.com,api.guailie.com,bbt.tv,btbt.tv,fiime.cn,foxgreat.com,getrelax.club,gettapeads.com,guailie.com,kims3.xyz,koyso.com,ldqk.xyz,mmiyue.com,noblocktape.com,qcheng.cc,sexbjcam.com,shavetape.*,stape.fun,strcloud.link,streamadblocker.*,streamadblockplus.com,streamta.*,streamtape.*,strtape.*,strtape.cloud,tapeadsenjoyer.com,tapelovesads.org,tapewithadblock.org,wavse.com,xbeibeix.com,yii666.com#@#.google-ad
@@ -75897,8 +75925,8 @@ world.huanqiu.com#@#.ad_all
 wp.pl#@#body > div:nth-of-type(1)[style^="display: block;"]:not(#page)
 www.jianshu.com#@#div[class$="_0"]
 www.zol.com.cn,zol.com.cn#@##search_ad
-xnxx.com#@#.exo-ad-ins-container
 xnxx.com#@#[class*="ad-"]
+xnxx.com,xvideos.com#@#.exo-ad-ins-container
 xpiaotian.net#@#.pagead
 xxt.cn#@##mainAd
 yalla-shoots.tv#@##ads_top
