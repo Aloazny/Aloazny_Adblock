@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: HSDuqceWfqd72+643Xr9ow
+! Checksum: anOhhUcO6wDc5AEHUh42mg
 ! Title: Aloazny Mobile fiter
-! Version: 20240721202838
+! Version: 20240722091025
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-07-21 20:28:38
-! Total Count: 75934
-! Blocked Filters: 75934
+! Last modified: 2024-07-22 09:10:25
+! Total Count: 75941
+! Blocked Filters: 75941
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock.txt?ref=main
 
 
-!<<<<<域名规则>>>>>28874
+!<<<<<域名规则>>>>>28881
 |http$third-party,script,domain=kinotut.tv
 |http*://$image,third-party,domain=rmdown.com
 |http*://$script,third-party,domain=stream2watch.org,badfilter
@@ -7321,6 +7321,7 @@
 ||ceshi*.ink/s/*?_=$third-party
 ||ceshi1.ink^
 ||ceshi127722.obs.cn-north-4.myhuaweicloud.com^
+||cetlwsf.top^
 ||cf-ads.pinger.com^
 ||cf035299fa.9123c34615.com^
 ||cf0b61e617.f0eba64ba6.com^
@@ -9013,6 +9014,7 @@
 ||df888.eastday.com^
 ||dfadas13.com^
 ||dfaikhkm.xyz^
+||dfan4.icu^
 ||dfcfw.com/EMFloatFrame/
 ||dfcfw.com/js/*/emfloatmedia_
 ||dfcfw.com/js/default/left_
@@ -9356,6 +9358,7 @@
 ||doii.cc/mmm/
 ||doiney.pandasone.com^
 ||dojyiu8.com^
+||dokfrl.xyz^
 ||doko.moe^$domain=pantsu.cat
 ||dollardelta.com^$third-party
 ||dolldetail.com^$third-party
@@ -11060,6 +11063,7 @@
 ||fmhua.com/template/*/images/g_js/*.html
 ||fmild.xyz^
 ||fmjjvb.xyz^
+||fmkipgm.icu^
 ||fmlabsonline.com^
 ||fmmirep.icu^
 ||fmmods.com/bnbanner/
@@ -11577,6 +11581,7 @@
 ||gcw*.2liang.cn^
 ||gcwwsv.icu^
 ||gcxa.cn/a/gb.gif
+||gcylkq.xyz^
 ||gd.189.cn^*.htm?SP=$third-party
 ||gd.ct10000.com/js/ecssstat.js
 ||gd.sina.com.cn/iframe/22/
@@ -16403,6 +16408,7 @@
 ||lshuaibin.cn^
 ||lshunter.net/ls/player.php?id=
 ||lsj2.5aer.com^
+||lsjazn.xyz^
 ||lsjxs.cc/js/html
 ||lskjwica.cn^
 ||lskmipb.icu^
@@ -28812,6 +28818,7 @@
 ||zvdc9y.icu^
 ||zvela.filegram.to^
 ||zvfaxh.xyz^
+||zvhlzb.xyz^
 ||zvnjvd.xyz^
 ||zvtnj.icu^
 ||zvvg678.xyz^
@@ -46075,7 +46082,7 @@ kisstvshow.net,kisstvshow.to##div[style="width: 620px; margin: 0px auto; overflo
 kisstvshow.net,lifestylehack.info,keephealth.info,kimcartoon.li,kissorg.net,kisstvshow.to,kissasian.*##+js(abort-current-script, document.getElementById, /\.indexOf[(]'iframe'[)]|isAdb|#ad-promo/)
 kisstvshow.net,lifestylehack.info,keephealth.info,kimcartoon.li,kissorg.net,kisstvshow.to,kissasian.*##+js(no-fetch-if, bidgear.com/pubbidgear-ad.js)
 kisstvshow.net,lifestylehack.info,keephealth.info,kimcartoon.li,kissorg.net,kisstvshow.to,kissasian.*##+js(no-xhr-if, /mgid\.com|pagead2\.googlesyndication\.com|\/ads\/advert/)
-kisstvshow.net,lifestylehack.info,keephealth.info,kimcartoon.li,kissorg.net,kisstvshow.to,kissasian.*##+js(remove-node-text, script, /gameover|imgur|_batCheck/)
+kisstvshow.net,lifestylehack.info,keephealth.info,kimcartoon.li,kissorg.net,kisstvshow.to,kissasian.*##+js(remove-node-text, script, /gameover|img src=|_batCheck/)
 kisstvshow.net,lifestylehack.info,keephealth.info,kimcartoon.li,kissorg.net,kisstvshow.to,kissasian.*##+js(set-constant, cpe, false)
 kisstvshow.net,lifestylehack.info,keephealth.info,kimcartoon.li,kissorg.net,kisstvshow.to,kissasian.*##+js(set-constant, isAdb, false)
 kisstvshow.net,lifestylehack.info,keephealth.info,kimcartoon.li,kissorg.net,kisstvshow.to,kissasian.*##+js(set-constant, tryHard, noopFunc)
@@ -72975,7 +72982,7 @@ zle.com$script
 @@||fuckadblock.sitexw.fr/beta/fuckadblock.js$domain=fuckadblock.sitexw.fr
 @@||fundingchoicesmessages.google.com/f^$domain=adshnk.com
 @@||fundingchoicesmessages.google.com^$domain=ytlarge.com
-@@||fundingchoicesmessages.google.com^$script,domain=soranews24.com
+@@||fundingchoicesmessages.google.com^$script,domain=hurriyet.com.tr|soranews24.com
 @@||fusacq.com/javascript/advertising.js|$script
 @@||fux.com/adblockchecker.js
 @@||fwlive.crackle.com/ad/g/1$domain=crackle.com
