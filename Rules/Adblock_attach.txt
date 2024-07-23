@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: ZktPI+zONFC7MrGCg5TuHg
+! Checksum: pfZgVqrkYQpbpFsVJxWLoQ
 ! Title: Aloazny attach fiter
-! Version: 20240723090646
+! Version: 20240723202829
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-07-23 09:06:46
-! Total Count: 15135
-! Blocked Filters: 15135
+! Last modified: 2024-07-23 20:28:29
+! Total Count: 15165
+! Blocked Filters: 15165
 ! Description: 合并混合规则的补充规则，轻量规则，可作为补充规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_attach.txt?ref=main
 
 
-!<<<<<域名规则>>>>>6841
+!<<<<<域名规则>>>>>6871
 |https://m.frgls.com/js/*.js?v=
 ||*ggua.xyz^$third-party
 ||000123456789.online^
@@ -498,6 +498,7 @@
 ||adsessionserv.com^$third-party
 ||adsfs.oppomobile.com^
 ||adskeeper.co.uk^
+||adsmind.ugdtimg.com^
 ||adstat.izuiyou.com^
 ||adstats.tencentmusic.com^
 ||adsxyz.com^
@@ -684,7 +685,11 @@
 ||aparvibices.com^
 ||apdfmhp.cn^
 ||apfobmfr.cn^
+||api-access.pangolin-sdk-toutiao-b.com^
+||api-access.pangolin-sdk-toutiao.com^
+||api-access.pangolin-sdk-toutiao1.com^
 ||api-adservices.apple.com^
+||api-htp.beizi.biz^
 ||api-shoulei-ssl.xunlei.com^
 ||api.06fgej.com^
 ||api.1101yh.com^
@@ -715,6 +720,7 @@
 ||apparatuslip.com^$third-party
 ||appc.baidu.com^
 ||applog.uc.cn^
+||applog.zijieapi.com^
 ||applogapi.autohome.com.cn^
 ||appmetrica.yandex.ru^
 ||appsupport.qq.com^
@@ -892,6 +898,7 @@
 ||bdhcpll.cn^
 ||bea-s.dinghuoche.com^
 ||beacon-api.aliyuncs.com^
+||beacon.qq.com^
 ||beadbears.com^$third-party
 ||beamincrease.com^$third-party
 ||beap.gemini.yahoo.com^
@@ -2413,6 +2420,7 @@
 ||greyinstrument.com^$third-party
 ||gripcorn.com^$third-party
 ||grjasq.com^
+||gromore.pangolin-sdk-toutiao.com^
 ||grouchypush.com^$third-party
 ||grs.hicloud.com^
 ||grumpydime.com^$third-party
@@ -2475,6 +2483,7 @@
 ||h-adashx.ut.taobao.com^
 ||h.*tad.cn/?$~third-party
 ||h.baminw.cn^
+||h.trace.qq.com^
 ||h2ji5.xyz^
 ||h2tcbox.baidu.com^
 ||h45pmx1.cn^
@@ -2962,6 +2971,7 @@
 ||jakid.xyz^
 ||jakisity.top^
 ||jalosoul.com^
+||janapi.jd.com^
 ||janwzsqi.icu^
 ||jaowd.xyz^
 ||jappy.tv/i/wrbng/abb.png
@@ -3470,6 +3480,7 @@
 ||lnaevr.fun^
 ||lnzjlr.xyz^
 ||loadsurprise.com^$third-party
+||log-api.pangolin-sdk-toutiao-b.com^
 ||log-api.pangolin-sdk-toutiao.com^
 ||log-sdk.ksapisrv.com^
 ||log.byteoversea.com^
@@ -3480,6 +3491,7 @@
 ||log.pinterest.com^
 ||log.snssdk.com^
 ||log.vdisk.cn^
+||log.zijieapi.com^
 ||log.zongheng.com^
 ||logbak.hicloud.com^
 ||logs.amap.com^
@@ -3688,6 +3700,7 @@
 ||mhhanman.xyz/data/my/myjs.js
 ||mhslbgk.cn^
 ||mhysbwo.xyz^
+||mi.gdt.qq.com^
 ||miaozhen.com^$third-party
 ||mifyeldx.top^
 ||mightyspiders.com^$third-party
@@ -3787,6 +3800,7 @@
 ||msg.video.qiyi.com^
 ||msite.baidu.com^
 ||mssdhde.cn^
+||mssdk.volces.com^
 ||mt4v4.com^
 ||mtawcy.xyz^
 ||mtguwx.xyz^
@@ -4057,6 +4071,8 @@
 ||oopej.xyz^
 ||ooqwc.xyz^
 ||ootyx24.com^
+||open.e.kuaishou.cn^
+||open.e.kuaishou.com^
 ||open.oneplus.net^
 ||openinstall.io^$third-party,script
 ||openrcv.baidu.com^
@@ -4086,6 +4102,7 @@
 ||oss-cn-beijing.aliyuncs.com/llv3/*.js$third-party
 ||ossfile001.com^
 ||ossmightyenar.net^
+||otheve.beacon.qq.com^
 ||otienlk.top^
 ||oueia.xyz^
 ||ougannike.com^
@@ -4115,6 +4132,7 @@
 ||p11q.cn^
 ||p26.gejulm*.com^
 ||p2kfynrr.icu^
+||p3-be-pack-sign.pglstatp-toutiao.com^
 ||p52q.cn^
 ||padmp4.cc/js/foot.js
 ||padmp4.com/js/foot.js
@@ -4190,6 +4208,7 @@
 ||pflrv.cn^
 ||pfqwbqs.cn^
 ||pftdmmc.xyz^
+||pgdt.ugdtimg.com^
 ||pgght17.com^
 ||pglstatp-toutiao.com^
 ||phfqumvi.xyz^
@@ -4352,6 +4371,7 @@
 ||puabvo.com^
 ||pubfuture.com^$third-party
 ||public.app.autohome.com.cn^
+||public.gdtimg.com^
 ||public.wlbaike.com^
 ||publicsofa.com^$third-party
 ||pufei.cc/skin/footer.js
@@ -4540,6 +4560,7 @@
 ||qzpbwq.com^
 ||qzpmx.cn^
 ||qzqd2.com^
+||qzs.gdtimg.com^
 ||r36ku.site^
 ||r5dfwjtb.icu^
 ||r6pt6kfz.com^
@@ -4846,6 +4867,8 @@
 ||sdhjueue.com^
 ||sdhuawen.cn^
 ||sdk.51.la^
+||sdk.beizi.biz^
+||sdk.e.qq.com^
 ||sdk.sipujia.cn^
 ||sdkapp.mobile.sina.cn^
 ||sdkapp.uve.weibo.com^
@@ -4853,6 +4876,7 @@
 ||sdkconfig.ad.xiaomi.com^
 ||sdkdfjksl.com^
 ||sdklnlsknvcks.com^
+||sdktmp.hubcloud.com.cn^
 ||sdqoi2d.com^
 ||sdtsad.com^
 ||sdvfvgj.cn^
@@ -4895,6 +4919,7 @@
 ||settleshoes.com^$third-party
 ||sewen8.life/ad
 ||sexad.net^
+||sf3-fe-tos.pglstatp-toutiao.com^
 ||sfbixfd.cn^
 ||sfg11rr.com^
 ||sfgprze.cn^$~third-party
@@ -5502,8 +5527,10 @@
 ||tmochyf.cn^
 ||tmwbszn.icu^
 ||tnc3-aliec2.zijieapi^
+||tnc3-alisc1.zijieapi.com^
 ||tnc3-alisc1.zijieapi^
 ||tnc3-bjlgy.snssdk.com^
+||tnc3-bjlgy.zijieapi.com^
 ||tnc3-bjlgy.zijieapi^
 ||tnebxv.top^
 ||tnjvz.cn^
@@ -5796,10 +5823,12 @@
 ||uyt79.top^
 ||uztyvfk.cn^$third-party,image
 ||v*.qudou100.com^$script
+||v.adx.hubcloud.com.cn^
 ||v.vgbhujklp.xyz^
 ||v00yvd.xyz^
 ||v1gyb.xyz^
 ||v2.dakang-energy.com^
+||v2.gdt.qq.com^
 ||v2.uyan.cc^
 ||v4dwkcv.com^
 ||v59833.com:^$~third-party
@@ -6315,6 +6344,7 @@
 ||xkzjq.cn^
 ||xlardaxq.com^
 ||xlivrdr.com^
+||xlog.jd.com^
 ||xlviirdr.com^
 ||xlvqhx.xyz^
 ||xlyzjs.com$third-party
