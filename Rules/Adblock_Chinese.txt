@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: zBL5C1ysWTrIo9jA2pe1LQ
+! Checksum: VzbAiXATOxl5v8yIb0cVfw
 ! Title: Aloazny Chinese fiter
-! Version: 20240723202847
+! Version: 20240724090748
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-07-23 20:28:47
-! Total Count: 38683
-! Blocked Filters: 38683
+! Last modified: 2024-07-24 09:07:48
+! Total Count: 38690
+! Blocked Filters: 38690
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>17247
+!<<<<<域名规则>>>>>17253
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|cyxse.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.360118.com|m.37zw.net|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zwdu.com
 |http://*.cn/ad/
@@ -5732,6 +5732,7 @@
 ||enthusiasticdad.com^$third-party
 ||entry.baidu.com/rp/home?
 ||entsnotesq.fun^
+||enuksg.xyz^
 ||enviousinevitable.com^
 ||enviousshape.com^$third-party
 ||enviousthread.com^$third-party
@@ -5768,6 +5769,7 @@
 ||eqwyym.com/js/dom.js$third-party
 ||er.5ykj.cn^
 ||er.5ykj.com^
+||er1h4.icu^
 ||eraaoec.cn^
 ||eraygc.xyz^
 ||ercnrxa.cn^
@@ -7750,6 +7752,7 @@
 ||ielgag.top^
 ||iemwbu.cn^
 ||iephrenhq.com^
+||ietlwso.top^
 ||ievvo.xyz^
 ||iewtwo.xyz^
 ||ieymhkx.icu^
@@ -8353,6 +8356,7 @@
 ||jdbstatic.com/ads/
 ||jdcnwd.com^
 ||jddaw.com^
+||jdfzfd.xyz^
 ||jdh74bf.com^
 ||jdipsuma.top^
 ||jdnlynb.cn^
@@ -11694,6 +11698,7 @@
 ||ppedp.cn^
 ||ppenid.xyz^
 ||ppfannypp.com^$third-party
+||pplkrh.xyz^
 ||pplnjoow.com^
 ||ppluoli.xyz^*.gif
 ||ppshk.com^*banner/
@@ -12678,6 +12683,7 @@
 ||rydzfldt.xyz^
 ||ryhkft.xyz^
 ||ryhuzj.xyz^
+||ryqgdrh.icu^
 ||ryrmvd.xyz^
 ||ryvexulg.xyz^
 ||rywnvzd.cn^
@@ -17264,7 +17270,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>13343
+!<<<<<网站单独规则>>>>>13344
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.net
@@ -19119,6 +19125,7 @@ arstechnica.com##.ad_crown
 arstechnica.com##.ad_fullwidth
 artfile.me###jadb
 article.auone.jp##.appeal__text-lower
+as-web.jp##.ASW_sp_header
 as.ro###digitalag-sticky
 asagei.com##.popular-article-side ~ div[style^="text-align"]:has(> a[href] > img[src*="images/bn/"])
 asahi.co.jp###jp_abc_sp_article_underarticle
@@ -26531,6 +26538,7 @@ olch.biz##.container_banner
 olch.biz##.pla
 ole.com.ar##article > div[class]:has(> div.lazyBanner)
 olehdtv.com##.container > div[class^="B1"]
+olehdtv.com,olevod.eu,runningmanzx.com##.guangao
 olevod.com##.A4R
 olevod.com##.B1L
 olevod.com##.B1R
@@ -26541,7 +26549,6 @@ olevod.com##.swiper-wrapper > div.swiper-slide:has(> img[src^="https://static.ol
 olevod.com##div[class^="ad"][style="margin-top: 0.05rem;"]
 olevod.com##div[style*="%;float: left;"] > a[target="_blank"]
 olevod.eu##a.wbalist_thumb[target="_blank"]
-olevod.eu,runningmanzx.com##.guangao
 olevod.tv##a[href^="https://www.yywhale.com"]
 olgame.tw##.nex_floor_banner
 olgame.tw##.nex_index_ads
@@ -30067,7 +30074,7 @@ xz7.com##div[class^="AD_"]
 xzji.com##.speed
 ya.ru##services-feed div.banner
 ya.ru,yandex.*##.DirectStripe
-ya.ru,yandex.*##div[class^="serp-list"] > div.serp-item:has(> div[data-bem*="organic"] > div[class^="Organic"] > div[class^="VanillaReact"] > a[data-event-required])
+ya.ru,yandex.*##.content__left > ul#search-result > li:has(> div.organic > div.OrganicTitle > a[href^="https://ya.ru/search/_crpd/"])
 ya.ru,yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua,yandex.*##.SearchBlock:has(> div.DirectStripe)
 ya.ru,yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua,yandex.*##div[class^="serp-list"] > div.serp-item:has(> div[data-bem*="organic"] > div.Organic-Columns > div.Organic-Column > a[href][data-event-required])
 ya.ru,yandex.kz,yandex.ru,yandex.com,yandex.fr,yandex.com.tr,yandex.ru,yandex.by,yandex.eu,yandex.net,yandex.uz,yandex.ua,yandex.*##div[class^="serp-list"] > div.serp-item:has(> div[data-bem*="organic"] > div[class^="VanillaReact"] > a[href][data-event-required])
