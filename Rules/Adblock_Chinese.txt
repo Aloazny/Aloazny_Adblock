@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: opMEAMGnSljxvwJKUnJTrA
+! Checksum: SHdnfRfW0UMpWvdbhrOhCg
 ! Title: Aloazny Chinese fiter
-! Version: 20240725090647
+! Version: 20240725202827
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-07-25 09:06:47
-! Total Count: 38712
-! Blocked Filters: 38712
+! Last modified: 2024-07-25 20:28:27
+! Total Count: 38722
+! Blocked Filters: 38722
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>17268
+!<<<<<域名规则>>>>>17272
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|cyxse.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.360118.com|m.37zw.net|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zwdu.com
 |http://*.cn/ad/
@@ -1208,6 +1208,7 @@
 ||8mhcc.top^
 ||8ovgk.online^
 ||8pjqjxmr.com^
+||8q88n.icu^
 ||8s8s.com/data/banner/
 ||8seaa.com/template/assets1/js/vue.js
 ||8suis.top^
@@ -5302,6 +5303,7 @@
 ||dripappliance.com^$third-party
 ||drive2.ru/assets/*/banner.html
 ||driverequest.com^$third-party
+||drjs123.com^
 ||drmcmm.baidu.com^
 ||drpsjp.xyz^
 ||drtyuigj.xyz^
@@ -10594,6 +10596,7 @@
 ||myqcloud.com/ad/
 ||myqcloud.com/wp-content/uploads/huoxingyun.
 ||myreadcloud.com^
+||myretux.top^
 ||mysteelcdn.com/advert/
 ||mysteelcdn.com/common/*/js/img_ad.
 ||mysteelcdn.com/common/mysteel/home/v2/js/index_image.
@@ -13057,6 +13060,8 @@
 ||sharppatch.com^$third-party
 ||shbdyx.com^
 ||shbear.com^*/ad/
+||shbzegs.cn^
+||shbzqgs.cn^
 ||sheeroop.com^
 ||shellcat.ru^$third-party
 ||shen4club.com/style/*.js?v=
@@ -14403,7 +14408,6 @@
 ||trafficjam.cn^$third-party
 ||trafficjunky.com^
 ||trafficjunky.net^
-||trafficmanager.net^
 ||trafficstars.com$third-party
 ||trafmag.com^
 ||traktum.com^
@@ -17285,7 +17289,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>13349
+!<<<<<网站单独规则>>>>>13355
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.net
@@ -20969,6 +20973,7 @@ dic.nicovideo.jp##.st-Header_Ad
 dic.pixiv.net###ad-d-sp-footer
 dic.pixiv.net###ad-d-sp-rectangle
 dic.pixiv.net###ad-d-sp-toparticle
+dic.pixiv.net###ad_sp_toparticle
 dic.pixiv.net###ad_top_touch
 dict.baidu.com##.tran-download-ad
 dict.cc##div[style="text-align:center;width:728px"]
@@ -22303,7 +22308,9 @@ gendai.media##div[style="text-align:center;color:#aaa;font-size: 12px;margin: 6p
 genius.com##.dfp_unit--interscroller
 genius.com##div[class^="InreadAd"]
 genius.com##div[class^="StickyBannerAd__Container"]
+gentosha-go.com###JP_SGO_SP_article_footer_2nd
 gentosha-go.com###ggo_280_wrapper
+gentosha-go.com###sgo_280_wrapper
 gentosha-go.com##.ad_movie_wrapper
 geo.fr##.ads-introText
 gesundheitsfrage.net,gutefrage.net##.AdSticky
@@ -24594,6 +24601,7 @@ livejournal.com##.mdspost-aside__item--banner
 livejournal.com##data-banner-place-id
 livejournal.com##div[id^="billboard_mobile_"]
 livelaw.in##.ad-popup-wrap
+livemint.com###signInPopUp
 livemint.com##.fixadheight
 livemint.com##.fixadtopadheight
 livemint.com##.inlineAds
@@ -25233,6 +25241,8 @@ m.sports.ru##.g-banner-context-wrap
 m.sports.ru##.navigation-left-banner
 m.sports.ru##.x5-header__icon-container
 m.sports.ru,m.cyber.sports.ru##.zen-adload-ad-wrapper
+m.sporx.com###haberici_300x250div
+m.sporx.com###manset > .row > div.col-xs-12[style]:has(> div[id^="taboola-"])
 m.spox.com###content > .ct > .miksfh > div[style^="min-height:"]
 m.sttgxcl1.com,m.13800100.co,m.biqubao10.com,m.7kzww7.com,m.yqd6.com,m.wenxuemi8.com,m.13txt.net,m.x999xs5.com,m.x33xs6.com,m.x520xs4.com,m.xyb3.org,m.ggdown1.com,m.biqugej.org,m.wenxue12c.com,m.yuezibaomush.org,m.654xs.com,m.biquka2.com,m.dushuge6.com,m.baiycap1.com,m.aishangba4.com,m.56559971.org,m.511wx4.com,m.book56e.com,m.qqxs77.net,m.biqubu2.com,m.sxjxsc0.org,m.justbbs0.org,m.xbiquyue1.com,m.guanshuya.net,m.chuanyue1.org,m.qjiij.xyz,m.juzixs5.com,m.ebookbao6.com,m.xlewen4.com,m.zwwx8a.com,m.ybwzx9e.com,m.qqxsnew5.com,m.zaacoo.net,m.nnxwcm.net,m.ybiquge1.com,m.175book.com,m.x81zw2.com,m.biqubu3.com,m.sxjxsc0.com,m.kuaisugg4.com,m.jcjjwx4.com,m.4vau1.com,m.xiaoshuo530c.com,m.mxfdxx2.com,m.sbooktxt.xyz,m.zwwx8b.com,m.doucehua5.com,m.diwxs1.com,m.biqupai1.com,m.zaacoo1.com,m.nnxwcm1.com,m.yuezibaomush1.com,m.1688ts4.com,m.bimilou3.com,m.ensotemple6.xyz,m.sdlchxwz8.com,m.33yqxss1.com,m.letnovel3.com,wap.kanshushi.com,m.ensotemple1.com,m.mt1985.com,m.ganqing10.com,m.xqikuaiwx3.com,m.xiumb11.com,m.bus6e.com,m.justbbs0.com,m.sndswx1.com,m.xlwxs9c.com,m.book56f.com,www.guanshuya.net,m.xxqb5200.net,m.817xs.org,m.xfanjia1.com##.look_more_a[onclick^="open_app"]
 m.stv.jp##.aInfoPanel
