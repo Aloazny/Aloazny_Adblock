@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: SHdnfRfW0UMpWvdbhrOhCg
+! Checksum: Yybk7vbAaWCgs72zEmnj2Q
 ! Title: Aloazny Chinese fiter
-! Version: 20240725202827
+! Version: 20240726090625
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-07-25 20:28:27
-! Total Count: 38722
-! Blocked Filters: 38722
+! Last modified: 2024-07-26 09:06:25
+! Total Count: 38729
+! Blocked Filters: 38729
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>17272
+!<<<<<域名规则>>>>>17277
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|cyxse.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.360118.com|m.37zw.net|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zwdu.com
 |http://*.cn/ad/
@@ -4234,6 +4234,7 @@
 ||cloudservice24.kingsoft-office-service.com/cards
 ||clovercabbage.com^$third-party
 ||clplrhum.xyz^
+||clqjyw.xyz^
 ||clrjnhxi.xyz^
 ||cls.vrvm.com^
 ||clugqa.com^
@@ -5271,6 +5272,7 @@
 ||dpj0uvy.icu^
 ||dpjzzgw.cn^
 ||dpw202501.com^
+||dpweupc.icu^
 ||dpzplb.xyz^
 ||dq06u9lt5akr2.cloudfront.net^
 ||dq95d35.com^$third-party
@@ -5422,6 +5424,7 @@
 ||dxsjcz.cn^
 ||dxwsty.cn^
 ||dxzky.love^
+||dy10000.net^
 ||dy2018.com/js/tj.js
 ||dy2018.com/js17/
 ||dy2018.com/jsdd/
@@ -8924,6 +8927,7 @@
 ||ken.kenxq.com^
 ||kengi.top^
 ||ketchapp.org^
+||ketlwsd.top^
 ||kewaishu.org/m-
 ||key8.com/cache/www/banner_
 ||keydot.net^$third-party
@@ -16094,6 +16098,7 @@
 ||xizanzhi.com^
 ||xizi.com/js/rotator.js
 ||xjappzvz.xyz^
+||xjpmlf.xyz^
 ||xjrvwz.com^
 ||xjssjc.com^
 ||xjzyhp.xyz^
@@ -17289,7 +17294,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>13355
+!<<<<<网站单独规则>>>>>13357
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.net
@@ -18034,6 +18039,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 3987.com,588230.com,pilipali.cc###hongbao
 3987.com,drv5.cn,pcsoft.com.cn,win7w.com##.gaosu
 39mag.benesse.ne.jp##.ad-inarticle-banner
+39mag.benesse.ne.jp##.cmnTopBnr
 39mag.benesse.ne.jp##div[style="min-height:600px;"]
 39yst.com##aside[class="feed_box"]
 39yst.com##div[class="xgyd_tit"]
@@ -19305,6 +19311,7 @@ azrotv.com##.adbn-wrap
 azrotv.com##div[id^="laoad_Adb"]
 azstxs-lejyoner-info.cdn.ampproject.org,fastadmin.net##body > a[target="_blank"]
 azstxs-lejyoner-info.cdn.ampproject.org,vxjbdagjdec-eviewporn-com.cdn.ampproject.org,upslut.com,gonzales-upslut-com.cdn.ampproject.org##a[href^="tel://"]
+b-para.co,blcollection.co###full-overlay
 b.best-hit.tv##.substitute-show-area-on
 b.best-hit.tv##div[style="margin-top:15px; margin-bottom:15px; text-align:center;"]
 b.faloo.com##div[class="ad_f1"]
@@ -25898,7 +25905,6 @@ moerats.com##div[style="box-shadow: 1px 1px 5px 5px rgba(17, 150, 196, 0.35);bor
 moguravr.com##.mg-ads-mobile
 molbuk.ua###copyright
 molure.cn##.adplan
-momon-ga.com###video_inst_area
 momxs.com##body > script + span
 momxs.com##div#inglestore
 monacomatin.mc,nicematin.com,varmatin.com##.RhooBg
@@ -26525,6 +26531,7 @@ nyaasokuvip.net,pokemongo-master.com##.imglink-box
 nyahentai.re##.__isboostOverlay
 nyahentai.re##div[style^="max-width: 480px;"][style*="max-height: 500px;"]
 nyahentai.re,javfan.one##div[style^="width: 300px;"][style*="height: 250px;"]
+nyahentai.re,momon-ga.com###video_inst_area
 nydailynews.com##body > #r-main > div.r-yieldmo
 nytimes.com###site-content > div[class] > div[class^="css-"][class*=" e1"][class*="pa"]
 nytimes.com##.css-p3qvdn
