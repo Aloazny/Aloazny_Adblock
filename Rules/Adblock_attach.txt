@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: Q5Npszcfd1hs4S/wZ6KlcQ
+! Checksum: R5Fhwb2Bxgd51bZ4cvq6Og
 ! Title: Aloazny attach fiter
-! Version: 20240727090524
+! Version: 20240727202803
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-07-27 09:05:24
-! Total Count: 15163
-! Blocked Filters: 15163
+! Last modified: 2024-07-27 20:28:03
+! Total Count: 15166
+! Blocked Filters: 15166
 ! Description: 合并混合规则的补充规则，轻量规则，可作为补充规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_attach.txt?ref=main
 
 
-!<<<<<域名规则>>>>>6870
+!<<<<<域名规则>>>>>6872
 |https://m.frgls.com/js/*.js?v=
 ||*ggua.xyz^$third-party
 ||000123456789.online^
@@ -2778,6 +2778,8 @@
 ||i-fk.cn^
 ||i.6v6.work^$third-party
 ||i.cidianwang.com^
+||i.gdt.qq.com^
+||i.go.sohu.com^
 ||i.hao61.net^
 ||i140.ru/js/etxm*.js|$script
 ||i7akpd1.xyz^
@@ -10157,7 +10159,7 @@ zybang.com##a[class="top-banner"]
 zybang.com##div[id="askTeacher-after-adx-wrap"]
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>1706
+!<<<<<通配符规则>>>>>1707
 $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.xyz
 &adZones$xmlhttprequest
 &ad_block=
@@ -11166,6 +11168,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 /api/LM/Report?placeUUID=$third-party
 /api/ad/*
 /api/adplogger/*
+/api/blockdata$domain=sohu.com
 /api/getPos?jspath=/videos/view//*
 /api/spots/*$domain=yomovies.*|speedostream.com|watchomovies.com|gofilms4u.pro|pornleech.io|hentaihand.com|filmlinks4u.pro|uniqueten.net|ultraten.net|topcryptoz.net|allcryptoz.net|analdin.com|supjav.com|crazyporn.xxx|hog.tv|porntry.com|love4porn.com|freeadultcomix.com|hog.mobi|sextb.net|pornpapa.com
 /api/spots/*?*=$third-party
