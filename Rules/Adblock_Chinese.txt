@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: h+7QPqCm76gQ4tLBrNhXrA
+! Checksum: MsUgB+HWgL4LmEE66lJh0w
 ! Title: Aloazny Chinese fiter
-! Version: 20240727202822
+! Version: 20240728091224
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-07-27 20:28:22
-! Total Count: 38738
-! Blocked Filters: 38738
+! Last modified: 2024-07-28 09:12:24
+! Total Count: 38749
+! Blocked Filters: 38749
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>17292
+!<<<<<域名规则>>>>>17295
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|cyxse.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.360118.com|m.37zw.net|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zwdu.com
 |http://*.cn/ad/
@@ -6042,6 +6042,7 @@
 ||fdhvczd.cn^
 ||fds-1230.cc^
 ||fdswrgg.cn^
+||fdtlfl.xyz^
 ||feakio.top^
 ||fearfowl.com^$third-party
 ||fearfulfish.com^$third-party
@@ -8255,6 +8256,7 @@
 ||iwatojc.cn^
 ||iweiweb.com^
 ||iwerioo.top^
+||iwmigu.xyz^
 ||iwwmaq.xyz^
 ||ixelrsd.cn^
 ||ixisivomer.com^
@@ -8980,7 +8982,6 @@
 ||kikinote.net/iframe
 ||killcovid2021.com/*.mp4
 ||kindhush.com^$third-party
-||kingsnug.cn/Uploads/vod/2019-05-25/5ce964f0c66e0.jpg
 ||kinhincauking.website^
 ||kinleung.cn^
 ||kiosked.com^
@@ -11481,6 +11482,7 @@
 ||pfqwbqs.cn^
 ||pftdmmc.xyz^
 ||pg-ad-b1.nosdn.127.net^
+||pgcciax.icu^
 ||pgdt.gtimg.cn/gdt/$domain=info.3g.qq.com
 ||pgdt.gtimg.cn^
 ||pgdt.ugdtimg.com^
@@ -13074,6 +13076,7 @@
 ||shbdyx.com^
 ||shbear.com^*/ad/
 ||shbzegs.cn^
+||shbzogs.cn^
 ||shbzqgs.cn^
 ||shbzqkj.cn^
 ||sheeroop.com^
@@ -17309,7 +17312,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>13350
+!<<<<<网站单独规则>>>>>13358
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.com|xiaoxintv.net
@@ -20930,6 +20933,7 @@ ddys.tv,ddys.art,ddys.*,ddrk.me,ddys.pro,ddys2.me##a[href="###"] img:not(#trk_hc
 ddys.tv,ddys.art,ddys.*,ddrk.me,ddys.pro,ddys2.me##a[href^="javascript"] img:not(#trk_hcaptcha):not([src^="https://captcha.su.baidu.com"])
 ddys.tv,ddys.art,ddys.*,ddrk.me,ddys.pro,ddys2.me##div > a[href][target="_blank"] > img
 ddys.tv,ddys.art,ddys.*,ddrk.me,ddys.pro,ddys2.me##div > span > a > img
+ddzimu.com###popup
 ddzzxs.com###inglestore.inglestore
 dealmoon.com,weibo.com##.pic_ad
 deavita.com,deavita.net,kocpc.com.tw##.single_ads
@@ -24551,7 +24555,7 @@ lgn.yy.com##.m_left
 lhjingtou.com##div[class="container static"]>img
 liantu.cn##.side > .h250
 liantu.cn##.wrapper > .inner.h90
-liaocao.tv,nicotv.me##[onclick]
+liaocao.tv##[onclick]
 liaoningmovie.net##.ad_panelAR
 liaoningmovie.net##.ads-container
 liaoningmovie.net##.list-subCont > li[style$="height: 98px;"]
@@ -26414,10 +26418,8 @@ nick20.com###body_page_sharer ~ table[width="100%"]
 nick20.com###sex + div[align="center"]
 nick20.com##table[width="702"][bgcolor="#D1DDAA"]
 nicomanga.com###listImgs > img ~ center
-nicotv.biz,nicotv.club,nicotv.me##nav + .ff-bg > .slide
 nicotv.me##.clearfix-ads
 nicotv.me##.container > div.slide[style="padding-bottom:0px"]
-nicotv.me##a[href^="http://img.kingsnug.cn/gamecenter/"]
 nicotv.me,nicotv.cc,nicotv.club##[id^="ndKg"]
 nicotv.me,nicotv.cc,nicotv.club##a[id="ff-totop"]
 nicotv.me,nicotv.cc,nicotv.club##div[id$="Navad"]
@@ -26981,6 +26983,7 @@ pkmods.com##body > div[style*="z-index"][style*="background"]
 play44.net,videobug.net,videofun.me,vidzur.com,yucache.net##[style^="position: absolute; width: 100%;"]
 playai.nu##div[style="width:100%;height:300px"]
 playallvideos.com,pron.co##.rmedia
+player.twitch.tv##.video-player__container div[class^="Layout-"]:has(> span[data-a-target="video-ad-label"])
 playground.ru##[id^="MF_Playground"][style="height: 100px;"]
 playingcards.jp###new_mobile_ad_for_gamepage
 playno1.com###frame8I822E
@@ -29005,6 +29008,13 @@ twiman.net##.mx-auto[style="max-width:623px;"]
 twiman.net##div[style="height:100px;"]
 twiman.net,hotscope.tv##div[style="height: 100px;"]
 twinsyang.net,free.com.tw###custom_html-7
+twitch.tv##a[href*="store.asus.com/rog-promo/"]
+twitch.tv##a[href="https://vk.com/bust3rshop"]
+twitch.tv##a[href^="http://ggrus.bet/"]
+twitch.tv##a[href^="https://ggbetpromo.com/"]
+twitch.tv##a[href^="https://ya.cc/"]
+twitch.tv##div[data-test-selector="channel_panel_test_selector"] > a[href^="http://bit.ly/"]
+twitch.tv##div[data-test-selector="channel_panel_test_selector"] > a[href^="https://bit.ly/"]
 twitter.com##.tweet:has(.promo)
 twitter.com##article[data-testid="tweet"]:has(path[d$="10H8.996V8h7v7z"])
 twitter.com##div[data-testid="UserCell"]:has(path[d$="10H8.996V8h7v7z"])
@@ -29315,6 +29325,7 @@ vjmedia.com.hk###author-spotlight + .clear + div
 vjmedia.com.hk###text-33
 vjmedia.com.hk##.code-block
 vk.barkov.net##.alert-danger
+vk.com,vk.ru###system_msg
 vk922.com##a[href^="/ad/"]
 vkprime.com##.jubnabtn
 vkprime.com##.overlay_main
@@ -32587,7 +32598,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 /npsblocker/js/ads.
 /nqnhfd/*.js
 /ntes-ad-cloud.
-/o.js$domain=nicotv.me|tptoon.com
+/o.js$domain=tptoon.com
 /obcdle*/fuoihgyg*.js$~third-party
 /obj/ad-app-package
 /ojborn.so?$script,third-party
