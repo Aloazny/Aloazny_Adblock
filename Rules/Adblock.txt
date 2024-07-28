@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: qiI60OI4elckob52Xz0t+Q
+! Checksum: oJ9csKfqDDS9nycYwRUBfw
 ! Title: Aloazny Mobile fiter
-! Version: 20240728091350
+! Version: 20240728202755
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-07-28 09:13:50
-! Total Count: 75397
-! Blocked Filters: 75397
+! Last modified: 2024-07-28 20:27:55
+! Total Count: 75405
+! Blocked Filters: 75405
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock.txt?ref=main
 
 
-!<<<<<域名规则>>>>>28313
+!<<<<<域名规则>>>>>28320
 |http$third-party,script,domain=kinotut.tv
 |http*://$image,third-party,domain=rmdown.com
 |http*://$script,third-party,domain=stream2watch.org,badfilter
@@ -1729,6 +1729,7 @@
 ||5lfgdju.com^
 ||5mcwl.pw^$third-party
 ||5mgrgsc.cn^
+||5mltq.icu^
 ||5mm.zxfw5.cn^
 ||5nj.com/js/cnzz22.js
 ||5nj.com/js/cnzz33.js
@@ -9901,6 +9902,7 @@
 ||eepw.com.cn/event/action/rightbd/microchip*.js
 ||eepw.com.cn/pub/js/TopFullScreen.js
 ||eers0cy.com^
+||eetlwsw.top^
 ||eexlgyn.cn^
 ||eeyy.cc/style/yxj.js
 ||eeyy.com/otherhtml/js/ad650.js
@@ -14077,6 +14079,7 @@
 ||iwarship.net/wowsdb/static/img/banner.png
 ||iwatojc.cn^
 ||iweiweb.com^
+||iwerilxo.top^
 ||iwerioo.top^
 ||iwmigu.xyz^
 ||iwwmaq.xyz^
@@ -14854,6 +14857,7 @@
 ||kahgjjd.com^
 ||kaiguangdou.com^
 ||kairuxinxi.xyz^$third-party
+||kaishq.top^
 ||kaixin001.com.cn/js/cpm-
 ||kaizzz.xyz^
 ||kak17p.xyz^
@@ -17949,6 +17953,7 @@
 ||nmntgd.cn^
 ||nmrdnqn.cn^
 ||nmssdbgmf.xyz^
+||nmxxvr.xyz^
 ||nndzsw.com^
 ||nndzsw1.com^
 ||nnfalf.xyz^
@@ -21813,8 +21818,10 @@
 ||shawmediahomes.com^$domain=mywebtimes.com
 ||shbdyx.com^
 ||shbear.com^*/ad/
+||shbzdkj.cn^
 ||shbzegs.cn^
 ||shbzogs.cn^
+||shbzokj.cn^
 ||shbzqgs.cn^
 ||shbzqkj.cn^
 ||sheee.co.il/js/walla.js
@@ -28330,7 +28337,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>34848
+!<<<<<网站单独规则>>>>>34849
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe.com,badfilter
 $image,third-party,denyallow=cdn77.org|fpbns.net|others-cdn.com|rncdn7.com|sb-cd.com|stream.highwebmedia.com|upsiloncdn.net|xvideos-cdn.com|youjizz.com|ypncdn.com,domain=pussyspace.com|pussyspace.net
@@ -40478,7 +40485,7 @@ gaming-age.com,freecoursesite.uk###ai_widget-7
 gaming-age.com,infotelematico.com,thumb8.net,hindian.net,bestjoblive.com,geekermag.com###ai_widget-3
 gaming-city.com##.m-top-banner
 gaming-city.com##.mobile-footer-ad
-gaming.co.ua,pingvin.pro##body > div[id][class][style*="z-index"][style*="9999"],body > div[id][class][style*="z-index"][style*="9999"] + div[class][style*="z-index"][style*="9999"]
+gaming.co.ua##body > div[id][class][style*="z-index"][style*="9999"],body > div[id][class][style*="z-index"][style*="9999"] + div[class][style*="z-index"][style*="9999"]
 gamingbible.com##div[class^="advert-"]
 gamingbible.com,ladbible.com,sportbible.com,tyla.com,unilad.com#$#body > div[id].margin-Advert { display: block !important; }
 gamingbolt.com##.small-ad
@@ -54571,7 +54578,7 @@ safeframe.googlesyndication.com##.left-container
 safeku.com##+js(window.open-defuser, passeura)
 safelink.asia#$##seosecretidnadblock { display: none !important; }
 safelinking.net##div[class$="innerB"][style="margin-top: 20px;"]
-safestream.cc,javmix.tv,hentai2read.com,sxyprn.com,xmoviesforyou.com,fapfappy.com,jav.direct,mangaraw.vip,syosetu.*,telorku.xyz,kissjav.li,lovingsiren.com,mesex.pro,tojav.net,vlxyz.tv,xanimeporn.com##+js(abort-current-script, WebAssembly, atob)
+safestream.cc,javmix.tv,hentai2read.com,sxyprn.com,xmoviesforyou.com,fapfappy.com,jav.direct,mangaraw.vip,syosetu.*,telorku.xyz,kissjav.li,lovingsiren.com,mesex.pro,vlxyz.tv,xanimeporn.com##+js(abort-current-script, WebAssembly, atob)
 safetydetectives.com###best_deals_widget
 safetydetectives.com##.coupons-list
 safetydetectives.com##.main-popup
@@ -58575,6 +58582,7 @@ today.line.me##div[id^="ad-module-"]
 todayifoundout.com#?##sidebar > aside.widget:has(> div.textwidget > script[src*="exponential.com/"])
 todaysnews.live#$##container > #leftCol.shadow { min-height: 0!important; visibility:hidden!important; }
 tofight.ru###cf-bg
+tojav.net##+js(abort-current-script, onload, puHref)
 tokfm.pl###banP104_DFP
 tokfm.pl,avanti24.pl,gazeta.pl,wyborcza.biz,wyborcza.pl,wysokieobcasy.pl##body .adviewDFPBanner:not(#style_important)
 tokopedia.com##.success .ta-inventory[id^="promo"][ad_url]

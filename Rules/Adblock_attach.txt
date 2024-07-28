@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 61ENNkp7YgKviVtPUU1mbQ
+! Checksum: oidBZmSMwdl6o5wL2miKNw
 ! Title: Aloazny attach fiter
-! Version: 20240728091205
+! Version: 20240728202611
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-07-28 09:12:05
-! Total Count: 15175
-! Blocked Filters: 15175
+! Last modified: 2024-07-28 20:26:11
+! Total Count: 15179
+! Blocked Filters: 15179
 ! Description: 合并混合规则的补充规则，轻量规则，可作为补充规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_attach.txt?ref=main
 
 
-!<<<<<域名规则>>>>>6872
+!<<<<<域名规则>>>>>6876
 |https://m.frgls.com/js/*.js?v=
 ||*ggua.xyz^$third-party
 ||000123456789.online^
@@ -2156,6 +2156,7 @@
 ||floweryoperation.com^$third-party
 ||flsfzr.cn^
 ||fluentfixing.com^
+||fmkipgm.icu^
 ||fmre1.com^
 ||fnfhjka.xyz^
 ||fngcgbl.icu^
@@ -2505,6 +2506,7 @@
 ||hadesleta.com^
 ||haejkmm.cn^
 ||haffo70.com^
+||hahusa.top^
 ||haihongzg.com^
 ||hailfi.top^
 ||haili-spitzer.com^
@@ -3174,6 +3176,7 @@
 ||kahgjjd.com^
 ||kaiguangdou.com^
 ||kairuxinxi.xyz^$third-party
+||kaishq.top^
 ||kanwby.com^
 ||kaosts.com^
 ||kart2ks.icu^
@@ -4209,6 +4212,7 @@
 ||pflrv.cn^
 ||pfqwbqs.cn^
 ||pftdmmc.xyz^
+||pgcciax.icu^
 ||pgdt.ugdtimg.com^
 ||pgght17.com^
 ||pglstatp-toutiao.com^
@@ -7851,7 +7855,7 @@ gamcore.com##[class*="adn-"]
 game2.baifumeiba.com###gotoPlay
 game2day.ru##div[class^="adblock_"]
 gamesubject.com###headb
-gaming.co.ua,pingvin.pro##body > div[id][class][style*="z-index"][style*="9999"],body > div[id][class][style*="z-index"][style*="9999"] + div[class][style*="z-index"][style*="9999"]
+gaming.co.ua##body > div[id][class][style*="z-index"][style*="9999"],body > div[id][class][style*="z-index"][style*="9999"] + div[class][style*="z-index"][style*="9999"]
 ganji.com##a[class="comn-segm btmbr"]
 ganji.com##div[data-widget="app/zp/page/milan/detail_page.js#listenRecommendTarget"]
 ganoderma-mushrooms.com,korrektor.name,varicream.org###turn_advert.adblock
