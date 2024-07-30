@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: +PIOtD0PKOVjEa9vqoaMSQ
+! Checksum: NpUHMLF3GqPyOas3uvZbOQ
 ! Title: Aloazny Chinese fiter
-! Version: 20240729202919
+! Version: 20240730090712
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-07-29 20:29:19
-! Total Count: 38762
-! Blocked Filters: 38762
+! Last modified: 2024-07-30 09:07:12
+! Total Count: 38770
+! Blocked Filters: 38770
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>17312
+!<<<<<域名规则>>>>>17319
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|cyxse.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.360118.com|m.37zw.net|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zwdu.com
 |http://*.cn/ad/
@@ -3641,6 +3641,7 @@
 ||bxbyll.xyz^
 ||bxjhlhk.xyz^
 ||bxlmrl.xyz^
+||bxmazls.icu^
 ||bxnxdlb.xyz^
 ||bxoaeju.icu^
 ||bxw666.com/storage/*.gif
@@ -6958,6 +6959,7 @@
 ||guqu.net/Cooperate/
 ||gushi.network^
 ||guwohvw.icu^
+||guyhok.xyz^
 ||guysfair.com^
 ||guzsjdl.cn^
 ||gvbhae0.com^
@@ -7482,6 +7484,7 @@
 ||houseads.ttpsdk.info^
 ||houstonbbs.com/data/ad/
 ||houyi.baofeng.net^*.html
+||hov15.icu^
 ||hoxdotye.icu^
 ||hozatr.xyz^
 ||hpcwwd.com^
@@ -8772,6 +8775,7 @@
 ||jvpyxve.cn^
 ||jwddpvu.cn^
 ||jweoe.xyz^
+||jwerilxa.top^
 ||jwerioa.top^
 ||jwfesuk.cn^
 ||jwhdgt.icu^
@@ -10980,6 +10984,7 @@
 ||nxledn.xyz^
 ||nxnjw.com^
 ||nxtxxcm.xyz^
+||nxxkxr.xyz^
 ||nxxyjn.com^
 ||nyaa.*/static/js/ccheck.js
 ||nyaasokuvip.net/wp-content/uploads/*/ad_manga_
@@ -12266,6 +12271,7 @@
 ||qvnbjjd.xyz^
 ||qvonje.cn^
 ||qvrfddm.cn^
+||qvxtzi.xyz^
 ||qvxvvjom.com^
 ||qw2v.taoxiehui.cn^
 ||qw9cu.cyou^
@@ -16189,6 +16195,7 @@
 ||xmywlyh.cn^
 ||xn--*.xn--fiqs8s:
 ||xn--*.xn--fiqs8s^$~third-party
+||xn----7sbbeeptbfadjdvm5ab9bqj.xn--p1ai/wp-content/uploads/*/rek_*.png
 ||xn--1qwynp09f.net^
 ||xn--2qu92fhtxsxexqab.xn--fiqs8s^
 ||xn--2qu96gouvko1a.com^
@@ -17329,7 +17336,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>13354
+!<<<<<网站单独规则>>>>>13355
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.com|xiaoxintv.net
@@ -18813,7 +18820,6 @@ adme.media##div[data-test-id="articles-list"] > div:not([data-test-id^="article-
 admin.rainbow-online.ru,gitjournal.tech,logist.uxxo.ru,meteoservice.ru,pawno-info.ru##body > div[id]:not([class])[style="display: block;"]
 admin5.com##.float_both_index
 admin5.com##.notice
-adrama.to###container > div[style*="margin-right: 2px;"][style*="width: 300px;"]
 adultfilmdatabase.com,animeidhentai.com,babeforums.org,bos.so,camvideos.tv,camwhores.tv,cutscenes.net,devporn.net,f95zone.to,fritchy.com,gifsauce.com,hentai2read.com,hotpornfile.org,hpjav.com,imagebam.com,imgbox.com,imgtaxi.com,motherless.com,myporn.club,pandamovies.pw,planetsuzy.org,pussyspace.com,redgifs.com,sendvid.com,sexgalaxy.net,sextvx.com,sexuria.com,thefappeningblog.com,vintage-erotica-forum.com,vipergirls.to,waxtube.com,xfantazy.com,yeapornpls.com##a[href*="theporndude.com"]
 aeahsck.cc##.stui-vodlist  > li:has(> div.stui-vodlist__box > a[href][target="_blank"])
 aeink.com##.widget_ui_adsf
@@ -26669,6 +26675,7 @@ op.gg##.adTd
 op.gg##.content > div[class^="css-"]:has(> div > div.vm-placement)
 op.gg##.gtag-ad
 op.gg##div:not([class]) > div[class^="css-"]:has(> div > div.vm-placement)
+op.gg##div[class^="css-"] > div[class^="css-"]:has(> div > div.vm-placement)
 op.gg##td:has(> div[class^="css-"] > div[id^="div-gpt-ad-"])
 opdown.com##.cq-recom
 opdown.com##.gxxz-btn
@@ -30084,6 +30091,7 @@ xmkanshu.com##[class="TopDBg"]
 xmkanshu.com##[id*="download"]
 xmkanshu.com##[id="oAR"]
 xn--*.*/ins/js/*16$third-party,script
+xn----7sbbeeptbfadjdvm5ab9bqj.xn--p1ai##.amp_widget_below_the_header
 xn--6frva992v.avwc22.com,xn--7dvrl.6luan.tv,hs.taokong4.com,avwc.tv,www.dym05.cc:2008,xn--i8sw4gbv7cqbl.avwc542.top,zhixiang021.com##.m1938-container
 xn--gmq92kd2rm1kx34a.com###sp-widget
 xn--h-k9tybb8g5ivhkczry701afhpm4sru6d.net##.toppr300
