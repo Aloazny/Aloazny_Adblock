@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: PVcIGpeuA8cTqLOR0amdng
+! Checksum: QBXBnNv0olz6krUAmb6w1A
 ! Title: Aloazny attach fiter
-! Version: 20240730202827
+! Version: 20240731085552
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-07-30 20:28:27
-! Total Count: 15178
-! Blocked Filters: 15178
+! Last modified: 2024-07-31 08:55:52
+! Total Count: 15182
+! Blocked Filters: 15182
 ! Description: 合并混合规则的补充规则，轻量规则，可作为补充规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_attach.txt?ref=main
 
 
-!<<<<<域名规则>>>>>6876
+!<<<<<域名规则>>>>>6877
 |https://m.frgls.com/js/*.js?v=
 ||*ggua.xyz^$third-party
 ||000123456789.online^
@@ -1096,6 +1096,7 @@
 ||bvsfv6.com^
 ||bvvb9.com^
 ||bw5388.vip^
+||bw72227.cc^
 ||bwdhuanbao.com^
 ||bxackzj.icu^
 ||bxwccii.cn^
@@ -11881,7 +11882,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 zle.com$script
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>3063
+!<<<<<通用Css规则>>>>>3066
 ###ADbox
 ###AdBlockDialog
 ###AdBox2
@@ -14028,6 +14029,7 @@ zle.com$script
 ##a[data-track-content][data-content-name][target="_blank"]
 ##a[href$=".html?c=adha8"][target="_blank"]
 ##a[href$=".vip"][target="_blank"][class] > span
+##a[href$="/?blue"][target="_blank"] > img[src$=".gif"]
 ##a[href*="&Ad_ID="]
 ##a[href*="&campaignType=smartpop&creativeId"]
 ##a[href*=".biquge"][href*="app"]
@@ -14046,6 +14048,7 @@ zle.com$script
 ##a[href*=".html?channelCode="]
 ##a[href*=".icu/?token="][target="_blank"]
 ##a[href*=".lvdou.life/"][target="_blank"]
+##a[href*=".magsrv.com/"]
 ##a[href*=".top"] > img[src]
 ##a[href*=".top:"][target="_blank"][class] > span
 ##a[href*=".vip:"] > img[src]
@@ -14171,6 +14174,7 @@ zle.com$script
 ##a[href="賢者同盟"][target="_blank"]
 ##a[href] > img[alt][src^="/static/resources/lp.php"]
 ##a[href][rel="nofollow"] > img.nature
+##a[href][rel="noreferrer"] > img[src$=".gif.js"]
 ##a[href][style*="overflow:hidden;display:block;"] > img[src$=".gif"][style*="width:100%"]
 ##a[href][target="_blank"] > img[alt][src^="/static/resources/old/images/AD/"]
 ##a[href][target="_blank"] > img[id*="GGADIMG"]
