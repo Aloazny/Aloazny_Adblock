@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: poQiCkKrmZ4lde6jsaZQUw
+! Checksum: sQaedWGkvJvB9MHsmU1vXA
 ! Title: Aloazny Chinese fiter
-! Version: 20240801091308
+! Version: 20240801202903
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-08-01 09:13:08
-! Total Count: 38800
-! Blocked Filters: 38800
+! Last modified: 2024-08-01 20:29:03
+! Total Count: 38801
+! Blocked Filters: 38801
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -17356,7 +17356,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>13359
+!<<<<<网站单独规则>>>>>13360
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.com|xiaoxintv.net
@@ -29066,6 +29066,7 @@ twitter.com##div[data-testid="eventHero"]:has(path[d$="10H8.996V8h7v7z"])
 twitter.com##div[data-testid="placementTracking"]:has(div[data-testid$="-impression-pixel"])
 twitter.com##div[data-testid="trend"]:has(path[d$="10H8.996V8h7v7z"])
 twittrend.jp,0matome.com##.ad_sp
+twivideo.net##div[style="margin-top:-25px; margin-bottom:-35px;"]
 twoucan.com###app_advertise_top_space
 twoucan.com##.twoucan-ad
 twoucan.com##.twoucan-footer-ad
