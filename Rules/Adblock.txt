@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: QzsrWl8GkX9K1572wyGp5w
+! Checksum: /FprRCB36apNnP3cjVgidQ
 ! Title: Aloazny Mobile fiter
-! Version: 20240803202807
+! Version: 20240804091350
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-08-03 20:28:07
-! Total Count: 75608
-! Blocked Filters: 75608
+! Last modified: 2024-08-04 09:13:50
+! Total Count: 75613
+! Blocked Filters: 75613
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock.txt?ref=main
 
 
-!<<<<<域名规则>>>>>28389
+!<<<<<域名规则>>>>>28395
 |http$third-party,script,domain=kinotut.tv
 |http*://$image,third-party,domain=rmdown.com
 |http*://$script,third-party,domain=stream2watch.org,badfilter
@@ -9311,6 +9311,7 @@
 ||douban.com^*/fm_bgad.js
 ||doubanio.com/view/photo/l/public/p2891976611.
 ||doubanio.com^*/js/ad.
+||doubanio.top^
 ||doubleclick.ctfile.com^
 ||doubleclick.net^
 ||doublepimpads.com^$third-party
@@ -10333,6 +10334,7 @@
 ||eyusky.net/weixin-img/zhifubao.jpg
 ||eyuwkbw.top^
 ||eyuyao.com/yyad/
+||eyyngo.xyz^
 ||eyyqwd.icu^
 ||ezacci.xyz^
 ||ezbit.co.in/*0|$subdocument
@@ -15686,6 +15688,7 @@
 ||lestv10.icu^
 ||lestv7.icu^
 ||letemsvetemapplem.eu/*/alzafeed_cached_js.php
+||letlwsl.top^
 ||letmejerk.com/*.php|
 ||lettucecopper.com^$third-party
 ||lettucelimit.com^$third-party
@@ -24447,6 +24450,7 @@
 ||twdjn.cn^
 ||tweetycoin.com^$domain=1ink.cc
 ||tweezesmalanga.com^
+||twerilxi.top^
 ||twerioi.top^
 ||twgzgqqu.com^
 ||twincdn.com/special^$third-party
@@ -24526,6 +24530,7 @@
 ||tzlit.cn^
 ||tznizrhd.xyz^
 ||tzwaw.pw^$third-party
+||tzyzlow.cn^
 ||u-ad.info^
 ||u.ctrip.com/showcaseadvertisementsit/
 ||u.gg/affiliate/amazon/*.jpg
@@ -26691,6 +26696,7 @@
 ||xlca666.site^
 ||xldxphtg.xyz^
 ||xlgvlvbc.xyz^
+||xlhdicw.top^
 ||xliffnsc.xyz^
 ||xlivrdr.com^
 ||xlkdbbvy.xyz^
@@ -63373,7 +63379,7 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 zzzyk.com###Tinfo
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>3307
+!<<<<<通配符规则>>>>>3306
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe.com,badfilter
 $image,third-party,denyallow=cdn77.org|fpbns.net|others-cdn.com|rncdn7.com|sb-cd.com|stream.highwebmedia.com|upsiloncdn.net|xvideos-cdn.com|youjizz.com|ypncdn.com,domain=pussyspace.com|pussyspace.net
@@ -65860,7 +65866,6 @@ $xmlhttprequest,third-party,denyallow=authkong.com|rsc.cdn77.org|linkvertise.com
 /plugins_ads_
 /plus/ad_
 /pm_ads/*
-/pmc-adm-v2/build/setup-ads.js$domain=bgr.com|deadline.com|rollingstone.com
 /poker-ad.
 /poki-ads.
 /poll-ad-

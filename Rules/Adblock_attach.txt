@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: wsoddI+kQfjCYk+s0D6ffA
+! Checksum: QE4NRdDM3nif//YWlX4wEg
 ! Title: Aloazny attach fiter
-! Version: 20240803202621
+! Version: 20240804091203
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-08-03 20:26:21
-! Total Count: 15217
-! Blocked Filters: 15217
+! Last modified: 2024-08-04 09:12:03
+! Total Count: 15219
+! Blocked Filters: 15219
 ! Description: 合并混合规则的补充规则，轻量规则，可作为补充规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_attach.txt?ref=main
 
 
-!<<<<<域名规则>>>>>6879
+!<<<<<域名规则>>>>>6881
 |https://m.frgls.com/js/*.js?v=
 ||*ggua.xyz^$third-party
 ||000123456789.online^
@@ -1753,6 +1753,7 @@
 ||doorbrazil.com^$third-party
 ||dorangesource.alicdn.com^
 ||dosre12.xyz^
+||doubanio.top^
 ||doubleclick.net^
 ||doubleverify.com^$third-party
 ||doubtfulrainstorm.com^$third-party
@@ -6351,6 +6352,7 @@
 ||xkqit.com^
 ||xkzjq.cn^
 ||xlardaxq.com^
+||xlhdicw.top^
 ||xlivrdr.com^
 ||xlog.jd.com^
 ||xlviirdr.com^
