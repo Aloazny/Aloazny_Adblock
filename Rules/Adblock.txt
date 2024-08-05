@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: LlvPoIqIbnw+8/M0Dhg9Cg
+! Checksum: Sz4FBTacipr2xgGb5LA8PQ
 ! Title: Aloazny Mobile fiter
-! Version: 20240804202750
+! Version: 20240805091033
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-08-04 20:27:50
+! Last modified: 2024-08-05 09:10:33
 ! Total Count: 75613
 ! Blocked Filters: 75613
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
@@ -45436,7 +45436,7 @@ kbjfree.com##+js(set-constant, Object.prototype.adblockDetected, false)
 kbjfree.com##.video-card[target="_blank"]
 kbjfree.com##iframe[src^="//slave.kbjfree.com/"]
 kbjrecord.com##div[style^="position:fixed;inset:0px"]
-kc.linksgen.com,kisscartoon.se,kimcartoon.li,kissorg.net,kissasian.*##+js(abort-current-script, $, divContentVideo)
+kc.linksgen.com,kisscartoon.se,kimcartoon.li,kissorg.net,kissasian.*##+js(abort-current-script, $, /divContentVideo(?![\s\S]*\.src)/)
 kc.linksgen.com,kisscartoon.se,kimcartoon.li,kissorg.net,kissasian.*##+js(abort-current-script, setTimeout, /i.*\..*i.*m.*g.*u.*r.*\..*c.*o.*m/)
 kc.linksgen.com,kisscartoon.se,kimcartoon.li,kissorg.net,kissasian.*##+js(no-fetch-if, bidgear.com/pubbidgear-ad.js)
 kc.linksgen.com,kisscartoon.se,kimcartoon.li,kissorg.net,kissasian.*##+js(no-xhr-if, /mgid\.com|pagead2\.googlesyndication\.com|\/ads\/advert/)
