@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 8wKsNTT3oZRk883Xr/41Dg
+! Checksum: 65g8JyPjccZPFDTJnAqURw
 ! Title: Aloazny Chinese fiter
-! Version: 20240805203003
+! Version: 20240806090725
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-08-05 20:30:03
-! Total Count: 38864
-! Blocked Filters: 38864
+! Last modified: 2024-08-06 09:07:25
+! Total Count: 38874
+! Blocked Filters: 38874
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>17353
+!<<<<<域名规则>>>>>17360
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|cyxse.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.360118.com|m.37zw.net|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zwdu.com
 |http://*.cn/ad/
@@ -2939,6 +2939,7 @@
 ||baijs02.shop^
 ||baijs02.xyz^
 ||baijs03.xyz^
+||baijs04.shop^
 ||baijs05.xyz^
 ||baijs06.xyz^
 ||baijs07.xyz^
@@ -5246,6 +5247,7 @@
 ||doujs02.xyz^
 ||doujs03.shop^
 ||doujs03.xyz^
+||doujs04.shop^
 ||doujs05.xyz^
 ||doujs06.xyz^
 ||doujs07.xyz^
@@ -7199,7 +7201,6 @@
 ||hdfdsdaw.com^
 ||hdipsumu.top^
 ||hdjthzg.cn^
-||hdmoli.com/static/js/pop_promotion.js
 ||hdmp4.cc/js/foot.js
 ||hdoshbu.top^
 ||hdpdrandpd.xyz^
@@ -9232,6 +9233,7 @@
 ||kwongwah.com.my/wp-content/plugins/dibs_engine/js/dibs_popup.js
 ||kwqnki.xyz^
 ||kwtgntyu.xyz^
+||kwumme.xyz^
 ||kxcdn.com^$xmlhttprequest
 ||kxcp365.com^
 ||kxd56.com/qq.js
@@ -10188,6 +10190,7 @@
 ||mfaec.cn^
 ||mfav88.com/yinzi/
 ||mfe.paqpq.com^
+||mfemiac.icu^
 ||mflybplr.xyz^
 ||mfnfylx.xyz^
 ||mfoevvy.com^
@@ -12006,6 +12009,7 @@
 ||qdwnlkdw.com^
 ||qdzilh.cn^
 ||qdzyspjx.com^
+||qedgcxi.cn^
 ||qedvcu.com^
 ||qeedaa.xyz^
 ||qejjhnq.cn^
@@ -15035,6 +15039,7 @@
 ||uvklgw.xyz^
 ||uvnjlm.cn^
 ||uvpqrydt.xyz^
+||uvyuqzx.cn^
 ||uwadakest.cyou^
 ||uwants.com/dfp_forum.php?au=Uwants_Web_
 ||uwants.com^*_prod.html
@@ -15406,6 +15411,7 @@
 ||w.anmeihe.cn^
 ||w.bnlg.fun^
 ||w.xiaopiaoyou.com^
+||w0054.com^
 ||w0057.com^
 ||w0079.com^
 ||w0082.com^
@@ -16199,6 +16205,7 @@
 ||xliffnsc.xyz^
 ||xlivrdr.com^
 ||xlkdbbvy.xyz^
+||xlmdtiyqbkygtfkh.com^
 ||xlnvvbk.xyz^
 ||xlog.jd.com^
 ||xlplrhum.xyz^
@@ -17370,7 +17377,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>13403
+!<<<<<网站单独规则>>>>>13405
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.com|xiaoxintv.net
@@ -22918,7 +22925,9 @@ hcbbs.com###framemI4t76
 hcbbs.com###framerG6o99_left
 hcbbs.com###fwin_dialog
 hcbbs.com###portal_block_2652
+hcbbs.com###portal_block_3441
 hcbbs.com##.a_cn_pb
+hcbbs.com##a[href*="&adid="]
 hcbbs.com##table[width="100%"][bordercolor="#CCCCCC"]
 hcbbs.com,isiyuan.net##.ke-zeroborder
 hclips.com##.rek
@@ -22936,7 +22945,6 @@ hdblog.it,hdmotori.it##.banner_news_bottom_box
 hdblog.it,hdmotori.it##.banner_news_top_box
 hdchina.org##.sitead
 hdmoli.com##a[href][target="_blank"] > img[id*="_banner"]
-hdmoli.com,sm.cn###index_banner
 hdmotori.it###skin_mobile
 hdmotori.it##div[style^="margin:"][style*="height: 90px;background:"]
 hdmotori.it,hdblog.it##div[style^="margin:"][style*="height: 610px;background:"]
@@ -23279,6 +23287,7 @@ huya.com###huya-ab
 huya.com###huya-ab-fixed
 huya.com###template
 huya.com##.ab-content
+huya.com##.ab-wrap
 huya.com##.component-ab
 huya.com##.end-ab-banner
 huya.com##.end-ab-wrap
@@ -27735,7 +27744,6 @@ ruwest.ru##.banner-mobile
 ruyo.net##.textwidget a > img
 ryukyushimpo.jp##.sp-ad-srv
 ryukyushimpo.jp##div[id*="sp_article_"][style*="min-height: 280px;"]
-ryusoku.com###embed-bottom-iframe
 ryutsuu.biz##.sp-new-post-advertisement
 ryutsuu.biz##.sp-top-contents-advertisement
 s-max.jp,2chblog.jp,blog.jp,blog.livedoor.jp,bloggeek.jp,blogism.jp,blogo.jp,blogstation.jp,blogto.jp,cafeblog.jp,corpblog.jp,diary.to,doorblog.jp,dreamlog.jp,gger.jp,golog.jp,koriyama2shin.com,ldblog.jp,liblo.jp,livedoor.biz,livedoor.blog,myjournal.jp,mynikki.jp,officeblog.jp,officialblog.jp,publog.jp,storeblog.jp,teamblog.jp,techblog.jp,weblog.to,xxxblog.jp,youblog.jp##.plugin-ad
@@ -28069,6 +28077,7 @@ slivap.ru##.svg-adblock
 slope-media.jp,chisou-media.jp##.c-ad--overlay
 sm.cn###download-uc
 sm.cn###download-uc-v2
+sm.cn###index_banner
 sm.cn###index_haodongxi
 sm.cn###index_hot_news
 sm.cn###sc + .article.ali_row
@@ -33410,7 +33419,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 zle.com$script
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>3980
+!<<<<<通用Css规则>>>>>3981
 ###ADbox
 ###ADtip
 ###AdBlockDialog
@@ -36471,6 +36480,7 @@ zle.com$script
 ##a[href="https://sk83k.com"][target="_blank"]
 ##a[href="https://ttzzz11.com"]
 ##a[href="https://ttzzz22.com"]
+##a[href="https://yk63.me"]
 ##a[href="javascript:;"][onclick^="iwjfewufewekjr"]
 ##a[href="javascript:GoGd();"]
 ##a[href="javascript:GoTp();"]
