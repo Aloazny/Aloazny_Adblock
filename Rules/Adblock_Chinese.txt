@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 65g8JyPjccZPFDTJnAqURw
+! Checksum: hl+stZXbQYErTY3mSyV00Q
 ! Title: Aloazny Chinese fiter
-! Version: 20240806090725
+! Version: 20240806202917
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-08-06 09:07:25
-! Total Count: 38874
-! Blocked Filters: 38874
+! Last modified: 2024-08-06 20:29:17
+! Total Count: 38879
+! Blocked Filters: 38879
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -17377,7 +17377,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>13405
+!<<<<<网站单独规则>>>>>13409
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.com|xiaoxintv.net
@@ -18625,7 +18625,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 85wp.com##.top-ad-img
 8666.tv,jy3y.com,lhjingtou.com,448p.com,shell-yn.com,gzzwrh.com,208s.com,25ys.net,suiyikan.tv##div[class^="bs92421"]+div
 8684.cn,8684.com##div[id*="adid"]
-8684.cn,8684.com,iyxdm.net,kugou.com,solarzoom.com,www.iyxdm.net,yesky.com##div[class^="adv"]
+8684.cn,8684.com,iyxdm.org,kugou.com,solarzoom.com,www.iyxdm.net,yesky.com##div[class^="adv"]
 880sy.com##.foot_gg
 880sy.com##.fot_btom
 88448.com###ad_forum_banner
@@ -21545,7 +21545,7 @@ electric-house.ru##.blok_forum > div[style]
 element-plus.gitee.io##.sidebar > .page-content
 element-plus.gitee.io##.toc-content > .m-t-16px
 element-plus.gitee.io##aside > .page-content
-element-plus.org##.page-content-main-a
+element-plus.org##.page-content-main-b
 element-plus.org##.toc-content > div[style="margin-top:16px;"]
 element-plus.org##aside > .page-content-main
 elespanol.com###homeMobileAdvertising2
@@ -24355,6 +24355,7 @@ kdnet.net##.c_spread
 kdnet.net##a[href*=".tmall.com/?spm="] > img
 kdocs.cn##.business-list-wrap
 kdslife.com###ad_swip
+kdslife.com###mainRightTopAd
 kdslife.com###tao
 kdslife.com###youhui
 kdslife.com##[class*="DownloadGuide"]
@@ -28469,6 +28470,7 @@ ssr.tools,zhujiwiki.com##.asb-post-footer
 sstv.pw##.container > a > img[style="width: 100%;"]
 ssyy.ee##.container > a[target="_blank"] > img
 st.benesse.ne.jp###div-M_UP_bnr_320x50
+st.benesse.ne.jp##.text_c
 stalkerportaal.ru##.video_adsense
 starbaby.cn###top_ad_show
 starbaby.cn###yindex_ads
@@ -28543,6 +28545,7 @@ sunshinewaay.cn##img[class$="BnImg"]
 suopao.org##.t5[style^="margin-top:8px;"]
 suopao.org##.tr3.t_one[onmouseout]
 supercloudsms.com##.container > a[id]
+supercloudsms.com##.container > div > a[id]
 superlife.ca##.sidebar-ad-zone
 superluchas.com###AbovePostPlacementWrapper
 superluchas.com##.custom-html
@@ -28901,6 +28904,7 @@ tmall.com###J_Recommend
 tmioe.com##.__single_0
 tmioe.com##.ad_single_0
 tmioe.com##.entry-copyright
+tmioe.com##.singlegg
 tmioe.com##a[target="_blank"] > img[src*=".sinaimg.cn"]
 tnaflix.com##.bannerBlock
 tnaflix.com##.rbsd
@@ -33419,7 +33423,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 zle.com$script
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>3981
+!<<<<<通用Css规则>>>>>3982
 ###ADbox
 ###ADtip
 ###AdBlockDialog
@@ -33843,6 +33847,7 @@ zle.com$script
 ###inPlayerGGzone + [data-content-type="result"]
 ###index-ad
 ###index_aside_ad
+###index_banner[src*=".meituan.net"]
 ###index_content_ad
 ###j-new-ad
 ###js-ad-map
