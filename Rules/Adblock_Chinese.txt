@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: VxSdlYRu3vSKDfhlkVaRrA
+! Checksum: k+eTGMuO8IH6np9jq95b4A
 ! Title: Aloazny Chinese fiter
-! Version: 20240807090813
+! Version: 20240807203104
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-08-07 09:08:13
-! Total Count: 38912
-! Blocked Filters: 38912
+! Last modified: 2024-08-07 20:31:04
+! Total Count: 38916
+! Blocked Filters: 38916
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>17370
+!<<<<<域名规则>>>>>17372
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|cyxse.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.360118.com|m.37zw.net|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zwdu.com
 |http://*.cn/ad/
@@ -3668,6 +3668,7 @@
 ||byretuv.top^
 ||byscy.cn^$third-party
 ||bytegoofy.com/goofy/*/push.js?
+||bytmfj.xyz^
 ||bytravel.cn/images/cus/
 ||bytravel.cn/images/t/usa_250_120.gif
 ||bytravel.cn/js/ad_
@@ -9909,6 +9910,7 @@
 ||m.wantemachine.com.cn^
 ||m.wxrw123.com/style/js/feimobile.js
 ||m.wxrw123.com/style/js/tongji.js
+||m.xianqihaotianmi.org/4ENSM9hu/*.js
 ||m.xiaoxiangxs.com/public/js/zepto-
 ||m.xs26.com/wap.js
 ||m.xylmdm.top^
@@ -17387,7 +17389,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>13422
+!<<<<<网站单独规则>>>>>13424
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.com|xiaoxintv.net
@@ -17602,6 +17604,8 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 115.com##li#js_common_act-enter
 116.ru,m.14.ru,m.154.ru,m.161.ru,m.164.ru,m.178.ru,m.26.ru,m.29.ru,m.35.ru,m.42.ru,m.43.ru,m.45.ru,m.48.ru,m.51.ru,m.53.ru,m.56.ru,m.59.ru,m.60.ru,m.62.ru,m.63.ru,m.68.ru,m.70.ru,m.71.ru,m.72.ru,m.74.ru,m.76.ru,m.86.ru,m.89.ru,m.93.ru,m.ekat.ru,m.irkutsk.ru,m.kbs.ru,m.mgorsk.ru,m.omsk1.ru,m.proizhevsk.ru,m.provoronezh.ru,m.sochi1.ru,m.sterlitamak1.ru,m.tolyatty.ru,m.ufa1.ru,m.v1.ru##.advscroll_mobile
 116.ru,m.14.ru,m.154.ru,m.161.ru,m.164.ru,m.178.ru,m.26.ru,m.29.ru,m.35.ru,m.42.ru,m.43.ru,m.45.ru,m.48.ru,m.51.ru,m.53.ru,m.56.ru,m.59.ru,m.60.ru,m.62.ru,m.63.ru,m.68.ru,m.70.ru,m.71.ru,m.72.ru,m.74.ru,m.76.ru,m.86.ru,m.89.ru,m.93.ru,m.ekat.ru,m.irkutsk.ru,m.kbs.ru,m.mgorsk.ru,m.omsk1.ru,m.proizhevsk.ru,m.provoronezh.ru,m.sochi1.ru,m.sterlitamak1.ru,m.tolyatty.ru,m.ufa1.ru,m.v1.ru##.s240x400
+11880.com##body .search-result-list-item--topad
+11880.com,prinz.de,stylight.de,cleverdialer.de##.h5-sticky-ad
 11fzw.com##.index-top-ad
 11fzw.com##a[href*="go.php?url="][target="_blank"] > img[src]
 120ask.com##.b_right > div[style]
@@ -22052,6 +22056,7 @@ footboom.com##.js_fix_bk_head
 forbes.com##.ad-unit
 forbes.com##.incontent-placeholder-row
 forbes.com##.mobile-sticky-ed-placeholder
+forbes.ru##.JkVE-
 foreca.com##.a1i32s5g
 formel1.de,m.formel1.de##.b-top-container
 fortune.com###content div[class$=" simple"]
@@ -27296,7 +27301,6 @@ price.com.hk###ad0
 price.com.hk###ad5
 primamedia.ru###default-page-no-padding > div.col-md-4.noprint
 primamedia.ru##.photorep_mobdirect
-prinz.de,stylight.de,cleverdialer.de##.h5-sticky-ad
 privatehomeclips.com##.video__wrapper > section[style="display: flex;"]
 privatter.net##.dropdown-ads
 pro-personal.ru,26-2.ru,kom-dir.ru,gd.ru,hr-director.ru,gkh.ru,gazeta-unp.ru##.adfox__inpage
@@ -29270,7 +29274,7 @@ unikoshardware.com##.elementor-image > a[href^="https://bit.ly/"]
 unikoshardware.com##.elementor-popup-modal
 unikoshardware.com##.elementor-widget-sidebar a[href^="https://bit.ly/"]
 unikoshardware.com##.theiaStickySidebar a[href^="https://bit.ly/"]
-uniladtech.com,gamingbible.com,sportbible.com,unilad.com,ladbible.com##div[class^="article-observer_bottomAd"]
+uniladtech.com,gamingbible.com,sportbible.com,unilad.com,ladbible.com##div[class*="-observer_bottomAd"]
 universfreebox.com###megaban-head-moneytag
 universfreebox.com###pave-ad-mobile-in-article
 universfreebox.com###taboola-mobile-below-article-thumbnails
