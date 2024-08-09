@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: jEbrEiaieC4nHnxCekdyaA
+! Checksum: emTCtoiyaiYSO6puaIfZwg
 ! Title: Aloazny attach fiter
-! Version: 20240808202905
+! Version: 20240809090830
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-08-08 20:29:05
-! Total Count: 15242
-! Blocked Filters: 15242
+! Last modified: 2024-08-09 09:08:30
+! Total Count: 15243
+! Blocked Filters: 15243
 ! Description: 合并混合规则的补充规则，轻量规则，可作为补充规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -11928,7 +11928,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 zle.com$script
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>3074
+!<<<<<通用Css规则>>>>>3076
 ###ADbox
 ###AdBlockDialog
 ###AdBox2
@@ -13961,6 +13961,8 @@ zle.com$script
 ##[id^="player-advertising"]
 ##[id^="post-card"] > .blog-background[style*="data:image/gif"]
 ##[id^="post-card"] > .blog-background[style*="data:image/png"]
+##[id^="post-card"] > .blog-background[style^="background-image:"][style*=".gif"]
+##[id^="post-card"] > .blog-background[style^="background-image:"][style*=".png"]
 ##[id^="section-ad-banner"]
 ##[id^="syad"]
 ##[id^="tonglanad_"]
@@ -15005,7 +15007,7 @@ zle.com$script
 ~xxgxw.com##div[id^="C"][style*="height:"][class^="C"]
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>263
+!<<<<<放行白名单>>>>>262
 #@##adblocktest
 18-comic.work,18-comicblade.art,18-comicblade.club,18-comicblade.org,18-comicblade.xyz,18-comicfreedom.org,18-comicfreedom.xyz,18-comicstellar.art,18-comicstellar.xyz,18comic-erdtree.xyz,18comic.org,18comic.vip,jm-comic1.cc,jm-comic2.cc,jmcomic.me,jmcomic1.city,jmcomic1.group,jmcomic1.me,jmcomic1.win,jmcomic2.me#@#.col-lg-3.col-xs-6 > .well
 18-comic.work,18-comicblade.art,18-comicblade.org,18-comicblade.xyz,18-comicfreedom.org,18-comicfreedom.xyz,18-comicstellar.art,18comic.org,18comic.vip,jm-comic1.cc,jm-comic2.cc,jmcomic.me,jmcomic1.city,jmcomic1.group,jmcomic1.me,jmcomic1.win,jmcomic2.me#@#img[alt][src^="/static/resources/"]
@@ -15214,7 +15216,6 @@ baidu.com#@#.ad-wrapper
 baidu.com#@#[class$="-ad"]
 baidu.com#@#div[class*="ads"]
 bdsmlr.com#@#.ads-container
-bing.com#@#div#sacs_win
 colamanhua.com,colamanga.com#@#.ADFooter
 colamanhua.com,colamanga.com#@#.ADInfo
 colamanhua.com,colamanga.com#@#.ADLeader
