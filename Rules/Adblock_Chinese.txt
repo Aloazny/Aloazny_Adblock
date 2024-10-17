@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: HvdohCCKyv8GoO9Qmxji5g
+! Checksum: Rb44pbqxG8eqgHHdzTZA0w
 ! Title: Aloazny Chinese fiter
-! Version: 20241016203304
+! Version: 20241017091547
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-10-16 20:33:04
-! Total Count: 40781
-! Blocked Filters: 40781
+! Last modified: 2024-10-17 09:15:47
+! Total Count: 40790
+! Blocked Filters: 40790
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>18097
+!<<<<<域名规则>>>>>18106
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|cyxse.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.360118.com|m.37zw.net|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zwdu.com
 |http://*.cn/ad/
@@ -1563,6 +1563,7 @@
 ||abdluv.xyz^
 ||abds.pingpingw.com^
 ||abenshishabi.com^
+||abixkw.xyz^
 ||abjalrq.cn^
 ||abjectattempt.com^$third-party
 ||ablsrv.com^
@@ -4155,6 +4156,7 @@
 ||cgbswl.icu^
 ||cgczuu.xyz^
 ||cgdyw.net/xx/
+||cggyyi.xyz^
 ||cgidskif.top^
 ||cgigc.com.cn^
 ||cgmalight.com^
@@ -6097,6 +6099,7 @@
 ||etlanaberez.fun^
 ||etnet.com.hk/ad/
 ||etregh.fun^
+||etroytj33.fun^
 ||etrvfx.xyz^
 ||ettoday.net/ad/*_action.js
 ||ettoday.net/banners/
@@ -8472,6 +8475,7 @@
 ||ioswhi.com^
 ||iot-eu-logser.realme.com^
 ||iot-logser.realme.com^
+||ioykmxa.icu^
 ||ip.sb/assets/images/*_ads.
 ||ip.tianqiapi.com^
 ||ip.ws.126.net^
@@ -9645,6 +9649,7 @@
 ||kunyun*.com/xiwang/fumeiti.js
 ||kunzhang.name^
 ||kuoizbtl.xyz^
+||kuresdd.top^
 ||kusuriyasan.org^$image,third-party
 ||kuxfznnf.xyz^
 ||kuxkddg.cn^
@@ -12548,6 +12553,7 @@
 ||qdipsumy.top^
 ||qdjimo.com/html/js/
 ||qdlzj.cn^
+||qdoeki.xyz^
 ||qdoshby.top^
 ||qdp.qidian.com^
 ||qdross.com/vip/
@@ -14208,6 +14214,7 @@
 ||ssl.linyiccic.com^
 ||ssl.qhres2.com/ssl/
 ||sslbahb.top^
+||sslir.icu^
 ||ssnn.net^*-200-250.jpg
 ||ssnnn.net^
 ||ssp-ad.momento.dev^
@@ -14845,6 +14852,7 @@
 ||threrlak.com^
 ||throattrees.com^$third-party
 ||thruudrad.com^
+||thrzbf.xyz^
 ||thumbor.4gamers.com.tw/*/*ads-media*.png
 ||thumbor.prod.vidiocdn.com/*/uploads/section/background_image/*/rejoice-vidio-drakor-gratis-*.jpg
 ||thunderingrose.com^$third-party
@@ -16449,6 +16457,7 @@
 ||wtiaw.top^
 ||wtienle.top^
 ||wtraff.com^
+||wtroytj33.fun^
 ||wttuuyd.cn^
 ||wtyusie.top^
 ||wubizigeng.com^
