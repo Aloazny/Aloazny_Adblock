@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: Vfk+G+aHy9oD6fSIXSO6yg
+! Checksum: neNrP+N4PehNvpIGh3zx7A
 ! Title: Aloazny Chinese fiter
-! Version: 20241018091556
+! Version: 20241018203222
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-10-18 09:15:56
-! Total Count: 40809
-! Blocked Filters: 40809
+! Last modified: 2024-10-18 20:32:22
+! Total Count: 40818
+! Blocked Filters: 40818
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>18120
+!<<<<<域名规则>>>>>18125
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|cyxse.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.360118.com|m.37zw.net|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zwdu.com
 |http://*.cn/ad/
@@ -10648,6 +10648,8 @@
 ||merwds.qwuidbn.com^$third-party
 ||meryt111.fun^
 ||merywf.xyz^
+||mesh.if.iqiyi.com/portal/lw/search/$removeparam=ad
+||mesh.if.iqiyi.com/portal/lw/search/$removeparam=adExt
 ||messagenovice.com^$third-party
 ||messyoranges.com^$third-party
 ||mestrip.com/widgets/
@@ -15985,6 +15987,7 @@
 ||voc.com.cn/adsClick/
 ||voc.com.cn/js/xc/
 ||voc.com.cn/static/web/js/creattwo11.js
+||vod-mplayer.sooplive.co.kr^
 ||voicelessvein.com^$third-party
 ||voicevegetable.com^$third-party
 ||vokmhydy.xyz^
@@ -16486,6 +16489,7 @@
 ||wuliao.jingyanben.com^
 ||wuliao.juqingba.cn^
 ||wuplexv.cn^
+||wuresde.top^
 ||wushangzeichuan.xin^
 ||wutsldsk.xyz^
 ||wuxingruoyin.top/public/*/plugins/
@@ -17562,6 +17566,7 @@
 ||ytoeyxz.icu^
 ||ytqeavc.icu^
 ||ytqlyw.xyz^
+||ytroytj33.fun^
 ||ytse*.top/Static/Home/GongGao/img/
 ||ytvrtrya.xyz^
 ||ytvwhbejc.com^
@@ -18137,7 +18142,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>13853
+!<<<<<网站单独规则>>>>>13857
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.one|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.com|xiaoxintv.net
@@ -24822,6 +24827,7 @@ ithardware.pl##div[style="width:100%;margin-top:10px;margin-bottom:10px;height:1
 itheat.com##.hot_ad
 ithome.com###con > div[style="text-align:center"]
 ithome.com###hd_float1
+ithome.com##.-hongbao-container
 ithome.com##.bx-recom2
 ithome.com##.con-recom
 ithome.com##.indexV2 > div > a
@@ -26582,6 +26588,8 @@ manhuadb.com##.d-flex.px-2
 manhuagui.com##.gg_728
 manhuagui.com##.gg_950
 manhuagui.com##.w250 > .mt10[style="width: 300px; height: 250px;"]
+manhuagui.com##body > div[class]:has(.sitemaji_banner)
+manhuagui.com##div[class]:has(> .adsbyexoclick)
 manikyres.ru##div[class^="prma-position-fixed"]
 manmanw.net##.tlads
 mannenzaken.nl##.r89-mobile-rectangle-infinite
@@ -30530,6 +30538,7 @@ volksstimme.de###ad-top-banner-s-mobile
 vologda-poisk.ru##.back-bnr-mobile
 vologda-poisk.ru##.brn--m-up1
 vorsprung-online.de##.article-content .adsbygoogle
+voyeurhit.com##.video-page__wrapper > div[class]:has(> div[class] > a[href^="https://clickadilla.com/"])
 voyeurhit.tube##.video-page__wrapper > div:not([class^="video"])
 vp.rambler.ru##.eagleplayer-advertisement-remain-time
 vpsdx.cn,vpsdx.com##.span4 > a > img
