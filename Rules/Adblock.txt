@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 02DVI+X7s+Ct1eaUDKQLTw
+! Checksum: 1q6N5AnOS/Tb6tKyrd07OQ
 ! Title: Aloazny Mobile fiter
-! Version: 20241020092328
+! Version: 20241020203248
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-10-20 09:23:28
-! Total Count: 78086
-! Blocked Filters: 78086
+! Last modified: 2024-10-20 20:32:48
+! Total Count: 78091
+! Blocked Filters: 78091
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock.txt?ref=main
 
 
-!<<<<<域名规则>>>>>29329
+!<<<<<域名规则>>>>>29333
 |http$third-party,script,domain=kinotut.tv
 |http*://$image,third-party,domain=rmdown.com
 |http*://$script,third-party,domain=stream2watch.org,badfilter
@@ -2504,6 +2504,7 @@
 ||999xx999kk.com^
 ||999zz333zz.com^
 ||99danji.com/kchtml/
+||99jinpin.com^
 ||99kubo.tv/static/img/adsfree.png
 ||99lb.net/index_files/*/970
 ||99meiju.tv/js/tj.js
@@ -4895,6 +4896,7 @@
 ||atnnf.xyz^
 ||ato.tooopen.com^
 ||atool.org/res/ads/
+||atorks.xyz^
 ||att.ydss.cn/attachments/portal/
 ||attendancereporterwren.com^$~third-party
 ||atti.com^
@@ -19059,6 +19061,7 @@
 ||ouo.io/js/webpush.ma.js
 ||ouo.press/js/*.js?
 ||ouplc.icu^
+||ouresdk.top^
 ||ourtown.toledoparent.com^
 ||ourtown.westportjournal.com^
 ||ourusababy.com/bsj.js
@@ -23933,6 +23936,7 @@
 ||syr66.com.cn^
 ||syri.net/marketing/a.php?
 ||syseen.com/content/uploadfile/*/hongbao.png
+||syshwc.xyz^
 ||sysin.org/img/promotion-
 ||systemizecoat.com^$third-party
 ||sytclsb.cyou^
@@ -29346,7 +29350,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>35823
+!<<<<<网站单独规则>>>>>35824
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe.com,badfilter
 $image,third-party,denyallow=cdn77.org|fpbns.net|others-cdn.com|rncdn7.com|sb-cd.com|stream.highwebmedia.com|upsiloncdn.net|xvideos-cdn.com|youjizz.com|ypncdn.com,domain=pussyspace.com|pussyspace.net
@@ -57017,6 +57021,7 @@ sifted.eu,revolvy.com##div[id^="ad_slot_"]
 signs.pl##div[id^="adibadi"]
 sigure.tw##.Ads-Sidebar
 sigure.tw##.reds
+siguyy.tv##[style^="position: fixed;"]
 siguyy.tv##^script:has-text(data:)
 siikomik.com,questloops.com,pawastreams.info,repack-games.com,fumettologica.it,imwmi.com,the-scorpions.com,ftuapps.io,wikibuff.com,ftuapps.dev,gorecenter.com,lumpiastudio.com,bdix.app,isekaitube.com,lacittadisalerno.it,tutsnode.org,diznr.com,fairyhorn.cc,gadgetguideonline.com,mentourpilot.com,acdriftingpro.com,dcounter.space,m3uiptv.com,tutsnode.com,hulnews.top,shramikcard.in,ebookbb.in,territorioleal.com,lilymanga.net,nakiny.com,freeiptvplayer.com,7daystodiemods.com,avitter.net,truyentranhfull.net,kargotakiptr.com,netchimp.co.uk,javhdvideo.org,nemumemo.com,phodoi.vn,savingsomegreen.com,toramemoblog.com,gameost.net,oceanofcompressed.xyz,crackedresource.com,peppe8o.com,audiotruyenfull.com,sarkarilist.org,daemon-hentai.com,bi-girl.net,jpopsingles.eu,usanewstoday.club,earnme.club,tipblogg.com,ticonsiglio.com,lazytranslations.com,tutsnode.net,freecoursesonline.me,kpopjjang.com,topnewreview.com,skincarie.com,astro.qc.ca,7review.com,financerites.in,kiktu.com,techcyan.com,animehunch.com,ifreemagazines.com,lilymanga.com,softfully.com,supertipz.com,celeb.nude.com,luckystudio4u.com,shineads.in,unceleb.com,bajeczki.org,rimworldbase.com,doctorrouter.ru,theinsaneapp.com,azad.co,theupspot.com,freemagazines.top,iproductkeys.com,miauscan.com,thenewzealandtimes.com,trytutorial.com,spytm.com,dev2qa.com,chineseanime.co.in,waves4you.com,qzlyrics.com,freshersnow.com,apkmodhub.in,uberkasta.pl,marugujarat.in,prajwaldesai.com,mobilanyheter.net,audiotools.pro,apkmb.com,flinsetyadi.com,populistpress.com,starwarsnews.it,programmiedovetrovarli.it,gamingdeputy.com,forex-lab.xyz,fabiofood.com,puspas.com.np,almanilan.com,exbulletin.com,magesypro.com,magesy.blog,tinhocdongthap.com,thecustomrom.com,keralatelecom.info,techkaran.co.in,courseunity.com,webdeyazilim.com,freeiphone.fr,sysnettechsolutions.com,dafontfree.io,ebookmela.co.in,freevstplugins.net,fifaultimateteam.it,tgsup.group,scubidu.eu,gamingsym.in,gkpb.com.br,ilifehacks.com,frkn64modding.com,parzibyte.me,googledrivelinks.com,world4.eu,ubuntudde.com,mettablog.com,secondlifetranslations.com,charbelnemnom.com,lowkeytech.com,gcertificationcourse.com,game-owl.com,javnow.net,pasend.*,therootdroid.com,fantasyfootballgeek.co.uk,threezly.com,safemodapk.com,truyenbanquyen.com,veganinja.hu,studydhaba.com,c4ddownload.com,blisseyhusband.in,goblinsguide.com,gerardopandolfi.com,asklaftananlamazinhindi.com,solotrend.net,nsw2u.*,alphagames4u.com,courses4u.info,fcportables.com,nawalakarsa.id##[style*="cursor:"][style*="user-select: none;"][style*="z-index:"]
 siivous.fi,zipextractor.app###cm
