@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 4nU8icpwf5IOaVVX4WeiNA
+! Checksum: iybhj/95fpj8uH0TLqUxlw
 ! Title: Aloazny Chinese fiter
-! Version: 20241019203036
+! Version: 20241020092159
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-10-19 20:30:36
-! Total Count: 40835
-! Blocked Filters: 40835
+! Last modified: 2024-10-20 09:21:59
+! Total Count: 40843
+! Blocked Filters: 40843
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>18140
+!<<<<<域名规则>>>>>18148
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|cyxse.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.360118.com|m.37zw.net|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zwdu.com
 |http://*.cn/ad/
@@ -8080,6 +8080,7 @@
 ||iadsdk.apple.com^
 ||iaindu.cn^
 ||iaiqk.top^
+||iairuo.xyz^
 ||iam.datasavannah.com^
 ||ianyshare.xyz^
 ||iaosua.com^
@@ -9266,6 +9267,7 @@
 ||jyuskb.cn^
 ||jyuwkba.top^
 ||jyvith.xyz^
+||jyxzrb.xyz^
 ||jz4u1.icu^
 ||jz5u.com/public/js/t$script
 ||jz5u.com/public/new/
@@ -9766,6 +9768,7 @@
 ||lajevt.xyz^
 ||lakefish.xyz^
 ||lakjdskls.zhdchb.com^
+||lalabaos1020.top^
 ||lalaping.com^
 ||laljjn.xyz^
 ||lamao.life^$~third-party
@@ -10585,6 +10588,7 @@
 ||mdmuky.xyz^
 ||mdoshbx.top^
 ||mdqhyxe.cn^
+||mdqikg.xyz^
 ||mdqpkdne.xyz^
 ||mdsahkln.xyz^
 ||mdt.qq.com^
@@ -11255,6 +11259,7 @@
 ||ndqcz0e.xyz^
 ||ndthdte125.shop^
 ||ndthdtr586.shop^
+||ndysxhs.icu^
 ||nearbyad.com^
 ||neatshade.com^$third-party
 ||nebulacrescent.com^$third-party
@@ -11818,6 +11823,7 @@
 ||ougannike.com^
 ||oumnxiek.top^
 ||oumobook.com/click
+||ouplc.icu^
 ||ourusababy.com/bsj.js
 ||outbrain.com^
 ||outbrain.com^$domain=wenxuecity.com
@@ -14485,6 +14491,7 @@
 ||suspendseed.com^$third-party
 ||suy5x8.com^
 ||suzoqz.icu^
+||sv2fo.icu^
 ||svarub.xyz^
 ||svdpgmt.cn^
 ||svhdbmp.cn^
@@ -15710,6 +15717,7 @@
 ||uunrkj.com^$~third-party
 ||uuoizbtl.xyz^
 ||uuoozz.com/L7QQ.js
+||uuresdt.top^
 ||uusjaq.top^
 ||uutytp.com^
 ||uuuutp.com^
@@ -37678,8 +37686,6 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##DIV[style*='height: 33.25px; top:'][style*='background-size: 400px 133px !important;']
 ##DIV[style*='px; bottom: 0px; left: 0px; animation: 1.5s ease 0.2s infinite normal none running shakegwegs; z-index:']
 ##DIV[style*='px; top: 0px; left: 0px; z-index: '][style*='http']
-##DIV[style=" max-width:990px; margin:0 auto;"] > A > IMG[height="120px"]
-##DIV[style=" max-width:990px; margin:0 auto;"] > A > IMG[height="60px"]
 ##DIV[style='background-color: rgb(249, 249, 249); display: flex; align-items: center; justify-content: center;']
 ##DIV[style='clear: both; position: relative; width: 396px; height: 130px;']
 ##DIV[style='position: absolute; inset: 0px; background: rgba(0, 0, 0, 0);']
@@ -38845,6 +38851,8 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##div[style*="box-shadow: rgb(136, 136, 136) 0px 0px 12px; color: "]
 ##div[style*="jczunp.xyz"]
 ##div[style*="line-height"][style*="100vw"][style*="0px"][style*="/"][style*="background: url"][style$="no-repeat; position: relative;"]
+##div[style=" max-width:990px; margin:0 auto;"] > a > img[height="120px"]
+##div[style=" max-width:990px; margin:0 auto;"] > a > img[height="60px"]
 ##div[style="display: flex;flex-wrap: wrap;margin-right: 5px;margin-left: 5px;"] + style + .container
 ##div[style="display: flex;flex-wrap: wrap;margin:5px;"] > div[class="photo-two"]
 ##div[style="display:none;"] + script + #container.container

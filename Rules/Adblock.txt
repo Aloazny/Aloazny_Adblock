@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: NJAMzDdwb2ZhwRpqtsFyXg
+! Checksum: 02DVI+X7s+Ct1eaUDKQLTw
 ! Title: Aloazny Mobile fiter
-! Version: 20241019203205
+! Version: 20241020092328
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-10-19 20:32:05
-! Total Count: 78078
-! Blocked Filters: 78078
+! Last modified: 2024-10-20 09:23:28
+! Total Count: 78086
+! Blocked Filters: 78086
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock.txt?ref=main
 
 
-!<<<<<域名规则>>>>>29321
+!<<<<<域名规则>>>>>29329
 |http$third-party,script,domain=kinotut.tv
 |http*://$image,third-party,domain=rmdown.com
 |http*://$script,third-party,domain=stream2watch.org,badfilter
@@ -13622,6 +13622,7 @@
 ||iadsdk.apple.com^
 ||iaindu.cn^
 ||iaiqk.top^
+||iairuo.xyz^
 ||iam.datasavannah.com^
 ||iamcdn.net/players/jwplayer/*/plugins/vast.js$domain=kingphim.net
 ||iamcdn.net/players/playhydraxs.min.js
@@ -15267,6 +15268,7 @@
 ||jyuskb.cn^
 ||jyuwkba.top^
 ||jyvith.xyz^
+||jyxzrb.xyz^
 ||jz4u1.icu^
 ||jz5u.com/public/js/t$script
 ||jz5u.com/public/new/
@@ -15921,6 +15923,7 @@
 ||lajevt.xyz^
 ||lakefish.xyz^
 ||lakjdskls.zhdchb.com^
+||lalabaos1020.top^
 ||lalala.geenstijl.nl^
 ||lalaping.com^
 ||laleggepertutti.it/wp-content/themes/llpt-child/images/banner/
@@ -17160,6 +17163,7 @@
 ||mdmuky.xyz^
 ||mdoshbx.top^
 ||mdqhyxe.cn^
+||mdqikg.xyz^
 ||mdqpkdne.xyz^
 ||mds.nipa.co.th^$third-party
 ||mdsahkln.xyz^
@@ -18194,6 +18198,7 @@
 ||ndqcz0e.xyz^
 ||ndthdte125.shop^
 ||ndthdtr586.shop^
+||ndysxhs.icu^
 ||nearbyad.com^
 ||neatshade.com^$third-party
 ||nebulacrescent.com^$third-party
@@ -19053,6 +19058,7 @@
 ||ouo.io/js/adv
 ||ouo.io/js/webpush.ma.js
 ||ouo.press/js/*.js?
+||ouplc.icu^
 ||ourtown.toledoparent.com^
 ||ourtown.westportjournal.com^
 ||ourusababy.com/bsj.js
@@ -23799,6 +23805,7 @@
 ||suzihaza.com^$badfilter
 ||suzoqz.icu^
 ||sv1.cdend.com//*/*.mp4$domain=movies-store.com|movie2uhd.com
+||sv2fo.icu^
 ||sv6.aomg5bzv7.com^
 ||svarub.xyz^
 ||svdpgmt.cn^
@@ -25712,6 +25719,7 @@
 ||uunrkj.com^$~third-party
 ||uuoizbtl.xyz^
 ||uuoozz.com/L7QQ.js
+||uuresdt.top^
 ||uusjaq.top^
 ||uutytp.com^
 ||uuuutp.com^
@@ -71728,8 +71736,6 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##DIV[style*='height: 33.25px; top:'][style*='background-size: 400px 133px !important;']
 ##DIV[style*='px; bottom: 0px; left: 0px; animation: 1.5s ease 0.2s infinite normal none running shakegwegs; z-index:']
 ##DIV[style*='px; top: 0px; left: 0px; z-index: '][style*='http']
-##DIV[style=" max-width:990px; margin:0 auto;"] > A > IMG[height="120px"]
-##DIV[style=" max-width:990px; margin:0 auto;"] > A > IMG[height="60px"]
 ##DIV[style='background-color: rgb(249, 249, 249); display: flex; align-items: center; justify-content: center;']
 ##DIV[style='clear: both; position: relative; width: 396px; height: 130px;']
 ##DIV[style='position: absolute; inset: 0px; background: rgba(0, 0, 0, 0);']
@@ -72924,6 +72930,8 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##div[style*="box-shadow: rgb(136, 136, 136) 0px 0px 12px; color: "]
 ##div[style*="jczunp.xyz"]
 ##div[style*="line-height"][style*="100vw"][style*="0px"][style*="/"][style*="background: url"][style$="no-repeat; position: relative;"]
+##div[style=" max-width:990px; margin:0 auto;"] > a > img[height="120px"]
+##div[style=" max-width:990px; margin:0 auto;"] > a > img[height="60px"]
 ##div[style="display: flex;flex-wrap: wrap;margin-right: 5px;margin-left: 5px;"] + style + .container
 ##div[style="display: flex;flex-wrap: wrap;margin:5px;"] > div[class="photo-two"]
 ##div[style="display:none;"] + script + #container.container
