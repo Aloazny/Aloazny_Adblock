@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 1q6N5AnOS/Tb6tKyrd07OQ
+! Checksum: GZkCZp2a5UjDPe/lxn/0NQ
 ! Title: Aloazny Mobile fiter
-! Version: 20241020203248
+! Version: 20241021091912
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-10-20 20:32:48
-! Total Count: 78091
-! Blocked Filters: 78091
+! Last modified: 2024-10-21 09:19:12
+! Total Count: 78102
+! Blocked Filters: 78102
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock.txt?ref=main
 
 
-!<<<<<域名规则>>>>>29333
+!<<<<<域名规则>>>>>29341
 |http$third-party,script,domain=kinotut.tv
 |http*://$image,third-party,domain=rmdown.com
 |http*://$script,third-party,domain=stream2watch.org,badfilter
@@ -12295,6 +12295,7 @@
 ||gplinks.in/sw.js
 ||gpmzkg.xyz^
 ||gpone.com/cdn-cgi/apps/head/*.js
+||gpowow.xyz^
 ||gpqkeq.xyz^
 ||gpt.tubetruck.com^
 ||gpxxbyf.cn^
@@ -12510,6 +12511,7 @@
 ||gwg51.com^
 ||gwivqo.xyz^
 ||gwmrb.cn^
+||gwogrgq.icu^
 ||gwrpceo.cn^
 ||gwrtdp-tn690BFAdt.tclclouds.com^
 ||gx.miskalsbending.com^
@@ -14861,6 +14863,7 @@
 ||jixiangxianbao.cn^$~third-party
 ||jixmlx.xyz^
 ||jiyingdm.com/js/loadingshow.html
+||jizxnr.xyz^
 ||jizz.us/loco/
 ||jizzberry.com/assets/f_load.js
 ||jizzberry.com/static/js/initsite.min.js
@@ -15926,6 +15929,7 @@
 ||lakefish.xyz^
 ||lakjdskls.zhdchb.com^
 ||lalabaos1020.top^
+||lalabaos1021.top^
 ||lalala.geenstijl.nl^
 ||lalaping.com^
 ||laleggepertutti.it/wp-content/themes/llpt-child/images/banner/
@@ -16652,6 +16656,7 @@
 ||luolitang.com^$third-party
 ||luoyangjinmeii.com^
 ||lupon.media^
+||luresdl.top^
 ||luronews.com^
 ||luscious.net/lamia
 ||luscious.net/static/tools.js
@@ -17833,6 +17838,7 @@
 ||msg.video.qiyi.com^
 ||msioi.steeelm.xyz^
 ||msite.baidu.com^
+||msmcoa.xyz^
 ||msn.com/spartan/*&externalContentProvider=*promo
 ||msn.com/spartan/*&externalContentProvider=spon
 ||msn.com/spartan/dhp/*/ecpajax/*&externalContentProvider=
@@ -25487,6 +25493,7 @@
 ||umphek.com^
 ||umrstfl.cn^
 ||umtpopxcsedc.cdnvideo*.com$third-party
+||umwcyw.xyz^
 ||umyrn.xyz^
 ||un-acs.youku.com^
 ||un.ginnleunshift.com^
@@ -25737,6 +25744,7 @@
 ||uvklgw.xyz^
 ||uvnjlm.cn^
 ||uvpqrydt.xyz^
+||uvwnkmf.icu^
 ||uvyuqzx.cn^
 ||uw.festyorpins.com^
 ||uwadakest.cyou^
@@ -29350,7 +29358,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>35824
+!<<<<<网站单独规则>>>>>35825
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe.com,badfilter
 $image,third-party,denyallow=cdn77.org|fpbns.net|others-cdn.com|rncdn7.com|sb-cd.com|stream.highwebmedia.com|upsiloncdn.net|xvideos-cdn.com|youjizz.com|ypncdn.com,domain=pussyspace.com|pussyspace.net
@@ -32794,6 +32802,7 @@ app.axenthost.com,genshinimpactcalculator.com##+js(set-constant, nitroAds.loaded
 app.famitsu.com###gam_sp_header_banner_1
 app.famitsu.com###gam_sp_post_content_after_2
 app.famitsu.com##.ad-agency-area
+app.famitsu.com##.fc-contents-wrapper
 app.famitsu.com##.js-ad-video-overwrapper
 app.handelsblatt.com##.vhb-ad-article-fullsize
 app.handelsblatt.com##div[class^="vhb-cls-"]
@@ -65177,7 +65186,7 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 zzzyk.com###Tinfo
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>3449
+!<<<<<通配符规则>>>>>3450
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe.com,badfilter
 $image,third-party,denyallow=cdn77.org|fpbns.net|others-cdn.com|rncdn7.com|sb-cd.com|stream.highwebmedia.com|upsiloncdn.net|xvideos-cdn.com|youjizz.com|ypncdn.com,domain=pussyspace.com|pussyspace.net
@@ -66162,6 +66171,7 @@ $xmlhttprequest,third-party,domain=swiftload.io
 .xyz:*/cc/*?is_not=$third-party
 .xyz:*/cc/*?is_not=$~third-party
 .xyz:*/d/*?t=
+.xyz:*/js/*?x=$third-party
 .xyz:*/mnrt/*.json
 .xyz:*/waga*.html$~third-party
 .xyz:30009/d/*?t=
@@ -73428,7 +73438,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ~xxgxw.com##div[id^="C"][style*="height:"][class^="C"]
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>4689
+!<<<<<放行白名单>>>>>4690
 #@##adblocktest
 #@#.ADV320_50_100
 #@#.ad-box
@@ -77829,6 +77839,7 @@ nonfungerbils.com,pulsembed.eu,station-drivers.com#@#iframe[width="600"][height=
 novinky.cz,super.cz,zive.cz#@#+js(abort-current-script, String.fromCharCode)
 ntunhs.edu.tw,ntust.edu.tw,sjsmitaa.org#@#.module-ads
 numberempire.com#@##perm_ad
+nuvid.com#@#script:not([src]) + style + div[id]:not([class]):not([style])
 nybooks.com#@#.top-ad-wrapper
 nypost.com#@#.recirc
 nyteknik.se#@##ad-content
