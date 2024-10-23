@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 01Uf/+xRZuG1wwPXBWl7Bw
+! Checksum: Q70Hg7zEw9OlBQ8CKCLokQ
 ! Title: Aloazny Chinese fiter
-! Version: 20241023091530
+! Version: 20241023203309
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-10-23 09:15:30
-! Total Count: 40924
-! Blocked Filters: 40924
+! Last modified: 2024-10-23 20:33:09
+! Total Count: 40934
+! Blocked Filters: 40934
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>18197
+!<<<<<域名规则>>>>>18201
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|cyxse.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.360118.com|m.37zw.net|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zwdu.com
 |http://*.cn/ad/
@@ -4837,6 +4837,7 @@
 ||cvgrszkg.xyz^
 ||cvk.supklik.com^
 ||cvmjf.xyz^$third-party
+||cvmuia.xyz^
 ||cvnxetmq.xyz^
 ||cvsheil.com^
 ||cvtbdap.xyz^
@@ -8509,6 +8510,7 @@
 ||ioswhi.com^
 ||iot-eu-logser.realme.com^
 ||iot-logser.realme.com^
+||iouvxlio.top^
 ||ioykmxa.icu^
 ||ip.sb/assets/images/*_ads.
 ||ip.tianqiapi.com^
@@ -13038,6 +13040,7 @@
 ||rc.ie13.com^
 ||rc7e.top^
 ||rcblfd.xyz^
+||rcdwhp.xyz^
 ||rcnithgm.xyz^
 ||rcqmvmq.cn^
 ||rcqqlwb.cn^
@@ -14058,6 +14061,7 @@
 ||snjfasp.com^
 ||snmi.cn^$third-party
 ||snoresmile.com^$third-party
+||snueirk.icu^
 ||snux.cn^
 ||snxyf.com^$third-party
 ||snzfj.net^$third-party
@@ -18214,7 +18218,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>13879
+!<<<<<网站单独规则>>>>>13885
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.one|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.com|xiaoxintv.net
@@ -19200,11 +19204,11 @@ $websocket,domain=wap.yushuwu.cloud
 5068.com,ifeng.com,top.qidian.com##.gg01
 50sen.com###box-ads
 50yxw.com,bookshi.com,cangku.in,cangku.moe,iwan.baidu.com,qq.com,qtv.com.cn,xinhuanet.com,zol.com.cn##.ad-box
-51-cg.com,51-short.com,51cg.com,51short.com,91-cg.com,91-short.com,91cg.com,91short.com##.adm
-51-cg.com,51-short.com,51cg.com,51short.com,91-cg.com,91-short.com,91cg.com,91short.com##.player-info
-51-cg.com,51-short.com,51cg.com,51short.com,91-cg.com,91-short.com,91cg.com,91short.com##[class$="i"][style*="bottom"],[class$="h"][style*="bottom"],[class$="_b"],[class$="c"][style*="bottom"],embed[src],canvas,*[style*="fixed"][style*="bottom"][style*="display"][style*="block"][style*="vw"],img[src*="cn-chengdu.aliyuncs.com/"],a[href*=".top"] > img[src],div[class^="shortcuts-"][class$="-overlay"],a[href] > h3,[class][style*="131px"]
-51-cg.com,51-short.com,51cg.com,51short.com,91-cg.com,91-short.com,91cg.com,91short.com##a > img[style="width: 100%;border-radius: 15px"]
-51-cg.com,51-short.com,51cg.com,51short.com,91-cg.com,91-short.com,91cg.com,91short.com##a[href="javascript:void(0)"]
+51-cg.com,51-short.com,51cg.com,51short.com,91-cg.com,91-icg.com,91-short.com,91cg.com,91icg.com,91short.com##.adm
+51-cg.com,51-short.com,51cg.com,51short.com,91-cg.com,91-icg.com,91-short.com,91cg.com,91icg.com,91short.com##.player-info
+51-cg.com,51-short.com,51cg.com,51short.com,91-cg.com,91-icg.com,91-short.com,91cg.com,91icg.com,91short.com##[class$="i"][style*="bottom"],[class$="h"][style*="bottom"],[class$="_b"],[class$="c"][style*="bottom"],embed[src],canvas,*[style*="fixed"][style*="bottom"][style*="display"][style*="block"][style*="vw"],img[src*="cn-chengdu.aliyuncs.com/"],a[href*=".top"] > img[src],div[class^="shortcuts-"][class$="-overlay"],a[href] > h3,[class][style*="131px"]
+51-cg.com,51-short.com,51cg.com,51short.com,91-cg.com,91-icg.com,91-short.com,91cg.com,91icg.com,91short.com##a > img[style="width: 100%;border-radius: 15px"]
+51-cg.com,51-short.com,51cg.com,51short.com,91-cg.com,91-icg.com,91-short.com,91cg.com,91icg.com,91short.com##a[href="javascript:void(0)"]
 51.ca##._51_a_c
 51.com###game_advlayer
 51.com,55188.com##.couplet
@@ -20106,6 +20110,7 @@ apprcn.com##a[href*=".lizhi."]
 apps.jeurissen.co##html > body .cja-maincontent .cja-btmimage
 apps.jeurissen.co##html > body .cja-pagewrapper .cja-landing__content > div.cja-sqrimage
 apps.opera.com,babynamegenie.com,comparitech.com,ecaytrade.com,joporn.online,meltoday.com,nbcbayarea.com,nwherald.com,overclock3d.net,perfectgirls.net,planetsourcecode.com,sciagaj.org,sydneytoday.com,themuslimvibe.com,totalxbox.com,varsity.com,w3techs.com,wgxa.tv,xnostars.com,yzzk.com##.promo
+aptoide.com##div[class^="promote-game-banner__"]
 aqa.ru##span[style="height: 300px; padding: 0; width: 100%; display: block;"]
 ar15.com,armageddonexpo.com,audiforums.com,danceclassonline.in,f1gamesetup.com,ferrarichat.com,hanime.tv,hotrodhotline.com,jaguarforums.com,linuxmint.com,pypi.org,smashingmagazine.com,thebugle.co.za,waamradio.com,wbal.com,webtorrent.io##.sponsors
 arabam.com##.min-md-width > .homepage-jellybean-wrapper
@@ -21174,6 +21179,7 @@ caoporn.com,webjx.com###middleimg
 car-moby.jp##.rwMainAd
 car.m.yiche.com##div[class="ad-line"]
 car.m.yiche.com##div[class="ad-txt-line"]
+car.motor-fan.jp,news.denfaminicogamer.jp###sp_article_billboard
 car16.com##.modal-overlay
 carandbike.com###top_banner_ad
 cardu.com.tw###crazy_layer
@@ -27450,7 +27456,6 @@ news.cnyes.com##.content-main > div:has(> div[id^="div-gpt-"])
 news.cnyes.com##.section-aside-wrapper ~ div > div:has(> div[id^="div-gpt-"])
 news.cnyes.com##article > div:has(> div[id^="div-gpt-"])
 news.denfaminicogamer.jp###dfng-underarticle-center
-news.denfaminicogamer.jp###sp_article_billboard
 news.denfaminicogamer.jp##.ad-smp
 news.denfaminicogamer.jp##.articleContent + #header-overlay
 news.denfaminicogamer.jp##.inst_overlap_cover
@@ -27668,6 +27673,8 @@ novinky.cz##.ogm-advert-static
 novipnoad.com##.ad_single_title
 novipnoad.com##.bg-ad
 novipnoad.com##img[src*="/bd/"] + span
+novosti-n.org##.kama-inline-ads
+novosti-n.org##.lead
 novostroy-m.ru###advert_result
 nowcoder.com##.mini-banner
 nownews.com###ads-footer-bar
@@ -27886,6 +27893,7 @@ ostroh.info###modal.modal-bg
 osusume.mynavi.jp##div[data-myanalysis="home-widget"]
 osusume.mynavi.jp##div[data-myanalysis="sidemenu-ad"]
 otakotaku.com##div[id^="im-ADS_"]
+otakuma.net###affiliate-list
 otakuma.net##body .banner-adsense
 otakuma.net,nikkan-gendai.com,ranking.goo.ne.jp,m.hellporno.com,topics.smt.docomo.ne.jp,rank-king.jp,kun.uz,m.lenta.ru,m.aydin24haber.com,m.xcum.com,m.alphaporno.com,m.yourlust.com,m.3movs.com,m.sexu.com##body .banner
 otona-life.com##.ad_minh_sp
@@ -27929,6 +27937,7 @@ ouyaoxiazai.com##div[id^="cs_"] > *
 overclockers.ru##.container-block.woback:has(> div > ins[data-revive-zoneid])
 overclockers.ru##.container-block:has(> div[id^="yandex_rtb"])
 overdrive.in##.add_placeholder_300_250
+overwatch2-news.apexlegends-leaksnews.com##.ad_inserter_08
 ovo.kyodo.co.jp##div[style$="bottom: 0; width: 100%; display: block; text-align: center; background-color: #000000;"]
 owyb1688.com##.gray-show
 ozgurbolu.com###rklm-logoyani
@@ -29191,6 +29200,7 @@ sinoptik.ua##div[class^="rozetka"]
 sinpornx.com##.zyz,div[id="jue"]
 sippo.asahi.com##.c-article-block__group:has(> div[id^="div-gpt-"])
 sippo.asahi.com##.header-bnr
+sippo.asahi.com##.u-mb48.foot
 sippo.asahi.com##[class*="kiji_rect"]
 sirabee.com##.glssp_div_container
 sirogohan.com##.sp-banner
