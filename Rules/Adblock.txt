@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: JMZe49EP9n7KyrKCYXFWUQ
+! Checksum: HPugQlQ/p7V7ePWTX9kYew
 ! Title: Aloazny Mobile fiter
-! Version: 20241207203359
+! Version: 20241208093002
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-12-07 20:33:59
-! Total Count: 79881
-! Blocked Filters: 79881
+! Last modified: 2024-12-08 09:30:02
+! Total Count: 79887
+! Blocked Filters: 79887
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock.txt?ref=main
 
 
-!<<<<<域名规则>>>>>30501
+!<<<<<域名规则>>>>>30506
 |http$third-party,script,domain=kinotut.tv
 |http*://$image,third-party,domain=rmdown.com
 |http*://$script,third-party,domain=stream2watch.org,badfilter
@@ -5295,6 +5295,7 @@
 ||atool.org/res/ads/
 ||atorks.xyz^
 ||att.ydss.cn/attachments/portal/
+||attelaoe.com^
 ||attendancereporterwren.com^$~third-party
 ||atti.com^
 ||attractionbanana.com^$third-party
@@ -10300,6 +10301,7 @@
 ||dsjkbcjsjkbvs.com^
 ||dskjbvzvs.com^
 ||dslenggui.com^
+||dsoxgdjv.icu^
 ||dsp-eu.exe.bid^$third-party
 ||dsp.adcountymedia.com^
 ||dsp.ali213.net^
@@ -16277,6 +16279,7 @@
 ||kjdbcjkmc.com^
 ||kjeqga.xyz^
 ||kjggk1.xyz^
+||kjimtyd.top^
 ||kjipko.xyz^
 ||kjjjusb.xyz^
 ||kjnsgqe.icu^
@@ -27022,6 +27025,7 @@
 ||vgmlinks.net/codes.js
 ||vgxbpf.xyz^
 ||vgzytn.xyz^
+||vh8.icu^
 ||vhanime.com/js/bnanime.js
 ||vhanime.com/js/popgogo.js
 ||vhducnso.com^
@@ -30277,6 +30281,7 @@
 ||ziffdavis.com^$third-party
 ||zifyeldq.top^
 ||zihuiguochao.top^
+||zikeke7.com^
 ||zinipx.xyz^
 ||zio8.icu^
 ||zipfileservers.info/boot/loader.js
@@ -41603,7 +41608,6 @@ filmibeat.com,goodreturns.in##.amp-flying-carpet
 filmibeat.com,goodreturns.in##.amp-inner-ad
 filmix.biz,filmix.ac,filmix.tech,filmix.zone###branding_zone
 filmix.biz,filmix.ac,filmix.tech,filmix.zone###information > div[style="height:200px!important;overflow:hidden"]
-filmix.fm,filmix.date,filmix.life,filmix.pub,filmix.tech,filmix.zone##.remove-sda-wrap
 filmlinks4u.is##div[id^="tab_HD"]
 filmomaniak.pl##.baner-inner2
 filmomaniak.pl##.cld-ban3-c
@@ -47784,6 +47788,7 @@ jobindex.dk##div[aria-label="Annonce"]
 jobinfo.hu##.advertiser-paper
 joblo.com##+js(abort-current-script, document.body.appendChild, adb:function)
 jobrapido.com##.leaderboard-header-wrapper
+jocee.jp###article_contents > div.uk-text-center.uk-margin-bottom:has(> pre)
 jockantv.com###Dialog1
 jockantv.com###Toast1
 jocooks.com,tasteandtellblog.com,allaboutcats.com,cookingperfected.com,curbsideclassic.com,fortsettings.com,gethealthyu.com,goldendoodleadvice.com,housingaforest.com,letthemeatgfcake.com,listcaboodle.com,makinglemonadeblog.com,moneyning.com,nanascraftyhome.com,parentingpod.com,psychreg.org,runeterraccg.com,spacedmagazine.com,strengthandsunshine.com,tdalabamamag.com,thisisraleigh.com,ticotimes.net,unconventionalbaker.com,whereverwriter.com##+js(abort-on-property-read, window.adthrive.config)
@@ -66791,7 +66796,7 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 zzzyk.com###Tinfo
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>3593
+!<<<<<通配符规则>>>>>3594
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe.com,badfilter
 $image,third-party,denyallow=cdn77.org|fpbns.net|others-cdn.com|rncdn7.com|sb-cd.com|stream.highwebmedia.com|upsiloncdn.net|xvideos-cdn.com|youjizz.com|ypncdn.com,domain=pussyspace.com|pussyspace.net
@@ -68681,6 +68686,7 @@ $xmlhttprequest,third-party,domain=swiftload.io
 /chatIndex?kefu_id=$~third-party
 /chunyu*.html?channelCode=$~third-party
 /cjs/cprt.js$domain=dailygh.com|xgcartoon.com
+/click.php?key=*&zone_id=$document
 /clicktotal/ClickTotal.js
 /clientapi/app/getinfo?appid=*&android=true$third-party
 /cloud_theme/build/js/script.min.php$domain=clik.pw|shurt.pw
