@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: A/mpfbI5jSCikVTH0U/Lww
+! Checksum: iutleX9AunxLjDbqyw2Q2w
 ! Title: Aloazny Mobile fiter
-! Version: 20241210092527
+! Version: 20241210133224
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-12-10 09:25:27
-! Total Count: 79935
-! Blocked Filters: 79935
+! Last modified: 2024-12-10 13:32:24
+! Total Count: 79938
+! Blocked Filters: 79938
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock.txt?ref=main
 
 
-!<<<<<域名规则>>>>>30523
+!<<<<<域名规则>>>>>30525
 |http$third-party,script,domain=kinotut.tv
 |http*://$image,third-party,domain=rmdown.com
 |http*://$script,third-party,domain=stream2watch.org,badfilter
@@ -25606,6 +25606,7 @@
 ||tjappzvz.xyz^
 ||tjfbh.icu^
 ||tjfot.com^$third-party
+||tjimtyi.top^
 ||tjj.com^
 ||tjjd83.xyz^
 ||tjk3.com/static/*/*17mb.js
@@ -28038,6 +28039,7 @@
 ||wswxsk.xyz^
 ||wsyfsg.xyz^
 ||wsyliee.top^
+||wt6.icu^
 ||wtaccesscontrol.com^$third-party
 ||wtcm1008.com/statics/js/66.js
 ||wtiaw.top^
@@ -30540,7 +30542,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>36296
+!<<<<<网站单独规则>>>>>36297
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe.com,badfilter
 $image,third-party,denyallow=cdn77.org|fpbns.net|others-cdn.com|rncdn7.com|sb-cd.com|stream.highwebmedia.com|upsiloncdn.net|xvideos-cdn.com|youjizz.com|ypncdn.com,domain=pussyspace.com|pussyspace.net
@@ -45034,7 +45036,7 @@ hentaipig.com##+js(remove-node-text, script, detectAdBlock)
 hentaipins.com##+js(abort-on-property-read, popundrCheck)
 hentaiplay.net###video_overlays
 hentaiporn.one##+js(no-setTimeout-if, realsrv, 300)
-hentaiporn.one,myxclip.com,oggi.it,povaddict.com##.adv-square
+hentaiporn.one,m.proporn.com,myxclip.com,oggi.it,povaddict.com##.adv-square
 hentaiporn.tube,naughtyhentai.com##.friends
 hentaiprn.com,kaplog.com##.Thumbnail_List > .aft_bnr
 hentaiprn.com,kaplog.com##.Thumbnail_List > .xtact
@@ -50125,6 +50127,7 @@ m.pornicom.com,m.fetishshrine.com##.video-cover
 m.povar.ru###popupBannerBottom
 m.pptv.com,m.guba.eastmoney.com##div[class="openapp"]
 m.prohardver.hu,m.mobilarena.hu##.xabrecontainer
+m.proporn.com##.adv-wide
 m.puercn.com##div[class="copyright"]
 m.qbaobei.com##section[style="width:100%;z-index:999"]
 m.qidian.com##.bottom-nav
@@ -79360,7 +79363,7 @@ duckduckgo.com#@#.js-sidebar-ads
 duit.cc,pianetafanta.it,streamsport.icu,wikitrik.com#@##Ads
 dummies.com#@#.AD-POST
 dummies.com#@#.ad-post
-dust-sounds.com,faskil.com,gearspace.com,grownuprap.com,mixesdb.com,moneycontrol.com,mooc1.chaoxing.com,mozilla.org,parapolitika.gr,thepressproject.gr,tumblr.com,twitter.com,youredm.com#@#iframe[width="100%"][height="120"]
+dust-sounds.com,faskil.com,gearspace.com,grownuprap.com,mixesdb.com,moneycontrol.com,mooc1.chaoxing.com,mozilla.org,nytimes.com,parapolitika.gr,thepressproject.gr,tumblr.com,twitter.com,youredm.com#@#iframe[width="100%"][height="120"]
 dz-android.com,freeiphone.fr,hommedumatch.fr,hongrentao.cc,houhuayuan.pink,jetetroll.com,mrmad.com.tw,myself-bbs.com,paltv.top,pbhz.com,polska-ie.com,sportsyeah.hk,testious.com,zhaoze.party#@##adsense
 e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .advert-column
 e.mail.ru,octavius.mail.ru#@##app-canvas .layout__overflow-container > .slot
