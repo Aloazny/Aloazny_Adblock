@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: MPaAi8UH1GkBuA0A1xpC+Q
+! Checksum: uruAr9Hy3D/q0FV8KtiEfw
 ! Title: Aloazny Chinese fiter
-! Version: 20241209203719
+! Version: 20241210092403
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-12-09 20:37:19
-! Total Count: 41741
-! Blocked Filters: 41741
+! Last modified: 2024-12-10 09:24:03
+! Total Count: 41750
+! Blocked Filters: 41750
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>18633
+!<<<<<域名规则>>>>>18638
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|cyxse.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.360118.com|m.37zw.net|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zwdu.com
 |http://*.cn/ad/
@@ -695,6 +695,7 @@
 ||3i2i.com^
 ||3k8.com/d/js/m/thea
 ||3ndra.icu^
+||3ni.icu^
 ||3p8801.co^
 ||3pkf5m0gd.com^
 ||3pmcoohke.scriptmh.com^
@@ -10225,6 +10226,7 @@
 ||libhzf.xyz^
 ||licai18.com/henyepweb/
 ||licai18.com/pic/article/*.gif
+||lichizhuangshi.com^
 ||lichunxiao.cn^
 ||liebaovip.com^
 ||liepin.com/event/jobadver/
@@ -11658,6 +11660,7 @@
 ||nijnqwem.xyz^
 ||nike666.com^
 ||nikopik.com/wp-content/themes/*/js/nikopik.js
+||nilipuyn.com^
 ||nimaxrv.cn^
 ||nimoatl.icu^
 ||nisihu.com.cn^
@@ -12339,6 +12342,7 @@
 ||pdweoyw.cn^
 ||pdxdxl.xyz^
 ||pdxubxc.cn^
+||peclevnl.icu^
 ||pedropanther.com^$third-party
 ||pefufv.xyz^
 ||peise.net/Skin/js/global.
@@ -13035,6 +13039,7 @@
 ||qiyun.org/images/js/*.htm
 ||qizhihaotian.com^*.js
 ||qjekt0c.xyz^
+||qjimtyy.top^
 ||qjoges.xyz^
 ||qjsp48.xyz^
 ||qjwpy.com^
@@ -18650,7 +18655,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>14080
+!<<<<<网站单独规则>>>>>14082
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torkitty.net|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.one|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.cc|xiaoxintv.com|xiaoxintv.net|xiaoyakankan.com
@@ -21317,6 +21322,7 @@ bioon.com##.grid_6
 biqiudu.com##div[style^="text-align: center;"]
 biquge001.com###content > a
 biquge123.com##[class^="Oak"]
+biquge365.net,fofoyy.com,omofun.buzz,omofun.link,omofun.live,omofun.top,omofuns.buzz,omofuns.link,omofuns.live,omofuns.top,yhdm9.cc##script:has-text(navigator.platform)
 biquge99.vip##div.content:has(script[src="/facaishen1.js"])
 biqukan.com,touxiang.la,shukeju.com,qb5200.tw,doulaidu8.cc##a[class="__foiud"]
 biquku.co##[id="footerttf"]
@@ -21551,7 +21557,7 @@ buhidoh.net##.feedbox
 buhidoh.net##div[class^="im"][class*="300x250"]
 buhitter.com##aside[style="display: flex; justify-content: center;height: 300px;"]
 buka.cn##div[class="download_bar"]
-bukaivip.com##img[onclick]
+bukaivip.com,tysswh.com##img[onclick]
 bulgarianmilitary.com##.wp-block-embed
 bunkr.si##center:has(>script[src*="/lv/esnk/"][src$="/code.js"])
 bunshun.jp###sp_multiplex[style="min-width: 300px; min-height: 250px;"]
@@ -30469,6 +30475,7 @@ techspot.com##.wrapperMobileOnly > .post-list > article[style="min-height: 250px
 techspot.com##div[data-ns="largerectangle"]
 techspot.com##div[id^="insert-ad-"]
 techstage.de,heise.de##a-paternoster
+techtarget.com##.cls-hlb-wrapper-mobile
 techug.com##a[href*="/222.html"]
 techug.com##a[href*="/eee.html"]
 techug.com,webhek.com##.aatb
@@ -31197,6 +31204,7 @@ view.inews.qq.com##div[dt-eid="em_relate_news"]
 vikiporn.com##.under_player_adv
 vikiporn.com,sleazyneasy.com,m.pornicom.com,m.fetishshrine.com,m.katestube.com##.bottom-spot
 vikiporn.com,wankoz.com,sleazyneasy.com,pornicom.com,rat.xxx,vikiporn.com,zbporn.com,sleazyneasy.com,fetishshrine.com,katestube.com##.top-spot
+villagesexvideos.com,xxxvideoindian2.com,fistingplanet.com##.happy-footer-mobile
 vip-front.video.g.fc2.com,video.fc2.com###ad_middle2
 vip-front.video.g.fc2.com,video.fc2.com##.ad_area_top
 vip.de##.content-teaser-ad
@@ -32076,7 +32084,6 @@ xxxhentai.net##.gallery-list > div[itemprop='associatedMedia'] ~ div:not([class]
 xxxsm.vip##.ad280x165
 xxxsm.vip##a[href="ilupian8.html"]
 xxxuxxx.com##div[class]:not([id]):has(>script[src*="/ad-provider.js"])
-xxxvideoindian2.com,fistingplanet.com##.happy-footer-mobile
 xxxvideos.ink###hidme
 xxxvideos.ink##.curiosity
 xxxxx520.com##.ripro_gg_wrap
@@ -35320,11 +35327,11 @@ $websocket,domain=wap.yushuwu.cloud
 :*/ty/*-*-*-*.alpha$third-party
 :*/ty/*-*-*-*.blpha$third-party
 :*/xcdn*/js/_init.js?$third-party
-://*.*.*:*/cc/$domain=omofuns.link|omofuns.top|omofuns.top|omofuns.live|omofuns.buzz|omofun.link|omofun.top|omofun.live|omofun.buzz
-://*.*.*:*/d/$domain=omofuns.link|omofuns.top|omofuns.top|omofuns.live|omofuns.buzz|omofun.link|omofun.top|omofun.live|omofun.buzz
-://*.*.*:*/sc/$domain=omofuns.link|omofuns.top|omofuns.top|omofuns.live|omofuns.buzz|omofun.link|omofun.top|omofun.live|omofun.buzz
-://*.*.*:*/vh*/$domain=omofuns.link|omofuns.top|omofuns.top|omofuns.live|omofuns.buzz|omofun.link|omofun.top|omofun.live|omofun.buzz
-://*.*.*:*/vj*/$domain=omofuns.link|omofuns.top|omofuns.top|omofuns.live|omofuns.buzz|omofun.link|omofun.top|omofun.live|omofun.buzz
+://*.*.*:*/cc/$domain=omofun.buzz|omofun.link|omofun.live|omofun.top|omofuns.buzz|omofuns.link|omofuns.live|omofuns.top
+://*.*.*:*/d/$domain=omofun.buzz|omofun.link|omofun.live|omofun.top|omofuns.buzz|omofuns.link|omofuns.live|omofuns.top
+://*.*.*:*/sc/$domain=omofun.buzz|omofun.link|omofun.live|omofun.top|omofuns.buzz|omofuns.link|omofuns.live|omofuns.top
+://*.*.*:*/vh*/$domain=omofun.buzz|omofun.link|omofun.live|omofun.top|omofuns.buzz|omofuns.link|omofuns.live|omofuns.top
+://*.*.*:*/vj*/$domain=omofun.buzz|omofun.link|omofun.live|omofun.top|omofuns.buzz|omofuns.link|omofuns.live|omofuns.top
 ://*.*.com/asdzx.html$~third-party
 ://*.*.xyz/*/*-*-*-*/$third-party
 ://*.*.xyz:*/*/*-*-*-*/$third-party
@@ -35625,7 +35632,7 @@ yhdm*.com/js/wap2-jm-ms.js?ver=
 zhaotianbao1.cn/*/ywy*.apk$~third-party
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>4599
+!<<<<<通用Css规则>>>>>4600
 ###ADbox
 ###ADtip
 ###Ad-Container
@@ -39985,6 +39992,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##img[onclick*="/c7.net/"]
 ##img[onclick*="/statics/js/"]
 ##img[onclick="window.open(this.url)"][src*="qq.com"]
+##img[onclick][onload^="if(this.src.substring(0,4)!="]
 ##img[onclick^="golh"][onclick$=")"][width="100%"],img[onclick^="golh"][onclick$=")"][src$=".gif"]
 ##img[onclick^="window.open"][src*=".360buyimg.com"]
 ##img[onclick^="window.open"][src*="pc.qq.com"]
@@ -40227,7 +40235,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ~xxgxw.com##div[id^="C"][style*="height:"][class^="C"]
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1540
+!<<<<<放行白名单>>>>>1541
 #@##adblocktest
 #@#.has-ad
 012.tw#@#.ad728
@@ -41589,6 +41597,7 @@ hboav.com#@#script + div[class="cc5278_banner_ad"]
 help.xunlei.com#@#.a_fr
 hentaicomic.ru,wnacg.com#@#.Flagrow-Ads-under-header
 hentaicomic.ru,wnacg.com#@#.pcd_ad
+hgamefree.info#@#.gridlove-ad
 hibox.hinet.net#@#.adarea
 hipertextual.com,hyperallergic.com#@#.ad-above-footer
 hkcards.com#@##ad-slot
