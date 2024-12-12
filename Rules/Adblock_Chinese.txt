@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: KhaSgcKSzfJNzUk9beNIgA
+! Checksum: wcHmDYk3pug7fYTLbxnKOQ
 ! Title: Aloazny Chinese fiter
-! Version: 20241211203614
+! Version: 20241212092227
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-12-11 20:36:14
-! Total Count: 41765
-! Blocked Filters: 41765
+! Last modified: 2024-12-12 09:22:27
+! Total Count: 41770
+! Blocked Filters: 41770
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>18649
+!<<<<<域名规则>>>>>18653
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|cyxse.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.360118.com|m.37zw.net|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zwdu.com
 |http://*.cn/ad/
@@ -1542,6 +1542,7 @@
 ||a4bj6.xyz^
 ||a4sz.xyz^
 ||a5xiazai.com/z/
+||a7c.icu^
 ||a8age.com^
 ||a962m.xyz^
 ||a99hz.space^
@@ -10322,6 +10323,7 @@
 ||ljbrbz.xyz^
 ||ljdofz.xyz^
 ||ljhbhy.cn^
+||ljimtyl.top^
 ||ljnrjt.xyz^
 ||ljpbtjq.xyz^
 ||ljvc0.icu^
@@ -11566,6 +11568,7 @@
 ||neihhou.com^
 ||neiod.xyz^
 ||nektonsrutate.com^
+||neldatsy.com^
 ||nen.com.cn/eap/
 ||nen.com.cn/service/js/beitou
 ||nend.net^
@@ -18037,6 +18040,7 @@
 ||yqingge.com/wap.js
 ||yqlxkzs.cn^
 ||yqlxwb.icu^
+||yqlzccxn.icu^
 ||yquqoj.com^
 ||yrarhzuq.xyz^
 ||yrccils0spqnkc3.xyz^
@@ -18666,7 +18670,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>14086
+!<<<<<网站单独规则>>>>>14085
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torkitty.net|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.one|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.cc|xiaoxintv.com|xiaoxintv.net|xiaoyakankan.com
@@ -21333,7 +21337,7 @@ bioon.com##.grid_6
 biqiudu.com##div[style^="text-align: center;"]
 biquge001.com###content > a
 biquge123.com##[class^="Oak"]
-biquge365.net,fofoyy.com,omofun.buzz,omofun.link,omofun.live,omofun.top,omofuns.buzz,omofuns.link,omofuns.live,omofuns.top,yhdm9.cc##script:has-text(navigator.platform)
+biquge365.net,fofoyy.com,omofun.buzz,omofun.link,omofun.live,omofun.top,omofuns.buzz,omofuns.link,omofuns.live,omofuns.top,yhdm9.cc##^script:has-text(navigator.platform)
 biquge99.vip##div.content:has(script[src="/facaishen1.js"])
 biqukan.com,touxiang.la,shukeju.com,qb5200.tw,doulaidu8.cc##a[class="__foiud"]
 biquku.co##[id="footerttf"]
@@ -26921,7 +26925,6 @@ m.search.naver.com##li[data-pwr-ad-url]
 m.seonews.ru##.detail-banner-wrapper
 m.sex3.com##.banner_bottom
 m.sfacg.com###bottomNav
-m.sfgate.com##.ad-point
 m.sgkrehberi.com###page > .content + div[style="clear:both; height:80px; line-height:80px; margin-top:120px;"]
 m.sibenik.in###mobile_anchor
 m.sibenik.in##.desktop-floater-wrapper
@@ -32755,7 +32758,7 @@ zzz.gamers-luck.com##.gamer-sp_postbottom
 zzzyk.com###Tinfo
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>2889
+!<<<<<通配符规则>>>>>2890
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torkitty.net|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.one|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.cc|xiaoxintv.com|xiaoxintv.net|xiaoyakankan.com
@@ -34730,6 +34733,7 @@ $websocket,domain=wap.yushuwu.cloud
 /js/profit.js$~third-party
 /js/re-ads-
 /js/rotator.js
+/js/rourouwu.js$script
 /js/showgg.js
 /js/sjgg.js
 /js/sp_ad.js$script
@@ -35647,7 +35651,7 @@ yhdm*.com/js/wap2-jm-ms.js?ver=
 zhaotianbao1.cn/*/ywy*.apk$~third-party
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>4600
+!<<<<<通用Css规则>>>>>4601
 ###ADbox
 ###ADtip
 ###Ad-Container
@@ -35776,6 +35780,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ###ad_box2
 ###ad_box_2
 ###ad_close
+###ad_cs
 ###ad_full
 ###ad_globle_div
 ###ad_headerbanner
@@ -40465,7 +40470,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 @@game.baifumeiba.com/login/ad/adex.js
 @@guokr.com/apis/flowingboard/item/guokrapp_download_source.json
 @@https://static.ws.126.net/163/frontend/libs/antanalysis.min.js
-@@mwfimsvfast.co/static/upload/ads/files/300x250*.gif
+@@mwfimsvfast*/static/upload/ads$image
 @@p2p.$domain=tecms.net
 @@tangsanshu.net/js/comm.js
 @@ysjdm.net/template/conch/asset/js/hlhtml.

@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: TQiBGSalpCuSKKCBc6M56w
+! Checksum: 8HKiGbzVMk/++O3MUGp0kw
 ! Title: Aloazny attach fiter
-! Version: 20241211203554
+! Version: 20241212092207
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-12-11 20:35:54
-! Total Count: 16833
-! Blocked Filters: 16833
+! Last modified: 2024-12-12 09:22:07
+! Total Count: 16835
+! Blocked Filters: 16835
 ! Description: 合并混合规则的补充规则，轻量规则，可作为补充规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -7924,7 +7924,7 @@ bing.com,cn.bing.net##a[href*="/aclick?ld="]
 bing.com,cn.bing.net##li.b_ad
 biqiudu.com##div[style^="text-align: center;"]
 biquge123.com##[class^="Oak"]
-biquge365.net,fofoyy.com,omofun.buzz,omofun.link,omofun.live,omofun.top,omofuns.buzz,omofuns.link,omofuns.live,omofuns.top,yhdm9.cc##script:has-text(navigator.platform)
+biquge365.net,fofoyy.com,omofun.buzz,omofun.link,omofun.live,omofun.top,omofuns.buzz,omofuns.link,omofuns.live,omofuns.top,yhdm9.cc##^script:has-text(navigator.platform)
 biquge99.vip##div.content:has(script[src="/facaishen1.js"])
 biqukan.com,touxiang.la,shukeju.com,qb5200.tw,doulaidu8.cc##a[class="__foiud"]
 biquku.co##[id="footerttf"]
@@ -10940,7 +10940,7 @@ zybang.com##a[class="top-banner"]
 zybang.com##div[id="askTeacher-after-adx-wrap"]
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>1954
+!<<<<<通配符规则>>>>>1955
 $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.xyz
 &adZones$xmlhttprequest
 &ad_block=
@@ -12331,6 +12331,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 /js/profit.js$~third-party
 /js/re-ads-
 /js/rotator.js
+/js/rourouwu.js$script
 /js/sp_ad.js$script
 /js/statistics/user_ad.js
 /js/tongji.js?v=
@@ -12897,7 +12898,7 @@ yhdm*.com/js/wap2-jm-ms.js?ver=
 zhaotianbao1.cn/*/ywy*.apk$~third-party
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>3656
+!<<<<<通用Css规则>>>>>3657
 ###ADbox
 ###Ad-Container
 ###Ad-Content
@@ -12995,6 +12996,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ###ad_blocker
 ###ad_box_2
 ###ad_close
+###ad_cs
 ###ad_left
 ###ad_popup_background
 ###ad_popup_wrapper
@@ -16633,7 +16635,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 @@game.baifumeiba.com/login/ad/adex.js
 @@guokr.com/apis/flowingboard/item/guokrapp_download_source.json
 @@https://static.ws.126.net/163/frontend/libs/antanalysis.min.js
-@@mwfimsvfast.co/static/upload/ads/files/300x250*.gif
+@@mwfimsvfast*/static/upload/ads$image
 @@p2p.$domain=tecms.net
 @@tangsanshu.net/js/comm.js
 @@ysjdm.net/template/conch/asset/js/hlhtml.
