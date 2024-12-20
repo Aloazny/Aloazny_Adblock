@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: mKA1swanlymO8MSBPISI3Q
+! Checksum: nR2XB+txsKtgz6Qs4MC7dg
 ! Title: Aloazny attach fiter
-! Version: 20241220091617
+! Version: 20241220203213
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-12-20 09:16:17
-! Total Count: 16994
-! Blocked Filters: 16994
+! Last modified: 2024-12-20 20:32:13
+! Total Count: 17000
+! Blocked Filters: 17000
 ! Description: 合并混合规则的补充规则，轻量规则，可作为补充规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_attach.txt?ref=main
 
 
-!<<<<<域名规则>>>>>7215
+!<<<<<域名规则>>>>>7216
 |https://m.frgls.com/js/*.js?v=
 ||*ggua.xyz^$third-party
 ||000123456789.online^
@@ -1841,7 +1841,7 @@
 ||djv99sxoqpv11.cloudfront.net^
 ||dk4ywix.com^$third-party
 ||dklwddl.cn^
-||dl.btii.cn^$domain=lanzn.com|lanzoui.com|lanzouw.com|lanzoup.com
+||dl.btii.cn^
 ||dl12349.net^
 ||dla.tuobeng.net/*-*.apk$~third-party
 ||dlads.cn^
@@ -2252,6 +2252,7 @@
 ||fewkittens.com^$third-party
 ||ffgpol.com^
 ||ffmehcg.cn^
+||ffmovies.lol/jss/dectector-2025.js
 ||ffnvhig.cn^
 ||ffriedadl.com^
 ||ffzz71.com^
@@ -8841,8 +8842,8 @@ l-a-w.ru,mhelp.kz##.swal2-container
 lagrosseradio.com###warn
 laimanhua.com##div[id*="jusha"]
 laimanhua8.com###jusha1
-lanzn.com,lanzoui.com,lanzoup.com,lanzouw.com##div[style^="margin"] > script + a
-lanzn.com,lanzoui.com,lanzouw.com,lanzoup.com##^script:has-text(ClipboardJS)
+lanzn.com,lanzoua.com,lanzoub.com,lanzouc.com,lanzoud.com,lanzoue.com,lanzouf.com,lanzoug.com,lanzouh.com,lanzoui.com,lanzouj.com,lanzouk.com,lanzoul.com,lanzoum.com,lanzoun.com,lanzouo.com,lanzoup.com,lanzouq.com,lanzour.com,lanzous.com,lanzout.com,lanzouu.com,lanzouv.com,lanzouw.com,lanzoux.com,lanzouy.com,lanzouz.com##^script:has-text(ClipboardJS)
+lanzn.com,lanzoua.com,lanzoub.com,lanzouc.com,lanzoud.com,lanzoue.com,lanzouf.com,lanzoug.com,lanzouh.com,lanzoui.com,lanzouj.com,lanzouk.com,lanzoul.com,lanzoum.com,lanzoun.com,lanzouo.com,lanzoup.com,lanzouq.com,lanzour.com,lanzous.com,lanzout.com,lanzouu.com,lanzouv.com,lanzouw.com,lanzoux.com,lanzouy.com,lanzouz.com##div[style^="margin"] > script + a
 laomoit.com##center
 laonanren.com##div[class="wbox margin-12"]
 last.fm##.chartlist-row--interlist-ad
@@ -11002,7 +11003,7 @@ zybang.com##a[class="top-banner"]
 zybang.com##div[id="askTeacher-after-adx-wrap"]
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>2019
+!<<<<<通配符规则>>>>>2023
 $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.xyz
 &adZones$xmlhttprequest
 &ad_block=
@@ -11689,6 +11690,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .xyz:*/d/*?*=$third-party
 .xyz:*/d/*?c=*$third-party
 .xyz:*/d/*?t=
+.xyz:*/hm/*?x=*=$third-party
 .xyz:*/js/*?x=$third-party
 .xyz:*/mnrt/*.json
 .xyz:*/waga*.html$~third-party
@@ -12850,6 +12852,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 ://*dilidili*.*/js/*.js?ver=
 ://*dingdian.*/*/*.js$domain=dingdian.com|dingdian.co|dingdian.cc|dingdian.cn|dingdian.org|dingdian.la|dingdian.so|dingdian.us|dingdian.info|dingdian.tw|dingdian.net|dingdian.me|dingdian.app
 ://*diyibanzhu*/js/cdn.js$script,~third-party
+://*dm*/static/js/toper.js$~third-party
 ://*ee-tv.*/js/footer.js
 ://*freeok.*/asdasdad.js$script
 ://*gzfzzw.*/*/*.js$domain=gzfzzw.com|gzfzzw.co|gzfzzw.cc|gzfzzw.cn|gzfzzw.org|gzfzzw.la|gzfzzw.so|gzfzzw.us|gzfzzw.info|gzfzzw.tw|gzfzzw.net|gzfzzw.me|gzfzzw.app
@@ -12907,6 +12910,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 ://chio*.xyz/*.html$~third-party
 ://creative.*.com/widgets/v4/Universal
 ://dl.hdslb.com/mobile/latest/android64/*apk
+://dm*/static/js/footer.js$~third-party
 ://downpack.baidu.com/baidutieba*.apk
 ://dpic.*.cn/*.js$third-party
 ://dpic.*.cn/*.txt$third-party
@@ -12916,6 +12920,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 ://gp.logicmind.*/*.dx$third-party
 ://hf.*.com/*m-2697$third-party,other
 ://hongosi.xn--*.cc$third-party
+://hongosi.xn--*.com/mvp*.js$third-party
 ://im.ifengsong888.com/*.gif
 ://im.ifengsong888.com/*.jpg
 ://im.yfled888.com/*.gif
@@ -16693,7 +16698,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ~xxgxw.com##div[id^="C"][style*="height:"][class^="C"]
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>327
+!<<<<<放行白名单>>>>>328
 #@##adblocktest
 18-comic.work,18-comicblade.art,18-comicblade.club,18-comicblade.org,18-comicblade.xyz,18-comicfreedom.org,18-comicfreedom.xyz,18-comicstellar.art,18-comicstellar.xyz,18comic-c104.me,18comic-erdtree.xyz,18comic-gura.xyz,18comic-zzz.one,18comic.org,18comic.vip,jm-comic1.cc,jm-comic2.cc,jmcomic.me,jmcomic1.city,jmcomic1.group,jmcomic1.me,jmcomic1.win,jmcomic2.me#@#.col-lg-3.col-xs-6 > .well
 18-comic.work,18-comicblade.art,18-comicblade.org,18-comicblade.xyz,18-comicfreedom.org,18-comicfreedom.xyz,18-comicstellar.art,18comic.org,18comic.vip,jm-comic1.cc,jm-comic2.cc,jmcomic.me,jmcomic1.city,jmcomic1.group,jmcomic1.me,jmcomic1.win,jmcomic2.me#@#img[alt][src^="/static/resources/"]
@@ -16892,6 +16897,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 @@||qhres2.com^$domain=baike.so.com
 @@||realsrv.com/video-outstream.js$domain=chutlunds.com
 @@||redditstatic.com/shreddit$domain=reddit.com
+@@||right.com.cn/forum/static/image/common/logo_m.svg$domain=right.com.cn
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_$domain=mobile.donanimhaber.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=shahid.mbc.net
 @@||sexwebvideo.me/js/advertising.js

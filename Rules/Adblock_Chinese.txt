@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: u4s1AEWuNDPWpcIWgmmNKQ
+! Checksum: qgsJhbWfB4IhlHxZ7f6G4w
 ! Title: Aloazny Chinese fiter
-! Version: 20241220091637
+! Version: 20241220203233
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-12-20 09:16:37
-! Total Count: 40954
-! Blocked Filters: 40954
+! Last modified: 2024-12-20 20:32:33
+! Total Count: 40963
+! Blocked Filters: 40963
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>17775
+!<<<<<域名规则>>>>>17779
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|cyxse.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.360118.com|m.37zw.net|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zwdu.com
 |http://*.cn/ad/
@@ -410,6 +410,7 @@
 ||1weorpu.com^
 ||1wkg.cn^
 ||1x6666.com/img/
+||1xb.icu^
 ||1yj.icu^
 ||2.haoxue360.com^
 ||2.yunsxk.xyz^
@@ -5274,7 +5275,7 @@
 ||dkstrtss.xyz^
 ||dktad.com^
 ||dkyd6.xyz^
-||dl.btii.cn^$domain=lanzn.com|lanzoui.com|lanzouw.com|lanzoup.com
+||dl.btii.cn^
 ||dl12349.net^
 ||dla.tuobeng.net/*-*.apk$~third-party
 ||dlads.cn^
@@ -6282,6 +6283,7 @@
 ||ffdafx.xyz^
 ||ffgpol.com^
 ||ffmehcg.cn^
+||ffmovies.lol/jss/dectector-2025.js
 ||ffnvhig.cn^
 ||ffriedadl.com^
 ||ffzz71.com^
@@ -10850,10 +10852,12 @@
 ||mthhhuq.cn^
 ||mtienlx.top^
 ||mtime.cn/tg/
+||mtimiyx.top^
 ||mtnwxhjv.xyz^
 ||mtrcss.com^
 ||mttpsy6666.cc^
 ||mtu.hlkcowp.cn^
+||mtv01.com^
 ||mtwmuy.xyz^
 ||mtwuxss.icu^
 ||mtwwzqdx.xyz^
@@ -25269,8 +25273,8 @@ lanrentuku.com###divjdgg
 lanrentuku.com##.down_btn2
 lanyes.org##.kuanpin
 lanyes.org##div[style="margin:0 auto 10px;height:76px;overflow:hidden"]
-lanzn.com,lanzoui.com,lanzoup.com,lanzouw.com##div[style^="margin"] > script + a
-lanzn.com,lanzoui.com,lanzouw.com,lanzoup.com##^script:has-text(ClipboardJS)
+lanzn.com,lanzoua.com,lanzoub.com,lanzouc.com,lanzoud.com,lanzoue.com,lanzouf.com,lanzoug.com,lanzouh.com,lanzoui.com,lanzouj.com,lanzouk.com,lanzoul.com,lanzoum.com,lanzoun.com,lanzouo.com,lanzoup.com,lanzouq.com,lanzour.com,lanzous.com,lanzout.com,lanzouu.com,lanzouv.com,lanzouw.com,lanzoux.com,lanzouy.com,lanzouz.com##^script:has-text(ClipboardJS)
+lanzn.com,lanzoua.com,lanzoub.com,lanzouc.com,lanzoud.com,lanzoue.com,lanzouf.com,lanzoug.com,lanzouh.com,lanzoui.com,lanzouj.com,lanzouk.com,lanzoul.com,lanzoum.com,lanzoun.com,lanzouo.com,lanzoup.com,lanzouq.com,lanzour.com,lanzous.com,lanzout.com,lanzouu.com,lanzouv.com,lanzouw.com,lanzoux.com,lanzouy.com,lanzouz.com##div[style^="margin"] > script + a
 lanzou.com##div[style="text-align: center;border: 1px solid #eee;"]
 lanzous.com##.appad
 laogu.cc##.rowIvy
@@ -31932,7 +31936,7 @@ zzz.gamers-luck.com##.gamer-sp_postbottom
 zzzyk.com###Tinfo
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>2932
+!<<<<<通配符规则>>>>>2936
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torkitty.net|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.one|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.cc|xiaoxintv.com|xiaoxintv.net|xiaoyakankan.com
@@ -32825,6 +32829,7 @@ $websocket,domain=wap.yushuwu.cloud
 .xyz:*/d/*?*=$third-party
 .xyz:*/d/*?c=*$third-party
 .xyz:*/d/*?t=
+.xyz:*/hm/*?x=*=$third-party
 .xyz:*/js/*?x=$third-party
 .xyz:*/mnrt/*.json
 .xyz:*/waga*.html$~third-party
@@ -34606,6 +34611,7 @@ $websocket,domain=wap.yushuwu.cloud
 ://*dilidili*.*/js/*.js?ver=
 ://*dingdian.*/*/*.js$domain=dingdian.com|dingdian.co|dingdian.cc|dingdian.cn|dingdian.org|dingdian.la|dingdian.so|dingdian.us|dingdian.info|dingdian.tw|dingdian.net|dingdian.me|dingdian.app
 ://*diyibanzhu*/js/cdn.js$script,~third-party
+://*dm*/static/js/toper.js$~third-party
 ://*ee-tv.*/js/footer.js
 ://*freeok.*/asdasdad.js$script
 ://*gzfzzw.*/*/*.js$domain=gzfzzw.com|gzfzzw.co|gzfzzw.cc|gzfzzw.cn|gzfzzw.org|gzfzzw.la|gzfzzw.so|gzfzzw.us|gzfzzw.info|gzfzzw.tw|gzfzzw.net|gzfzzw.me|gzfzzw.app
@@ -34667,6 +34673,7 @@ $websocket,domain=wap.yushuwu.cloud
 ://chio*.xyz/*.html$~third-party
 ://creative.*.com/widgets/v4/Universal
 ://dl.hdslb.com/mobile/latest/android64/*apk
+://dm*/static/js/footer.js$~third-party
 ://dmhy.gate.*/*.*?$image
 ://dmhy.org^*.*?$image
 ://downpack.baidu.com/baidutieba*.apk
@@ -34679,6 +34686,7 @@ $websocket,domain=wap.yushuwu.cloud
 ://gp.logicmind.*/*.dx$third-party
 ://hf.*.com/*m-2697$third-party,other
 ://hongosi.xn--*.cc$third-party
+://hongosi.xn--*.com/mvp*.js$third-party
 ://im.ifengsong888.com/*.gif
 ://im.ifengsong888.com/*.jpg
 ://im.yfled888.com/*.gif
@@ -39435,7 +39443,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ~xxgxw.com##div[id^="C"][style*="height:"][class^="C"]
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1545
+!<<<<<放行白名单>>>>>1546
 #@##adblocktest
 #@#.has-ad
 012.tw#@#.ad728
@@ -40429,6 +40437,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 @@||res.aidegelin.cn/dom2/js/com.js$domain=69xx03608.xyz
 @@||research.hchs.hc.edu.tw/*/banner.php$domain=research.hchs.hc.edu.tw
 @@||right.com.cn/forum/*300*250$image
+@@||right.com.cn/forum/static/image/common/logo_m.svg$domain=right.com.cn
 @@||rltdxt.com/files/h5/app.js
 @@||rm.sina.com.cn/minisite/*/css/art_normal.css$domain=client.sina.cn
 @@||rmdown.com/ads.js
