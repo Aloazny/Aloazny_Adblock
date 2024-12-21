@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: K+GPgmFQq8yRXDXjrmHpzQ
+! Checksum: g4Nkc0OHgVWDvVEYKTlEJA
 ! Title: Aloazny Mobile fiter
-! Version: 20241221091627
+! Version: 20241221203121
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-12-21 09:16:27
-! Total Count: 79162
-! Blocked Filters: 79162
+! Last modified: 2024-12-21 20:31:21
+! Total Count: 79186
+! Blocked Filters: 79186
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock.txt?ref=main
 
 
-!<<<<<域名规则>>>>>29696
+!<<<<<域名规则>>>>>29705
 |http$third-party,script,domain=kinotut.tv
 |http*://$image,third-party,domain=rmdown.com
 |http*://$script,third-party,domain=stream2watch.org,badfilter
@@ -1390,12 +1390,14 @@
 ||3prndxd.cn^
 ||3q1lsj.cn^
 ||3q3l.cn^
+||3qxsa.cc/js/news2.js
 ||3ri.cc^
 ||3rsppty.cn^
 ||3sas.icu^
 ||3t769up6.com^
 ||3ts.icu^
 ||3v7c7y.online^
+||3vp.icu^
 ||3wk.cc/images/*.gif
 ||3yej.xyz^
 ||3zmm.net/*/*.js
@@ -12047,6 +12049,7 @@
 ||g6m2moam0pfb1kh2.quicknewssurge.com^
 ||g6tgashb.fun^
 ||g7ghdash2.fun^
+||g7htk7ls7.com^
 ||ga-ads.com^
 ||ga.de/api/alerts
 ||ga1.3dmgame.com^
@@ -13873,6 +13876,7 @@
 ||hweriou.top^
 ||hwfoct.icu^
 ||hwgzp5.com^
+||hwilmiu.top^
 ||hwivedn.icu^
 ||hwjyingshi.xyz^
 ||hwnod.xyz^
@@ -16108,6 +16112,7 @@
 ||krx18.com/ads/adsblockx.js
 ||krx18.com/ads/banra.html
 ||kryeia.xyz^
+||ks.ferlytc.com^$third-party
 ||ks.tipsifyfriezer.com^
 ||ks42zt.spec.fm^
 ||ks66666661.com^
@@ -18245,6 +18250,7 @@
 ||muer.cdn-baidu.fs-sywh.com^
 ||muhammadyoga.me/download3.png
 ||muhnbc.cn^
+||muiuim.icu^
 ||mujkdna.xyz^
 ||mule.caddyserver.com^
 ||mule.pricelessai.com^
@@ -20210,6 +20216,7 @@
 ||popkulturowykociolek.pl/wp-content/uploads/*/*/*-Baner-Reklama.webp
 ||popkulturowykociolek.pl/wp-content/uploads/*/*/*-reklama-baner.png
 ||popplantation.com^$third-party
+||popsvg.xyz^
 ||poptival.com^$third-party
 ||popupmaker.com^$domain=myoplay.club
 ||popupplus.ir^$third-party
@@ -21948,6 +21955,7 @@
 ||rtumwzp.icu^
 ||rtyznd.com/get/*?zoneid=$script
 ||ru.axar.az/axar.php$third-party
+||ruancq.xyz^
 ||ruanjiancms.com^
 ||ruanyifeng.com/9he/
 ||rubird.ru^$third-party
@@ -26639,6 +26647,7 @@
 ||vvadz.cc^
 ||vvbox.cz^$third-party
 ||vvdzucs.cn^
+||vvfgjzwa.icu^
 ||vvfht.fun^
 ||vvmeirihd.feijied.xyz^
 ||vvttpn.xyz^
@@ -29713,7 +29722,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>36343
+!<<<<<网站单独规则>>>>>36346
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe.com,badfilter
 $image,third-party,denyallow=cdn77.org|fpbns.net|others-cdn.com|rncdn7.com|sb-cd.com|stream.highwebmedia.com|upsiloncdn.net|xvideos-cdn.com|youjizz.com|ypncdn.com,domain=pussyspace.com|pussyspace.net
@@ -31259,6 +31268,7 @@ $xmlhttprequest,third-party,domain=swiftload.io
 5278.cc###rightside_banner_top
 5278.cc##.pct > div[style="width: 600px;"]
 528500.com###wp > div[align="center"]
+52asus.com###AsusMall-contain
 52asus.com###guiigo-black-mask
 52av.one##.message + center
 52av.one##div[style^="text-align:center;"] > a[target="_blank"] > img
@@ -34678,7 +34688,6 @@ bilibili.com##.float-btn
 bilibili.com##.floor-single-card:has(.floor-skeleton):not(:has(> div.bili-video-card__skeleton))
 bilibili.com##.gg-floor-module
 bilibili.com##.index-promote
-bilibili.com##.is-rcmd > div:only-child
 bilibili.com##.login-tip
 bilibili.com##.online + .adpos
 bilibili.com##.operate-card[data-target-url*=".miaozhen."]
@@ -51828,6 +51837,7 @@ mydrivers.com##.yTv3AMqP
 mydrivers.com##a[href*=".dangbei.com"]
 mydrivers.com##div[class^="jdong11"]
 mydrivers.com##div[style*="/ad/"]
+mydrivers.com##div[style="margin: auto;width: 800px;padding: 10px 0;"]
 mydrivers.com##div[style^="position:fixed;left:50%;bottom:200px;"]
 mydrivers.com,wmzhe.com##a[href*=".jd.com/"]
 myegy.cc##a[href^="https://firstbyte.pro"]
@@ -64349,6 +64359,8 @@ www.jin10.com##.l-main_body > div[class]:not(.jin-timeline)
 www.jin10.com##.l-main_info > div[class]:not(.jin-declaration):not(.jin-qq-cooperation)
 www.jishangcanyin.com##img[class="lazy thumbnail loaded"]
 www.jjtyss.com##ins[class],.myui-player.clearfix p,.container p
+www.jkv.app##.app-links
+www.jkv.app##.apps-bt
 www.jmhongyan.com##ins[class],.container p
 www.juchecheng.com##.frameClass
 www.jujiwu.cc##div[style*="width: 100%;"]
@@ -66059,7 +66071,7 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 zzzyk.com###Tinfo
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>3641
+!<<<<<通配符规则>>>>>3642
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe.com,badfilter
 $image,third-party,denyallow=cdn77.org|fpbns.net|others-cdn.com|rncdn7.com|sb-cd.com|stream.highwebmedia.com|upsiloncdn.net|xvideos-cdn.com|youjizz.com|ypncdn.com,domain=pussyspace.com|pussyspace.net
@@ -68981,6 +68993,7 @@ $xmlhttprequest,third-party,domain=swiftload.io
 /static/js/miniyyrtv-config.js
 /static/js/pop_promotion.js?v=
 /static/js/top.js$domain=ciligui.org|ciligui.cc|ciligui.com|ciligui.live|ciligui.buzz|ciligui.cn|ciligui.xyz
+/static/lbsite/*/*.js?v=$third-party
 /static/resources/*/*.gif$domain=18-comic.work|18-comicblade.art|18-comicblade.club|18-comicblade.org|18-comicblade.xyz|18-comicfreedom.org|18-comicfreedom.xyz|18-comicstellar.art|18-comicstellar.xyz|18comic-erdtree.xyz|18comic.org|18comic.vip|jm-comic1.cc|jm-comic2.cc|jmcomic.me|jmcomic1.city|jmcomic1.group|jmcomic1.me|jmcomic1.win|jmcomic2.me
 /static/resources/lp.php$domain=18-comic.work|18-comicblade.art|18-comicblade.club|18-comicblade.org|18-comicblade.xyz|18-comicfreedom.org|18-comicfreedom.xyz|18-comicstellar.art|18-comicstellar.xyz|18comic-erdtree.xyz|18comic.org|18comic.vip|jm-comic1.cc|jm-comic2.cc|jmcomic.me|jmcomic1.city|jmcomic1.group|jmcomic1.me|jmcomic1.win|jmcomic2.me
 /statics/js/dddd.js
@@ -69703,7 +69716,7 @@ yhdm*.com/js/wap2-jm-ms.js?ver=
 zhaotianbao1.cn/*/ywy*.apk$~third-party
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>4822
+!<<<<<通用Css规则>>>>>4831
 ###ADbox
 ###ADtip
 ###Ad-Container
@@ -72113,6 +72126,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.main_promo_image_container
 ##.mainbg > #s11navtop
 ##.mainholder  + div[id][class*=" "] > div[id][class*=" "]
+##.mainholder + div[id][class*=" "] > div[id][class*=" "]
 ##.maomi-content > #main-container > .row.mob40 + .row
 ##.maomi-content > .section-banner
 ##.maomi-content > .section-menu > .row > a[target="_blank"]
@@ -72316,6 +72330,9 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.nonepc.mad
 ##.noopenlink.ads
 ##.nordvpn-popup + .sidebar-vpn
+##.notice-ad-wrapper
+##.notice-ad-wrapper + .app-abk
+##.notice-ad-wrapper + .app-abk + .app-text
 ##.nr_all > .m_f_a.sw_sp
 ##.nr_page + div[style="margin:0;padding:0;outline:0"]
 ##.nr_page > [style="width:100%;height:auto;min-height:150px;position:relative;display:block;"][id]
@@ -72480,6 +72497,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.sidebarAd
 ##.sidebar_ad
 ##.single-ad
+##.single-ad-banner
 ##.slide-ad
 ##.slide-hd > ul > li > a
 ##.slider-ad[adid]
@@ -72607,6 +72625,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.van_vid_carousel
 ##.vertbars
 ##.vg-overlay-pause
+##.video-ad-item
 ##.video-ads-container
 ##.video-brs
 ##.video-holder > a[target="_blank"] > img[src*=".360buyimg.com"]
@@ -72669,6 +72688,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.wrapper > a[target="_blank"] > .ads
 ##.wrapper-ad
 ##.wrapper-header-ad-slot
+##.wrapper-player > div.before-player
 ##.wrapper-player div.before-player
 ##.wrapper_ad
 ##.wrapper_advertisement
@@ -72696,6 +72716,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.yahooads
 ##.yan-sponsored
 ##.yd_ad
+##.yt-ad-com
 ##.yueduad1
 ##.yuepa-list
 ##.yuepa-warp
@@ -73688,6 +73709,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##body > #overover[style="position:fixed;width:100%;height:100%;background:silver;z-index: 2;opacity: 0.1;"] ~ #obrazek
 ##body > #showcloneshengxiaon
 ##body > .ec-ad
+##body > .top-advert
 ##body > A[ontouchstart='this.click();'][href]
 ##body > DIV[class][style='top: 132px;']
 ##body > DIV[class][style='top: 133px;']
@@ -74138,6 +74160,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##iframe[src*="//go.xxxviijmp.com"]
 ##iframe[src*="//go.zybrdr.com"]
 ##iframe[src*="//its.fusrv.com/"]
+##iframe[src*="//mmmdn.net/"]
 ##iframe[src*="//rtbrenab.com/get"]
 ##iframe[src*="//syndication.exoclick.com"]
 ##iframe[src*="//tfosrv.com"]
@@ -74183,7 +74206,6 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##iframe[title="Advertisement"]
 ##iframe[title="广告"]
 ##iframe[width="0"][height="0"]
-##iframe[width="100%"][height="120"]
 ##iframe[width="100%"][height="120"]:not([src*="bandcamp.com"])
 ##iframe[width="100%"][height="90"]
 ##iframe[width="104"][height="464"]
@@ -74528,7 +74550,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ~xxgxw.com##div[id^="C"][style*="height:"][class^="C"]
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>4660
+!<<<<<放行白名单>>>>>4662
 #@##adblocktest
 #@#.ADV320_50_100
 #@#.ad-box
@@ -77225,6 +77247,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 @@||photopea.com/promo/no_ads.png
 @@||photos.timesofindia.com/toi_js_ads.cms
 @@||piaotia.com/scripts/readindex/tongji.js
+@@||pic-tv6s.4p68.com^
 @@||piccool.com/2home/phpAdsNew/
 @@||picmix.com/js/fuckadblock.js
 @@||pics.porndroids.com^
@@ -78449,6 +78472,7 @@ bestech.sk,live.fc2.com#@#img[width="320"][height="50"]
 bfmusic.com.tw,workercn.cn#@#.ad_content
 bgr.in#@#.add-box
 bharian.com.my,hmetro.com.my,milesplit.com,nst.com.my#@#.sticky-ad
+bilibili.com#@#.is-rcmd > div:only-child
 bing.com#@#.b_adBottom
 bing.com#@#.pa_carousel_mlo
 bing.com#@#.pa_sb

@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: JA/Znrh9el7HW4PH3M6k+A
+! Checksum: jRpCi3Fs1m+VM/xsw0sO6A
 ! Title: Aloazny Chinese fiter
-! Version: 20241221091501
+! Version: 20241221202957
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-12-21 09:15:01
-! Total Count: 40972
-! Blocked Filters: 40972
+! Last modified: 2024-12-21 20:29:57
+! Total Count: 41221
+! Blocked Filters: 41221
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>17786
+!<<<<<域名规则>>>>>17795
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|cyxse.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.360118.com|m.37zw.net|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zwdu.com
 |http://*.cn/ad/
@@ -676,12 +676,14 @@
 ||3prndxd.cn^
 ||3q1lsj.cn^
 ||3q3l.cn^
+||3qxsa.cc/js/news2.js
 ||3ri.cc^
 ||3rsppty.cn^
 ||3sas.icu^
 ||3t769up6.com^
 ||3ts.icu^
 ||3v7c7y.online^
+||3vp.icu^
 ||3wk.cc/images/*.gif
 ||3yej.xyz^
 ||3zmm.net/*/*.js
@@ -6638,6 +6640,7 @@
 ||g4y7uuk.com^
 ||g6tgashb.fun^
 ||g7ghdash2.fun^
+||g7htk7ls7.com^
 ||ga-ads.com^
 ||ga1.3dmgame.com^
 ||gadgetsnow.com/ngwm/
@@ -7870,6 +7873,7 @@
 ||hweriou.top^
 ||hwfoct.icu^
 ||hwgzp5.com^
+||hwilmiu.top^
 ||hwivedn.icu^
 ||hwjyingshi.xyz^
 ||hwnod.xyz^
@@ -9469,6 +9473,7 @@
 ||krutvncd.top^
 ||krw.yrehdfer.com^
 ||kryeia.xyz^
+||ks.ferlytc.com^$third-party
 ||ks66666661.com^
 ||ksadrewrty.com^
 ||kscly.com^
@@ -10870,6 +10875,7 @@
 ||mudroom.aquadisco.xyz^
 ||muer.cdn-baidu.fs-sywh.com^
 ||muhnbc.cn^
+||muiuim.icu^
 ||mujkdna.xyz^
 ||mumnxiex.top^
 ||mundanenail.com^$third-party
@@ -12088,6 +12094,7 @@
 ||pop.wioau.com^$third-party
 ||popcornfood.com^$third-party
 ||popplantation.com^$third-party
+||popsvg.xyz^
 ||poqiod.com^
 ||poqjnkdsou.net^
 ||poqwnllkm.com^
@@ -13062,6 +13069,7 @@
 ||rttnvz.xyz^
 ||rtumdhdk.xyz^
 ||rtumwzp.icu^
+||ruancq.xyz^
 ||ruanjiancms.com^
 ||ruanyifeng.com/9he/
 ||ruddycast.com^$third-party
@@ -15772,6 +15780,7 @@
 ||vv1.pyhfxdm.cn^
 ||vvadz.cc^
 ||vvdzucs.cn^
+||vvfgjzwa.icu^
 ||vvfht.fun^
 ||vvmeirihd.feijied.xyz^
 ||vvttpn.xyz^
@@ -17803,7 +17812,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>14139
+!<<<<<网站单独规则>>>>>14142
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torkitty.net|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.one|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.cc|xiaoxintv.com|xiaoxintv.net|xiaoyakankan.com
@@ -18878,6 +18887,7 @@ $websocket,domain=wap.yushuwu.cloud
 5278.cc###rightside_banner_top
 5278.cc##.pct > div[style="width: 600px;"]
 528500.com###wp > div[align="center"]
+52asus.com###AsusMall-contain
 52asus.com###guiigo-black-mask
 52av.one##.message + center
 52av.one##div[style^="text-align:center;"] > a[target="_blank"] > img
@@ -20394,7 +20404,6 @@ bilibili.com##.float-btn
 bilibili.com##.floor-single-card:has(.floor-skeleton):not(:has(> div.bili-video-card__skeleton))
 bilibili.com##.gg-floor-module
 bilibili.com##.index-promote
-bilibili.com##.is-rcmd > div:only-child
 bilibili.com##.login-tip
 bilibili.com##.online + .adpos
 bilibili.com##.operate-card[data-target-url*=".miaozhen."]
@@ -27060,6 +27069,7 @@ mydrivers.com##.yTv3AMqP
 mydrivers.com##a[href*=".dangbei.com"]
 mydrivers.com##div[class^="jdong11"]
 mydrivers.com##div[style*="/ad/"]
+mydrivers.com##div[style="margin: auto;width: 800px;padding: 10px 0;"]
 mydrivers.com##div[style^="position:fixed;left:50%;bottom:200px;"]
 mydrivers.com,wmzhe.com##a[href*=".jd.com/"]
 myexception.cn##.c_a_3
@@ -30972,6 +30982,8 @@ www.jin10.com##.l-main_body > div[class]:not(.jin-timeline)
 www.jin10.com##.l-main_info > div[class]:not(.jin-declaration):not(.jin-qq-cooperation)
 www.jishangcanyin.com##img[class="lazy thumbnail loaded"]
 www.jjtyss.com##ins[class],.myui-player.clearfix p,.container p
+www.jkv.app##.app-links
+www.jkv.app##.apps-bt
 www.jmhongyan.com##ins[class],.container p
 www.juchecheng.com##.frameClass
 www.jujiwu.cc##div[style*="width: 100%;"]
@@ -31945,7 +31957,7 @@ zzz.gamers-luck.com##.gamer-sp_postbottom
 zzzyk.com###Tinfo
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>2936
+!<<<<<通配符规则>>>>>2937
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torkitty.net|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.one|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.cc|xiaoxintv.com|xiaoxintv.net|xiaoyakankan.com
@@ -34299,6 +34311,7 @@ $websocket,domain=wap.yushuwu.cloud
 /static/js/miniyyrtv-config.js
 /static/js/pop_promotion.js?v=
 /static/js/top.js$domain=ciligui.org|ciligui.cc|ciligui.com|ciligui.live|ciligui.buzz|ciligui.cn|ciligui.xyz
+/static/lbsite/*/*.js?v=$third-party
 /static/resources/*/*.gif$domain=18-comic.work|18-comicblade.art|18-comicblade.club|18-comicblade.org|18-comicblade.xyz|18-comicfreedom.org|18-comicfreedom.xyz|18-comicstellar.art|18-comicstellar.xyz|18comic-erdtree.xyz|18comic.org|18comic.vip|jm-comic1.cc|jm-comic2.cc|jmcomic.me|jmcomic1.city|jmcomic1.group|jmcomic1.me|jmcomic1.win|jmcomic2.me
 /static/resources/lp.php$domain=18-comic.work|18-comicblade.art|18-comicblade.club|18-comicblade.org|18-comicblade.xyz|18-comicfreedom.org|18-comicfreedom.xyz|18-comicstellar.art|18-comicstellar.xyz|18comic-erdtree.xyz|18comic.org|18comic.vip|jm-comic1.cc|jm-comic2.cc|jmcomic.me|jmcomic1.city|jmcomic1.group|jmcomic1.me|jmcomic1.win|jmcomic2.me
 /statics/js/dddd.js
@@ -34884,7 +34897,7 @@ yhdm*.com/js/wap2-jm-ms.js?ver=
 zhaotianbao1.cn/*/ywy*.apk$~third-party
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>4565
+!<<<<<通用Css规则>>>>>4799
 ###ADbox
 ###ADtip
 ###Ad-Container
@@ -34895,6 +34908,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ###AdLayer1
 ###AdLayer2
 ###Ad_windows
+###BannerBox
 ###ChapterView > .slide-baidu
 ###GoogleAd
 ###IC1-ad
@@ -34943,18 +34957,25 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ###ad-4
 ###ad-B1-ATF
 ###ad-SNSSplashAd
+###ad-after
 ###ad-container
 ###ad-content
 ###ad-floatwin
+###ad-fullbanner2-billboard-outer
 ###ad-header-mobile-contener
 ###ad-index
 ###ad-index.position-relative
+###ad-large-header
+###ad-p3
 ###ad-popup
 ###ad-popup-home
 ###ad-popup-int
 ###ad-recommend
+###ad-top-right-container
+###ad-topper
 ###ad.slide
 ###ad01
+###ad1-placeholder
 ###ad11
 ###ad1[onclick="window.open(this.url)"]
 ###ad1[style^="position:"]
@@ -35003,9 +35024,12 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ###ad_1
 ###ad_2
 ###ad_3
+###ad_300X250
+###ad_336_singlebt
 ###ad_4
 ###ad_5
 ###ad_6
+###ad_728h
 ###ad_banner
 ###ad_blocker
 ###ad_box1
@@ -35015,12 +35039,15 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ###ad_cs
 ###ad_full
 ###ad_globle_div
+###ad_google
 ###ad_headerbanner
 ###ad_hf_out2
 ###ad_hf_out4
 ###ad_hf_out5
 ###ad_inview_area
+###ad_large
 ###ad_left
+###ad_middle
 ###ad_popup_background
 ###ad_popup_wrapper
 ###ad_right
@@ -35126,14 +35153,18 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ###adv-fixed-square
 ###adv_wrap_hh
 ###advert-2
+###advert-banner-container
 ###advert1
+###advertRightTopPosition
 ###advert_1
 ###advertise
+###advertisementTop
 ###advertisement_box
 ###advertisementjsalert
 ###advertisings
 ###advtop
 ###adx_cggp
+###adxtop
 ###alert_windows > .q-dialog__backdrop
 ###allpng
 ###anti_adblock
@@ -35149,12 +35180,16 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ###asdw2 + img
 ###aside_cat_ad_bottom
 ###asx_text
+###atvcap + #tvcap > .mnr-c > .commercial-unit-mobile-top
 ###atwAdFrame0
 ###b8l
 ###banner-ad
+###banner-top-right
 ###bannerAd
 ###banner_ads
 ###banner_links.banner-container
+###bannerfloat22
+###bb_banner
 ###bd-hl-content
 ###bfad
 ###bfad1
@@ -35178,6 +35213,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ###block-articlebelowtextad
 ###block-articlefrontpagead
 ###block-articletopadvert
+###blox-top-promo
 ###body > #left-promotion
 ###body > #right-promotion
 ###body-ads
@@ -35288,6 +35324,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ###box_text_ads
 ###boxad
 ###boxads
+###bp_banner
 ###breadCrumb + .c + .t[style="margin-top:8px"]
 ###breadCrumb + .t[style="margin-top:8px"]
 ###btfAdNew
@@ -35304,6 +35341,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ###buy-sell-ads
 ###buySellAds
 ###buysellads
+###campaign-banner
 ###carbon-ads-container-bg
 ###carbonadcontainer
 ###carbonads
@@ -35323,7 +35361,11 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ###centered-ads-group
 ###centeredads
 ###checkadblockernow
+###chp_ads_blocker-modal
+###chp_ads_blocker-overlay
+###chp_branding
 ###chs_bannerArea
+###close-fixedban
 ###cms_ad_top_banner
 ###comic_reader + #adDisabledBtn
 ###comiis_xizi_gg02
@@ -35333,6 +35375,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ###container > a.block
 ###container > a.item
 ###content_ad
+###content_ad_container
 ###content_adblock_message
 ###contentad
 ###coupletBox
@@ -35352,6 +35395,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ###dgf_pc
 ###diads
 ###dip[href*=".tmall.com"]
+###div-leader-ad
 ###divAd
 ###div_top_ads
 ###downapp1
@@ -35363,6 +35407,8 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ###eis_pad1
 ###eis_pad2
 ###everydayadv_mask
+###extensible-banner
+###fb_300x250
 ###fc_foot > #f_skyf
 ###first-ads
 ###first_ad
@@ -35375,11 +35421,13 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ###floatLeft3
 ###floatRight3
 ###floatad-winpop
+###floatingAdContainer
 ###fnAdblockingOverlay
 ###fnbt
 ###fondAdblock
 ###footad
 ###footads
+###footer-banner
 ###footer_ad
 ###footer_fix_ggw
 ###footerad
@@ -35387,6 +35435,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ###fuo_top_float
 ###fwin_popad_7ree
 ###fwin_popad_7ree + #fwin_dialog
+###gads_middle
 ###game-ad
 ###gamead
 ###gameads
@@ -35518,6 +35567,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ###index_aside_ad
 ###index_banner[src*=".meituan.net"]
 ###index_content_ad
+###interads
 ###j-new-ad
 ###js-ad-map
 ###js-popup-blocker
@@ -35576,6 +35626,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ###miaov_float_layer
 ###micast_ads
 ###midBox > .wrap > .clearfix.mod
+###middle_ad
 ###mini-ad
 ###mobile-ad
 ###mobile-ad-container
@@ -35586,6 +35637,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ###mobile-footer-ad-wrapper
 ###mobile-index > div#vodbm
 ###mobile-index > div[id^="ins"]
+###mobile-swipe-banner
 ###mobileAdContainer
 ###mobile_ad_main
 ###mobile_ads_100_pc
@@ -35677,7 +35729,9 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ###rmp-ad-click-id
 ###rollingadBox > .wrap
 ###sOIcquIT
+###sagdakayan
 ###sc-superman-ad
+###scorecard-ad
 ###search > a[href="/top1.html"]
 ###section-ad
 ###section-ad-bottom
@@ -35688,6 +35742,8 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ###sitefocus.focus
 ###slide_ad
 ###snActive-wrap
+###soldakayan
+###splashy-ad-container-top
 ###sponsorAdDiv
 ###sponsorAdDiv2
 ###sponsorText
@@ -35730,6 +35786,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ###tanx-con-1
 ###tanx-fold-main
 ###taotaole
+###taw > .med + div > #tvcap > .mnr-c:not(.qs-ic) > .commercial-unit-mobile-top
 ###td_tpc > .ads
 ###text-ad
 ###text-ads
@@ -35752,6 +35809,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ###top-ad
 ###top-ads
 ###top-gg-container
+###topBanners
 ###topImgAd
 ###topNavad
 ###top_ad
@@ -35761,8 +35819,10 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ###top_right_ad
 ###topad
 ###toperAd2
+###topstuff > #tads
 ###toptb + div[align="center"]
 ###toptd.toptd
+###total_banner
 ###tr_ad1
 ###tr_ad10
 ###tr_ad11
@@ -35781,11 +35841,13 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ###video-ads
 ###videoADPIC
 ###video_playr_side.video_playr_sider.videoplayerside
+###videopageadblock
 ###vpnModal.nordvpn-popup
 ###whYuTlxF
 ###widget-quan
 ###wp > .V-video-float
 ###wp > .V-videoFloat
+###wp_adbn_root
 ###wrapper > .topad
 ###wrapperBlocker
 ###wrapper_right_bg[target="_blank"]
@@ -35803,16 +35865,25 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ###yahooads
 ###yp-home[role="tabpanel"]
 ##.AD_TAC_BOX
+##.ATF_wrapper
+##.Ad-adhesive
+##.AdCenter
+##.AdPlaceholder
+##.Ad__Wrapper
 ##.AdblockBanner
 ##.AdblockMessage
 ##.AdblockMessage_msg
+##.BetterJsPopOverlay
 ##.BrokenAd
 ##.C1U,.C1M,.C2L,.C2R
+##.ContentAd
 ##.Flagrow-Ads-under-header
+##.GRVVideo
 ##.MacPlayer > #play-pause
 ##.RMss1
 ##.ReadAd
 ##.ReadAd2
+##.SC_TBlock
 ##.Text-Advertising
 ##.TopAds
 ##.TqAdShow
@@ -35846,6 +35917,8 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.abk-img
 ##.abk-item.abk-banner
 ##.above_video_banner
+##.ad--topmobile
+##.ad--wrapper
 ##.ad-1
 ##.ad-300
 ##.ad-LREC2
@@ -35870,21 +35943,28 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.ad-body
 ##.ad-border
 ##.ad-bot
+##.ad-bottom-container
 ##.ad-box
 ##.ad-btn
 ##.ad-button
 ##.ad-card
 ##.ad-cell
+##.ad-cls
 ##.ad-contain
 ##.ad-container
+##.ad-container--leaderboard
 ##.ad-content
 ##.ad-couplet-common
+##.ad-disclaimer-container
 ##.ad-div
+##.ad-dog__cnx-container
+##.ad-engage
 ##.ad-flag
 ##.ad-frame
 ##.ad-frame-container
 ##.ad-grid-apps
 ##.ad-header
+##.ad-horizontal-top
 ##.ad-icon
 ##.ad-iframe
 ##.ad-iframe-container
@@ -35916,17 +35996,20 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.ad-site
 ##.ad-slot
 ##.ad-slot-placeholder
+##.ad-slot-wrapper
+##.ad-space:not(.textads)
 ##.ad-tabSplit
 ##.ad-text
 ##.ad-title
 ##.ad-top
 ##.ad-top-banner
 ##.ad-unit
+##.ad-unit:not(.textads)
 ##.ad-wireframe
 ##.ad-wireframe-wrapper
 ##.ad-wrap
 ##.ad-wrapper
-##.ad-zone
+##.ad-zone:not(.textads)
 ##.ad.mi_btcon
 ##.ad.noadmo
 ##.ad.none
@@ -35951,6 +36034,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.ad590
 ##.ad640x60
 ##.ad960
+##.ad970
 ##.ad990x130
 ##.ad990x90
 ##.adBlock-banner
@@ -35960,6 +36044,9 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.adBlockNotificationOverlay
 ##.adBlockWarning
 ##.adBox
+##.adCenter
+##.adCenterAd
+##.adCentertile
 ##.adClose
 ##.adColumn
 ##.adCont
@@ -35976,6 +36063,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.adHF3
 ##.adHF6
 ##.adHead
+##.adHolder
 ##.adIframe
 ##.adIframeCount
 ##.adImg
@@ -35989,6 +36077,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.adTitle
 ##.adTxt
 ##.adWrap
+##.adWrapper
 ##.ad[style="margin-bottom: 10px; width: 100%;"]
 ##.ad_2
 ##.ad_200
@@ -36034,8 +36123,10 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.ad_news
 ##.ad_pc
 ##.ad_r
+##.ad_register_prompt
 ##.ad_right_1
 ##.ad_right_2
+##.ad_showthread_firstpost_start_placeholder
 ##.ad_side
 ##.ad_side_box
 ##.ad_side_rectangle_banner
@@ -36139,6 +36230,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.adclass
 ##.add-gg
 ##.add300
+##.add_300x250
 ##.addddddwarp
 ##.addtitle
 ##.adfoot
@@ -36148,6 +36240,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.adframe_rectangle
 ##.adguru-modal-popup
 ##.adh5
+##.adheader403
 ##.adiframe
 ##.adlist
 ##.adlistcss
@@ -36169,6 +36262,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.ads-before-content
 ##.ads-bg.ads-bg-home
 ##.ads-block-warning
+##.ads-cont
 ##.ads-content
 ##.ads-footer
 ##.ads-header
@@ -36179,6 +36273,8 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.ads-post
 ##.ads-slot-placeholder
 ##.ads-title + .article-bottom-apps
+##.ads-two
+##.ads-wrapper-top
 ##.ads.flex
 ##.ads1
 ##.ads100
@@ -36195,7 +36291,9 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.ads_box
 ##.ads_content
 ##.ads_desktop
+##.ads_inline_640
 ##.ads_mobile
+##.ads_place_top
 ##.ads_plugin
 ##.ads_slot
 ##.ads_topBanner
@@ -36310,6 +36408,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.adswarning
 ##.adthrive_custom_ad
 ##.adtop
+##.adun
 ##.adv-6park
 ##.adv-banner
 ##.adv-block
@@ -36331,6 +36430,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.adv7
 ##.advBox
 ##.advInfoElem
+##.advMasthead
 ##.adv_box
 ##.adv_left
 ##.adv_right
@@ -36342,24 +36442,37 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.advert-short
 ##.advertise
 ##.advertising_lightbox
+##.adverts_footer_advert
+##.adverts_footer_scrolling_advert
+##.adverts_header_advert
+##.adverts_side_advert
 ##.adwap
+##.adwrap-mrec
 ##.adx-300x250-container
 ##.adx-300x600-container
 ##.adx-ads
 ##.adx-wrapper
 ##.adx-wrapper-middle
 ##.adx_center
+##.ae-player__itv
 ##.afc_popup
 ##.aff-iframe
 ##.affTpllay[style]
 ##.affiliate-mrec-iframe
 ##.afs_ads
 ##.aiboav-ads
+##.ainsyndication
 ##.alert-ad
 ##.alert_windows > .q-card__actions > a
+##.amazon-auto-links
+##.amazon_ad
+##.amp-ad
 ##.amp-ad container
 ##.amp-ad-container
+##.amp-adv-wrapper
 ##.amp_ad
+##.amp_ad_wrapper
+##.aniview-inline-player
 ##.anniversary-wrap-2018
 ##.apd-footer
 ##.apd-home
@@ -36377,6 +36490,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.article > .static-container-4 > .media + .recommendation_widget
 ##.article-ad
 ##.article-ad-box
+##.article-advert-container
 ##.article-pop-up-ad
 ##.article_ad
 ##.articlead
@@ -36391,6 +36505,8 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.ayx[style="display:block;"]
 ##.ayx[style="position: fixed;bottom: -10px;right:0;z-index:999;width:250px"]
 ##.ayx[style^="position: fixed;bottom"]
+##.b-advertising__down-menu
+##.b-header-banner
 ##.b-mobile-spots
 ##.b300 > .h100 > a[href^="http"]
 ##.b3001 > .h100
@@ -36401,6 +36517,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.b_sxp + .zxy
 ##.bads
 ##.baiduad
+##.baners_block
 ##.banner-ad
 ##.banner-ad-section
 ##.banner-advert
@@ -36408,13 +36525,18 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.banner-cctv-Topping
 ##.banner-cctv-style-top
 ##.banner-container-h5 > .banner_all_wrap
+##.banner-player
 ##.banner468
 ##.bannerAd
 ##.banner_ads
+##.banner_header
 ##.banneradv
+##.banners-middle
+##.banners_block
 ##.bdads
 ##.bdyp-sygg-ul
 ##.before_playing_cctv.yc
+##.belowMastheadWrapper
 ##.below_ads
 ##.bg > img[src*=".meituan.net"]
 ##.bhgg
@@ -36462,7 +36584,9 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.bn728-100
 ##.bn728-93
 ##.body > script + div[style*="135px;"]
+##.bodyads
 ##.book > #btmBox
+##.bordered-ad
 ##.bot_ad
 ##.bottom-ad
 ##.bottom-ads-container
@@ -36487,17 +36611,22 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.box-ad
 ##.boxAd
 ##.box_con[style="border-radius:10px;background-color:#ff0000;padding:15px;"]
+##.breakout-ad
 ##.broadcastMe[style="width: 1200px;"]
 ##.btn-ad
 ##.btn.btn-success.text-white[href*=".com:"]
 ##.bus_adsbox
+##.button-ad
 ##.c-ad
+##.c-ad--header
+##.c-adSkyBox
 ##.cailyzad
 ##.california-sticky-footer-ad-container
 ##.callApp_fl_btn[onclick^="open_app"]
 ##.cari-ads
 ##.catflix[style]
 ##.cctv_banner_dv
+##.center-ad
 ##.center-div.sponsor
 ##.centerAd
 ##.cfa_popup
@@ -36517,6 +36646,8 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.comiis_guanggao
 ##.comiis_guanggao_tit
 ##.commentads
+##.commercial-unit-mobile-bottom
+##.commercial-unit-mobile-top
 ##.common-topad
 ##.common_ad
 ##.common_banner[style="width: 100%;"] > a[target="_blank"][style="width: 375px; height: 75px; max-width: 100%; max-height: 75px; display: block; margin: 0px auto; overflow: hidden;"]
@@ -36569,11 +36700,15 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.detectBlockBox
 ##.detected-block-modal
 ##.dfp-ad
+##.dfpAdspot
+##.dfp_ATF_wrapper
 ##.dfp_frame
 ##.dipiao
 ##.dispositifAdblock
 ##.dispositifAdblockContent
 ##.dispositifAdblockMessageBox
+##.div-gpt-ad:not([style^="width: 1px; height: 1px;"])
+##.div_pop
 ##.diysdk_webServices_banners1und1MainContent
 ##.dlad
 ##.downcode[style^="position:fixed;z-index:1000;top:200px;"]
@@ -36616,6 +36751,8 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.feed-ad
 ##.feed-item[data-ad]
 ##.ff-ads
+##.first_post_ad
+##.fixadheightbottom
 ##.fixed-ad-aside
 ##.fixed-ad-bottom
 ##.fixed-ads
@@ -36652,6 +36789,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.footad
 ##.footads
 ##.footer-ads
+##.footer-advertisements
 ##.footerAd
 ##.footer_ad
 ##.footer_adv
@@ -36660,10 +36798,14 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.fuckYouAdBlock
 ##.fuckYouAdBlock2
 ##.full-ad
+##.full-ave-pl
+##.full-bns-block
 ##.full.banners12
 ##.g-ad
 ##.g-slide
 ##.g1_wz > .g1_tp
+##.gads
+##.gallery-bns-bl
 ##.getads
 ##.gg
 ##.gg-box
@@ -36680,6 +36822,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.gg_sj
 ##.gg_tp
 ##.ggad
+##.ggads
 ##.ggbox
 ##.gggpost-above
 ##.ggpost-below
@@ -36912,6 +37055,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.header-ad-desktop
 ##.header-ad-mobile
 ##.header-ads
+##.header-advert-wrapper
 ##.header-background + style + .index-banner:not([id]):not([style]) > div[class^="swiper"]
 ##.header-blocked-ad
 ##.headerad
@@ -36923,6 +37067,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.hide_ad
 ##.his-sign-cont[data-dysign-adid]
 ##.hlol_ad
+##.home-ad-region-1
 ##.home_ad
 ##.homepage > .wp-none1
 ##.hongbao_hd
@@ -36953,12 +37098,16 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.hzxld
 ##.iHead960x90
 ##.ibtad
+##.idmuvi-topbanner
+##.idmuvi-topbanner-aftermenu
 ##.ima-ad-container
 ##.imagegg-container
 ##.img-cctv.lazyLoad
 ##.imgBox > div[class^="ad"]
 ##.imgad
+##.in-content-ad-wrapper
 ##.inPlayerGGdiv
+##.inarticlead
 ##.index-center-tc-index2.index-center-tc > a
 ##.index-top-aassd
 ##.index-top-ad
@@ -36974,12 +37123,16 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.infomation + #notice_container > .event-notice
 ##.inlinead
 ##.inner-advertise
+##.innerBanner
+##.instream_ad
 ##.it618_firstad_flex
 ##.item-ad
 ##.itopbar + .container
 ##.j-cctv-click
 ##.jav-nav + .bcpic
 ##.jav-nav + .bcpic2
+##.jetblocker-wrapper
+##.jetblocker_overlay
 ##.jingqun_tu
 ##.jq_infoflow_ad_wrap
 ##.jq_mediav_ad_report
@@ -37085,7 +37238,9 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.ksads
 ##.kuandu > .bottommob
 ##.label-ad
+##.lates-adlabel
 ##.layui-container > .app2
+##.leaderboard-ad-component
 ##.left > .b300
 ##.left-ad
 ##.leftad
@@ -37094,6 +37249,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.leftd1 + .rightd1
 ##.leftd2 + .rightd2
 ##.leftd3 + .rightd3
+##.legion_primiswrapper
 ##.leo-container .ssr1
 ##.link > .image[src*=".qhimg.com/"]
 ##.links-topxxx > ul > li
@@ -37108,6 +37264,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.lol-ad
 ##.lol_ad
 ##.look_more_a[onclick^="open_app"]
+##.loop_google_ad
 ##.lyzm-prevent
 ##.m-ContentAd
 ##.m-ad
@@ -37142,7 +37299,9 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.main-content > .a2b3
 ##.main[style="border:#7D8C8E solid 1px;height: 23px;"]
 ##.main_adbalert
+##.main_promo_image_container
 ##.mainbg > #s11navtop
+##.mainholder + div[id][class*=" "] > div[id][class*=" "]
 ##.maomi-content > #main-container > .row.mob40 + .row
 ##.maomi-content > .section-banner
 ##.maomi-content > .section-menu > .row > a[target="_blank"]
@@ -37152,6 +37311,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.mediav-newsfeed-listitem-type-1
 ##.mediavAd_report
 ##.mediavfeed-newsitem
+##.menu-ads
 ##.menutab_ad
 ##.mh-advert
 ##.mi_btcon.ad
@@ -37320,6 +37480,8 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.mpu-ad-river
 ##.mpu-ad-top
 ##.mpu-advert
+##.mrec-scrollable-cont
+##.mrf-adv__wrapper
 ##.msg-adblock
 ##.mx-auto > .grid + .modal
 ##.my-cat.my-cat-header
@@ -37343,14 +37505,19 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.nonepc.mad
 ##.noopenlink.ads
 ##.nordvpn-popup + .sidebar-vpn
+##.notice-ad-wrapper
+##.notice-ad-wrapper + .app-abk
+##.notice-ad-wrapper + .app-abk + .app-text
 ##.nr_all > .m_f_a.sw_sp
 ##.nr_page + div[style="margin:0;padding:0;outline:0"]
 ##.nr_page > [style="width:100%;height:auto;min-height:150px;position:relative;display:block;"][id]
+##.oko-adhesion
 ##.opt > a[target="_blank"] > img[src*=".360buyimg.com"]
 ##.orbui-post
 ##.orbui-site
 ##.overBanner.dowloadBtn
 ##.page > .wp-none1
+##.page-content__advert
 ##.page-wwads
 ##.page[style^="padding-bottom:"] > [classname$="_g"][class$="_g"]
 ##.page[style^="padding-bottom:"] > [id*="_"][classname$="_f"][class$="_f"]
@@ -37360,9 +37527,11 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.pane-emediate
 ##.panel + .ads
 ##.panel > .nav-list > a > dl
+##.parade-ad-container
 ##.partialViewSlider-outerwrapper
 ##.pasuAD
 ##.pause-ad
+##.pb-slot-container
 ##.pc-ads
 ##.pccb > .ng-star-inserted
 ##.pcd_ad
@@ -37382,14 +37551,17 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.player-ads2
 ##.player-bottom-gg
 ##.player-box > [style*="flex; justify"]
+##.player-holder > div.vcover2
 ##.player-info > .recommend-two.recommend-list
 ##.player-news > .news-list
 ##.player-rm > a[href*=".umtrack.com"]
 ##.player-rm > a[href*="/ad.html?url="]
 ##.player-rm > a[target="_blank"]
 ##.player-rm-float
+##.player-section__ad-b
 ##.player-tt-rm.rm-list
 ##.player-tt-rmm
+##.player-wrap > .spot-box
 ##.player_ggw
 ##.player_pic_link > [src*='/player.gif']
 ##.playtop.col-pd
@@ -37409,10 +37581,12 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.post-content > .txt-apps
 ##.post-content > [class^="ads"]
 ##.post-title + .metadata + .entry > div > div > a[href^="/"][href$="/"] > img
+##.post__article-top-ad-wrapper
 ##.postad
 ##.postmessage > #googleFirst
 ##.postmessage > #googleSecond
 ##.pre-play-adv
+##.primis-ad
 ##.privilege-promote
 ##.pro-molnk
 ##.pro1-molnk
@@ -37430,6 +37604,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.promolink-[style="position:relative;width:100%;height:100%;"]
 ##.promtlink_[style="position:relative;width:100%;height:100%;"]
 ##.propa_bottom
+##.puFloatLine > #puFloatDiv
 ##.pub_300x250
 ##.pure-g[onclick*="float"]
 ##.push-bottom-container[clickmode="cpt"]
@@ -37448,10 +37623,13 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.read-container [onclick='goAppHtml();']
 ##.readerListADbox
 ##.readmidad
+##.reclamTable
 ##.recommended-grids > .file[style="margin: 5px 2px 5px 2px;"]
+##.rectangle_ad
 ##.relative > div > img[sizes="100vh"][width="0"]
 ##.remove-adblock-msg
 ##.remove-ads
+##.remove-spots
 ##.right > .b300
 ##.right > .content > .ads
 ##.right-ad
@@ -37467,6 +37645,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.row > .top-af-container
 ##.row > [class$="_b"][data-group][data-show="ok"]
 ##.row > [class^="col"] > [class$="_b"][data-group][data-show="ok"]
+##.roxot-dynamic
 ##.rt_ad
 ##.rtcenter_game
 ##.samBannerUnit
@@ -37488,24 +37667,36 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.sideadverts
 ##.sidebar-ad
 ##.sidebar-ads
+##.sidebar-ads-container
+##.sidebar-big-box-ad
 ##.sidebarAd
 ##.sidebar_ad
 ##.single-ad
+##.single-ad-banner
 ##.slide-ad
 ##.slide-hd > ul > li > a
 ##.slider-ad[adid]
 ##.sp_ad_box_top
 ##.space-y-6 > .advertising
+##.special-ads
 ##.spon-img[src*=".alicdn."]
+##.sponsor-div
 ##.sponsor-popup
 ##.sponsor-text
 ##.sponsor_popup
+##.sponsored-home-page-inner
+##.sponsored-items
 ##.sponsored-tag
 ##.sponsored-text
 ##.spot_nav_under_ad
 ##.ssr1
 ##.standard-article-vertical-ad
 ##.static-a2d
+##.stky-ad-footer
+##.story-ad
+##.storyAd
+##.story__top__ad
+##.stripper > a[href*="istripper"] > img
 ##.stui-vodlist__thumb.lazyload[href^="http"][target="_blank"]
 ##.stui-vodlist__thumb.lazyload[href^="http"][target="_blank"] + .stui-vodlist__detail
 ##.subject_link[href$="/thread-index-fid-1-tid-12848.htm"]
@@ -37520,6 +37711,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.t5[style="border:1px solid #a6cbe7;"] + .t[style="margin-top:8px"]
 ##.tab-content + .col-pd
 ##.tads
+##.td-a-rec
 ##.td-header-ad-wrap
 ##.test-adblock-overlay
 ##.text-ad
@@ -37536,9 +37728,13 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.thumb-nat-ad
 ##.title > .gg
 ##.title-ad
+##.tjads
 ##.tm-ad
 ##.tmall_ad_container
 ##.tmall_bg15
+##.tncls_ad
+##.tncls_ad_250
+##.tncls_ad_300
 ##.tonglanad
 ##.toolbar-gg
 ##.tooltip > #tp
@@ -37547,16 +37743,25 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.top-a2db[data-group]
 ##.top-ad
 ##.top-ads
+##.top-ads-amp
 ##.top-ads-container
 ##.top-ads-content
+##.top-ads-mobile
 ##.top-adv
+##.top-adv-app
+##.top-banners
 ##.top-bar-adblock
 ##.top-float-box
 ##.top-gg
+##.top-header-ads-mobile
 ##.top-meta > .moj-content
+##.top-r-ads
 ##.top-read-ad
+##.top-site-ad
+##.top250Ad
 ##.top960
 ##.topAD
+##.topAd
 ##.topSponsor
 ##.top_ad_ban
 ##.top_ads
@@ -37570,6 +37775,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.topadbox
 ##.topads
 ##.topbanner + .nav + .banner
+##.topbannerad
 ##.toy52_outer
 ##.toy52apparel_ALL
 ##.tp_advertising
@@ -37579,6 +37785,8 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.trc_rbox_border_elm .syndicatedItem
 ##.trc_rbox_div .syndicatedItem
 ##.trc_related_container div[data-item-syndicated="true"]
+##.trend-card-advert
+##.trend-card-advert__title
 ##.twavt-ads
 ##.txp_ad[data-role="txpad-interact-pause"]
 ##.txp_ad_center
@@ -37587,27 +37795,40 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.under-player-ad-mobile
 ##.under_player > div[class*="lg:hidden"]
 ##.van-tab__panel > .noTop.main-content > .group-content
+##.van_taboola
+##.van_vid_carousel
+##.vertbars
 ##.vg-overlay-pause
+##.video-ad-item
 ##.video-ads-container
+##.video-brs
 ##.video-holder > a[target="_blank"] > img[src*=".360buyimg.com"]
 ##.video-info-aux + div[style^="border-radius: 5px;"]
 ##.video-inline-ads
 ##.video-item-ads
 ##.video-player > .gg-bg-cover
+##.video.ad-w
 ##.video_details > .banner
+##.videojs-hero-overlay
+##.videos-ad
+##.view-ads
+##.view-video-advertisements
 ##.vodads
 ##.vp-project-home > .ads-container
 ##.w-full > .banner.el-carousel
 ##.w-mobileadbanner
 ##.w100b > .m_adv
 ##.wbalist_thumb[style*="/upload/site/"]
+##.wc-adblock-wrap
 ##.wd-adunit
 ##.wemziguanggao
 ##.wf_ad_block
+##.wgAdBlockMessage
 ##.wide-ads-container
 ##.widget-ad
 ##.widget-ads
 ##.widget-qianhuiji
+##.widget-sidebar-right-banner
 ##.widget-topadding
 ##.widget-xlxba
 ##.widget_ad_rotator
@@ -37630,7 +37851,9 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.wp.a_h
 ##.wp_adblock_detect
 ##.wp_headline + .ad1
+##.wpcnt > .wpa
 ##.wpcom_ad_wrap
+##.wps-player__happy-inside
 ##.wrap + #btmBox
 ##.wrap + #midBox
 ##.wrap > #btmBox
@@ -37639,6 +37862,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.wrapper > a[target="_blank"] > .ads
 ##.wrapper-ad
 ##.wrapper-header-ad-slot
+##.wrapper-player > div.before-player
 ##.wrapper_ad
 ##.wrapper_advertisement
 ##.wrapperad
@@ -37665,10 +37889,12 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.yahooads
 ##.yan-sponsored
 ##.yd_ad
+##.yt-ad-com
 ##.yueduad1
 ##.yuepa-list
 ##.yuepa-warp
 ##.zdhf
+##.zergnet-widget
 ##.zeus-ad
 ##.zeusAdWrapper
 ##.zeusAd__container
@@ -37690,6 +37916,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##A.gotoclick[adv_id]
 ##A.toptxt[target='_blank']
 ##A.wrapper_bg_c.hidden-xs
+##AD-SLOT
 ##ASIDE[id^='custom_html-']
 ##A[href*=".com/?Agent="]
 ##A[href*='-fghgdf.com']
@@ -38573,6 +38800,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##a[onclick*="/dasp.php?a="]
 ##a[onclick*="91黄播"]
 ##a[onclick*="open"] > img[src*=".dailygn.com/"]
+##a[onclick*="openAuc();"]
 ##a[onclick*="博彩"]
 ##a[onclick*="同城"]
 ##a[onclick*="外接'"]
@@ -38635,8 +38863,12 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##body .has-ad
 ##body > #app > .adv-frame
 ##body > #loading[style="display: none;"] + noscript + #app
+##body > #overover[style="position: fixed; width: 100%; height: 100%; background: silver; z-index: 2; opacity: 0.1; display: block;"] ~ #obrazek
+##body > #overover[style="position:fixed;width:100%;height:100%;background:silver;z-index: 2;opacity: 0.1;"]
+##body > #overover[style="position:fixed;width:100%;height:100%;background:silver;z-index: 2;opacity: 0.1;"] ~ #obrazek
 ##body > #showcloneshengxiaon
 ##body > .ec-ad
+##body > .top-advert
 ##body > A[ontouchstart='this.click();'][href]
 ##body > DIV[class][style='top: 132px;']
 ##body > DIV[class][style='top: 133px;']
@@ -38666,6 +38898,9 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##body > [style^="position: fixed; z-index: 100; display: block; left: 0px; width: 36px;"]
 ##body > a[id*='hudie_']
 ##body > div#bottommob.bottommob
+##body > div#dontfoid
+##body > div#fixedban
+##body > div.demo-wrapper[style="display:none;"] + div[id][class]
 ##body > div[class$="c"][style="bottom: 135px;"]
 ##body > div[class$="h"][style="bottom: 135px;"]
 ##body > div[class$="m"][style="display: block; width: 100%; height: 135px;"]
@@ -38686,6 +38921,9 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##body > div[id^="a17"] > div[id^="u17"]
 ##body > div[style$="background: #000;opacity:0.01;"]
 ##body > div[style="display:none;"] + div[style="display:none;"] + div[id][class][style^="background-color:"]
+##body > div[style="position: fixed; display: block; width: 100%; height: 100%; inset: 0px; background-color: rgba(0, 0, 0, 0); z-index: 300000;"]
+##body > div[style^="position: fixed; inset: 0px; z-index: 2147483647; background: black; opacity: 0.01;"]
+##body > div[style^="position:fixed;inset:0px;z-index:2147483647;background:black;opacity:0.01"][style*=";cursor:pointer"]:empty
 ##body > embed[id][src*="://"][src$="="]
 ##body > embed[id][src^="https:///"]
 ##body > script + *[id][class][classname]
@@ -38916,6 +39154,8 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##div[data-adunit-path]
 ##div[data-adunit]
 ##div[data-adzone]
+##div[data-clickadilla-banner]
+##div[data-e2e="advertisement"]
 ##div[data-element="empty"][data-izone="main"]
 ##div[data-google-query-id]
 ##div[data-id-advertdfpconf]
@@ -38926,6 +39166,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##div[data-spotim-slot]
 ##div[id$="1"][class$="1"][style="height: auto;"]
 ##div[id$='ad1'][class^='text'],div[id$='ad2'][class^='text'],div[id$='ad3'][class^='text'],div[id$='ad4'][class^='text'],div[id$='ad5'][class^='text'],div[id$='ad6'][class^='text']
+##div[id*="ScriptRootN"]
 ##div[id*="_"][classname$="_f"][class$="_f"]
 ##div[id*="playerAdvLayer"][class="adv-layer"]
 ##div[id*="po-s0"] > div > div[class^="jsv"] > div[class^="container-"] > .row > [class*="col-sm"] > a[rel="noopener nofollow"]
@@ -38937,6 +39178,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##div[id][style="width: 100%;"] > div > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[id][style="width: 100%;"] > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[id][style="width: 100%;"] > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
+##div[id^="M"][id*="Composite"]
 ##div[id^="MarketGid"]
 ##div[id^="a-loading-"] > span
 ##div[id^="ad_thread"]
@@ -39014,7 +39256,10 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##header + .container > .ads:first-child
 ##header + main > div[class$=" block"][id="rd0"][data-v-app]
 ##hl-adsense
+##html > div[class][style^="pointer-events: none; position: absolute; top: 0px; left: 0px; width:"]
+##html > div[style="position: fixed; inset: 0px; z-index: 2147483647; pointer-events: auto;"]
 ##html.wap [style='left: 40%;']
+##html[data-lt-installed="true"] > body[style=""] img[style="width: 100%;max-width: 728px;"]
 ##iframe.ad-frame
 ##iframe[data-src*="//a.magsrv.com/"]
 ##iframe[id^="google_ads_frame"]
@@ -39070,6 +39315,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##iframe[src*="//go.xxxviijmp.com"]
 ##iframe[src*="//go.zybrdr.com"]
 ##iframe[src*="//its.fusrv.com/"]
+##iframe[src*="//mmmdn.net/"]
 ##iframe[src*="//rtbrenab.com/get"]
 ##iframe[src*="//syndication.exoclick.com"]
 ##iframe[src*="//tfosrv.com"]
@@ -39114,7 +39360,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##iframe[title="Advertisement"]
 ##iframe[title="广告"]
 ##iframe[width="0"][height="0"]
-##iframe[width="100%"][height="120"]
+##iframe[width="100%"][height="120"]:not([src*="bandcamp.com"])
 ##iframe[width="100%"][height="90"]
 ##iframe[width="104"][height="464"]
 ##iframe[width="200"][height="240"]
@@ -39377,6 +39623,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##section.global_video_bottom_dbtc
 ##section.wrap > section.f0
 ##section[class^="container"][class*="section section-relate-"] > [class^="content"][class*="relate"]
+##section[data-e2e="advertisement"]
 ##span > A[href='###']
 ##span > video[poster*="-1316632262.cos.ap-"]
 ##span > video[poster*="cos.ap-"][poster*="myqcloud.com"][poster*="13"]
@@ -39452,7 +39699,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ~xxgxw.com##div[id^="C"][style*="height:"][class^="C"]
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1546
+!<<<<<放行白名单>>>>>1548
 #@##adblocktest
 #@#.has-ad
 012.tw#@#.ad728
@@ -40384,6 +40631,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 @@||penducado.com/styles/ads.css
 @@||petrochina.com.cn/advertisement_
 @@||piaotia.com/scripts/readindex/tongji.js
+@@||pic-tv6s.4p68.com^
 @@||piccool.com/2home/phpAdsNew/
 @@||pics.porndroids.com^
 @@||pinduoduo.com/advert/$~third-party
@@ -40701,6 +40949,7 @@ beanfun.com#@#.ad-slider
 bestech.sk,live.fc2.com#@#img[width="320"][height="50"]
 bfmusic.com.tw,workercn.cn#@#.ad_content
 bgr.in#@#.add-box
+bilibili.com#@#.is-rcmd > div:only-child
 bitauto.com#@#a[href^="http://ad.doubleclick.net/"]
 biznetvigator.com#@##container_ad
 blog.zhheo.com#@##footer-banner
