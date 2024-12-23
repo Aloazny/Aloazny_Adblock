@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 5lrpa3RunbqNHwi2eIlfbw
+! Checksum: 4FfOfxa2bAbVx7kVpUL0Qw
 ! Title: Aloazny Mobile fiter
-! Version: 20241222203117
+! Version: 20241223091912
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-12-22 20:31:17
-! Total Count: 79212
-! Blocked Filters: 79212
+! Last modified: 2024-12-23 09:19:12
+! Total Count: 79215
+! Blocked Filters: 79215
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock.txt?ref=main
 
 
-!<<<<<域名规则>>>>>29714
+!<<<<<域名规则>>>>>29718
 |http$third-party,script,domain=kinotut.tv
 |http*://$image,third-party,domain=rmdown.com
 |http*://$script,third-party,domain=stream2watch.org,badfilter
@@ -1572,6 +1572,7 @@
 ||4etsr.xyz^
 ||4f1fca8377.2ea4fb5aea.com^
 ||4f8df84dbf.c43257dc0f.com^
+||4fr.icu^
 ||4fs3r.icu^
 ||4gamer.net/css/pr/SP_topjack.css
 ||4gamers.com.tw/ads-
@@ -16220,6 +16221,7 @@
 ||kweriod.top^
 ||kwflvcdn.000dn.com^*.flv
 ||kwgqaqf.icu^
+||kwilmid.top^
 ||kwiqcoh.icu^
 ||kwo-0115.cc^
 ||kwongwah.com.my/wp-content/plugins/dibs_engine/js/dibs_popup.js
@@ -18580,6 +18582,7 @@
 ||nczsks.com/SCWB/WebResource.axd
 ||ndbaxn.xyz^
 ||ndfsl.com^
+||ndlwtl.icu^
 ||ndqcz0e.xyz^
 ||ndthdte125.shop^
 ||ndthdtr586.shop^
@@ -22003,6 +22006,7 @@
 ||ruralrobin.com^$third-party
 ||ruranews.com^
 ||rusnext.ru/advar.js$script
+||rusnuiyu.com^
 ||rusticaula.com^
 ||rusticprice.com^$third-party
 ||ruten.com.tw/js/gads_
@@ -67059,7 +67063,7 @@ $xmlhttprequest,third-party,domain=swiftload.io
 .xyz/svelte?$third-party
 .xyz/ttdlyqbff/*/*.gif?$third-party,image
 .xyz/ty/*-*-*$third-party
-.xyz/ty/*-*-*.$third-party,~image,~script
+.xyz/ty/*-*-*.$third-party,~image,~stylesheet
 .xyz/ty/*-*.alpha$third-party
 .xyz/ty/*-*.blpha$third-party
 .xyz/upload/ad/
@@ -68373,7 +68377,7 @@ $xmlhttprequest,third-party,domain=swiftload.io
 /ikanfan/i.js
 /im/im.js?sk=
 /im_jerky?vlmi=$domain=redgifs.com
-/image/20*-*-*/*/$domain=618846.xyz|6180074.xyz|6181029.xyz
+/image/20*-*-*/*/$domain=6180074.xyz|6180100.xyz|6180101.xyz|6180102.xyz|6180103.xyz|6180104.xyz|6180105.xyz|6180106.xyz|6180107.xyz|6180108.xyz|6180109.xyz|6180110.xyz|6180111.xyz|6180112.xyz|6180113.xyz|6180114.xyz|6180115.xyz|6180116.xyz|6180117.xyz|6180118.xyz|6180119.xyz|6180120.xyz|6180121.xyz|6180122.xyz|6180123.xyz|6180124.xyz|6180125.xyz|6180126.xyz|6180127.xyz|6180128.xyz|6180129.xyz|6180130.xyz|6180131.xyz|6180132.xyz|6180133.xyz|6180134.xyz|6181029.xyz|618712.xyz|618713.xyz|618714.xyz|618715.xyz|618721.xyz|618722.xyz|618723.xyz|618724.xyz|618726.xyz|618727.xyz|618731.xyz|618733.xyz|618734.xyz|618735.xyz|618736.xyz|618737.xyz|618738.xyz|618739.xyz|618740.xyz|618741.xyz|618742.xyz|618743.xyz|618744.xyz|618745.xyz|618747.xyz|618748.xyz|618749.xyz|618750.xyz|618751.xyz|618753.xyz|618846.xyz
 /image/20*-*-*/*/$other
 /image/20*-*-*/*/$~image,~stylesheet,third-party
 /image/affiliate/*
@@ -69730,7 +69734,7 @@ yhdm*.com/js/wap2-jm-ms.js?ver=
 zhaotianbao1.cn/*/ywy*.apk$~third-party
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>4843
+!<<<<<通用Css规则>>>>>4842
 ###ADbox
 ###ADtip
 ###Ad-Container
@@ -73952,7 +73956,6 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##div[class="swiper-container swiper-initialized swiper-horizontal swiper-ios swiper-backface-hidden"]
 ##div[class="v-banner"][style]
 ##div[class] > div[class][style^="box-sizing: border-box; position: relative; left: 0px; z-index: 2147"]
-##div[class] > span + img[src*=".xyz"]
 ##div[class] > span[class$="c334b347"],div[class] > span[class$="c1e4819c"]
 ##div[class] > ul > li > a[href][alt$="博彩"][target="_blank"]
 ##div[class] > ul > li > a[href][alt$="新葡京"][target="_blank"]
