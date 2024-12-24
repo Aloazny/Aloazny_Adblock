@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: W4aD3T9exMVgdl2EQEx5ow
+! Checksum: nuM+GRVOcC2cb9PwX8wVzA
 ! Title: Aloazny Chinese fiter
-! Version: 20241224091722
+! Version: 20241224203240
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-12-24 09:17:22
-! Total Count: 41271
-! Blocked Filters: 41271
+! Last modified: 2024-12-24 20:32:40
+! Total Count: 41283
+! Blocked Filters: 41283
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>17820
+!<<<<<域名规则>>>>>17828
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|cyxse.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.360118.com|m.37zw.net|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zwdu.com
 |http://*.cn/ad/
@@ -7515,6 +7515,7 @@
 ||hfc195b.com^$third-party
 ||hfctx.cn^
 ||hffxc.com^
+||hfisngksng.com^
 ||hfjk3wa.com^
 ||hfjmvr.xyz^
 ||hfjsliu.top^
@@ -9184,6 +9185,7 @@
 ||k5uj.icu^
 ||k7f67a6s7.xyz^
 ||k99.cc^$third-party
+||k9u.icu^
 ||k9w4m.xyz^
 ||kafuzcxr.xyz^
 ||kagdf.com^
@@ -13613,6 +13615,7 @@
 ||shunlianhudong.com^
 ||shuowan.com/Public/shuo/20160119/569dafddd13be.jpg
 ||shutseashore.com^$third-party
+||shuucerz.com^
 ||shuyu2001.cn^
 ||shuzilm.cn^
 ||shyseed.com^$third-party
@@ -13628,6 +13631,7 @@
 ||sihbb.com/yang/
 ||sikapo.top^
 ||sikaq.top^
+||sikncs.com^
 ||silentcredit.com^$third-party
 ||silentwrench.com^$third-party
 ||siliconslow.com^$third-party
@@ -14586,6 +14590,7 @@
 ||tgdopodk.com^
 ||tgfyq.cn^
 ||tggsd07.com^
+||tghrfv.icu^
 ||tgidskii.top^
 ||tgrpzl.xyz^
 ||tgwfaz.icu^
@@ -14843,6 +14848,7 @@
 ||touvxlii.top^
 ||tovppl.cn^
 ||toweringrun.com^$third-party
+||towmfs.com^
 ||tp.sgcn.com^
 ||tp1902abd.com^
 ||tp4sul.jwzd.com.cn^
@@ -16234,6 +16240,7 @@
 ||wwggnaw.xyz^
 ||wwgqqq.com^
 ||wwhsxwow.xyz^
+||wwilmie.top^
 ||wwjtdjj.cn^
 ||wwkh9ku.xyz^
 ||wwursere.top^
@@ -16449,6 +16456,7 @@
 ||xbiquge99.cc/js/dj
 ||xbiqugela.com/js/basisc.
 ||xbookcn.org/scripts/my_*.js
+||xbqg6.com/*.php
 ||xbtw.com^
 ||xbyoujv.icu^
 ||xc.macd.cn^
@@ -17837,7 +17845,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>14148
+!<<<<<网站单独规则>>>>>14152
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torkitty.net|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.one|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.cc|xiaoxintv.com|xiaoxintv.net|xiaoyakankan.com
@@ -21339,6 +21347,8 @@ computerbild.de###mrec_btf
 computerbild.de##.bannerBtfContainer
 computerbild.de##.bannerContainer
 computerbild.de##.mrecContainer
+computerhoy.20minutos.es##div[class^="home_containerAdSlot__"]
+computerhoy.20minutos.es##section[class^="home_spacingBlock"] aside[class^="region-section-aside_"]:has(> div[class^="region-section-aside"] > div[class^="ad-slot_container__"])
 conobie.jp##.ads-grey-area
 contents.internet.apps.samsung.com##.page-bar
 context.reverso.net,krautundrueben.de,irasutoya.com##.mobilead
@@ -28543,6 +28553,7 @@ rbc.ru##.banners__mobile-freeze
 rbc.ru##.fox-fallback
 rbc.ru##.g-banner__main
 rbc.ru##.g-banner__main__width-240+div[class="g-tabletVisible"]
+rbc.ru##.js-rbcslider .g-mobile-visible:has(> div.g-mobile-visible > div.simple-promo-card)
 rbc.ru##div[data-role="fox-tail"]
 rbc.ua##.adsens-wrap
 read.qidian.com##.operation-wrap
@@ -29776,6 +29787,7 @@ tgrthaber.com,turkiyegazetesi.com.tr,mavikadin.com##.footer-sticky-ad
 tgrthaber.com.tr##.detay-kare-container
 th7.cn###PcPoPmarket
 th7.cn##.main > .mb5
+thaich.net##.adsen
 the-ans.jp##.banner-list-item > a:not([href*="the-ans.jp"])
 the-boys.fandom.com##.cnx-main-container
 the-boys.fandom.com##div.notifications-box
