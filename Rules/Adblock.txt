@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 2cQ0wPJCWLGOpMkXJUguPg
+! Checksum: TvO3kre2oYBNFbEuAU8/RA
 ! Title: Aloazny Mobile fiter
-! Version: 20241223203435
+! Version: 20241224091847
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-12-23 20:34:35
-! Total Count: 79208
-! Blocked Filters: 79208
+! Last modified: 2024-12-24 09:18:47
+! Total Count: 79230
+! Blocked Filters: 79230
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock.txt?ref=main
 
 
-!<<<<<域名规则>>>>>29721
+!<<<<<域名规则>>>>>29733
 |http$third-party,script,domain=kinotut.tv
 |http*://$image,third-party,domain=rmdown.com
 |http*://$script,third-party,domain=stream2watch.org,badfilter
@@ -6014,6 +6014,7 @@
 ||bee.nfte.app^
 ||bee.shelveholidays.co.uk^
 ||beeg.com/xmlrpc.php^
+||beenedsl.com^
 ||beephone.com.tw/ad-middle.php
 ||beephone.com.tw/ad-yahoo.php
 ||beerfaucet.io/promo/300×250.gif
@@ -7216,6 +7217,7 @@
 ||cd7211716b.935eadb976.com^
 ||cda.pl/xml/pool.php
 ||cda.pl/xml_pool/*pool*.php
+||cda7k-ddok.com^
 ||cdazjxso.xyz^
 ||cdcc8b193b.cc1063ceba.com^
 ||cdcqee.com^
@@ -10930,6 +10932,7 @@
 ||ewerilxw.top^
 ||eweriow.top^
 ||ewfsef.com^
+||ewilmiw.top^
 ||ewjhic.cn^
 ||ewqeq23.fun^
 ||ewqws55.fun^
@@ -14327,6 +14330,7 @@
 ||images.sohu.com/bill/
 ||images.sohu.com/cs/
 ||images.sohu.com/ytv/*.jpg
+||images.whoer.com/image/*.gif
 ||images.worldofshowjumping.com^
 ||images8.gaotie.cn^
 ||imageshh.com^
@@ -14902,6 +14906,7 @@
 ||iwwmaq.xyz^
 ||ix.sparkleagings.com^
 ||ix2.deepsexvids.com^
+||ix4.icu^
 ||ixelrsd.cn^
 ||ixisivomer.com^
 ||ixjtpbj.cn^
@@ -15339,6 +15344,9 @@
 ||jochenanabata.guru^
 ||joemonster.org/build/js/prebid_*.js
 ||joggingavenge.com^$third-party
+||johojima.com/wp-content/uploads/*/bn_*.jpg
+||johojima.com/wp-content/uploads/*/bnr_*.jpg
+||johojima.com/wp-content/uploads/*/cropped-johojima_fabicon-*.jpg
 ||join.rtbzone.com^
 ||join.xlgirls.com^$third-party
 ||joinads.me^$third-party
@@ -22349,6 +22357,10 @@
 ||sass.hk/images/hengfu.jpg
 ||sass.hk/js/ggcn.js
 ||sass.hk/plus/mytag_js.php?aid=
+||sat.cellordion3.net^
+||sat.dipamaid.net^
+||sat.fevilsor5.net^
+||sat.terithrow2.net^
 ||satchel.rei.com/packages/adobe-target^
 ||satfyxbt.icu^
 ||satisfaction399.fun^
@@ -29738,7 +29750,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>36342
+!<<<<<网站单独规则>>>>>36347
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe.com,badfilter
 $image,third-party,denyallow=cdn77.org|fpbns.net|others-cdn.com|rncdn7.com|sb-cd.com|stream.highwebmedia.com|upsiloncdn.net|xvideos-cdn.com|youjizz.com|ypncdn.com,domain=pussyspace.com|pussyspace.net
@@ -31620,7 +31632,6 @@ $xmlhttprequest,third-party,domain=swiftload.io
 91porny.com##.container-fluid.p-0[class*="mb-"]
 91porny.com##.jsv-g1
 91porny.com##.mobile-jsv-bottom,.mb-3.p-0,.d-sm-none,.mb-0.p-0
-91porny.com##.row > div.colVideoList:has(> div.video-elem > a[target="_blank"])
 91porny.com##A.display.d-block[href^='http'],A.display.d-block[href^='http'] ~ *
 91porny.com,gb.9a07j.com,gb.9a07q.com,gb.9a07s.com,j300.jstv9168.com,zero.9a07s.com###playerJsvLayer.jsv-layer
 91porny.com/api/getPos?jspath=/
@@ -39964,6 +39975,7 @@ esopot.pl,lowiczanin.info,gwarek.com.pl,tyna.info.pl,tusochaczew.pl,myglogow.pl,
 esos.gr##.pane-ad-manager
 espn.co.uk##.BettingOdds
 espn.com##.mod-outbrain
+espn.com##.sponsored-content
 espncricinfo.com##.adSlotCnt
 espncricinfo.com##.ci-story-content-ad
 esport.aftonbladet.se#$#body > #abMasterContainer{top:0px;}
@@ -42553,8 +42565,8 @@ gelbooru.com##div[style$="width: 300px;"]
 gelbooru.com##div[style="text-align: center; padding: 10px; border: 1px dotted #aaaaaa; margin: 10px;"]
 gelbooru.com##div[style^="width: 728px; height: 90px"]
 gem021.com##+js(set-constant, document.bridCanRunAds, true)
-gematsu.com##div[id^="ad-container-"]
 gematsu.com##iframe[data-src^="https://www.play-asia.com/"][data-src*="iframe_banner-"]
+gematsu.com,overwatch.op.gg##div[id^="ad-container-"]
 gemiadamlari.org##body > .normal + div[id][class*=" "]
 gendai.media###first-rectangle
 gendai.media##.ad-1st-rectangle
@@ -46067,6 +46079,7 @@ ipacrack.com#$##myTestAdd { height: 1px !important; }
 ipad.hotnews.ro###ci-div-banner
 ipadforums.net##.mainContent > div.sectionMain.funbox
 ipadforums.net##.pageContent > div.sectionMain.funbox
+ipaidia.gr##.inarticle-add
 ipalibrary.me#$#.adsbygoogle.ads_above_banner { display: block !important; height: 1px !important; }
 ipalibrary.me#$#ins.adsbygoogle[data-ad-slot] { display: block !important; height: 1px !important; }
 ipcelou.com##.MODBanana
@@ -53821,6 +53834,7 @@ overclockers.ru##.container-block.woback:has(> div > ins[data-revive-zoneid])
 overclockers.ru##.container-block:has(> div[id^="yandex_rtb"])
 overdrive.in##.add2
 overseries.tv##.pcShow
+overwatch.op.gg##.SideContent > div[id]:has(> div[id^="ad-container-"])
 overwatch.pl#$#.adlabel.advertbox3.bottomAd.mini-ad.rightAd.sky_advert.top_ad_game { display: block !important; }
 overwatch2-news.apexlegends-leaksnews.com##.ad_inserter_08
 ovo.kyodo.co.jp##div[style$="bottom: 0; width: 100%; display: block; text-align: center; background-color: #000000;"]
@@ -56546,8 +56560,8 @@ regielive.ro#$#body a.AdContainer { display: block !important; }
 regionalwolfenbuettel.de,regionalgoslar.de##.mobile-ad1
 reidoplacar.com##+js(no-setTimeout-if, .innerHTML)
 rejabar.republika.co.id##img[width="320px"][height="100px"]
-rekidai-info.github.io##+js(no-setTimeout-if, , 3000)
-rekidai-info.github.io##+js(no-setTimeout-if, /\(\)=>\{(?:const|let|var)|location/)
+rekidai-info.github.io##+js(no-setInterval-if, , 1000)
+rekidai-info.github.io##+js(no-setInterval-if, /\(\)=>\{(?:const|let|var)|location/)
 rekkerd.org#$#.td-background-link { cursor: auto !important; }
 relampagomovies.com##+js(no-setTimeout-if, nextFunction)
 relevantmagazine.com##.ad-supported
@@ -60694,6 +60708,7 @@ theridgefieldpress.com,thetelegraph.com,beaumontenterprise.com,bigrapidsnews.com
 theroar.com.au##.pm-ad-unit
 thesaurus.com##.ftsp
 thesaurus.com##aside[id*="_serp_"][id*="tf_"][class]
+thesaurus.com##div[id^="thesaurus_"][style]
 thesaurus.com#?#aside[class^="css-"] > aside[class^="css-"] > aside[class^="css-"]:has(> div[id^="thesaurus_serp_"])
 thesaurus.weblio.jp##.adThesaurus
 thescore.com##.articles-sidebar > .tablet-big-box
@@ -62348,6 +62363,7 @@ unique-tutorials.info,getintopc.com,solvetube.site,tech-platform.info##+js(abort
 unique-tutorials.info,getintopc.com,solvetube.site,tech-platform.info##+js(set-constant, qckyta, false)
 unischolarz.com##.et_pb_sticky_module > a[target="_blank"] img
 unishort.com##+js(abort-on-property-read, showInPopup)
+unite.pvpoke.com##div[id^="nitro-unite-"]
 united.com##aside[class^="app-components-MyUnited-Landing-styles__chaseAd"]
 united.com##div[class^="app-components-HomeTop-homeTop__adPlacement"]
 unitpedia.com##.container > div[class^="mb-"]:has(> div[style] > ins.adsbygoogle)
@@ -63819,6 +63835,8 @@ whnews.cn###gd_l
 whnews.cn###gd_r
 whnyd.com##div[style*="height: 115px"]
 who.is##.home-video-blurb
+whoer.com##a[href^="https://whoer.com/api_"]
+whoer.com##div[class]:has(> div[class] > img[alt="close"])
 whoer.net##.rightsimple
 whois.com##.chiclet
 whois.com##.chiclet-suggest
@@ -64520,7 +64538,6 @@ x3cn.com###portal_block_12045
 x3cn.com##div[style="margin:3px auto"] + table
 x6d.com,xiaodao0.com##a[href^="/ad."]
 x6g.com##.addd
-x9av1.com,jsav2.com##.row > div.colVideoList:not(:has(> div.video-elem > a[href^="/video"]))
 xanim.az###myrekopen
 xanim.az###rightmenu > a[href="http://mp3sayt.az"]
 xanimeporn.com##+js(abort-on-property-read, openpopup)
@@ -66083,7 +66100,7 @@ zzztube.com,videoporn.tube,pornogram.tv,icegay.tv,24porn.com,gayporno.fm,gaymale
 zzzyk.com###Tinfo
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>3645
+!<<<<<通配符规则>>>>>3646
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe.com,badfilter
 $image,third-party,denyallow=cdn77.org|fpbns.net|others-cdn.com|rncdn7.com|sb-cd.com|stream.highwebmedia.com|upsiloncdn.net|xvideos-cdn.com|youjizz.com|ypncdn.com,domain=pussyspace.com|pussyspace.net
@@ -67373,7 +67390,7 @@ $xmlhttprequest,third-party,domain=swiftload.io
 /^https:\/\/x?1337x\.(?:eu|g3g\.sbs|gd|to|se|unblockit\.name|st)\/(?:css\/)?(?:images\/)?[0-9a-z]+\.(?:gif|jpe?g|png)/$image,~third-party,domain=1337x.st|1337x.to|1337xx.to|x1337x.eu|x1337x.ws|1337x.unblock2.xyz
 /^https:\/\/zz\d{4}bb\d{4}\.com/$third-party,image
 /^https?:\/\/(.+?\.)?videogamesblogger\.com\/wp-content\/uploads\/.*[a-zA-Z0-9]{8,}\.*/$badfilter
-/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{5,16}\.[a-z]{3,7}\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/\d{4,6}(?:\?[_v]=\d+)?$/$subdocument,script,xmlhttprequest,third-party,match-case
+/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{5,16}\.[a-z]{3,7}\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/\d{4,6}(?:\?[_a-z]=[0-9a-z-]+)?$/$subdocument,script,xmlhttprequest,third-party,match-case
 /^https?:\/\/(?:www\.|[a-z0-9]{7,10}\.)?[a-z0-9-]{5,}\.(?:com|bid|link|live|online|top|club)\/\/?(?:[a-z0-9]{2}\/){2,3}[a-f0-9]{32}\.js/$script,xmlhttprequest,third-party
 /^https?:\/\/([0-9a-z\-]+\.)?(9anime|animeland|animenova|animeplus|animetoon|animewow|gamestorrent|goodanime|gogoanime|igg-games|kimcartoon|mangapanda|mangareader|memecenter|readcomiconline|toonget|toonova|watchcartoononline)\.[a-z]{2,4}\/(?!([Ss]cripts|[Uu]ploads|[Ii]mages|assets|combined|content|cover|img|static|thumbs|wp-content|wp-includes))(.*)/$image,other,script,~third-party,xmlhttprequest,badfilter
 /^https?:\/\/([0-9a-z\-]+\.)?(9anime|animeland|animenova|animeplus|animetoon|animewow|gamestorrent|goodanime|gogoanime|igg-games|kimcartoon|memecenter|readcomiconline|toonget|toonova|watchcartoononline)\.[a-z]{2,4}\/(?!([Ss]cripts|[Uu]ploads|[Ii]mages|assets|combined|content|cover|img|static|thumbs|wp-content|wp-includes))(.*)/$image,other,script,~third-party,xmlhttprequest,badfilter
@@ -69550,6 +69567,7 @@ $xmlhttprequest,third-party,domain=swiftload.io
 ://rou*/_next/static/chunks/pages/home-$~third-party
 ://s.*srv.com/*.php?idzone=$third-party
 ://s.htkk*.top:$script,third-party
+://sat.*.net/*/script.min.js?sub_1=
 ://seai*/ads/float.js
 ://shiold*.zhaosw.com$script
 ://tj.*.icu/*.js?17$script,third-party
@@ -69731,7 +69749,7 @@ yhdm*.com/js/wap2-jm-ms.js?ver=
 zhaotianbao1.cn/*/ywy*.apk$~third-party
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>4843
+!<<<<<通用Css规则>>>>>4847
 ###ADbox
 ###ADtip
 ###Ad-Container
@@ -72485,6 +72503,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.row > .top-af-container
 ##.row > [class$="_b"][data-group][data-show="ok"]
 ##.row > [class^="col"] > [class$="_b"][data-group][data-show="ok"]
+##.row > div.colVideoList:has(> div.video-elem > a[target="_blank"])
 ##.roxot-dynamic
 ##.rt_ad
 ##.rtcenter_game
@@ -73880,6 +73899,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##div.container > div.row div.yalayi_box
 ##div.container.ff-bg > div.row.ff-row.slide
 ##div.content > div[style] > div[class="photo-two"]
+##div.da > a > img.lazyload
 ##div.down-list > ul > [href]
 ##div.down-list > ul > li > dt
 ##div.fadeInDown[id$="____equal"][class$="____equal"]
@@ -74114,7 +74134,6 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##header + #main:nth-child(n+4) .container-fluid.mb-3.p-0
 ##header + #main:nth-child(n+4) > div[id^="po-s"]:not(#po-shd)
 ##header + .container > .ads:first-child
-##header + main > div[class$=" block"][id="rd0"][data-v-app]
 ##hl-adsense
 ##html > div[class][style^="pointer-events: none; position: absolute; top: 0px; left: 0px; width:"]
 ##html > div[style="position: fixed; inset: 0px; z-index: 2147483647; pointer-events: auto;"]
@@ -74280,6 +74299,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##img[alt="小孩小呦女"]
 ##img[alt="广告"]
 ##img[alt="开云体育"]
+##img[alt="开元"]
 ##img[alt="成人二次元"]
 ##img[alt="成人抖音"]
 ##img[alt="成人抖音破解"]
@@ -74301,6 +74321,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##img[alt="蜜桃"]
 ##img[alt="賢者同盟"]
 ##img[alt="足博"]
+##img[alt="足博体育"]
 ##img[alt="重口味视频"]
 ##img[alt="重口社"]
 ##img[alt][src$=".mp3"]
@@ -74505,6 +74526,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##span[id$="top_gg"]
 ##span[id] > div[id][style*="no-repeat;"][style*="/"][style*="100%"]
 ##span[id^="ezoic-pub-ad-placeholder-"]
+##span[onclick="this.parentNode.style.display='none';"]
 ##span[onclick^="window"][onclick$=".RD();"]
 ##span[style*="393px"][style*="0px 0px"][style*="border-image-source:url"]
 ##span[style^="cursor: pointer;"][style*="z-index: 2147483647;display: block;"]

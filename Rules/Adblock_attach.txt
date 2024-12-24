@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: dNJdER4o20wlVK46GVK5lg
+! Checksum: WrxymYdpd9NygbIkYCHoFQ
 ! Title: Aloazny attach fiter
-! Version: 20241223203247
+! Version: 20241224091702
 ! Expires: 12 hours (update frequency)
-! Last modified: 2024-12-23 20:32:47
-! Total Count: 17257
-! Blocked Filters: 17257
+! Last modified: 2024-12-24 09:17:02
+! Total Count: 17261
+! Blocked Filters: 17261
 ! Description: 合并混合规则的补充规则，轻量规则，可作为补充规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -13044,7 +13044,7 @@ yhdm*.com/js/wap2-jm-ms.js?ver=
 zhaotianbao1.cn/*/ywy*.apk$~third-party
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>3906
+!<<<<<通用Css规则>>>>>3910
 ###ADbox
 ###Ad-Container
 ###Ad-Content
@@ -16334,6 +16334,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##div.container > div.row div.yalayi_box
 ##div.container.ff-bg > div.row.ff-row.slide
 ##div.content > div[style] > div[class="photo-two"]
+##div.da > a > img.lazyload
 ##div.down-list > ul > [href]
 ##div.down-list > ul > li > dt
 ##div.flex-1.order-first > DIV.under_player
@@ -16705,6 +16706,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##img[alt="小孩小呦女"]
 ##img[alt="广告"]
 ##img[alt="开云体育"]
+##img[alt="开元"]
 ##img[alt="成人二次元"]
 ##img[alt="成人抖音"]
 ##img[alt="成人抖音破解"]
@@ -16726,6 +16728,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##img[alt="蜜桃"]
 ##img[alt="賢者同盟"]
 ##img[alt="足博"]
+##img[alt="足博体育"]
 ##img[alt="重口味视频"]
 ##img[alt="重口社"]
 ##img[alt][src$=".mp3"]
@@ -16905,6 +16908,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##span[id$="top_gg"]
 ##span[id] > div[id][style*="no-repeat;"][style*="/"][style*="100%"]
 ##span[id^="ezoic-pub-ad-placeholder-"]
+##span[onclick="this.parentNode.style.display='none';"]
 ##span[onclick^="window"][onclick$=".RD();"]
 ##span[style*="393px"][style*="0px 0px"][style*="border-image-source:url"]
 ##span[style^="cursor: pointer;"][style*="z-index: 2147483647;display: block;"]
