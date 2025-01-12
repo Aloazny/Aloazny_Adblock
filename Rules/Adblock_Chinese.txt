@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: mVHUT3I9vFbRiesqZUJEMA
+! Checksum: AE+Tz1auGPkZLer310Odgg
 ! Title: Aloazny Chinese fiter
-! Version: 20250111203132
+! Version: 20250112092409
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-01-11 20:31:32
-! Total Count: 40908
-! Blocked Filters: 40908
+! Last modified: 2025-01-12 09:24:09
+! Total Count: 40915
+! Blocked Filters: 40915
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>17339
+!<<<<<域名规则>>>>>17343
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|cyxse.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.360118.com|m.37zw.net|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zwdu.com
 |http://*.cn/ad/
@@ -5835,6 +5835,7 @@
 ||eileenjaney.com^
 ||eiphrut.com^
 ||eiqsky.xyz^
+||eisnaisv.com^
 ||eitilbyr.com^
 ||eiuoom.xyz^
 ||eiv.baidu.com^
@@ -12092,6 +12093,7 @@
 ||puffypull.com^$third-party
 ||puffypurpose.com^$third-party
 ||pufhzpt.cn^
+||puhmtt.icu^
 ||pumpedpancake.com^$third-party
 ||pumpedpurpose.com^$third-party
 ||pungar85.shop^
@@ -14427,6 +14429,7 @@
 ||tnc3-bjlgy.snssdk.com^
 ||tnc3-bjlgy.zijieapi.com^
 ||tnc3-bjlgy.zijieapi^
+||tndbnriz.icu^
 ||tnebxv.top^
 ||tnfno.icu^
 ||tngmn.com^$third-party
@@ -14553,6 +14556,7 @@
 ||trenhdg.com^$third-party
 ||trf6b.top^
 ||trfmxf.xyz^
+||tridroin.com^
 ||trimmoits.com^
 ||trip.com/partners/ad/
 ||tristoshink.online/libs/check.js
@@ -17356,7 +17360,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>14169
+!<<<<<网站单独规则>>>>>14172
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torkitty.net|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.one|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.cc|xiaoxintv.com|xiaoxintv.net|xiaoyakankan.com
@@ -19665,6 +19669,7 @@ baidu.com,bdimg.com,tieba.com##.shield-agent-tb-feed
 baidu.com,bdimg.com,tieba.com##.thread_item_box:has(div[class*=" fc-"])
 baidu.com,bdimg.com,tieba.com##div.thread_item_box[style="position: relative;"]
 baidu.com,jingyan.baidu.com##.rel-exp-feed-ad-item
+baidu.com,mbd.baidu.com##[data-log-view*="swan-ad-fc-ad-item"]
 baidu.com,mbd.baidu.com##div[class^="_"][style="visibility: visible;"]
 baidu.com,wk.baidu.com##div.fengchaoWrap
 baidu.com,xvideos.com##[class$="-ads"]
@@ -22537,6 +22542,7 @@ gamewith.jp##.bbs-banner-ad
 gamewith.jp##.c-rectangle-ad-placeholder
 gamewith.jp##.c-sp-leaderboard-ad-overlay
 gamewith.jp##.js-jack-ad
+gamewith.jp##.overlay-creative-ad
 gamicsoft.com##.mobileAd-slider
 gamicsoft.com##A[onclick*="'Advertisement"]
 gamicsoft.com##A[onclick*="'Advertisement"] + .absolute
@@ -24643,8 +24649,6 @@ kanxihe.com##div[class="bndnbugs"]
 kaolashuwu.com###ZF_tanchuang_p_right
 kaolashuwu.com###newmodule
 kaoyan1v1.com###showAD
-karapaia.com##.article-list-recommend
-karapaia.com##.content > header::after
 kb.kkyuyin.com,baike.sm.cn##.bk-disclaimer-wrapper
 kb.kkyuyin.com,baike.sm.cn##.bk-gg-block.bk-gg-fixed
 kd120.com##div:not([id]):not([class]):not([style]) > div:not([id]):not([class]):not([style]) > iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]:not([src^="http://www.facebook.com/"])
@@ -27551,7 +27555,9 @@ playtv.com.cn##table[id] > tbody > tr > td[colspan="2"][width^="32"]
 playunturned.ru##.side_left > center
 playunturned.ru##.side_right > center
 playzuan.com###ShouYe_ShangBu
+plaza.rakuten.co.jp##.blogBody > table[border="0"]:has(a[href^="https://hb.afl.rakuten.co.jp/ichiba/"][rel^="nofollow sponsored"] > img)
 plaza.rakuten.co.jp##.pr01
+plaza.rakuten.co.jp##div[id^="div-plaza-point-ad-"]
 plicy.net##.adGamepageHeaderBase
 pln-pskov.ru###check_ad_block
 pluggedin.ru##a[target="_blank"][href^="https://ads.adfox.ru"] > img
@@ -29553,6 +29559,7 @@ tptoon.com##span[style^="position:fixed; bottom:30vh;"]
 track718.com##.track-adsense-ad
 track718.com##.track-search-ad
 trackr.fr##.alert-dashed
+trailrunner.jp##.side_banner_sm_box
 transfer.smt.docomo.ne.jp##.d2c_header[style="height:250px"]
 transit.yahoo.co.jp###posNM
 transit.yahoo.co.jp##.posMMON
