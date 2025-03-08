@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: MPqfAlhFbrgqgbF0V7MHZA
+! Checksum: jcHoIT2mnsqMeszPtA0MDg
 ! Title: Aloazny Chinese fiter
-! Version: 20250307203341
+! Version: 20250308090447
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-03-07 20:33:41
-! Total Count: 41336
-! Blocked Filters: 41336
+! Last modified: 2025-03-08 09:04:47
+! Total Count: 41347
+! Blocked Filters: 41347
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>17218
+!<<<<<域名规则>>>>>17228
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|cyxse.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.360118.com|m.37zw.net|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zwdu.com
 |http://*.cn/ad/
@@ -3705,6 +3705,7 @@
 ||bxackzj.icu^
 ||bxheifoe.icu^
 ||bxlmrl.xyz^
+||bxlulr.icu^
 ||bxmazls.icu^
 ||bxoaeju.icu^
 ||bxqgk.icu^
@@ -5522,6 +5523,7 @@
 ||duouoo.com/vss/wz
 ||duoying.vip^$third-party
 ||dup.baidustatic.com^
+||dupzbh.icu^
 ||dushiyanqing.net/mobile/lib/ccppcc.js
 ||dustydime.com^$third-party
 ||dustyhammer.com^$third-party
@@ -6057,6 +6059,7 @@
 ||exinariuminix.info^
 ||exoav.com/nb/nt.js
 ||exoclick.com^$third-party
+||exocoed.top^
 ||exosrv.com^
 ||expansioneggnog.com^$third-party
 ||expertvaz.ru/wp-content/plugins/helper/inc/jquery.mobileInterestial
@@ -7610,6 +7613,7 @@
 ||hltfs.com/222*.js
 ||hltfs.com^$script,third-party
 ||hltoon.com/hanman/static/dist/ppm/js/foot
+||hltpdd.icu^
 ||hlzncxmu.icu^
 ||hlzyb.cn^
 ||hm.baidu.com^
@@ -8764,6 +8768,7 @@
 ||jivvjl.xyz^
 ||jixiangxianbao.cn^$~third-party
 ||jixmlx.xyz^
+||jixurt.icu^
 ||jiyingdm.com/js/loadingshow.html
 ||jizxnr.xyz^
 ||jjade.xyz^
@@ -11144,6 +11149,7 @@
 ||nqoxurf.icu^
 ||nqyrywn.icu^
 ||nrbwzh.icu^
+||nrgv.cn^
 ||nrj.fr/nrj?Page=/rg.fake&
 ||nrjzkj.cn^
 ||nroeoxk.icu^
@@ -12334,6 +12340,7 @@
 ||qnvod.net/qna/
 ||qnvwjpr.icu^
 ||qo2.fun^
+||qogonsuqq.com^
 ||qogrux.com^
 ||qoilbsfwqd.net^
 ||qonbibff.icu^
@@ -13851,6 +13858,7 @@
 ||stragmik.com^
 ||straightnest.com^$third-party
 ||strakuty.com^
+||stralotsb.com^
 ||strangeclocks.com^$third-party
 ||strangesink.com^$third-party
 ||stream.pcradio.ru/list/message/notifications_v2.json
@@ -14274,6 +14282,7 @@
 ||thumbor.4gamers.com.tw/*/*ads-media*.png
 ||thumbor.prod.vidiocdn.com/*/uploads/section/background_image/*/rejoice-vidio-drakor-gratis-*.jpg
 ||thunnqyo.com^
+||thustilpn.com^
 ||thvx9i.icu^
 ||thyn.renzhen8.cn^$third-party
 ||thztv.*/tool/
@@ -17060,6 +17069,7 @@
 ||ziweuu.com^
 ||ziyuanm.com/js/g11.js
 ||zj-yxw.com^
+||zjen.cn^
 ||zjg.js.cn/Public/config/Couplet/Index4
 ||zjgfq.com^$third-party
 ||zjib0.icu^
@@ -17235,7 +17245,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>14497
+!<<<<<网站单独规则>>>>>14498
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torkitty.net|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.one|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.cc|xiaoxintv.com|xiaoxintv.net|xiaoyakankan.com
@@ -21385,7 +21395,6 @@ douxie.com##.ndxBanner
 douxie.com##.ndxChdjBox
 douyin.com###videoSideBar iframe
 douyin.com##[class*='h5-ad-']
-douyu.com###js-player-toolbar > .PlayerToolbar
 douyu.com###sign_p_1
 douyu.com##.BargainingKit
 douyu.com##.IconCardAdBoundsBox
@@ -21404,7 +21413,6 @@ douyu.com##.imageItem-wrap[style="width: 287px; height: 559px;"]
 douyu.com##.isLink[href^="https://igxe.cn/"]
 douyu.com##.layout-Main > section.layout-Customize
 douyu.com##.layout-Slide-banner:not([href*="douyu"])
-douyu.com##.liveActivityCommonPendant
 douyu.com##.row-4.theatre
 douyu.com##.row.row-3
 douyu.com##.tab-content.promote
@@ -23001,6 +23009,7 @@ h1g.jp##div[align="center"] > a[href^="https://hb.afl.rakuten.co.jp/"]
 h1g.jp##div[id^="div_fam_async_"]
 h1g.jp##div[style$="width:300px; height:250px; text-align:center;"]
 h1g.jp##div[style*="width:336px; height:280px"]
+h2ch.com##.data-role-page > center
 h2ch.com##div[style="background-color:#eee;width:100%;height:50px;"]
 h5.17k.com##.bottom_banner
 h5.ikbook.xyz,wap.mhtxs.cc,www.gdqrcloud.com##img[style*="width:100%;"]
@@ -24973,6 +24982,7 @@ league-funny.com##.widgetBox.w300600
 league-funny.com##.widgetBox.w728Bottom
 league-funny.com##div[class^="clone_pmp"]
 league-funny.com##div[class^="dan_pmp"]
+league-funny.com##img[alt="M_bottomFixedBanner"]
 league-funny.com,~51job.com,~sinchew.com,~sinchew.com.my##div[id^="div-gpt-ad-"]
 leaked.jp###content-w > div.post > subheading.point
 leaked.jp##.age-sp
@@ -26737,6 +26747,7 @@ mydrivers.com##div[class^="jdong11"]
 mydrivers.com##div[style*="/ad/"]
 mydrivers.com##div[style="margin: auto;width: 800px;padding: 10px 0;"]
 mydrivers.com##div[style^="position:fixed;left:50%;bottom:200px;"]
+mydrivers.com,news.mydrivers.com##.baidu_left
 mydrivers.com,wmzhe.com##a[href*=".jd.com/"]
 myexception.cn##.c_a_3
 myexception.cn##.m_a
@@ -26951,7 +26962,6 @@ news.lyd.com.cn##td[width="300px"] > table[width="300"] > tbody > tr:nth-last-ch
 news.m.pchome.com.tw##div[class^="showad_"]
 news.milli.az##.quiz-holder > div[style^="margin: 15px auto 15px"] > div[style^="margin"]
 news.milli.az##.quiz-holder > div[style^="margin: 15px"] > .hidden-lg
-news.mydrivers.com##.baidu_left
 news.mydrivers.com##div[style="width:1000px;padding-top:16px;padding-bottom:12px;"]
 news.mynavi.jp##.articleList_list > li.articleList_listNode:has(div[id^="div-gpt-ad"])
 news.nifty.com##.pr
@@ -31216,6 +31226,7 @@ yan.vn##.sticky_bottom
 yandex.*##.justifier__col > div.incut
 yandex.*##.tiled-images__items > div[class*="rim-direct-incut"]
 yandex.*##body > div.serp_js_inited.main .serp-list > .serp-item:has(span.organic__advLabel)
+yandex.*##div[class*="-Card_behavioralDirect"]
 yandex.*##div[class^="Direct "]
 yandex.*##div[id^="Direct"]
 yandex.*##html > body div[id^="ADVERT"]
