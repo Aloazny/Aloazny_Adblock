@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         移除广告内嵌脚本
 // @namespace   https://greasyfork.org/zh-CN/users/1373566
-// @version      1.4.9.9
+// @version      1.5
 // @license      MIT
 // @description  这是一个由AI生成的脚本，通过关键词匹配来移除网页中的内嵌广告脚本。不能保证100%成功，可以在脚本菜单中管理排除的网页和关键词，脚本已经内置一些常见的关键词，若还有广告，可以自行添加Math.random，platform，navigator，new Function，new Date()尝试去除。
 // @author       copilot & cheatgpt
@@ -52,6 +52,7 @@
         '/image/202${scripts[Math.random()',
         '"https://"+Date.parse(new Date())+',
         '"https://"+(new Date().getDate())+',
+        'https://{randomstr}.',
         'new Function(t)()',
         'new Function(b)()',
         'new Function(\'d\',e)',

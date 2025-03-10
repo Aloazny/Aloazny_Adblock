@@ -49,6 +49,7 @@
         '/image/202${scripts[Math.random()',
         '"https://"+Date.parse(new Date())+',
         '"https://"+(new Date().getDate())+',
+        'https://{randomstr}.',
         'new Function(t)()',
         'new Function(b)()',
         'new Function(\'d\',e)',
