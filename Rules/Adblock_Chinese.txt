@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: sk12w0PY0veG+w6t/lhVEg
+! Checksum: TwQbfxRyy3ghO2lC+OCXYQ
 ! Title: Aloazny Chinese fiter
-! Version: 20250314091900
+! Version: 20250314203340
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-03-14 09:19:00
-! Total Count: 41457
-! Blocked Filters: 41457
+! Last modified: 2025-03-14 20:33:40
+! Total Count: 41474
+! Blocked Filters: 41474
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>17278
+!<<<<<域名规则>>>>>17281
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|cyxse.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.360118.com|m.37zw.net|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zwdu.com
 |http://*.cn/ad/
@@ -11696,6 +11696,7 @@
 ||pdjjrh.xyz^
 ||pdnhcks.xyz^
 ||pdnwbwyf.icu^
+||pdochgl.top^
 ||pdrtcgfx.cn^
 ||pdweigee.com^
 ||pdxdxl.xyz^
@@ -12690,6 +12691,7 @@
 ||res*.pinpai8.cn^
 ||res.cngoldres.com/web/index/img/*_ad_
 ||res.vps234.com/resources/images/hosting-promotion/
+||resevaex.weitietl.com^
 ||resonantbrush.com^$third-party
 ||resonantrock.com^$third-party
 ||resource.baomihua.com^
@@ -16013,6 +16015,7 @@
 ||xazbts.com^
 ||xbbhwggj.icu^
 ||xbfebqya.icu^
+||xbfk.cn^
 ||xbiqu5.com/12345678.
 ||xbiqu5.com/12345678.js
 ||xbiquge99.cc/js/dj
@@ -17295,7 +17298,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>14532
+!<<<<<网站单独规则>>>>>14538
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torkitty.net|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.one|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.cc|xiaoxintv.com|xiaoxintv.net|xiaoyakankan.com
@@ -18430,7 +18433,8 @@ $websocket,domain=wap.yushuwu.cloud
 51zxw.net###video div[class^="adpauseclose"]
 51zxw.net###video div[class^="background"]
 520boxtv.com##.logo_top
-520call.me,520cc.cc,av99.us,bonbonyou.com,hboav.com,in99.org,jav777.xyz,jizz99.com,v.5278.mobi,yocoolnet.in###inplayer
+520call.me,520cc.cc,av99.us,bonbonyou.com,hboav.com,in99.org,jav777.xyz,jizz99.com,surirt.com,v.5278.mobi,yocoolnet.in###inplayer
+520cc.cc##div[id^="myad_alert_"]
 520film.net##.wapimg
 5217kdy1.xyz##.alert-success + center
 5217kdy1.xyz##a[href$="/smsf.php"]
@@ -23600,6 +23604,7 @@ html-js.com##.module[style="padding:0;"]
 html-js.com##a[style^="margin-top:20px;"]
 html-js.com##div[style="margin:10px auto;width:1000px;"]
 htmleaf.com##.htmleaf-adv
+http*://*/resolve?$domain=junhun520.net|junhun520.com|junhun520.app
 httpcn.com##a[href^="http://www.okbmf.com/"] > img
 huaban.com###top_promotion
 huaban.com##.hb-ad
@@ -24721,6 +24726,9 @@ juksy.com##.js-adCoverPopup
 juksy.com##div[ad-uid]
 jumi.tv##a[href^="https://l.tapdb.net/"]
 jumpmatome2ch.biz##.sp-ad
+junhun520.app,junhun520.com,junhun520.net##div.hd_bottom
+junhun520.app,junhun520.com,junhun520.net##div.hd_top
+junhun520.net,junhun520.com,junhun520.app##a[href^="javascript:window.open(atob"]
 juqingba.cn##.jqright1
 jurong.cn##.ad_190_60_5s
 jurong.cn,ld0766.com##.totalad
@@ -29269,6 +29277,7 @@ sports.yahoo.com##div[id^="mrt-node-"][id$="-Ad"]
 sports.yahoo.com##div[id^="sda-"]
 sports.yahoo.com,tw.news.yahoo.com###mrt-node-Lead-1-Ad
 sportsbrief.com,legit.ng##.interscroller
+sportskeeda.com##.ad-in-house-banner-container
 sportsnavi.ht.kyodo-d.jp##.sn-modAd
 sportsv.net##.adv01
 spravportal.ru###div-main-part + div#div-right-part:has(> div#pnlFloating)
@@ -31830,7 +31839,7 @@ zzz.gamers-luck.com##.gamer-sp_postbottom
 zzzyk.com###Tinfo
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>3171
+!<<<<<通配符规则>>>>>3174
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torkitty.net|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.one|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.cc|xiaoxintv.com|xiaoxintv.net|xiaoyakankan.com
@@ -32173,6 +32182,7 @@ $websocket,domain=wap.yushuwu.cloud
 .com/h.html?id=$~third-party
 .com/hanxiucao-$~third-party
 .com/happyxia.js
+.com/hm/*?*=*$third-party
 .com/hx/*/*.gif$third-party,image
 .com/images/102.js
 .com/in/multy$third-party
@@ -32183,6 +32193,7 @@ $websocket,domain=wap.yushuwu.cloud
 .com/java/youxia.js
 .com/java/zuoxia.js
 .com/jjshipin-$~third-party
+.com/jquery.min.js?*=*=$third-party,domain=junhun520.app|junhun520.com|junhun520.net
 .com/js/LAD.js
 .com/js/a_d/
 .com/js/ad_
@@ -34980,6 +34991,7 @@ com:8891/c.php?s=*$third-party
 dingbu.*.*.*/*.add$third-party
 dingbu.*.*.com/dingbu.$third-party
 hanman/static/dist/ppm/js/main.js
+http*://*/resolve?$domain=junhun520.net|junhun520.com|junhun520.app
 hxsame.hexun.com$domain=~quote.hexun.com
 js/yys/Pfhl365.js
 mobi*.*.cam/*_$third-party
@@ -35004,7 +35016,7 @@ yhdm*.com/js/wap2-jm-ms.js?ver=
 zhaotianbao1.cn/*/ywy*.apk$~third-party
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>4952
+!<<<<<通用Css规则>>>>>4955
 ###ADbox
 ###ADtip
 ###Ad-Container
@@ -35949,6 +35961,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ###toptd.toptd
 ###total_banner
 ###tripadvisor-ad
+###txt + br + a[href^="javascript:window.open(atob"]
 ###typead1
 ###typead2
 ###typead3
@@ -36782,6 +36795,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.cfa_popup
 ##.channel_ad_2016
 ##.chapter-appads
+##.chapter-page-btn > a[href^="javascript:window.open(atob"]
 ##.chat-ad
 ##.chat-right-ad
 ##.chat-sysbroadcast-ad
@@ -37202,6 +37216,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.gptslot
 ##.gr_slide_car_inner
 ##.guanggaoBox
+##.guding312
 ##.guruin-ads
 ##.hao123-unionad-pic
 ##.happy-footer
@@ -39959,7 +39974,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ~xxgxw.com##div[id^="C"][style*="height:"][class^="C"]
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1524
+!<<<<<放行白名单>>>>>1526
 #@##adblocktest
 #@#.has-ad
 012.tw#@#.ad728
@@ -40225,6 +40240,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 @@||520cc.cc/jspopunder.
 @@||520cc.cc^*/ad.php
 @@||520click.com/ad.php$domain=520cc.cc
+@@||520click.com/ad.php?id=$script,domain=surirt.com
 @@||52zy.com/gg/
 @@||58.com/adJump?adType=
 @@||58b.tv/static/js/ad.js
@@ -41049,6 +41065,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 @@||sudupan.com^*/*.gif
 @@||suning.cn/project/msIndex/js/??
 @@||supercloudsms.com/js/ad
+@@||surirt.com/ad/ads.php?id=$script,domain=surirt.com
 @@||swsc.com.cn/download/ad_images/
 @@||sxjbjt.com^*/ad
 @@||szhr.com.cn^*ad
