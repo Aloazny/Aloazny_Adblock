@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: KXLhYf+3LfJL4U4oY0mVKg
+! Checksum: sk12w0PY0veG+w6t/lhVEg
 ! Title: Aloazny Chinese fiter
-! Version: 20250313203528
+! Version: 20250314091900
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-03-13 20:35:28
-! Total Count: 41448
-! Blocked Filters: 41448
+! Last modified: 2025-03-14 09:19:00
+! Total Count: 41457
+! Blocked Filters: 41457
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>17272
+!<<<<<域名规则>>>>>17278
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|cyxse.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.360118.com|m.37zw.net|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zwdu.com
 |http://*.cn/ad/
@@ -6454,6 +6454,7 @@
 ||fppcrl.xyz^
 ||fptdxkm.com^
 ||fpvdrzx.xyz^
+||fpxhdx.icu^
 ||fq01.shop^
 ||fq010.shop^
 ||fq02.shop^
@@ -6463,6 +6464,7 @@
 ||fq06.shop^
 ||fq07.shop^
 ||fq67.top^
+||fqbr.cn^
 ||fqghykp.cn^
 ||fqnhjt.icu^
 ||fqpxzr.xyz^
@@ -9882,6 +9884,7 @@
 ||lm865.com^
 ||lm882.com^
 ||lm995.com^
+||lmeurbnjs.com^
 ||lmlmvip.com^
 ||lmnpd.xyz^
 ||lmvotk.cn^
@@ -9978,6 +9981,7 @@
 ||lppgjf.xyz^
 ||lpxmall.com^
 ||lqe3.icu^
+||lqfctb.icu^
 ||lqglqq.com^$third-party
 ||lqjinx.xyz^
 ||lqlwjr.icu^
@@ -16117,6 +16121,7 @@
 ||xiaoz.top/assets/imgurl.js
 ||xiarikui08.com^
 ||xiazaizhijia.com/w2/js/wxzzj.js
+||xielloltv.com^
 ||xiexingcun.com/tongji.js
 ||xiexingcun.com/tyong.js
 ||xiezhuo038.cn^
@@ -17161,6 +17166,7 @@
 ||znnodl.xyz^
 ||znyjmbh.icu^
 ||zodoth.com^
+||zogzoldop.com^
 ||zokjds.com/js/xiao.js
 ||zokzavnea.com^
 ||zol-img.com.cn/ad/
@@ -17289,7 +17295,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>14531
+!<<<<<网站单独规则>>>>>14532
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torkitty.net|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.one|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.cc|xiaoxintv.com|xiaoxintv.net|xiaoyakankan.com
@@ -17821,8 +17827,8 @@ $websocket,domain=wap.yushuwu.cloud
 1amateurporn.com##img[src*="/safu/safu.php?"]
 1anime.me##[class*="ads"],[style*="z-index:"][style*="2000000000"],[style*="z-index:"][style*="5000000"],img[src*="//hgilaryph.com/"],body[style^="padding"] > [style*="130px"],img[width="30"][height="60"]
 1avlang.com,avavl4.com,avlang.com##.index-info > .tac
-1dm9.cc,biquge365.net,cbh1.cc,cbh2.cc,cbh3.cc,cbh5.cc,cdm7.cc,cooing2.xyz,cooing3.xyz,cooingc.cc,cqshuda.com,dldl1.cc,dldl2.cc,dldl3.cc,dldl4.cc,dldl5.cc,douluo.cc,fcmv.cc,fofoyy.com,hantv8.com,hjtv.cc,hjtv2.cc,hjw1.cc,hjw2.cc,koweer.com,mjtt1.cc,omofun.buzz,omofun.link,omofun.live,omofun.top,omofuns.buzz,omofuns.link,omofuns.live,omofuns.top,txtduo.org,xcmv.cc,yhdm28.com,yhdm9.cc,yinghua.im,yinghuadm.cn,yinghuadongman.one,zhenbuka.cc,dm789.com,adm11.com##^script:has-text(new Function)
-1dm9.cc,biquge365.net,cbh1.cc,cbh2.cc,cbh3.cc,cbh5.cc,cdm7.cc,cooing2.xyz,cooing3.xyz,cooingc.cc,cqshuda.com,dldl1.cc,dldl2.cc,dldl3.cc,dldl4.cc,dldl5.cc,douluo.cc,fcmv.cc,fofoyy.com,hantv8.com,hjtv.cc,hjtv2.cc,hjw1.cc,hjw2.cc,koweer.com,mjtt1.cc,omofun.buzz,omofun.link,omofun.live,omofun.top,omofuns.buzz,omofuns.link,omofuns.live,omofuns.top,txtduo.org,xcmv.cc,yhdm28.com,yhdm9.cc,yinghua.im,yinghuadm.cn,yinghuadongman.one,zhenbuka.cc,dm789.com,adm11.com##script:has-text(new Function)
+1dm9.cc,adm11.com,biquge365.net,cbh1.cc,cbh2.cc,cbh3.cc,cbh5.cc,cdm7.cc,cooing2.xyz,cooing3.xyz,cooingc.cc,cqshuda.com,dldl1.cc,dldl2.cc,dldl3.cc,dldl4.cc,dldl5.cc,dm789.com,douluo.cc,fcmv.cc,fofoyy.com,hantv8.com,hjtv.cc,hjtv2.cc,hjw1.cc,hjw2.cc,koweer.com,mjtt1.cc,okdm.cc,okdm.top,okdm2.cc,okdm2.top,okdm3.cc,okdm3.top,okdm4.cc,okdm4.top,okdm5.cc,okdm5.top,okdm6.cc,okdm6.top,omofun.buzz,omofun.link,omofun.live,omofun.top,omofuns.buzz,omofuns.link,omofuns.live,omofuns.top,txtduo.org,xcmv.cc,yhdm28.com,yhdm9.cc,yinghua.im,yinghuadm.cn,yinghuadongman.one,zhenbuka.ccokdm.top##^script:has-text(new Function)
+1dm9.cc,adm11.com,biquge365.net,cbh1.cc,cbh2.cc,cbh3.cc,cbh5.cc,cdm7.cc,cooing2.xyz,cooing3.xyz,cooingc.cc,cqshuda.com,dldl1.cc,dldl2.cc,dldl3.cc,dldl4.cc,dldl5.cc,dm789.com,douluo.cc,fcmv.cc,fofoyy.com,hantv8.com,hjtv.cc,hjtv2.cc,hjw1.cc,hjw2.cc,koweer.com,mjtt1.cc,okdm.cc,okdm.top,okdm2.cc,okdm2.top,okdm3.cc,okdm3.top,okdm4.cc,okdm4.top,okdm5.cc,okdm5.top,okdm6.cc,okdm6.top,omofun.buzz,omofun.link,omofun.live,omofun.top,omofuns.buzz,omofuns.link,omofuns.live,omofuns.top,txtduo.org,xcmv.cc,yhdm28.com,yhdm9.cc,yinghua.im,yinghuadm.cn,yinghuadongman.one,zhenbuka.ccokdm.top##script:has-text(new Function)
 1dm9.cc,cbh1.cc,cbh2.cc,cbh3.cc,cbh5.cc,cdm7.cc,fcmv.cc,hjtv.cc,hjtv2.cc,hjw1.cc,hjw2.cc,koweer.com,mjtt1.cc,xcmv.cc,yhdm28.com,yinghua.im,yinghuadm.cn,yinghuadongman.one,zhenbuka.cc,dm789.com,adm11.com##^script:has-text(new Date)
 1dm9.cc,cbh1.cc,cbh2.cc,cbh3.cc,cbh5.cc,cdm7.cc,fcmv.cc,hjtv.cc,hjtv2.cc,hjw1.cc,hjw2.cc,koweer.com,mjtt1.cc,xcmv.cc,yhdm28.com,yinghuadm.cn,yinghuadongman.one,zhenbuka.cc,dm789.com,adm11.com##script:has-text(new Date)
 1dy.cc##div[class="fed-part-add"]
@@ -19944,7 +19950,6 @@ biggestplayer.me##.masr
 biggestplayer.me##.soret
 bigissue.com##body .-ad
 bigpian.cn,mbyydsu.com,szxljdsb.com##img[style="width: 100%"]
-bigporn.org,pornfulls.com,fullmovies.xxx,pornvideos.gg,pornfilms.xxx,hdporn.gg,txxx.porn,porntube.gg,1porn.tv,freeporn.gg,freepornmovies.net,freeporntube.tv,freesexvideos.xxx,wow.xxx,fullhd.xxx,many.xxx,porner.xxx,fullvideos.xxx,omg.xxx,4kporno.xxx,fullporn.xxx,fullporno.xxx,freepornvideos.xxx##.ft
 bigpuzzle.ru##td[valign="top"][width="200px"][height="600"] > div[style]
 bigpuzzle.ru##td[valign="top"][width="240px"][height="600"]
 biletix.com##.mobile_head_banner
@@ -22442,6 +22447,7 @@ fulibl.cc##.widget_text:last-child
 fulibl.com##.widget_banner
 full-count.jp###c2_click_jera_award_sp_article_end
 full-count.jp##.erase_space-ad ~ p[style="clear:both;"]
+fullpornvideos.xxx,24porn.biz,bigporn.org,pornfulls.com,fullmovies.xxx,pornvideos.gg,pornfilms.xxx,hdporn.gg,txxx.porn,porntube.gg,1porn.tv,freeporn.gg,freepornmovies.net,freeporntube.tv,freesexvideos.xxx,wow.xxx,fullhd.xxx,many.xxx,porner.xxx,fullvideos.xxx,omg.xxx,4kporno.xxx,fullporn.*,fullporno.xxx,freepornvideos.xxx##.ft
 fullyu.com##.rightSide-top-ads
 fun1shot.com##a[href^="https://kenio.cn/"]
 fun48.com###float2016
@@ -23074,6 +23080,7 @@ h1g.jp##div[align="center"] > a[href^="https://hb.afl.rakuten.co.jp/"]
 h1g.jp##div[id^="div_fam_async_"]
 h1g.jp##div[style$="width:300px; height:250px; text-align:center;"]
 h1g.jp##div[style*="width:336px; height:280px"]
+h2ch.com###ad_300x250_source
 h2ch.com##.data-role-page > center
 h2ch.com##div[style="background-color:#eee;width:100%;height:50px;"]
 h5.17k.com##.bottom_banner
@@ -31823,7 +31830,7 @@ zzz.gamers-luck.com##.gamer-sp_postbottom
 zzzyk.com###Tinfo
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>3170
+!<<<<<通配符规则>>>>>3171
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torkitty.net|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.one|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.cc|xiaoxintv.com|xiaoxintv.net|xiaoyakankan.com
@@ -34859,6 +34866,7 @@ $websocket,domain=wap.yushuwu.cloud
 ://tj.*.icu/*.js?17$script,third-party
 ://tpic.*.cn/*.js$third-party
 ://tpic.*.cn/*.txt$third-party
+://url.nb*.xyz^$third-party,script
 ://us-west1.*/*.js#spot=$third-party,script
 ://us-west1.*/api/spots/$third-party
 ://vc.*.*/*.js?17$third-party,script
@@ -34996,7 +35004,7 @@ yhdm*.com/js/wap2-jm-ms.js?ver=
 zhaotianbao1.cn/*/ywy*.apk$~third-party
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>4951
+!<<<<<通用Css规则>>>>>4952
 ###ADbox
 ###ADtip
 ###Ad-Container
@@ -39395,6 +39403,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##div[id="alert_windows"][class*="q-dialog fullscreen"]
 ##div[id="showImages"][style="width: 100%; position: fixed; bottom: 0px; left: 0px; z-index: 2147483647; display: block;"]
 ##div[id="videoMask"]
+##div[id] > .top-flags
 ##div[id] > div[style*='z-index: 2147483647; width: 100vw; background: url']
 ##div[id][style="width: 100%;"] > div > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[id][style="width: 100%;"] > div > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
