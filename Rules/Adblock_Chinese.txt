@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: HjRpL9MtvjcpGGU4ozT+Aw
+! Checksum: 6lJ7C4aKI9IYpwEaByCLTA
 ! Title: Aloazny Chinese fiter
-! Version: 20250328203523
+! Version: 20250329092116
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-03-28 20:35:23
-! Total Count: 41804
-! Blocked Filters: 41804
+! Last modified: 2025-03-29 09:21:16
+! Total Count: 41810
+! Blocked Filters: 41810
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>17446
+!<<<<<域名规则>>>>>17449
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|cyxse.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.2kxs.com|m.360118.com|m.37zw.net|m.50zw.co|m.50zw.la|m.50zww.com|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.diyibanzhu.xyz|m.dpcq1.net|m.duanwenxue.com|m.fhxiaoshuo.com|m.gsdaquan.com|m.gulizw.com|m.gxwztv.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.konlan.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxue6.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xiashu.la|m.xinshula.com|m.xs.la|m.xs222.tw|m.xy48.net|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|m.zhuishubang.com|qihaoqihao.com|wap.xxbiquge.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zwdu.com
 |http://*.cn/ad/
@@ -6879,6 +6879,7 @@
 ||gigafile.nu/images/banner/kbus_375x100.png
 ||gigkarma.com^$third-party
 ||gimy.*/images/eee*.png
+||giphaudoq.com^
 ||giraffepiano.com^$third-party
 ||gitcrumbs.com^$third-party
 ||githubusercontent.com/vip888vip/ug/main/*.gif
@@ -14728,6 +14729,7 @@
 ||trustedcpmrevenue.com^
 ||truthfulsensor.com^
 ||trutvnci.top^
+||truuhmoen.com^
 ||truvidplayer.com^$domain=technews.tw
 ||truxalsl.com^
 ||truxedku.com^
@@ -15536,6 +15538,7 @@
 ||vueegqt.xyz^
 ||vugjyr.icu^
 ||vuhbgtsi.xyz^$third-party
+||vuhf.cn^
 ||vuhidf.cn^
 ||vuirssd.icu^
 ||vujzkkz.cn^
@@ -17463,7 +17466,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>14604
+!<<<<<网站单独规则>>>>>14608
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torkitty.net|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.one|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.cc|xiaoxintv.com|xiaoxintv.net|xiaoyakankan.com
@@ -19342,6 +19345,7 @@ anhuinews.com##div[style$="height:40px;overflow:hidden"]
 anifresh.com###minpack-sticker-frame
 anikore.jp##.boardDetail__list > li:has(> div[id])
 anime-bit.ru##.layer_box > #header
+anime-jl.net##a[href="https://animequix.com/"]
 anime.d1dm.xyz,cddys1.me,fcdm23.com,i8k.cc,jiukanju.com,m.pian-ku.com,ppdys.vip,t.bobokele.vip,tvtt1.cc,video.ppys66.com,www.555zxdy.com,www.80yy3.com,www.92kyy.com,www.bczhuiju.com,www.dilidili23.com,www.freeok.run,www.iyf.lv,www.movie553.com,www.mutedm.com,www.ttdm.me##.module-adslist
 anime.eiga.com##.adBoxMid
 anime1.me##div[id^="ad-"] > a
@@ -19500,6 +19504,8 @@ aseannow.com##div[id^="AA_article_"]
 asianetnews.com,pinkvilla.com##.mobileads
 asiangirl.porn##[style*="z-index: 2147"]
 asianpornq.com##.upp
+asilmedia.org###catfishAd
+asilmedia.org##.vvideo-container
 asmag.com.cn###adRightFix
 asmag.com.cn##.adAsMainLeft
 asmr18.fans,jav.direct,jmty.jp,liaoningmovie.net,openloadpro.com##div[style^="width: 300px; height: 250px"]
@@ -25305,9 +25311,9 @@ liantu.cn##.side > .h250
 liantu.cn##.wrapper > .inner.h90
 liaocao.tv,zjsw.org##[onclick]
 liaoningmovie.net##.ad_panelAR
-liaoningmovie.net##.ads-container
 liaoningmovie.net##.list-subCont > li[style$="height: 98px;"]
 liaoningmovie.net##[class^="c-ad"]:not(.c-ad-103)
+liaoningmovie.net,medicalxpress.com##.ads-container
 liaoningmovie.net,video.fc2.com##.hidden-ads-lst
 liaoxuefeng.com###x-sponsor-a
 liaoxuefeng.com###x-sponsor-b
@@ -28232,6 +28238,7 @@ przegladsportowy.onet.pl##.bg-placeholder
 przegladsportowy.onet.pl##aside[class^="Flat"][class*="_placeholder_"]
 przegladsportowy.onet.pl##aside[class^="Right"][class*="_placeholderRight"]
 psdhtml.cn##div[role^="structure_"]
+psimlzqa.org##.video-item:has(a[onclick="return false"])
 psnine.com##center[style="overflow:hidden;"] > a > img
 psy.net.cn,gzzwrh.com,208s.com,zhexin.cn,suiyikan.tv##[ontouchstart^="if(Math.random()"][ontouchstart$="{this.click();}"]
 psy.net.cn,zhexin.cn##div[class="pannel ads_all clearfix"]
@@ -32070,7 +32077,7 @@ zzz.gamers-luck.com##.gamer-sp_postbottom
 zzzyk.com###Tinfo
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>3235
+!<<<<<通配符规则>>>>>3234
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torkitty.net|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.one|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.cc|xiaoxintv.com|xiaoxintv.net|xiaoyakankan.com
@@ -32947,7 +32954,6 @@ $websocket,domain=wap.yushuwu.cloud
 .xyz/*.sdk?$script,third-party
 .xyz/*0*0*==$third-party
 .xyz/*?16$third-party
-.xyz/*?17$third-party
 .xyz/*_*_1_*.js?$third-party
 .xyz/*_*_2_*.js?$third-party
 .xyz//qby_*.js$third-party
