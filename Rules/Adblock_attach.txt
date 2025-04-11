@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: KumHMt6TYTs81mCxjxCaLg
+! Checksum: Mgl2TReEXPmXx+vxS9TpmQ
 ! Title: Aloazny attach fiter
-! Version: 20250411092308
+! Version: 20250411203627
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-04-11 09:23:08
-! Total Count: 18535
-! Blocked Filters: 18535
+! Last modified: 2025-04-11 20:36:27
+! Total Count: 18537
+! Blocked Filters: 18537
 ! Description: 合并混合规则的补充规则，轻量规则，可作为补充规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_attach.txt?ref=main
 
 
-!<<<<<域名规则>>>>>7321
+!<<<<<域名规则>>>>>7322
 |https://m.frgls.com/js/*.js?v=
 ||*ggua.xyz^$third-party
 ||000123456789.online^
@@ -4295,6 +4295,7 @@
 ||myads.cc^
 ||myexpendd.xyz^
 ||myfenxi.com^
+||myfile.sfile.top^$third-party,script
 ||myhaitang.xyz/assets/public/
 ||mykch.top^
 ||mylengmen.com/assets/public/$script
@@ -11578,7 +11579,7 @@ zybang.com##div[id="askTeacher-after-adx-wrap"]
 zzyiwan.com##div[style="width: 100%; overflow: hidden; padding-top: 0px; position: relative; top: 0px; z-index: 9999;"]
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>2497
+!<<<<<通配符规则>>>>>2498
 $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.xyz
 &adZones$xmlhttprequest
 &ad_block=
@@ -11991,6 +11992,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .com:10446/*/get*.html
 .com:13320/js/*.js?v=9$third-party
 .com:18*/*.js?v=17$third-party
+.com:19819/js/*/f*.js?v=
 .com:26579/*/*.json
 .com:28816/*js?v=17$third-party
 .com:7891/stats$third-party
