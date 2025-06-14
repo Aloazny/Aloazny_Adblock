@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 3uUAlXi1GszAwz+rhzttHA
+! Checksum: qOzXBJltQ/Z05P3mHp9ivQ
 ! Title: Aloazny attach fiter
-! Version: 20250614092719
+! Version: 20250614203503
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-06-14 09:27:19
-! Total Count: 18950
-! Blocked Filters: 18950
+! Last modified: 2025-06-14 20:35:03
+! Total Count: 18952
+! Blocked Filters: 18952
 ! Description: 合并混合规则的补充规则，轻量规则，可作为补充规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_attach.txt?ref=main
 
 
-!<<<<<域名规则>>>>>7368
+!<<<<<域名规则>>>>>7370
 |https://m.frgls.com/js/*.js?v=
 ||*ggua.xyz^$third-party
 ||000123456789.online^
@@ -4093,6 +4093,7 @@
 ||mahuashu.com/entry.js
 ||mail-ads.google.com^
 ||mail.kguapp.com^
+||mail.kguapp.com^$~third-party
 ||maiqi.xyz^
 ||maiysw.xyz^
 ||majesticmountainrange.com^$third-party
@@ -6950,6 +6951,7 @@
 ||ybcnvqf.cn^
 ||yber.fourlaile.com^$third-party
 ||ybixvc.top^
+||ybwdy.com/static/js/0614.js
 ||ybwms.cn^$third-party
 ||ycc90.xyz^
 ||ycdywl.com^
