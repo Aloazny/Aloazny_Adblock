@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: rEMgRqM6Sj911hsLpI4X8g
+! Checksum: 2kCH6NYBkx6SZH1QTTvDpA
 ! Title: Aloazny Chinese fiter
-! Version: 20250615094737
+! Version: 20250615203558
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-06-15 09:47:37
-! Total Count: 42936
-! Blocked Filters: 42936
+! Last modified: 2025-06-15 20:35:58
+! Total Count: 42948
+! Blocked Filters: 42948
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>17770
+!<<<<<域名规则>>>>>17782
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|cyxse.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|xntk.net|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,third-party,domain=dlkoo.cc
@@ -1002,6 +1002,7 @@
 ||6080w.com/template/ttk/img/
 ||609999.xyz^
 ||61.10.2.86/dev/xopen.php
+||6109.org^
 ||614514.com^
 ||61hhdp.com^
 ||61mnj.com^
@@ -1068,6 +1069,7 @@
 ||6gxs.net/js/
 ||6hejing.cn^
 ||6iwoif.com^
+||6jyi7mzae.com^
 ||6ku.icu^
 ||6ldu6qa.com^$third-party
 ||6lx.fun^
@@ -4102,6 +4104,7 @@
 ||cdscs990.fun^
 ||cdszgg.xyz^
 ||cdunwi.xyz^
+||cduy.cn^
 ||cdvsd9.com^
 ||cdxyb.cn^$third-party
 ||cdxyspa.com/js/4988.js
@@ -5519,8 +5522,10 @@
 ||dpbgnf.xyz^
 ||dpic.wxddid.cn^$third-party
 ||dpijohb.icu^
+||dpjbpj.top^
 ||dpjzr.top^
 ||dpjzzgw.cn^
+||dpsusqs20.com^
 ||dpw202501.com^
 ||dpw202504.com^
 ||dpweupc.icu^
@@ -5912,6 +5917,7 @@
 ||eignky.xyz^
 ||eildralfl.com^
 ||eileenjaney.com^
+||eilgrairyi.com^
 ||einothepz.com^
 ||einzeaxop.com^
 ||eiphrut.com^
@@ -6156,6 +6162,7 @@
 ||ewurserw.top^
 ||ewvz.cn^
 ||ewxufqs.cn^
+||ewywma.icu^
 ||ex5tsc73m4.xyz^
 ||exampleshake.com^$third-party
 ||excelhome.net/js/banner-
@@ -6314,6 +6321,7 @@
 ||fc.gaizong.cn^
 ||fc.tiepan.cn^
 ||fc.zuixinchao.com^
+||fc09u3zfm.com^
 ||fc2.com/o/o/i/ooiotakara/ad_$script,domain=ooiotakara.com
 ||fc2.com/o/o/i/ooiotakara/ama$script,domain=ooiotakara.com
 ||fc2.com/o/o/i/ooiotakara/apad_rank10_all5_1.js$domain=ooiotakara.com
@@ -8572,6 +8580,7 @@
 ||iqiyi.com/player/common/rebull
 ||iqiyi.com/show2?cb=
 ||iqiyi.com/track
+||iqkrungrikhu.com^
 ||iqnew.com/d/js/m/thea
 ||iqshw.com/d/js/m/thea
 ||iqtucudfff.com^
@@ -9952,6 +9961,7 @@
 ||licai18.com/pic/article/*.gif
 ||lichizhuangshi.com^
 ||lichunxiao.cn^
+||lidrhb.icu^
 ||liebaovip.com^
 ||liepin.com/event/jobadver/
 ||lieqinews.com/json/zhiketj/
@@ -11525,6 +11535,7 @@
 ||odinmak.top^
 ||odipsumk.top^
 ||odxh.cn^
+||odz12g5ag.com^
 ||oehhq.xyz^
 ||oelj.cn^
 ||oeryt111.fun^
@@ -12027,6 +12038,7 @@
 ||phpstudyimg.com/all/xiaojieqiantie.gif
 ||phputils.wc-os.com^
 ||phuustikd.com^
+||phx9cqla2.com^
 ||phxdrf.icu^
 ||pianba.tv/api/web_htmls.js
 ||pianbar.net/JS/bootfloat.js
