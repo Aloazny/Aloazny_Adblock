@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: ELaXfLkane7Fushny284+Q
+! Checksum: /Z8f8zFXYN5luDLXw7P0sg
 ! Title: Aloazny Chinese fiter
-! Version: 20250620093816
+! Version: 20250620203929
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-06-20 09:38:16
-! Total Count: 42995
-! Blocked Filters: 42995
+! Last modified: 2025-06-20 20:39:29
+! Total Count: 43005
+! Blocked Filters: 43005
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>17827
+!<<<<<域名规则>>>>>17836
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,third-party,domain=dlkoo.cc
@@ -3751,6 +3751,7 @@
 ||burgersalt.com^$third-party
 ||burlywhistle.com^$third-party
 ||burnbubble.com^$third-party
+||burniecrepes.com^
 ||burstnet.com^
 ||bushesbag.com^$third-party
 ||business-api.tiktok.com^
@@ -4413,6 +4414,7 @@
 ||cln.willyporn.com^
 ||clobberprocurertightwad.com^
 ||cloisteredcurve.com^$third-party
+||clorso.icu^
 ||closedcows.com^$third-party
 ||closefriction.com^$third-party
 ||cloud-log.yy.com^
@@ -6548,6 +6550,7 @@
 ||fo.zhangbaochang.top^
 ||fo0.icu^
 ||fo0qofhtaw.com^
+||fo1ykm6ph1.com^
 ||foambench.com^$third-party
 ||fobshanghai.com/bbsad/
 ||focas.jp^
@@ -7871,6 +7874,7 @@
 ||hongosi.xn--*.cc$third-party
 ||hongteng.xyz^
 ||hongyingbbs.com/jj/
+||honkellnl.com^
 ||honorablehydrant.com^$third-party
 ||honorableland.com^$third-party
 ||hoodrunner.kiloo.com/newonlinesettings.php?platform=android
@@ -9096,6 +9100,7 @@
 ||jqtnft.xyz^
 ||jquery.envi-met.com.cn^
 ||jrblfv.icu^
+||jrbnxw.top^
 ||jrds.net.cn^
 ||jrj.com.cn/h5Ad?
 ||jrj.com.cn/s?z=
@@ -9328,6 +9333,7 @@
 ||jxtcbriz.icu^
 ||jxtejf.xyz^
 ||jxtest.bolecdn.com/player/*.gif
+||jxtmnp.icu^
 ||jy.zhongxues.com^
 ||jy01.shop^
 ||jy010.shop^
@@ -9543,6 +9549,7 @@
 ||kjnsgqe.icu^
 ||kjuwxmi.xyz^
 ||kjvaqbyebqarl.top^
+||kk3fefl2b3.com^
 ||kkisoo.com^
 ||kkjhgfds.top^
 ||kkjshsj.com^
@@ -9617,6 +9624,7 @@
 ||kokojia.com^$third-party
 ||koljnda.com^
 ||kolsh.cn^$third-party
+||komiic.com/ads/
 ||komoona.com^
 ||kontrolnaya-rabota.ru^*/fuckadblock.$script
 ||kontrolnaya-rabota.ru^*/toastr.$script,stylesheet
@@ -12273,6 +12281,7 @@
 ||postitial.com^$third-party
 ||postserviceuk.com^
 ||postut.cn^$third-party
+||potatosa6.com^
 ||powedw.com^
 ||power.adhacker.online^$third-party
 ||powerlinks.com^
@@ -41443,7 +41452,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ~xxgxw.com##div[id^="C"][style*="height:"][class^="C"]
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1578
+!<<<<<放行白名单>>>>>1579
 #@##adblocktest
 #@#.has-ad
 012.tw#@#.ad728
@@ -42104,6 +42113,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 @@||forums.macg.co/js/audentio/funbox/advertisement.js
 @@||forums.windowscentral.com^$script,~third-party
 @@||fotor.com.cn/static/web/share/js/
+@@||fpyf8.com/88/tag.min.js$domain=wxredian.com
 @@||frandroid.com/ads.js
 @@||free-reseau.fr/css/publicite.css|$stylesheet
 @@||freereceivesms.com/weborama.js
