@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: /Z8f8zFXYN5luDLXw7P0sg
+! Checksum: Bg64tbg7C9jF80fZyt21Zg
 ! Title: Aloazny Chinese fiter
-! Version: 20250620203929
+! Version: 20250621092846
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-06-20 20:39:29
-! Total Count: 43005
-! Blocked Filters: 43005
+! Last modified: 2025-06-21 09:28:46
+! Total Count: 43020
+! Blocked Filters: 43020
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>17836
+!<<<<<域名规则>>>>>17844
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,third-party,domain=dlkoo.cc
@@ -5421,6 +5421,7 @@
 ||dngz.net/x/
 ||dnightwish.xyz^
 ||dnjxds.top^
+||dnokacraldho.com^
 ||dnpz123.com^$third-party
 ||dnrf0215.com^
 ||dns.chuzushijian.cn^$third-party
@@ -7116,6 +7117,7 @@
 ||go.xxxijmp.com^
 ||go.xxxjmp.com^
 ||go.xxxviijmp.com^
+||go22zd6lwm.com^
 ||go2av.com/for_ad/
 ||go2av.com/js/AM.js
 ||go2click.online^
@@ -10854,6 +10856,7 @@
 ||moa06190ju.com^
 ||moa06191ju.com^
 ||moa06200ju.com^
+||moa06201ju.com^
 ||moatads.com.edgekey.net^
 ||moatads.com^
 ||mob*.novanewsapp.com^
@@ -12911,6 +12914,7 @@
 ||rackcdn.com/htv/banners/$domain=hanime.tv
 ||radiantlullaby.com^$third-party
 ||radikal.ru^$domain=18board.com|18p2p.com
+||radishon33.top^
 ||railwayrainstorm.com^$third-party
 ||railwayreason.com^$third-party
 ||rainmaker.production-public.tubi.io^
@@ -14649,6 +14653,7 @@
 ||tgjxzf.top^
 ||tgymhwt.cn^
 ||tgyxpfjws.com^
+||thaadotyvrf.com^
 ||thacreks.com^
 ||thaincoth.com^
 ||thallus.net^
@@ -15563,6 +15568,7 @@
 ||uxmwh0f.xyz^
 ||uxtruz.xyz^
 ||uxxux.com/js/zd.js
+||uy8f8z9uy.com^
 ||uyf1u0x7.xyz^
 ||uyflu0x7.xyz^
 ||uyislot.top^
@@ -15629,6 +15635,7 @@
 ||vbjzdl.top^
 ||vbllxaaj.icu^
 ||vbnmjjda.xyz^
+||vbphograewy.com^
 ||vcaqexl.com^
 ||vcdfsf99.fun^
 ||vcdn.biz/*_mggads/
@@ -17722,6 +17729,7 @@
 ||znlvhnej.icu^
 ||znnfzx.xyz^
 ||znnodl.xyz^
+||zno9qw80o.com^
 ||znyjmbh.icu^
 ||zodoth.com^
 ||zofmhx.icu^
@@ -17853,7 +17861,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>14797
+!<<<<<网站单独规则>>>>>14799
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,subdocument,third-party,domain=dlkoo.com
@@ -28811,6 +28819,8 @@ qaru.site##.similar.a[style]
 qaynarinfo.az##div[style^="width: 320px; height: 100px;"]
 qbaobei.com###diyforumdisplaybottom
 qbaobei.com,kd120.com##.container > .pic_container
+qbxs.com##a[href^="https://mobile.yangkeduo.com/"]
+qbxs.com##div.image-container
 qciss.net###lightbox
 qciss.net###lightbox1
 qciss.net##.container-fluid > #lightbox
@@ -32653,7 +32663,7 @@ zzz.gamers-luck.com##.gamer-sp_postbottom
 zzzyk.com###Tinfo
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>3693
+!<<<<<通配符规则>>>>>3697
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,subdocument,third-party,domain=dlkoo.com
@@ -35467,7 +35477,9 @@ $websocket,domain=wap.yushuwu.cloud
 /script/tj.js
 /scriptjs/float*.js
 /scripts/AdService_
+/scripts/ad/ad*.js
 /scripts/ad/hyou.js
+/scripts/ad/icon.js
 /scripts/ads/*
 /scripts/snstyle.js?v=2$~third-party
 /scrollgg_index.js
@@ -36001,6 +36013,7 @@ $websocket,domain=wap.yushuwu.cloud
 ://*maxshuku.*/*/*.js$domain=maxshuku.com|maxshuku.co|maxshuku.cc|maxshuku.cn|maxshuku.org|maxshuku.la|maxshuku.so|maxshuku.us|maxshuku.info|maxshuku.tw|maxshuku.net|maxshuku.me|maxshuku.app
 ://*mhtxs.*/*/*.js$domain=mhtxs.com|mhtxs.co|mhtxs.cc|mhtxs.cn|mhtxs.org|mhtxs.la|mhtxs.so|mhtxs.us|mhtxs.info|mhtxs.tw|mhtxs.net|mhtxs.me|mhtxs.app
 ://*missav*/pop?url=
+://*mm.com/gif1.php
 ://*mp4*/js/foot.js$script,~third-party
 ://*mp4*/js/wcount.js$script,~third-party
 ://*mp4*/js/wcount.js$~third-party
@@ -36139,6 +36152,7 @@ $websocket,domain=wap.yushuwu.cloud
 ://m.*.top/*.js?ssid=_
 ://m.91zww.com/0x*/0x*.js?v=$~third-party
 ://m.gufengmh*.com/*xuanfu.js
+://meitu*.cc/gif.php
 ://missav*.com/pop?url=
 ://missav*.com/pop?url=$~third-party
 ://mobi*.*.*/*_*?$third-party
@@ -36349,7 +36363,7 @@ zhaotianbao1.cn/*/ywy*.apk
 zhaotianbao1.cn/*/ywy*.apk$~third-party
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>5100
+!<<<<<通用Css规则>>>>>5101
 ###ADbox
 ###ADtip
 ###Ad-Container
@@ -40704,6 +40718,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##div.cell-lr[onclick^="window.open("]
 ##div.chapter-page-btn > style + div[id]:not([class]):not([style])
 ##div.close-player_pic[onclick="document.getElementById('player_pic').style.display='none'"]
+##div.container > .card ~ .tujia
 ##div.container > .spot-wrap
 ##div.container > DIV.t-img-box
 ##div.container > IFRAME[align][width][src][border][height]
