@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 9bZaxaxhbMWtfc+12rF8Iw
+! Checksum: T5QC+uMlk01KNybNR051YA
 ! Title: Aloazny attach fiter
-! Version: 20250628203542
+! Version: 20250629094751
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-06-28 20:35:42
-! Total Count: 18974
-! Blocked Filters: 18974
+! Last modified: 2025-06-29 09:47:51
+! Total Count: 18979
+! Blocked Filters: 18979
 ! Description: 合并混合规则的补充规则，轻量规则，可作为补充规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_attach.txt?ref=main
 
 
-!<<<<<域名规则>>>>>7374
+!<<<<<域名规则>>>>>7377
 |https://m.frgls.com/js/*.js?v=
 ||*ggua.xyz^$third-party
 ||000123456789.online^
@@ -131,6 +131,7 @@
 ||21qma3vs.com^
 ||23.231.151.252^
 ||23dhj4q.com^
+||23hnxs.cc/*/*ll*.js
 ||23jgiy.com^
 ||2431.vainews.cn^
 ||24klm.cn^
@@ -3651,6 +3652,7 @@
 ||kanjuw.net/js/js*.js
 ||kanshuzhan.com/*/analytics.js
 ||kanwby.com^
+||kanying.co/statics/js/$script
 ||kaosts.com^
 ||kart2ks.icu^
 ||kasdwergv.com^
@@ -6908,6 +6910,7 @@
 ||xxsmad2.com^
 ||xxsmad4.com^
 ||xxsmcps.com^
+||xxsmtz*.com^
 ||xxsywxj.com^
 ||xxtalp.xyz^
 ||xxx18.uno/dist/app.js
@@ -11709,7 +11712,7 @@ zybang.com##div[id="askTeacher-after-adx-wrap"]
 zzyiwan.com##div[style="width: 100%; overflow: hidden; padding-top: 0px; position: relative; top: 0px; z-index: 9999;"]
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>2689
+!<<<<<通配符规则>>>>>2690
 $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.xyz
 &adZones$xmlhttprequest
 &ad_block=
@@ -14335,6 +14338,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 ://xchina*/plugins/sweetAlert
 ://xchina*/redirect/ad-
 ://xchina*/scripts/push*.js
+://xxs*.com/s.php?*=$third-party
 ://xxsmad*.com
 ://yin*.zgpingshu.com
 ://yttc.tristavn.com
@@ -14401,7 +14405,7 @@ zhaotianbao1.cn/*/ywy*.apk
 zhaotianbao1.cn/*/ywy*.apk$~third-party
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>4217
+!<<<<<通用Css规则>>>>>4218
 ###ADbox
 ###Ad-Container
 ###Ad-Content
@@ -15119,6 +15123,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ###stickyrightad
 ###t4>a
 ###taw > .med + div > #tvcap > .mnr-c:not(.qs-ic) > .commercial-unit-mobile-top
+###tbad
 ###text-ad
 ###text-ads
 ###text-intext-ads
