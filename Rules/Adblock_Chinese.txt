@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 7LowLsev/37kyhrueXhNwQ
+! Checksum: 7pRPjXxIPWQDQRQ0pW1Ebw
 ! Title: Aloazny Chinese fiter
-! Version: 20250704203904
+! Version: 20250705092827
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-07-04 20:39:04
-! Total Count: 43218
-! Blocked Filters: 43218
+! Last modified: 2025-07-05 09:28:27
+! Total Count: 43226
+! Blocked Filters: 43226
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>17997
+!<<<<<域名规则>>>>>18005
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,third-party,domain=dlkoo.cc
@@ -4179,6 +4179,7 @@
 ||cfdns.vip^
 ||cfdvd779.fun^
 ||cfepws.com^
+||cfoxpgfzxl.com^
 ||cfwlvmg.top^
 ||cfzhushou.com^*/King_Chance_Layer.js
 ||cgdyw.net/xx/
@@ -6197,6 +6198,7 @@
 ||euitx.cn^
 ||eujxqgh.cn^
 ||eulaliadoradl.com^
+||eung95wkni.com^
 ||euosicjxjv.com^
 ||euresdw.top^
 ||eurodomo.cn^
@@ -6544,6 +6546,7 @@
 ||fishersfinds.com^$third-party
 ||fitnessmapper.com^$third-party
 ||fiu07031kl.com^
+||fiu07041kl.com^
 ||fivesidedsquare.com^$third-party
 ||fiwyjar.cn^
 ||fixedfold.com^$third-party
@@ -8690,6 +8693,7 @@
 ||iqkrungrikhu.com^
 ||iqnew.com/d/js/m/thea
 ||iqshw.com/d/js/m/thea
+||iqsswq.icu^
 ||iqtucudfff.com^
 ||iqzone.com^$third-party
 ||ir-new-cdn-eu-west-*-hb.rayjump.com^
@@ -8830,6 +8834,7 @@
 ||iyqbsst.top^
 ||iytrn.xyz^
 ||iyuedu.cn.com^
+||iyww.cn^
 ||iyxdm.*/js/gad_
 ||iyxdm.one/js/bottom_dk.js
 ||iyxh.cn^
@@ -11880,6 +11885,7 @@
 ||oqyiapj.cn^
 ||orange-dc.youku.com^
 ||orbsrv.com^
+||orchidea46.com^
 ||orcinhyi.com^
 ||orionember.com^$third-party
 ||orkreats.com^
@@ -12099,6 +12105,7 @@
 ||pcvideoyf.titan.mgtv.com/pb/*.mp4
 ||pcvzpj.xyz^
 ||pcxnrd.xyz^
+||pcxnrr.icu^
 ||pczjt.com^
 ||pczjt.com^$~third-party
 ||pdfbook.cn/wp-content/uploads/2017/11/049.jpg
@@ -17113,6 +17120,7 @@
 ||y1n1n3e0v.com^
 ||y3600.cc/js/jquery.min.js
 ||y4l.icu^
+||y4re1yokqv.com^
 ||y66xvgo5i.chuimg.com^
 ||y6lkc.vip^
 ||y6lkc.vip^$~third-party
@@ -20209,7 +20217,7 @@ avlulu.cc,69av.one,8mav.cc,91av.one,91porn.work,99xing.cc,jable.one,maomiav.one,
 avple.tv##.MuiSkeleton-root
 avple.tv##.jss13
 avple.tv##.jss20
-avsuggest.com,qiaobutang.com##.overlay
+avsuggest.com,qiaobutang.com,telefonino.forumfree.it##.overlay
 avtb01.com##.ads-player
 avtb01.com##a[href^="http://xgn66.com/?aff="]
 avtb01.com##body > div[id^="haoetv"]
