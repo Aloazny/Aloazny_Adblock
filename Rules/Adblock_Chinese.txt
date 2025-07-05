@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 7pRPjXxIPWQDQRQ0pW1Ebw
+! Checksum: 6dziyDl62Xs9FP51bNC8lw
 ! Title: Aloazny Chinese fiter
-! Version: 20250705092827
+! Version: 20250705203845
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-07-05 09:28:27
-! Total Count: 43226
-! Blocked Filters: 43226
+! Last modified: 2025-07-05 20:38:45
+! Total Count: 43240
+! Blocked Filters: 43240
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>18005
+!<<<<<域名规则>>>>>18016
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,third-party,domain=dlkoo.cc
@@ -954,6 +954,7 @@
 ||591hx.com/zyrk_dy/gwjl.html
 ||595image.com^
 ||59gt.cn^
+||59xx2yr9i.com^
 ||5axxw.com/extends/ad/
 ||5azvpjx8xj.com^
 ||5brxi.icu^
@@ -2960,6 +2961,7 @@
 ||b5v0m3q8.com^
 ||b7sw62.pingshu8.xyz^
 ||b7yy.com/ad/
+||b8b4ix7bj.com^
 ||b9282.vip^
 ||b9b2oe8720j.xyz^
 ||baby-kingdom.com/reqsads?
@@ -6547,6 +6549,8 @@
 ||fitnessmapper.com^$third-party
 ||fiu07031kl.com^
 ||fiu07041kl.com^
+||fiu07050kl.com^
+||fiu07051kl.com^
 ||fivesidedsquare.com^$third-party
 ||fiwyjar.cn^
 ||fixedfold.com^$third-party
@@ -7369,6 +7373,7 @@
 ||gtimg.com^*/adv/
 ||gtlpa*.com^
 ||gtlpaj.com^
+||gtokii.icu^
 ||gtoyouin.biz^
 ||gtpso.com/Home/TopSdk/getFavCoupItems
 ||gtpxvpi.cn^
@@ -10593,6 +10598,7 @@
 ||magioe.xyz^
 ||magnetairport.com^$third-party
 ||magnetdog.net^
+||magnolian07.top^
 ||magsrv.com^
 ||mahoupao.com/api.php?mod=ad&
 ||mahua.com/api/$subdocument
@@ -11425,6 +11431,7 @@
 ||nfmovies.com/pic/tu/banner
 ||nfmovies.com/static/*.jpg
 ||nfmovies.com/static/210203.png
+||nftfdj.icu^
 ||nftjjw.com^
 ||nftxfd.top^
 ||nfuwow.com/static/nfuwow/source/front/new/images/
@@ -11693,6 +11700,7 @@
 ||oclimik.top^
 ||ocmr.cn^
 ||oconner.biz^
+||ocvr.cn^
 ||odamcsk.top^
 ||odinmak.top^
 ||odipsumk.top^
@@ -12659,6 +12667,7 @@
 ||qdross.com/vip/
 ||qduttornm.com^
 ||qdvideo.xyz^
+||qdwhru8p2.com^
 ||qdwmdikzudq.com^
 ||qdwnlkdw.com^
 ||qdzilh.cn^
@@ -15372,6 +15381,7 @@
 ||u1055.com^
 ||u1077.com^
 ||u1099.com^
+||u10nte4ba.com^
 ||u1102.com^
 ||u22011.com^
 ||u22066.com^
@@ -17125,6 +17135,7 @@
 ||y6lkc.vip^
 ||y6lkc.vip^$~third-party
 ||y74s.xyz^
+||y7pcgacfn.com^
 ||y7ts.icu^
 ||y87.me^$third-party
 ||y9ppy0icw1.com^
@@ -18022,7 +18033,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>14827
+!<<<<<网站单独规则>>>>>14828
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,subdocument,third-party,domain=dlkoo.com
@@ -29045,6 +29056,7 @@ qizuang.com##.bottom-fadan-box
 qlwb.com.cn###scroll_box
 qmaile.com##div[id="gg11"]
 qncye.com##.bbaner
+qoly.jp##.sp_undertitle_ads
 qq.com###AdRight-Article-QQ
 qq.com###ad-fullscreen
 qq.com###adImgHref
@@ -34239,7 +34251,7 @@ $websocket,domain=wap.yushuwu.cloud
 /\/theme\/js\/[a-z0-9]{5,}\.js\?v=/$domain=novipnoad.com
 /\/upload\/[a-z0-9]{7}\/[0-9]+-[0-9]?\/[a-z0-9]{32}\.gif/$domain=higu.tv
 /\/uploads\/\d{4}\/\d{2}\/(?!85466|banner)[_0-9a-zA-Z]+\.(?:gif|jpg)$/$image,~third-party,domain=eromoji.com
-/^(?!.*(mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.li|bytecdntp.com|doodcdn.io|intensedebate.com|vixcloud.co|cdn.plyr.io|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|(\/\/|\.)vk\.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|imgsmail.ru|cloudflare.net|rabbitstream.net|(\/\/|\.)x\.com)).*$/$third-party,script,_____,domain=manshuxs.com|yemancomic.com|qimiaoxiaoshuo.com|gaofuwu.org|nxpaaq.com|dengbi2.com|92hm.top|634.tv|myhaitang.cc|ckplayer.vip|qushucheng.com
+/^(?!.*(mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.li|bytecdntp.com|doodcdn.io|intensedebate.com|vixcloud.co|cdn.plyr.io|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|(\/\/|\.)vk\.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|imgsmail.ru|cloudflare.net|rabbitstream.net|(\/\/|\.)x\.com)).*$/$third-party,script,_____,domain=manshuxs.com|yemancomic.com|qimiaoxiaoshuo.com|gaofuwu.org|nxpaaq.com|dengbi2.com|92hm.top|634.tv|myhaitang.cc|ckplayer.vip|qushucheng.com
 /^(a|c)\.[0-9a-f]{56}\.com$/
 /^(https|ws|wss):\/\/[a-z0-9]+\.[a-z0-9]+\.[a-z]{2,3}:\d{1,6}\/([a-z]{1,3}\/){0,1}\d+\?[a-z]+=[a-z0-9]+($|&)/$script,websocket,third-party
 /^(mon|tue|wed|thu|fri|sat|sun)\d{1,2}\.\w{2}\d{1,6}\w{4}\.com$/
@@ -41674,7 +41686,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ~xxgxw.com##div[id^="C"][style*="height:"][class^="C"]
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1578
+!<<<<<放行白名单>>>>>1580
 #@##adblocktest
 #@#.has-ad
 012.tw#@#.ad728
@@ -41704,6 +41716,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 85tube.com,camhub.cc,camhub.world,fuckit.cc,thothd.com,watchporn.to#@#.ads-iframe
 90xz.com#@#.share-btn
 91porn.com#@#.vjs-preroll
+@@&http_referer=$domain=chaopx.com
 @@-social-bar.$domain=mobi.yahoo.com
 @@.adserver.$domain=litv.tv
 @@.cn/j/*$script,third-party,domain=weather.com.cn
@@ -42861,6 +42874,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 @@||tv.bili96.co^
 @@||tvb.com/social/share_
 @@||tvb.com^*/videojs.ads.
+@@||txws.yyzb456.top^$domain=857zb7.tv
 @@||tyue.me^$image
 @@||udn.com/mall/images/spacer.gif?
 @@||udndata.com/ndapp/ads/$~third-party
