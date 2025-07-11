@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: wevkSjVfVHVIe+eZ1sUysg
+! Checksum: JcEuR0ZE48gOOYBI4eJxmw
 ! Title: Aloazny Chinese fiter
-! Version: 20250711094309
+! Version: 20250711203929
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-07-11 09:43:09
-! Total Count: 43316
-! Blocked Filters: 43316
+! Last modified: 2025-07-11 20:39:29
+! Total Count: 43325
+! Blocked Filters: 43325
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>18075
+!<<<<<域名规则>>>>>18083
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,third-party,domain=dlkoo.cc
@@ -69,6 +69,7 @@
 ||036e.cn^
 ||039nez.com^
 ||03asdf.com^
+||03t441b8w.com^
 ||042.cn/adver/
 ||0439.com/javascript.php?part=advertisement&
 ||0460.com/images/ad/
@@ -410,6 +411,7 @@
 ||1buu1.penyouw.com^
 ||1dfsdfg.com^
 ||1dki0.icu^
+||1dm6ccvy8.com^
 ||1gmzo.icu^
 ||1gtp.icu^
 ||1iohncj.xyz^
@@ -2183,6 +2185,7 @@
 ||agdewasmnjktfrdewqjgdser.top^
 ||agefans.top/js/wap2-jm-ms.js
 ||agent.tamedia.com.tw^
+||agenter32.top^
 ||agilebreeze.com^$third-party
 ||agileformer.com^$third-party
 ||agilesrv.com^
@@ -4837,6 +4840,7 @@
 ||ctrip.com/Domestic/tool/AjaxGetCPTList.ashx?advpositioncode=
 ||ctrip.com/amd/*960x90.
 ||ctsau.xyz^
+||ctsp4jao1.com^
 ||cuaeblh.icu^
 ||cubchannel.com^$third-party
 ||cubepins.com^$third-party
@@ -8142,6 +8146,8 @@
 ||huo07091hy.com^
 ||huo07100hy.com^
 ||huo07101hy.com^
+||huo07110hy.com^
+||huo07111hy.com^
 ||huo720.com/back/ad_
 ||huo720.com/files/vidhub
 ||huoche.net/Images/pc/ad_
@@ -9700,6 +9706,7 @@
 ||kl.67it.com^
 ||kl.yditweb.cn^
 ||kl91ccp.com^
+||klaayg.icu^
 ||klandmart.com/K-Landmart_0011.jpg
 ||klbvqqqj.com^
 ||klgyds.com^
@@ -12169,6 +12176,7 @@
 ||pdjjrh.xyz^
 ||pdochgl.top^
 ||pdrtcgfx.cn^
+||pdrv.cn^
 ||pdweigee.com^
 ||pdxdxl.xyz^
 ||pdxubxc.cn^
@@ -18092,7 +18100,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>14843
+!<<<<<网站单独规则>>>>>14844
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,subdocument,third-party,domain=dlkoo.com
@@ -22845,6 +22853,7 @@ eromon.net##div[id^="im-"]
 eromon.net##main > .container:has(> .row > aside > .is-centered > script[href^="https://img.ad-nex.com/"])
 eropasture.com,memopanda.com,ero-gazou.jp,eroiro.info##.widget_mobile_text
 eroterest.net##.adNativeMgs
+erotic-hentai.com,villagesexvideos.com,xxxvideoindian2.com,fistingplanet.com##.happy-footer-mobile
 erry.one###sp_cont_footer
 erry.one###sp_search_head
 erry.one###sp_top_footer
@@ -26898,6 +26907,7 @@ m.viptube.com###mobile-footer-1
 m.vk.com,m.vk.ru##.wall_item[data-ad-view]
 m.vogue.com.cn##.rectip
 m.voyeurhit.com##.container > .section--normal[style*="margin-top: -15px"]
+m.vz.ru##.jscroll-inner > div.page-section > div.container:only-child:has(> div[id^="yandex_rtb"]:first-child + script:last-child)
 m.vz.ru,chronicle.wiki,game-info.wiki,memo.wiki,playing.wiki,seesaawiki.jp,sokuhou.wiki,sougouwiki.com##.header-banner
 m.wandoujia.com##.wdj-download
 m.wandoujia.com##[class*="relative"]
@@ -31351,7 +31361,6 @@ viewweather.com###wwm_days_content > div:not([id]):has(> ins.adsbygoogle)
 vikiporn.com##.under_player_adv
 vikiporn.com,sleazyneasy.com,m.pornicom.com,m.fetishshrine.com,m.katestube.com##.bottom-spot
 vikiporn.com,wankoz.com,sleazyneasy.com,pornicom.com,rat.xxx,vikiporn.com,zbporn.com,sleazyneasy.com,fetishshrine.com,katestube.com##.top-spot
-villagesexvideos.com,xxxvideoindian2.com,fistingplanet.com##.happy-footer-mobile
 vip-front.video.g.fc2.com,video.fc2.com###ad_middle2
 vip.de##.content-teaser-ad
 vip.de##.rtli-master-morecontent__items > .centered-ad
