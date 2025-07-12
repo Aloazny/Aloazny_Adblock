@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: JcEuR0ZE48gOOYBI4eJxmw
+! Checksum: fRYp6P52RF/Cnt67WHQ25Q
 ! Title: Aloazny Chinese fiter
-! Version: 20250711203929
+! Version: 20250712094426
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-07-11 20:39:29
-! Total Count: 43325
-! Blocked Filters: 43325
+! Last modified: 2025-07-12 09:44:26
+! Total Count: 43330
+! Blocked Filters: 43330
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>18083
+!<<<<<域名规则>>>>>18088
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,third-party,domain=dlkoo.cc
@@ -12541,7 +12541,10 @@
 ||promo-images.ttpsdk.info^
 ||promoted.sndcdn.com^
 ||promoted.soundcloud.com^
+||promotion-en.xmeye.net^
+||promotion-quicker.jftechsoft.com^
 ||promotion.polarisoffice.com^
+||promotion.xmeye.net^
 ||promotionad.nvcam.net^
 ||propeller-tracking.com^
 ||property.hk/js/adside.js
@@ -15142,6 +15145,7 @@
 ||tqphaqoye.com^
 ||tquspo.com^
 ||tqytqdrq.icu^
+||tr.acobt.tech^
 ||trace.qq.com^
 ||track.cpatool.net^$third-party
 ||track.hujiang.com^
@@ -17294,6 +17298,7 @@
 ||yesky.com/s?z=
 ||yetacdn.com^
 ||yetacdn.net^
+||yetacdn.org^
 ||yetcdn.com^
 ||yetianlian.com/*/*.js
 ||yetianlian.la/*/*.js
@@ -24380,6 +24385,10 @@ hk.on.cc##iframe[src^="/mobile/ad/banner.html"]
 hk.xfastest.com##.adv-side-wrap
 hk.xfastest.com##.adv_v2
 hk.yahoo.com##div[id^="my-ads"]
+hk.yahoo.com,tw.yahoo.com###fullbleed > div[data-content="廣告"]
+hk.yahoo.com,tw.yahoo.com##.ntk-list > .grid-item:has(> div[data-wf-benji-config])
+hk.yahoo.com,tw.yahoo.com##aside > div[id^="module-adgroup"]
+hk.yahoo.com,tw.yahoo.com##aside > div[id^="module-sponsoredad"]
 hk01.com###article-content-section > div[class]:has(> div[class] > div[data-id="lazyload-placeholder"])
 hk01.com###debug-0-ad-outer-container
 hk01.com##.article-grid__desktop-rhs-section > .items-center:has(.lazyload-wrapper > .js-ad-slot)
@@ -31029,13 +31038,9 @@ tw.nextapple.com##[id^="lrec"]
 tw.stock.yahoo.com###ysmcm
 tw.stock.yahoo.com##td > div.ysm
 tw.stock.yahoo.com##tr:has(> td[valign="top"] > .geminiAd)
-tw.yahoo.com###fullbleed > div[data-content="廣告"]
 tw.yahoo.com###util-travelads
-tw.yahoo.com##.ntk-list > .grid-item:has(> div[data-wf-benji-config])
 tw.yahoo.com##.travelads
 tw.yahoo.com##[class*="has-beacon-click"][data-wf-beacons^="https://*.gemini.yahoo.com/"]
-tw.yahoo.com##aside > div[id^="module-adgroup"]
-tw.yahoo.com##aside > div[id^="module-sponsoredad"]
 tw.yahoo.com##div[data-id^="wfpad"]
 tw.yahoo.com##div[id^="applet_p_"][class^="dealstdv2wafer"]
 tw100s.com##div[class="ui_adblock"]
