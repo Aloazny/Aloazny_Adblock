@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: lMVqTOZqPBRANhI3dAKHzg
+! Checksum: 1LZlsC1hR+C3C+Ro3ieRRw
 ! Title: Aloazny Chinese fiter
-! Version: 20250725204209
+! Version: 20250726094202
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-07-25 20:42:09
-! Total Count: 43483
-! Blocked Filters: 43483
+! Last modified: 2025-07-26 09:42:02
+! Total Count: 43484
+! Blocked Filters: 43484
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>18217
+!<<<<<域名规则>>>>>18218
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,third-party,domain=dlkoo.cc
@@ -15636,6 +15636,7 @@
 ||udolgy.xyz^
 ||udoshbt.top^
 ||udswai.xyz^
+||udxi.cn^
 ||udyi.cn^
 ||ue8im.com^
 ||uebabuf.cn^
@@ -28139,6 +28140,7 @@ news.yahoo.co.jp##li > a[class^="sc-"][href^="https://rd.listing."]
 news.yahoo.com###module-mktBanner
 news.yahoo.com##.caas-iframe.fireplace
 news.yahoo.com##.stream-gam-ad
+news.yahoo.com,sports.yahoo.com##div[id^="sda-"]
 news18.com##.LiveBlog_outer > div[style]:has(> div[style] > div.nw18-dfp-ad)
 news18.com##.ad-cntainer
 news18.com##.article_main > div[class^="jsx-"] > span[style*="width:100%;text-align:center;"]
@@ -30417,7 +30419,6 @@ sports.yahoo.com##.post-article-ad
 sports.yahoo.com##div[id*="-AbPromo"]
 sports.yahoo.com##div[id^="mrt-node-"][id$="-Ad"]
 sports.yahoo.com,tw.news.yahoo.com###mrt-node-Lead-1-Ad
-sports.yahoo.com,tw.news.yahoo.com##div[id^="sda-"]
 sportsbrief.com,legit.ng##.interscroller
 sportskeeda.com##.ad-in-house-banner-container
 sportskeeda.com##.stickyarticlead
@@ -30473,6 +30474,9 @@ stheadline.com###jetso-wrapper
 stheadline.com##.section-popular
 sthuojia.net##div[id]:not([class]):not([style])
 stileproject.com##.stage-promo
+stock.yahoo.com,news.yahoo.com##.atoms > div:has(> div[id^="sda-"])
+stock.yahoo.com,news.yahoo.com##div[id^="sda-"][id$="-iframe"]
+stock.yahoo.com,news.yahoo.com##iframe[id^="mkt-iframe-"]
 stock87.com##a[href^="http"]:not([href*="stock87."]) > img[src*="uploadfiles/image/"]
 stock87.com##div[id^="Javascript"]
 stock87.com##div[style^="position:relative;width:1000px;height:90px;"]
@@ -31139,9 +31143,6 @@ tw.nextapple.com##[id^="lrec"]
 tw.stock.yahoo.com###ysmcm
 tw.stock.yahoo.com##td > div.ysm
 tw.stock.yahoo.com##tr:has(> td[valign="top"] > .geminiAd)
-tw.stock.yahoo.com,tw.news.yahoo.com##.atoms > div:has(> div[id^="sda-"])
-tw.stock.yahoo.com,tw.news.yahoo.com##div[id^="sda-"][id$="-iframe"]
-tw.stock.yahoo.com,tw.news.yahoo.com##iframe[id^="mkt-iframe-"]
 tw.yahoo.com###util-travelads
 tw.yahoo.com##.travelads
 tw.yahoo.com##[class*="has-beacon-click"][data-wf-beacons^="https://*.gemini.yahoo.com/"]
