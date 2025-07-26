@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 1LZlsC1hR+C3C+Ro3ieRRw
+! Checksum: JBSHXV1XF4mVOi6gXm9aoQ
 ! Title: Aloazny Chinese fiter
-! Version: 20250726094202
+! Version: 20250726203901
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-07-26 09:42:02
-! Total Count: 43484
-! Blocked Filters: 43484
+! Last modified: 2025-07-26 20:39:01
+! Total Count: 43490
+! Blocked Filters: 43490
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>18218
+!<<<<<域名规则>>>>>18225
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,third-party,domain=dlkoo.cc
@@ -3742,6 +3742,7 @@
 ||brornaeq.com^
 ||brotherslocket.com^$third-party
 ||brownfox.top^
+||brownnx.top^
 ||browser.sentry-cdn.com^$third-party
 ||browserkernel.baidu.com^
 ||browserscan.net/dist/adspower_zh.
@@ -7167,6 +7168,8 @@
 ||gio07241rp.com^
 ||gio07250rp.com^
 ||gio07251rp.com^
+||gio07260rp.com^
+||gio07261rp.com^
 ||giphaudoq.com^
 ||giraffepiano.com^$third-party
 ||gitcrumbs.com^$third-party
@@ -14784,6 +14787,7 @@
 ||t0sfe1.com^
 ||t1.612.com^
 ||t1.xuefen.com.cn^
+||t1d26dvout.com^
 ||t1tgame.com^
 ||t2.picb.cc/2022/08/07/6rpPj1.jpg
 ||t2.picb.cc/2022/08/07/6rpRKd.jpg
@@ -15954,6 +15958,7 @@
 ||vahmimb.com^
 ||vainews.cn^
 ||valerieavisnba.com^
+||valeriesara.com^
 ||vancuongthinh.com^
 ||vanfireworks.com^$third-party
 ||vanishmemory.com^$third-party
@@ -16205,6 +16210,7 @@
 ||vtbkhl.icu^
 ||vtdgfisz.icu^
 ||vthruucceod.com^
+||vtiwz6pgc8.com^
 ||vtjbnb.xyz^
 ||vtqhelleano.com^
 ||vtrrxqbi.xyz^
@@ -16282,6 +16288,7 @@
 ||w4sn20zpvz.com^
 ||w51t.com^$subdocument
 ||w59g.icu^
+||w5ftl8bhu3.com^
 ||w7044.com^
 ||w9uwz5966.com^
 ||w9uz2f.cn^
@@ -18235,7 +18242,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>14862
+!<<<<<网站单独规则>>>>>14861
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,subdocument,third-party,domain=dlkoo.com
@@ -21028,7 +21035,6 @@ bing.com##.OpInNwWndw
 bing.com##.b_ad
 bing.com##.b_adBottom
 bing.com##.b_adLastChild
-bing.com##.b_ans:has([class^="xm_"][class*="_ansCont"])
 bing.com##.b_poleContent > #ifeu
 bing.com##.bnp_rich_div_visible.bottom
 bing.com##.bnp_rich_div_visible.top
@@ -21058,11 +21064,11 @@ bing.com,cn.bing.net##.ad_sc
 bing.com,cn.bing.net##.adsMvC
 bing.com,cn.bing.net##.b_algo:has(.rms_img[src*="/th?id=OADD2."][src$="21.2"])
 bing.com,cn.bing.net##.b_algo:has(.rms_img[src*="=AdsPlus"])
+bing.com,cn.bing.net##.b_ans:has([class^="xm_"][class*="_ansCont"])
 bing.com,cn.bing.net##.pa_sb
 bing.com,cn.bing.net##a[h$=",Ads"]
 bing.com,cn.bing.net##a[href*="/aclick?ld="]
 bing.com,cn.bing.net##li.b_ad
-bing.com,cn.bing.net##li.b_ans:not(:has(h2))
 bingdou.com.cn,hoteastday.com##.float_ad
 bingfeng.tw###adbt
 bingfeng.tw##.wow-ad-link
