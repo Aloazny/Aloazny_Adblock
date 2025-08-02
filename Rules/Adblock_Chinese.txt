@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: RbbsogzX+dNoMfAM/QR2fg
+! Checksum: U+fAgiv2F7qi6z7ZDkpcDA
 ! Title: Aloazny Chinese fiter
-! Version: 20250802094217
+! Version: 20250802203954
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-08-02 09:42:17
-! Total Count: 43601
-! Blocked Filters: 43601
+! Last modified: 2025-08-02 20:39:54
+! Total Count: 43610
+! Blocked Filters: 43610
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>18298
+!<<<<<域名规则>>>>>18307
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,third-party,domain=dlkoo.cc
@@ -1299,6 +1299,7 @@
 ||8gra3.icu^
 ||8h93.com^*.gif
 ||8jkx.com^
+||8lz3swf01q.com^
 ||8mg050.n3cdn1.secureserver.net^*.gif
 ||8mg050.n3cdn1.secureserver.net^*/960
 ||8mhcc.top^
@@ -1592,6 +1593,7 @@
 ||aan.amazon.*^
 ||aaoffice.cn^
 ||aapj.cn^
+||aaqaz.cn^
 ||aaread.space/images/*0.gif
 ||aariedbtr.com^
 ||aassy4.com/dm/
@@ -8754,6 +8756,7 @@
 ||inquisitiveice.com^$third-party
 ||inquisitiveinvention.com^$third-party
 ||insfengdata.com^
+||insideex.top^
 ||insidemo75.com^
 ||insights.hotjar.com^
 ||instructscornfulshoes.com^
@@ -9141,6 +9144,7 @@
 ||jgxirv.icu^
 ||jh16csf.com^
 ||jhdvcjvsjkvjkb.com^
+||jhf4eib1zb.com^
 ||jhkggrr.icu^
 ||jhlazsot.icu^
 ||jhlnlt.xyz^
@@ -9697,6 +9701,7 @@
 ||kclimid.top^
 ||kcnwe.xyz^
 ||kcokamid.top^
+||kcqstn35as.com^
 ||kczq.cn^
 ||kdamcsd.top^
 ||kdcl.pchome.com.tw^
@@ -10989,6 +10994,7 @@
 ||mgivkqk.cn^
 ||mgqtcs.xyz^
 ||mgsm.pl/js/get*AdsMobile.xhtml
+||mgux.cn^
 ||mgzjin.cn^$third-party
 ||mh3666.com^*.jsonp
 ||mh616.org^
@@ -11784,6 +11790,8 @@
 ||nug07311lu.com^
 ||nug08010lu.com^
 ||nug08011lu.com^
+||nug08020lu.com^
+||nug08021lu.com^
 ||nuheoub.cn^
 ||nuiknnf.icu^
 ||nullnorth.com^$third-party
@@ -16455,6 +16463,7 @@
 ||webview.unityads.unity3d.com^
 ||wedvmr.xyz^
 ||wefoidnknsl.net^
+||weggrq0p42.com^
 ||wegowan.com^
 ||wei2008.com/js/*0.
 ||wei2008.com/js/t_
