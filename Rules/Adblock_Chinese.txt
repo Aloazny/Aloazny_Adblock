@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 9IT/jaSt3lKV7svsEFRypA
+! Checksum: Bg2KYcoKtX2FeCHFbqpkVw
 ! Title: Aloazny Chinese fiter
-! Version: 20250828204012
+! Version: 20250829092529
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-08-28 20:40:12
-! Total Count: 43896
-! Blocked Filters: 43896
+! Last modified: 2025-08-29 09:25:29
+! Total Count: 43902
+! Blocked Filters: 43902
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>18387
+!<<<<<域名规则>>>>>18390
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,third-party,domain=dlkoo.cc
@@ -226,6 +226,7 @@
 ||114la.com^$third-party,domain=~ylmf.com
 ||114lm.com^$third-party
 ||115mm.com/js/
+||116xs.com/js/backbone.js
 ||1188.com^$third-party
 ||118pan.com/common/i/openjs/
 ||119xiazai.com^$subdocument
@@ -764,6 +765,7 @@
 ||4399sj.com^*/mask-ad
 ||43a.icu^
 ||43eksc8w59.com^
+||440012.xyz/js/wapm.js
 ||4438x*.com/Runtime/js/
 ||445nan.com/ad/
 ||44629.com^
@@ -10117,6 +10119,7 @@
 ||lameletters.com^$third-party
 ||lamkghx.icu^
 ||lamplow.com^$third-party
+||lancdn.com/public/images/view/Tencent-
 ||langya.cn/2014html/2014ad_
 ||langya.cn/2014html/ad/
 ||lanmeifeel.xyz^
@@ -18404,7 +18407,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>14959
+!<<<<<网站单独规则>>>>>14962
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,subdocument,third-party,domain=dlkoo.com
@@ -21156,6 +21159,7 @@ bilibili.com##.bili-video-card.is-rcmd:has(> div.bili-video-card__wrap .bili-vid
 bilibili.com##.bili-video-card:has(.bili-video-card__info--ad) > .bili-video-card__wrap
 bilibili.com##.bili-video-card:has(.bili-video-card__info--creative-ad) > .bili-video-card__wrap
 bilibili.com##.bili-video-card__wrap > a[href^="http"]:not([href*=".bilibili.com/"])
+bilibili.com##.container > .bili-feed-card:has(> div.bili-video-card  div.bili-video-card__info--no-interest + h3 > a[target="_blank"]:not([href^="https://www.bilibili.com/"]))
 bilibili.com##.container > div.bili-video-card.is-rcmd:not(:has(> *))
 bilibili.com##.download-entry
 bilibili.com##.eva-banner
@@ -21166,6 +21170,7 @@ bilibili.com##.float-btn
 bilibili.com##.floor-single-card:has(.floor-skeleton):not(:has(> div.bili-video-card__skeleton))
 bilibili.com##.gg-floor-module
 bilibili.com##.index-promote
+bilibili.com##.layerWrapperRoot > div[style^="width: 1220px;"]
 bilibili.com##.login-tip
 bilibili.com##.online + .adpos
 bilibili.com##.operate-card[data-target-url*=".miaozhen."]
@@ -21839,7 +21844,7 @@ chinaso.com##.wrap-toolbar
 chinatimes.com##.l_ad
 chinatimes.com##.tab_4_box
 chinatimes.com##div[class*="googlead_"]
-chinatimes.com##div[class^="banner"]
+chinatimes.com,iplark.com##div[class^="banner"]
 chinatp.com.cn###FloatL_2
 chinatp.com.cn###FloatLa
 chinatp.com.cn###FloatRb
@@ -26264,6 +26269,7 @@ lalulalu.com##.overture_banner
 lanacion.com.ar###wrapper::before
 lanazione.it##div[style="min-height: 100px; top: 48px;"]
 landiannews.com###block-2
+landiannews.com##.content-gg
 landiannews.com##.sidebar > section#block-4
 landiannews.com##a[href*="ourl.co"]
 landiannews.com##article > .content-gg > a[target="_blank"][rel="nofollow"]
