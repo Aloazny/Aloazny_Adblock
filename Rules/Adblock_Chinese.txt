@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: vjgUL1oE6M0h9Jvpgq01eQ
+! Checksum: gr8F0BHkwX+hBiuQuvlCiw
 ! Title: Aloazny Chinese fiter
-! Version: 20250905092115
+! Version: 20250905203727
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-09-05 09:21:15
-! Total Count: 44023
-! Blocked Filters: 44023
+! Last modified: 2025-09-05 20:37:27
+! Total Count: 44031
+! Blocked Filters: 44031
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>18485
+!<<<<<域名规则>>>>>18490
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,third-party,domain=dlkoo.cc
@@ -9386,6 +9386,7 @@
 ||johojima.com/wp-content/uploads/*/cropped-johojima_fabicon-*.jpg
 ||joi09041pt.com^
 ||joi09050pt.com^
+||joi09051pt.com^
 ||joiwnq2.cn^
 ||jojog.com^
 ||jokerlu.com/upload/addon/
@@ -11730,6 +11731,7 @@
 ||nightwound.com^$third-party
 ||niji-gazo.com/ads/
 ||niji-gazo.com/api/dmm/affiliate/
+||nijlfx.icu^
 ||nijnqwem.xyz^
 ||nike666.com^
 ||nikopik.com/wp-content/themes/*/js/nikopik.js
@@ -11751,6 +11753,7 @@
 ||nio09021lt.com^
 ||nio09030lt.com^
 ||nio09031lt.com^
+||nio09051lt.com^
 ||nisihu.com.cn^
 ||nissifresh.com^
 ||nithisp.cn^
@@ -12404,6 +12407,7 @@
 ||pbmp.ali213.net/js/
 ||pbtsjh.xyz^
 ||pbvdlb.xyz^
+||pbwlwdzje.com^
 ||pc6.com/img/
 ||pc841.com/show/
 ||pcauto.com.cn/forum/fz/hots/
@@ -17905,6 +17909,7 @@
 ||yqqv.cn^
 ||yqrsdfh.top^
 ||yquqoj.com^
+||yrgsqi0zc.com^
 ||yrqwnc.cn^
 ||yrr56.com/mp4/pt_720.
 ||yrtedzb.cn^
@@ -18502,7 +18507,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>14977
+!<<<<<网站单独规则>>>>>14980
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,subdocument,third-party,domain=dlkoo.com
@@ -23449,7 +23454,6 @@ fap-nation.org##div[style="display: inline-block"]
 fapality.com##.had
 fapcat.com##.spot-underplayer
 fapnow.*##.block-video + div[align="center"]
-fapnow.*##.mobile-menu
 fappeningbook.com##.wp_xsize_class
 fappeningbook.com##a[href="https://w1.fappeningbook.com/"]
 fappeningbook.com##div.wide-place
@@ -24927,6 +24931,8 @@ howstuffworks.com##div[class^="sticky-container print:hidden"]
 howtogeek.com,www-howtogeek-com.cdn.ampproject.org##.adfullwrap
 hpjav.in,momon-ga.com,book18.fans,nyahentai.re,asmr18.fans,jav.direct,openload.mov,doujinantena.top,popjav.in,javmix.tv##.home-h:has(+ div[style^="margin: -12px -1"] > div[style^="max-width: 1"][style*="height"][style*="margin: 0 auto"])
 hpjav.tv##body > div[style^="position: fixed;"]
+hqbang.com##.content > div[style][align]:has(> script[data-spots])
+hqbang.com,fapnow.*##.mobile-menu
 hqdoor.com##.index_ad2
 hqdoor.com##.index_newad
 hqew.com##.js-ad-tips
@@ -29378,6 +29384,8 @@ pornhuber.love##div:not([id]):not([class]):not([style]):has(.adTextList)
 pornid.*##.block-cs-wrap
 pornlib.com###spot_video_livecams
 pornlib.com##.spot:has(script[src*="/ad-provider.js"])
+pornlulu.com##.container-fluid[style="background:#000;height:40px;"]
+pornlulu.com##.links:not([role="menu"]:last-child)
 pornlulu.com##.row.links
 pornmoviesuhd.com##.full-bns-block
 pornomira.net##center[style="margin-bottom: 20px; min-height:250px"]
