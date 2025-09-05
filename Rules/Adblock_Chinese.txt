@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: /X7m5giQFxoJHbQexSjkCw
+! Checksum: vjgUL1oE6M0h9Jvpgq01eQ
 ! Title: Aloazny Chinese fiter
-! Version: 20250904203538
+! Version: 20250905092115
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-09-04 20:35:38
-! Total Count: 44013
-! Blocked Filters: 44013
+! Last modified: 2025-09-05 09:21:15
+! Total Count: 44023
+! Blocked Filters: 44023
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>18478
+!<<<<<域名规则>>>>>18485
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,third-party,domain=dlkoo.cc
@@ -5206,6 +5206,7 @@
 ||dayujs.top^
 ||dazzlingbook.com^$third-party
 ||db11yy.com^
+||db8b41ie5.com^
 ||dbdophuz.icu^
 ||dbgaming.com^
 ||dbgaming.com^$~third-party
@@ -7001,6 +7002,7 @@
 ||g3f3.com/love/
 ||g41i.icu^
 ||g4y7uuk.com^
+||g4yk4cyyw.com^
 ||g6tgashb.fun^
 ||g7ghdash2.fun^
 ||g7htk7ls7.com^
@@ -9096,6 +9098,8 @@
 ||jaderooster.com^$third-party
 ||jads.co^
 ||jads.co^$domain=avgle.com
+||jadxs.org/themes/*/js/fixed.js
+||jadxs.org/themes/*/js/test.js
 ||jailbulb.com^$third-party
 ||jakid.xyz^
 ||jakisity.top^
@@ -9381,6 +9385,7 @@
 ||johojima.com/wp-content/uploads/*/bnr_*.jpg
 ||johojima.com/wp-content/uploads/*/cropped-johojima_fabicon-*.jpg
 ||joi09041pt.com^
+||joi09050pt.com^
 ||joiwnq2.cn^
 ||jojog.com^
 ||jokerlu.com/upload/addon/
@@ -12012,6 +12017,7 @@
 ||ofgsqic.cn^
 ||ofgsqic.cn^$~third-party
 ||ofincm.icu^
+||ofja.cn^
 ||ofleafeona.com^
 ||ofooe.cn^
 ||ofqvca.xyz^
@@ -14584,6 +14590,7 @@
 ||splicky.com^
 ||spoaven.top^
 ||spoh.cn^
+||spongeds.com^
 ||spoofgames.com/prod/*.txt
 ||spookyexchange.com^$third-party
 ||spookyskate.com^$third-party
@@ -18495,7 +18502,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>14976
+!<<<<<网站单独规则>>>>>14977
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,subdocument,third-party,domain=dlkoo.com
@@ -27140,6 +27147,7 @@ m.pcauto.com.cn##div[class="m-foot2"]
 m.pcauto.com.cn##div[class="m-sliderTg"]
 m.perfectgirls.net##.banner-wrapper-static
 m.plo.vn###Mobile_AdsArticleBodyMiddle
+m.poringa.net##.posts.iScroll > .hook
 m.pornicom.com,m.fetishshrine.com##.video-cover
 m.povar.ru###popupBannerBottom
 m.pptv.com,m.guba.eastmoney.com##div[class="openapp"]
@@ -33474,7 +33482,7 @@ zzyiwan.com##div[style="width: 100%; overflow: hidden; padding-top: 0px; positio
 zzzyk.com###Tinfo
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>3752
+!<<<<<通配符规则>>>>>3754
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,subdocument,third-party,domain=dlkoo.com
@@ -34157,6 +34165,7 @@ $websocket,domain=wap.yushuwu.cloud
 .html|$domain=www.gamer.com.tw
 .htmm?$domain=m.69shu.io
 .hur0*kns.com/$script,xmlhttprequest,third-party
+.icu/$domain=cidetxt.cc
 .icu/$third-party,domain=1kans.net|97s1.com|97s3.com|97s8.com|applnn.cc|biquge100.net|btmovi.kim|btsj6.com|colamanhua.com|cppg.cc|cppg.com|cppg.xyz|cqjschungao.com|d53px.com|dm99.me|dydytt.net|eeexun.com|fuwen123.com|haitangdushu.com|heshang123.com|ijjxs.net|iyungong.com|junhun520.app|junhun520.com|junhun520.net|laiksw.cc|ledlmw.com|lengmen.org|lengmenbook.com|lengmenread.com|lookmht.com|mobidushu.com|myfeiyanqing.com|myhaitang.net|mylengmen.com|mylewen.com|myshenye.com|newhaitang.com|newpopo.com|nmddd.com|peakread.com|qianlimaerp.com|rourouwu.info|sadhub.org|shenyedushu.com|soosadfun.com|sqruitu.com|sthuojia.net|tangsanshu.info|tinghao8.com|tinghaodebook.com|toosadfun.com|txtduo.org|xhzysh.com|xiakexsw.app|xiakexsw.cc|xiakexsw.com|xiakexsw.info|xiakexsw.org|yhdmp.net|yhdmz.org|yhpdm.com|yinghua8.tv|yinghuacd.com|yinghuavideo.com|ziyungong.org|zongcai666.com|tangsanshu.la
 .icu/*/20*/*/16*.gif$image,third-party
 .icu/*/20*/*/17*.gif$image,third-party
@@ -34829,6 +34838,7 @@ $websocket,domain=wap.yushuwu.cloud
 /V.aspx?Bln=$script,third-party
 /VVAvcnms/*.gif$image
 /View/img/b72890.jpg
+/[a-z0-9]+\.[a-z0-9]+\//$denyallow=cidetxt.cc,domain=cidetxt.cc,subdocument,script
 /\.(cc|com|top|xyz)\/i\/v$/$third-party,xmlhttprequest
 /\.(com|cn|top|xyz)\/(j|K)\/[0-9]{6}$/$script,third-party
 /\.(com|porn|xxx|tube)\/[a-z]{8,12}\/[a-z]{8,12}\.js$/$script,~third-party,domain=555.porn|desiporn.tube|hclips.com|hdzog.com|hotmovs.com|imzog.com|javdaddy.com|porn555.com|pornforrelax.com|porngo.tube|pornj.com|pornl.com|pornq.com|porntop.com|privatehomeclips.com|puporn.com|see.xxx|shemalez.com|sss.xxx|thegay.*|tubepornclassic.com|tuberel.com|txxx.com|upornia.*|voyeurhit.com|vxxx.com|txxxporn.tube|vjav.com|vjav.tube
