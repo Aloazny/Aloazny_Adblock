@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: gr8F0BHkwX+hBiuQuvlCiw
+! Checksum: y3Pb8F4t6fErYKt7A+vrkA
 ! Title: Aloazny Chinese fiter
-! Version: 20250905203727
+! Version: 20250906091959
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-09-05 20:37:27
-! Total Count: 44031
-! Blocked Filters: 44031
+! Last modified: 2025-09-06 09:19:59
+! Total Count: 44042
+! Blocked Filters: 44042
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>18490
+!<<<<<域名规则>>>>>18498
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,third-party,domain=dlkoo.cc
@@ -5079,6 +5079,7 @@
 ||d6.mobaders.com^
 ||d67p.com/love/
 ||d6hvvn5jvc.com^
+||d7fl3a3vwh.com^
 ||d830x8j3o1b2k.cloudfront.net^
 ||d8962a.xyz^
 ||d9q4aa05g4.com^
@@ -8641,6 +8642,7 @@
 ||ilade.xyz^
 ||ilcq.cn^
 ||ildopxge.com^
+||ilgt04vkw4.com^
 ||illinvention.com^$third-party
 ||illustriousoatmeal.com^$third-party
 ||ilxdh.com/navig/2020-09-08/1599538164_1474.png
@@ -9387,6 +9389,7 @@
 ||joi09041pt.com^
 ||joi09050pt.com^
 ||joi09051pt.com^
+||joi09060pt.com^
 ||joiwnq2.cn^
 ||jojog.com^
 ||jokerlu.com/upload/addon/
@@ -10677,6 +10680,7 @@
 ||lycjsix.cn^
 ||lyd.com.cn^*950-90.
 ||lyewe.xyz^
+||lyfdrh.icu^
 ||lygjgzc.com^
 ||lyretul.top^
 ||lysq.com/data/attachment/portal/
@@ -13640,6 +13644,7 @@
 ||riym.cn^
 ||rizihao.top^
 ||rjdmhl.icu^
+||rjif.cn^
 ||rjpvnl.icu^
 ||rjsos.com/channel/laomo_dibu.png
 ||rjsq7ljyp.com^
@@ -14621,6 +14626,7 @@
 ||sqevnrb.com^
 ||sqif.cn^
 ||squalidscrew.com^$third-party
+||squarewave.top^
 ||squeakzinc.com^$third-party
 ||squealingturn.com^$third-party
 ||sravga.xyz^
@@ -16002,6 +16008,7 @@
 ||uoublit.top^
 ||uouvxlit.top^
 ||uowr.cn^
+||uoxm.cn^
 ||upaiyun.com/system/post_tile/new_web_banners/
 ||upgrade.xl9.xunlei.com^
 ||uphzxdv.cn^
@@ -17084,6 +17091,7 @@
 ||wxl0gfw.icu^
 ||wxmhau.xyz^
 ||wxsicu.xyz^
+||wxynyij.icu^
 ||wy12cewh4.com^
 ||wy213.com^$third-party
 ||wyhifdpatl.com^
@@ -18507,12 +18515,12 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>14980
+!<<<<<网站单独规则>>>>>14984
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,subdocument,third-party,domain=dlkoo.com
 $script,subdocument,third-party,websocket,xmlhttprequest,domain=bhshu.net|louzhong8.com|miwens.com
-$script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torkitty.net|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.one|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.cc|xiaoxintv.com|xiaoxintv.net|xiaoyakankan.com
+$script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torkitty.net|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.one|torrentkitty.tv|torrkitty.com|xiaoxintv.cc|xiaoxintv.com|xiaoxintv.net|xiaoyakankan.com
 $script,third-party,websocket,domain=52codes.net
 $third-party,domain=76fengyun.com|avsdown.com|downdv.com|downdvs.com|downhhh.com|imedown.info|jandown.com|mimima.com|mnks.jxedt.com|rmdown.com|soyunpan.com|xmflv.com
 $third-party,websocket,xmlhttprequest,domain=qiyoudy2.com|qiyoudy4.com
@@ -23179,7 +23187,7 @@ electric-house.ru##.blok_forum > div[style]
 element-plus.gitee.io##.sidebar > .page-content
 element-plus.gitee.io##.toc-content > .m-t-16px
 element-plus.gitee.io##aside > .page-content
-element-plus.org##.doc-s-content
+element-plus.org##.doc-content-zosdsoycx
 elespanol.com###homeMobileAdvertising2
 elespanol.com###sticky_container
 elhow.ru###b-info-wrapper
@@ -24097,7 +24105,10 @@ gendai.media##div[data-testid^="second-rectangle-ad"]
 gendai.media##div[style="width:320px;min-width:320px;min-height:50px"]
 genius.com##.dfp_unit--interscroller
 genius.com##div[class^="InreadAd"]
+genius.com##div[class^="LyricsFooter__Container-"] > div > div:has(> div[id^="div-gpt-"])
 genius.com##div[class^="StickyBannerAd__Container"]
+genius.com##div[class^="sc-"] > div:has(> div[id^="div-gpt-"])
+genius.com##div[data-lyrics-container] > div[data-exclude-from-selection="true"][class^="sc-"]
 gentosha-go.com###JP_SGO_SP_article_footer_2nd
 gentosha-go.com###ggo_280_wrapper
 gentosha-go.com###sgo_280_wrapper
@@ -27395,6 +27406,7 @@ m.wbsz.org,www.ikanzw.net,www.zzkxs.cc##a[href*=".sudun.com/"]
 m.wcostream.tv,m.wcostream.net###rmds
 m.weather.com.cn##div[style^="position: fixed; width: 100%; bottom: 0px;"]
 m.weathercn.com##.gg-swiper-wrapper
+m.webaslan.com##.load-data > div > div.media:has(> div > a[href^="https://www.sporx.com/"])
 m.webtoons.com##div[id="_appDownloadPopup"]
 m.wenqishuku.com##div[id="xaebf6999j"]
 m.windowscentral.com##.netshelter-ad
@@ -31312,7 +31324,7 @@ tktube.com##.content > div.top
 tktube.com##div.fp-player > *:has(iframe):not([class^="fp"])
 tmall-sp.wamgame.jp###geniee_overlay_margin
 tmall.com###J_Recommend
-tmioe.com##.gorand
+tmioe.com##.dsawss
 tmioe.com##.widget_image_img
 tmioe.com##.zpgimg
 tmioe.com##a[href*=".zps.im"]
@@ -33495,7 +33507,7 @@ $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.do
 $image,third-party,domain=258zw.com|lady1.top
 $script,subdocument,third-party,domain=dlkoo.com
 $script,subdocument,third-party,websocket,xmlhttprequest,domain=bhshu.net|louzhong8.com|miwens.com
-$script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torkitty.net|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.one|torrentkitty.se|torrentkitty.tv|torrkitty.com|xiaoxintv.cc|xiaoxintv.com|xiaoxintv.net|xiaoyakankan.com
+$script,third-party,domain=52movieba.com|audio699.com|cilimao.co|cilimao.one|colamanga.com|kan-tv.com|m.supfree.net|movieffm.net|torkitty.com|torkitty.net|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.one|torrentkitty.tv|torrkitty.com|xiaoxintv.cc|xiaoxintv.com|xiaoxintv.net|xiaoyakankan.com
 $script,third-party,websocket,domain=52codes.net
 $third-party,domain=76fengyun.com|avsdown.com|downdv.com|downdvs.com|downhhh.com|imedown.info|jandown.com|mimima.com|mnks.jxedt.com|rmdown.com|soyunpan.com|xmflv.com
 $third-party,websocket,xmlhttprequest,domain=qiyoudy2.com|qiyoudy4.com
@@ -40234,7 +40246,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.right_ad
 ##.right_picAd
 ##.rightad
-##.rm-two > a[href*=".umtrack.com"]
+##.rm-twoa > a[href*=".umtrack.com"]
 ##.rmp-ad-container
 ##.room-ad-bottom
 ##.room-ad-top
@@ -42470,7 +42482,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ~xxgxw.com##div[id^="C"][style*="height:"][class^="C"]
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1587
+!<<<<<放行白名单>>>>>1586
 #@##adblocktest
 #@#.has-ad
 #@#.uk-container.uk-container-expand
@@ -42557,7 +42569,6 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 @@/adjs_pic_$domain=168gamer.net|slit.cn
 @@/admanager/*$domain=woego.cn
 @@/adpic/*$domain=baike.baidu.com|czsrc.com|nieyou.com|ontheup.com.tw|zform.net
-@@/adpro.js$domain=tingfm.com
 @@/ads-api.$domain=moneysave.info|zxmee.com
 @@/ads.js$domain=iyf.tv
 @@/ads.js$script,~third-party,domain=abcbourse.com|action-sociale.org|anime-vf.fr|impactmangas.fr|presse-algerie.net|primfx.com|undernews.fr
@@ -42597,6 +42608,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 @@/fingerprint2.min.js$domain=csdn.net|neets.cc|passport.vpgame.com|shixiseng.com
 @@/fingerprintjs2.min.js$domain=imooc.com
 @@/fuckadblock.$domain=datehub.co|golangnote.com|joyk.com|liumingye.cn|lnk2.cc|poedb.tw|share1223.com
+@@/ggjs/*$domain=tingfm.com
 @@/gtm.js$domain=amd.com
 @@/guanggao/*$domain=icbc.com.cn|igame.qq.com
 @@/hitCount.$script,domain=on.cc
@@ -43645,7 +43657,6 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 @@||tmall.com/go/*/banner.php
 @@||toolfk.com/tools/js/share/js/jquery.share.min.js
 @@||totheglory.im/pic/ttg_logo
-@@||tpc.googlesyndication.com^$script,~third-party
 @@||tq121.com.cn/j/ad/caoyu-min.js$domain=products.weather.com.cn
 @@||tracking.lolacicek.com/aff_c?offer_id=*&aff_id=
 @@||tracklog.58.com/referrer$~third-party
