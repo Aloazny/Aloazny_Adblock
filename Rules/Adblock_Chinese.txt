@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: duohnmIc3BNhqVqyE7PaRA
+! Checksum: sp18eNSnJS/dsbW6tooiXg
 ! Title: Aloazny Chinese fiter
-! Version: 20250926092237
+! Version: 20250926204044
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-09-26 09:22:37
-! Total Count: 43891
-! Blocked Filters: 43891
+! Last modified: 2025-09-26 20:40:44
+! Total Count: 43908
+! Blocked Filters: 43908
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>18256
+!<<<<<域名规则>>>>>18262
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,third-party,domain=dlkoo.cc
@@ -411,6 +411,7 @@
 ||1dki0.icu^
 ||1dm6ccvy8.com^
 ||1dor1d6vc.com^
+||1f0l.top^
 ||1gmzo.icu^
 ||1gtp.icu^
 ||1iohncj.xyz^
@@ -4493,6 +4494,7 @@
 ||ck.zzipps.com^
 ||ck180.net/mitao
 ||ck33.top^
+||ck4g3p2x92.com^
 ||ckerw.xyz^
 ||ckg.vipyl.com^
 ||ckufcni.click^
@@ -6410,6 +6412,7 @@
 ||fads315.com^
 ||fafvvt.icu^
 ||fagrirtn.com^
+||fahwlqf37l.com^
 ||fainaidea.com/wp-content/uploads/*/*?ver=$script,stylesheet,domain=fainaidea.com
 ||fairfeeling.com^$third-party
 ||fairiesbranch.com^$third-party
@@ -10250,6 +10253,7 @@
 ||lishuaibin.cn^
 ||listeamed.net^
 ||littlecdn.com^
+||litv.tv/library/comscore/
 ||liu16.com/vip.png
 ||liudarexian.com/moon/*25.js
 ||liugaohao.com^
@@ -11789,6 +11793,7 @@
 ||nzl09250oa.com^
 ||nzl09251oa.com^
 ||nzl09260oa.com^
+||nzl09261oa.com^
 ||nzlelmarw.com^
 ||nzoj.cn^
 ||nzpvpp.icu^
@@ -12431,6 +12436,7 @@
 ||piln.cn^
 ||pimlog.baidu.com^
 ||pimormebwf.com^
+||pimuedrozt.com^
 ||pin6d37stu.com^
 ||pincai.com/js/pubuliu.
 ||pincai.com^$third-party
@@ -18273,7 +18279,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>15039
+!<<<<<网站单独规则>>>>>15040
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,subdocument,third-party,domain=dlkoo.com
@@ -21140,6 +21146,7 @@ bing.com,cn.bing.net##.adsMvC
 bing.com,cn.bing.net##.b_algo:has(.b_ads1line)
 bing.com,cn.bing.net##.b_algo:has(.rms_img[src*="/th?id=OADD2."][src$="21.2"])
 bing.com,cn.bing.net##.b_algo:has(.rms_img[src*="=AdsPlus"])
+bing.com,cn.bing.net##.b_algo:has([tabindex="0"][role="link"])
 bing.com,cn.bing.net##.b_ans:has([class^="xm_"][class*="_ansCont"])
 bing.com,cn.bing.net##.pa_sb
 bing.com,cn.bing.net##a[h$=",Ads"]
@@ -33315,7 +33322,7 @@ zzyiwan.com##div[style="width: 100%; overflow: hidden; padding-top: 0px; positio
 zzzyk.com###Tinfo
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>3786
+!<<<<<通配符规则>>>>>3794
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,subdocument,third-party,domain=dlkoo.com
@@ -33687,6 +33694,9 @@ $websocket,domain=wap.yushuwu.cloud
 .com/apps/sdk$third-party
 .com/as/d/*.js
 .com/assets/public/chart.1.js$script,~third-party
+.com/b*X*.*/*O*/*O*/$third-party,~image,~media,~stylesheet
+.com/b*X-*.*/*/*/*/*/$third-party,~image,~media,~stylesheet
+.com/b*X.*/*/*/*/*/$third-party,~image,~media,~stylesheet
 .com/bokan/bokan.js$script
 .com/bug/log/$third-party
 .com/by389.js$script,third-party
@@ -33714,10 +33724,11 @@ $websocket,domain=wap.yushuwu.cloud
 .com/ds*_t2.js?$third-party
 .com/ds*_t3.js?$third-party
 .com/ds*_t9.js?$third-party
+.com/en/*?*&*id=20*&*=*=$third-party,~media,~image,~stylesheet
 .com/en/*?*=*&*=*=0
 .com/en/*?*=*&*=*=0$~third-party
-.com/en/*?id=20*&*=*=$third-party,~media,~image,~stylesheet
-.com/en/*f*/*?*&*=*%*=$third-party,~image,~media,~stylesheet
+.com/en/*?*id=20*&*=*=0$third-party,~image,~media,~stylesheet
+.com/en/*?*id=20*&*=*=1$third-party,~image,~media,~stylesheet
 .com/ev/*?type=events&event=
 .com/ev/*?type=impressions
 .com/facaishen.js
@@ -33725,6 +33736,9 @@ $websocket,domain=wap.yushuwu.cloud
 .com/float_down.js?17$third-party
 .com/footmenu.js$~third-party
 .com/ge/?s=$script,third-party
+.com/get/*?*&*id=20*&*=*=$third-party,~media,~image,~stylesheet
+.com/get/*?*id=20*&*=*=0$third-party,~image,~media,~stylesheet
+.com/get/*?*id=20*&*=*=1$third-party,~image,~media,~stylesheet
 .com/get?$third-party
 .com/getMongoAd.php?$third-party
 .com/gg.js
@@ -36932,6 +36946,7 @@ $websocket,domain=wap.yushuwu.cloud
 ://shise*/scripts/push*.js
 ://sobt*/Public/static/js/common.js
 ://static.*xx.com/static/js/a*.js?v=$third-party
+://tj.*.com$third-party
 ://tj.*.com/$third-party
 ://tj.*.icu/*.js?17$script,third-party
 ://tongji.*/*.js
@@ -42327,7 +42342,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ~xxgxw.com##div[id^="C"][style*="height:"][class^="C"]
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1590
+!<<<<<放行白名单>>>>>1592
 #@##adblocktest
 #@#.has-ad
 #@#.uk-container.uk-container-expand
@@ -42488,6 +42503,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 @@/mobileads.$domain=naviking.localking.com.tw
 @@/needsharebutton.min.js$domain=leetcode-cn.com
 @@/noadblock-nice-message/assets/js/ads.js?$script,~third-party
+@@/playlist.m3u8
 @@/prebid-js-$domain=mytvsuper.com|tvb.com|tvbs.com.tw
 @@/prebid.$script,domain=mingpao.com
 @@/pub/ad/*$domain=ruten.com.tw
@@ -42571,6 +42587,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 @@mwfimsvfast*/static/upload/ads$image
 @@p2p.$domain=tecms.net
 @@tangsanshu.net/js/comm.js
+@@video.m3u8
 @@ysjdm.net/template/conch/asset/js/hlhtml.
 @@|http*://*?$third-party,domain=www.pornhub.com
 @@||/template/conch/asset/js/hlhtml.js$domain=www.lldm.net|1anime.me
