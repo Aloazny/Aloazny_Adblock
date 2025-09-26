@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: oDdqfCm7X1+tFi1oiUhY2A
+! Checksum: duohnmIc3BNhqVqyE7PaRA
 ! Title: Aloazny Chinese fiter
-! Version: 20250925203956
+! Version: 20250926092237
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-09-25 20:39:56
-! Total Count: 43878
-! Blocked Filters: 43878
+! Last modified: 2025-09-26 09:22:37
+! Total Count: 43891
+! Blocked Filters: 43891
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>18246
+!<<<<<域名规则>>>>>18256
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,third-party,domain=dlkoo.cc
@@ -7187,6 +7187,7 @@
 ||gitcrumbs.com^$third-party
 ||githubusercontent.com/vip888vip/ug/main/*.gif
 ||givevacation.com^$third-party
+||giwl0p3gx7.com^
 ||gjh9v.tianshilv.cn^
 ||gjinuqg.top^
 ||gjipd.xyz^
@@ -7534,6 +7535,7 @@
 ||gusp.cn^
 ||gustocooking.com^$third-party
 ||gustygrandmother.com^$third-party
+||guurniuvgo.com^
 ||guzsjdl.cn^
 ||gvbhae0.com^
 ||gw1jvhs.com^
@@ -7988,6 +7990,7 @@
 ||hlalliances.com^
 ||hlbbn6ii.icu^
 ||hlegsdh.icu^
+||hllu.cn^
 ||hlnr9q.icu^
 ||hlstlyy.com^$third-party
 ||hltfs.com/111*.js
@@ -10669,6 +10672,7 @@
 ||m5.66077.cn^
 ||m51.icu^
 ||m6d.icu^
+||m6d3h9vc3z.com^
 ||m7g2v1b9.com^
 ||m7xssfiit.com^
 ||m8ryjf38a.com^
@@ -11784,6 +11788,7 @@
 ||nzfcvv.xyz^
 ||nzl09250oa.com^
 ||nzl09251oa.com^
+||nzl09260oa.com^
 ||nzlelmarw.com^
 ||nzoj.cn^
 ||nzpvpp.icu^
@@ -12074,6 +12079,7 @@
 ||otheve.beacon.qq.com^
 ||otienlk.top^
 ||otimiyk.top^
+||otkwcg.icu^
 ||otlj.cn^
 ||otoieku.icu^
 ||ott.cibntv.net/*/ad/*.ts?ccode=$xmlhttprequest,domain=v.youku.com
@@ -15398,6 +15404,7 @@
 ||tttddb.icu^
 ||tttppp.oss-cn-guangzhou.aliyuncs.com^
 ||ttvosc.com^
+||ttxjnt.icu^
 ||ttykabh.icu^
 ||ttzhongbao.com^
 ||ttzzz11.com^
@@ -15762,6 +15769,7 @@
 ||unionadjs.com^
 ||unionli.com^$third-party
 ||unityads.unity3d.com^
+||universe7.top^
 ||uniway.cn.com^
 ||unjld.com^
 ||unjs.jingyanben.com^
@@ -16327,6 +16335,7 @@
 ||w9uz2f.cn^$~third-party
 ||wa.kuwo.cn/lyrics/img/kwgg/
 ||wa9dald544.com^
+||wacogzaeip.com^
 ||wacowla.com/wp-content/plugins/popover/js/
 ||wagzqhq.cn^
 ||wai69.com/js/baidu/
@@ -17409,6 +17418,7 @@
 ||ycc90.xyz^
 ||yccz.net/xml/
 ||ycdywl.com^
+||ych.asia^
 ||ychahlollfb.com^
 ||yckamq.xyz^
 ||yd.gxdianhua.com^
@@ -18263,7 +18273,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>15036
+!<<<<<网站单独规则>>>>>15039
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,subdocument,third-party,domain=dlkoo.com
@@ -31560,6 +31570,7 @@ user.qzone.qq.com##.f-single-biz
 user.qzone.qq.com##div[id^="fct_20050606_"]
 user.qzone.qq.com##li[id^="fct_20050606_"]
 usgang.ch###rectangle-wrapper
+usmagazine.com##.ad_outer_med
 uspms.it###tca-sticky
 uspms.it##.tca-300x250
 uta-net.com##.songlist-table + div.text-center.py-2.row
@@ -32174,6 +32185,8 @@ worldcrunch.com##.wc_infinite
 worldcrunch.com##body .listicle-ad
 worldfn.net###bzrs1_1
 worldjournal.com##.banner-zone
+worldle.teuteuf.fr###staContainer
+worldle.teuteuf.fr###toggleAdContainer
 worldstarhiphop.com,worldstar.com##div[style*="height:280px;text-align:center;margin-left:auto;margin-right:auto"]
 woshipm.com##.article--heroAd
 woshipm.com##.article-bottomAd
