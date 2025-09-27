@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: sp18eNSnJS/dsbW6tooiXg
+! Checksum: iiWYb0mme2zOPvlt9CPVAA
 ! Title: Aloazny Chinese fiter
-! Version: 20250926204044
+! Version: 20250927091942
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-09-26 20:40:44
-! Total Count: 43908
-! Blocked Filters: 43908
+! Last modified: 2025-09-27 09:19:42
+! Total Count: 43915
+! Blocked Filters: 43915
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>18262
+!<<<<<域名规则>>>>>18268
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,third-party,domain=dlkoo.cc
@@ -6316,6 +6316,7 @@
 ||eweisiw.top^
 ||eweizaw.top^
 ||ewfsef.com^
+||ewgu.cn^
 ||ewilmiw.top^
 ||ewqeq23.fun^
 ||ewqws55.fun^
@@ -10913,6 +10914,7 @@
 ||mfadsrvr.com^
 ||mfav88.com/yinzi/
 ||mfe.paqpq.com^
+||mfhxz0hz7.com^
 ||mfkfkhfhmfkfkhfh.top^
 ||mfoevvy.com^
 ||mfxyqh.cn^
@@ -11280,6 +11282,7 @@
 ||mwcnmtx.top^
 ||mwdwepok.xyz^
 ||mwgehrudb.com^
+||mwgooq.icu^
 ||mwilmix.top^
 ||mwrf.net/images/js/*mrf.js
 ||mwrf.net/images/mrf/
@@ -11794,6 +11797,7 @@
 ||nzl09251oa.com^
 ||nzl09260oa.com^
 ||nzl09261oa.com^
+||nzl09270oa.com^
 ||nzlelmarw.com^
 ||nzoj.cn^
 ||nzpvpp.icu^
@@ -13212,6 +13216,7 @@
 ||r.trwl1.com/s1/$subdocument
 ||r0.mail.ru^
 ||r0.mradx.net^
+||r0eybo511.com^
 ||r0hpdbkqs.com^
 ||r0j.fun^
 ||r0l7cp.com^
@@ -15504,6 +15509,7 @@
 ||twgzgqqu.com^
 ||twho.cn^
 ||twilmii.top^
+||twinkleop.com^
 ||twinrdsrv.com$xmlhttprequest,third-party
 ||twinrdsrv.com^
 ||twinrdsrv.com^$~third-party
@@ -18279,7 +18285,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>15040
+!<<<<<网站单独规则>>>>>15041
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,subdocument,third-party,domain=dlkoo.com
@@ -26609,6 +26615,7 @@ m.biquguan.com,m.banbao.chazidian.com,m.xingzuo123.com,m.pctowap.com##div[style*
 m.bixia.org##div[id^="i"]
 m.blogtruyen.vn##a[href^="https://www.i9bet106.com/"]
 m.bloomberght.com##.zone-area
+m.bohe.cn##div[style] > a[target="_blank"]:not([href*="bohe.cn"],[href^="/"]) > img
 m.bravotube.net###BTm-Native-Big
 m.bravotube.net###block-ffb
 m.bravotube.net##.goldttl
