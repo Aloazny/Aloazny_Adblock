@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 5Cb8yfGa4j4G1VpXU8fkJg
+! Checksum: 4/o8mLAWTS7XAredZM0o/g
 ! Title: Aloazny attach fiter
-! Version: 20250927091919
+! Version: 20250927203428
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-09-27 09:19:19
-! Total Count: 19238
-! Blocked Filters: 19238
+! Last modified: 2025-09-27 20:34:28
+! Total Count: 19247
+! Blocked Filters: 19247
 ! Description: 合并混合规则的补充规则，轻量规则，可作为补充规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_attach.txt?ref=main
 
 
-!<<<<<域名规则>>>>>7405
+!<<<<<域名规则>>>>>7407
 |https://m.frgls.com/js/*.js?v=
 ||*ggua.xyz^$third-party
 ||000123456789.online^
@@ -1901,6 +1901,7 @@
 ||deviceseal.com^$third-party
 ||deviceworkshop.com^$third-party
 ||devilishdinner.com^$third-party
+||devotedwhile.com^
 ||dewdroplagoon.com^$third-party
 ||dexinyi.cn^
 ||dexuanyu.top^
@@ -2576,6 +2577,7 @@
 ||full.video/btn.js
 ||fumanhua88.info^
 ||fumblingform.com^$third-party
+||fumblingvacation.pro^
 ||fumiad.dxys.pro^
 ||functionalcrown.com^$third-party
 ||functionalfeather.com^$third-party
@@ -11773,7 +11775,7 @@ zybang.com##div[id="askTeacher-after-adx-wrap"]
 zzyiwan.com##div[style="width: 100%; overflow: hidden; padding-top: 0px; position: relative; top: 0px; z-index: 9999;"]
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>2766
+!<<<<<通配符规则>>>>>2773
 $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.xyz
 &adZones$xmlhttprequest
 &ad_block=
@@ -12014,8 +12016,10 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .co/ajd.php?pid=$third-party
 .co/ajtop.php?pid=*$third-party
 .com/$domain=huang1111.cn
+.com/*.*/*/*/$third-party,~image,~media,~stylesheet,domain=jable1.sbs|jable1.vip|javbest.icu|javbest.top|missav.ds|missav.llc|missav.ooo|missav2.icu|missav2.lat|missav2.one|missav2.wtf
 .com/*.js$third-party,domain=uaa001.com|uaa002.com|uaa003.com|uaa004.com|uaa005.com
 .com/*.txt$third-party,domain=1anime.me
+.com/*/*o*/$third-party,~image,~media,~stylesheet,domain=jable1.sbs|jable1.vip|javbest.icu|javbest.top|missav.ds|missav.llc|missav.ooo|missav2.icu|missav2.lat|missav2.one|missav2.wtf
 .com/*/amdbacs/jkarme$third-party,~image,~media
 .com/*/asf/qur$third-party,~image,~media
 .com/*/ddd1.js
@@ -12077,6 +12081,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .com/b*X*.*/*O*/*O*/$third-party,~image,~media,~stylesheet
 .com/b*X-*.*/*/*/*/*/$third-party,~image,~media,~stylesheet
 .com/b*X.*/*/*/*/*/$third-party,~image,~media,~stylesheet
+.com/bn.js$third-party,~image,~media,~stylesheet,domain=jable1.sbs|jable1.vip|javbest.icu|javbest.top|missav.ds|missav.llc|missav.ooo|missav2.icu|missav2.lat|missav2.one|missav2.wtf
 .com/bokan/bokan.js$script
 .com/bug/log/$third-party
 .com/c.php?s=*=*=$third-party
@@ -12092,6 +12097,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .com/ds*_t3.js?$third-party
 .com/ds*_t9.js?$third-party
 .com/en/*?*&*id=20*&*=*=$third-party,~media,~image,~stylesheet
+.com/en/*?*&*id=2032069$third-party
 .com/en/*?*=*&*=*=0
 .com/en/*?*=*&*=*=0$~third-party
 .com/en/*?*id=20*&*=*=0$third-party,~image,~media,~stylesheet
@@ -12104,6 +12110,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .com/footmenu.js$~third-party
 .com/ge/?s=$script,third-party
 .com/get/*?*&*id=20*&*=*=$third-party,~media,~image,~stylesheet
+.com/get/*?*&*id=2032069$third-party
 .com/get/*?*id=20*&*=*=0$third-party,~image,~media,~stylesheet
 .com/get/*?*id=20*&*=*=1$third-party,~image,~media,~stylesheet
 .com/get?$third-party
@@ -12140,6 +12147,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .com/new/8*.html$~third-party
 .com/o.js$third-party
 .com/o.php?id=$third-party
+.com/on.js$third-party,~image,~media,~stylesheet,domain=jable1.sbs|jable1.vip|javbest.icu|javbest.top|missav.ds|missav.llc|missav.ooo|missav2.icu|missav2.lat|missav2.one|missav2.wtf
 .com/piao/*.js?$~third-party
 .com/pingbi.js$~third-party
 .com/qq.js$third-party
@@ -12155,6 +12163,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .com/sh/*.js$third-party
 .com/sh/back/*$third-party
 .com/sh/to/*$third-party
+.com/sn/*?*&*id=2032069$third-party
 .com/t1j.js$~third-party,script
 .com/tj?p=*zh-CN$~third-party
 .com/tong*ji.js$script

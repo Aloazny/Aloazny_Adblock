@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: iiWYb0mme2zOPvlt9CPVAA
+! Checksum: G58uyT1r0StASCwown5jeQ
 ! Title: Aloazny Chinese fiter
-! Version: 20250927091942
+! Version: 20250927203452
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-09-27 09:19:42
-! Total Count: 43915
-! Blocked Filters: 43915
+! Last modified: 2025-09-27 20:34:52
+! Total Count: 43930
+! Blocked Filters: 43930
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>18268
+!<<<<<域名规则>>>>>18276
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,third-party,domain=dlkoo.cc
@@ -5301,6 +5301,7 @@
 ||deviceseal.com^$third-party
 ||deviceworkshop.com^$third-party
 ||devilishdinner.com^$third-party
+||devotedwhile.com^
 ||dewdroplagoon.com^$third-party
 ||dexinyi.cn^
 ||dexuanyu.top^
@@ -6851,6 +6852,7 @@
 ||full.video/btn.js
 ||fumanhua88.info^
 ||fumblingform.com^$third-party
+||fumblingvacation.pro^
 ||fumiad.dxys.pro^
 ||fun1shot.com/images/qrcode_wechat.png
 ||fun8.us^$domain=cartoonmad.com
@@ -8913,7 +8915,9 @@
 ||iuu3j.xyz^
 ||iuuiugbjd.xyz^
 ||iuwkmpol.net^
+||ivhv.cn^
 ||ivqtrjt.cn^
+||ivrokpyr.com^
 ||ivvn.cn^
 ||ivy.pconline.com.cn^
 ||ivykiosk.com^$third-party
@@ -11773,6 +11777,7 @@
 ||nweon.com/wp-content/repo/ad/
 ||nwera.xyz^
 ||nwxs5.com/js/
+||nx2ucbzw1.com^
 ||nx8.icu^
 ||nxdefd.icu^
 ||nxet1.360doc.cn^
@@ -11798,6 +11803,7 @@
 ||nzl09260oa.com^
 ||nzl09261oa.com^
 ||nzl09270oa.com^
+||nzl09271oa.com^
 ||nzlelmarw.com^
 ||nzoj.cn^
 ||nzpvpp.icu^
@@ -13633,6 +13639,7 @@
 ||rwbqll.top^
 ||rwdjrn.icu^
 ||rwix.cn^
+||rwtezd.icu^
 ||rxaqwhu54d.com^
 ||rxdxzb.top^
 ||rxlidz.ink^
@@ -17614,6 +17621,7 @@
 ||ymm19.cc^
 ||ymmegy.icu^
 ||ymmiyun.com^
+||ymtwmhh43.com^
 ||ymyile.xyz^
 ||yn0mbg4p1.com^
 ||yn9k86cpsf.com^
@@ -33329,7 +33337,7 @@ zzyiwan.com##div[style="width: 100%; overflow: hidden; padding-top: 0px; positio
 zzzyk.com###Tinfo
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>3794
+!<<<<<通配符规则>>>>>3801
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,subdocument,third-party,domain=dlkoo.com
@@ -33633,8 +33641,10 @@ $websocket,domain=wap.yushuwu.cloud
 .co/js/ads/
 .com*/ps/psCreat.js
 .com/$domain=huang1111.cn
+.com/*.*/*/*/$third-party,~image,~media,~stylesheet,domain=jable1.sbs|jable1.vip|javbest.icu|javbest.top|missav.ds|missav.llc|missav.ooo|missav2.icu|missav2.lat|missav2.one|missav2.wtf
 .com/*.js$third-party,domain=uaa001.com|uaa002.com|uaa003.com|uaa004.com|uaa005.com
 .com/*.txt$third-party,domain=1anime.me
+.com/*/*o*/$third-party,~image,~media,~stylesheet,domain=jable1.sbs|jable1.vip|javbest.icu|javbest.top|missav.ds|missav.llc|missav.ooo|missav2.icu|missav2.lat|missav2.one|missav2.wtf
 .com/*/amdbacs/jkarme$third-party,~image,~media
 .com/*/asf/qur$third-party,~image,~media
 .com/*/ddd1.js
@@ -33704,6 +33714,7 @@ $websocket,domain=wap.yushuwu.cloud
 .com/b*X*.*/*O*/*O*/$third-party,~image,~media,~stylesheet
 .com/b*X-*.*/*/*/*/*/$third-party,~image,~media,~stylesheet
 .com/b*X.*/*/*/*/*/$third-party,~image,~media,~stylesheet
+.com/bn.js$third-party,~image,~media,~stylesheet,domain=jable1.sbs|jable1.vip|javbest.icu|javbest.top|missav.ds|missav.llc|missav.ooo|missav2.icu|missav2.lat|missav2.one|missav2.wtf
 .com/bokan/bokan.js$script
 .com/bug/log/$third-party
 .com/by389.js$script,third-party
@@ -33732,6 +33743,7 @@ $websocket,domain=wap.yushuwu.cloud
 .com/ds*_t3.js?$third-party
 .com/ds*_t9.js?$third-party
 .com/en/*?*&*id=20*&*=*=$third-party,~media,~image,~stylesheet
+.com/en/*?*&*id=2032069$third-party
 .com/en/*?*=*&*=*=0
 .com/en/*?*=*&*=*=0$~third-party
 .com/en/*?*id=20*&*=*=0$third-party,~image,~media,~stylesheet
@@ -33744,6 +33756,7 @@ $websocket,domain=wap.yushuwu.cloud
 .com/footmenu.js$~third-party
 .com/ge/?s=$script,third-party
 .com/get/*?*&*id=20*&*=*=$third-party,~media,~image,~stylesheet
+.com/get/*?*&*id=2032069$third-party
 .com/get/*?*id=20*&*=*=0$third-party,~image,~media,~stylesheet
 .com/get/*?*id=20*&*=*=1$third-party,~image,~media,~stylesheet
 .com/get?$third-party
@@ -33807,6 +33820,7 @@ $websocket,domain=wap.yushuwu.cloud
 .com/new/8*.html$~third-party
 .com/o.js$third-party
 .com/o.php?id=$third-party
+.com/on.js$third-party,~image,~media,~stylesheet,domain=jable1.sbs|jable1.vip|javbest.icu|javbest.top|missav.ds|missav.llc|missav.ooo|missav2.icu|missav2.lat|missav2.one|missav2.wtf
 .com/pc/ad/
 .com/piao/*.js?$~third-party
 .com/piaozi/*.js
@@ -33833,6 +33847,7 @@ $websocket,domain=wap.yushuwu.cloud
 .com/sh/to/$script,third-party,xmlhttprequest
 .com/sh/to/*$third-party
 .com/sitejs/hansan.js
+.com/sn/*?*&*id=2032069$third-party
 .com/stat-qq.html?*&click_url_final=$all
 .com/static/js/ad.js
 .com/style/vue.js?v=
