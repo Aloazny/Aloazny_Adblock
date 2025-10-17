@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: GaLBvB/NfYkoV2THkqRYHw
+! Checksum: L+yrsjrPkythoHjgF0Zh/A
 ! Title: Aloazny Chinese fiter
-! Version: 20251017092302
+! Version: 20251017204006
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-10-17 09:23:02
-! Total Count: 44022
-! Blocked Filters: 44022
+! Last modified: 2025-10-17 20:40:06
+! Total Count: 44032
+! Blocked Filters: 44032
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>18278
+!<<<<<域名规则>>>>>18284
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,third-party,domain=dlkoo.cc
@@ -3822,6 +3822,7 @@
 ||btfclfeqc9.com^
 ||btgoo.cc^
 ||btimiyv.top^
+||btjsvl.icu^
 ||btkat.com/style/l.js
 ||btmao.cc/Public/yd/
 ||btmovi.in/static/js/xf.js
@@ -4679,6 +4680,7 @@
 ||colossalclouds.com^$third-party
 ||colossalcoat.com^$third-party
 ||colossalcry.com^$third-party
+||com052bin.com^
 ||combativecar.com^$third-party
 ||combativedetail.com^$third-party
 ||combbit.com^$third-party
@@ -5550,6 +5552,7 @@
 ||dm.zuowenku.net^
 ||dm1.ddwk8.cn^
 ||dm1.zjydt.com^
+||dm568354.xyz^
 ||dmeia.xyz^
 ||dmevejjt.icu^
 ||dmfjeu.xyz^
@@ -9939,6 +9942,7 @@
 ||kvhee.com^
 ||kvqp.cn^
 ||kvsqa.xyz^
+||kw17vswzu.com^
 ||kwcmrfb.cn^
 ||kwcnmtd.top^
 ||kwdgudw.cn^
@@ -11941,6 +11945,7 @@
 ||okmhnd.com^
 ||okmwfq.xyz^
 ||okooo.com/I/?method=system.data.ad&
+||okoy.cn^
 ||okpl04301ai.com^
 ||okpl05010ai.com^
 ||okpl05011ai.com^
@@ -18214,6 +18219,7 @@
 ||zsnfdphz.com^
 ||zsy10161yok.com^
 ||zsy10170yok.com^
+||zsy10171yok.com^
 ||zszhln.xyz^
 ||zt-uc-baidu.cc^
 ||zt.chuanke.com/?mod=
@@ -18295,7 +18301,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>15083
+!<<<<<网站单独规则>>>>>15087
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,subdocument,third-party,domain=dlkoo.com
@@ -19708,6 +19714,8 @@ $websocket,domain=wap.yushuwu.cloud
 8mav694.com,91mt366.xyz,v11av1513.xyz###video_playr_side.video_playr_sider.videoplayerside
 8mav694.com,u88av134.top,v11av1513.xyz,www.dnabei.com###__long_gg_container
 8se.me,crxs.me,xchina-cn.com,xchina.blog,xchina.co,xchina.fit,xchina.fun,xchina.store,xchina.tv,xchina001.com,xchina002.comxchina.fun,xchina003.com##[class$="article"]:has(.media > a > img[src^="https://upload.xchina.biz/ad/"])
+8se.me,crxs.me,xchina-cn.com,xchina.blog,xchina.co,xchina.fit,xchina.fun,xchina.store,xchina.tv,xchina001.com,xchina002.comxchina.fun,xchina003.com##div.ex-300-250
+8se.me,crxs.me,xchina-cn.com,xchina.blog,xchina.co,xchina.fit,xchina.fun,xchina.store,xchina.tv,xchina001.com,xchina002.comxchina.fun,xchina003.com##div.item:has(> div.a-media)
 8se.me,xbbs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.fit,xchina.fun,xchina.store,xchina.tv,xchina001.com,xchina002.comxchina.fun,xchina003.com##.push-bottom
 8se.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.fit,xchina.fun,xchina.store,xchina.tv,xchina001.com,xchina002.comxchina.fun,xchina003.com##.push-top
 8se.me,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.store,xchina.tv,xchina001.com,xchina002.comxchina.com,xchina003.com##div.recommendation_widget
@@ -23779,7 +23787,9 @@ gameapps.hk##.pc-header-video > a[class^="top-ad-"] + .youtube-container
 gameapps.hk##a[class^="top-ad-"]
 gameapps.hk,m.gameapps.hk##.ad-full-screen
 gamebase.com.tw##span[id^="aid_"]
-gameblog.fr##.r89-mobile-billboard-top
+gameblog.fr##.r89-mobile-video-outstream
+gameblog.fr##div[class^="r89-mobile-billboard"]
+gameblog.fr##div[class^="r89-mobile-rectangle"]
 gamefavo.com##div[style$="min-height:250px;overflow:hidden;"]
 gamefy.cn##.tonglan
 gamefy.cn,sitv.com.cn##.area > div[style="float:left"] > a
@@ -35516,7 +35526,7 @@ $websocket,domain=wap.yushuwu.cloud
 /e/public/ViewClick/
 /e/public/onclick/
 /earn.php?z=$subdocument
-/eda*/c*d*.js$third-party,domain=pornholocaust.com
+/eda*/c*d*.js$third-party,domain=pornholocaust.com|xiaoyakankan.com
 /eis/diy/ad/*
 /emailads/*
 /embed-ad-
@@ -41245,7 +41255,6 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##a[href*="xn--rsse.com/download/"][href$="html"]
 ##a[href*="xyz/?token="][href*="&screen_"][target="_blank"]
 ##a[href*='html?channelCode'] > IMG[src*='.gif'][width='100%']
-##a[href="/AllRes/Vlog2.html"]
 ##a[href="/ad2.html"]
 ##a[href="/baidu/index.html"]
 ##a[href="/bbs/"] > img[src*=".bcebos.com"]
@@ -42327,6 +42336,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##li[id^="dataic"] > div > a[href][name="点击播放"]
 ##oxk
 ##p > a[class="content-file"][target="_blank"][href^="/"],div[style="text-align:center;"] > a[class="content-file"][target="_blank"],div[style="text-align:center;"] > a[class="btn btn-primary"][target="_blank"]
+##p > a[href^="/AllRes/Vlog"]
 ##p[style^="width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !important; flex-flow: row wrap !important; background:"]
 ##photo_center_div > div[class$="_b"][data-group][data-show="ok"]
 ##script + #coupletBox
