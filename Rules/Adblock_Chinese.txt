@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: XALc9bVVDnksJElx8T9Hbw
+! Checksum: GaLBvB/NfYkoV2THkqRYHw
 ! Title: Aloazny Chinese fiter
-! Version: 20251016204022
+! Version: 20251017092302
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-10-16 20:40:22
-! Total Count: 44010
-! Blocked Filters: 44010
+! Last modified: 2025-10-17 09:23:02
+! Total Count: 44022
+! Blocked Filters: 44022
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>18270
+!<<<<<域名规则>>>>>18278
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,third-party,domain=dlkoo.cc
@@ -977,6 +977,7 @@
 ||58file.com/down/xyk.
 ||58jingxuan.top/115
 ||58jingxuan.top/dhbioperhbvoprwm
+||58rfnch2yq.com^
 ||58shuz.com^
 ||58tg.com^$third-party
 ||591520.xyz^
@@ -1050,6 +1051,7 @@
 ||5z2oy.icu^
 ||6.cn/coop/pub/getRand.php?
 ||60.190.139.164^
+||600g3yf2p.com^
 ||600km.com/template/*/ad/
 ||6080aa.com/template/*/images/g_js/
 ||6080aa.com/zhongguo/
@@ -1125,6 +1127,7 @@
 ||6gxs.net/js/
 ||6hejing.cn^
 ||6iwoif.com^
+||6jei0t6xp.com^
 ||6jyi7mzae.com^
 ||6ku.icu^
 ||6ldu6qa.com^$third-party
@@ -3873,6 +3876,7 @@
 ||bustlingbook.com^$third-party
 ||butterbulb.com^$third-party
 ||butterburst.com^$third-party
+||buttocks33.com^
 ||buttonladybug.com^$third-party
 ||buy.sina.com.tw/js/sina_popup.php
 ||buyihao.com^
@@ -7184,6 +7188,7 @@
 ||giraffepiano.com^$third-party
 ||gitcrumbs.com^$third-party
 ||githubusercontent.com/vip888vip/ug/main/*.gif
+||githuhey.com^
 ||givevacation.com^$third-party
 ||giwl0p3gx7.com^
 ||gjh9v.tianshilv.cn^
@@ -10510,6 +10515,7 @@
 ||lwide.xyz^
 ||lwilmil.top^
 ||lwksxs.com^
+||lwlkw7.com^
 ||lwlqsgr.cn^
 ||lwlwlw.com/ggzx/
 ||lwlwlw.com/js/FVgg.js
@@ -18034,6 +18040,7 @@
 ||zhanzhang.net^
 ||zhaofuli.*/data/content
 ||zhaozongqq.com^
+||zhbhivvoid.com^
 ||zhemaijs.net^
 ||zhenben.cc/2000/
 ||zhenbuka.com/gg/lunbo.js
@@ -18206,6 +18213,7 @@
 ||zskll.cn/fast-cgi/*$script
 ||zsnfdphz.com^
 ||zsy10161yok.com^
+||zsy10170yok.com^
 ||zszhln.xyz^
 ||zt-uc-baidu.cc^
 ||zt.chuanke.com/?mod=
@@ -18287,7 +18295,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>15082
+!<<<<<网站单独规则>>>>>15083
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,subdocument,third-party,domain=dlkoo.com
@@ -23786,6 +23794,7 @@ gamekillerapp.com##.foot-banner-station
 gamekillerapp.com##body > a[href]:has(> img.minigame-adv)
 gameleaks.org##.widget_mobile_ad
 gameleaks.org##iframe[id^="IFTG"]
+gameline.jp##._ap_apex_ad + .top_area
 gamemag.ru##.top-branding
 gamemei.com###ft_right_bottom
 gamepedia.jp##.ad-article-bottom
@@ -33372,7 +33381,7 @@ zzyiwan.com##div[style="width: 100%; overflow: hidden; padding-top: 0px; positio
 zzzyk.com###Tinfo
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>3833
+!<<<<<通配符规则>>>>>3834
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,subdocument,third-party,domain=dlkoo.com
@@ -35716,6 +35725,7 @@ $websocket,domain=wap.yushuwu.cloud
 /hm.html?s=*=http
 /hm.js?$third-party
 /hm.js?$third-party,xmlhttprequest
+/hm/*&r=*&t=*&p=*&sign=$script,websocket
 /hm/ytymer?x=
 /hndxweb/push$third-party
 /home/game?id=vip*&gameCategoryId=0
@@ -37208,7 +37218,7 @@ zhaotianbao1.cn/*/ywy*.apk
 zhaotianbao1.cn/*/ywy*.apk$~third-party
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>5230
+!<<<<<通用Css规则>>>>>5232
 ###ADbox
 ###ADtip
 ###Ad-Container
@@ -41539,6 +41549,8 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##body > [style*="position:fixed; bottom:0vw; left:0vw; z-index:"]
 ##body > [style="display: block; z-index: 2147483646; width: 14px; position: fixed; height: 14px; left: 1px; bottom: 129px; box-sizing: content-box;"]
 ##body > [style="display: block; z-index: 2147483646; width: 14px; position: fixed; height: 14px; left: 1px; top: 129px; box-sizing: content-box;"]
+##body > [style^="display: block; width: 100%; height:"]:empty
+##body > [style^="display: block; width: 100%; height:"]:empty ~ :not(div)[style^="display: block; z-index: "]
 ##body > [style^="display: block; z-index: 2147483647; width: 10%;"][style$="!important;"]
 ##body > [style^="display: block;"][style*="129px;"]
 ##body > [style^="position: fixed; z-index: 100; display: block; left: 0px; width: 36px;"]
