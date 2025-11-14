@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: K632MrEHaJQI9Trt+2Oehw
+! Checksum: aF34KA28OR0qHF97P0AnLQ
 ! Title: Aloazny Chinese fiter
-! Version: 20251113204159
+! Version: 20251114092806
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-11-13 20:41:59
+! Last modified: 2025-11-14 09:28:06
 ! Total Count: 44243
 ! Blocked Filters: 44243
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
@@ -18381,7 +18381,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>15155
+!<<<<<网站单独规则>>>>>15154
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,subdocument,third-party,domain=dlkoo.com
@@ -31542,7 +31542,6 @@ tvguia.es###block-php-adhomemobile
 tvguia.es##.tvadvertising
 tvguia.es##.tvadvertising + br
 tvi.iol.pt##.mrecWrapperMobile
-tvjapan.net###bg-ad-mob
 tvmost.com.hk##.main_ad_b
 tvsou.com##.sogou-temp-show
 tvsou.com##.story_ad_content_footer
@@ -33539,7 +33538,7 @@ zzyiwan.com##div[style="width: 100%; overflow: hidden; padding-top: 0px; positio
 zzzyk.com###Tinfo
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>3859
+!<<<<<通配符规则>>>>>3860
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,subdocument,third-party,domain=dlkoo.com
@@ -36939,6 +36938,7 @@ $websocket,domain=wap.yushuwu.cloud
 ://*.read52.*/astyle/wap.js
 ://*.shengyenxs.*/e*/*.js$script
 ://*.tv/ad/$domain=~moviedj.tv
+://*.xcbook*.*/static/js/read.js
 ://*.xiao*ks.com/1.js
 ://*.xn--*.*/1*/*_0*.js$third-party
 ://*.xn--*.cc/jav/*?x=$third-party

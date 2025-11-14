@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: xsOInOxK8CPrWTaCSmr3qw
+! Checksum: l2Ph1amqxY6b5lnU/AwjCQ
 ! Title: Aloazny attach fiter
-! Version: 20251113204137
+! Version: 20251114092742
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-11-13 20:41:37
-! Total Count: 19338
-! Blocked Filters: 19338
+! Last modified: 2025-11-14 09:27:42
+! Total Count: 19339
+! Blocked Filters: 19339
 ! Description: 合并混合规则的补充规则，轻量规则，可作为补充规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -11754,7 +11754,7 @@ zybang.com##div[id="askTeacher-after-adx-wrap"]
 zzyiwan.com##div[style="width: 100%; overflow: hidden; padding-top: 0px; position: relative; top: 0px; z-index: 9999;"]
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>2833
+!<<<<<通配符规则>>>>>2834
 $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.xyz
 &adZones$xmlhttprequest
 &ad_block=
@@ -14233,6 +14233,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 ://*.po18wen.*/js/yushuhai.js
 ://*.read52.*/astyle/wap.js
 ://*.shengyenxs.*/e*/*.js$script
+://*.xcbook*.*/static/js/read.js
 ://*.xiao*ks.com/1.js
 ://*.xn--*.*/1*/*_0*.js$third-party
 ://*.xn--*.cc/jav/*?x=$third-party
