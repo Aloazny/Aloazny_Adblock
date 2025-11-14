@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: aF34KA28OR0qHF97P0AnLQ
+! Checksum: HT026uHI976MahOW9RYOuw
 ! Title: Aloazny Chinese fiter
-! Version: 20251114092806
+! Version: 20251114204016
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-11-14 09:28:06
-! Total Count: 44243
-! Blocked Filters: 44243
+! Last modified: 2025-11-14 20:40:16
+! Total Count: 44267
+! Blocked Filters: 44267
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>18364
+!<<<<<域名规则>>>>>18373
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,third-party,domain=dlkoo.cc
@@ -3078,6 +3078,7 @@
 ||b59.xyz^
 ||b5v0m3q8.com^
 ||b79e4u3hz7.com^
+||b7ijghyla1.com^
 ||b7sw62.pingshu8.xyz^
 ||b7yy.com/ad/
 ||b82q168jgj.com^
@@ -3956,6 +3957,7 @@
 ||bxheifoe.icu^
 ||bxhm.cn^
 ||bxlulr.icu^
+||bxmo.cn^
 ||bxw666.com/storage/*.gif
 ||bxwccii.cn^
 ||bxzlfr.icu^
@@ -9492,6 +9494,7 @@
 ||jubilantcascade.com^$third-party
 ||jubsg4r6qy.com^
 ||jucnwta.top^
+||judicial4.com^
 ||juejin.cn/content_api/v1/advert/query_adverts?
 ||jugaohr.cn^
 ||jugaohr.cn^$~third-party
@@ -11240,6 +11243,7 @@
 ||mtfc8.com^
 ||mtgglobals.com^
 ||mtguwx.xyz^
+||mthonpga.com^
 ||mtienlx.top^
 ||mtiicw.icu^
 ||mtime.cn/tg/
@@ -11848,6 +11852,7 @@
 ||o8s.icu^
 ||o8u3n4q7fe.com^
 ||o8zoz.icu^
+||o9qdqbu6nu.com^
 ||oa-panther.data.aliyun.com^$third-party
 ||oa.hinews.cn/work/img/
 ||oa88s0gb8.com^
@@ -13217,6 +13222,7 @@
 ||qy0.ru/data/game/
 ||qy1.ru/data/game/
 ||qygzbxpt.com^
+||qyplvnzcm1.com^
 ||qyun.vip/pic/*.gif
 ||qywbslk.top^
 ||qyzyd.top^
@@ -17366,6 +17372,8 @@
 ||xxtalp.xyz^
 ||xxts11130zs.com^
 ||xxts11131zs.com^
+||xxts11140zs.com^
+||xxts11141zs.com^
 ||xxx18.uno/dist/app.js
 ||xxxviijmp.com^
 ||xxxvjmp.com^
@@ -17840,6 +17848,7 @@
 ||yxqmryq.top^
 ||yxvoud.com^
 ||yxvyqyy.icu^
+||yxwg21lyyn.com^
 ||yxzp.net/left.js
 ||yy17173.dtime.com^
 ||yy18.info/yyads/
@@ -37401,7 +37410,7 @@ zhaotianbao1.cn/*/ywy*.apk
 zhaotianbao1.cn/*/ywy*.apk$~third-party
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>5264
+!<<<<<通用Css规则>>>>>5279
 ###ADbox
 ###ADtip
 ###Ad-Container
@@ -38341,6 +38350,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ###taw > .med + div > #tvcap > .mnr-c:not(.qs-ic) > .commercial-unit-mobile-top
 ###tbad
 ###td_tpc > .ads
+###test1.mobileIframe > div[carousel-item=""]:not([class]):not([id])
 ###text-ad
 ###text-ads
 ###text-intext-ads
@@ -39527,6 +39537,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.g1_wz > .g1_tp
 ##.gads
 ##.gallery-bns-bl
+##.gdhf
 ##.getads
 ##.gg
 ##.gg-box
@@ -41315,6 +41326,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##a[href*=".xyz:"] > img[src*=".qlogo.cn"]
 ##a[href*=".xyz:"] > img[src]
 ##a[href*=".xyz?ch=ssmh"]
+##a[href*="/#/register?pid="] > img
 ##a[href*="//ad.doubleclick.net"]
 ##a[href*="//adclick.g.doubleclick.net"]
 ##a[href*="//adultfriendfinder.com"]
@@ -41872,6 +41884,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##div.ad_txt_li,div.ad_txt
 ##div.advertisement-box
 ##div.am-gallery-item > a
+##div.app > ul > li.xiaoguo2
 ##div.appad
 ##div.bf_qy DIV.copy_div_btn
 ##div.book-main > #notice
@@ -41927,6 +41940,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##div.player-rm.rm-two.rm-list > a
 ##div.poi-row IMG[width='950'][height='300'][style='max-width:100%;height:auto']
 ##div.poi-row a > IMG[width='100%'][height='auto'][src]
+##div.post-card-image-container.ratio-banner
 ##div.post_list_ajax > A[target='_blank']
 ##div.recommend > a[id*='hudie_']
 ##div.rm-one.rm-list > a
@@ -41948,6 +41962,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##div.synopsisArea > a[id*='hudie_']
 ##div.tips-list.fodong_tips
 ##div.v_ad
+##div.video-holder > div.player + marquee + center
 ##div.xqbj-download
 ##div:not([class]):not([id]) > iframe[width="407"][scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][height][frameborder="0"]
 ##div:not([id]):not([class]):not([style]) > .ad-area-close
@@ -41960,6 +41975,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##div[class$="_b"][style^="bottom:"][style$="display: block;"]
 ##div[class$="d"] > span[class^="closebox"]
 ##div[class$="pic"] > span[class^="closebox"]
+##div[class*="-grid"] > a[rel="nofollow"][target="_blank"][class*="track-click"]
 ##div[class*="_"][data-height="250"][data-show="ok"]:not([id])
 ##div[class*="_"][data-width="250"][data-show="ok"]:not([id])
 ##div[class*="_"][data-width="300"][data-show="ok"]:not([id])
@@ -42016,6 +42032,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##div[class^="banner mt"]
 ##div[class^="container-"] > .row > [class*="col-sm"] > a[rel="noopener nofollow"],div[class^="container-"] > .row > [class*="col-sm"] > [class^="video-elem"] >a[rel="noopener nofollow"],div[class^="container-"] > [class*="need_grid"] > ul > li > a[rel="noopener nofollow"],div[class*="mobile-jsv-bottom"],div[class^="mobile-jsv"] > div[class^="mobile-jsv-content"],div[class^="col-sm"] > div[class^="alert"][class*="text-"][role="alert"]
 ##div[class^="cvbcvxvb"][style]
+##div[class^="e"] > a[href^="/b/a"][href$="/"]
 ##div[class^="fdanilieiu eiowligds"][id][style]
 ##div[class^="gg_"][style]
 ##div[class^="hengfu"] > a[href][target="_blank"]
@@ -42026,6 +42043,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##div[class^="is_"] > a > img[referrerpolicy="no-referrer"][src*="hdslb.com"]
 ##div[class^="main-content"] > div[class^="ad-"][class$="wrap"]
 ##div[class^="mobile-jsv"] > div[class^="mobile-jsv-content"]
+##div[class^="module"] ~ .module-ddslist.dds_w > a[rel="nofollow"][target="_blank"]
 ##div[class^="module-"] > a[href="/index/voddetail.html?id=1"]
 ##div[class^="native-ad-"]
 ##div[class^="popup-t"][class*="open"][class*="-icon"]
@@ -42158,6 +42176,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##font > .topfixed
 ##gpt-ad
 ##guj-ad
+##h3.title > .qq > a[target="_blank"]
 ##head + body > div[style=" max-width:990px; margin:0 auto;"]:not([class]):not([id]) > a
 ##header + #main > div[class][id^="rd"][data-v-app]
 ##header + #main:nth-child(n+4) .container-fluid.mb-0.p-0
@@ -42314,6 +42333,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##img[alt*="棋牌游戏hf"][src$=".gif"]
 ##img[alt*="美女"][alt*="直播"][alt*="秀"]
 ##img[alt*="黑料网"][alt*="广告"]
+##img[alt="51直播"]
 ##img[alt="51萝莉"]
 ##img[alt="908棋牌"]
 ##img[alt="91抖阴"]
@@ -42347,6 +42367,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##img[alt="成人抖音破解"]
 ##img[alt="撸兔视频"]
 ##img[alt="新太阳城"]
+##img[alt="新葡京集团"]
 ##img[alt="时光约炮"]
 ##img[alt="暗网禁地"]
 ##img[alt="極樂夜王"]
@@ -42370,6 +42391,8 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##img[alt="重口社"]
 ##img[alt][src$=".mp3"]
 ##img[alt][src$=".txt"]
+##img[alt^="PG"][alt*="爆率"]
+##img[alt^="PG"][alt*="电子"]
 ##img[alt^="pilipili"]
 ##img[alt^="免费AV"]
 ##img[alt^="知阴"]
@@ -42616,6 +42639,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##ul > li > a[href*=".pojuko.buzz/"]
 ##ul > li > a[href][data-id][data-type][data-position][target="_self"]
 ##ul#page-list.layui-clear.page-wz > ul > li:not([class])
+##ul.cate_ul > li[data-expiration]
 ##ul.grid.text-sm
 ##ul.mb-3.dx-recommend-icons--small
 ##ul.md\:grid-cols-1 > li > a.checkNum
