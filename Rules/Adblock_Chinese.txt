@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: xDSza6xV9pAmYnFtsXSQQg
+! Checksum: sMKwOF3GsGaSoG0RAs8blA
 ! Title: Aloazny Chinese fiter
-! Version: 20251115092526
+! Version: 20251115203548
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-11-15 09:25:26
-! Total Count: 44273
-! Blocked Filters: 44273
+! Last modified: 2025-11-15 20:35:48
+! Total Count: 44286
+! Blocked Filters: 44286
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>18375
+!<<<<<域名规则>>>>>18384
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,third-party,domain=dlkoo.cc
@@ -1057,6 +1057,7 @@
 ||5qjspf2c.xyz^
 ||5s98.com/img/
 ||5tmobi.cn^$third-party
+||5u1zleadi.com^
 ||5u3tzh6tc.com^
 ||5uazcu2o1.com^
 ||5uxmusq.cn^
@@ -2896,6 +2897,7 @@
 ||astrsk.net^
 ||astxt.top^
 ||asvysvxr.com^
+||asy76rvai.com^
 ||asycxtz.cn^
 ||asypwo.icu^
 ||asyy6.com/dm/
@@ -4547,6 +4549,7 @@
 ||clarity.ms^
 ||clarityid.top^
 ||classic.39health.com^
+||classroomlf.com^
 ||clb*.top/Public/static/js/common-v2.js
 ||clb.biz/Public/static/js/common-v2.js
 ||clcimo.icu^
@@ -10328,6 +10331,7 @@
 ||lmldxd.icu^
 ||lmlmvip.com^
 ||lmnpd.xyz^
+||lmtruueagl.com^
 ||lmwwbrgjj.com^
 ||lmx7.com^
 ||lmxxxz.com^
@@ -11870,6 +11874,7 @@
 ||obaivrek.com^
 ||obertsiamw.fun^
 ||obgbok.com^
+||obgk.cn^
 ||obiknmm.icu^
 ||obl74.xyz^
 ||obmenvsem.org/static/images/*banners*450x75.png
@@ -12851,6 +12856,7 @@
 ||qawxpzm.cn^
 ||qaxkwxpf.cn^
 ||qaxl.cn^
+||qayjvrxso.com^
 ||qayqa.com:6868/jquery/
 ||qbcyr5tfd.com^
 ||qbdjfce.com^
@@ -16221,6 +16227,7 @@
 ||vnuuh.icu^
 ||vnvmif.cn^
 ||vnwu.cn^
+||vnyqemhir.com^
 ||voc.com.cn/adsClick/
 ||voc.com.cn/js/xc/
 ||voc.com.cn/static/web/js/creattwo11.js
@@ -16689,6 +16696,7 @@
 ||wshufa.com^$third-party
 ||wslbahe.top^
 ||wsnew.cn^
+||wsnxw6ihs.com^
 ||wstx.com/api.php?mod=ad&
 ||wt6.icu^
 ||wtaccesscontrol.com^$third-party
@@ -17376,6 +17384,7 @@
 ||xxts11131zs.com^
 ||xxts11140zs.com^
 ||xxts11141zs.com^
+||xxts11150zs.com^
 ||xxx18.uno/dist/app.js
 ||xxxviijmp.com^
 ||xxxvjmp.com^
@@ -18392,7 +18401,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>15156
+!<<<<<网站单独规则>>>>>15160
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,subdocument,third-party,domain=dlkoo.com
@@ -21556,6 +21565,8 @@ btbtt.biz##a[class="wrapper_bg_c hidden-xs"]
 btc-echo.de##.btce-ad-mob
 btime.com###ad_full_button_placehoder
 btmovi.in##body > span[style]
+btmulu.live##article.item > div > a[href^="https://"]
+btmulu.live##article.item:has(a[href^="https://"])
 btnull.com,btnull.org,btnull.to,btnull.si,btnull.in,btnull.nu,btnull.fun##[href$=".apk"]
 btnull.com,btnull.org,btnull.to,btnull.si,btnull.in,btnull.nu,btnull.fun##[style*="position: fixed; bottom:"][style*="z-index: 99999;"]
 btnull.org,gyg.la,gyg.si,gying.in,gying.net,gying.org,gying.si,www.btnull.org###ly
@@ -26397,8 +26408,8 @@ laopinion.com.co##.header_suscripciones
 laopiniondemurcia.es##._mo_recs
 laowang.vip###frameYl5IOf
 laowangblog.com##img[src^="https://laowangblog.com/"][src*="-ad"]
-laowanggu.top,laowangpv.top,laowangpz.top,laowangru.top,laowangux.top,laowangvc.top,laowangvz.top,wuqiangu.top,wuqianpv.top,wuqianpz.top,wuqianru.top,wuqianux.top,wuqianvc.top,wuqianvz.top###detail-ad-recommend-panel
-laowanggu.top,laowangpv.top,laowangpz.top,laowangru.top,laowangux.top,laowangvc.top,laowangvz.top,wuqiangu.top,wuqianpv.top,wuqianpz.top,wuqianru.top,wuqianux.top,wuqianvc.top,wuqianvz.top##.panel-default:has(a[href^="https://"])
+laowanggb.top,laowanggu.top,laowangpv.top,laowangpz.top,laowangru.top,laowangso.top,laowangun.top,laowanguo.top,laowangux.top,laowangvc.top,laowangvz.top,wuqiangu.top,wuqianpv.top,wuqianpz.top,wuqianru.top,wuqianux.top,wuqianvc.top,wuqianvz.top###detail-ad-recommend-panel
+laowanggb.top,laowanggu.top,laowangpv.top,laowangpz.top,laowangru.top,laowangso.top,laowangun.top,laowanguo.top,laowangux.top,laowangvc.top,laowangvz.top,wuqiangu.top,wuqianpv.top,wuqianpz.top,wuqianru.top,wuqianux.top,wuqianvc.top,wuqianvz.top##.panel-default:has(a[href^="https://"])
 laozuo.org##.container[style="margin-bottom: 3px;"]
 lapaginamillonaria.com###__next > div#top-sticky:has(> div.ad-container)
 lapkins.ru##.start .start-ban
@@ -28308,6 +28319,7 @@ nana-press.com##.ad-machinePage-footer
 nana-press.com##.modelInfo_listBox_sp[style="margin: 20px 0 20px; min-height: 315px;"]
 nanfengyl.com##.index-top-ad1
 nanfengyl.com##.top-ad-txt
+nanoreview.net##.gtx_lol_o_mobile
 nanrenwo.net##div[id^="content"]
 naozhong.net.cn###pnl-ne0n
 napensii.ua##div[class^="code-block code-block-"]
@@ -33449,6 +33461,7 @@ zhihu.com##.LinkCard-ecommerceLoadingCard
 zhihu.com##.MBannerAd-image
 zhihu.com##.Pc-word-new
 zhihu.com##.RichText-Ecommerce
+zhihu.com##.zhihuAdvert-MBanner-wordDownload
 zhihu.com##[class*="MBannerAd"]
 zhihu.com##a[class="MRelateFeedAd"]
 zhihu.com##a[class="MfeedAd"]
