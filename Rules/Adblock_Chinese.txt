@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: HT026uHI976MahOW9RYOuw
+! Checksum: xDSza6xV9pAmYnFtsXSQQg
 ! Title: Aloazny Chinese fiter
-! Version: 20251114204016
+! Version: 20251115092526
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-11-14 20:40:16
-! Total Count: 44267
-! Blocked Filters: 44267
+! Last modified: 2025-11-15 09:25:26
+! Total Count: 44273
+! Blocked Filters: 44273
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>18373
+!<<<<<域名规则>>>>>18375
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,third-party,domain=dlkoo.cc
@@ -2239,6 +2239,7 @@
 ||af31f.site^
 ||af6s.icu^
 ||afablca.cn^
+||afafb.com^
 ||afafevk.com^
 ||afcav.com^
 ||afce.cn^
@@ -11190,7 +11191,6 @@
 ||mowenxi.com/1.png
 ||mowgoats.com^$third-party
 ||moxiaoqihuoguo.com^
-||mp-api.afafb.com^
 ||mp4ba.com^*/js/head.js
 ||mp4ba.net/static/js/mp4ba.js
 ||mp4us.com/js/wcount.js
@@ -13912,6 +13912,7 @@
 ||sdyurlib.top^
 ||sdzbcg.com/images/sdfhyl
 ||sdzhongke.cn^
+||se.rfvtgbyhn.com^
 ||se533.com/template/new/css/*.js
 ||sealine.youku.com^
 ||search.adcaffe.com^
@@ -14928,6 +14929,7 @@
 ||tbunkrolo.com^
 ||tbyfz.xyz^
 ||tc.dqpumx.com^
+||tc.qzwxrtyk.com^
 ||tc6tc.com^
 ||tc911.vip^
 ||tcbox.baidu.com^
@@ -18390,7 +18392,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>15154
+!<<<<<网站单独规则>>>>>15156
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,subdocument,third-party,domain=dlkoo.com
@@ -26174,7 +26176,6 @@ kanxihe.com##div[class="bndnbugs"]
 kaolashuwu.com###ZF_tanchuang_p_right
 kaolashuwu.com###newmodule
 kaoyan1v1.com###showAD
-kare11.com,wzzm13.com,king5.com##.universal-ad
 katano-times.com,takatsuki2.jp###article-contents > span[class="subject"]
 katsushika-tsushin.com##.category2 > a[rel^="sponsored"][target="_blank"]
 kayserigundem.com.tr##header + div.flex.lg\:hidden
@@ -26277,6 +26278,8 @@ kpzpw.com##.header-pic
 kpzpw.com##.littlebanner
 kq7.com##.J_appFromLen
 krayot.com###front_trandiv
+krem.com##.grid__cell > div.grid__module:has(> div.grid__module-sizer_name_ad)
+krem.com,kare11.com,wzzm13.com,king5.com##.universal-ad
 ks.js.cn##.height200
 ks.js.cn##.height60
 ks.js.cn##.height70
@@ -29816,6 +29819,7 @@ rapidtai.com,taiav.com,taimadou.com,taisinba.com##.movie-card:has(img[alt*="廣�
 rapidtai.com,taiav.com,taimadou.com,taisinba.com##.tai-box-mobile
 rapidtai.com,taiav.com,taimadou.com,taisinba.com##.top-phonehome
 rapidtai.com,taiav.com,taimadou.com,taisinba.com##button[onclick*="this.parentNode.parentNode.removeChild"]
+rapidtai.com,taiav.com,taimadou.com,taisinba.com##div.tai-wrapper-mobile
 rat.xxx##.box-mobile
 rat.xxx##.under-player-adv
 rat.xxx,zbporn.*##.mob-nat-spot
@@ -37410,7 +37414,7 @@ zhaotianbao1.cn/*/ywy*.apk
 zhaotianbao1.cn/*/ywy*.apk$~third-party
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>5279
+!<<<<<通用Css规则>>>>>5281
 ###ADbox
 ###ADtip
 ###Ad-Container
@@ -37968,6 +37972,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ###floatLeft3
 ###floatRight3
 ###floatad-winpop
+###floatingAd
 ###floatingAdContainer
 ###fnAdblockingOverlay
 ###fnbt
@@ -41644,6 +41649,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##a[onclick^="visitReport("][target="_blank"]
 ##a[onclick^="window"] > img[id][width="1"]
 ##a[referrerpolicy="unsafe-url"][target="_blank"]
+##a[rel*="sponsored"][onclick]
 ##a[rel="nofollow"][href][target="_blank"] > div[class^="q-responsive"]
 ##a[rel="nofollow"][href][target="_blank"] > img[rel="nofollow"][height][width][style]
 ##a[rel="nofollow"][target="_blank"] > img[src^="https://gimg0.baidu.com/gimg/"]
