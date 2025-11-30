@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 7Xxm93yaRv/nK48t4fBm2w
+! Checksum: CNrfBYwJPK011t1paABqiQ
 ! Title: Aloazny Chinese fiter
-! Version: 20251129203731
+! Version: 20251130094552
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-11-29 20:37:31
-! Total Count: 45025
-! Blocked Filters: 45025
+! Last modified: 2025-11-30 09:45:52
+! Total Count: 45032
+! Blocked Filters: 45032
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>18592
+!<<<<<域名规则>>>>>18596
 |http$3p,script,domain=kinotut.tv
 |http*://$script,3p,xhr,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,3p,domain=dlkoo.cc
@@ -11761,6 +11761,7 @@
 ||niu07.com/gg/*.js
 ||niubixxx.com/seo/
 ||niugupan.com/js/tj.js
+||niuk11291gi.com^
 ||niulai0323166.space^
 ||niupic.com/images/2019/11/17/_17.
 ||niuza.com^$image,subdocument,3p
@@ -12631,6 +12632,7 @@
 ||pirxzl.xyz^
 ||pisauc.cn^
 ||pisb.cn^
+||pitaltoid.com^
 ||pites.cc/js/top.php
 ||pithyiwgz.top^
 ||pixabay.com/static/img/publisher/*_ad_
@@ -15721,6 +15723,7 @@
 ||txbhhh.xyz^
 ||txbptd.icu^
 ||txcv68f.com^
+||txd8s0oif.com^
 ||txjfso.com^
 ||txnczz.icu^
 ||txre.cn^
@@ -17341,6 +17344,7 @@
 ||xjx11280ts.com^
 ||xjx11281ts.com^
 ||xjx11290ts.com^
+||xjx11291ts.com^
 ||xjzyhp.xyz^
 ||xkbinj.xyz^
 ||xkcxh.com^
@@ -18609,7 +18613,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>15646
+!<<<<<网站单独规则>>>>>15649
 $3p,domain=76fengyun.com|avsdown.com|downdv.com|downdvs.com|downhhh.com|imedown.info|jandown.com|mimima.com|mnks.jxedt.com|rmdown.com|soyunpan.com|xmflv.com
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
 $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
@@ -20290,6 +20294,8 @@ acglover.me##.myas
 acgndmku.com##div[class="ad "]
 acgndmku.com##div[class="play_list_adbox"]
 acgnx.net,acgnx.se##a > img[src^="/images/"]
+acgnx.net,share.acgnx.se##div.banner
+acgnx.net,share.acgnx.se##div.intro_inner
 acgrw.com##img[src^="data:"],[style*="131px"]
 achaec.cc##[style*='px; bottom: 0px; left: 0px; z-index: ']
 achaec.cc##[style*='px; top: 0px; left: 0px; z-index:']
@@ -23898,6 +23904,7 @@ finance.yahoo.co.jp##main > div[class]:has(> div[id^="ad_"])
 finance.yahoo.co.jp##main > section#pr_main1
 finance.yahoo.co.jp##main > section#pr_main3
 finance.yahoo.co.jp##section[class^="SearchResult_"] > div[class^="Card_"] > section[class^="SS__"]
+finance.yahoo.co.jp##section[class^="ServiceInformation_"] > div[class*="InfiniteNews__publicRelationInformationCard_"] > a:not([href*="yahoo.co.jp"])
 finance.yahoo.com###mrt-node-Col1-1-GeminiBrokerBtnsMobileWeb
 finance.yahoo.com##.ys-mobileFeaturedAd
 financefeeds.com##div[id^="tdm-popup-modal-td"]
@@ -29449,6 +29456,8 @@ oricon.co.jp##.top-inline-banner-wrapper
 oricon.co.jp##article > div[style="margin-bottom: 20px; min-height:100px;"]
 orsoon.com###new-actentry
 ortacizgi.com##div.display:has(> div.post-ad-title)
+orzice.com###jinzhu_top
+orzice.com##.ad-guanggao
 oschina.net###project_ad_banner
 oschina.net##.aside-topjj
 oschina.net##.blog-left-ad
@@ -30814,8 +30823,6 @@ shangyexinzhi.com##.hang-baidu_adv
 shangyexinzhi.com##.img2text-adv_wrapper
 shaoxing.com.cn##.top2
 share.acgnx.se##IMG[src*='share.acgnx.se']
-share.acgnx.se##div.banner
-share.acgnx.se##div.intro_inner
 share.dmhy.org##div[align="center"][id] > a > img
 shbqr.com##div[class="article_tags"]
 shbqr.com##div[id="gg_article_content_1"]
