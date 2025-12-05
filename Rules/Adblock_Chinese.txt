@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 2Y/TQ34ECODSi7qbTzNAyg
+! Checksum: keQjHD0Bl+R3PPNakCyBIg
 ! Title: Aloazny Chinese fiter
-! Version: 20251204204340
+! Version: 20251205093905
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-12-04 20:43:40
-! Total Count: 45128
-! Blocked Filters: 45128
+! Last modified: 2025-12-05 09:39:05
+! Total Count: 45137
+! Blocked Filters: 45137
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>18657
+!<<<<<域名规则>>>>>18658
 |http$3p,script,domain=kinotut.tv
 |http*://$script,3p,xhr,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,3p,domain=dlkoo.cc
@@ -8609,6 +8609,7 @@
 ||igscn.com^
 ||igtx.cn^
 ||ih336.com^*a.js
+||ihanmi.com/static/miao/yy.js
 ||ihclam.cn^
 ||ihearsoh.com^
 ||ihgm.cn^
@@ -18674,7 +18675,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>15666
+!<<<<<网站单独规则>>>>>15673
 $3p,domain=76fengyun.com|avsdown.com|downdv.com|downdvs.com|downhhh.com|imedown.info|jandown.com|mimima.com|mnks.jxedt.com|rmdown.com|soyunpan.com|xmflv.com
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
 $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
@@ -22380,6 +22381,7 @@ cityheaven.net##.noguide_banner
 ciyuanshe6.com##body > div[id] > div[class="fixed"],body > div[id] > div[class*="_"],[style=" top: 0; left: 0; width: 100%; height: 120px; z-index: 9999;"]
 cj.sina.cn##div[class="slider_item2"]
 cj.sina.cn,finance.sina.cn##.carousel
+cj.sina.cn,finance.sina.cn##span[class*="u-article-video-title"]
 cjjjs.com,cnblogs.com,fastadmin.net,ziqiangxuetang.com##a[href^="https://promotion.aliyun.com/"]
 cjn.cn###slidelr
 cjn.cn##.sidebar
@@ -27811,7 +27813,6 @@ m.sobaka.ru##.b-brand-banner
 m.sobaka.ru##.b-post-view__banner
 m.sogou.com##div[id="appAdBanner"]
 m.sohu.com###apkBanner
-m.sohu.com###bottomBanner
 m.sohu.com##.add-desk-guide
 m.sohu.com##.apk-banner-wrapper
 m.sohu.com##.art-rec-news
@@ -27822,6 +27823,7 @@ m.sohu.com##.middle-mon-content
 m.sohu.com##a[href="javascript:void(0);"][data-spm-content]
 m.sohu.com##div#CallAppContainer
 m.sohu.com##section > div.f:has(div > script[assporiginsrc])
+m.sohu.com,sohu.com###bottomBanner
 m.sondakika.com###adsgoogle
 m.sondakika.com###news-list-container > ul > li[data-haber-id=""]
 m.sondakika.com###news-list-container > ul > li[id^="liste_300_250"]
@@ -30967,7 +30969,9 @@ sina.cn##.j_sax.sina_tj_qp
 sina.cn##.j_wbrecommend_wrap
 sina.cn##.js-client-jump2.u-article-jump2
 sina.cn##.js-guss-caijing.m-guss-caijing
+sina.cn##.m-bigv-point
 sina.cn##.m-client-call3
+sina.cn##.m-sentiment-blk
 sina.cn##.midThreeAds
 sina.cn##.module-finance-client3
 sina.cn##.module-hot.module-extend
@@ -30977,6 +30981,7 @@ sina.cn##.page_main > .specSlide2Wrap:has(> div > #midThreeAds)
 sina.cn##.shou.js-voice.broadcast
 sina.cn##.show.js-voice.broadcast
 sina.cn##.unfold-words
+sina.cn##.wap-msg-bar
 sina.cn##.wap-msg-bar-wap-bottom,#m-sentiment3,.broadcast,.animated.pluse
 sina.cn##.xc_da
 sina.cn##BODY > A:first-child
@@ -30990,11 +30995,14 @@ sina.cn##[data-info^="ad_none"]
 sina.cn##[data-videojc*="://sax"]
 sina.cn##[href*="://sax"]
 sina.cn##[href^="https://finance.sina.cn/app/"]
+sina.cn##[id*="callup"][id*="btn"]
 sina.cn##[sax-type='proxy'][data-pos][data-saxname][loaded='loaded']
 sina.cn##a[href*=".maozhuar.com"]
 sina.cn##a[id*="jdAdplace"]
+sina.cn##div.float-button.pluse
 sina.cn##div[class="most_fi i_bg j_rcm_s"]
 sina.cn##div[class^="fl_suspension"]
+sina.cn##div[id*="-"][class*="-"][style="bottom: 0px;"]
 sina.cn##iframe[id^="sinaadtk_"]
 sina.cn##section[id="midThreeAds"]
 sina.cn,edu.sina.cn##.j_sax.sina_tj_baner
@@ -34343,7 +34351,7 @@ zzyiwan.com##div[style="width: 100%; overflow: hidden; padding-top: 0px; positio
 zzzyk.com###Tinfo
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>3894
+!<<<<<通配符规则>>>>>3895
 $3p,domain=76fengyun.com|avsdown.com|downdv.com|downdvs.com|downhhh.com|imedown.info|jandown.com|mimima.com|mnks.jxedt.com|rmdown.com|soyunpan.com|xmflv.com
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
 $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
@@ -37845,6 +37853,7 @@ $websocket,domain=wap.yushuwu.cloud
 ://*huameihangkong.*/js/baiducdn.js
 ://*huameihangkong.*/js/bottom.js
 ://*ibiquta.*/*/*.js$domain=ibiquta.com|ibiquta.co|ibiquta.cc|ibiquta.cn|ibiquta.org|ibiquta.la|ibiquta.so|ibiquta.us|ibiquta.info|ibiquta.tw|ibiquta.net|ibiquta.me|ibiquta.app
+://*ihanmi.*/static/miao/yy.js
 ://*iyxdm.*/js/bottom_dk.js
 ://*jiezhong.*/js/f*.js$~third-party
 ://*jm18*/media/albums/f_*.jpg?*=
