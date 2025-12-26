@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: oEOIIFQciZXqdeqb37pkmw
+! Checksum: Qmtjs5CS4dLhtb3zvK2W/Q
 ! Title: Aloazny Chinese fiter
-! Version: 20251226094139
+! Version: 20251226204122
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-12-26 09:41:39
-! Total Count: 46171
-! Blocked Filters: 46171
+! Last modified: 2025-12-26 20:41:22
+! Total Count: 46192
+! Blocked Filters: 46192
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>19479
+!<<<<<域名规则>>>>>19493
 |http$3p,script,domain=kinotut.tv
 |http*://$script,3p,xhr,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,3p,domain=dlkoo.cc
@@ -434,6 +434,7 @@
 ||1futnsio0.com^
 ||1fxs.com^$3p
 ||1gp3p6fkio.com^
+||1gqd0o687z.com^
 ||1iuh5l.com^
 ||1iuybpo.com^
 ||1jc5t.xyz^
@@ -1722,6 +1723,7 @@
 ||aa.xiangxiangmf.com^
 ||aa03010iiko.com^
 ||aa3zx8wko.top^
+||aa52jm08ly.com^
 ||aa67678156.com^$3p
 ||aa889977aa.com^
 ||aaa.tumanyi.com^
@@ -2522,6 +2524,8 @@
 ||ainb12241zh.com^
 ||ainb12250zh.com^
 ||ainb12251zh.com^
+||ainb12260zh.com^
+||ainb12261zh.com^
 ||ainunu.*/vad.js
 ||aipp99.com/haose/
 ||aiqu222.com/da/
@@ -2852,6 +2856,7 @@
 ||anyunwl04.com^
 ||anywlan.com/link/*.gif
 ||anzeretp.com^
+||ao2doihore.com^
 ||ao5yygeilh.com^
 ||aoao11241iis.top^
 ||aobuygo.com^
@@ -3013,6 +3018,7 @@
 ||app.ssp.yahoo.com^
 ||app2.*dfs.com^
 ||app2n.cn^$third-party
+||apparatus49.top^
 ||appbaqend.com^
 ||appboy-images.com^
 ||appc.baidu.com^
@@ -9473,6 +9479,7 @@
 ||j694fx3bp.com^
 ||j6zh4g0.cn^
 ||j7ifivzy.icu^
+||j7kv55pr70.com^
 ||j8tzoy3xwn.com^
 ||j93557g.com^$third-party
 ||ja*.gamersky.com^
@@ -12440,6 +12447,7 @@
 ||nuucmzuc.com^
 ||nuwurorwbr.com^
 ||nv3tosjqd.com^
+||nvielkaa.com^
 ||nvpokyko.icu^
 ||nvsheng.com/js/gg.js
 ||nvxq.cn^
@@ -16187,6 +16195,7 @@
 ||tooreldretpl.com^
 ||toothbond.com/js/head.js
 ||toothbond.com/js/top.js
+||toothpick75.com^
 ||top2099.com^
 ||topicimg.1234567.com.cn/product/2021/1/11/b914f8b6-fb61-4c85-834f-863b67c13a45.gif$domain=fund.eastmoney.com
 ||topmba.mobi/ad/
@@ -16451,6 +16460,7 @@
 ||twfovierbz.com^
 ||twgzgqqu.com^
 ||twho.cn^
+||twhyhf.icu^
 ||twilmii.top^
 ||twinkleop.com^
 ||twinrdsrv.com$xmlhttprequest,third-party
@@ -16680,6 +16690,7 @@
 ||uiteligularly.fun^
 ||uivc.cn^
 ||ujgf120.com^
+||ujhu.cn^
 ||ujmz.cn^
 ||ujnkn.com^
 ||ujof.cn^
@@ -17162,6 +17173,7 @@
 ||vividplume.com^$third-party
 ||viviv.com/download/kwai
 ||vizacasa.xyz^
+||vizgrt.icu^
 ||vjie.com^$3p
 ||vjml.cn^
 ||vjpdxx.icu^
@@ -17380,6 +17392,7 @@
 ||w41.i7x3.fun^
 ||w4sn20zpvz.com^
 ||w51t.com^$subdocument
+||w5bi16f3co.com^
 ||w5ftl8bhu3.com^
 ||w6xbr7hc.xyz^
 ||w6xdba54n.com^
@@ -18531,6 +18544,7 @@
 ||yazhouse*.com/images/gg/$image
 ||yb0a.xyz^
 ||ybayck.xyz^
+||ybbreqrake.com^
 ||ybcnvqf.cn^
 ||yber.fourlaile.com^$third-party
 ||ybixvc.top^
@@ -19496,7 +19510,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>15751
+!<<<<<网站单独规则>>>>>15756
 $3p,domain=76fengyun.com|avsdown.com|downdv.com|downdvs.com|downhhh.com|imedown.info|jandown.com|mimima.com|mnks.jxedt.com|rmdown.com|soyunpan.com|xmflv.com
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
 $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
@@ -27871,7 +27885,10 @@ leslez.com##.opt
 letsplay.tw##.entry-content > div[style="min-width: 300px; min-height:300px;"]
 letsplayindex.com##.ad_side_box
 letsplayindex.com##.ad_wide_vertical
+lettuceclub.net###jobbox_list
 lettuceclub.net##.content-container > section > div.pt-4:has(#lcn-s_all_mb_gam)
+lettuceclub.net##.pt-\[58px\].md\:hidden
+lettuceclub.net##.section:has(> ul.section-content > li > iframe[id^="google_ads_iframe_/"])
 lgmi.com###openwindows0
 lgn.yy.com##.m_left
 lhjingtou.com##div[class="container static"]>img
@@ -29916,6 +29933,7 @@ news.denfaminicogamer.jp##.ad-smp
 news.denfaminicogamer.jp##.articleContent + #header-overlay
 news.denfaminicogamer.jp##.inst_overlap_cover
 news.denfaminicogamer.jp##aside[id^="bpsr_"]
+news.denfaminicogamer.jp##aside[id^="chaoszeronightmare_"]
 news.denfaminicogamer.jp##aside[id^="heartopia_"]
 news.dwango.jp##.overlay-footer_ad
 news.ebc.net.tw###marquee-box
@@ -33833,6 +33851,7 @@ weibo.com##.tag_showTopicL[href^="https://shop.sc.weibo.com/"]
 weibo.com##.vue-recycle-scroller__item-view:has(div[class*="head-info_"]>img[src^="data"])
 weibo.com##.vue-recycle-scroller__item-view:has(div[class^="head-info_authtag_"]>img[src^="data"])
 weibo.com##.vue-recycle-scroller__item-view:has(img[class^="head-info_authicon_"][src^="data"])
+weibo.com##.vue-recycle-scroller__item-view:has(img[src="https://d.sinaimg.cn/prd/1005/891/2025/03/21/icon_auth_white.png"])
 weibo.com##div[ad-data]
 weibo.com##div[class^="HotTopic_doticon_"] + div[class^="HotTopic_tit_"]
 weibo.com##div[feedtype="ad"]
@@ -39245,7 +39264,7 @@ zhaotianbao1.cn/*/ywy*.apk
 zhaotianbao1.cn/*/ywy*.apk$~third-party
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>5333
+!<<<<<通用Css规则>>>>>5335
 ###ADbox
 ###ADtip
 ###Ad-Container
@@ -42188,7 +42207,9 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.player-rm > a[href*="/ad.html?url="]
 ##.player-rm > a[target="_blank"]
 ##.player-rm-float
+##.player-rma > a[target="_blank"]
 ##.player-section__ad-b
+##.player-tl > a[target="_blank"]
 ##.player-tt-rm.rm-list
 ##.player-tt-rmm
 ##.player-wrap > .spot-box
