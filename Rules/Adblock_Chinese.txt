@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: SV1S6YKq2VaUGYMSsgtPPw
+! Checksum: oEOIIFQciZXqdeqb37pkmw
 ! Title: Aloazny Chinese fiter
-! Version: 20251225204110
+! Version: 20251226094139
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-12-25 20:41:10
-! Total Count: 46165
-! Blocked Filters: 46165
+! Last modified: 2025-12-26 09:41:39
+! Total Count: 46171
+! Blocked Filters: 46171
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>19474
+!<<<<<域名规则>>>>>19479
 |http$3p,script,domain=kinotut.tv
 |http*://$script,3p,xhr,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,3p,domain=dlkoo.cc
@@ -6031,6 +6031,7 @@
 ||douyin.com/aweme/v1/web/solution/resource/list/*_banner&
 ||douyu.com/japi/sign/web/getinfo
 ||douyu.com/member/gamegift/gameList/
+||douyucdn.cn/adxdsp/
 ||douyucdn.cn/butterfly-java/*?width=1200&height=100&
 ||douyucdn.cn/butterfly-java/*?width=1200&height=120&
 ||douyucdn.cn/butterfly-java/*?width=242&height=489&
@@ -9591,6 +9592,7 @@
 ||jfsdiwmnbsk009.top^
 ||jfxefv.icu^
 ||jfyb6.com^
+||jg0y00ciyr.com^
 ||jg1668.com^$3p
 ||jgapcsi.icu^
 ||jghklz.xyz^
@@ -16397,6 +16399,7 @@
 ||tuobeng.net^
 ||tupian888.*.bcebos.com^
 ||tuplzt.xyz^
+||turcailnt.com^
 ||turn.com^
 ||turner.com/xslo/cvp/ads/$domain=cnn.com
 ||tushwjp.icu^
@@ -17192,6 +17195,7 @@
 ||vlujojf.icu^
 ||vm.gtimg.cn/thumbplayer/creative/*/creative-player-m.js$domain=m.v.qq.com
 ||vm5apis.com^
+||vm5xs8nvqh.com^
 ||vmap.v.ad-generation.jp^
 ||vmbzhfh.cn^
 ||vmcnl.xyz^
@@ -18722,6 +18726,7 @@
 ||yllix.com^
 ||ylznwl.cn^
 ||ym.oaclrst.cn^$third-party
+||ym3jmnu05.com^
 ||ymapiatm.xyz^
 ||ymdxl.com^
 ||ymgbwkw.icu^
@@ -19491,7 +19496,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>15750
+!<<<<<网站单独规则>>>>>15751
 $3p,domain=76fengyun.com|avsdown.com|downdv.com|downdvs.com|downhhh.com|imedown.info|jandown.com|mimima.com|mnks.jxedt.com|rmdown.com|soyunpan.com|xmflv.com
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
 $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
@@ -32736,6 +32741,7 @@ teniteo.jp##.item_adv_sp
 tenki.jp##.ikoyo-pickup-wrap
 tennessean.com,app.com,greenvilleonline.com,argusleader.com,azcentral.com,battlecreekenquirer.com,baxterbulletin.com,bucyrustelegraphforum.com,burlingtonfreepress.com,citizen-times.com,clarionledger.com,coloradoan.com,courier-journal.com,courierpress.com,dailyworld.com,delawareonline.com,delmarvanow.com,desertsun.com,desmoinesregister.com,floridatoday.com,freep.com,fsunews.com,guampdn.com,hattiesburgamerican.com,hometownlife.com,indystar.com,jconline.com,kitsapsun.com,lansingstatejournal.com,lcsun-news.com,montgomeryadvertiser.com,mycentraljersey.com,naplesnews.com,news-leader.com,news-press.com,newsleader.com,pal-item.com,pnj.com,portclintonnewsherald.com,press-citizen.com,redding.com,rgj.com,sctimes.com,shreveporttimes.com,statesmanjournal.com,stevenspointjournal.com,tallahassee.com,tcpalm.com,theadvertiser.com,thecalifornian.com,thegleaner.com,thenews-messenger.com,thenewsstar.com,thespectrum.com,thestarpress.com,thetimesherald.com,thetowntalk.com,usatoday.com,vcstar.com,visaliatimesdelta.com##partner-banner
 tennisworldusa.org##.text_box > center[style*="margin:15px 0 15px;"]
+terre-bitume.org##main > div > div[style^="min-height:"]
 testkolik.com##.mobilreklam
 textologia.ru###slidebox
 teyvatsokuho.com,yugi-nippon.com##.st-sp-top-only-widgets
