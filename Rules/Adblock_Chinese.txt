@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: J3zNdVi/sSjT11f4Cdm+WA
+! Checksum: CamD1oEkfR2vX/3PCmTfJg
 ! Title: Aloazny Chinese fiter
-! Version: 20251227093944
+! Version: 20251227203916
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-12-27 09:39:44
-! Total Count: 46200
-! Blocked Filters: 46200
+! Last modified: 2025-12-27 20:39:16
+! Total Count: 46215
+! Blocked Filters: 46215
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>19498
+!<<<<<域名规则>>>>>19513
 |http$3p,script,domain=kinotut.tv
 |http*://$script,3p,xhr,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,3p,domain=dlkoo.cc
@@ -2526,6 +2526,8 @@
 ||ainb12251zh.com^
 ||ainb12260zh.com^
 ||ainb12261zh.com^
+||ainb12270zh.com^
+||ainb12271zh.com^
 ||ainunu.*/vad.js
 ||aipp99.com/haose/
 ||aiqu222.com/da/
@@ -3865,6 +3867,7 @@
 ||biqivge.cc/e*/*.js
 ||biqivge.cc/js/d
 ||biqivge.cc/js/p
+||biquge700.com/h5/wap.
 ||biquge96.com/123.
 ||biqugie.com/js/wap.
 ||biqugie.com/js/wap.js
@@ -4330,6 +4333,7 @@
 ||c4d4.cn^
 ||c6.friok.com^
 ||c64ihqx0gj.com^
+||c6hhfkvxv.com^
 ||c7o9xp4e4.com^
 ||c8.net.ua^
 ||c81.ipanocloud.com^
@@ -4432,6 +4436,7 @@
 ||cashprom.ru^
 ||casino-ad-mediation.me2zengame.com^
 ||casisi118.vip^
+||casserole59.top^
 ||casualphysics.com^$third-party
 ||cat.da.us.criteo.com^
 ||catalog.fjwhcbsh.com^
@@ -7235,6 +7240,7 @@
 ||frsejhged.xyz^
 ||frthpp.icu^
 ||frugalfiestas.com^$third-party
+||frzlftr9y.com^
 ||fsclzs.com/Ad_User/
 ||fsgsfaf6.com^
 ||fsjfnp.top^
@@ -9028,6 +9034,7 @@
 ||ikjwmfeds.xyz^
 ||ikkdm.com/mg/show2.js
 ||iklda.cn^
+||iklparx8i.com^
 ||iknwqdpo.xyz^
 ||ikronzealu.com^
 ||ikstatic.cn^*.gif
@@ -13126,6 +13133,7 @@
 ||phodhithp.com^
 ||phoorned.com^
 ||phorralut.com^
+||phosphate50.com^
 ||photo.*.html?tk=$script,3p
 ||photo.*/native?tk=$3p
 ||photographpan.com^$third-party
@@ -15546,6 +15554,7 @@
 ||stupendoussnow.com^$third-party
 ||stupidscene.com^$third-party
 ||su.bdimg.com/static/dspui/js/
+||su0k43kcy.com^
 ||sub.powerapple.com^
 ||subhd.*/kaiyad.
 ||subhd.com/images/ap/
@@ -16302,6 +16311,7 @@
 ||trendmicro.com.tw/wp-content/uploads/*Banner
 ||trenhdg.com^$3p
 ||treqonwyp.com^
+||trerqekuw.com^
 ||trfmxf.xyz^
 ||tridroin.com^
 ||trigminp.com^
@@ -16501,6 +16511,7 @@
 ||txjfso.com^
 ||txnczz.icu^
 ||txre.cn^
+||txru.cn^
 ||txscn.cn^
 ||txt9999.cc/ml.js
 ||txtyuzhaiwu.com/astyle/wap.js
@@ -16520,6 +16531,7 @@
 ||tyrsn6di.icu^
 ||tytx.m.cn.miaozhen.com^
 ||tyutuyoo.top^
+||tyvybl.icu^
 ||tz-68-fabb.com/qiye/
 ||tz.sec.xiaomi.com^
 ||tz659.com/js/cdn.js
@@ -19014,6 +19026,7 @@
 ||z4a.net/images/*/960-60.
 ||z4a.net^$domain=9xav.cc|aotu43.com
 ||z4a.net^*/960x
+||z4tnhm97b.com^
 ||z4v.icu^
 ||z60ft9y8lj.com^
 ||z6ro5.xyz^
@@ -19305,6 +19318,7 @@
 ||ziweuu.com^
 ||ziyuanm.com/js/g11.js
 ||zj-yxw.com^
+||zj7coeb5i.com^
 ||zj9puq8ycu.com^
 ||zjdog.*/model*qety*.js
 ||zjdog.*/models/*_*.js
@@ -19345,6 +19359,7 @@
 ||zlyk.com^*/ysapp.
 ||zlzgfj.icu^
 ||zmdjbl.xyz^
+||zmdttx.icu^
 ||zmhqhuq.cn^
 ||zmk.pw/zfb.png
 ||zmkp6jvq4.com^
