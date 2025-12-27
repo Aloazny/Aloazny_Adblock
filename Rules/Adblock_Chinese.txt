@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: Qmtjs5CS4dLhtb3zvK2W/Q
+! Checksum: J3zNdVi/sSjT11f4Cdm+WA
 ! Title: Aloazny Chinese fiter
-! Version: 20251226204122
+! Version: 20251227093944
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-12-26 20:41:22
-! Total Count: 46192
-! Blocked Filters: 46192
+! Last modified: 2025-12-27 09:39:44
+! Total Count: 46200
+! Blocked Filters: 46200
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>19493
+!<<<<<域名规则>>>>>19498
 |http$3p,script,domain=kinotut.tv
 |http*://$script,3p,xhr,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,3p,domain=dlkoo.cc
@@ -4262,6 +4262,8 @@
 ||bytravel.cn/js/b_
 ||bytravel.cn/js/s_
 ||byvlph.xyz^
+||bz*.com/js/cdn.js
+||bz*.com/js/html*.js$~3p,script
 ||bz*.net/js/cdn.js
 ||bz*.net/js/html*.js$~3p,script
 ||bz13t74nt.com^
@@ -6795,6 +6797,7 @@
 ||f23jjd8.xyz^
 ||f2dsex1.com/public/fb*.png
 ||f3k194f9i7.com^
+||f4h123m89w.com^
 ||f53a.com^
 ||f6jd4k4xgo.com^
 ||f77j6t2b.com^
@@ -10652,6 +10655,7 @@
 ||lestv1.icu^
 ||lestv10.icu^
 ||lestv7.icu^
+||lettuceclub.net/asset/js/job_box_
 ||lettucex977.com^
 ||letv.com/pzt/hyhmzq/index.shtml
 ||leue.cn^
@@ -16641,6 +16645,7 @@
 ||udxi.cn^
 ||udyi.cn^
 ||ue8im.com^
+||ueaeahze.com^
 ||uebabuf.cn^
 ||uebohjhh.xyz^
 ||uedas.qidian.com^
@@ -19510,7 +19515,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>15756
+!<<<<<网站单独规则>>>>>15759
 $3p,domain=76fengyun.com|avsdown.com|downdv.com|downdvs.com|downhhh.com|imedown.info|jandown.com|mimima.com|mnks.jxedt.com|rmdown.com|soyunpan.com|xmflv.com
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
 $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
@@ -21158,6 +21163,7 @@ abmedia.io##a[href^="https://www.okx.com/"]
 abmedia.io,appinn.com,carrotchou.blog,landiannews.com,laoliublog.cn,woniuyulew.com,zhain8.com##.widget_media_image
 abminbuy.com##body > a[rel="nofollow"] > img
 abplive.com##.article div.uk-background-muted[style^="min-height:"]
+abplive.com##.middle-ad-btf-wrapper
 ac.qq.com###qgirlRefreshLead
 accuweather.com###app-store-links
 accuweather.com###header-davek
@@ -23843,7 +23849,7 @@ dianshijutvw.com##img[style="width:100%; height:100%;"]
 diantaiwang.com##a[href^="https://s.click.taobao.com/"][target="_blank"]
 diantaiwang.com##img[src^="/js/imgs"]
 dianyingim.com##iframe[src="/buffer.html"]
-dianyingim.com,dyxs11.com##.popup-tips
+dianyingim.com,dyxs11.com,w.waipian.sbs##.popup-tips
 diario.mx##amp-img[width="320"][height="60"]
 diariobitcoin.com##.tickerPartnerButton
 diarioconvos.com,svetmobilne.cz##.mobile
@@ -24730,6 +24736,7 @@ faxingw.cn##.indadv1
 fayerwayer.com##.bodyContent > div[style="min-height:400px"]
 fc1adult.com##.line_spc > div.grass_img[style="margin-bottom: 10px;"]
 fc1adult.com##.sp_300_spc
+fc1adult.com##.sp_h200.tbm24
 fc1adult.com##.sp_h400
 fc1adult.com##.sp_h500
 fc1adult.com##a[href^="https://a-trade.jp/redirect/"][href*="&banner="]
@@ -27641,6 +27648,7 @@ kocpc.com.tw##[ad="show"]
 kocpc.com.tw##ads
 koding.work##.sidebar > .widget_text:has(> .textwidget > .adsbygoogle)
 kodomo-to.net##.res-adsense
+koe-koe.com###ak_ad
 koe-koe.com###chumoku_ad
 koe-koe.com###third_ad
 koe-koe.com##.ad_min_height
@@ -28330,8 +28338,8 @@ m.economictimes.com##.mrecSlot
 m.economictimes.com##.newsList > div[class*=" "]:has(> div > div > a[onclick])
 m.economictimes.com##.taboolaAd
 m.economictimes.com##.wdt-taboola
-m.economictimes.com##div[id^="taboola-"]
 m.economictimes.com,m.haberler.com,news18.com,pornhub.com,redtube.com,redtube.net##.adContainer
+m.economictimes.com,supertaste.tvbs.com.tw##div[id^="taboola-"]
 m.efuxs.com##.inglestore
 m.elcolombiano.com##.text_ads
 m.ensonhaber.com##.bot > a[href^="https://bit.ly/"]
@@ -29932,9 +29940,7 @@ news.denfaminicogamer.jp###dfng-underarticle-center
 news.denfaminicogamer.jp##.ad-smp
 news.denfaminicogamer.jp##.articleContent + #header-overlay
 news.denfaminicogamer.jp##.inst_overlap_cover
-news.denfaminicogamer.jp##aside[id^="bpsr_"]
 news.denfaminicogamer.jp##aside[id^="chaoszeronightmare_"]
-news.denfaminicogamer.jp##aside[id^="heartopia_"]
 news.dwango.jp##.overlay-footer_ad
 news.ebc.net.tw###marquee-box
 news.ebc.net.tw##.fncnews-content > div.raw-style > div > p > a[href]
@@ -29957,6 +29963,8 @@ news.ifeng.com##.right1
 news.ifeng.com,chazidian.com##.focus
 news.infoseek.co.jp##div[id^="ad-wrapper"]
 news.jorudan.co.jp##div[id^="ad-bottom-"]
+news.jp##.page__ad
+news.jp,nordot.app##.page__ad:not(.page__ad--discoverMore)
 news.kstyle.com##.mdSP10Desc > div[id^="div-gpt-"] + div.indicator
 news.kstyle.com##.mdSP20Ads
 news.liga.net##.partner-logo
@@ -30060,6 +30068,7 @@ newsweekjapan.jp###titleTextAd
 newsweekjapan.jp##.special_bnr_area
 newsweekjapan.jp##div[style="margin: 0 auto 30px; width: 630px; height: 250px;"]
 newsweekjapan.jp##iframe[width~="300"][height~="250"]
+newsyou.info,textologia.ru###slidebox
 newtalk.tw###_popIn_recommend
 newtalk.tw##.dable_response
 newtalk.tw##.extend_ad
@@ -30169,7 +30178,6 @@ noodlemagazine.com##.main > div.container > div[style^="max-width:450px;margin:0
 noodlemagazine.com##div[style^="height:110px;max-width:450px;"]
 nordbayern.de##div[id*="-mobile-ad-"]
 nordot.app##.main__adWrapper
-nordot.app##.page__ad:not(.page__ad--discoverMore)
 notebookcheck-ru.com,notebookcheck-tr.com,notebookcheck.org,notebookcheck.net##.nbc-right-float-inline:has(> div[id^="adngin-"])
 notebookcheck.com##div[class*="incontent-column"]:has(> div[class] > div[id^="div-gpt-ad"])
 notebookcheck.com,notebookcheck.it,notebookcheck.nl,notebookcheck.info,notebookcheck.biz##aside.nbc-right-float
@@ -32761,7 +32769,6 @@ tennessean.com,app.com,greenvilleonline.com,argusleader.com,azcentral.com,battle
 tennisworldusa.org##.text_box > center[style*="margin:15px 0 15px;"]
 terre-bitume.org##main > div > div[style^="min-height:"]
 testkolik.com##.mobilreklam
-textologia.ru###slidebox
 teyvatsokuho.com,yugi-nippon.com##.st-sp-top-only-widgets
 tftactics.gg##div[class^="wrapper-mpu"]
 tgb.cn###headerggContent
@@ -33661,6 +33668,7 @@ vz.ru##div[style="margin: 0px auto;width: 300px; padding: 20px 0px;"]
 w.atwiki.jp##div[style^="position: relative; padding-bottom: "]:has(> iframe[style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; border: medium;"])
 w.mail.qq.com##a#a_toMailApp
 w.sxpyzx.com,www.fanghuaxs.com,www.ibabytxt.com,www.xiazhige.com##div[style*="position: relative !important;"]
+w.waipian.sbs##.shortcuts-mobile-overlay
 w3cschool.cn##.abox-item
 w3school.com.cn###fttg
 w3school.com.cn###sbtg
