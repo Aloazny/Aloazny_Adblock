@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Wnacg下载按钮恢复
 // @namespace    http://tampermonkey.net/
-// @version      1.4
+// @version      1.5
 // @description  给浏览器无法单独放行广告拦截的，恢复下载按钮。
 // @author       Aloazny
 // @match        *://99mh.men/*
@@ -65,8 +65,28 @@
     function blockAds() {
         if (isDownloadPage()) return;
         ['#btimgid1', '#btmad1', 'script[src$="/js/jads.js"] + ins[id]', 'iframe[width="300"][height="250"]', 'iframe[src*="/herebyad"]', 'iframe[src*="/HereByAD"]', 'div[style*="z-index: 9999"][style*="justify-content: center;"]:not([class]):not([id])', 'a[href][target="_blank"] > img[src*="t4"][src*=".ru/data/t/"]'].forEach(s => document.querySelectorAll(s).forEach(e => e.remove()));
-        document.querySelectorAll('script').forEach(s => {
-            if (s.src && (s.src.includes('.com/lv/esnk/') || s.src.endsWith('/code.js') || s.src.includes('view_booster.js') || s.src.endsWith('/bn.js') || s.src.endsWith('/on.js') || s.src.includes('jads.js') || s.src.includes('orbsrv.com') || s.src.includes('/eda437'))) s.remove();
+        const killPatterns = [
+            /view[_-]?booster\.js/i,
+            /\/bn\.js($|\?|#)/i,
+            /\/on\.js($|\?|#)/i,
+            /angularpoppyrobbing/i,
+            /vertigovitalitywieldable/i,
+            /orbsrv\.com/i,
+            /eda437/i,
+            /jads\.js/i,
+            /lv[\/_-]esnk/i
+        ];
+        const suspiciousDatasets = ['cfasync', 'clbaid', 'clocid', 'clpid'];
+        document.querySelectorAll('script').forEach(script => {
+            const src = (script.src || '').toLowerCase();
+            if (killPatterns.some(p => p.test(src))) {
+                script.remove();
+                return;
+            }
+            const dataset = script.dataset || {};
+            if (script.type === 'text/javascript' && (dataset.cfasync === 'false' || suspiciousDatasets.some(key => key in dataset))) {
+                script.remove();
+            }
         });
     }
 
