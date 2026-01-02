@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: qikg+P4MNF0oucMXOWTnBg
+! Checksum: 79y8+nJelcst+oSRr9x8ug
 ! Title: Aloazny Chinese fiter
-! Version: 20260102094404
+! Version: 20260102204126
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-01-02 09:44:04
-! Total Count: 46356
-! Blocked Filters: 46356
+! Last modified: 2026-01-02 20:41:26
+! Total Count: 46370
+! Blocked Filters: 46370
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>19610
+!<<<<<域名规则>>>>>19621
 |http$3p,script,domain=kinotut.tv
 |http*://$script,3p,xhr,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,3p,domain=dlkoo.cc
@@ -121,6 +121,7 @@
 ||0e1y8x7ft.com^
 ||0er7pc8.xyz^
 ||0h9yewgei.com^
+||0hagal2csg.com^
 ||0hagz9mdc.com^
 ||0iem8mw1lx.com^
 ||0kkbb.com/js/i.js
@@ -809,6 +810,7 @@
 ||4199tv.com^
 ||41grk.icu^
 ||4275.com/css/91kf.
+||42vaywaovr.com^
 ||42yenxh.cn^
 ||4399.com/baiduad/
 ||4399.com/jss/*coup.js
@@ -1071,6 +1073,7 @@
 ||5h3wnuhr8.com^
 ||5hffr1p22j.com^
 ||5hte21mz.com^
+||5hu7hee0pt.com^
 ||5ibanma.com^
 ||5icool.org/uploadfile/poster/
 ||5idoy8p7.live^
@@ -2536,6 +2539,8 @@
 ||aillaeuyn.com^
 ||ainb01010zh.com^
 ||ainb01011zh.com^
+||ainb01020zh.com^
+||ainb01021zh.com^
 ||ainb12241zh.com^
 ||ainb12250zh.com^
 ||ainb12251zh.com^
@@ -4665,6 +4670,7 @@
 ||cfzhushou.com^*/King_Chance_Layer.js
 ||cgcg01010ht.com^
 ||cgcg01011ht.com^
+||cgcg01020ht.com^
 ||cgdyw.net/xx/
 ||cgigc.com.cn^
 ||cgmalight.com^
@@ -5900,6 +5906,7 @@
 ||displink.com^$3p
 ||disqusads.com^
 ||disruptive49.com^
+||dissolution06.com^
 ||distributionneck.com^$third-party
 ||distributionpocket.com^$third-party
 ||distributiontomatoes.com^$third-party
@@ -7570,6 +7577,7 @@
 ||geuba.xyz^
 ||gexing.com/i/*960x
 ||gexing.com/j/??zmask.js,easing.js?
+||gexq.cn^
 ||geziyd.com^
 ||gfan.com/press/
 ||gfbdb1.com^
@@ -13459,6 +13467,7 @@
 ||pr-bh.ybp.yahoo.com^
 ||pr.comet.yahoo.com^
 ||pr88vhg.com^
+||praairfo.com^
 ||prbibo.top^
 ||prdohgp.cn^
 ||prebid-cache*.ifunny.co^
@@ -13744,7 +13753,6 @@
 ||qhres.com/static/*/common/seed.js
 ||qhres.com/static/4b6ab193405b6ca3.js
 ||qhres.com^*/baidu_
-||qhres2.com^
 ||qhscsu.xyz^
 ||qhtrolik.com^
 ||qhunetsq.com^
@@ -14531,6 +14539,7 @@
 ||rz2xtcvuy.com^
 ||rz38db915.com^
 ||rz6jf5oqz.com^
+||rzbvxn.icu^
 ||rzcruzullr.com^
 ||rzkptd.com^
 ||rznscya.cn^
@@ -16562,6 +16571,7 @@
 ||twjsx.cn^
 ||twkan.com/js/otherad
 ||twlcyc.cn^
+||twlw3vuz5f.com^
 ||two.fsylr.com^
 ||twqtf.boats^
 ||twrailpolice.appspot.com/campaign.xml
@@ -17144,6 +17154,7 @@
 ||veirkaey.com^
 ||vejrp6iq25.com^
 ||vel7.xyz^
+||velocity30.com^
 ||velti.com^
 ||venator.link^
 ||venea.net/web/ab_message?
@@ -19627,7 +19638,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>15778
+!<<<<<网站单独规则>>>>>15781
 $3p,domain=76fengyun.com|avsdown.com|downdv.com|downdvs.com|downhhh.com|imedown.info|jandown.com|mimima.com|mnks.jxedt.com|rmdown.com|soyunpan.com|xmflv.com
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
 $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
@@ -23908,6 +23919,8 @@ deavita.com,koc.com.tw,kocpc.com.tw##.single_ads
 deccanherald.com##.container > .hide-desktop
 deccanherald.com##.container > div.hide-desktop:has(> div[class] > span + div.ad-background)
 deccanherald.com##div[class]:has(> div > div.ad-background)
+decrypt.co##main .sticky:has(> .relative[style]:only-child > div[id*="_topbanner-"]:only-child)
+decrypt.co##main .sticky:has(> .relative[style]:only-child:empty)
 definebabe.com##div[class^="mobile_"]
 deichstube.de,da-imnetz.de,fehmarn24.de,tz.de,fr.de,fnp.de##.id-Amp-recommendation
 delfi.ee##.md-banner-placement
@@ -27801,7 +27814,6 @@ kpzpw.com##.littlebanner
 kq7.com##.J_appFromLen
 krayot.com###front_trandiv
 krem.com##.grid__cell > div.grid__module:has(> div.grid__module-sizer_name_ad)
-krem.com,kare11.com,wzzm13.com,king5.com##.universal-ad
 ks.js.cn##.height200
 ks.js.cn##.height60
 ks.js.cn##.height70
@@ -33056,6 +33068,7 @@ timedg.com##.crossAdvertise
 timedg.com##.crossAdvertise2
 timedg.com##.middleCrossAdvertise
 timedg.com##.topCrossAd
+timeextension.com##.mastfoot
 timeout.com##div[class^="_footer_ad_wrap_"]
 times.abema.tv##.article-banner
 times.abema.tv##.l-main > div[style="min-height: 90px;margin-bottom: 2vh;"]
@@ -34261,6 +34274,7 @@ wuchajian.net##.UPAD
 wukong.com##div[class$="sdk-top-banner"]
 wunderweib.de##amp-embed[type="doubleclick"]
 wunderweib.de##div[data-ad-slot-id^="mobile"]
+wusa9.com,krem.com,kare11.com,wzzm13.com,king5.com##.universal-ad
 wuxiabee.com##.chapter-content > p + div[class]:has(> div[id] > script)
 wuyong.fun##.content-area .adsbygoogle
 wuyong.fun##.riplus_ads_wrap
