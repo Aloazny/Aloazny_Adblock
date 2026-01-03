@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 79y8+nJelcst+oSRr9x8ug
+! Checksum: 0d6L/AmnLqruV+kFhaIRJQ
 ! Title: Aloazny Chinese fiter
-! Version: 20260102204126
+! Version: 20260103093833
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-01-02 20:41:26
-! Total Count: 46370
-! Blocked Filters: 46370
+! Last modified: 2026-01-03 09:38:33
+! Total Count: 46375
+! Blocked Filters: 46375
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -1916,7 +1916,6 @@
 ||ad.api.3g.youku.com^
 ||ad.apps.fm^
 ||ad.apsalar.com^
-||ad.bandlab.io^
 ||ad.bobi.tw^
 ||ad.buzzvil.com^
 ||ad.bwton.com^
@@ -14451,6 +14450,7 @@
 ||rt.api.glispa.com/native/v1/ad
 ||rt.applovin.com^
 ||rt.applvn.com^
+||rt5x78mhcq.com^
 ||rtapi.abbi.io^
 ||rtau9pif4.com^
 ||rtb.adxsenmeng.com^
@@ -19638,7 +19638,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>15781
+!<<<<<网站单独规则>>>>>15786
 $3p,domain=76fengyun.com|avsdown.com|downdv.com|downdvs.com|downhhh.com|imedown.info|jandown.com|mimima.com|mnks.jxedt.com|rmdown.com|soyunpan.com|xmflv.com
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
 $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
@@ -22536,6 +22536,7 @@ bilibili.com##.bili-video-card:has(.bili-video-card__info--creative-ad) > .bili-
 bilibili.com##.bili-video-card__wrap > a[href^="http"]:not([href*=".bilibili.com/"])
 bilibili.com##.container > .bili-feed-card:has(> div.bili-video-card div.bili-video-card__info--no-interest + h3 > a[target="_blank"]:not([href^="https://www.bilibili.com/"]))
 bilibili.com##.container > div.bili-video-card.is-rcmd:not(:has(> *))
+bilibili.com##.container > div.feed-card:empty
 bilibili.com##.download-entry
 bilibili.com##.eva-banner
 bilibili.com##.eva-extension-body > .bili-video-card:has(.bili-video-card__info--ad)
@@ -22551,6 +22552,7 @@ bilibili.com##.online + .adpos
 bilibili.com##.operate-card[data-target-url*=".miaozhen."]
 bilibili.com##.operate-card[data-target-url*="doubleclick."]
 bilibili.com##.read-recommend-info
+bilibili.com##.recommended-swipe-body-normal div.vui_carousel__slide:has(> div.carousel-area > div.carousel-area-img > a > img[src$="/eva.png"])
 bilibili.com##.title > span > a[href^="http"]:not([href*=".bilibili."])
 bilibili.com##.topic-preview > li > a[href^="http"]:not([href*=".bilibili."])
 bilibili.com##.video-card-common:has(>.card-pic>a[href*="cm.bilibili.com"][data-target-url])
@@ -31316,6 +31318,7 @@ qiyeku.com##div[style*="height:90px;"]
 qiyuanxs.com##div[id="navdown"]
 qizi.la###clientContdiv
 qizuang.com##.bottom-fadan-box
+qlife.jp##main > div[style="text-align: center; margin: 20px auto;"]
 qlwb.com.cn###scroll_box
 qmaile.com##div[id="gg11"]
 qncye.com##.bbaner
@@ -32963,6 +32966,8 @@ theobjective.com##.tno-sticky
 theoutline.com##.post__body > div[class$="-embed--display"]
 thepage.ua##.adv-320x90
 thepaper.cn##[class^='index_footer_banner']
+thepaper.cn##a[data-statclick="downloadApp"]
+thepaper.cn##div[class^="footer_banner"]
 thepopverse.com###ad_bottom-banner
 theporn.cc##.gg-config
 theporn.cc##.toolbar-gg
