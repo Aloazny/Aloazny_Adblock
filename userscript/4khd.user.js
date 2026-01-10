@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         4khd 广告屏蔽
 // @namespace    https://viayoo.com
-// @version      1.0
+// @version      1.1
 // @description  移除4khd广告，兼容原生和GM环境。
 // @author       Via
 // @license      MIT
@@ -23,36 +23,28 @@
     const doc = document;
 
     const AD_SELECTORS = '.exo_wrapper,.popup,.centbtd,.exo-native-widget,.exo-native-widget-outer-container,ins[data-processed="true"],.popup-iframe,ins.adsbynetwork,.wb-contai,iframe[src*="pemsrv"],iframe[src*="magsrv"],iframe[src*="exoclick"]';
-    const BLOCK_PATTERNS = [/magsrv|pemsrv|ad-provider\.js|disabley|ad-provider|exoclick|ads?[0-9]*\.|popunder|venor|popup|fxuuid|jduuid|linkSens|uuid|splash\.php/i];
+    const BLOCK_REGEX = /magsrv|pemsrv|ad-provider\.js|disabley|ad-provider|exoclick|ads?[0-9]*\.|popunder|venor|popup|fxuuid|jduuid|linkSens|uuid|splash\.php/i;
+    const PROTECT_REGEX = /popMagic|pemsrv|splash\.php|exoJsPop|BetterJsPop|disable-devtool|DisableDevtool|exoclick|magsrv/i;
 
-    let lastDomain = location.hostname;
+    const currentHostname = location.hostname;
+    const fuzzyDomain = currentHostname.replace(/\d+/g, '').replace(/\.+$/, '');
 
-    const cleanStorage = () => {
-        ['storedResult', 'inData', 'extranks', 'Better', 'linkSens', 'jduuid', 'adshsi', 'inData2', 'BetterJsPop_lastOpenedAt'].forEach(k => {
-            localStorage.removeItem(k);
-            sessionStorage.removeItem(k);
-        });
-        ['adsie', 'jduuid'].forEach(n => {
-            document.cookie = `${n}=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/`;
-            document.cookie = `${n}=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; domain=.${location.hostname}`;
-            document.cookie = `${n}=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; domain=${location.hostname}`;
-        });
-    };
-
-    const checkDomainChange = () => {
-        const cur = location.hostname;
-        if (cur !== lastDomain) {
-            cleanStorage();
-            lastDomain = cur;
+    function checkExternal(href) {
+        try {
+            const url = new URL(href, location.href);
+            return !url.hostname.includes('4khd') && !url.hostname.includes(fuzzyDomain);
+        } catch (e) {
+            return false;
         }
-    };
+    }
 
-    const initAdBlocker = () => {
+    function initStaticBlock() {
+        const css = `${AD_SELECTORS}{display:none!important;visibility:hidden!important;pointer-events:none!important;z-index:-999!important;height:0!important;}`;
         if (hasGM) {
-            GM_addStyle(`${AD_SELECTORS}{display:none!important;visibility:hidden!important}`);
+            GM_addStyle(css);
         } else {
             const s = doc.createElement('style');
-            s.textContent = `${AD_SELECTORS}{display:none!important;visibility:hidden!important}`;
+            s.textContent = css;
             (doc.head || doc.documentElement).appendChild(s);
         }
 
@@ -63,224 +55,120 @@
                 configurable: false
             });
         });
-    };
+    }
 
-    const shouldBlock = url => url && BLOCK_PATTERNS.some(p => p.test(url));
-    const currentHostname = location.hostname;
-    const fuzzyDomain = currentHostname.replace(/\d+/g, '').replace(/\.+$/, '');
-    const blockExternalLinks = e => {
-        if (!e.isTrusted) return;
-        let target = e.target;
-        while (target && target.nodeName !== 'A' && target.nodeName !== 'AREA') {
-            target = target.parentElement;
-        }
-        if (target && target.href) {
-            try {
-                const url = new URL(target.href, location.href);
-                if (!url.hostname.includes('4khd') && !url.hostname.includes(fuzzyDomain) && (target.target === '_blank' || e.ctrlKey || e.metaKey)) {
-                    e.preventDefault();
-                    e.stopImmediatePropagation();
-                    return false;
-                }
-            } catch (err) {}
-        }
-    };
+    function initNetworkInterceptors() {
+        win.open = new Proxy(win.open, {
+            apply: (t, th, args) => (args[0] && (BLOCK_REGEX.test(args[0]) || checkExternal(args[0]))) ? null : Reflect.apply(t, th, args)
+        });
 
-    const initEventListeners = () => {
-        doc.addEventListener('click', blockExternalLinks, true);
-        doc.addEventListener('mousedown', blockExternalLinks, true);
-    };
-
-    const initNetworkInterceptors = () => {
-        window.open = new Proxy(window.open, {
+        win.fetch = new Proxy(win.fetch, {
             apply: (t, th, args) => {
-                if (args[0]) {
-                    if (shouldBlock(args[0])) {
-                        return null;
+                const url = args[0]?.url || args[0];
+                return (typeof url === 'string' && BLOCK_REGEX.test(url)) ?
+                    Promise.resolve(new Response('', {
+                        status: 204
+                    })) :
+                    Reflect.apply(t, th, args);
+            }
+        });
+
+        const XHR = XMLHttpRequest.prototype;
+        const _open = XHR.open;
+        const _send = XHR.send;
+
+        XHR.open = function(_, url) {
+            this._blocked = typeof url === 'string' && BLOCK_REGEX.test(url);
+            return this._blocked ? undefined : _open.apply(this, arguments);
+        };
+
+        XHR.send = function() {
+            return this._blocked ? undefined : _send.apply(this, arguments);
+        };
+    }
+
+    function createImageBtn(url) {
+        const container = doc.createElement('div');
+        container.className = 'img-button-container';
+        const btn = doc.createElement('button');
+        btn.className = 'img-btn';
+        btn.textContent = '打开';
+        btn.onclick = (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            const a = doc.createElement('a');
+            a.href = url;
+            a.download = url.split('/').pop();
+            a.click();
+        };
+        container.appendChild(btn);
+        return container;
+    }
+
+    function processImages(root = doc) {
+        const links = root.querySelectorAll('#basicExample > a.imageLink');
+        links.forEach(link => {
+            if (link.dataset.processed || link.parentNode.classList.contains('image-wrapper')) return;
+            link.dataset.processed = "true";
+            const wrapper = doc.createElement('div');
+            wrapper.className = 'image-wrapper';
+            link.parentNode.insertBefore(wrapper, link);
+            wrapper.appendChild(link);
+            const img = link.querySelector('img');
+            const targetUrl = img?.src || img?.dataset?.src || link.href;
+            wrapper.appendChild(createImageBtn(targetUrl));
+        });
+    }
+
+    function initUnifiedObserver() {
+        const style = doc.createElement('style');
+        style.textContent = `
+            .image-wrapper{position:relative;display:inline-block}
+            .img-button-container{position:absolute;bottom:15px;right:10px;display:flex;gap:8px;z-index:100}
+            .img-btn{padding:8px 16px;border:1px solid rgba(255,255,255,0.25);border-radius:16px;cursor:pointer;font-size:13px;font-weight:600;backdrop-filter:blur(16px);background:rgba(255,255,255,0.3);color:#1C2526;transition:all 0.2s}
+            @media (prefers-color-scheme:dark){.img-btn{background:rgba(40,40,40,0.3);color:#f0f0f0}}
+            .img-btn:hover{transform:translateY(-1px);background:rgba(255,255,255,0.4)}
+        `;
+        doc.head.appendChild(style);
+        const observer = new MutationObserver(mutations => {
+            for (const mutation of mutations) {
+                for (const node of mutation.addedNodes) {
+                    if (node.nodeType !== 1) continue;
+                    if (node.tagName === 'SCRIPT' && PROTECT_REGEX.test(node.textContent || node.src || '')) {
+                        node.remove();
+                        continue;
                     }
-                    try {
-                        const url = new URL(args[0], location.href);
-                        if (!url.hostname.includes('4khd') && !url.hostname.includes(fuzzyDomain)) {
-                            return null;
-                        }
-                    } catch (err) {}
+                    if (node.matches?.(AD_SELECTORS)) {
+                        node.remove();
+                    }
+                    processImages(node);
                 }
-                return t.apply(th, args);
             }
         });
-
-        window.fetch = new Proxy(window.fetch, {
-            apply: (t, th, args) => shouldBlock(args[0]?.url || args[0]) ?
-                Promise.resolve(new Response('', {
-                    status: 204
-                })) : t.apply(th, args)
-        });
-
-        const originalXHRopen = XMLHttpRequest.prototype.open;
-        XMLHttpRequest.prototype.open = function() {
-            if (shouldBlock(arguments[1])) {
-                this._blocked = true;
-                return;
-            }
-            return originalXHRopen.apply(this, arguments);
-        };
-
-        const originalXHRSend = XMLHttpRequest.prototype.send;
-        XMLHttpRequest.prototype.send = function() {
-            return this._blocked ? undefined : originalXHRSend.apply(this, arguments);
-        };
-    };
-
-    const initScriptProtections = () => {
-        const originalAddEvent = EventTarget.prototype.addEventListener;
-        EventTarget.prototype.addEventListener = function(type, listener, options) {
-            if (type === 'click' && typeof listener === 'function') {
-                const str = listener.toString();
-                if (/popMagic|pemsrv|splash\.php|exoJsPop|BetterJsPop/.test(str)) return;
-            }
-            return originalAddEvent.call(this, type, listener, options);
-        };
-
-        doc.querySelector = new Proxy(doc.querySelector, {
-            apply(target, thisArg, args) {
-                return args[0] === "[disable-devtool-auto]" ? null : target.apply(thisArg, args);
-            }
-        });
-
-        const originalEval = win.eval;
-        win.eval = code => {
-            if (typeof code === 'string' && /disable-devtool|DisableDevtool/i.test(code)) return;
-            return originalEval.call(win, code);
-        };
-
-        const originalFunction = win.Function;
-        win.Function = (...args) => {
-            const body = args[args.length - 1];
-            if (typeof body === 'string' && /disable-devtool|DisableDevtool/i.test(body)) return () => {};
-            return originalFunction(...args);
-        };
-    };
-
-    const initMutationObserver = () => {
-        const observer = new MutationObserver(muts => {
-            muts.forEach(mut => {
-                mut.addedNodes.forEach(node => {
-                    if (node.nodeType !== 1) return;
-                    if (node.tagName === 'SCRIPT') {
-                        const txt = node.textContent || '';
-                        const src = node.src || '';
-                        if (txt.includes('popMagic') || txt.includes('splash.php') || txt.includes('BetterJsPop') || /disable-devtool|DisableDevtool|pemsrv|magsrv|exoclick/i.test(txt + src)) {
-                            node.remove();
-                            return;
-                        }
-                    }
-                });
-            });
-        });
-
         observer.observe(doc.documentElement, {
             childList: true,
             subtree: true
         });
-    };
-
-    const addImageButtons = () => {
-        const style = document.createElement('style');
-        style.textContent = `
-        .img-button-container{position:absolute;bottom:15px;right:10px;display:flex;gap:8px;opacity:0.95;transition:opacity 0.2s;z-index:100}
-        .img-button-container:hover{opacity:1}
-        .img-btn{padding:8px 16px;border:none;border-radius:16px;cursor:pointer;font-size:13px;font-weight:600;backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);background:rgba(255,255,255,0.3);color:#1C2526;transition:all 0.2s;box-shadow:0 4px 12px rgba(0,0,0,0.15);border:1px solid rgba(255,255,255,0.25);min-width:64px;text-align:center;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif}@media (prefers-color-scheme:dark){.img-btn{background:rgba(40,40,40,0.3);color:#f0f0f0}}
-        .img-btn:hover{background:rgba(255,255,255,0.4);transform:translateY(-1px);box-shadow:0 6px 16px rgba(0,0,0,0.2)}
-        .image-wrapper{position:relative;display:inline-block}
-        @media not (backdrop-filter:blur(16px)){.img-btn{background:rgba(245,245,245,0.9)}
-        @media (prefers-color-scheme:dark){.img-btn{background:rgba(30,30,30,0.9)}}}
-    `;
-        document.head.appendChild(style);
-
-        const processImages = () => {
-            document.querySelectorAll('#basicExample > a.imageLink').forEach(link => {
-                if (link.querySelector('.img-button-container')) return;
-
-                const wrapper = document.createElement('div');
-                wrapper.className = 'image-wrapper';
-                link.parentNode.insertBefore(wrapper, link);
-                wrapper.appendChild(link);
-
-                const container = document.createElement('div');
-                container.className = 'img-button-container';
-
-                const downloadBtn = document.createElement('button');
-                downloadBtn.className = 'img-btn';
-                downloadBtn.textContent = '打开';
-
-                container.appendChild(downloadBtn);
-                wrapper.appendChild(container);
-
-                const img = link.querySelector('img');
-                const imgUrl = img.src || img.dataset.src || link.href;
-
-                downloadBtn.addEventListener('click', (e) => {
-                    e.preventDefault();
-                    e.stopPropagation();
-                    const a = document.createElement('a');
-                    a.href = imgUrl;
-                    a.download = imgUrl.split('/').pop();
-                    document.body.appendChild(a);
-                    a.click();
-                    document.body.removeChild(a);
-                });
-            });
-        };
-
-        const imageObserver = new MutationObserver(() => {
-            processImages();
-        });
-
-        imageObserver.observe(document.body, {
-            childList: true,
-            subtree: true
-        });
         processImages();
-    };
+    }
 
-    const aggressiveClean = () => {
-        doc.querySelectorAll(AD_SELECTORS).forEach(el => el.remove());
-        cleanStorage();
-    };
-
-    const initPeriodicCleanup = () => {
-        setInterval(aggressiveClean, 1000);
-    };
-
-    const initHistoryInterceptors = () => {
-        const originalPushState = history.pushState;
-        const originalReplaceState = history.replaceState;
-
-        history.pushState = function() {
-            const result = originalPushState.apply(this, arguments);
-            setTimeout(checkDomainChange, 0);
-            return result;
-        };
-
-        history.replaceState = function() {
-            const result = originalReplaceState.apply(this, arguments);
-            setTimeout(checkDomainChange, 0);
-            return result;
-        };
-    };
-
-    const initAll = () => {
-        initAdBlocker();
-        initEventListeners();
+    function initAll() {
+        initStaticBlock();
         initNetworkInterceptors();
-        initScriptProtections();
-        initMutationObserver();
-        initPeriodicCleanup();
-        initHistoryInterceptors();
-        aggressiveClean();
-        addImageButtons();
-    };
-
+        initUnifiedObserver();
+        doc.addEventListener('click', (e) => {
+            if (!e.isTrusted) return;
+            const a = e.target.closest('a, area');
+            if (a?.href && checkExternal(a.href) && (a.target === '_blank' || e.ctrlKey)) {
+                e.preventDefault();
+                e.stopImmediatePropagation();
+            }
+        }, true);
+        setInterval(() => {
+            doc.querySelectorAll(AD_SELECTORS).forEach(el => el.remove());
+            processImages();
+        }, 2000);
+    }
     if (doc.readyState === 'loading') {
         doc.addEventListener('DOMContentLoaded', initAll);
     } else {
