@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: NJ35GGVX2Cw2wn0ztSIBvg
+! Checksum: yTunBuXQTQd8pSGMv0r+9A
 ! Title: Aloazny Chinese fiter
-! Version: 20260117094016
+! Version: 20260117203938
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-01-17 09:40:16
-! Total Count: 46357
-! Blocked Filters: 46357
+! Last modified: 2026-01-17 20:39:38
+! Total Count: 46390
+! Blocked Filters: 46390
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>19566
+!<<<<<域名规则>>>>>19591
 |http$3p,script,domain=kinotut.tv
 |http*://$script,3p,xhr,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,3p,domain=dlkoo.cc
@@ -444,6 +444,7 @@
 ||1f0l.top^
 ||1futnsio0.com^
 ||1fxs.com^$3p
+||1gj8lhfa1.com^
 ||1gp3p6fkio.com^
 ||1gqd0o687z.com^
 ||1hmklj60i.com^
@@ -686,6 +687,7 @@
 ||34mede82hj.com^
 ||3520.cc/js/3520/
 ||35336.net/35336.jpg
+||354xxcdt1.com^
 ||3562wsgkbcm.xyz^
 ||35vc.com^
 ||360.cn/apis/qss/soweb/ad_proxy/internal/
@@ -1189,6 +1191,7 @@
 ||6avz.com^$script,3p
 ||6c641lgikp.top^
 ||6cjdya3djn.com^
+||6cmxoje5k.com^
 ||6cyfvvs.com^
 ||6fm4dcpj31.com^
 ||6functf.com^
@@ -1536,6 +1539,7 @@
 ||98765432100.online^
 ||98765432100.site^
 ||988aiai.com/static/js/common.js
+||98dxs.*/themes/jieqi/wap/js/$script
 ||98k0ocqaf6.com^
 ||990215.xyz^
 ||9906g.com/js/jquery.js
@@ -3893,6 +3897,8 @@
 ||biqgg.com/n.js
 ||biqgg.com/w.
 ||biqgg.com/w.js?v=
+||biqiuge*/mm.js
+||biqiuge5.org/mm.js
 ||biqiuge5.org/mo.
 ||biqivge.cc/e*/*.js
 ||biqivge.cc/js/d
@@ -4227,6 +4233,8 @@
 ||bugs01151ko.com^
 ||bugs01160ko.com^
 ||bugs01161ko.com^
+||bugs01170ko.com^
+||bugs01171ko.com^
 ||buhgalter.com.ua^*/blocker.
 ||buhgalter911.com^*/blocker.
 ||buhlvp.pojuko.buzz^
@@ -6127,6 +6135,7 @@
 ||downmz.com^$3p
 ||downxia.com/dgjs/download.js
 ||downyi.com/tg/
+||dowrrav.com^
 ||doyougothere.com^$third-party
 ||dozu5h9yql.com^
 ||dp3.qq.com^
@@ -6777,6 +6786,7 @@
 ||everyonepiano.cn/Public/*0x
 ||evidhjksdtgyxrh.xyz^
 ||evkc.cn^
+||evpxl9a8h.com^
 ||evreiks.com^
 ||evtubescms.phncdn.com^
 ||ewbaenkiu.com^
@@ -7058,6 +7068,7 @@
 ||fhe5wb.cc^$~third-party
 ||fheiu43bcdhsj.top^
 ||fhfgg.com^
+||fhgaikrolq.com^
 ||fhglcpf.icu^
 ||fhhctb.icu^
 ||fhitagd.cn^
@@ -8067,6 +8078,7 @@
 ||gv0oi9ecji.com^
 ||gvbhae0.com^
 ||gvideo.qpic.cn^
+||gvje.cn^
 ||gw1jvhs.com^
 ||gw7jpuouik.com^
 ||gwbnsh.net.cn/hd/unicom/ad.html
@@ -8287,6 +8299,7 @@
 ||hbv.tobeacon.cn^
 ||hbxhnqj.cn^
 ||hbxmdf.icu^
+||hbz8v.com^
 ||hbzhenquan.cn^
 ||hbzjht.com^$3p
 ||hbzshoes.com^
@@ -11060,6 +11073,7 @@
 ||lppgjf.xyz^
 ||lpuqhego.com^
 ||lpxmall.com^
+||lqbe7i5gf.com^
 ||lqdcvj.top^
 ||lqe3.icu^
 ||lqfctb.icu^
@@ -11511,6 +11525,7 @@
 ||media-imdb.com/images/*/imdbads/js/collections/admobileweb-*._*_.js
 ||medialand.ru^
 ||mediate-ios-*.hyprmx.com^
+||mediation.goog^
 ||mediation.unity3d.com^
 ||mediav.com^$3p,domain=~dev.360.cn|~g.360.cn
 ||medicine4.top^
@@ -12511,6 +12526,7 @@
 ||nxhwvt.xyz^
 ||nxing.cn/uploads/uploads/*-size1220x
 ||nxjuvt.icu^
+||nxkyiwh.com^
 ||nxnjw.com^
 ||nxu3l4c8u.com^
 ||nxwm44neo.com^
@@ -13301,6 +13317,7 @@
 ||placidactivity.com^$third-party
 ||placidperson.com^$third-party
 ||planebasin.com^$third-party
+||plausible.io^$third-party,script
 ||play6111.com/js/
 ||playgap.b-cdn.net^
 ||playhaven.com^
@@ -14043,6 +14060,7 @@
 ||r6yigjfvp.com^
 ||r75tia.cn^
 ||r7tqkqrvuz.com^
+||ra0mpyy93.com^
 ||ra1.xyz^
 ||ra10.xyz^
 ||rabbitbreath.com^$third-party
@@ -14607,6 +14625,7 @@
 ||saviourketonic.com^
 ||savoryorange.com^$third-party
 ||sax*.sina.
+||saxophone90.top^
 ||saxysec.com^
 ||saymedia.com^
 ||sb4you1.com^
@@ -15166,6 +15185,7 @@
 ||snmi.cn^$3p
 ||snoresmile.com^$third-party
 ||snowflake.qq.com^
+||snowman77.com^
 ||snwuamb.top^
 ||snwucnb.top^
 ||snxyf.com^$3p
@@ -16091,6 +16111,7 @@
 ||tj.allcdn.vip^
 ||tj.b.qq.com^
 ||tj.com.day/js/*.js|$script,3p
+||tj.shinpa.me^$third-party,script
 ||tj.sosomp.com^
 ||tj.video.qq.com^
 ||tjappzvz.xyz^
@@ -16616,6 +16637,7 @@
 ||u62x055tr.com^
 ||u6421d8aqt.com^
 ||u6uy9lzdcj.com^
+||u6yzoru6u.com^
 ||u6zsr2xn1.com^
 ||u7em6.xyz^
 ||u7em9v4hp.com^
@@ -17126,6 +17148,7 @@
 ||vgnyli.top^
 ||vgovvoinf.com^
 ||vgragvory.com^
+||vgtmosn.com^
 ||vgxj.cn^
 ||vhaugmotn.com^
 ||vhgu5ivtew.com^
@@ -17445,6 +17468,7 @@
 ||w58ce6.cc^
 ||w5ba5b.cc^
 ||w5bi16f3co.com^
+||w5c6d9.cc^
 ||w5ftl8bhu3.com^
 ||w6xbr7hc.xyz^
 ||w6xdba54n.com^
@@ -19042,6 +19066,7 @@
 ||yyselrqpyu.com^
 ||yystzl.cn^
 ||yyuivw6.com^
+||yyutfzv.com^
 ||yywridi.cn^
 ||yywz123.com/file/A*.js
 ||yyys.shop^
@@ -19583,7 +19608,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>15803
+!<<<<<网站单独规则>>>>>15804
 $3p,domain=76fengyun.com|avsdown.com|downdv.com|downdvs.com|downhhh.com|imedown.info|jandown.com|mimima.com|mnks.jxedt.com|rmdown.com|soyunpan.com|xmflv.com
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
 $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
@@ -34236,6 +34261,7 @@ wsj.com##div[class^="WhatsNewsTheme"] > div[class]:has(div[class] > div[class^="
 wsj.com##p > #deloitte_column > [data-module-zone="deloitte_insights"] > .deloitte-insights
 wss://*.*.top/$3p
 wss://*.com:29*/$3p
+wss://*.com:800*/$3p
 wss://*.top/|
 wss://*.xyz:*?e=$3p
 wss://*.xyz:*?n=$third-party
@@ -35389,7 +35415,7 @@ zzyiwan.com##div[style="width: 100%; overflow: hidden; padding-top: 0px; positio
 zzzyk.com###Tinfo
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>4025
+!<<<<<通配符规则>>>>>4032
 $3p,domain=76fengyun.com|avsdown.com|downdv.com|downdvs.com|downhhh.com|imedown.info|jandown.com|mimima.com|mnks.jxedt.com|rmdown.com|soyunpan.com|xmflv.com
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
 $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
@@ -38580,6 +38606,8 @@ $websocket,domain=wap.yushuwu.cloud
 /theme/damn_b.js$script,~third-party
 /theme/damn_b.js$~third-party
 /themes/default/wap/images/douyin.gif
+/themes/jieqi/wap/js/*fix*.js
+/themes/jieqi/wap/js/*test
 /tigtag_custom/*_banner
 /tigtag_custom/include/couplet.
 /tigtag_custom/include/popup.
@@ -39056,6 +39084,7 @@ $websocket,domain=wap.yushuwu.cloud
 ://*xiaoshuo*/mm.js
 ://*xs5300.*/*/*.js$domain=xs5300.com|xs5300.co|xs5300.cc|xs5300.cn|xs5300.org|xs5300.la|xs5300.so|xs5300.us|xs5300.info|xs5300.tw|xs5300.net|xs5300.me|xs5300.app
 ://*xsbiquge.*/js/detail.js
+://*xsww.*/*/*ll*.js$~third-party
 ://*xszww2.*/*/*.js$domain=xszww2.com|xszww2.co|xszww2.cc|xszww2.cn|xszww2.org|xszww2.la|xszww2.so|xszww2.us|xszww2.info|xszww2.tw|xszww2.net|xszww2.me|xszww2.app
 ://*xvideos*/view_booster.js?v=
 ://*xwbxsw1.*/*/*.js$domain=xwbxsw1.com|xwbxsw1.co|xwbxsw1.cc|xwbxsw1.cn|xwbxsw1.org|xwbxsw1.la|xwbxsw1.so|xwbxsw1.us|xwbxsw1.info|xwbxsw1.tw|xwbxsw1.net|xwbxsw1.me|xwbxsw1.app
@@ -39152,6 +39181,9 @@ $websocket,domain=wap.yushuwu.cloud
 ://go.*.com/*=WidgetV4Universal
 ://go.*.com/smartpop/*?*=$third-party
 ://gp.logicmind.*/*.dx$third-party
+://haokan.*/mb.js$~third-party
+://haokan.*/ml.js$~third-party
+://haokan.*/mm.js$~third-party
 ://hf.*.com/*m-2697$third-party,other
 ://hongosi.xn--*.cc$third-party
 ://hongosi.xn--*.com/*/mvp*.js$third-party
@@ -39399,6 +39431,7 @@ unpkg.com/aladug/*.js
 ws://*/api/wss/GetNotReadCount$3p
 wss://*.*.top/$3p
 wss://*.com:29*/$3p
+wss://*.com:800*/$3p
 wss://*.top/|
 wss://*.xyz:*?e=$3p
 wss://*.xyz:*?n=$third-party

@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: mzX+ze6ZQuzjldtTpRH2hw
+! Checksum: 4crajwosjthbTcu7Fd1LKA
 ! Title: Aloazny attach fiter
-! Version: 20260117093951
+! Version: 20260117203914
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-01-17 09:39:51
-! Total Count: 19707
-! Blocked Filters: 19707
+! Last modified: 2026-01-17 20:39:14
+! Total Count: 19718
+! Blocked Filters: 19718
 ! Description: 合并混合规则的补充规则，轻量规则，可作为补充规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_attach.txt?ref=main
 
 
-!<<<<<域名规则>>>>>7416
+!<<<<<域名规则>>>>>7421
 |https://m.frgls.com/js/*.js?v=
 ||*ggua.xyz^$third-party
 ||000123456789.online^
@@ -352,6 +352,7 @@
 ||98765.pw^
 ||98765432100.online^
 ||98765432100.site^
+||98dxs.*/themes/jieqi/wap/js/$script
 ||990215.xyz^
 ||99999999.club^
 ||999gg.net^
@@ -1084,6 +1085,8 @@
 ||binqriksc.com^
 ||binspiredtees.com^$third-party
 ||biqgg.com/n.js
+||biqiuge*/mm.js
+||biqiuge5.org/mm.js
 ||biqivge.cc/e*/*.js
 ||biqugie.com/js/wap.js
 ||biquxs.com/js/detail.js
@@ -4760,6 +4763,7 @@
 ||placidactivity.com^$third-party
 ||placidperson.com^$third-party
 ||planebasin.com^$third-party
+||plausible.io^$third-party,script
 ||playstats.v.duowan.com^
 ||plbs9k.icu^
 ||pleasantpump.com^$third-party
@@ -5967,6 +5971,7 @@
 ||tj-yijiajing.com^
 ||tj.21ic.com^
 ||tj.allcdn.vip^
+||tj.shinpa.me^$third-party,script
 ||tj.sosomp.com^
 ||tjappzvz.xyz^
 ||tjj.com^
@@ -11890,7 +11895,7 @@ zybang.com##div[id="askTeacher-after-adx-wrap"]
 zzyiwan.com##div[style="width: 100%; overflow: hidden; padding-top: 0px; position: relative; top: 0px; z-index: 9999;"]
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>2973
+!<<<<<通配符规则>>>>>2979
 $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.xyz
 &adZones$xmlhttprequest
 &ad_block=
@@ -14218,6 +14223,8 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 /testAB.bundle.
 /theme/damn_b.js$script,~third-party
 /theme/damn_b.js$~third-party
+/themes/jieqi/wap/js/*fix*.js
+/themes/jieqi/wap/js/*test
 /tj/*.js$third-party
 /tj/tj.js
 /tj/tongji.js?v=$third-party
@@ -14615,6 +14622,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 ://*xiaoshuo*/mm.js
 ://*xs5300.*/*/*.js$domain=xs5300.com|xs5300.co|xs5300.cc|xs5300.cn|xs5300.org|xs5300.la|xs5300.so|xs5300.us|xs5300.info|xs5300.tw|xs5300.net|xs5300.me|xs5300.app
 ://*xsbiquge.*/js/detail.js
+://*xsww.*/*/*ll*.js$~third-party
 ://*xszww2.*/*/*.js$domain=xszww2.com|xszww2.co|xszww2.cc|xszww2.cn|xszww2.org|xszww2.la|xszww2.so|xszww2.us|xszww2.info|xszww2.tw|xszww2.net|xszww2.me|xszww2.app
 ://*xvideos*/view_booster.js?v=
 ://*xwbxsw1.*/*/*.js$domain=xwbxsw1.com|xwbxsw1.co|xwbxsw1.cc|xwbxsw1.cn|xwbxsw1.org|xwbxsw1.la|xwbxsw1.so|xwbxsw1.us|xwbxsw1.info|xwbxsw1.tw|xwbxsw1.net|xwbxsw1.me|xwbxsw1.app
@@ -14703,6 +14711,9 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 ://go.*.com/*=WidgetV4Universal
 ://go.*.com/smartpop/*?*=$third-party
 ://gp.logicmind.*/*.dx$third-party
+://haokan.*/mb.js$~third-party
+://haokan.*/ml.js$~third-party
+://haokan.*/mm.js$~third-party
 ://hf.*.com/*m-2697$third-party,other
 ://hongosi.xn--*.cc$third-party
 ://hongosi.xn--*.com/*/mvp*.js$third-party
