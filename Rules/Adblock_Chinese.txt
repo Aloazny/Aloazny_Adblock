@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: qbDovx1IhLUaeTCZYhcTRA
+! Checksum: vR5osUdB/bSI3/yEVxCKgQ
 ! Title: Aloazny Chinese fiter
-! Version: 20260128205050
+! Version: 20260129100031
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-01-28 20:50:50
-! Total Count: 46653
-! Blocked Filters: 46653
+! Last modified: 2026-01-29 10:00:31
+! Total Count: 46666
+! Blocked Filters: 46666
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>19791
+!<<<<<域名规则>>>>>19800
 |http$3p,script,domain=kinotut.tv
 |http*://$script,3p,xhr,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,3p,domain=dlkoo.cc
@@ -357,6 +357,7 @@
 ||16m.cc^$3p
 ||16sucai.com/ads/
 ||16sucai.com/images/*0
+||16xxq8lb4g.com^
 ||17.huanqiu.com^
 ||1708t.com/js/jquery.js
 ||17173.com/advideo/
@@ -1304,6 +1305,7 @@
 ||79181531227.com^
 ||797sun.com/include/js/common_footer.
 ||79zxcv.com^
+||7asx1bxaw.com^
 ||7awf4fi9k7.com^
 ||7bfst8xxtc.com^
 ||7c96k2gysn.com^
@@ -1637,6 +1639,7 @@
 ||9tata.com/js/www.js
 ||9tour.cn/x2/images/czmf.jpg
 ||9txnu9rlmd.com^
+||9vmbje748.com^
 ||9vviyje1s.top^
 ||9wcn.com/gcld/500.gif
 ||9xf9qkz5.com^
@@ -8058,6 +8061,7 @@
 ||gsk801271hh.com^
 ||gsk801280hh.com^
 ||gsk801281hh.com^
+||gsk801290hh.com^
 ||gslb.hpplay.cn^
 ||gsnlc.cn^
 ||gsp0.kj-gov.cn^
@@ -11192,6 +11196,7 @@
 ||lqglqq.com^$third-party
 ||lqjinx.xyz^
 ||lqm.io^
+||lqvz7e4xa.com^
 ||lqweqk61qlih.click^
 ||lqxzx.com^
 ||lrlsrz.xyz^
@@ -12990,6 +12995,7 @@
 ||otheve.beacon.qq.com^
 ||otheve.play.aiseet.atianqi.com^
 ||otienlk.top^
+||otiladgyo.com^
 ||otkwcg.icu^
 ||otlj.cn^
 ||otme.cn^
@@ -13385,7 +13391,6 @@
 ||pin6d37stu.com^
 ||pincai.com/js/pubuliu.
 ||pincai.com^$3p
-||ping0.cc/static/images/ad/
 ||pinglun11223.xyz^
 ||pingma.qq.com^
 ||pingmeibang.com/zt/zx.jpg
@@ -15781,6 +15786,7 @@
 ||sumatoad.com^
 ||summerobject.com^$third-party
 ||summerwm1.com^
+||summit87.com^
 ||sump4.cc/js/wcount.js
 ||sums.suning.com^$3p
 ||sun66387567606.online^
@@ -16545,6 +16551,7 @@
 ||trustedcpmrevenue.com^
 ||truthfulsensor.com^
 ||truuhmoen.com^
+||truunnoi.com^
 ||truvidplayer.com^$domain=technews.tw
 ||truxalsl.com^
 ||trvsdlckg.icu^
@@ -16974,6 +16981,7 @@
 ||uncoveredexpert.com^$third-party
 ||undergoon.com^
 ||understoodocean.com^$third-party
+||undertow52.top^
 ||undm.qibulo.com^
 ||unecne.com/wp-content/uploads/*ad-
 ||unequalbrake.com^$third-party
@@ -19768,6 +19776,7 @@
 ||zxsnllo.cn^
 ||zxvklz.icu^
 ||zxw51.com^$3p
+||zxwfcwm.icu^
 ||zxwstong.com^
 ||zxzj.me/slade2.js
 ||zyauopr.icu^
@@ -19808,7 +19817,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>15846
+!<<<<<网站单独规则>>>>>15849
 $3p,domain=76fengyun.com|avsdown.com|downdv.com|downdvs.com|downhhh.com|imedown.info|jandown.com|mimima.com|mnks.jxedt.com|rmdown.com|soyunpan.com|xmflv.com
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
 $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
@@ -26126,6 +26135,7 @@ hanime1.cfdhanime1.icu,hanime1.fit,hanime1.fun,hanime1.icu,hanime1.ink,hanime1.m
 hanime1.me###related-tabcontent > .row > .hidden-md:has(> a[href*=".labsda.com"])
 hanime1.me##.hidden-sm > iframe[src^="//a.magsrv.com/"]
 hanime1.me##div[class*="home-banner-exoclick-"]
+hanime1.me##div[style*="text-align:"]:has(>div[style*="color: white"])
 hanjula.com,bolecdn.com##body[marginwidth="0"][marginheight="0"]:not([onselectstart="return false"])
 hanjutv2020.com##a[href*=".hujiang.com"]
 hanjutv2020.com##a[style="width: 1120px;height: 70px;overflow: hidden;display: block;"]
@@ -31034,7 +31044,7 @@ piluli.ru##div[id^="medads_banner"]
 pincong.rocks##.a-a
 pincong.rocks##.aw-mod > a[target="_blank"]
 ping.chinaz.com##.sth > .col-red
-ping0.cc##.adeles
+ping0.cc##.myeles
 ping0.cc##.toprow
 pinggu.org##.hdbanner
 pinggu.org##.index-somelinks
@@ -33202,6 +33212,8 @@ thestudentroom.co.uk###mobile-ad-floating
 thetab.com##div[id^="ad-inarticle"]
 thetechoutlook.com##.post-content > p:has(> amp-iframe[src^="https://ws-in.amazon-adsystem.com/"])
 thetimes.co.uk##div[class*="NativeAd-"]
+thetoc.gr##.bannerparent
+thetoc.gr##.mg_underhero
 thetrendspotter.net##.mobile_advert
 thetrendspotter.net##.mysite-adsense-mobile-header
 theverge.com,mediafire.com##.m-ad
@@ -39696,7 +39708,7 @@ zhaotianbao1.cn/*/ywy*.apk
 zhaotianbao1.cn/*/ywy*.apk$~third-party
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>5362
+!<<<<<通用Css规则>>>>>5363
 ###ADbox
 ###ADtip
 ###Ad-Container
@@ -43906,6 +43918,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##a[href^="https://dk2.me"]
 ##a[href^="https://i.vip.po18ad.com/"][target="_blank"]
 ##a[href^="https://igt17.net"]
+##a[href^="https://l.erodalabs.com"]
 ##a[href^="https://l.hyenadata.com"]
 ##a[href^="https://metasoco.com/"][href$=".apk"][style*=".gif"]
 ##a[href^="https://mnwkcf.pojuko.buzz"]
