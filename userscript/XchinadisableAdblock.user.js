@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Xchina disable popup
 // @namespace   http://tampermonkey.net/
-// @version      1.54
+// @version      1.6
 // @description 绕过xChina弹窗检测
 // @author      Aloazny && Grok
 // @license     MIT
@@ -27,7 +27,6 @@
 // @icon       data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsSAAALEgHS3X78AAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAAAIKSURBVFiF1ZexSxtRHMc/d2B0MBoJUpw8hKZTIZA/oNc/oLTg5tK4nJukUCh0aYcOduvYZGhT6JbFEimO10HrYFAREQKm51KXSBouS+JwHV6Cjd673JlLjn6XhB+/e59P3uW9d6fQjZPHAAwgw2hTqdsU5l9SAlC68HwXPrbYbUoz66wpzkdeobAxTngvpxe8V5w8Z8BSFALtKxpqVHCAyQnm1KjgvfxnAsk0PDHBcMRnLOHepz2DFeu6L5mWDqk4eRxf8FhCDBqbva5Vv4CZ7e9LZUH/3F+7+AFl3XVY/zPwINsPB0g9h7jmDQdYeCQddvj/QCrrDQe4PApBwNp0rz/MiXssgwP8zIUgYFtgfbtdj83C8oH8OnMVfpshCABUi4HaMVcHXhNMwNqE1nlo8OACAMcfQoPfTcBjUwkKDy6gF8Xa94pstQwt4AcOYsMKXcAvHMS+EKpAEDjA9KI4jEIRyLyVwztNcRi5JeX/NsgF4hpk3sjhZR12c+L7zWhP+w+pOwl4/YrdHFweQuePfF8YWsC23Os317nbmu80oX44pEC1KB4kemmdw9bj20DbElL/9pV1MTs+MviJKJmGyYTniQaIKY9rg/sCC4w4KlCLCl5v0VCbbQpRCXzdo6Ym1inYbfGmOs5sn1B7UaKiAHMA+68x7t/DmJka7avarzqNTzvU3n2nAvAXteumoVQH+scAAAAASUVORK5CYII=
 // @grant       unsafeWindow
 // @grant       GM_addStyle
-// @grant       GM_cookie
 // ==/UserScript==
 
 (function() {
@@ -83,31 +82,25 @@ const hideCSS = `
 [class^="exo-"],
 [class^="photoMask"],
 [class^="playerMask"],
+[class^="z-gate"],
 [href="#"]:not([data-page]),
 [id^="exo-"],
 [id^="z-extra"],
 [src^="https://xchina.click/"],
 a[clickmode="ad"],
 a[clickmode="cpt"],
-a[clickmode="cpt"][target="_blank"][rel="nofollow noopener"] > img[src*="xchina"],
 a[href*="//go.mnaspm.com"],
 a[href*="/xchina.fun/redirect/ad"],
 a[href*="xchina.click/prepare."],
 a[href^="https://xchina.app"],
 a[href^="https://xchina.click/"],
-div > div:only-child > .media img[src*="/ad/"],
 div.ex-300-250,
 div.item > div.a-media,
 div.list > div.item.auto-height,
 div.media > a > img[src*="xchina"],
 div.recommendation_widget,
-div[class*="jquery-modal"],
-div[class*="modalAd"],
-div[class^="item photo zone"],
 div[linkurl^="https://xchina.click/"],
-div[style*="width: 300px;"][style*="height: 455px;"],
 div[url^="https://xchina.click/"],
-div[class*="x"][class*="00"][class*="50"],
 iframe[src*=".magsrv.com/"],
 iframe[width="728"][height="90"],
 ins.adsbygoogle[data-ad-slot],
@@ -157,43 +150,6 @@ script[src$="/ad-provider.js"] + ins
             const url = typeof input === 'string' ? input : input.url || '';
             if (/recordDetect|adblock|detect/i.test(url)) return Promise.resolve(new Response('{"success":true}', {status: 200, headers: {'Content-Type': 'application/json'}}));
             return realFetch.apply(this, arguments);
-        };
-    })();
-
-    (function handleDetectionDefusing() {
-        w.googleAdsInstance = { initGoogleTag: () => { w.googletag = { cmd: [] }; }, initAdSense: () => { w.adsbygoogle = []; } };
-        w.googleAdsInstance.initGoogleTag(); w.googleAdsInstance.initAdSense();
-        Object.defineProperty(w, 'googleAdsInstance', { value: w.googleAdsInstance, writable: false });
-        w.adConfigInstance = { active: true }; w.adsSystemLoaded = w.AD_SCRIPT_LOADED = true; w.google_ad_client = 'ca-pub-2085856493428967';
-        const noop = { fire: () => {}, show: () => {}, hide: () => {}, close: () => {}, showModal: () => {}, setContent: () => noop };
-        ['sweetAlert', 'ModalAlert'].forEach(name => Object.defineProperty(w, name, { value: noop, writable: false, configurable: false }));
-        const h = (t, p) => { try { Object.defineProperty(t, p, { value: f, writable: true, configurable: true }); } catch(e) {} };
-        const o = w.registerSiteProbeCallback;
-        w.registerSiteProbeCallback = function(cb) { if (o) o(cb); try { cb(f); } catch(e) {} };
-        const g = w.getSiteProbeKey;
-        w.getSiteProbeKey = function() { let k = g ? g() : '__' + Math.random().toString(36).slice(2,8); h(w, k); return k; };
-        setTimeout(() => { const k = w.getSiteProbeKey(); h(w, k); w.dispatchEvent(new CustomEvent('site:probe:complete', { detail: { key: k, result: f } })); }, 100);
-        Document.prototype.createElement = function(t) {
-            const e = c.call(this, t);
-            if (t === 'script') {
-                const desc = Object.getOwnPropertyDescriptor(HTMLScriptElement.prototype, 'src') || {};
-                Object.defineProperty(e, 'src', {
-                    set(v) {
-                        if (v && /ads?\.js|ad[\/.]|advertisement/.test(v)) { setTimeout(() => e.dispatchEvent(new Event('load')), 10); return; }
-                        desc.set ? desc.set.call(this, v) : this.setAttribute('src', v);
-                    }, get: () => e.getAttribute('src')
-                });
-            }
-            if (t === 'div' || t === 'ins') {
-                const setClass = (val) => {
-                    if (/ad-banner|ads|adunit|advertisement/i.test(val)) {
-                        Object.assign(e.style, { 'display': 'block', 'visibility': 'visible', 'opacity': '0.1', 'position': 'absolute', 'top': '-9999px', 'left': '-9999px', 'width': '1px', 'height': '1px', 'pointer-events': 'none' });
-                    }
-                };
-                const orgClassName = Object.getOwnPropertyDescriptor(Element.prototype, 'className');
-                Object.defineProperty(e, 'className', { set(v) { setClass(v); orgClassName.set.call(this, v); }, get: () => orgClassName.get.call(this) });
-            }
-            return e;
         };
     })();
 
