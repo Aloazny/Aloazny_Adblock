@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: S/v01gLLipj+2UQLr99S8w
+! Checksum: qQLc8RWf0R4DQyPReSaSWg
 ! Title: Aloazny Chinese fiter
-! Version: 20260214100129
+! Version: 20260214204850
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-02-14 10:01:29
-! Total Count: 46028
-! Blocked Filters: 46028
+! Last modified: 2026-02-14 20:48:50
+! Total Count: 46053
+! Blocked Filters: 46053
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>19054
+!<<<<<域名规则>>>>>19067
 |http$3p,script,domain=kinotut.tv
 |http*://$script,3p,xhr,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,3p,domain=dlkoo.cc
@@ -3222,6 +3222,7 @@
 ||b1zftjhtwb.com^
 ||b2.51yangsheng.com^
 ||b2skdf.com^
+||b2v18mn8f6.com^
 ||b2xy4m.xyz^
 ||b477.life^$3p
 ||b4dg.life/love/
@@ -3747,6 +3748,7 @@
 ||biqivge.cc/js/p
 ||biquge700.com/h5/wap.
 ||biquge96.com/123.
+||biqugezw.us/skin/js/mc.js
 ||biqugie.com/js/wap.
 ||biqugie.com/js/wap.js
 ||biquxs.com/js/detail.js
@@ -5126,6 +5128,7 @@
 ||cruhliip.com^
 ||cruietoge.com^
 ||cruzietv.com^
+||crxs.me/service/assets/core-state.
 ||cryptvalue.com^$third-party
 ||crystalboulevard.com^$third-party
 ||cryy.vip^
@@ -5194,6 +5197,7 @@
 ||curlycannon.com^$third-party
 ||currentcollar.com^$third-party
 ||curtaincows.com^$third-party
+||curthkivew.com^
 ||curvedhoney.com^$third-party
 ||curvycord.com^$third-party
 ||curvycry.com^$third-party
@@ -9671,6 +9675,7 @@
 ||jrzj.com/img_index/guanggao
 ||jrzj.com/img_index/index_
 ||js*.abolezi.com^
+||js*.iislm.com^$third-party
 ||js-agent.newrelic.com^$third-party
 ||js-dy.top^$third-party
 ||js-js.oss-cn-beijing.aliyuncs.com/mnpc-umeng.js$domain=dianyingim.com
@@ -9758,6 +9763,7 @@
 ||js1.dadiniu.cn^
 ||js1.haoge500.com^
 ||js22f.net^
+||js4.iislm.com^$third-party
 ||js6.efyt6.com^
 ||jsb.qianzhan.com^
 ||jsckjqr.com^$3p
@@ -12566,6 +12572,7 @@
 ||ouyaoxiazai.com/static/img/cqthree.gif
 ||ouyhh.xyz^
 ||ovcnmtk.top^
+||overboard27.com^
 ||overcoat55.top^
 ||overconfidentfood.com^$third-party
 ||overratedchalk.com^$third-party
@@ -14050,6 +14057,7 @@
 ||rszkhn.xyz^
 ||rt.api.glispa.com/native/v1/ad
 ||rt5x78mhcq.com^
+||rta4z4ncsl.com^
 ||rtapi.abbi.io^
 ||rtau9pif4.com^
 ||rtb.appbid.com^
@@ -15565,6 +15573,7 @@
 ||thisav.com/pop?url=
 ||thisav.video/v3/nb/
 ||thj36m3dm.com^
+||thjfcs.cn/hc237/uploads/default/other/2025-12-10/81a0f876800ea81616864d841f102ef4.
 ||thljnv.top^
 ||thomastorch.com^$third-party
 ||thoohizoogli.xyz^
@@ -16371,6 +16380,8 @@
 ||upload.cc^$domain=141jj.com|99re.com|mizhiav.com
 ||upload.luckyorange.net^
 ||upload.xchina.biz/ad/
+||upload.xchina.io/media/*.mp4
+||upload.xchina.io/media/*.webp
 ||uploadhouse.com^*.gif$domain=wishct.com
 ||uporods.com^
 ||uposnmb.icu^
@@ -18283,6 +18294,7 @@
 ||yktj.yzz.cn^
 ||ykxwn.com^
 ||ykyfhxr.xyz^
+||yl.medeanicene.com^
 ||yl04z4v.cn^
 ||ylghac.icu^
 ||ylhlom.xyz^
@@ -18620,6 +18632,7 @@
 ||zbzbzb.xyz^
 ||zc13uyyok7.com^
 ||zc173.com/173fee/
+||zc2do7ttn5.com^
 ||zcaijing.com/images/
 ||zcbfjd.xyz^
 ||zcchyr*.xyz^
@@ -19071,7 +19084,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>15913
+!<<<<<网站单独规则>>>>>15924
 $3p,domain=76fengyun.com|avsdown.com|downdv.com|downdvs.com|downhhh.com|imedown.info|jandown.com|mimima.com|mnks.jxedt.com|rmdown.com|soyunpan.com|xmflv.com
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
 $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
@@ -19522,11 +19535,11 @@ $websocket,domain=wap.yushuwu.cloud
 17yy.com###addiv
 17yy.com##.t2_3
 17yy.com##.t2r_3
+18-comic.work,18-comicblade.art,18-comicblade.club,18-comicblade.org,18-comicblade.xyz,18-comicfreedom.org,18-comicfreedom.xyz,18-comicstellar.art,18-comicstellar.xyz,18comic-c104.me,18comic-daima.club,18comic-dwo.cc,18comic-erdtree.xyz,18comic-gquu.vip,18comic-gura.xyz,18comic-zzz.one,18comic.ink,18comic.org,18comic.vip,jm-comic1.cc,jm-comic2.cc,jmcomic-zzz.one,jmcomic-zzz.org,jmcomic.me,jmcomic1.city,jmcomic1.group,jmcomic1.me,jmcomic1.win,jmcomic2.me##:has(>ins+div)
+18-comic.work,18-comicblade.art,18-comicblade.club,18-comicblade.org,18-comicblade.xyz,18-comicfreedom.org,18-comicfreedom.xyz,18-comicstellar.art,18-comicstellar.xyz,18comic-c104.me,18comic-daima.club,18comic-dwo.cc,18comic-erdtree.xyz,18comic-gquu.vip,18comic-gura.xyz,18comic-zzz.one,18comic.ink,18comic.org,18comic.vip,jm-comic1.cc,jm-comic2.cc,jmcomic-zzz.one,jmcomic-zzz.org,jmcomic.me,jmcomic1.city,jmcomic1.group,jmcomic1.me,jmcomic1.win,jmcomic2.me##:has(>ins+style)
+18-comic.work,18-comicblade.art,18-comicblade.club,18-comicblade.org,18-comicblade.xyz,18-comicfreedom.org,18-comicfreedom.xyz,18-comicstellar.art,18-comicstellar.xyz,18comic-c104.me,18comic-daima.club,18comic-dwo.cc,18comic-erdtree.xyz,18comic-gquu.vip,18comic-gura.xyz,18comic-zzz.one,18comic.ink,18comic.org,18comic.vip,jm-comic1.cc,jm-comic2.cc,jmcomic-zzz.one,jmcomic-zzz.org,jmcomic.me,jmcomic1.city,jmcomic1.group,jmcomic1.me,jmcomic1.win,jmcomic2.me##:has(>script+ins)
+18-comic.work,18-comicblade.art,18-comicblade.club,18-comicblade.org,18-comicblade.xyz,18-comicfreedom.org,18-comicfreedom.xyz,18-comicstellar.art,18-comicstellar.xyz,18comic-c104.me,18comic-daima.club,18comic-dwo.cc,18comic-erdtree.xyz,18comic-gquu.vip,18comic-gura.xyz,18comic-zzz.one,18comic.ink,18comic.org,18comic.vip,jm-comic1.cc,jm-comic2.cc,jmcomic-zzz.one,jmcomic-zzz.org,jmcomic.me,jmcomic1.city,jmcomic1.group,jmcomic1.me,jmcomic1.win,jmcomic2.me##:not(body):has(>script[src*=".realsrv.com"])
 18-comic.work,18-comicblade.art,18-comicblade.club,18-comicblade.org,18-comicblade.xyz,18-comicfreedom.org,18-comicfreedom.xyz,18-comicstellar.art,18-comicstellar.xyz,18comic-c104.me,18comic-daima.club,18comic-dwo.cc,18comic-erdtree.xyz,18comic-gquu.vip,18comic-gura.xyz,18comic-zzz.one,18comic.org,18comic.vip,colamanga.com,colamanhua.com,d53px.com,dm99.me,jhycxcl.com,jm-comic1.cc,jm-comic2.cc,jmcomic-zzz.one,jmcomic-zzz.org,jmcomic.me,jmcomic1.city,jmcomic1.group,jmcomic1.me,jmcomic1.win,jmcomic2.me,ledlmw.com,yhdm86.com,yhdmp.net,yhpdm.com##[class$="_b"]
-18-comic.work,18-comicblade.art,18-comicblade.club,18-comicblade.org,18-comicblade.xyz,18-comicfreedom.org,18-comicfreedom.xyz,18-comicstellar.art,18-comicstellar.xyz,18comic-c104.me,18comic-daima.club,18comic-dwo.cc,18comic-erdtree.xyz,18comic-gquu.vip,18comic-gura.xyz,18comic-zzz.one,18comic.org,18comic.vip,jm-comic1.cc,jm-comic2.cc,jm18c-jjd.club,jmcomic-zzz.one,jmcomic-zzz.org,jmcomic.me,jmcomic1.city,jmcomic1.group,jmcomic1.me,jmcomic1.win,jmcomic2.me##:has(>ins+div)
-18-comic.work,18-comicblade.art,18-comicblade.club,18-comicblade.org,18-comicblade.xyz,18-comicfreedom.org,18-comicfreedom.xyz,18-comicstellar.art,18-comicstellar.xyz,18comic-c104.me,18comic-daima.club,18comic-dwo.cc,18comic-erdtree.xyz,18comic-gquu.vip,18comic-gura.xyz,18comic-zzz.one,18comic.org,18comic.vip,jm-comic1.cc,jm-comic2.cc,jm18c-jjd.club,jmcomic-zzz.one,jmcomic-zzz.org,jmcomic.me,jmcomic1.city,jmcomic1.group,jmcomic1.me,jmcomic1.win,jmcomic2.me##:has(>ins+style)
-18-comic.work,18-comicblade.art,18-comicblade.club,18-comicblade.org,18-comicblade.xyz,18-comicfreedom.org,18-comicfreedom.xyz,18-comicstellar.art,18-comicstellar.xyz,18comic-c104.me,18comic-daima.club,18comic-dwo.cc,18comic-erdtree.xyz,18comic-gquu.vip,18comic-gura.xyz,18comic-zzz.one,18comic.org,18comic.vip,jm-comic1.cc,jm-comic2.cc,jm18c-jjd.club,jmcomic-zzz.one,jmcomic-zzz.org,jmcomic.me,jmcomic1.city,jmcomic1.group,jmcomic1.me,jmcomic1.win,jmcomic2.me##:has(>script+ins)
-18-comic.work,18-comicblade.art,18-comicblade.club,18-comicblade.org,18-comicblade.xyz,18-comicfreedom.org,18-comicfreedom.xyz,18-comicstellar.art,18-comicstellar.xyz,18comic-c104.me,18comic-daima.club,18comic-dwo.cc,18comic-erdtree.xyz,18comic-gquu.vip,18comic-gura.xyz,18comic-zzz.one,18comic.org,18comic.vip,jm-comic1.cc,jm-comic2.cc,jm18c-jjd.club,jmcomic-zzz.one,jmcomic-zzz.org,jmcomic.me,jmcomic1.city,jmcomic1.group,jmcomic1.me,jmcomic1.win,jmcomic2.me##:not(body):has(>script[src*=".realsrv.com"])
 18-comic.work,18-comicblade.art,18-comicblade.club,18-comicblade.org,18-comicblade.xyz,18-comicfreedom.org,18-comicfreedom.xyz,18-comicstellar.art,18-comicstellar.xyz,18comic-c104.me,18comic-daima.club,18comic-dwo.cc,18comic-erdtree.xyz,18comic-gquu.vip,18comic-gura.xyz,18comic-zzz.one,18comic.org,18comic.vip,jm-comic1.cc,jm-comic2.cc,jmcomic-zzz.one,jmcomic-zzz.org,jmcomic.me,jmcomic1.city,jmcomic1.group,jmcomic1.me,jmcomic1.win,jmcomic2.me##.col-xs-6 > div[data-show][style]:has(> p:only-child > a[target="_blank"] > img)
 18-comic.work,18-comicblade.art,18-comicblade.club,18-comicblade.org,18-comicblade.xyz,18-comicfreedom.org,18-comicfreedom.xyz,18-comicstellar.art,18-comicstellar.xyz,18comic-c104.me,18comic-daima.club,18comic-dwo.cc,18comic-erdtree.xyz,18comic-gquu.vip,18comic-gura.xyz,18comic-zzz.one,18comic.org,18comic.vip,jm-comic1.cc,jm-comic2.cc,jmcomic-zzz.one,jmcomic-zzz.org,jmcomic.me,jmcomic1.city,jmcomic1.group,jmcomic1.me,jmcomic1.win,jmcomic2.me##.photo_center_div
 18-comic.work,18-comicblade.art,18-comicblade.club,18-comicblade.org,18-comicblade.xyz,18-comicfreedom.org,18-comicfreedom.xyz,18-comicstellar.art,18-comicstellar.xyz,18comic-c104.me,18comic-daima.club,18comic-dwo.cc,18comic-erdtree.xyz,18comic-gquu.vip,18comic-gura.xyz,18comic-zzz.one,18comic.org,18comic.vip,jm-comic1.cc,jm-comic2.cc,jmcomic-zzz.one,jmcomic-zzz.org,jmcomic.me,jmcomic1.city,jmcomic1.group,jmcomic1.me,jmcomic1.win,jmcomic2.me##.top-a2db
@@ -19566,6 +19579,9 @@ $websocket,domain=wap.yushuwu.cloud
 18board.com,18board.net,18p2p.com,18p2p.tv##a[target="_blank"] > img[width="950"]
 18board.com,18board.net,18p2p.com,18p2p.tv##a[target="_blank"] > img[width^="72"]
 18comic.cfd,18comic168.cc,18comic168.icu,18comic168.men,18comic168.one,18comic168.top,18comic168.vip,99mh.men,99mh.one,99xmh.icu,99xmh.top,99xs.icu,99xs.one,hanime2.top,laoli88.icu,laoli88.men,laoli88.one,mh99.cfd,mh99.icu,mh99.one,mh99.top,missav2.icu,missav2.one,missav2.vip,rou2.icu,rou2.men,rou2.one,rou2.top,wnacg.men,wnacg.one,wnacg.vip##div[style*="z-index: 9999"][style*="justify-content: center;"]:not([class]):not([id])
+18comic.ink,18comic.org,18comic.vip,91porna.com,bejson.com,jkptgbf.xyz,json.cn,mfulbvu.xyz,pianyuan.org,qixingquan.com##.modal-backdrop
+18comic.ink,18comic.org,18comic.vip,boylov.xyz,boylove.cc,boylove1.mobi,boyloves.fun##.div_sticky2
+18comic.ink,18comic.org,18comic.vip,boylov.xyz,boylove.cc,boyloves.fun##style + div[style="cursor: pointer; position: relative;"]
 18comic.org,18comic.vip##.container > div[style^="margin-bottom:"]:has(> div.col-lg-3 > div[data-exo])
 18comic.org,18comic.vip##.container > div[style^="padding:"]:has(> [data-group="content_page"])
 18comic.org,18comic.vip##.modal-body > ul.pop-list
@@ -19576,19 +19592,16 @@ $websocket,domain=wap.yushuwu.cloud
 18comic.org,18comic.vip##div[data-group^="skyscraper_"]
 18comic.org,18comic.vip##div[data-height="250"][data-width="300"]
 18comic.org,18comic.vip##div[data-height="90"][data-width="728"]
-18comic.org,18comic.vip,91porna.com,bejson.com,jkptgbf.xyz,jm18c-jjd.club,json.cn,mfulbvu.xyz,pianyuan.org,qixingquan.com##.modal-backdrop
-18comic.org,18comic.vip,boylov.xyz,boylove.cc,boylove1.mobi,boyloves.fun,jm18c-jjd.club##.div_sticky2
-18comic.org,18comic.vip,boylov.xyz,boylove.cc,boyloves.fun,jm18c-jjd.club##style + div[style="cursor: pointer; position: relative;"]
-18comic.org,18comic.vip,jm18c-jjd.club###guide-modal
-18comic.org,18comic.vip,jm18c-jjd.club##.row[style="display: flex;flex-wrap: wrap;"]
-18comic.org,18comic.vip,jm18c-jjd.club##:has(>ins+script)
-18comic.org,18comic.vip,jm18c-jjd.club##a[herf*="//"]:not([href*="18c"]) > img
-18comic.org,18comic.vip,jm18c-jjd.club##a[href*="//"]:not([href*="18c"]) > [style*="back"]
-18comic.org,18comic.vip,jm18c-jjd.club##a[href*="//"]:not([href*="18c"]) > div[style]
-18comic.org,18comic.vip,jm18c-jjd.club##a[href*="//"]:not([href*="18c"]) > img
-18comic.org,18comic.vip,jm18c-jjd.club##a[href*="//"]:not([href*="18c"]) > img + [style]
-18comic.org,18comic.vip,jm18c-jjd.club##div[data-group]:has(>.group-notice)
-18comic.org,18comic.vip,jm18c-jjd.club##div[data-group][data-width="300"]
+18comic.org,18comic.vip,18comic.ink###guide-modal
+18comic.org,18comic.vip,18comic.ink##.row[style="display: flex;flex-wrap: wrap;"]
+18comic.org,18comic.vip,18comic.ink##:has(>ins+script)
+18comic.org,18comic.vip,18comic.ink##a[herf*="//"]:not([href*="18c"]) > img
+18comic.org,18comic.vip,18comic.ink##a[href*="//"]:not([href*="18c"]) > [style*="back"]
+18comic.org,18comic.vip,18comic.ink##a[href*="//"]:not([href*="18c"]) > div[style]
+18comic.org,18comic.vip,18comic.ink##a[href*="//"]:not([href*="18c"]) > img
+18comic.org,18comic.vip,18comic.ink##a[href*="//"]:not([href*="18c"]) > img + [style]
+18comic.org,18comic.vip,18comic.ink##div[data-group]:has(>.group-notice)
+18comic.org,18comic.vip,18comic.ink##div[data-group][data-width="300"]
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##.bot-per-context
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='album_related'],[data-group^='all_bottom']
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='photo_center_']
@@ -20513,27 +20526,36 @@ $websocket,domain=wap.yushuwu.cloud
 8mato.jp###article_contents > div.uk-margin-bottom.uk-text-center
 8mav694.com,91mt366.xyz,v11av1513.xyz###video_playr_side.video_playr_sider.videoplayerside
 8mav694.com,u88av134.top,v11av1513.xyz,www.dnabei.com###__long_gg_container
-8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.*,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##.block-overlay
-8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.ink,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##div.a-media.ex-widget
-8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##.exoclick_300x250
-8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##.exoclick_300x500
-8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##.push-top
-8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##[adid]
-8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##[class$="article"]:has(.media > a > img[src^="https://upload.xchina.biz/ad/"])
-8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##[class*="exoclick_"]
-8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##[class*="fa-ban"]
-8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##[class^="photoMask"]
-8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##[class^="playerMask"]
-8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##[href="#"]:not([data-page])
-8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##a[href*="/redirect/ad-"]
-8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##div.ex-300-250
-8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##div.item:has(> div.a-media)
-8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##div.media:has(a > img[src*="xchina"])
-8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##div.recommendation_widget
-8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##div[class*="jquery-modal"]
-8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##div[class*="modalAd"]
-8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##div[style*="width: 300px;"][style*="height: 455px;"]
-8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##.push-bottom
+8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.*,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.ink,xchina.site,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##.block-overlay
+8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.ink,xchina.site,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##.exoclick_300x250
+8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.ink,xchina.site,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##.exoclick_300x500
+8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.ink,xchina.site,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##.push-bottom
+8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.ink,xchina.site,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##.push-top
+8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.ink,xchina.site,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##.z-300x250
+8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.ink,xchina.site,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##.z-300x500
+8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.ink,xchina.site,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##.z-gate-mask
+8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.ink,xchina.site,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##[adid]
+8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.ink,xchina.site,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##[class$="article"]:has(.media > a > img[src^="https://upload.xchina.biz/ad/"])
+8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.ink,xchina.site,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##[class*="exoclick_"]
+8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.ink,xchina.site,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##[class*="fa-ban"]
+8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.ink,xchina.site,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##[class^="photoMask"]
+8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.ink,xchina.site,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##[class^="playerMask"]
+8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.ink,xchina.site,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##[href="#"]:not([data-page])
+8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.ink,xchina.site,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##[id^="z-extra"]
+8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.ink,xchina.site,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##a[href*="/redirect/ad-"]
+8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.ink,xchina.site,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##div.a-media.ex-widget
+8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.ink,xchina.site,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##div.ex-300-250
+8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.ink,xchina.site,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##div.item:has(> div.a-media)
+8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.ink,xchina.site,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##div.item:has(div[class*="x"][class*="00"][class*="50"])
+8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.ink,xchina.site,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##div.list > div.item.auto-height
+8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.ink,xchina.site,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##div.media:has(a > img[src*="xchina"])
+8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.ink,xchina.site,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##div.recommendation_widget
+8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.ink,xchina.site,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##div[class*="-mask"]
+8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.ink,xchina.site,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##div[class*="jquery-modal"]
+8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.ink,xchina.site,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##div[class*="modalAd"]
+8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.ink,xchina.site,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##div[class*="x"][class*="00"][class*="50"]
+8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.ink,xchina.site,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##div[id*="-mask"]
+8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.ink,xchina.site,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site##div[style*="width: 300px;"][style*="height: 455px;"]
 8se.me,xchina.*##.content-box > .list > .item:not(.photo-image):has(> a[clickmode="cpt"])
 8se.me,xchina.*##.content-box > .list > .item:not(.photo-image):has(> div > ins[data-zoneid])
 8se.me,xchina.*##.content-box:has(> .static-container-4:only-child > .a-media)
@@ -20734,7 +20756,7 @@ abmedia.io###block-12
 abmedia.io##.pum
 abmedia.io##a[href^="https://ace.io/"]
 abmedia.io##a[href^="https://www.okx.com/"]
-abmedia.io,appinn.com,carrotchou.blog,landiannews.com,laoliublog.cn,woniuyulew.com,zhain8.com##.widget_media_image
+abmedia.io,appinn.com,carrotchou.blog,landiannews.com,laoliublog.cn,mgsfhw.com,mgsgirls.com,woniuyulew.com,zhain8.com##.widget_media_image
 abminbuy.com##body > a[rel="nofollow"] > img
 abplive.com##.article div.uk-background-muted[style^="min-height:"]
 abplive.com##.middle-ad-btf-wrapper
@@ -28897,6 +28919,8 @@ mfsft.com,xgmeitu.com##.apptur
 mg21.com##a[href="https://www.mg21.com/zunjiazq"]
 mgbbs.cn##td[width="960"][height="60"]
 mgnacg.com##a[href^="https://fanqiev2.work/auth/register?code="]
+mgsfhw.com,mgsgirls.com##.affs
+mgsfhw.com,mgsgirls.com##blockquote > blockquote
 mgsm.pl###plus-top-mobile
 mgtv.com##.ad-fixed-bar
 mgtv.com##.c-95060-top
@@ -39037,7 +39061,7 @@ zhaotianbao1.cn/*/ywy*.apk
 zhaotianbao1.cn/*/ywy*.apk$~third-party
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>5386
+!<<<<<通用Css规则>>>>>5387
 ###ADbox
 ###ADtip
 ###Ad-Container
@@ -42184,6 +42208,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##.title > .gg
 ##.title-ad
 ##.tjads
+##.tjtagmanager[data-ad_id]
 ##.tm-ad
 ##.tmall_ad_container
 ##.tmall_bg15
@@ -44455,8 +44480,8 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 5dm.link#@#.tm-share-this
 61ku.com,acfun.cn,bilibili.com,h6room.com,ludown.com,lxapk.com,nr19.cn,pornpics.com,pornpics.de,v.qq.com,xhzyku.com,youku.com,yxzhi.com#@#img[alt*="广告"][src]
 85novel.com,digitalocean.com,ikjzd.com#@#.ad-content
-85tube.com,camhub.cc,camhub.world,fuckit.cc,thothd.com,watchporn.to#@#.ads-iframe
-8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site#@#img[alt$="抖阴"]
+85tube.com,8se.me,camhub.cc,camhub.world,crxs.me,fuckit.cc,thothd.com,watchporn.to,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.site,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site#@#.ads-iframe
+8se.me,crxs.me,xbookcn.org,xchina-cn.com,xchina.blog,xchina.co,xchina.com,xchina.fit,xchina.fun,xchina.ink,xchina.site,xchina.store,xchina.tv,xchina001.com,xchina001.site,xchina002.com,xchina002.comxchina.fun,xchina002.site,xchina003.com,xchina003.site#@#img[alt$="抖阴"]
 90xz.com#@#.share-btn
 91porn.com#@#.vjs-preroll
 95dushu.net,aljazeera.com#@#script[id] + script[src^="/"] ~ div[id]:not([class]):not(#content)
