@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Xchina disable popup
 // @namespace   http://tampermonkey.net/
-// @version      1.6
+// @version      2.0
 // @description 绕过xChina弹窗检测
 // @author      Aloazny && Grok
 // @license     MIT
