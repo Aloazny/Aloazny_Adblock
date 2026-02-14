@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         仿M浏览器元素审查
 // @namespace    https://viayoo.com/81gzxv
-// @version      6.7
+// @version      6.8
 // @description  利用AI模仿并生成M浏览器的元素审查（感谢M浏览器原生交互灵感），在脚本菜单开启元素审查，专注精准AD规则生成与编辑，支持DOM树浏览、实时编辑（文字/代码/删除/换图/撤销）、存储管理、JS终端等功能。
 // @author       Via && Gemini
 // @match        *://*/*
@@ -1117,9 +1117,9 @@
         };
     }
     
-    const netState = { logs: [], pageStack: ['main'], currentLog: null, activeTab: 'network', resFilter: 'all' };
+    const netState = { logs: [], pageStack: ['main'], currentLog: null, activeTab: 'network', resFilter: 'all', lastScrollTop: 0};
     function initNetworkInterceptor() {
-        const addLog = (l) => { if (!netState.logs.includes(l)) netState.logs.unshift(l); if (netState.logs.length > 300) netState.logs.pop(); if (shadow.querySelector('#page-net')?.style.display !== 'none' && netState.pageStack.length === 1) renderNetworkPage(); };
+        const addLog = (l) => { if (l.reqH && (l.reqH['x-mb-is-script'] || l.reqH['X-MB-IS-SCRIPT'])) return; if (!netState.logs.includes(l)) netState.logs.unshift(l); if (netState.logs.length > 300) netState.logs.pop(); if (shadow.querySelector('#page-net')?.style.display !== 'none' && netState.pageStack.length === 1) renderNetworkPage(); };
         const rawOpen = XMLHttpRequest.prototype.open;
         const rawSend = XMLHttpRequest.prototype.send;
         const rawSetHeader = XMLHttpRequest.prototype.setRequestHeader;
@@ -1143,6 +1143,7 @@
             const u = args[0] instanceof Request ? args[0].url : args[0];
             const opt = (args[0] instanceof Request ? args[0] : args[1]) || {};
             const log = { method: (opt.method || 'GET').toUpperCase(), url: new URL(u, location.href).href, reqH: opt.headers || {}, payload: opt.body, type: 'Fetch', source: 'network', startTime: Date.now(), status: 'pending', duration: 0, response: '', resH: '' };
+            if (log.reqH['x-mb-is-script'] || (log.reqH.get && log.reqH.get('x-mb-is-script'))) return rawFetch(...args);
             addLog(log);
             try {
                 const r = await rawFetch(...args);
@@ -1262,14 +1263,14 @@
                         container.querySelector('#copy-res-pre').onclick = (e) => doCopy(e.target, text);
                     };
                     if (typeof GM_xmlhttpRequest !== 'undefined') {
-                        GM_xmlhttpRequest({ method: "GET", url: l.url, onload: (res) => {
+                        GM_xmlhttpRequest({ method: "GET", url: l.url, headers: { "x-mb-is-script": "true" }, onload: (res) => {
                             if (isImgPath && !isFont && res.responseText.length > 2000 && !/const|var|function/.test(res.responseText.slice(0,500))) {
                                 preview.innerHTML = `<img src="${l.url}" style="max-width:100%;max-height:300px;border:1px solid var(--mb-border);">`;
                             } else { fetchRes(res.responseText); }
                         }, onerror: () => { preview.innerHTML = '<span style="color:#ff4d4f">Fetch Failed</span>'; } });
                     } else {
                         try { 
-                            const res = await fetch(l.url); const text = await res.text(); 
+                            const res = await fetch(l.url, { headers: { "x-mb-is-script": "true" } }); const text = await res.text(); 
                             if (isImgPath && !isFont && text.length > 2000 && !/const|var|function/.test(text.slice(0,500))) {
                                 preview.innerHTML = `<img src="${l.url}" style="max-width:100%;max-height:300px;border:1px solid var(--mb-border);">`;
                             } else { fetchRes(text); }
@@ -1281,10 +1282,10 @@
             return;
         }
         let list = netState.activeTab === 'network' ? netState.logs : performance.getEntriesByType('resource').reverse().map(r => ({ method: 'GET', url: r.name, type: (r.initiatorType === 'link' && r.name.includes('.css')) ? 'STYLESHEET' : r.initiatorType.toUpperCase(), source: 'resource', status: '200', duration: Math.round(r.duration), resType: r.initiatorType }));
-        const adReg = /ads\/foot\/head\/top\/ver\?1(6|7|8|9)\d+|\/js+\/[A-Za-z]([0-9])?\.js|adv\/banner\/([A-Za-z]+)?gg\.js|vh[0-9]|:[8|9][0-9]+\/[a-z]{2,4}\//;
+        const adReg = /\/(ads|foot|head|top)\.(js|php)|\.(js|php)\?(?:[A-Za-z]+)?1[6-9]\d{8,}|\/js+\/[A-Za-z][0-9]?\.js|\/(adv|banner)\/|\/(?:[A-Za-z]+_)?gg\.js|\/v[hjk][0-9]\/|:[89][0-9]+\/[a-z]{2,4}\//i;
         if (netState.resFilter === 'ads') {
             list = list.filter(l => {
-                try { return (new URL(l.url).hostname !== window.location.hostname) && adReg.test(l.url); } catch(e) { return false; }
+                try { const u = new URL(l.url); return adReg.test(u.pathname) || adReg.test(u.search); } catch(e) { return false; }
             });
         } else if (netState.resFilter !== 'all') {
             list = list.filter(l => (l.type||'').toLowerCase() === netState.resFilter || (netState.resFilter === 'other' && !['script', 'stylesheet', 'img', 'xmlhttprequest', 'fetch'].includes((l.type||'').toLowerCase())));
@@ -1295,10 +1296,13 @@
                 <button class="ad-mini-btn" id="net-tab-net" style="background:transparent;border:none;color:${netState.activeTab==='network'?'var(--mb-active)':'var(--mb-text)'};font-weight:${netState.activeTab==='network'?'bold':'normal'};white-space:nowrap;padding:0 5px;">Network</button>
                 <button class="ad-mini-btn" id="net-tab-resource" style="background:transparent;border:none;color:${netState.activeTab==='resource'?'var(--mb-active)':'var(--mb-text)'};font-weight:${netState.activeTab==='resource'?'bold':'normal'};white-space:nowrap;padding:0 5px;">Resource</button>
                 <div style="width:1px;height:15px;background:var(--mb-border);flex-shrink:0;"></div>
-                ${(netState.activeTab==='network'?['all','xhr','fetch']:['all','ads','script','stylesheet','img','other']).map(f => `<button class="ad-mini-btn" data-f="${f}" style="background:transparent;border:none;color:${netState.resFilter===f?'var(--mb-active)':'var(--mb-text)'};font-size:11px;white-space:nowrap;padding:0 5px;">${f.toUpperCase()}</button>`).join('')}
+                ${(netState.activeTab==='network'?['all','xhr','fetch']:['all','ads','script','stylesheet','img','other']).map(f => {
+                    const isActive = netState.resFilter===f;
+                    return `<button class="ad-mini-btn" data-f="${f}" style="transition:all 0.2s;background:transparent;border:none;color:${isActive?'var(--mb-active)':'var(--mb-text)'};font-size:11px;white-space:nowrap;padding:0 5px;font-weight:${isActive?'bold':'normal'};transform:${isActive?'translateY(-2px)':'none'};">${f.toUpperCase()}</button>`;
+                }).join('')}
             </div>
             <button class="ad-mini-btn" id="net-clear" style="background:transparent;border:none;color:#ff4d4f;font-size:12px;white-space:nowrap;flex-shrink:0;">清空</button></div>
-            <div style="flex:1;overflow-y:auto;background:var(--mb-bg);">${list.map((l, i) => {
+            <div id="mb-net-list-scroll" style="flex:1;overflow-y:auto;background:var(--mb-bg);">${list.map((l, i) => {
                 const typeColor = { 'SCRIPT': '#f1c40f', 'STYLESHEET': '#3498db', 'IMG': '#e67e22', 'FETCH': '#9b59b6', 'XMLHTTPREQUEST': '#1abc9c' }[l.type] || 'var(--mb-text)';
                 const urlParts = l.url.split('/'); const fileName = urlParts[urlParts.length-1].split('?')[0] || urlParts[urlParts.length-2] || l.url;
                 return `<div class="node-row net-item" data-idx="${i}" style="border-bottom:0.5px solid var(--mb-border);padding:6px 10px;display:block;cursor:pointer;">
@@ -1314,12 +1318,14 @@
                     <span class="hl-domain" style="font-weight:bold;">${esc(fileName)}</span>
                     <span style="opacity:0.4;margin-left:4px;zoom:0.9;">${esc(l.url)}</span>
                 </div></div>`}).join('') || '<div style="padding:20px;text-align:center;opacity:0.4;color:var(--mb-text);">No Records</div>'}</div>`;
-        container.querySelector('#net-to-main').onclick = () => { shadow.querySelectorAll('.mb-page').forEach(p => p.style.display = ''); switchToPage(0); shadow.querySelectorAll('.mb-tool-btn').forEach(b => b.classList.remove('active')); netState.pageStack = ['main']; };
-        container.querySelector('#net-tab-net').onclick = () => { netState.activeTab = 'network'; netState.resFilter = 'all'; renderNetworkPage(); };
-        container.querySelector('#net-tab-resource').onclick = () => { netState.activeTab = 'resource'; netState.resFilter = 'all'; renderNetworkPage(); };
+        const scrollBox = container.querySelector('#mb-net-list-scroll');
+        if (scrollBox && netState.lastScrollTop) scrollBox.scrollTop = netState.lastScrollTop;
+        container.querySelector('#net-to-main').onclick = () => { shadow.querySelectorAll('.mb-page').forEach(p => p.style.display = ''); switchToPage(0); shadow.querySelectorAll('.mb-tool-btn').forEach(b => b.classList.remove('active')); netState.pageStack = ['main']; netState.lastScrollTop = 0; };
+        container.querySelector('#net-tab-net').onclick = () => { netState.activeTab = 'network'; netState.resFilter = 'all'; netState.lastScrollTop = 0; renderNetworkPage(); };
+        container.querySelector('#net-tab-resource').onclick = () => { netState.activeTab = 'resource'; netState.resFilter = 'all'; netState.lastScrollTop = 0; renderNetworkPage(); };
         container.querySelector('#net-clear').onclick = () => { if(netState.activeTab==='network') netState.logs=[]; renderNetworkPage(); };
-        container.querySelectorAll('[data-f]').forEach(btn => btn.onclick = () => { netState.resFilter = btn.dataset.f; renderNetworkPage(); });
-        container.querySelectorAll('.net-item').forEach(el => el.onclick = () => { netState.currentLog = list[el.dataset.idx]; netState.pageStack.push('detail'); renderNetworkPage(); });
+        container.querySelectorAll('[data-f]').forEach(btn => btn.onclick = () => { netState.resFilter = btn.dataset.f; netState.lastScrollTop = 0; renderNetworkPage(); });
+        container.querySelectorAll('.net-item').forEach(el => el.onclick = () => { netState.lastScrollTop = scrollBox.scrollTop; netState.currentLog = list[el.dataset.idx]; netState.pageStack.push('detail'); renderNetworkPage(); });
     }
 
     function renderSearchUI(bar) {
