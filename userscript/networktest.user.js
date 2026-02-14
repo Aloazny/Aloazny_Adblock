@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         网页加载分析(改)
-// @version      1.20
+// @version      2.0
 // @description  测试网页加载速度并显示加载最慢的三个网址的域名，二改添加了对Via浏览器toast的调用，添加高斯模糊效果。
 // @description:en Test the webpage loading speed and display the domain names of the three slowest loading URLs.
 // @match        *://*/*
@@ -21,101 +21,160 @@
     'use strict';
 
     const currentDomain = location.hostname || 'unknown';
-    const isGMEnvironment = typeof GM_getValue === 'function' && typeof GM_setValue === 'function' && typeof GM_registerMenuCommand === 'function';
-    
-    let isEnabled = true;
-    let useBlurDisplay = false;
-    let domainSettings = {};
+    const KEY_SETTINGS = 'network_test_configs';
+    let settings = typeof GM_getValue !== 'undefined' ? GM_getValue(KEY_SETTINGS, { useBlur: true, domainDisabled: {}, hideDelay: 2.6 }) : { useBlur: true, domainDisabled: {}, hideDelay: 2.6 };
+    const isEnabled = !settings.domainDisabled[currentDomain];
+    let shadowRoot = null, container = null;
+    let finalResult = { time: 0, slow: [] };
 
-    if (isGMEnvironment) {
-        domainSettings = GM_getValue('domainSettings', {});
-        isEnabled = domainSettings[currentDomain] !== false;
-        useBlurDisplay = GM_getValue('useBlurDisplay', false);
-        const enableText = isEnabled ? '✅启用' : '❌禁用';
-        GM_registerMenuCommand(`${enableText} 网页加载测试（${currentDomain}）`, () => {
-            const newState = !isEnabled;
-            domainSettings[currentDomain] = newState;
-            GM_setValue('domainSettings', domainSettings);
-            alert(`网页加载测试已${newState ? '✅启用' : '❌禁用'}（${currentDomain}），刷新页面生效。`);
+    const ensureShadow = () => {
+        if (shadowRoot) return;
+        container = document.createElement('div');
+        container.id = 'network-test-interceptor';
+        container.style.cssText = 'position:fixed;top:0;left:0;z-index:2147483647;pointer-events:none;';
+        document.documentElement.appendChild(container);
+        shadowRoot = container.attachShadow({ mode: 'closed' });
+    };
+
+    if (typeof GM_registerMenuCommand !== 'undefined') {
+        GM_registerMenuCommand('网页测试设置 🚀', () => {
+            if (shadowRoot?.querySelector('.auth-settings-mask')) return;
+            ensureShadow();
+            const mask = document.createElement('div'), panel = document.createElement('div');
+            mask.className = 'auth-settings-mask';
+            panel.className = 'auth-settings-panel';
+            const css = `
+                .auth-settings-mask { position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.3); backdrop-filter:blur(12px); -webkit-backdrop-filter:blur(12px); z-index:2147483646; display:flex; align-items:center; justify-content:center; animation: settings-fade-in 0.3s ease; pointer-events:auto; }
+                .auth-settings-panel { position:relative; background:rgba(255,255,255,0.85); border-radius:28px; box-shadow:0 25px 50px -12px rgba(0,0,0,0.25); padding:24px; display:flex; flex-direction:column; gap:12px; min-width:280px; font-family:system-ui,-apple-system,sans-serif; animation: settings-slide-in 0.4s cubic-bezier(0.16, 1, 0.3, 1); border:1px solid rgba(255,255,255,0.4); }
+                .result-display { background:rgba(255,255,255,0.5); border-radius:18px; padding:18px; margin-bottom:4px; display:flex; flex-direction:column; align-items:center; gap:8px; border:1px solid rgba(0,0,0,0.05); }
+                .auth-settings-panel button { border:none; border-radius:14px; padding:16px; cursor:pointer; font-size:14px; transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1); display:flex; align-items:center; justify-content:space-between; font-weight:600; background:#fff; color:#007AFF; box-shadow:0 4px 12px rgba(0,122,255,0.1); width:100%; box-sizing:border-box; }
+                .auth-settings-panel button:active { transform: scale(0.96); }
+                .btn-status.enabled { background:#f6ffed; color:#52c41a; box-shadow:0 4px 12px rgba(82,196,26,0.1); }
+                .btn-status.disabled { background:#fff1f0; color:#ff4d4f; box-shadow:0 4px 12px rgba(255,77,79,0.1); }
+                .slider-box { background:rgba(255,255,255,0.5); padding:14px; border-radius:14px; display:flex; flex-direction:column; gap:8px; border:1px solid rgba(0,0,0,0.03); }
+                .slider-header { display:flex; justify-content:space-between; font-size:13px; font-weight:600; color:#444; }
+                input[type=range] { width:100%; cursor:pointer; accent-color:#007AFF; margin: 4px 0; }
+                .btn-close { margin-top:6px; background:none; color:#888 !important; border:none; font-size:13px; cursor:pointer; text-align:center; font-weight:500; box-shadow:none !important; justify-content:center !important; }
+                @media (prefers-color-scheme: dark) {
+                    .auth-settings-panel { background:rgba(30,30,30,0.85); border:1px solid rgba(255,255,255,0.1); }
+                    .result-display { background:rgba(255,255,255,0.05); border-color:rgba(255,255,255,0.05); }
+                    .auth-settings-panel button { background:#2c2c2e; color:#0A84FF; }
+                    .btn-status.enabled { background:#162312; color:#30d158; }
+                    .btn-status.disabled { background:#2c1515; color:#ff6961; }
+                    .slider-box { background:rgba(255,255,255,0.05); }
+                    .slider-header { color:#aaa; }
+                }
+                @keyframes settings-fade-in { from { opacity:0; } to { opacity:1; } }
+                @keyframes settings-slide-in { from { opacity:0; transform: translateY(20px) scale(0.95); } to { opacity:1; transform: translateY(0) scale(1); } }
+            `;
+            const style = document.createElement('style'); style.textContent = css; shadowRoot.appendChild(style);
+            const save = () => GM_setValue(KEY_SETTINGS, settings);
+            const resultBox = document.createElement('div');
+            resultBox.className = 'result-display';
+            const getTimeColor = (ms) => ms < 500 ? '#34C759' : (ms < 1500 ? '#FF9500' : '#FF3B30');
+            resultBox.innerHTML = `
+                <div style="font-size:24px;font-weight:800;color:${getTimeColor(finalResult.time)};margin-bottom:2px;">${finalResult.time.toFixed(0)}ms</div>
+                <div style="font-size:12px;color:#888;text-align:center;line-height:1.6;">
+                    ${finalResult.slow.map(s => `<div>${s.d} <b style="color:#666;font-family:monospace;">${s.t}ms</b></div>`).join('')}
+                </div>`;
+            const btnBlur = document.createElement('button');
+            const updateBlurUI = () => { btnBlur.innerHTML = `<span>启用高斯模糊效果</span> <small>${settings.useBlur ? 'ON' : 'OFF'}</small>`; };
+            updateBlurUI();
+            btnBlur.onclick = () => { settings.useBlur = !settings.useBlur; updateBlurUI(); save(); };
+            const btnSite = document.createElement('button');
+            const updateSiteUI = () => { 
+                const disabled = settings.domainDisabled[currentDomain];
+                btnSite.className = `btn-status ${disabled ? 'disabled' : 'enabled'}`;
+                btnSite.innerHTML = `<span>在本站进行测试</span> <small>${disabled ? '已禁用' : '运行中'}</small>`; 
+            };
+            updateSiteUI();
+            btnSite.onclick = () => { 
+                if (settings.domainDisabled[currentDomain]) delete settings.domainDisabled[currentDomain];
+                else settings.domainDisabled[currentDomain] = true;
+                updateSiteUI(); save(); 
+            };
+            const sliderBox = document.createElement('div');
+            sliderBox.className = 'slider-box';
+            sliderBox.innerHTML = `<div class="slider-header"><span>设置弹窗消失速度</span><b id="delay-val">${settings.hideDelay === 0 ? '手动点击' : settings.hideDelay.toFixed(1) + 's'}</b></div>
+                                   <input type="range" min="0" max="10" step="0.1" value="${settings.hideDelay}">`;
+            const slider = sliderBox.querySelector('input');
+            const delayVal = sliderBox.querySelector('#delay-val');
+            slider.oninput = () => {
+                const val = parseFloat(slider.value);
+                settings.hideDelay = val;
+                delayVal.textContent = val === 0 ? '手动点击' : val.toFixed(1) + 's';
+                save();
+            };
+            const close = document.createElement('button');
+            close.className = 'btn-close'; close.textContent = '保存并刷新页面';
+            close.onclick = () => location.reload();
+            panel.append(resultBox, btnBlur, btnSite, sliderBox, close);
+            mask.appendChild(panel);
+            shadowRoot.appendChild(mask);
+            mask.onclick = (e) => { if(e.target === mask) mask.remove(); };
         });
-        const blurText = useBlurDisplay ? '✅启用' : '❌禁用';
-        GM_registerMenuCommand(`${blurText} 高斯模糊显示`, () => {
-            const newState = !useBlurDisplay;
-            GM_setValue('useBlurDisplay', newState);
-            alert(`高斯模糊显示已${newState ? '✅启用' : '❌禁用'}，刷新页面生效。`);
-        });
-        if (!isEnabled) return;
     }
-    
-    if (/\.user\.js($|\?)/i.test(location.href)) return;
+
+    if (!isEnabled || /\.user\.js($|\?)/i.test(location.href)) return;
 
     const startTime = performance.now();
     const slowestRequests = new Set();
-    const maxSlowRequests = 3;
-
     const networkObserver = new PerformanceObserver((list) => {
         list.getEntries().forEach((entry) => {
             slowestRequests.add({ name: entry.name, duration: entry.duration });
-            if (slowestRequests.size > maxSlowRequests) {
+            if (slowestRequests.size > 3) {
                 const sorted = Array.from(slowestRequests).sort((a, b) => b.duration - a.duration);
                 slowestRequests.clear();
-                sorted.slice(0, maxSlowRequests).forEach((req) => slowestRequests.add(req));
+                sorted.slice(0, 3).forEach(req => slowestRequests.add(req));
             }
         });
     });
-
     networkObserver.observe({ entryTypes: ['resource'] });
-
     window.addEventListener('load', () => {
         networkObserver.disconnect();
-        const endTime = performance.now();
-        const timeElapsed = endTime - startTime;
-        const sortedRequests = Array.from(slowestRequests).sort((a, b) => b.duration - a.duration);
-        const networkInfoHTML = sortedRequests.length ? sortedRequests.map((req) => {
+        const timeElapsed = performance.now() - startTime;
+        const sorted = Array.from(slowestRequests).sort((a, b) => b.duration - a.duration);
+        finalResult = {
+            time: timeElapsed,
+            slow: sorted.map(r => ({ d: new URL(r.name).hostname, t: r.duration.toFixed(0) }))
+        };
+        const getTimeColor = (ms) => ms < 500 ? '#34C759' : (ms < 1500 ? '#FF9500' : '#FF3B30');
+        const mainColor = getTimeColor(timeElapsed);
+        if (window.via && typeof window.via.toast === 'function' && !settings.useBlur) {
+            const networkInfo = sorted.map(req => `Slow: ${new URL(req.name).hostname} (${req.duration.toFixed(0)}ms)`).join('\n');
+            window.via.toast(`Time: ${timeElapsed.toFixed(0)}ms\n${networkInfo}`);
+            return;
+        }
+        ensureShadow();
+        const networkInfoHTML = sorted.length ? sorted.map((req) => {
             try {
                 const url = new URL(req.name);
-                return `slow: ${url.hostname} (${req.duration.toFixed(2)}ms)<br>`;
+                return `slow: ${url.hostname} (${req.duration.toFixed(0)}ms)<br>`;
             } catch {
-                return `slow: Invalid URL (${req.duration.toFixed(2)}ms)<br>`;
+                return `slow: Invalid URL (${req.duration.toFixed(0)}ms)<br>`;
             }
         }).join('') : '[none]';
-        const networkInfo = sortedRequests.length ? sortedRequests.map((req) => {
-            try {
-                const url = new URL(req.name);
-                return `Slow: ${url.hostname} (${req.duration.toFixed(2)}ms)`;
-            } catch {
-                return `Slow: Invalid URL (${req.duration.toFixed(2)}ms)`;
-            }
-        }).join('\n') : '[none]';
-
-        if (window.via && typeof window.via.toast === 'function' && !useBlurDisplay) {
-            window.via.toast(`Time: ${timeElapsed.toFixed(2)}ms\n${networkInfo}`);
-        } else {
-            const host = document.createElement('div');
-            host.id = 'load-time-perf-host';
-            host.style.cssText = 'position:fixed;z-index:999999;pointer-events:none;top:0;left:0;width:100%;height:100%;';
-            const shadow = host.attachShadow({ mode: 'closed' });
-            const loadTimeElement = document.createElement('div');
-            loadTimeElement.style.cssText = 'position:fixed;top:85vh;left:50vw;transform:translate(-50%,-50%);background:rgba(255,255,255,0.3);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);padding:12px 20px;border-radius:22px;box-shadow:0 6px 24px rgba(0,0,0,0.15);white-space:nowrap;width:auto;max-width:90vw;pointer-events:auto;color:#1C2526;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-size:15px;font-weight:500;text-align:center;border:1px solid rgba(255,255,255,0.25);opacity:0;transition:opacity 0.3s ease-in-out;cursor:pointer;';
-            if (!CSS.supports('backdrop-filter', 'blur(16px)')) {
-                loadTimeElement.style.background = 'rgba(240, 240, 240, 0.85)';
-            }
-            loadTimeElement.innerHTML = `<h2 style="margin:0;font-size:16px;font-weight:600">Time: ${timeElapsed.toFixed(2)}ms</h2>${networkInfoHTML}`;
-            shadow.appendChild(loadTimeElement);
-            document.documentElement.appendChild(host);
-            loadTimeElement.onclick = () => {
-                loadTimeElement.style.transition = 'opacity 0.1s';
-                loadTimeElement.style.opacity = '0';
-                setTimeout(() => host.remove(), 100);
-            };
-            requestAnimationFrame(() => { loadTimeElement.style.opacity = '1'; });
-            setTimeout(() => {
-                if (host.parentNode) {
-                    requestAnimationFrame(() => { loadTimeElement.style.opacity = '0'; });
-                    setTimeout(() => host.remove(), 300);
-                }
-            }, 2600);
+        const loadTimeElement = document.createElement('div');
+        loadTimeElement.style.cssText = 'position:fixed;top:85vh;left:50vw;transform:translate(-50%,-50%);background:rgba(255,255,255,0.3);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);padding:12px 20px;border-radius:22px;box-shadow:0 6px 24px rgba(0,0,0,0.15);white-space:nowrap;width:auto;max-width:90vw;pointer-events:auto;color:#1C2526;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-size:15px;font-weight:500;text-align:center;border:1px solid rgba(255,255,255,0.25);opacity:0;transition:opacity 0.3s ease-in-out;cursor:pointer;';
+        if (!settings.useBlur) {
+            loadTimeElement.style.background = 'rgba(240, 240, 240, 0.85)';
+            loadTimeElement.style.backdropFilter = 'none';
+            loadTimeElement.style.webkitBackdropFilter = 'none';
         }
-        slowestRequests.clear();
+        loadTimeElement.innerHTML = `<h2 style="margin:0;font-size:16px;font-weight:600;color:${mainColor};">Time: ${timeElapsed.toFixed(2)}ms</h2>${networkInfoHTML}`;
+        shadowRoot.appendChild(loadTimeElement);
+        requestAnimationFrame(() => { loadTimeElement.style.opacity = '1'; });
+        const closeRes = () => {
+            loadTimeElement.style.transition = 'opacity 0.1s';
+            loadTimeElement.style.opacity = '0';
+            setTimeout(() => loadTimeElement.remove(), 100);
+        };
+        loadTimeElement.onclick = closeRes;
+        if (settings.hideDelay > 0) {
+            setTimeout(() => {
+                if (loadTimeElement.parentNode) closeRes();
+            }, settings.hideDelay * 1000);
+        }
     });
 })();
+
