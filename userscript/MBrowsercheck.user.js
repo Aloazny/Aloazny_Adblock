@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         仿M浏览器元素审查
 // @namespace    https://viayoo.com/81gzxv
-// @version      6.6
+// @version      6.7
 // @description  利用AI模仿并生成M浏览器的元素审查（感谢M浏览器原生交互灵感），在脚本菜单开启元素审查，专注精准AD规则生成与编辑，支持DOM树浏览、实时编辑（文字/代码/删除/换图/撤销）、存储管理、JS终端等功能。
 // @author       Via && Gemini
 // @match        *://*/*
@@ -1251,22 +1251,32 @@
             container.querySelector('#net-detail-back').onclick = () => { netState.pageStack.pop(); renderNetworkPage(); };
             if (l.source === 'resource') {
                 const preview = container.querySelector('#res-preview');
-                const isImg = /\.(jpg|jpeg|png|gif|webp|svg)$/i.test(l.url) || l.resType?.includes('img');
-                if (isImg) { preview.innerHTML = `<img src="${l.url}" style="max-width:100%;max-height:300px;border:1px solid var(--mb-border);">`; }
-                else {
+                const isImgPath = /\.(jpg|jpeg|png|gif|webp|svg|ico|icon)$/i.test(l.url.split('?')[0]) || l.resType?.includes('img');
+                const isFont = l.url.includes('.ttf') || l.url.includes('.woff');
+                const fetchAndCheck = async () => {
                     const fetchRes = (text) => {
+                        const isLikelyJS = /const\s+\w+|var\s+\w+|function\s*\(|eval\(|document\./.test(text) || (text.length > 50 && !text.includes('<html') && text.includes(';'));
                         preview.style.textAlign = 'left';
                         preview.innerHTML = `<button class="ad-mini-btn" id="copy-res-pre" style="float:right;zoom:0.8;margin-top:-22px;background:var(--mb-border);">复制</button>
-                                            <pre style="font-size:11px;overflow:auto;max-height:350px;background:#000;color:#fff;padding:8px;white-space:pre-wrap;">${formatAndHighlight(text, l.url.includes('.css')?'css':'js')}</pre>`;
+                                            <pre style="font-size:11px;overflow:auto;max-height:350px;background:#000;color:#fff;padding:8px;white-space:pre-wrap;">${formatAndHighlight(text, (l.url.includes('.css')?'css':(isLikelyJS?'js':'text')))}</pre>`;
                         container.querySelector('#copy-res-pre').onclick = (e) => doCopy(e.target, text);
                     };
                     if (typeof GM_xmlhttpRequest !== 'undefined') {
-                        GM_xmlhttpRequest({ method: "GET", url: l.url, onload: (res) => fetchRes(res.responseText), onerror: () => { preview.innerHTML = '<span style="color:#ff4d4f">Fetch Failed</span>'; } });
+                        GM_xmlhttpRequest({ method: "GET", url: l.url, onload: (res) => {
+                            if (isImgPath && !isFont && res.responseText.length > 2000 && !/const|var|function/.test(res.responseText.slice(0,500))) {
+                                preview.innerHTML = `<img src="${l.url}" style="max-width:100%;max-height:300px;border:1px solid var(--mb-border);">`;
+                            } else { fetchRes(res.responseText); }
+                        }, onerror: () => { preview.innerHTML = '<span style="color:#ff4d4f">Fetch Failed</span>'; } });
                     } else {
-                        try { const res = await fetch(l.url); const text = await res.text(); fetchRes(text); }
-                        catch(e) { preview.innerHTML = '<span style="color:#ff4d4f">CORS Blocked</span>'; }
+                        try { 
+                            const res = await fetch(l.url); const text = await res.text(); 
+                            if (isImgPath && !isFont && text.length > 2000 && !/const|var|function/.test(text.slice(0,500))) {
+                                preview.innerHTML = `<img src="${l.url}" style="max-width:100%;max-height:300px;border:1px solid var(--mb-border);">`;
+                            } else { fetchRes(text); }
+                        } catch(e) { preview.innerHTML = '<span style="color:#ff4d4f">CORS Blocked</span>'; }
                     }
-                }
+                };
+                fetchAndCheck();
             }
             return;
         }
