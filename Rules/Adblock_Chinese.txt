@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 0FXEEDLt4Fgw3v2INNcQOQ
+! Checksum: S/v01gLLipj+2UQLr99S8w
 ! Title: Aloazny Chinese fiter
-! Version: 20260213205921
+! Version: 20260214100129
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-02-13 20:59:21
-! Total Count: 46025
-! Blocked Filters: 46025
+! Last modified: 2026-02-14 10:01:29
+! Total Count: 46028
+! Blocked Filters: 46028
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>19051
+!<<<<<域名规则>>>>>19054
 |http$3p,script,domain=kinotut.tv
 |http*://$script,3p,xhr,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,3p,domain=dlkoo.cc
@@ -836,6 +836,7 @@
 ||45yz5i35r.com^
 ||465k3mlo9.com^
 ||4667gwyg1.com^
+||46q8oxohlt.com^
 ||47.100.0.249/js/thea
 ||47.100.89.163/10524.apk
 ||47.100.89.163/10524.apk$~third-party
@@ -1067,6 +1068,7 @@
 ||5dycay3rr.com^
 ||5dyx.com/static/jquery.js
 ||5dyx.com/static/js/deny.js
+||5edf1d2qv.com^
 ||5f1qyi04vz.com^
 ||5fyme6x6uy.com^
 ||5fz.cc/t/aimg/tao
@@ -1453,6 +1455,7 @@
 ||8s8s.com/data/banner/
 ||8se.*/scripts/push*.js
 ||8se.me/redirect/ad-
+||8se.me/service/assets/core-state.
 ||8suis.top^
 ||8tbllquzr6.com^
 ||8u6stvyww.top^
@@ -5123,9 +5126,6 @@
 ||cruhliip.com^
 ||cruietoge.com^
 ||cruzietv.com^
-||crxs.me/plugins/jquery.modal/
-||crxs.me/scripts/my_
-||crxs.me/upload/ad/
 ||cryptvalue.com^$third-party
 ||crystalboulevard.com^$third-party
 ||cryy.vip^
@@ -6442,6 +6442,7 @@
 ||entsnotesq.fun^
 ||enviousshape.com^$third-party
 ||enviousthread.com^$third-party
+||envision75.com^
 ||enwuamw.top^
 ||enwucnw.top^
 ||enzf.cn^
@@ -7131,6 +7132,7 @@
 ||fuxeh.com^$~third-party
 ||fuyime.com^
 ||fuyime.com^$~third-party
+||fuztty4b5g.com^
 ||fuzzyaudio.com^$third-party
 ||fuzzybasketball.com^$third-party
 ||fuzzyerror.com^$third-party
@@ -17577,6 +17579,7 @@
 ||xchina.*/plugins/sweetAlert2/
 ||xchina.*/scripts/modal/modal.js
 ||xchina.*/scripts/push*.js
+||xchina.*/service/assets/core-state.
 ||xchina.click/upload/$third-party
 ||xchina.click/upload/*.webp
 ||xchina.co/redirect/ad-
@@ -19605,7 +19608,7 @@ $websocket,domain=wap.yushuwu.cloud
 1905.com##.ad-news
 1905.com##.mobile_ad_promote
 1905.com##div[id*="mobileAdPromote"]
-1909.me,8se.me,crxs.me,xchina.site,xchina.biz,xchina.co##.media
+1909.me,8se.me,xchina.site,xchina.biz,xchina.co##div[id^="z-extra-"]
 1909.tv##div[class="cc_lggg"]
 192.151.197.205:17096,38.174.115.242:30000,192.151.197.206:17096,192.151.197.203:30000,38.174.115.19:30000,38.174.115.251:17096,38.174.115.18:30000,38.174.115.3:17096,38.174.115.8:17096,38.174.115.244:30009,38.174.115.243:30009,38.174.115.24:30009,38.174.115.25:30009,38.174.115.23:30009,38.174.115.242:30009,192.151.197.203:30009,vip.aqdm160.com:20844,vip.aqdm185.com:20844,vip.aqdm101.com:20844,vip.aqdm178.com:20844,vip.aqdm154.com:20844,vip.aqdm130.com:20844,vip.aqdm186.com:20844,vip.aqdm135.com:20844,vip.aqdm141.com:20844,192.151.197.203:30010,vip.aqdm118.com:20844,38.174.115.3:16096,vip.aqdm171.com:20844,vip.aqdm176.com:20844,38.174.115.25:30010,38.174.115.251:16096,38.174.115.8:16096,vip.aqdm196.com:20844,38.174.115.244:30010,vip.aqdm126.com:20844,38.174.115.19:30010,vip.aqdm107.com:20844,vip.aqdm147.com:20844,vip.aqdm143.com:20844,38.174.115.24:30010,192.151.197.204:30010,38.174.115.18:30010,38.174.115.242:30010,38.174.115.243:30010##.video-item-ads
 199it.com,cnprint.org,easylife.tw,ez3c.tw,myqqjd.com,okanyu.jp,onepiece-akumanomi.com,softwarebrother.com##.adsbygoogle
