@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         仿M浏览器元素审查
 // @namespace    https://viayoo.com/81gzxv
-// @version      6.5
+// @version      6.6
 // @description  利用AI模仿并生成M浏览器的元素审查（感谢M浏览器原生交互灵感），在脚本菜单开启元素审查，专注精准AD规则生成与编辑，支持DOM树浏览、实时编辑（文字/代码/删除/换图/撤销）、存储管理、JS终端等功能。
 // @author       Via && Gemini
 // @match        *://*/*
@@ -1157,22 +1157,97 @@
         const container = shadow.querySelector('#mb-net-container'); if (!container) return;
         const esc = (s) => String(s || '').replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":"&#039;"}[m]));
         const currPage = netState.pageStack[netState.pageStack.length - 1];
+        const generateAdRules = (url) => {
+            try {
+                const u = new URL(url);
+                const domain = u.hostname;
+                const isThird = domain !== window.location.hostname;
+                const suffix = isThird ? '$third-party' : '$~third-party';
+                const path = u.pathname;
+                const search = u.search;
+                let smartSearch = search.replace(/([?&](ver|t|time|_)==?\d{7,13})[0-9]*/g, '$1').replace(/([?&])\d{10,13}/g, '$1');
+                const rules = [
+                    { title: '基础域名', code: `||${domain}^` },
+                    { title: '智能路径', code: `.${domain.split('.').slice(-2).join('.')}${path}${smartSearch}${suffix}` },
+                    { title: '目录规则', code: `||${domain}${path.substring(0, path.lastIndexOf('/') + 1)}` },
+                    { title: '完整路径', code: `${url}` }
+                ];
+                return rules;
+            } catch(e) { return []; }
+        };
         if (currPage === 'detail' && netState.currentLog) {
             const l = netState.currentLog;
             const reqStr = typeof l.reqH==='object'?JSON.stringify(l.reqH,null,2):l.reqH;
             const resHStr = typeof l.resH==='object'?JSON.stringify(l.resH,null,2):l.resH;
             const respBody = l.response || '';
             container.innerHTML = `<div style="flex:1;overflow-y:auto;padding:10px;background:var(--mb-bg);"><button class="ad-mini-btn" id="net-detail-back">⬅ 返回列表</button>
-                <div class="ad-rule-item" style="margin-top:10px;"><div class="data-row-display"><span class="hl-domain">URL:</span> ${esc(l.url)}</div>
-                <div class="data-row-display"><span class="hl-sep">Method:</span> ${l.method} | <span class="hl-selector">Status:</span> ${l.status} | <span class="hl-pseudo">Time:</span> ${l.duration}ms</div></div>
+                <div class="ad-rule-item" style="margin-top:10px;position:relative;padding-top:30px;">
+                   <button class="ad-mini-btn" id="gen-ad-rule" style="float:right;zoom:0.8;margin-top:-22px;background:var(--mb-border);">AD规则</button>
+                    <div id="ad-rule-panel" style="display:none;margin-bottom:12px;background:#1a1a1a;border-radius:6px;padding:10px;border:1px solid var(--mb-active);box-shadow:0 4px 12px rgba(0,0,0,0.5);">
+                        <div id="ad-rule-slider" style="display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;align-items:center;-webkit-overflow-scrolling:touch;"></div>
+                        <div id="ad-rule-dots" style="display:flex;justify-content:center;gap:6px;margin-top:8px;"></div>
+                        <div style="display:flex;gap:8px;margin-top:10px;justify-content:center;">
+                            <button class="ad-mini-btn" id="ad-copy" style="zoom:0.8;background:#333;color:#fff;border:1px solid #444;">复制</button>
+                            <button class="ad-mini-btn" id="ad-edit" style="zoom:0.8;background:#333;color:#fff;border:1px solid #444;">编辑</button>
+                            <button class="ad-mini-btn" id="ad-reset" style="zoom:0.8;background:#333;color:#fff;border:1px solid #444;">撤销修改</button>
+                        </div>
+                    </div>
+                    <div class="data-row-display" style="color:var(--mb-text);"><span class="hl-domain">URL:</span> ${esc(l.url)}</div>
+                    <div class="data-row-display" style="color:var(--mb-text);"><span class="hl-sep">Method:</span> ${l.method} | <span class="hl-selector">Status:</span> ${l.status} | <span class="hl-pseudo">Time:</span> ${l.duration}ms</div>
+                </div>
                 ${l.source === 'network' ? `
-                <div class="data-group-box"><div class="data-key-label">Request Headers:</div><button class="ad-mini-btn btn-copy" data-type="req" style="float:right;zoom:0.8;margin-top:-22px;background:var(--mb-border);">复制</button><pre style="font-size:11px;overflow:auto;max-height:120px;background:var(--mb-header-bg);padding:5px;border:1px solid var(--mb-border);">${esc(reqStr)}</pre></div>
-                <div class="data-group-box"><div class="data-key-label">Response Headers:</div><button class="ad-mini-btn btn-copy" data-type="resH" style="float:right;zoom:0.8;margin-top:-22px;background:var(--mb-border);">复制</button><pre style="font-size:11px;overflow:auto;max-height:120px;background:var(--mb-header-bg);padding:5px;border:1px solid var(--mb-border);">${esc(resHStr)}</pre></div>
-                ${l.payload?`<div class="data-group-box"><div class="data-key-label">Payload:</div><button class="ad-mini-btn btn-copy" data-type="pay" style="float:right;zoom:0.8;margin-top:-22px;background:var(--mb-border);">复制</button><pre style="font-size:11px;overflow:auto;max-height:100px;background:var(--mb-header-bg);padding:5px;">${esc(l.payload)}</pre></div>`:''}
+                <div class="data-group-box"><div class="data-key-label">Request Headers:</div><button class="ad-mini-btn btn-copy" data-type="req" style="float:right;zoom:0.8;margin-top:-22px;background:var(--mb-border);">复制</button><pre style="font-size:11px;overflow:auto;max-height:120px;background:var(--mb-header-bg);padding:5px;border:1px solid var(--mb-border);color:var(--mb-text);">${esc(reqStr)}</pre></div>
+                <div class="data-group-box"><div class="data-key-label">Response Headers:</div><button class="ad-mini-btn btn-copy" data-type="resH" style="float:right;zoom:0.8;margin-top:-22px;background:var(--mb-border);">复制</button><pre style="font-size:11px;overflow:auto;max-height:120px;background:var(--mb-header-bg);padding:5px;border:1px solid var(--mb-border);color:var(--mb-text);">${esc(resHStr)}</pre></div>
                 <div class="data-group-box"><div class="data-key-label">Response:</div><button class="ad-mini-btn btn-copy" data-type="resB" style="float:right;zoom:0.8;margin-top:-22px;background:var(--mb-border);">复制</button><pre style="font-size:11px;overflow:auto;max-height:350px;background:#000;color:#fff;padding:8px;border-radius:4px;white-space:pre-wrap;word-break:break-all;">${formatAndHighlight(respBody || '(Empty)', 'js')}</pre></div>
-                ` : `<div class="data-group-box"><div class="data-key-label">Preview:</div><div id="res-preview" style="padding:10px;text-align:center;font-size:12px;opacity:0.6;">Loading...</div></div>`}</div>`;
+                ` : `<div class="data-group-box"><div class="data-key-label">Preview:</div><div id="res-preview" style="padding:10px;text-align:center;font-size:12px;color:var(--mb-text);">Loading...</div></div>`}</div>`;
             const doCopy = (btn, text) => { GM_setClipboard(text); const old = btn.innerText; btn.innerText = '已复制'; setTimeout(() => { btn.innerText = old; }, 1000); };
-            container.querySelectorAll('.btn-copy').forEach(btn => { btn.onclick = (e) => { e.stopPropagation(); const type = btn.dataset.type; if(type === 'req') doCopy(btn, reqStr); else if(type === 'resH') doCopy(btn, resHStr); else if(type === 'pay') doCopy(btn, l.payload); else if(type === 'resB') doCopy(btn, respBody); }; });
+            let currentAdIdx = 0;
+            const adRules = generateAdRules(l.url);
+            const panel = container.querySelector('#ad-rule-panel');
+            const renderAdSlider = () => {
+                const slider = container.querySelector('#ad-rule-slider');
+                const dots = container.querySelector('#ad-rule-dots');
+                slider.innerHTML = adRules.map((r, i) => `<div class="ad-slide" data-idx="${i}" style="min-width:100%;scroll-snap-align:start;padding:2px;box-sizing:border-box;">
+                    <div style="color:#888;font-size:9px;margin-bottom:2px;">预览规则 ${i+1} (${r.title}):</div>
+                    <code class="ad-code-view" contenteditable="false" inputmode="text" style="display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:11px;color:#00ff00;background:#000;padding:4px 6px;border-radius:3px;font-family:monospace;border:1px solid #333;outline:none;">${esc(r.code)}</code>
+                </div>`).join('');
+                dots.innerHTML = adRules.map((_, i) => `<div style="width:5px;height:5px;border-radius:50%;background:${i===currentAdIdx?'var(--mb-active)':'#555'};cursor:pointer;"></div>`).join('');
+                dots.querySelectorAll('div').forEach((d, i) => d.onclick = () => { currentAdIdx = i; slider.scrollTo({left: slider.offsetWidth * i, behavior: 'smooth'}); });
+                slider.onscroll = () => {
+                    const idx = Math.round(slider.scrollLeft / slider.offsetWidth);
+                    if(idx !== currentAdIdx) { currentAdIdx = idx; dots.querySelectorAll('div').forEach((d, i) => d.style.background = (i === idx ? 'var(--mb-active)' : '#555')); }
+                };
+            };
+            container.querySelector('#gen-ad-rule').onclick = () => {
+                panel.style.display = panel.style.display === 'none' ? 'block' : 'none';
+                if(panel.style.display === 'block') renderAdSlider();
+            };
+            container.querySelector('#ad-copy').onclick = (e) => doCopy(e.target, adRules[currentAdIdx].code);
+            container.querySelector('#ad-edit').onclick = (e) => {
+                const slides = container.querySelectorAll('.ad-slide');
+                const codeEl = slides[currentAdIdx].querySelector('.ad-code-view');
+                if (codeEl.contentEditable !== 'true') {
+                    codeEl.contentEditable = 'true';
+                    codeEl.style.whiteSpace = 'pre-wrap';
+                    codeEl.style.overflow = 'visible';
+                    codeEl.style.border = '1px solid var(--mb-active)';
+                    setTimeout(() => codeEl.focus(), 50);
+                    e.target.innerText = '保存';
+                } else {
+                    codeEl.contentEditable = 'false';
+                    codeEl.style.whiteSpace = 'nowrap';
+                    codeEl.style.overflow = 'hidden';
+                    codeEl.style.border = '1px solid #333';
+                    adRules[currentAdIdx].code = codeEl.innerText;
+                    e.target.innerText = '编辑';
+                }
+            };
+            container.querySelector('#ad-reset').onclick = () => {
+                const fresh = generateAdRules(l.url);
+                adRules[currentAdIdx].code = fresh[currentAdIdx].code;
+                renderAdSlider();
+            };
+            container.querySelectorAll('.btn-copy').forEach(btn => { btn.onclick = (e) => { e.stopPropagation(); const type = btn.dataset.type; if(type === 'req') doCopy(btn, reqStr); else if(type === 'resH') doCopy(btn, resHStr); else if(type === 'resB') doCopy(btn, respBody); }; });
             container.querySelector('#net-detail-back').onclick = () => { netState.pageStack.pop(); renderNetworkPage(); };
             if (l.source === 'resource') {
                 const preview = container.querySelector('#res-preview');
@@ -1196,14 +1271,23 @@
             return;
         }
         let list = netState.activeTab === 'network' ? netState.logs : performance.getEntriesByType('resource').reverse().map(r => ({ method: 'GET', url: r.name, type: (r.initiatorType === 'link' && r.name.includes('.css')) ? 'STYLESHEET' : r.initiatorType.toUpperCase(), source: 'resource', status: '200', duration: Math.round(r.duration), resType: r.initiatorType }));
-        if (netState.resFilter !== 'all') list = list.filter(l => (l.type||'').toLowerCase() === netState.resFilter || (netState.resFilter === 'other' && !['script', 'stylesheet', 'img', 'xmlhttprequest', 'fetch'].includes((l.type||'').toLowerCase())));
-        container.innerHTML = `<div style="display:flex;padding:0 5px;background:var(--mb-header-bg);gap:2px;border-bottom:1px solid var(--mb-border);overflow-x:auto;flex-shrink:0;align-items:stretch;height:35px;">
-            <button class="ad-mini-btn" id="net-to-main" style="margin-right:5px;background:transparent;border:none;font-size:16px;">🏠</button>
-            <button class="ad-mini-btn" id="net-tab-net" style="background:transparent;border:none;border-radius:0;color:${netState.activeTab==='network'?'var(--mb-active)':'var(--mb-text)'};border-bottom:${netState.activeTab==='network'?'2px solid var(--mb-active)':'2px solid transparent'};padding:0 8px;font-weight:${netState.activeTab==='network'?'bold':'normal'};">Network</button>
-            <button class="ad-mini-btn" id="net-tab-res" style="background:transparent;border:none;border-radius:0;color:${netState.activeTab==='resource'?'var(--mb-active)':'var(--mb-text)'};border-bottom:${netState.activeTab==='resource'?'2px solid var(--mb-active)':'2px solid transparent'};padding:0 8px;font-weight:${netState.activeTab==='resource'?'bold':'normal'};">Resource</button>
-            <div style="width:1px;background:var(--mb-border);margin:8px 4px;"></div>
-            ${(netState.activeTab==='network'?['all','xhr','fetch']:['all','script','stylesheet','img','other']).map(f => `<button class="ad-mini-btn" data-f="${f}" style="background:transparent;border:none;border-radius:0;color:${netState.resFilter===f?'var(--mb-active)':'var(--mb-text)'};border-bottom:${netState.resFilter===f?'2px solid var(--mb-active)':'2px solid transparent'};padding:0 5px;font-size:11px;white-space:nowrap;">${f.toUpperCase()}</button>`).join('')}
-            <button class="ad-mini-btn" id="net-clear" style="margin-left:auto;background:transparent;border:none;color:#ff4d4f;font-size:12px;">清空</button></div>
+        const adReg = /ads\/foot\/head\/top\/ver\?1(6|7|8|9)\d+|\/js+\/[A-Za-z]([0-9])?\.js|adv\/banner\/([A-Za-z]+)?gg\.js|vh[0-9]|:[8|9][0-9]+\/[a-z]{2,4}\//;
+        if (netState.resFilter === 'ads') {
+            list = list.filter(l => {
+                try { return (new URL(l.url).hostname !== window.location.hostname) && adReg.test(l.url); } catch(e) { return false; }
+            });
+        } else if (netState.resFilter !== 'all') {
+            list = list.filter(l => (l.type||'').toLowerCase() === netState.resFilter || (netState.resFilter === 'other' && !['script', 'stylesheet', 'img', 'xmlhttprequest', 'fetch'].includes((l.type||'').toLowerCase())));
+        }
+        container.innerHTML = `<div style="display:flex;padding:0 5px;background:var(--mb-header-bg);border-bottom:1px solid var(--mb-border);flex-shrink:0;align-items:center;height:35px;">
+            <button class="ad-mini-btn" id="net-to-main" style="background:transparent;border:none;font-size:16px;flex-shrink:0;">🏠</button>
+            <div style="display:flex;gap:4px;overflow-x:auto;flex:1;scrollbar-width:none;margin:0 8px;align-items:center;">
+                <button class="ad-mini-btn" id="net-tab-net" style="background:transparent;border:none;color:${netState.activeTab==='network'?'var(--mb-active)':'var(--mb-text)'};font-weight:${netState.activeTab==='network'?'bold':'normal'};white-space:nowrap;padding:0 5px;">Network</button>
+                <button class="ad-mini-btn" id="net-tab-resource" style="background:transparent;border:none;color:${netState.activeTab==='resource'?'var(--mb-active)':'var(--mb-text)'};font-weight:${netState.activeTab==='resource'?'bold':'normal'};white-space:nowrap;padding:0 5px;">Resource</button>
+                <div style="width:1px;height:15px;background:var(--mb-border);flex-shrink:0;"></div>
+                ${(netState.activeTab==='network'?['all','xhr','fetch']:['all','ads','script','stylesheet','img','other']).map(f => `<button class="ad-mini-btn" data-f="${f}" style="background:transparent;border:none;color:${netState.resFilter===f?'var(--mb-active)':'var(--mb-text)'};font-size:11px;white-space:nowrap;padding:0 5px;">${f.toUpperCase()}</button>`).join('')}
+            </div>
+            <button class="ad-mini-btn" id="net-clear" style="background:transparent;border:none;color:#ff4d4f;font-size:12px;white-space:nowrap;flex-shrink:0;">清空</button></div>
             <div style="flex:1;overflow-y:auto;background:var(--mb-bg);">${list.map((l, i) => {
                 const typeColor = { 'SCRIPT': '#f1c40f', 'STYLESHEET': '#3498db', 'IMG': '#e67e22', 'FETCH': '#9b59b6', 'XMLHTTPREQUEST': '#1abc9c' }[l.type] || 'var(--mb-text)';
                 const urlParts = l.url.split('/'); const fileName = urlParts[urlParts.length-1].split('?')[0] || urlParts[urlParts.length-2] || l.url;
@@ -1214,15 +1298,15 @@
                         <span style="color:${l.status>=400||l.status==='Fail'?'#ff4d4f':(l.status==='pending'?'#f1c40f':'#2ecc71')};font-weight:bold;">${l.status}</span>
                         <span style="color:${typeColor};font-weight:600;zoom:0.9;">[${l.type}]</span>
                     </div>
-                    <span style="opacity:0.5;zoom:0.8;">${l.duration}ms</span>
+                    <span style="opacity:0.5;zoom:0.8;color:var(--mb-text);">${l.duration}ms</span>
                 </div>
                 <div style="font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-family:monospace;color:var(--mb-text);">
                     <span class="hl-domain" style="font-weight:bold;">${esc(fileName)}</span>
                     <span style="opacity:0.4;margin-left:4px;zoom:0.9;">${esc(l.url)}</span>
-                </div></div>`}).join('') || '<div style="padding:20px;text-align:center;opacity:0.4;">No Records</div>'}</div>`;
+                </div></div>`}).join('') || '<div style="padding:20px;text-align:center;opacity:0.4;color:var(--mb-text);">No Records</div>'}</div>`;
         container.querySelector('#net-to-main').onclick = () => { shadow.querySelectorAll('.mb-page').forEach(p => p.style.display = ''); switchToPage(0); shadow.querySelectorAll('.mb-tool-btn').forEach(b => b.classList.remove('active')); netState.pageStack = ['main']; };
         container.querySelector('#net-tab-net').onclick = () => { netState.activeTab = 'network'; netState.resFilter = 'all'; renderNetworkPage(); };
-        container.querySelector('#net-tab-res').onclick = () => { netState.activeTab = 'resource'; netState.resFilter = 'all'; renderNetworkPage(); };
+        container.querySelector('#net-tab-resource').onclick = () => { netState.activeTab = 'resource'; netState.resFilter = 'all'; renderNetworkPage(); };
         container.querySelector('#net-clear').onclick = () => { if(netState.activeTab==='network') netState.logs=[]; renderNetworkPage(); };
         container.querySelectorAll('[data-f]').forEach(btn => btn.onclick = () => { netState.resFilter = btn.dataset.f; renderNetworkPage(); });
         container.querySelectorAll('.net-item').forEach(el => el.onclick = () => { netState.currentLog = list[el.dataset.idx]; netState.pageStack.push('detail'); renderNetworkPage(); });
