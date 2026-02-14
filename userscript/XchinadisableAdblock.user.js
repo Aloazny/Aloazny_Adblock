@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Xchina disable popup
 // @namespace   http://tampermonkey.net/
-// @version      2.0
+// @version      2.1
 // @description 绕过xChina弹窗检测
 // @author      Aloazny && Grok
 // @license     MIT
@@ -34,7 +34,6 @@
     const w = typeof unsafeWindow !== 'undefined' ? unsafeWindow : window;
     const d = document;
     w.__ad_free = true;
-    w.__CORE_RUNTIME_LOADED__ = true;
 
 // 修改Cookie值
 const COOKIE_MODIFY = `__ss_pv_done=1
@@ -165,10 +164,6 @@ script[src$="/ad-provider.js"] + ins
                 }
             });
         };
-        const blockRegex = /Swal|modal_alert|请关闭广告拦截|isBlocked/i;
-        w.setTimeout = new Proxy(w.setTimeout, { apply: (t, _, a) => blockRegex.test(a[0] + '') ? 0 : t(...a) });
-        w.setInterval = new Proxy(w.setInterval, { apply: (t, _, a) => blockRegex.test(a[0] + '') ? 0 : t(...a) });
-        d.addEventListener('beforescriptexecute', e => { if (blockRegex.test(e.target.textContent)) { e.preventDefault(); e.stopPropagation(); e.target.remove(); } }, true);
         ensureCSS();
         new MutationObserver((m) => {
             m.forEach((record) => { record.removedNodes.forEach((node) => { if (node.nodeType === 1 && node.tagName === 'STYLE' && styleIds.includes(node.id)) setTimeout(ensureCSS, 10); }); });
