@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: Y+sh4xdosx4CXXcAo0nOuw
+! Checksum: wsUQFg7OIWMN3zAnIAUjWg
 ! Title: Aloazny Chinese fiter
-! Version: 20260228204520
+! Version: 20260301102135
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-02-28 20:45:20
-! Total Count: 46394
-! Blocked Filters: 46394
+! Last modified: 2026-03-01 10:21:35
+! Total Count: 46402
+! Blocked Filters: 46402
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>19248
+!<<<<<域名规则>>>>>19256
 |http$3p,script,domain=kinotut.tv
 |http*://$script,3p,xhr,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,3p,domain=dlkoo.cc
@@ -465,6 +465,7 @@
 ||1mp.mobi^
 ||1nrlydgrr.com^
 ||1o0g85u7k1.com^
+||1o1nuqbjea.com^
 ||1paujqtq9.com^
 ||1ppt.com/ad$image
 ||1pt7wq8di.com^
@@ -3185,6 +3186,7 @@
 ||ax07in8xkr.com^
 ||ax1x.com/2020/06/14/NSoyHe.png
 ||ax1x.com^$domain=caibaojian.com|hktvyb.com|zzvips.com
+||ax2t0u9ly.com^
 ||axbdlox.cn^
 ||axcdt.cn^
 ||axcdy.cn^
@@ -3878,6 +3880,7 @@
 ||blz105.com/player/ad.html
 ||blzgeuuz.icu^
 ||bm.h576.com^
+||bm3xyw6am.com^
 ||bmelkellv.com^
 ||bmiea.xyz^
 ||bmjs.xzw.com^
@@ -5762,6 +5765,7 @@
 ||discuss.com.hk/oath/
 ||discuss.com.hk^*_prod.html
 ||discuz.gtimg.cn/cloud/scripts/discuz_tips.js
+||disentangle56.top^
 ||dismantlepenantiterrorist.com^
 ||display.itmemo.cn^
 ||displayio.cloud^
@@ -6992,6 +6996,7 @@
 ||flash.cn/success/
 ||flash.mycar168.com/data/js/
 ||flasmr.top/leb.
+||fldlxx.icu^
 ||flighty.cn/images/
 ||flimsycircle.com^$third-party
 ||flimsythought.com^$third-party
@@ -7681,6 +7686,7 @@
 ||gohgn02241la.com^
 ||gohgn02251la.com^
 ||gohgn02261la.com^
+||gohgn03010la.com^
 ||goi08130kh.com^
 ||goi08131kh.com^
 ||goi08141kh.com^
@@ -11686,6 +11692,7 @@
 ||mp4ba.com^*/js/head.js
 ||mp4ba.net/static/js/mp4ba.js
 ||mp4us.com/js/wcount.js
+||mp65va7y1.com^
 ||mp83fkx.cn^
 ||mp999.net/wp-content/uploads/*zgg
 ||mpb1.iteye.com^
@@ -11979,6 +11986,7 @@
 ||nbsxazr.icu^
 ||nbtfbb.xyz^
 ||nbudas92.shop^
+||ncb6t8bn4.com^
 ||ncgqmzm.cn^
 ||nchanado.com^
 ||nchxzmhr.com^
