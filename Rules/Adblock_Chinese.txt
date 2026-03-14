@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: OS+hVO+PtSOj/oI8MqGW7g
+! Checksum: o7rHFZ5wFRUYP1LXyW2sCg
 ! Title: Aloazny Chinese fiter
-! Version: 20260314100029
+! Version: 20260314205136
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-03-14 10:00:29
-! Total Count: 46593
-! Blocked Filters: 46593
+! Last modified: 2026-03-14 20:51:36
+! Total Count: 46598
+! Blocked Filters: 46598
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>19331
+!<<<<<域名规则>>>>>19336
 |http$3p,script,domain=kinotut.tv
 |http*://$script,3p,xhr,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,3p,domain=dlkoo.cc
@@ -1265,6 +1265,7 @@
 ||6v4.work^
 ||6v6.work^
 ||6vhao.tv/d/
+||6w4ix4bxz1.com^
 ||6x59axt21.com^
 ||6yfcuuw.com^
 ||6zmcb1x9fn.top^
@@ -1325,6 +1326,7 @@
 ||78land.com/js/fumeiti.js
 ||79181531227.com^
 ||797sun.com/include/js/common_footer.
+||79n4cubmu8.com^
 ||79zxcv.com^
 ||7asx1bxaw.com^
 ||7awf4fi9k7.com^
@@ -2747,6 +2749,7 @@
 ||ambiguousdinosaurs.com^$third-party
 ||ambiguousincome.com^$third-party
 ||ambrosialsummit.com^$third-party
+||amcraahmou.com^
 ||amdc.alipay.com^
 ||amdc.m.taobao.com^
 ||amerzbj.cn^
@@ -6599,6 +6602,7 @@
 ||etlanaberez.fun^
 ||etlz1mt67.com^
 ||etnet.com.hk/ad/
+||etqu.cn^
 ||etregh.fun^
 ||etrvfx.xyz^
 ||ettoday.net/ad/*_action.js
@@ -17543,6 +17547,7 @@
 ||wuliao.jingyanben.com^
 ||wuliao.juqingba.cn^
 ||wuplexv.cn^
+||wuqwruavhah.in^
 ||wuruigroup.com^
 ||wushangzeichuan.xin^
 ||wuxianxs.net/m
