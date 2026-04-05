@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         移动端限制弹窗解除
 // @namespace    https://viayoo.com/hrgow0
-// @version      1.72
+// @version      1.73
 // @description  自用脚本，解除滑动禁止、触控禁止，移除弹窗。
 // @author       Via
 // @match        *://*/*
@@ -75,6 +75,14 @@
 bing.com##+js(dpopup, #bnp_btn_reject, stay)
 bing.com##+js(dpopup, #sacs_close, stay)
 bsb.baidu.com##+js(dpopup, #pc_jxfw, stay)
+m.douban.com##+js(dpopup, #home_guide.splash-link)
+m.douban.com##.app-link
+m.douban.com##.subject-banner
+m.douban.com##.talion-nav-footer
+m.douban.com##.write-comment
+m.douban.com##[src*="//at4.doubanio.com/"]
+m.douban.com##[style*="display:none"] + iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
+m.douban.com##div:not([class]):not([id]) > iframe[width="407"][scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][height][frameborder="0"]
 sina.cn##+js(dpopup, #SFA-continue-btn, stay)
 sina.cn##+js(dpopup, #SFA_continueBtn, stay)
 sina.cn##+js(dpopup, .confirm-cancel)
