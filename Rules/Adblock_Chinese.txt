@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: kEiGAZnntNT+OMORsQqeJQ
+! Checksum: sbRNLcQgLXdvPTULfL8xwQ
 ! Title: Aloazny Chinese fiter
-! Version: 20260404205540
+! Version: 20260405102950
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-04-04 20:55:40
-! Total Count: 47029
-! Blocked Filters: 47029
+! Last modified: 2026-04-05 10:29:50
+! Total Count: 47041
+! Blocked Filters: 47041
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>19587
+!<<<<<域名规则>>>>>19597
 |http$3p,script,domain=kinotut.tv
 |http*://$script,3p,xhr,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,3p,domain=dlkoo.cc
@@ -3888,6 +3888,7 @@
 ||bj-gov-cn.website^
 ||bj1.118pan.com^
 ||bj5iodzgyi.com^
+||bj9zvb5ih.com^
 ||bjads.bejbej.ca^
 ||bjcathay.com/s?z=
 ||bjfsk.xyz^
@@ -5451,6 +5452,7 @@
 ||d5.sina.com.cn^$image,domain=~www.sina.com.cn
 ||d56p.com/love/
 ||d5xogy0qi.com^
+||d5zkrmttu.com^
 ||d6.mobaders.com^
 ||d67p.com/love/
 ||d6gsujd8v.com^
@@ -7380,6 +7382,7 @@
 ||fznidd.top^
 ||fzpchome.com/txt/$script
 ||fzruzulad.com^
+||fzu7rg.site^
 ||fzxiaoshuo.com/source/
 ||g-years.com/gy/
 ||g-years.com/tb/
@@ -8908,6 +8911,8 @@
 ||i-gamer.net^$domain=cartoonmad.com
 ||i-mobile.co.jp^$3p
 ||i-part.com.tw/js2/newShineStar
+||i-pclub.com/m/ama_$script
+||i-pclub.com/m/randam_$script
 ||i-vengo.com^
 ||i.5432kk.com^
 ||i.6v6.work^$third-party
@@ -10173,6 +10178,7 @@
 ||jygdb.com^
 ||jygiizv.icu^
 ||jyhlo0.com^
+||jyiwnb82b.com^
 ||jynthelon.com^
 ||jynv.cn^
 ||jyqkijp.icu^
@@ -10734,6 +10740,7 @@
 ||leeleo.top^$3p
 ||leftliquid.com^$third-party
 ||legdeh.fun^
+||legislator85.top^
 ||legopq.site^
 ||leiphone.com/uploads/new/category/pic/*/740x140/
 ||leirerspfz.com^
@@ -14537,6 +14544,7 @@
 ||rzjdsm7tgz.com^
 ||rzkptd.com^
 ||rznscya.cn^
+||rzrnpx.icu^
 ||rzsgxmm.cn^
 ||rzxhrl.icu^
 ||s-adx.op-mobile.opera.com^
@@ -16114,6 +16122,7 @@
 ||tlanyan.pp.ua/wp-content/uploads/meomiao.png
 ||tlbjw.com^
 ||tljrvn.icu^
+||tljsxt.icu^
 ||tlprlf.xyz^
 ||tlq8ufqddj.com^
 ||tlsgq.cn^
@@ -16653,6 +16662,7 @@
 ||ufz.doesxyz.com^
 ||ug.baidu.com^
 ||ug.snssdk.com^
+||ug54oqjpqq.com^
 ||ugbjqwe.com^
 ||uggrianvo.com^
 ||ugheqrikui.com^
@@ -19604,7 +19614,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>16111
+!<<<<<网站单独规则>>>>>16113
 $3p,domain=76fengyun.com|avsdown.com|downdv.com|downdvs.com|downhhh.com|imedown.info|jandown.com|mimima.com|mnks.jxedt.com|rmdown.com|soyunpan.com|xmflv.com
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
 $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
@@ -20336,6 +20346,7 @@ $websocket,domain=wap.yushuwu.cloud
 2ch-c.net##.cdt_wrapper
 2ch-c.net##.h_amazon
 2ch-c.net##a[href="mgs/mgs.php"]
+2ch-ero-report.blog.jp,catchv.fooish.com,chjtx.com,fooish.com,gigazine.net,medicinenet.com,rxlist.com,seikeidouga.blog.jp,sogi.com.tw,taotu.org,totalwar.doorblog.jp,wap.lexun.com,xn--dkqp0gri91r38rn1wmlurtz.com###ad
 2ch-n.net##.mx-auto:has(> div.feed-links) + div.fixed.bottom-0
 2ch-n.net,lifeantenna.com##.highlight-entry
 2ch.logpo.jp##.AdsInFeed
@@ -23124,7 +23135,6 @@ carview.yahoo.co.jp###ydn-bot
 carview.yahoo.co.jp###ydn-contents-top-text
 carview.yahoo.co.jp##.posNM
 catalog.onliner.by##.schema-block_wide-banner
-catchv.fooish.com,chjtx.com,fooish.com,gigazine.net,medicinenet.com,rxlist.com,seikeidouga.blog.jp,sogi.com.tw,taotu.org,totalwar.doorblog.jp,wap.lexun.com,xn--dkqp0gri91r38rn1wmlurtz.com###ad
 cb.com.cn##.box > a[href^="http"]:not([href*=".cb."])
 cb.wpio.xyz##.tpc_content > a[target="_blank"][onmouseout]
 cb.wpio.xyz##.tpc_content > span > span > a[target="_blank"][onmouseout]
@@ -26671,6 +26681,8 @@ i-part.com.tw###chatroomFrame + div[style="text-align: center;padding-top: 10px"
 i-part.com.tw##.googleAD160x600
 i-part.com.tw##.newAd
 i-part.com.tw##a[href*="goo.gl%2FW9SXr1&"]
+i-pclub.com##.zoon2:has(> div#nex)
+i-pclub.com##center > .zoon:has(> div#trip)
 i.7y7.com##div[class="jyzx208 "]
 i.7y7.com##div[class="zxzx"]
 i.factor.ua###adb-info
