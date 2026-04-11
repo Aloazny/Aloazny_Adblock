@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 12HU/ZJGs9BnTAETsjG90A
+! Checksum: 3FoH/puOeU9Q5UV+UqcZyQ
 ! Title: Aloazny Chinese fiter
-! Version: 20260410210950
+! Version: 20260411101128
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-04-10 21:09:50
-! Total Count: 47168
-! Blocked Filters: 47168
+! Last modified: 2026-04-11 10:11:28
+! Total Count: 47175
+! Blocked Filters: 47175
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>19700
+!<<<<<域名规则>>>>>19707
 |http$3p,script,domain=kinotut.tv
 |http*://$script,3p,xhr,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,3p,domain=dlkoo.cc
@@ -116,6 +116,7 @@
 ||096iokj.com^
 ||09jsufg.com^
 ||0a0atz2sh.top^
+||0a66kw9r8.com^
 ||0b4qu3nxa.com^
 ||0b6rvr210q.com^
 ||0bb8jytek.com^
@@ -12315,6 +12316,7 @@
 ||newdin.name^
 ||newfeatureview.perfectionholic.com^
 ||news-cdn.site^
+||news-img.site^
 ||news.99k.tw/open/open*.php
 ||news.cn/2021detail/js/booklist.js
 ||news.cn/imgad/
@@ -13618,6 +13620,7 @@
 ||ptxcfn.icu^
 ||ptyw.yiche.com/ssp/
 ||ptzxed507.com^
+||pu3xxlqjr.com^
 ||puabvo.com^
 ||puata.info^
 ||pub.funshion.com^
@@ -15493,6 +15496,7 @@
 ||stadig.ifeng.com^
 ||staffboozerenamed.com^
 ||staffboozerenamed.com^$~third-party
+||staircase59.com^
 ||staitcfile.org^
 ||stakingbasket.com^$third-party
 ||stakingshock.com^$third-party
@@ -17360,6 +17364,7 @@
 ||vrr.name^
 ||vrrm.cn^
 ||vrrw.net//templets/default/js/ad.js
+||vrtafd.icu^
 ||vruzexzl.com^
 ||vrzuhj.icu^
 ||vs*.bozhou666.com^$third-party
@@ -18167,11 +18172,13 @@
 ||xdf.cn/v4/js/leyus/
 ||xdh0808.com^
 ||xdiwbc.com^$third-party
+||xdlipr.icu^
 ||xdnice.com/themes/xdnice/public/assets/images/quna.png
 ||xdnice.com/themes/xdnice/public/assets/images/xdnice.png
 ||xdns.asia^
 ||xdoriq.cn^
 ||xdrig.com^
+||xdxqw9nnr.com^
 ||xdyjt.com^
 ||xdyn0*jy.com^$script,xhr,3p
 ||xdyn03010jy.com^
