@@ -2,7 +2,7 @@
 // @name         Twitter搜索替换
 // @namespace    http://viayoo.com/1guhh
 // @version      1.1
-// @description  自用推特(Twitter)，一个简单的搜索过滤器，不用特意去记Twitter高级语法。
+// @description  自用推特(Twitter)搜索替换，一个简单的搜索过滤器，不用特意去记Twitter高级语法。
 // @author       Via
 // @icon         https://abs.twimg.com/favicons/twitter.ico
 // @license       MIT
