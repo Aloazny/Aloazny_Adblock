@@ -1,17 +1,21 @@
 // ==UserScript==
 // @name         Twitter评论区过滤
 // @namespace    http://viayoo.com/bhivy
-// @version      1.2
+// @version      1.3
 // @description  自用脚本，过滤推特(Twitter)评论区。
 // @author       Via && Deepseek
-// @include      https://x.com/*/status/*
-// @include      https://x.com/*/media
-// @include      https://x.com/*/with_replies
-// @match       https://x.com/explore
-// @match       https://x.com/home
-// @match       https://x.com/search
+// @match       https://x.com/*
 // @exclude     https://x.com/*/status/*/video/*
 // @exclude     https://x.com/*/status/*/photo/*
+// @exclude     https://x.com/settings
+// @exclude     https://x.com/i/*/creators/
+// @exclude     https://x.com/i/bookmarks
+// @exclude     https://x.com/i/premium-business
+// @exclude     https://x.com/*/lists
+// @exclude     https://x.com/i/follow_people
+// @exclude     https://x.com/i/chat
+// @exclude     https://x.com/notifications
+// @exclude     https://x.com/i/grok
 // @icon         https://abs.twimg.com/favicons/twitter.ico
 // @license       MIT
 // @grant        GM_setValue
