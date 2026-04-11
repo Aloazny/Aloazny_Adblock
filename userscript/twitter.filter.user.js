@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Twitter评论区过滤
 // @namespace    http://viayoo.com/bhivy
-// @version      1.1
+// @version      1.2
 // @description  自用脚本，过滤推特(Twitter)评论区。
 // @author       Via && Deepseek
 // @include      https://x.com/*/status/*
@@ -9,6 +9,7 @@
 // @include      https://x.com/*/with_replies
 // @match       https://x.com/explore
 // @match       https://x.com/home
+// @match       https://x.com/search
 // @exclude     https://x.com/*/status/*/video/*
 // @exclude     https://x.com/*/status/*/photo/*
 // @icon         https://abs.twimg.com/favicons/twitter.ico

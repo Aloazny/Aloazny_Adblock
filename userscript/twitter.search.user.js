@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Twitter搜索替换
 // @namespace    http://viayoo.com/1guhh
-// @version      1.2
+// @version      1.3
 // @description  自用推特(Twitter)搜索替换，一个简单的搜索过滤器，不用特意去记Twitter高级语法。
 // @author       Via
 // @include      https://x.com/*/status/*
@@ -9,6 +9,7 @@
 // @include      https://x.com/*/with_replies
 // @match       https://x.com/explore
 // @match       https://x.com/home
+// @match       https://x.com/search
 // @exclude     https://x.com/*/status/*/video/*
 // @exclude     https://x.com/*/status/*/photo/*
 // @icon         https://abs.twimg.com/favicons/twitter.ico
