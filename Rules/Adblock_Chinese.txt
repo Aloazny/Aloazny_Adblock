@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: zzdj08EKhOIp7qx82t6mIA
+! Checksum: IbgB1WG1h/rz2g1kARVr6g
 ! Title: Aloazny Chinese fiter
-! Version: 20260411205751
+! Version: 20260412103436
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-04-11 20:57:51
-! Total Count: 47182
-! Blocked Filters: 47182
+! Last modified: 2026-04-12 10:34:36
+! Total Count: 47191
+! Blocked Filters: 47191
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>19714
+!<<<<<域名规则>>>>>19722
 |http$3p,script,domain=kinotut.tv
 |http*://$script,3p,xhr,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,3p,domain=dlkoo.cc
@@ -1101,6 +1101,7 @@
 ||59dm.com/abc/*.js
 ||59gt.cn^
 ||59xx2yr9i.com^
+||59zzkdt8pj.com^
 ||5adbjiwp.xyz^
 ||5axxw.com/extends/ad/
 ||5azvpjx8xj.com^
@@ -8887,6 +8888,7 @@
 ||hur05110kns.com^
 ||hur05121kns.com^
 ||hur05130kns.com^
+||hurriedly18.com^
 ||hurtgrape.com^$third-party
 ||hushenqiquan.com^
 ||huwgjgf.icu^
@@ -13005,6 +13007,7 @@
 ||owlunimmvn.com^
 ||owqbirykia.com^
 ||owrkwilxbw.com^
+||owvqpfbrrk.com^
 ||ox3e5wyy79.com^
 ||oxggiwdp57.com^
 ||oxidation83.com^
@@ -13974,6 +13977,7 @@
 ||qpolkmbbf.com$third-party
 ||qpqp05100oki.com^
 ||qpqp05101oki.com^
+||qpvrutah.com^
 ||qpztub.xyz^
 ||qq-hls.xyz^
 ||qq.com/Index/getAdsAndHotspot
@@ -16069,6 +16073,7 @@
 ||thljnv.top^
 ||thomastorch.com^$third-party
 ||thoohizoogli.xyz^
+||thpvrn.icu^
 ||thragmoth.com^
 ||thraittidz.com^
 ||threetruck.com^$third-party
@@ -16224,6 +16229,7 @@
 ||tmochyf.cn^
 ||tmpsdp.icu^
 ||tmqhageaip.com^
+||tmtmkfjbitxzlhijfcen.top^
 ||tmwbszn.icu^
 ||tmz.vo.llnwd.net^
 ||tnc16-*.byteoversea.com^
@@ -17393,6 +17399,7 @@
 ||vtongm82lz.com^
 ||vtook3j0l.com^
 ||vtqhelleano.com^
+||vtrabj.icu^
 ||vtrelphail.com^
 ||vtrrxqbi.xyz^
 ||vtvnnl.xyz^
@@ -17425,6 +17432,7 @@
 ||vvfht.fun^
 ||vvllrb.top^
 ||vvmeirihd.feijied.xyz^
+||vvqc95xhtx.com^
 ||vvv.ieduw.com^
 ||vvvkp.com/template/ttk/img/
 ||vvwuqxp.icu^
@@ -19731,7 +19739,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>16130
+!<<<<<网站单独规则>>>>>16131
 $3p,domain=76fengyun.com|avsdown.com|downdv.com|downdvs.com|downhhh.com|imedown.info|jandown.com|mimima.com|mnks.jxedt.com|rmdown.com|soyunpan.com|xmflv.com
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
 $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
@@ -33163,6 +33171,7 @@ taihe.com##div[class*="header"]
 taiwan.cn##div[style*="height:250px;padding:5px 17px 5px 18px;"]
 taiwandaily.net##.gofollow[data-track] > img
 taiwanus.net##td[width="900"] + td[width="320"]
+talk.jp##.comments > div[class^="display-module-scss-module__"]
 talk.jp##.comments > div[class^="display_container"]:not(.comment)
 talk.jp##div[class*="overlayWrapper_overlayWrapper"]
 talkfx.co###frameff1Hu9_left
