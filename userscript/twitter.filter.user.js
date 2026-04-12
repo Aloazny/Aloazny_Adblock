@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Twitter评论区过滤
 // @namespace    http://viayoo.com/bhivy
-// @version      1.3
+// @version      1.4
 // @description  自用脚本，过滤推特(Twitter)评论区。
 // @author       Via && Deepseek
 // @match       https://x.com/*
@@ -16,7 +16,7 @@
 // @exclude     https://x.com/i/chat
 // @exclude     https://x.com/notifications
 // @exclude     https://x.com/i/grok
-// @icon         https://abs.twimg.com/favicons/twitter.ico
+// @icon         data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAA0pJREFUWAntVk1oE1EQnnlJbFK3KUq9VJPYWgQVD/5QD0qpfweL1YJQoZAULBRPggp6kB78PQn14kHx0jRB0UO9REVFb1YqVBEsbZW2SbVS0B6apEnbbMbZ6qbZdTempqCHPAjvzcw3P5mdmfcAiquYgX+cAVwu/+5AdDMQnSPCHUhQA0hf+Rxy2OjicIvzm+qnKhito0qpb2wvJhWeJgCPP7oPELeHvdJ1VSGf3eOPnSWga0S0Qo9HxEkEusDBuNjbEca8G291nlBxmgDc/ukuIvAJxI6wr+yKCsq1ewLxQ2lZfpQLo8oQ4ZXdCkfnACrGWpyDCl+oQmVn5xuVPU102e2P3qoJkFOhzVb9S7KSnL5jJs/mI+As01PJFPSlZeFSZZoAGBRXBZyq9lk5NrC+e7pJ5en30c+JWk59pZ5vRDOuhAD381c/H/FKz1SMNgCE16rg505r5TT0uLqme93d0fbq+1SeLSeU83Ke0RHYFPGVPcjQfNDUwIa7M665+dQAEEjZoMwZMcEF9RxIDAgBQ2mCcqJ0Z0b+h4MNbZ4RnyOSDbNmE2iRk5jCNgIIckFoZAs4IgfLGrlKGjkzS16iwj6pV9I4mUvCPf73JVytH9nRJj24QHrqU8NCIWrMaGqAC+Ut/3ZzAS63cx4v2K/x/IvQBOCwWzu5KmJGwEJ5PIgeG9nQBDDcXPpFoDjJ7ThvBC6EZxXWkJG+JgAFwGM4KBAOcibeGCn8FQ/hyajXPmSk+1sACogn4hYk7OdiHDFSWipPkPWSmY6mCzIghEEuxJvcEYUvxIdhX2mvmSHDDPBF9AJRnDZTyp+P40671JYLbxiAohDxSTfQIg4oNxgPzCWPHaWQBViOf2jGqVwBaEaxGbAqOFMrp+SefC8eNhoFIY5lXzpmtnMGUB2IbU3JdIqVW9m5zcxINn/hAYKiIexdaTh4srHKORMAP0b28PNgJyGt5gvHzQVYx91QpVcwpRFl/p63HSR1DLbid1OcTpAJQOG7u+KH+aI5Qwj13IsamU5vkUSIc8uGLDa8OtoivV8U5HcydFLtT7hlSDVy2nfxI2Ibg9awuVU8IeJAOMF5m2B6jFs1tM5R9rS3GRP5uSuiihn4DzPwA7z7GDH+43gqAAAAAElFTkSuQmCC
 // @license       MIT
 // @grant        GM_setValue
 // @grant        GM_getValue
@@ -46,6 +46,88 @@
     };
 
     let config = api.getValue('filterConfig', { badUsers: [], badWords: ["/有(哥哥|弟弟).*线(上|下)(约|吗)/i","/^[\\p{Emoji}\\n]+$/u","/^(线上|线下)?(蹲|找)一?个(男|女)?(长期|临时|温柔)?(固炮|搭子|主人|哥哥|弟弟|主|[Ss])/","/^(?=.*我是真人)(?=.*线(上|下)(的|吗))/","/dd个?线下的(姐姐|弟弟|哥哥|妹妹).?/i","/有没有离(得|的)近(得|的)$/","/急需?(一个|一位|找)(主人|爸爸|固炮|搭子).?$/","/(主人|爸爸)快来(领|找)我.?$/","/^线下dd$/","/^..找..(主人|主|爸爸|固炮|搭子)$/","/小(狗|🐶|[Mm])在线(等|找)个?(主人|主|爸爸|固炮|搭子|调|你).?/","/小(狗|🐶|[Mm])想(和|跟)(大家|主人|主|爸爸|固炮|搭子|调|你)玩.?/","/^有?万达广场附近的吗$/","/^(男大|女大)大?(哥哥|弟弟|姐姐|妹妹)快?来$/","/^谁来当我(主人|爸爸|狗狗|小狗|骚母狗).?$/","/(同城|附近).*(满足|草|操|艹)我/","/(同城|附近).*(男大|女大|体育生|母狗)$/","/^(小|母)狗求(主人|爸爸|哥哥)(抱抱|操|艹|草|抱走)/","/^有没有(单男|母狗|骚逼).?$/"] });
+
+    const twitterContentUnblocker = (() => {
+        const TARGET_ENDPOINTS = ['UserTweets', 'TweetDetail', 'SearchTimeline', 'HomeTimeline'];
+        const rewriteResponse = (rawText) => {
+            try {
+                return rawText
+                    .replace(/"possibly_sensitive":\s*true/g, '"possibly_sensitive":false')
+                    .replace(/"profile_interstitial_type":\s*"sensitive_media"/g, '"profile_interstitial_type":""')
+                    .replace(/"mediaVisibilityResults":/g, '"mediaVisibilityResults_bypass":');
+            } catch (e) {
+                return rawText;
+            }
+        };
+        return () => {
+            const XHR = XMLHttpRequest.prototype;
+            const send = XHR.send;
+            const open = XHR.open;
+            XHR.open = function(method, url) { this._url = url; return open.apply(this, arguments);};
+            XHR.send = function() {
+                if (this._url && TARGET_ENDPOINTS.some(ep => this._url.includes(ep))) {
+                    const responseTextGetter = Object.getOwnPropertyDescriptor(XHR, 'responseText').get;
+                    Object.defineProperty(this, 'responseText', {
+                        get: function() {
+                            const originalText = responseTextGetter.call(this);
+                            return typeof originalText === 'string' ? rewriteResponse(originalText) : originalText;
+                        },
+                        configurable: true
+                    });
+                }
+                return send.apply(this, arguments);
+            };
+            console.info('[Unblocker] API interception active.');
+        };
+    })();
+
+    const twitterAdCleaner = (() => {
+        const PROCESSED_NODES = new WeakSet();
+        const AD_SELECTORS = [
+            "div[data-testid='placementTracking']",
+            "button[aria-label='Grok actions']",
+            "aside[role='complementary']"
+        ];
+        const isAdText = (text) => {
+            if (!text) return false;
+            const keywords = ['Promoted', '广告', '推廣', '広告', 'Sponsorisé'];
+            return keywords.includes(text);
+        };
+        const processNode = (node) => {
+            if (!node || node.nodeType !== 1 || PROCESSED_NODES.has(node)) return;
+            try {
+                const isAdContainer = node.getAttribute('data-testid') === 'cellInnerDiv';
+                if (isAdContainer) {
+                    const hasAdSignal = node.querySelector(AD_SELECTORS[0]);
+                    const adLabel = Array.from(node.querySelectorAll('article span')).find(s => isAdText(s.textContent));
+                    if (hasAdSignal || adLabel) {
+                        node.style.setProperty('display', 'none', 'important');
+                        PROCESSED_NODES.add(node);
+                        return;
+                    }
+                }
+                if (node.matches?.(AD_SELECTORS[1]) || node.matches?.(AD_SELECTORS[2])) {
+                    if (node.innerText?.includes('Promoted') || node.matches(AD_SELECTORS[1])) {
+                        node.style.display = 'none';
+                    }
+                }
+            } catch (e) {
+                console.error('[Cleaner] Error processing node:', e);
+            }
+        };
+        return () => {
+            const observer = new MutationObserver((mutations) => {
+                requestAnimationFrame(() => {
+                    for (const mutation of mutations) {
+                        mutation.addedNodes.forEach(processNode);
+                    }
+                });
+            });
+            observer.observe(document.body, { childList: true, subtree: true });
+            document.querySelectorAll('div[data-testid="cellInnerDiv"]').forEach(processNode);
+            console.info('[Cleaner] AdBlock service initialized.');
+        };
+    })();
 
     const createUI = () => {
         const container = document.createElement('div');
@@ -121,13 +203,21 @@
             }, 3000);
         };
 
+        const updateVisibility = () => {
+            container.style.display = shouldExclude() ? 'none' : 'block';
+        };
+
         fab.onclick = () => toggleUI(true);
         shadow.getElementById('closeX').onclick = () => toggleUI(false);
         mask.onclick = () => toggleUI(false);
-
         fab.onmouseenter = () => fab.classList.remove('idle');
         fab.onmouseleave = resetTimer;
+        
+        window.addEventListener('popstate', updateVisibility);
+        document.addEventListener('click', () => setTimeout(updateVisibility, 500));
+
         resetTimer();
+        updateVisibility();
 
         shadow.getElementById('saveBtn').onclick = () => {
             const users = shadow.getElementById('users').value.split('\n').map(s => s.trim()).filter(s => s);
@@ -170,7 +260,7 @@
         });
     };
 
-    const processNode = (tweet) => {
+    const processFilterNode = (tweet) => {
         const textContainer = tweet.querySelector('[data-testid="tweetText"]');
         if (!textContainer && !config.badUsers.length) return;
         if (tweet.dataset.filtered === "true" && tweet.style.display === 'none') return;
@@ -190,23 +280,41 @@
         }
     };
 
-    const observer = new MutationObserver((mutations) => {
+    const filterObserver = new MutationObserver((mutations) => {
+        if (shouldExclude()) return;
         for (const m of mutations) {
             m.addedNodes.forEach(node => {
                 if (node.nodeType === 1) {
-                    if (node.matches('article[data-testid="tweet"]')) processNode(node);
-                    else node.querySelectorAll('article[data-testid="tweet"]').forEach(processNode);
+                    if (node.matches('article[data-testid="tweet"]')) processFilterNode(node);
+                    else node.querySelectorAll('article[data-testid="tweet"]').forEach(processFilterNode);
                 }
             });
         }
     });
 
+    const shouldExclude = (() => {
+        const excludeRegex = /https:\/\/x\.com\/(?:.*\/status\/.*\/(?:video|photo)|settings|i\/.*\/creators\/|i\/bookmarks|i\/premium-business|.*\/lists|i\/follow_people|i\/chat|notifications|i\/grok)/;
+        let lastUrl = ''; let lastResult = false;
+        return () => {
+            const currentUrl = location.href;
+            if (currentUrl === lastUrl) return lastResult;
+            lastUrl = currentUrl;
+            lastResult = excludeRegex.test(currentUrl);
+            return lastResult;
+        };
+    })();
+
+    twitterContentUnblocker();
     const checkReady = setInterval(() => {
-        if (document.querySelector('main')) {
+        const main = document.querySelector('main');
+        if (main) {
             clearInterval(checkReady);
             createUI();
-            observer.observe(document.body, { childList: true, subtree: true });
-            document.querySelectorAll('article[data-testid="tweet"]').forEach(processNode);
+            twitterAdCleaner();
+            filterObserver.observe(document.body, { childList: true, subtree: true });
+            if (!shouldExclude()) {
+                document.querySelectorAll('article[data-testid="tweet"]').forEach(processFilterNode);
+            }
         }
     }, 1000);
 })();

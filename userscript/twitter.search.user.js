@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Twitter搜索替换
 // @namespace    http://viayoo.com/1guhh
-// @version      1.4
+// @version      1.5
 // @description  自用推特(Twitter)搜索替换，一个简单的搜索过滤器，不用特意去记Twitter高级语法。
 // @author       Via
 // @match       https://x.com/*
@@ -16,7 +16,7 @@
 // @exclude     https://x.com/i/chat
 // @exclude     https://x.com/notifications
 // @exclude     https://x.com/i/grok
-// @icon         https://abs.twimg.com/favicons/twitter.ico
+// @icon         data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAA0pJREFUWAntVk1oE1EQnnlJbFK3KUq9VJPYWgQVD/5QD0qpfweL1YJQoZAULBRPggp6kB78PQn14kHx0jRB0UO9REVFb1YqVBEsbZW2SbVS0B6apEnbbMbZ6qbZdTempqCHPAjvzcw3P5mdmfcAiquYgX+cAVwu/+5AdDMQnSPCHUhQA0hf+Rxy2OjicIvzm+qnKhito0qpb2wvJhWeJgCPP7oPELeHvdJ1VSGf3eOPnSWga0S0Qo9HxEkEusDBuNjbEca8G291nlBxmgDc/ukuIvAJxI6wr+yKCsq1ewLxQ2lZfpQLo8oQ4ZXdCkfnACrGWpyDCl+oQmVn5xuVPU102e2P3qoJkFOhzVb9S7KSnL5jJs/mI+As01PJFPSlZeFSZZoAGBRXBZyq9lk5NrC+e7pJ5en30c+JWk59pZ5vRDOuhAD381c/H/FKz1SMNgCE16rg505r5TT0uLqme93d0fbq+1SeLSeU83Ke0RHYFPGVPcjQfNDUwIa7M665+dQAEEjZoMwZMcEF9RxIDAgBQ2mCcqJ0Z0b+h4MNbZ4RnyOSDbNmE2iRk5jCNgIIckFoZAs4IgfLGrlKGjkzS16iwj6pV9I4mUvCPf73JVytH9nRJj24QHrqU8NCIWrMaGqAC+Ut/3ZzAS63cx4v2K/x/IvQBOCwWzu5KmJGwEJ5PIgeG9nQBDDcXPpFoDjJ7ThvBC6EZxXWkJG+JgAFwGM4KBAOcibeGCn8FQ/hyajXPmSk+1sACogn4hYk7OdiHDFSWipPkPWSmY6mCzIghEEuxJvcEYUvxIdhX2mvmSHDDPBF9AJRnDZTyp+P40671JYLbxiAohDxSTfQIg4oNxgPzCWPHaWQBViOf2jGqVwBaEaxGbAqOFMrp+SefC8eNhoFIY5lXzpmtnMGUB2IbU3JdIqVW9m5zcxINn/hAYKiIexdaTh4srHKORMAP0b28PNgJyGt5gvHzQVYx91QpVcwpRFl/p63HSR1DLbid1OcTpAJQOG7u+KH+aI5Qwj13IsamU5vkUSIc8uGLDa8OtoivV8U5HcydFLtT7hlSDVy2nfxI2Ibg9awuVU8IeJAOMF5m2B6jFs1tM5R9rS3GRP5uSuiihn4DzPwA7z7GDH+43gqAAAAAElFTkSuQmCC
 // @license       MIT
 // @grant        none
 // @run-at       document-end
@@ -75,6 +75,18 @@
         localStorage.setItem('ts_search_history', JSON.stringify(history));
     };
 
+    const shouldExclude = (() => {
+        const excludeRegex = /https:\/\/x\.com\/(?:.*\/status\/.*\/(?:video|photo)|settings|i\/.*\/creators\/|i\/bookmarks|i\/premium-business|.*\/lists|i\/follow_people|i\/chat|notifications|i\/grok)/;
+        let lastUrl = ''; let lastResult = false;
+        return () => {
+            const currentUrl = location.href;
+            if (currentUrl === lastUrl) return lastResult;
+            lastUrl = currentUrl;
+            lastResult = excludeRegex.test(currentUrl);
+            return lastResult;
+        };
+    })();
+
     const init = () => {
         const host = document.createElement('div');
         host.id = 'ts-enhancer-host';
@@ -111,6 +123,7 @@
         shadow.appendChild(overlay);
         const slider = shadow.getElementById('ts-slider');
         const toggle = (show) => {
+            if (show && shouldExclude()) return;
             overlay.style.display = show ? 'flex' : 'none';
             if (show) {
                 slider.style.transform = 'translateX(0%)';
@@ -177,13 +190,21 @@
         float.onclick = () => toggle(true);
         shadow.appendChild(float);
 
+        const checkVisibility = () => {
+            const excluded = shouldExclude();
+            float.style.display = excluded ? 'none' : 'flex';
+            if (excluded) toggle(false);
+        };
+
         let fadeT, lastS = window.scrollY;
         const resetFade = () => {
+            if (shouldExclude()) return;
             float.classList.remove('ts-fade');
             clearTimeout(fadeT);
             fadeT = setTimeout(() => float.classList.add('ts-fade'), 2000);
         };
         window.addEventListener('scroll', () => {
+            if (shouldExclude()) return;
             const curS = window.scrollY;
             float.classList.toggle('ts-hide', curS > lastS && curS > 100);
             lastS = curS;
@@ -191,9 +212,19 @@
         });
         window.addEventListener('mousemove', resetFade);
         window.addEventListener('touchstart', resetFade);
+        
+        const observer = new MutationObserver(() => {
+            checkVisibility();
+        });
+        observer.observe(document.head, { childList: true, subtree: true });
+        window.addEventListener('popstate', checkVisibility);
+        window.addEventListener('urlchange', checkVisibility);
+
+        checkVisibility();
         resetFade();
 
         const hookSearch = (e) => {
+            if (shouldExclude()) return;
             const target = e.target.closest('input[data-testid="SearchBox_Search_Input"]');
             if (target) {
                 e.preventDefault();
