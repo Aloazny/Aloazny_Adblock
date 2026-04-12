@@ -1,12 +1,13 @@
 // ==UserScript==
 // @name         Twitter搜索替换
 // @namespace    http://viayoo.com/1guhh
-// @version      1.5
+// @version      1.6
 // @description  自用推特(Twitter)搜索替换，一个简单的搜索过滤器，不用特意去记Twitter高级语法。
 // @author       Via
 // @match       https://x.com/*
 // @exclude     https://x.com/*/status/*/video/*
 // @exclude     https://x.com/*/status/*/photo/*
+// @exclude     https://x.com/*/status/*/mediaViewer*
 // @exclude     https://x.com/settings
 // @exclude     https://x.com/i/*/creators/
 // @exclude     https://x.com/i/bookmarks
@@ -76,7 +77,7 @@
     };
 
     const shouldExclude = (() => {
-        const excludeRegex = /https:\/\/x\.com\/(?:.*\/status\/.*\/(?:video|photo)|settings|i\/.*\/creators\/|i\/bookmarks|i\/premium-business|.*\/lists|i\/follow_people|i\/chat|notifications|i\/grok)/;
+        const excludeRegex = /https:\/\/x\.com\/(?:.*\/status\/.*\/(?:video|photo|mediaViewer.*)|settings|i\/.*\/creators\/|i\/bookmarks|i\/premium-business|.*\/lists|i\/follow_people|i\/chat|notifications|i\/grok)/;
         let lastUrl = ''; let lastResult = false;
         return () => {
             const currentUrl = location.href;

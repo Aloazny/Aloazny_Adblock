@@ -1,12 +1,13 @@
 // ==UserScript==
 // @name         Twitter评论区过滤
 // @namespace    http://viayoo.com/bhivy
-// @version      1.4
+// @version      1.5
 // @description  自用脚本，过滤推特(Twitter)评论区。
 // @author       Via && Deepseek
 // @match       https://x.com/*
 // @exclude     https://x.com/*/status/*/video/*
 // @exclude     https://x.com/*/status/*/photo/*
+// @exclude     https://x.com/*/status/*/mediaViewer*
 // @exclude     https://x.com/settings
 // @exclude     https://x.com/i/*/creators/
 // @exclude     https://x.com/i/bookmarks
@@ -293,7 +294,7 @@
     });
 
     const shouldExclude = (() => {
-        const excludeRegex = /https:\/\/x\.com\/(?:.*\/status\/.*\/(?:video|photo)|settings|i\/.*\/creators\/|i\/bookmarks|i\/premium-business|.*\/lists|i\/follow_people|i\/chat|notifications|i\/grok)/;
+        const excludeRegex = /https:\/\/x\.com\/(?:.*\/status\/.*\/(?:video|photo|mediaViewer.*)|settings|i\/.*\/creators\/|i\/bookmarks|i\/premium-business|.*\/lists|i\/follow_people|i\/chat|notifications|i\/grok)/;
         let lastUrl = ''; let lastResult = false;
         return () => {
             const currentUrl = location.href;
