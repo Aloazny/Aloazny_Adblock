@@ -2,7 +2,7 @@
 // @name         标签页面管理
 // @namespace    https://viayoo.com/jcdamz
 // @description  管理链接跳转行为（新标签/同页）、禁止页面重载、黑白名单切换，需要GM环境，非GM环境目前不考虑匹配。
-// @version      1.2
+// @version      1.3
 // @author       Via & Gemini
 // @match        *://*/*
 // @license       MIT
@@ -68,6 +68,16 @@
                 timer = null;
             });
         };
+        window.addEventListener('click', (e) => {
+            const link = e.target.closest('a');
+            if (link && link.target === '_blank') {
+                link.removeAttribute('target');
+                if (/^https?:\/\//i.test(link.href)) {
+                    e.preventDefault();
+                    location.href = link.href;
+                }
+            }
+        }, true);
         cleanTags();
         new MutationObserver(throttledClean).observe(document.documentElement, { childList: true, subtree: true, attributes: true, attributeFilter: ['target'] });
     }
