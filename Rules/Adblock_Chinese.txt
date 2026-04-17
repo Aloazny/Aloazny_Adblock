@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: JvhSvO7/UMVX2APmGpS4xA
+! Checksum: Kg7B02ru1/hdNIEWjSIZqw
 ! Title: Aloazny Chinese fiter
-! Version: 20260416214359
+! Version: 20260417103418
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-04-16 21:43:59
-! Total Count: 47293
-! Blocked Filters: 47293
+! Last modified: 2026-04-17 10:34:18
+! Total Count: 47306
+! Blocked Filters: 47306
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>19785
+!<<<<<域名规则>>>>>19794
 |http$3p,script,domain=kinotut.tv
 |http*://$script,3p,xhr,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,3p,domain=dlkoo.cc
@@ -6974,6 +6974,7 @@
 ||fatcoil.com^$third-party
 ||faucetfoot.com^$third-party
 ||faultycanvas.com^$third-party
+||favourite74.com^
 ||fawb62hh9.com^
 ||faxffjo.com^
 ||faxingw.cn/js/*0
@@ -7568,6 +7569,7 @@
 ||gd.ct10000.com^*/push/$3p
 ||gd.sina.com.cn/iframe/22/
 ||gd163.*/2018_ad/
+||gdbegok47.com^
 ||gdbyhtl.net^*adfix/
 ||gdcytv.cn^*.gif
 ||gdfp.gifshow.com^
@@ -7776,6 +7778,7 @@
 ||gknybkl.cn^
 ||gkryjuqq3.com^
 ||gkuresx.com^
+||gkvjmx3xf.com^
 ||gkvrdf.com^
 ||gl.ali213.net/images/jsq_gl.jpg
 ||gl.zle.com^
@@ -8784,6 +8787,7 @@
 ||hqnpwzu.cn^
 ||hqol.cn/up/ad/
 ||hqvkbn.icu^
+||hqvrvageaf.com^
 ||hqzcths.cn^
 ||hriy.cn^
 ||hrjg.com.cn^$3p
@@ -9571,6 +9575,7 @@
 ||itqseeh.icu^
 ||itqyik.icu^
 ||itraamelr.com^
+||its1zeqni.com^
 ||itshang.com/*/*/tools.js$script
 ||ituba.cc/uploads/allimg/201610/603/
 ||itv.hexun.com
@@ -15801,6 +15806,7 @@
 ||swoole.com/_images/kundian
 ||swoole.com/_images/w7.jpg
 ||swordgoose.com^$third-party
+||swqerog.com^
 ||swqmuo.icu^
 ||swwwxww.oss-cn-hangzhou.aliyuncs.com^
 ||sx.fakjkwp.cn^
@@ -16569,6 +16575,7 @@
 ||tvrshv.xyz^
 ||tvsou.com/js/360ad.js
 ||tvszazx.icu^
+||tvxvhx.icu^
 ||tvyan.com/images/jscss/tv-
 ||tvyun07.com/template/mytheme/statics/js/layer/
 ||tvzapt.icu^
@@ -17726,6 +17733,7 @@
 ||wfndponfd.com^
 ||wftihvn.xyz^
 ||wfvs.cn^
+||wfwadedzk.com^
 ||wgceetonr.com^
 ||wgoeisdnlk.com^
 ||wh2mu9uj5f.com^
@@ -19743,6 +19751,7 @@
 ||zwdu.com/getuserinfo.php
 ||zwfkxb.xyz^
 ||zwfnfd.icu^
+||zwfqxj.icu^
 ||zwgqzgo.icu^
 ||zwjaoni.cn^
 ||zwlhfjh4h.com^
@@ -19802,7 +19811,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>16147
+!<<<<<网站单独规则>>>>>16150
 $3p,domain=76fengyun.com|avsdown.com|downdv.com|downdvs.com|downhhh.com|imedown.info|jandown.com|mimima.com|mnks.jxedt.com|rmdown.com|soyunpan.com|xmflv.com
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
 $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
@@ -21701,6 +21710,7 @@ altema.jp###recommend_list > div.adsSpRecommendList
 altema.jp##.head_koukoku_wrapper
 altema.jp##.headerJack
 altema.jp##.pachimo_headerkoukoku_wrapper
+alternet.org##.widget__body > span.widget__section:has(> div#alternet_mob_incontent)
 alu.cn###sanjia
 alu.cn###xxxhuangjinzhanwei
 alu.cn##.Tg_125x70
@@ -25433,6 +25443,7 @@ frdic.com,godic.net##a[onclick*="/ads/"]
 free-codecs.com##.mobile-header-ad
 free-erobooks.*##.abox
 free-erobooks.*##.pbox
+free.com.tw##.advads-entity-placement
 free.com.tw,pinkpanfan.com###custom_html-11
 freeaddresscheck.com,freecallerlookup.com,freecarrierlookup.com,freeemailvalidator.com,freegenderlookup.com,freeiplookup.com,freephonevalidator.com,hao123.com,kpopping.com,pluginsaddonsextensions.com,sohu.com,tieba.baidu.com,tiebac.baidu.com,zimbabwesituation.com##.advertise
 freebeacon.com##.advertising-top-mobile
@@ -31178,7 +31189,8 @@ people.com.cn##.ipc_none
 people.com.cn##.zh_left
 peporn.com,teen21.com,pornuse.com,uanal.com##.video-wrapper > section
 pepper.com,pepper.pl,mydealz.de##.js-threadList > .hide--fromW3
-pepper.com,pepper.pl,mydealz.de##.js-threadList > div > .box--contents > .aGrid:has(> .ad--bg)
+pepper.com,pepper.pl,mydealz.de##.js-threadList > div > .box--contents > .aGrid:has(> div:is(.ad--bg, .slot--bg))
+pepper.com,pepper.pl,mydealz.de##.js-threadList > div > .box--contents > .overflow--hidden:has(> div:is(.ad--bg, .slot--bg))
 pepper.pl##div[class*="hide--fromW"] > .flex:has(> .ad--bg)
 perezhilton.com##.anchor-spot
 perfectgirls24.com##[class^="bb_"]
@@ -45679,7 +45691,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ~xxgxw.com##div[id^="C"][style*="height:"][class^="C"]
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1640
+!<<<<<放行白名单>>>>>1641
 #@##adblocktest
 #@#.has-ad
 #@#.uk-container.uk-container-expand
@@ -46851,6 +46863,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 @@||static.redtube.com/mobi/images/$domain=redtube.com|redtube.net
 @@||static.tieba.baidu.com/tb/editor/images/client/image_emoticon*.png
 @@||static00.forvo.com/_presentation/assets/js/vendor_mobile_no_ads.js
+@@||staticsns.cdn.bcebos.com/amis/$image,domain=pan.baidu.com
 @@||stcaimcu.com/data/attachment/common/cf/stc_logo_
 @@||steamcn.com/source/plugin/steamcn_gift/template/images/*steam.png
 @@||stjscn.s-msn.com/portal/hp/2011/udctrack.
