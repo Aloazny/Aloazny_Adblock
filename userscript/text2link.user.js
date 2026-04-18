@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         可视文字链接可点击
 // @namespace   https://viayoo.com/xo6ys3  
-// @version      2.8
+// @version      2.9
 // @description  将可视文字链接转换为可点击链接，参考了@谷花泰大佬的脚本。
 // @author       谷花泰 && Aloazny
 // @match        *://*/*
@@ -170,7 +170,7 @@
           else prevNode.textContent = "";
         }
         hasMatch = true;
-        let a = document.createElement('a'); a.href = 'mailto:' + url; a.textContent = url; a.target = "_blank"; a.rel = "noopener noreferrer"; a.className = "gm-text-to-link"; a.style.textDecoration = "underline";
+        let a = document.createElement('a'); a.href = 'mailto:' + url; a.textContent = url; a.rel = "noopener noreferrer"; a.className = "gm-text-to-link"; a.style.textDecoration = "underline";
         fragment.appendChild(a);
         lastIndex = offset + url.length;
         continue;
@@ -225,7 +225,7 @@
       let a = document.createElement('a');
       if (isEmail) a.href = 'mailto:' + url;
       else a.href = (/^(?:https?|ftp|magnet|ed2k|thunder):/i.test(url)) ? url : 'http://' + url;
-      a.textContent = url; a.target = "_blank"; a.rel = "noopener noreferrer"; a.className = "gm-text-to-link"; a.style.textDecoration = "underline";
+      a.textContent = url; if (!isEmail && !isSpecialProto) a.target = "_blank"; a.rel = "noopener noreferrer"; a.className = "gm-text-to-link"; a.style.textDecoration = "underline";
       fragment.appendChild(a);
       if (!isEmail && !isSpecialProto) {
         if (forceCheck || (isNoProto && fileExts.test(url))) checkAndSetLink(a);
