@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: vSQxF2NoCfcWJB57QSPX7g
+! Checksum: tJthsdE4zK2IjakdvOhmTQ
 ! Title: Aloazny attach fiter
-! Version: 20260418102442
+! Version: 20260418210155
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-04-18 10:24:42
-! Total Count: 20347
-! Blocked Filters: 20347
+! Last modified: 2026-04-18 21:01:55
+! Total Count: 20350
+! Blocked Filters: 20350
 ! Description: 合并混合规则的补充规则，轻量规则，可作为补充规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_attach.txt?ref=main
 
 
-!<<<<<域名规则>>>>>7532
+!<<<<<域名规则>>>>>7534
 |https://m.frgls.com/js/*.js?v=
 ||*.org/config/v7.js
 ||*ggua.xyz^$third-party
@@ -4920,6 +4920,7 @@
 ||procdn.asia^
 ||processplantation.com^$third-party
 ||prodigalpromotion.com^
+||profitablecpmratenetwork.com^
 ||profitablegatetocontent.com^
 ||profitrumour.com^$third-party
 ||profusesupport.com^$third-party
@@ -5147,6 +5148,7 @@
 ||qzqd2.com^
 ||qzs.gdtimg.com^
 ||r0l7cp.com^
+||r34-cdn.pages.dev/r34-widget.js$third-party
 ||r36ku.site^
 ||r3nvrr4uzh.com^
 ||r5dfwjtb.icu^
@@ -12134,7 +12136,7 @@ zybang.com##div[id="askTeacher-after-adx-wrap"]
 zzyiwan.com##div[style="width: 100%; overflow: hidden; padding-top: 0px; position: relative; top: 0px; z-index: 9999;"]
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>3228
+!<<<<<通配符规则>>>>>3229
 $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.xyz
 &adZones$xmlhttprequest
 &ad_block=
@@ -15239,6 +15241,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 ://pic.*.*/*0*.txt$third-party
 ://pic.*.cn/*/*.js$third-party,script
 ://pic.*.com/*.txt$third-party
+://r34*pages.*/r34-widget.js$third-party
 ://ra*.xyz/z/*/code.js$third-party,script
 ://rou*.*/js/exo.js$script,~third-party
 ://rou*/_next/static/chunks/pages/home-$~third-party

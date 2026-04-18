@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: NL3K7TZZ+9pxYVgNNk0wtQ
+! Checksum: m3R2bSWDftbd++AfjB8Vqw
 ! Title: Aloazny Chinese fiter
-! Version: 20260418102509
+! Version: 20260418210217
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-04-18 10:25:09
-! Total Count: 47328
-! Blocked Filters: 47328
+! Last modified: 2026-04-18 21:02:17
+! Total Count: 47337
+! Blocked Filters: 47337
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>19806
+!<<<<<域名规则>>>>>19814
 |http$3p,script,domain=kinotut.tv
 |http*://$script,3p,xhr,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,3p,domain=dlkoo.cc
@@ -132,6 +132,7 @@
 ||0hagz9mdc.com^
 ||0hasprzzu.com^
 ||0iem8mw1lx.com^
+||0ihw4ipvm5.com^
 ||0kkbb.com/js/i.js
 ||0krdn3.com^
 ||0m483y7.cn^
@@ -881,6 +882,7 @@
 ||465k3mlo9.com^
 ||4667gwyg1.com^
 ||46q8oxohlt.com^
+||46y7erj0mw.com^
 ||47.100.0.249/js/thea
 ||47.100.89.163/10524.apk
 ||47.100.89.163/10524.apk$~third-party
@@ -4415,6 +4417,7 @@
 ||c6.friok.com^
 ||c64ihqx0gj.com^
 ||c6hhfkvxv.com^
+||c7bijgz6zr.com^
 ||c7o9xp4e4.com^
 ||c8.net.ua^
 ||c81.ipanocloud.com^
@@ -8560,6 +8563,7 @@
 ||hgo06061uyi.com^
 ||hgpbhuj.cn^
 ||hgreils.com^
+||hgruknobpq.com^
 ||hgyouxi.com/data/hgyouxiad/
 ||hgyouxi.net/source/plugin/hgyouxiad/
 ||hh*.huojiabeijing.org^
@@ -10714,6 +10718,7 @@
 ||l0-secure.videohub.tv^
 ||l0vij7q78.com^
 ||l1bj5pxqzk.com^
+||l1owmrzjdw.com^
 ||l235cj20z.com^
 ||l23jhjfasd.xyz^
 ||l2qdfaq62o.com^
@@ -14210,6 +14215,7 @@
 ||r0hpdbkqs.com^
 ||r0l7cp.com^
 ||r2d2.aotter.net^
+||r34-cdn.pages.dev/r34-widget.js$third-party
 ||r36ku.site^
 ||r3nvrr4uzh.com^
 ||r3sub.com/images/aaa^
@@ -14222,6 +14228,7 @@
 ||r4uws5iu3g.com^
 ||r528e.cn^$3p
 ||r5dfwjtb.icu^
+||r5g13d8py3.com^
 ||r5gcp9.com^
 ||r5twojylmzsym.top^
 ||r6pt6kfz.com^
@@ -18726,6 +18733,7 @@
 ||xyzcvx.icu^
 ||xz.nbbww.com/apk
 ||xz.nbbww.com/apk$~third-party
+||xzblht.icu^
 ||xzezapozghp.com^
 ||xzji.com/data/block_js/softShow_
 ||xzkumjdqj.com^
@@ -35986,7 +35994,7 @@ zzyiwan.com##div[style="width: 100%; overflow: hidden; padding-top: 0px; positio
 zzzyk.com###Tinfo
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>4248
+!<<<<<通配符规则>>>>>4249
 $3p,domain=76fengyun.com|avsdown.com|downdv.com|downdvs.com|downhhh.com|imedown.info|jandown.com|mimima.com|mnks.jxedt.com|rmdown.com|soyunpan.com|xmflv.com
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
 $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
@@ -40016,6 +40024,7 @@ $websocket,domain=wap.yushuwu.cloud
 ://pic.*.*/*0*.txt$third-party
 ://pic.*.cn/*/*.js$third-party,script
 ://pic.*.com/*.txt$third-party
+://r34*pages.*/r34-widget.js$third-party
 ://ra*.xyz/z/*/code.js$third-party,script
 ://rou*.*/js/exo.js$script,~third-party
 ://rou*/_next/static/chunks/pages/home-
