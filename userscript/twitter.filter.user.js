@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Twitter自用增强
 // @namespace    http://viayoo.com/bhivy
-// @version      1.7
+// @version      1.8
 // @description  自用脚本，过滤推特(Twitter)评论区，去广告，尝试解锁敏感限制。
 // @author       Via && Deepseek
 // @match       https://x.com/*
@@ -47,6 +47,19 @@
     };
 
     let config = api.getValue('filterConfig', { badUsers: [], badWords: ["/有(哥哥|弟弟).*线(上|下)(约|吗)/i","/^[\\p{Emoji}\\n]+$/u","/^(线上|线下)?(蹲|找)一?个(男|女)?(长期|临时|温柔)?(固炮|搭子|主人|哥哥|弟弟|主|[Ss])/","/^(?=.*我是真人)(?=.*线(上|下)(的|吗))/","/dd个?线下的(姐姐|弟弟|哥哥|妹妹).?/i","/有没有离(得|的)近(得|的)$/","/急需?(一个|一位|找)(主人|爸爸|固炮|搭子).?$/","/(主人|爸爸)快来(领|找)我.?$/","/^线下dd$/","/^..找..(主人|主|爸爸|固炮|搭子)$/","/小(狗|🐶|[Mm])在线(等|找)个?(主人|主|爸爸|固炮|搭子|调|你).?/","/小(狗|🐶|[Mm])想(和|跟)(大家|主人|主|爸爸|固炮|搭子|调|你)玩.?/","/^有?万达广场附近的吗$/","/^(男大|女大)大?(哥哥|弟弟|姐姐|妹妹)快?来$/","/^谁来当我(主人|爸爸|狗狗|小狗|骚母狗).?$/","/(同城|附近).*(满足|草|操|艹)我/","/(同城|附近).*(男大|女大|体育生|母狗)$/","/^(小|母)狗求(主人|爸爸|哥哥)(抱抱|操|艹|草|抱走)/","/^有没有(单男|母狗|骚逼).?$/"] });
+
+    const compiledRules = config.badWords.map(r => {
+        try {
+            if (r.startsWith('/') && r.lastIndexOf('/') > 0) {
+                const lastSlashIndex = r.lastIndexOf('/');
+                return new RegExp(r.substring(1, lastSlashIndex), r.substring(lastSlashIndex + 1));
+            }
+            return new RegExp(r);
+        } catch (e) { return r; }
+    });
+
+    const PROCESSED_TWEETS = new WeakSet();
+    const FILTER_CACHE = new Map();
 
     const twitterContentUnblocker = (() => {
         const TARGET_ENDPOINTS = ['UserTweets', 'TweetDetail', 'SearchTimeline', 'HomeTimeline'];
@@ -254,27 +267,24 @@
 
     const checkText = (el, rules) => {
         const textContainer = el.querySelector('[data-testid="tweetText"]');
-        if (!textContainer || textContainer.offsetWidth === 0 || textContainer.offsetHeight === 0) return false;
-        const fullText = textContainer.innerText || "";
-        return rules.some(r => {
-            try {
-                if (r.startsWith('/') && r.lastIndexOf('/') > 0) {
-                    const lastSlashIndex = r.lastIndexOf('/');
-                    const pattern = r.substring(1, lastSlashIndex);
-                    const flags = r.substring(lastSlashIndex + 1);
-                    return new RegExp(pattern, flags).test(fullText);
-                }
-                return new RegExp(r).test(fullText);
-            } catch(e) {
-                return fullText.includes(r);
-            }
+        if (!textContainer) return false;
+        const fullText = (textContainer.innerText || "").replace(/[\u200B-\u200D\uFEFF\u2060]/g, '');
+        if (!fullText) return false;
+        return compiledRules.some(r => {
+            if (r instanceof RegExp) return r.test(fullText);
+            return fullText.includes(r);
         });
     };
 
     const processFilterNode = (tweet) => {
-        const textContainer = tweet.querySelector('[data-testid="tweetText"]');
-        if (!textContainer && !config.badUsers.length) return;
-        if (tweet.dataset.filtered === "true" && tweet.style.display === 'none') return;
+        if (!tweet || PROCESSED_TWEETS.has(tweet)) return;
+        const tweetLink = tweet.querySelector('a[href*="/status/"]');
+        const tweetId = tweetLink ? tweetLink.getAttribute('href').split('/status/')[1]?.split('?')[0] : null;
+        if (tweetId && FILTER_CACHE.has(tweetId)) {
+            if (FILTER_CACHE.get(tweetId)) tweet.style.setProperty('display', 'none', 'important');
+            PROCESSED_TWEETS.add(tweet);
+            return;
+        }
         const avatar = tweet.querySelector('[data-testid^="UserAvatar-Container-"]');
         const userId = avatar ? '@' + avatar.getAttribute('data-testid').replace('UserAvatar-Container-', '') : null;
         const nameContainer = tweet.querySelector('[data-testid="User-Name"]');
@@ -284,23 +294,38 @@
             return (userId && userId.toLowerCase() === target) || (userName && userName.toLowerCase().includes(target));
         }) || checkText(tweet, config.badWords);
         if (shouldHide) {
-            tweet.style.display = 'none';
+            tweet.style.setProperty('display', 'none', 'important');
         }
-        if (textContainer || shouldHide) {
-            tweet.dataset.filtered = "true";
+        if (tweetId) {
+            FILTER_CACHE.set(tweetId, shouldHide);
+            if (FILTER_CACHE.size > 1000) {
+                const firstKey = FILTER_CACHE.keys().next().value;
+                FILTER_CACHE.delete(firstKey);
+            }
         }
+        PROCESSED_TWEETS.add(tweet);
     };
 
     const filterObserver = new MutationObserver((mutations) => {
         if (shouldExclude()) return;
-        for (const m of mutations) {
-            m.addedNodes.forEach(node => {
-                if (node.nodeType === 1) {
-                    if (node.matches('article[data-testid="tweet"]')) processFilterNode(node);
-                    else node.querySelectorAll('article[data-testid="tweet"]').forEach(processFilterNode);
-                }
-            });
-        }
+        requestAnimationFrame(() => {
+            for (let i = 0; i < mutations.length; i++) {
+                const m = mutations[i];
+                m.addedNodes.forEach(node => {
+                    if (node.nodeType === 1) {
+                        const tweet = node.matches('article[data-testid="tweet"]') ? node : node.querySelector('article[data-testid="tweet"]');
+                        if (tweet) {
+                            processFilterNode(tweet);
+                        } else if (node.getAttribute?.('data-testid') === 'cellInnerDiv') {
+                            setTimeout(() => {
+                                const retryTweet = node.querySelector('article[data-testid="tweet"]');
+                                if (retryTweet) processFilterNode(retryTweet);
+                            }, 100);
+                        }
+                    }
+                });
+            }
+        });
     });
 
     const shouldExclude = (() => {
