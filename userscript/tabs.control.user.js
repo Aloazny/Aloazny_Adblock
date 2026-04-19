@@ -2,7 +2,7 @@
 // @name         标签页面管理
 // @namespace    https://viayoo.com/jcdamz
 // @description  管理链接跳转行为（新标签/同页）、禁止页面重载、黑白名单切换，需要GM环境，非GM环境目前不考虑匹配。
-// @version      1.3
+// @version      1.4
 // @author       Via & Gemini
 // @match        *://*/*
 // @license       MIT
@@ -137,7 +137,13 @@
             .url-scroll { display: inline-block; padding-left: 0; white-space: nowrap; animation: scroll-linear 10s linear infinite; }
             .url-scroll:hover { animation-play-state: paused; }
             @keyframes scroll-linear { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
-            .copy-btn { font-size: 10px; background: #fff; border: 1px solid #ddd; padding: 2px 6px; border-radius: 6px; cursor: pointer; color: #007AFF; z-index: 1; }
+            .url-bar { position: relative; display: flex; align-items: center; gap: 8px; background: rgba(0,0,0,0.03); padding: 6px 10px; border-radius: 10px; }
+            .copy-btn { font-size: 10px; background: #fff; border: 1px solid #ddd; padding: 2px 6px; border-radius: 6px; cursor: pointer; color: #007AFF; z-index: 2; transition: 0.2s; }
+            .copy-btn:active { transform: scale(0.9); }
+            .copy-menu { position: absolute; right: 0; top: 0; bottom: 0; background: #fff; display: flex; align-items: center; gap: 4px; padding: 0 8px; border-radius: 10px; transform: translateX(100%); opacity: 0; pointer-events: none; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); z-index: 3; box-shadow: -10px 0 15px rgba(0,0,0,0.05); }
+            .copy-menu.show { transform: translateX(0); opacity: 1; pointer-events: auto; }
+            .menu-item { font-size: 10px; padding: 4px 8px; border-radius: 6px; cursor: pointer; background: #f0f0f0; color: #333; white-space: nowrap; transition: 0.2s; border: none; }
+            .menu-item:hover { background: #007AFF; color: #fff; }
             .status-indicators { display: flex; gap: 6px; margin-top: 10px; }
             .dot { width: 12px; height: 12px; border-radius: 4px; background: rgba(0,0,0,0.05); transition: 0.3s; position: relative; }
             .dot.active { background: #34C759; box-shadow: 0 0 8px rgba(52, 199, 89, 0.4); }
@@ -150,12 +156,13 @@
             .section { display:none; flex-direction:column; gap:12px; animation: slide 0.3s; }
             .section.active { display:flex; }
             .row { display:flex; justify-content:space-between; align-items:center; }
-            .label { font-size:14px; font-weight:600; color:#333; }
+            .label { font-size:14px; font-weight:600; color:#333; display: block; }
+            .desc-text { font-size: 11px; color: #888; margin: 2px 0 6px 0; display: block; }
             .switch-group { display:flex; gap:8px; }
             .btn { border:none; padding:6px 12px; border-radius:8px; cursor:pointer; font-size:12px; transition:0.2s; background:#eee; color: #555; }
             .btn-mode.active { background:#007AFF; color:#fff !important; }
             .btn-toggle.on { background:#34C759; color:#fff !important; }
-            textarea { width:100%; height:100px; border-radius:12px; border:1px solid #ddd; padding:10px; box-sizing:border-box; font-family:monospace; font-size:12px; resize:none; transition:0.3s; }
+            textarea { width:100%; height:100px; border-radius:12px; border:1px solid #ddd; padding:10px; box-sizing:border-box; font-family:monospace; font-size:12px; resize:none; transition:0.3s; margin-top: 8px; }
             textarea:focus { outline:none; border-color:#007AFF; box-shadow:0 0 0 3px rgba(0,122,255,0.1); }
             textarea.error { border-color:#ff4d4f; background:#fff1f0; }
             textarea.conflict-highlight { border-color: #FF9500; box-shadow: 0 0 0 3px rgba(255,149,0,0.2); animation: shake 0.4s; }
@@ -173,6 +180,7 @@
             @media (prefers-color-scheme: dark) {
                 .panel { background:rgba(30,30,30,0.9); color:#fff; }
                 .label, .domain { color:#ddd; }
+                .desc-text { color: #666; }
                 textarea { background:#222; border-color:#444; color:#eee; }
                 .nav-item { color: #aaa; }
                 .nav-item.active { background:#444; color:#0A84FF; }
@@ -180,6 +188,9 @@
                 .btn-mode.active, .btn-toggle.on { color: #fff; }
                 .url-bar { background: rgba(255,255,255,0.05); }
                 .copy-btn { background: #333; border-color: #555; color: #0A84FF; }
+                .copy-menu { background: #2c2c2e; box-shadow: -10px 0 15px rgba(0,0,0,0.2); }
+                .menu-item { background: #3a3a3c; color: #eee; }
+                .menu-item:hover { background: #0A84FF; color: #fff; }
             }
         `;
         shadowRoot.appendChild(style);
@@ -212,7 +223,12 @@
                         <div class="url-text">
                             <div class="url-scroll">${currentUrl} &nbsp;&nbsp; ${currentUrl} &nbsp;&nbsp;</div>
                         </div>
-                        <button class="copy-btn" data-action="copy">复制</button>
+                        <button class="copy-btn" data-action="open-menu">复制</button>
+                        <div class="copy-menu" id="copy-menu">
+                            <button class="menu-item" data-action="copy-type" data-type="domain">域名</button>
+                            <button class="menu-item" data-action="copy-type" data-type="clean">URL</button>
+                            <button class="menu-item" data-action="copy-type" data-type="regex">正则</button>
+                        </div>
                     </div>
                     <div class="status-indicators">
                         <div class="dot ${checkMatch(settings.newTab)?'active':''}" data-tip="新标签"></div>
@@ -245,13 +261,16 @@
                                     <button class="btn btn-mode ${data.mode==='white'?'active':''}" data-action="setMode" data-key="${configKey}" data-mode="white">白名单</button>
                                 </div>
                             </div>
-                            <span class="label">匹配列表</span>
-                            <textarea placeholder="www.example.com\n/pattern/i" data-action="list" data-key="${configKey}">${data.list}</textarea>
+                            <div>
+                                <span class="label">匹配列表</span>
+                                <span class="desc-text">(一行一个规则，支持字符串或 /正则/)</span>
+                                <textarea placeholder="www.example.com\n/pattern/i" data-action="list" data-key="${configKey}">${data.list}</textarea>
+                            </div>
                         </div>`;
                     }).join('')}
                     <div class="section ${settings.activeTab===4?'active':''}" id="sec-4">
                         <span class="label">数据导出/导入</span>
-                        <textarea id="io-area" placeholder="在此处粘贴配置JSON进行导入">${JSON.stringify(settings)}</textarea>
+                        <textarea id="io-area" placeholder="在此处粘贴配置JSON进行导入" style="height:120px;">${JSON.stringify(settings)}</textarea>
                         <div class="btn-group-row">
                             <button class="import-btn" data-action="import">导入配置</button>
                             <button class="export-btn" data-action="export">复制配置</button>
@@ -293,25 +312,47 @@
             const target = e.target;
             const action = target.dataset.action || target.closest('[data-action]')?.dataset.action;
             const tab = target.closest('.nav-item');
+
             if (tab) {
                 settings.activeTab = parseInt(tab.dataset.tab);
                 render();
                 return;
             }
-            if (!action) return;
+
+            if (!action) {
+                shadowRoot.getElementById('copy-menu')?.classList.remove('show');
+                return;
+            }
+
             const key = target.dataset.key || target.closest('[data-key]')?.dataset.key;
 
-            if (action === 'toggle') {
+            if (action === 'open-menu') {
+                e.stopPropagation();
+                shadowRoot.getElementById('copy-menu').classList.toggle('show');
+            } else if (action === 'copy-type') {
+                const type = target.dataset.type;
+                let textToCopy = '';
+                const cleanUrl = getCleanUrl();
+                if (type === 'domain') {
+                    textToCopy = location.hostname;
+                } else if (type === 'clean') {
+                    textToCopy = cleanUrl;
+                } else if (type === 'regex') {
+                    textToCopy = `/${cleanUrl.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}/`;
+                }
+                setClipboard(textToCopy, () => {
+                    const menu = shadowRoot.getElementById('copy-menu');
+                    const mainBtn = shadowRoot.querySelector('[data-action="open-menu"]');
+                    menu.classList.remove('show');
+                    mainBtn.textContent = '已复制';
+                    setTimeout(() => mainBtn.textContent = '复制', 1500);
+                });
+            } else if (action === 'toggle') {
                 settings[key].enabled = !settings[key].enabled;
                 render();
             } else if (action === 'setMode') {
                 settings[key].mode = target.dataset.mode;
                 render();
-            } else if (action === 'copy') {
-                setClipboard(getCleanUrl(), () => {
-                    target.textContent = '已复制';
-                    setTimeout(() => target.textContent = '复制', 1500);
-                });
             } else if (action === 'export') {
                 setClipboard(JSON.stringify(settings), () => {
                     target.textContent = '已复制';
