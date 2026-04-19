@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         复制授权拦截器
 // @namespace    https://viayoo.com/
-// @version      5.2
+// @version      5.3
 // @description  复制必弹窗，2次允许后开始自由复制，3次拒绝临时禁用(变灰，点击灰点恢复变红)，点击小红点恢复，红绿切换自由复制。
 // @author       Aloazny & Deepseek
 // @match        *://*/*
@@ -10,6 +10,7 @@
 // @grant        GM_registerMenuCommand
 // @grant        GM_getValue
 // @grant        GM_setValue
+// @grant        GM_setClipboard
 // @license      MIT
 // ==/UserScript==
 
@@ -305,7 +306,15 @@
         if (!enabled || denyCount >= MAX_DENY) return failCb?.();
         showDot();
         showConfirm('允许复制内容？', txt).then(ok => {
-            if (ok) { successCb(); allowCount++; if (allowCount >= AUTO_FREE_AFTER_ALLOW) freeCopyMode = true; }
+            if (ok) { 
+                allowCount++; 
+                if (allowCount >= AUTO_FREE_AFTER_ALLOW) freeCopyMode = true;
+                if (typeof GM_setClipboard !== 'undefined') {
+                    GM_setClipboard(txt);
+                } else {
+                    successCb(); 
+                }
+            }
             else { 
                 denyCount++; 
                 if (denyCount >= MAX_DENY) { enabled = false; hideAllModals(); disableAllCopyAPIs(); }
@@ -331,10 +340,14 @@
     const hookAPI = () => {
         if (!navigator.clipboard) return;
         const def = (p, v) => { try { Object.defineProperty(navigator.clipboard, p, { get: () => v, set: n => { if(n !== v) console.log('拦截到 ' + p + ' 修改尝试') }, configurable: true }); } catch (e) { navigator.clipboard[p] = v; } };
-        const wWT = t => new Promise((res, rej) => handleAuth(t, () => origWriteText.call(navigator.clipboard, t).then(res).catch(rej), () => rej(new Error('Rejected'))));
-        const wW = d => new Promise(async (res, rej) => {
+        const wWT = t => new Promise((res) => {
+            if (freeCopyMode) return origWriteText.call(navigator.clipboard, t).then(res);
+            handleAuth(t, () => origWriteText.call(navigator.clipboard, t).then(res), () => res());
+        });
+        const wW = d => new Promise(async (res) => {
+            if (freeCopyMode) return origWrite.call(navigator.clipboard, d).then(res);
             let t = ''; try { t = d[0]?.types.includes('text/plain') ? await (await d[0].getType('text/plain')).text() : ''; } catch (e) {}
-            handleAuth(t, () => origWrite.call(navigator.clipboard, d).then(res).catch(rej), () => rej(new Error('Rejected')));
+            handleAuth(t, () => origWrite.call(navigator.clipboard, d).then(res), () => res());
         });
         def('writeText', wWT);
         if (origWrite) def('write', wW);
@@ -442,11 +455,11 @@
             const origE = doc.execCommand, wrapExec = function(cmd, ui, val) {
                 if (cmd === 'copy') {
                     const sel = win.getSelection().toString();
-                    if (!sel) return origE.apply(doc, arguments);
-                    return handleAuth(sel, () => {
+                    handleAuth(sel || '[iframe 自动复制尝试]', () => {
                         const ta = doc.createElement('textarea'); ta.value = sel; ta.style.cssText = 'position:fixed;opacity:0;';
                         doc.body.appendChild(ta); ta.select(); origE.call(doc, 'copy'); ta.remove();
-                    }), false;
+                    }, () => {});
+                    return true;
                 }
                 return origE.apply(doc, arguments);
             };
@@ -454,10 +467,10 @@
             def(doc, 'execCommand', wrapExec, 'iframe execCommand locked');
             if (nav?.clipboard) {
                 const _wT = nav.clipboard.writeText, _w = nav.clipboard.write;
-                const wWT = t => new Promise((res, rej) => handleAuth(t, () => _wT.call(nav.clipboard, t).then(res).catch(rej), rej));
-                const wW = d => new Promise(async (res, rej) => {
+                const wWT = t => new Promise((res) => handleAuth(t, () => _wT.call(nav.clipboard, t).then(res), () => res()));
+                const wW = d => new Promise(async (res) => {
                     let t = ''; try { t = d[0]?.types.includes('text/plain') ? await (await d[0].getType('text/plain')).text() : ''; } catch (e) {}
-                    handleAuth(t, () => _w.call(nav.clipboard, d).then(res).catch(rej), rej);
+                    handleAuth(t, () => _w.call(nav.clipboard, d).then(res), () => res());
                 });
                 def(nav.clipboard, 'writeText', wWT, 'iframe writeText locked');
                 if (_w) def(nav.clipboard, 'write', wW, 'iframe write locked');
