@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: wfC9RQ55vGDnUMKtnIdUJw
+! Checksum: uF2IIOLqyV/EYAoH3jz1ig
 ! Title: Aloazny Chinese fiter
-! Version: 20260625223141
+! Version: 20260626113857
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-06-25 22:31:41
-! Total Count: 48766
-! Blocked Filters: 48766
+! Last modified: 2026-06-26 11:38:57
+! Total Count: 48772
+! Blocked Filters: 48772
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>21059
+!<<<<<域名规则>>>>>21064
 |http$3p,script,domain=kinotut.tv
 |http*://$script,3p,xhr,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,3p,domain=dlkoo.cc
@@ -877,6 +877,7 @@
 ||3ikcnjvsx.com^
 ||3is34bpqs4.com^
 ||3j1fiw14n9.com^
+||3j4vjpx7k.com^
 ||3k2frl8r79.com^
 ||3k8.com/d/js/m/thea
 ||3kfvgobkw.com^
@@ -1427,6 +1428,7 @@
 ||6vspt720xf.com^
 ||6w4ix4bxz1.com^
 ||6x59axt21.com^
+||6xu7at70ok.com^
 ||6yfcuuw.com^
 ||6zc7gvmavf.com^
 ||6zmcb1x9fn.top^
@@ -16991,6 +16993,7 @@
 ||t6ec3seyq.com^
 ||t78obxl4h1.com^
 ||t7cp4fldl.com^
+||t7fv5mjt8i.com^
 ||t7x22m7c.com^
 ||t7ywa5ai3.com^
 ||t8t8jyxsr.com^
@@ -17422,6 +17425,7 @@
 ||tlula507.com/Public/js/dui
 ||tlula507.com/Public/js/float
 ||tluutoido.com^
+||tlvbtryetgppha.com^
 ||tm1.hoiplay.com^
 ||tmall.com^$domain=eyusky.net|iqiyi.com
 ||tmatch.simba.taobao.com^*&name=tbuad&pid=
@@ -18104,6 +18108,7 @@
 ||unjld.com^
 ||unjrkrxme.com^
 ||unjs.jingyanben.com^
+||unknown47.top^
 ||unknowncrate.com^
 ||unknownidea.com^
 ||unknowntray.com^
@@ -21076,7 +21081,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>16346
+!<<<<<网站单独规则>>>>>16347
 $3p,domain=76fengyun.com|avsdown.com|downdv.com|downdvs.com|downhhh.com|imedown.info|jandown.com|mimima.com|mnks.jxedt.com|rmdown.com|soyunpan.com|xmflv.com
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
 $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
@@ -36830,6 +36835,7 @@ yahoo.com##.item-beacon
 yahoo.com##.js-gemini-ad
 yahoo.com##.js-stream-content:has(a[href*=".promotions."])
 yahoo.com##.ntk-ad-item
+yahoo.com##.pointer-events-auto.h-\[91px\]
 yahoo.com##.pointer-events-none > .sticky:has(> div[id^="sda-"][id$="-iframe"]:only-child)
 yahoo.com##.searchCenterBottomAds
 yahoo.com##.stream-items > li.stream-item[data-wf-image-beacons]
