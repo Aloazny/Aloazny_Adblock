@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: Z9Kg2uvryf7kpG/UP2uhgA
+! Checksum: jPgrVQ/B6wcdZytGfkhrGw
 ! Title: Aloazny attach fiter
-! Version: 20260626222314
+! Version: 20260627112439
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-06-26 22:23:14
-! Total Count: 21432
-! Blocked Filters: 21432
+! Last modified: 2026-06-27 11:24:39
+! Total Count: 21431
+! Blocked Filters: 21431
 ! Description: 合并混合规则的补充规则，轻量规则，可作为补充规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -16412,7 +16412,7 @@ zhaotianbao1.cn/*/ywy*.apk
 zhaotianbao1.cn/*/ywy*.apk$~third-party
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>4606
+!<<<<<通用Css规则>>>>>4605
 ###ADbox
 ###Ad-Container
 ###Ad-Content
@@ -19289,7 +19289,6 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##IMG[alt^='kaiybet']
 ##IMG[onclick='godown()'][src$='gif']
 ##IMG[onclick='golh()'][src$='.gif']
-##IMG[referrerpolicy='no-referrer'][src$='.gif'][width='100%']
 ##IMG[referrerpolicy='no-referrer'][style='box-sizing: border-box;height:calc(10vh); width:100%;padding: 0px 15px 10px 15px;']
 ##IMG[src$='.dl'][style='width:100% !important;height:90px'][onclick]
 ##IMG[src$='tywheying/vv2-960x80.gif']
