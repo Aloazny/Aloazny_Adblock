@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: BRCAug9GYMo6r/GD8cHIXQ
+! Checksum: Et+WwyonJ7BUsOuKPLhuUg
 ! Title: Aloazny Chinese fiter
-! Version: 20260722215058
+! Version: 20260723104018
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-07-22 21:50:58
-! Total Count: 48516
-! Blocked Filters: 48516
+! Last modified: 2026-07-23 10:40:18
+! Total Count: 48519
+! Blocked Filters: 48519
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>20679
+!<<<<<域名规则>>>>>20682
 |http$3p,script,domain=kinotut.tv
 |http*://$script,3p,xhr,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,3p,domain=dlkoo.cc
@@ -8288,6 +8288,7 @@
 ||govlaibing.cn^
 ||govliuzhou.cn^
 ||govxinjiang.cn^
+||gownbea.icu^
 ||goxob6wo.icu^
 ||gp.jstv.com^
 ||gp.zaiyunli.cn^
@@ -9858,6 +9859,7 @@
 ||iremnazae.com^
 ||iridescentdusk.com^
 ||irp37bmmt.com^
+||irq0ql8or.com^
 ||irr7idq6i.com^
 ||irs03.com^
 ||irtefs.xyz^
@@ -15032,6 +15034,7 @@
 ||rideblackbird.com^
 ||rifyeldz.top^
 ||rigengjihua.cn/banner/
+||right.com.cn/forum/data/attachment/common/template/boardimg_20260602yahb3wsd.
 ||right.com.cn/forum/static/image/common/logo
 ||right.com.cn/forum/static/image/common/logo*.gif
 ||right.com.cn/forum/static/image/common/logo1.
@@ -30600,7 +30603,6 @@ maplestage.com##div[class*="-page-module__right"] > div > div[style="margin-bott
 maquia.hpplus.jp##.SP_banner
 maquia.hpplus.jp##.SP_headerbanner
 maquia.hpplus.jp##.SP_inarticle
-marieclaire.com.tr##div[style^="width:320px;"][style*="height:100px"]
 marieclaire.com.tw##.adInnerMpu
 mariefrance.fr##.rwad-with-placeholder
 markets.businessinsider.com###l-main-content > div.subnav-ad-layout
@@ -34815,6 +34817,7 @@ transvids.tv##.spot-holder
 transvids.tv##.tabs-menu + div.card
 trashbox.ru##.div_aj_top4_2020
 trashbox.ru##.div_aj_top4_as
+trendus.com,marieclaire.com.tr##div[style^="width:320px;"][style*="height:100px"]
 trendyol.com##.search-banner
 trendyporn.com##.container > center:has(> div[style^="height:"][style$="width:auto"])
 trendyporn.com##div[style^="height:"][style$="width:auto"]
