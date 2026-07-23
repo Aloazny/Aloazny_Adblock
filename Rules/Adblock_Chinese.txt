@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: Et+WwyonJ7BUsOuKPLhuUg
+! Checksum: rjVJ65+uOmU3CPMXpWWM2w
 ! Title: Aloazny Chinese fiter
-! Version: 20260723104018
+! Version: 20260723215659
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-07-23 10:40:18
-! Total Count: 48519
-! Blocked Filters: 48519
+! Last modified: 2026-07-23 21:56:59
+! Total Count: 48525
+! Blocked Filters: 48525
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>20682
+!<<<<<域名规则>>>>>20688
 |http$3p,script,domain=kinotut.tv
 |http*://$script,3p,xhr,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,3p,domain=dlkoo.cc
@@ -2806,6 +2806,7 @@
 ||akmh080.vip^
 ||akq.ioaqn.top^
 ||akqipai.com/m/Tpl/v3/js/indexbottom.js
+||akuohvb4u.com^
 ||akuziti.com/tu/*.js
 ||al.autohome.com.cn^
 ||al.newxue.com^
@@ -4157,6 +4158,7 @@
 ||blogterest.net/regular/?i=$subdocument
 ||bloom331.top^
 ||bloomsend.com^
+||blowlamp65.com^
 ||blsenpg.cn^
 ||blueduckredapple.com^
 ||blueeyedblow.com^
@@ -7301,6 +7303,7 @@
 ||fdi1rg6ihs.com^
 ||fdk6z2l7jt.com^
 ||fds-1230.cc^
+||fdtarpaueilvrs.com^
 ||fe4c0422j.com^
 ||fearfulfish.com^
 ||fearfulmint.com^
@@ -10650,6 +10653,7 @@
 ||k16e9b.com^
 ||k1s3u1dtpc.com^
 ||k2.dancihu.com^
+||k2bividyt.com^
 ||k2n0f.cn^$3p
 ||k31bpzf.xyz^
 ||k366.com/images/smxs^
@@ -20170,6 +20174,7 @@
 ||zantj.com/diao
 ||zaqlovh*.xyz^
 ||zaqptv2bo.xyz^
+||zas4hfcxr.com^
 ||zasjf.xyz^
 ||zasjfget.xyz^
 ||zathrilgiw.com^
@@ -20578,6 +20583,7 @@
 ||zrosq6dsha.com^
 ||zrz0c0sh7e.com^
 ||zrzgsdocqm.com^
+||zsi24utdu.com^
 ||zsjjob.com/user/member/google.htm
 ||zsjxwj.com^
 ||zskll.cn/api/jump/player?refso=
