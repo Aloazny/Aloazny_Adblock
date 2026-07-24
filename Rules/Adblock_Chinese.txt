@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: rjVJ65+uOmU3CPMXpWWM2w
+! Checksum: mYHZdIzBcBF2X5fImiftcg
 ! Title: Aloazny Chinese fiter
-! Version: 20260723215659
+! Version: 20260724103632
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-07-23 21:56:59
-! Total Count: 48525
-! Blocked Filters: 48525
+! Last modified: 2026-07-24 10:36:32
+! Total Count: 48537
+! Blocked Filters: 48537
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>20688
+!<<<<<域名规则>>>>>20696
 |http$3p,script,domain=kinotut.tv
 |http*://$script,3p,xhr,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,3p,domain=dlkoo.cc
@@ -1344,6 +1344,7 @@
 ||69e7.fun^
 ||69mok.com^
 ||69shuba.cx^*/shu.js
+||69shuba.tw/js/gg.js
 ||69shux.com/js/otherad.
 ||69t49.com/floating/layer.js
 ||6acupxubky.com^
@@ -1656,6 +1657,7 @@
 ||8o5v23yip.com^
 ||8oghu1wcau.com^
 ||8p14q886v2.com^
+||8p814q01np.com^
 ||8pbiddjtp.com^
 ||8pjqjxmr.com^
 ||8proe3xx6.com^
@@ -4172,6 +4174,7 @@
 ||blz105.com/player/ad.html
 ||blzgeuuz.icu^
 ||bm.h576.com^
+||bm1wk259np.com^
 ||bm3xyw6am.com^
 ||bm6c3pthv.com^
 ||bmg8t99nhf.com^
@@ -7072,6 +7075,7 @@
 ||evpxl9a8h.com^
 ||evrmwlh0dl.com^
 ||evtubescms.phncdn.com^
+||evycvuy.icu^
 ||ewbaenkiu.com^
 ||ewefbeu.cn^
 ||ewefbeu.cn^$~third-party
@@ -7720,6 +7724,7 @@
 ||fwlrv.cn^
 ||fwmbjrl.cn^
 ||fwsir.com/static/cpt/
+||fwujkh7jw.com^
 ||fwvzx907rr.com^
 ||fwwang.cn/templets/fw/js/art
 ||fwzvlp.xyz^
@@ -13164,6 +13169,7 @@
 ||nxu3l4c8u.com^
 ||nxwm44neo.com^
 ||nxxyjn.com^
+||nxydz27pj.com^
 ||ny2oqsu7et.com^
 ||ny70zesy5v.com^
 ||nyaa.*/static/js/ccheck.js
@@ -17257,6 +17263,7 @@
 ||trafmag.com^
 ||traiqnien.com^
 ||traktum.com^
+||trammel74.top^
 ||trandgid.com^$third-party
 ||tranquilcan.com^
 ||tranquilcanyon.com^
@@ -18263,6 +18270,7 @@
 ||vpw1lig85.com^
 ||vpx4fmj4z6.com^
 ||vpxyw6rbv3.com^
+||vpy105341.com^
 ||vpydjogaytpg.xyz^
 ||vq1qi.pw^
 ||vqbmxyzda.icu^
@@ -20705,7 +20713,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>16411
+!<<<<<网站单独规则>>>>>16415
 $3p,domain=76fengyun.com|avsdown.com|downdv.com|downdvs.com|downhhh.com|imedown.info|jandown.com|mimima.com|mnks.jxedt.com|rmdown.com|soyunpan.com|xmflv.com
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
 $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
@@ -25202,6 +25210,7 @@ dic.pixiv.net###ad-d-sp-toparticle
 dic.pixiv.net###ad_sp_toparticle
 dic.pixiv.net###ad_top_touch
 dic.pixiv.net##.gArUpx
+dic.pixiv.net##div.h-\[250px\]:has(> div[style^="display: block;"] > iframe[data-uid])
 dic.pixiv.net##div[id^="d-sp-itemarticle"]
 dict.baidu.com##.tran-download-ad
 dict.cc##div[style="text-align:center;width:728px"]
@@ -36398,6 +36407,9 @@ ya.ru,yandex.*##.DirectInline-Wrapper
 ya.ru,yandex.*##.DirectStripe
 ya.ru,yandex.*##.SearchBlock:has(> div.DirectStripe)
 ya.ru,yandex.*##.content__left > ul#search-result > li:has(> div.organic > div.OrganicTitle > a[href^="https://ya.ru/search/_crpd/"])
+ya.ru,yandex.*##div[id^="search-"] > div[class*="__card"] ul.UniSearchList > li.UniSearchList-Item:has(div.UniSearchAppsRating-Rmp > span)
+ya.ru,yandex.*##div[id^="search-"] > div[class*="__card"]:has(.Organic-AppHeader_extralinks)
+ya.ru,yandex.*##div[id^="search-"] > div[class*="__card"]:has(div.Organic-Subtitle > div.Organic-Path ~ div[class*=" Organic"] > span[class$="-Text"])
 ya.ru,yandex.by,yandex.com,yandex.com.by,yandex.com.com,yandex.com.eu,yandex.com.fr,yandex.com.kz,yandex.com.net,yandex.com.ru,yandex.com.tr,yandex.com.ua,yandex.com.uz,yandex.eu,yandex.fr,yandex.kz,yandex.net,yandex.ru,yandex.tr,yandex.ua,yandex.uz##.AdvOffers
 ya.ru,yandex.by,yandex.com,yandex.com.by,yandex.com.com,yandex.com.eu,yandex.com.fr,yandex.com.kz,yandex.com.net,yandex.com.ru,yandex.com.tr,yandex.com.ua,yandex.com.uz,yandex.eu,yandex.fr,yandex.kz,yandex.net,yandex.ru,yandex.tr,yandex.ua,yandex.uz##.AdvRsyaCrossPage
 ya.ru,yandex.by,yandex.com,yandex.com.by,yandex.com.com,yandex.com.eu,yandex.com.fr,yandex.com.kz,yandex.com.net,yandex.com.ru,yandex.com.tr,yandex.com.ua,yandex.com.uz,yandex.eu,yandex.fr,yandex.kz,yandex.net,yandex.ru,yandex.tr,yandex.ua,yandex.uz##.DirectFeature
