@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 1igUlQPstOqEEZbostqJ/g
+! Checksum: +z6Zx0hpqqIYuhAddbBJ5g
 ! Title: Aloazny attach fiter
-! Version: 20260807210029
+! Version: 20260808092847
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-08-07 21:00:29
-! Total Count: 21614
-! Blocked Filters: 21614
+! Last modified: 2026-08-08 09:28:47
+! Total Count: 21617
+! Blocked Filters: 21617
 ! Description: 合并混合规则的补充规则，轻量规则，可作为补充规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_attach.txt?ref=main
 
 
-!<<<<<域名规则>>>>>8619
+!<<<<<域名规则>>>>>8620
 |https://m.frgls.com/js/*.js?v=
 ||*.org/config/v7.js
 ||*ggua.xyz^$third-party
@@ -4569,6 +4569,7 @@
 ||madebyintent.com^
 ||madlysuccessful.com^
 ||madnessbuzz.com^
+||madou.best/*.php
 ||madoverrice.com^
 ||magicaljoin.com^
 ||magicalpiano.com^
@@ -13297,7 +13298,7 @@ zybang.com##div[id="askTeacher-after-adx-wrap"]
 zzyiwan.com##div[style="width: 100%; overflow: hidden; padding-top: 0px; position: relative; top: 0px; z-index: 9999;"]
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>3237
+!<<<<<通配符规则>>>>>3238
 $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.xyz
 &adZones$xmlhttprequest
 &ad_block=
@@ -15088,6 +15089,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 /eng/ads/*
 /entry/register?i_code=
 /entry/register?i_code=$~third-party
+/eventTracking/batchReport
 /exads-adblock-3.10
 /excellence/ads/*
 /exchange_banner_
@@ -16537,7 +16539,7 @@ zhaotianbao1.cn/*/ywy*.apk
 zhaotianbao1.cn/*/ywy*.apk$~third-party
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>4660
+!<<<<<通用Css规则>>>>>4661
 ###ADbox
 ###Ad-Container
 ###Ad-Content
@@ -20193,6 +20195,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##a[title="五彩堂"]
 ##a[title="博万体育"]
 ##a[title="大发赌场"]
+##a[title="好色直播"][target="_blank"]
 ##a[title="威尼斯人"]
 ##a[title="官方新葡京"]
 ##a[title="官方棋牌"]

@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: pBTC0IKG+4pSnJ+eBBko6g
+! Checksum: 6j6LzZgUa12I9KD1diIlUg
 ! Title: Aloazny Chinese fiter
-! Version: 20260807210040
+! Version: 20260808092858
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-08-07 21:00:40
-! Total Count: 48759
-! Blocked Filters: 48759
+! Last modified: 2026-08-08 09:28:58
+! Total Count: 48772
+! Blocked Filters: 48772
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>20836
+!<<<<<域名规则>>>>>20844
 |http$3p,script,domain=kinotut.tv
 |http*://$script,3p,xhr,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,3p,domain=dlkoo.cc
@@ -992,6 +992,7 @@
 ||4hw.com.cn/js/common.js
 ||4i2q0y9wv.com^
 ||4ifhpfi1.xyz^
+||4j7mf4mmx.com^
 ||4jh1le34m.com^
 ||4jnzhl0d0.com^
 ||4k.video/b.js
@@ -3744,6 +3745,7 @@
 ||baqwo74y8.com^
 ||barbarousbase.com^
 ||barbershirts.com^
+||barqmajk.com^
 ||barqueue.com^
 ||barrister85.top^
 ||barscreative1.com^
@@ -6275,6 +6277,7 @@
 ||divergentld.com^
 ||dividend56.top^
 ||division43.top^
+||dixbvzvuzhvxbg.com^
 ||diyibanzhu*.com/js/cdn.
 ||diyibanzhu*.com/js/html
 ||diyibanzhu*/js/cdn.js$~third-party
@@ -6940,6 +6943,7 @@
 ||elusivebreeze.com^
 ||elusivecascade.com^
 ||elviraawa.com^
+||elwd3duunc.com^
 ||elwebmx21.com^
 ||em7ky342lo.com^
 ||embbl8sy3.com^
@@ -11984,6 +11988,7 @@
 ||madlysuccessful.com^
 ||madnessbuzz.com^
 ||madnet.ru^
+||madou.best/*.php
 ||madoverrice.com^
 ||mads.*.pinenutsdev.net/md.request.php
 ||mads.amazon.com^
@@ -13872,6 +13877,7 @@
 ||pengtu.cc^*.png
 ||pengwei168.com/addons/321.gif
 ||pengwei168.com/template/stui_tpl/html/vod/f.js
+||penknife47.com^
 ||penknife87.com^
 ||penxiangge.com^
 ||people.com.cn/adv/
@@ -14849,6 +14855,7 @@
 ||qypaizhuo.com^
 ||qyplvnzcm1.com^
 ||qyun.vip/pic/*.gif
+||qyxrwl.com^
 ||qyyvoquib.com^
 ||qyzyd.top^
 ||qzda.cc^
@@ -19170,6 +19177,7 @@
 ||x-resource05.com/media_orange/server-img/*_1200_120.
 ||x.yaohuo.me^
 ||x0.ifengimg.com/feprod/c/web/d/pc_bottom.js
+||x01omk083.com^
 ||x0b5edl6u.com^
 ||x0lkimaixh.com^
 ||x1.52aoteman.com^
@@ -20853,7 +20861,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>16474
+!<<<<<网站单独规则>>>>>16476
 $3p,domain=76fengyun.com|avsdown.com|downdv.com|downdvs.com|downhhh.com|imedown.info|jandown.com|mimima.com|mnks.jxedt.com|rmdown.com|soyunpan.com|xmflv.com
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
 $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
@@ -22640,6 +22648,7 @@ afisha.yandex.*##div[data-test-id="layout.root"] > div[class]:has(> div.adfox)
 afisha.yandex.*##div[style^="display:"]:matches-attr("/data[a-z0-9-]+/"="/^R-A-/")
 afpbb.com##amp-iframe[src^="https://cdn.cxpublic.com/amp-recs-template.html"]
 afpbb.com##aside[style="text-align: center; min-height: 180px;"]
+aftership.com##div[class^="ptp-ad"]
 afzhan.com##.newsRightAdv
 afzhan.com##.topRightAdv
 afzhan.com,cngold.org,dk95.com,familydoctor.com.cn,hbzhan.com,panjin.net,qq.com,tongxiang.net##.advs
@@ -28629,7 +28638,7 @@ ishuati.com###adsh
 ishuhui.com##.a_xx_d
 isiyuan.net###page-list > ul > .layui-row:has(.ad)
 ism89.net##brde[style*="position"]
-ismedia.jp###taboola-below-article-thumbanails-high
+ismedia.jp###taboola-below-article-thumbnails-high
 ismedia.jp,jbpress.ismedia.jp##.m-sponsord
 ispreview.co.uk###mobilebanner
 isso.com.cn##.right-content-div > .top-div + div
@@ -29124,6 +29133,7 @@ js0573.com##.gg_bnr
 jsjiami.com##.asd > li > a.shaky
 jsjiami.com##.banner-container li._logo ~ li > a[target="_blank"]
 json.cn###shuangshi1Modal1
+json.cn##.show-hide-adv
 json.cn##.tip[target="_blank"]
 jsphp.net##.adleft-wrap
 jsphp.net##.rightAdBtm-wrap
@@ -37330,7 +37340,7 @@ zzyiwan.com##div[style="width: 100%; overflow: hidden; padding-top: 0px; positio
 zzzyk.com###Tinfo
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>4227
+!<<<<<通配符规则>>>>>4228
 $3p,domain=76fengyun.com|avsdown.com|downdv.com|downdvs.com|downhhh.com|imedown.info|jandown.com|mimima.com|mnks.jxedt.com|rmdown.com|soyunpan.com|xmflv.com
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
 $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
@@ -39597,6 +39607,7 @@ $websocket,domain=wap.yushuwu.cloud
 /entry/register?i_code=$~third-party
 /ettoday/gemini/*
 /eucjhfxh/*.js
+/eventTracking/batchReport
 /exads-adblock-$image
 /exads-adblock-3.10
 /excellence/ads/*
@@ -41560,7 +41571,7 @@ zhaotianbao1.cn/*/ywy*.apk
 zhaotianbao1.cn/*/ywy*.apk$~third-party
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>5575
+!<<<<<通用Css规则>>>>>5577
 ###ADbox
 ###ADtip
 ###Ad-Container
@@ -46024,6 +46035,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##a[title="五彩堂"]
 ##a[title="博万体育"]
 ##a[title="大发赌场"]
+##a[title="好色直播"][target="_blank"]
 ##a[title="威尼斯人"]
 ##a[title="官方新葡京"]
 ##a[title="官方棋牌"]
@@ -46121,6 +46133,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ##body > div.container[style="margin-bottom: 10px;"] > script:first-child ~ div[style="height:60px;width:100%;"]
 ##body > div.demo-wrapper[style="display:none;"] + div[id][class]
 ##body > div.page[data-kochava-app-guid^="kotegna-web-prod-"] > .page__top > .universal-ad
+##body > div.page[data-ux-tracking-url^="https://abtesting.tegnadigital.com/"] > .page__top > .universal-ad
 ##body > div[class$="c"][style="bottom: 135px;"]
 ##body > div[class$="h"][style="bottom: 135px;"]
 ##body > div[class$="m"][style="display: block; width: 100%; height: 135px;"]
