@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: cU1WWlOTSMyRY9esuY8VhQ
+! Checksum: M09A/vfB89vHQ0gxG2z8Sg
 ! Title: Aloazny Mobile fiter
-! Version: 20260905110836
+! Version: 20260905224008
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-09-05 11:08:36
-! Total Count: 95560
-! Blocked Filters: 95560
+! Last modified: 2026-09-05 22:40:08
+! Total Count: 95571
+! Blocked Filters: 95571
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock.txt?ref=main
 
 
-!<<<<<域名规则>>>>>37487
+!<<<<<域名规则>>>>>37497
 |http$3p,script,domain=kinotut.tv
 |http*://$image,3p,domain=rmdown.com
 |http*://$script,3p,domain=stream2watch.org,badfilter
@@ -2626,6 +2626,7 @@
 ||5eb7c33741.4c469d624d.com^
 ||5edf1d2qv.com^
 ||5edrgrnqg.com^
+||5enhjla7z.com^
 ||5eyal1g5a9.com^
 ||5f1qyi04vz.com^
 ||5fd0b51dd6.5183078ff8.com^
@@ -4143,6 +4144,7 @@
 ||ab.rule34.porn^
 ||ab.thepornstar.com^
 ||ab0289e848.16ca8cd3e5.com^
+||ab1bhie0c.com^
 ||ab208fce17.13b1e60d7e.com^
 ||ab3de9.gamersky.com^
 ||ab41q03rvf.com^
@@ -9099,6 +9101,7 @@
 ||cdn.wendycode.com/blogger/antiAdbDefer.js
 ||cdn.wendycode.com/blogger/antiAdbLazy.js
 ||cdn.wenzhangba.cn^
+||cdn.wheelroot.com^
 ||cdn.witchhut.com/network-js/witch-afg/witchAfg.partner.js
 ||cdn.wo.cc/wo.js
 ||cdn.wurqaz.com^
@@ -10807,6 +10810,7 @@
 ||d-load.org^$domain=2ch-c.net|get2ch.net
 ||d-pa.ppstatic.pl/frames/$image,badfilter
 ||d-test.39.net^
+||d.*.site/ty/*-*-*.$third-party
 ||d.6xw.com^
 ||d.8181zx.com^
 ||d.ab126.com^
@@ -18768,6 +18772,7 @@
 ||jixiangxianbao.cn^$~third-party
 ||jixmlx.xyz^
 ||jiyingdm.com/js/loadingshow.html
+||jiz4pa4hu.com^
 ||jizz.us/loco/
 ||jizzberry.com/assets/f_load.js
 ||jizzberry.com/static/js/initsite.min.js
@@ -24529,6 +24534,7 @@
 ||pincers55.com^
 ||pinchsquirrel.com^
 ||pincourse.com^
+||ping0.cc/images/fx/*.gif
 ||ping0.cc/static/images/ad/
 ||pinglun11223.xyz^
 ||pingma.qq.com^
@@ -27264,6 +27270,7 @@
 ||rwds.asianxhub.com^
 ||rwdt.asianxhub.com^
 ||rwdv.asianxhub.com^
+||rwilwcovop.icu^
 ||rwtezd.icu^
 ||rwtraqur.com^
 ||rwtzv9ehv.com^
@@ -28610,6 +28617,7 @@
 ||slutload.com/spots^
 ||sluts.wtf/static/ad/
 ||slutsounds.com/wp-content/uploads/*/nawtycam$image
+||slz99md2o.com^
 ||sm-cloud.yunsafe.top^
 ||sm-rtb-useast.zmdvideo.com^
 ||sm.ign.com/zdadkit*.js
@@ -30628,6 +30636,7 @@
 ||thrillasoft.com^
 ||thrivingmarketplace.com^
 ||throlnod.com^
+||thuk8hg48.com^
 ||thumbb86.com^
 ||thumbor.4gamers.com.tw/*/*ads-media*.png
 ||thumbor.prod.vidiocdn.com/*/uploads/section/background_image/*/rejoice-vidio-drakor-gratis-*.jpg
@@ -33694,6 +33703,7 @@
 ||writewealth.com^
 ||writingcalls.com^
 ||wrjopz9knvheb7qexvfyq2qfl.evpc531yb8ypel6.cfd^
+||wrksb2gt0.com^
 ||wrlhhgeyh.com^
 ||wrmcfyzl.com^$3p
 ||wrongpotato.com^
@@ -37504,7 +37514,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>42717
+!<<<<<网站单独规则>>>>>42718
 $3p,domain=76fengyun.com|avsdown.com|downdv.com|downdvs.com|downhhh.com|imedown.info|jandown.com|mimima.com|mnks.jxedt.com|rmdown.com|soyunpan.com|xmflv.com
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
 $3p,xhr,domain=faselhd.cafe|faselhd-watch.shop,badfilter
@@ -38249,7 +38259,7 @@ $xhr,3p,domain=swiftload.io
 18board.com,18board.net,18p2p.com,18p2p.tv##a[target="_blank"] > img[width="920"]
 18board.com,18board.net,18p2p.com,18p2p.tv##a[target="_blank"] > img[width="950"]
 18board.com,18board.net,18p2p.com,18p2p.tv##a[target="_blank"] > img[width^="72"]
-18comic-gquu.vip,18comic.vip,25img.com,26img.com,555fap.com,8kporner.com,adrianmissionminute.com,advertape.net,animebr.org,animefire.*,animefire.io,animeworld.*,apkhosto.com,archivebate.*,arigl.com,asianporn.li,asmr18.fans,avdbapi.com,b-hentai.com,benjaminreducecommunity.com,bigshare.io,brazz.org,brittanyaheadnew.com,camsrip.com,camwhores.*,cap3.sex,cdn.loadvid.com,cdn1.site,celebritydeeplink.com,charlessheimprove.com,charlestoughrace.com,chochox.com,christopheruntilpoint.com,comick.art,crystaltreatmenteast.com,cyberdrop.*,daftporn.com,ddd-smart.net,dianaavoidthey.com,diananatureforeign.com,doujinantena.top,doujindesu.tv,easyvidplayer.com,ekasiwap.com,embedseek.online,empressleak.biz,fapeza.com,fapfappy.com,faselhds.biz,fc2ppv.*,fc2ppv.me,fc2ppv.stream,filester.me,flixcdn.cyou,gelbooru.com,goonbox.cr,hentai-moon.com,hentai2read.com,hentai2w.com,hentaianimezone.com,hentaicop.com,hentainexus.com,hepidrive.online,herexxx.com,hindilinks4u.*,hitomi.la,hornyhill.st,ianrequireadult.com,imgbox.com,japaneseholes.com,jav-fun.cc,jav.direct,jav.si,javbee.co,javboys.com,javfan.one,javfc2.xyz,javfor.tv,javhd.*,javhdz.today,javideo.net,javlab.net,javmenu.com,javmeta.com,javmix.tv,javpas.com,javtiful.com,javx357.com,jefferycontrolmodel.com,jennifercertaindevelopment.com,jessicaclearout.com,jilliandescribecompany.com,jmanga.world,johnalwayssame.com,jonathansociallike.com,jpg5.su,jpg6.su,kavero.biz,kellywhatcould.com,kicknosub.com,kimochi.info,kissjav.li,klmanga.app,klmanga.ec,kristiesoundsimply.com,lancewhosedifficult.com,lauradaydo.com,lewdzone.com,livecamrips.*,livecamrips.to,lovingsiren.com,luciferdonghua.in,lukesitturn.com,luluvdoo.com,luluvid.com,luluvids.top,luottruyen12.com,mangago.me,mangakakalot.gg,mangarawjp.tv,mariatheserepublican.com,marissasharecareer.com,maryspecialwatch.com,mens1069.com,mesex.pro,mikaylaarealike.com,missavtv.com,mitaku.net,momon-ga.com,muchohentai.com,myvidplay.com,nathanfromsubject.com,natomanga.com,netfapx.com,nicholasbreakplan.com,niyaniya.moe,nlcosplay.com,nsfwr34.com,nsfwyoutube.com,nudogram.com,nukibooks.com,nyahentai.*,paipancon.com,pandamovies.org,play.playkrx18.site,player4me.*,playmogo.com,poapan.xyz,popjav.in,pornleaks.in,pornslash.com,porntin.com,pornwatch.ws,pornxp.net,pornxp.ph,pxp.*,pxp.farm,pxp.guru,qmh.sex,r-34.xyz,rawkuma.net,rebeccasciencestreet.com,richardquestionbuilding.com,richardsignfish.com,rpmplay.online,rule34.*,rule34vault.com,rule34video.com,saint2.*,sarahnewspaperbeat.com,seekplayer.vip,severeporn.com,shavetape.cash,shinshi-manga.net,simpcity.*,simply-hentai.com,speedporn.net,spoilerplus.tv,streamtape.com,sxyprn.com,sxyprn.net,syosetu.*,taboodude.com,thefappening.pro,thefappeningblog.com,thotchicks.com,timmaybealready.com,tojav.net,tracylocalschool.com,turbo.cr,turbovid.*,twitchnosub.com,upload18.com,upload18.org,upns.online,verhentai.top,vevocloud.com,vidara.so,vidara.to,vidavaca.cc,vidavaca.net,vidchampions.com,vidmatrixa.com,vidsonic.net,vik1ngfile.site,vindaz.shop,vipserije.com,vixcloud.co,walterprettytheir.com,watchadsontape.com,x-fetish.tube,xanimeporn.com,xca.cymru,xfans.st,xmalay1.net,xmoviesforyou.com,xxgasm.com##+js(abort-current-script, WebAssembly, atob)
+18comic-gquu.vip,18comic.vip,25img.com,26img.com,555fap.com,8kporner.com,adrianmissionminute.com,advertape.net,animebr.org,animefire.*,animefire.io,animeworld.*,apkhosto.com,archivebate.*,arigl.com,asianporn.li,asmr18.fans,avdbapi.com,b-hentai.com,benjaminreducecommunity.com,bigshare.io,brazz.org,brittanyaheadnew.com,camsrip.com,camwhores.*,cap3.sex,cdn.loadvid.com,cdn1.site,celebritydeeplink.com,charlessheimprove.com,charlestoughrace.com,chochox.com,christopheruntilpoint.com,comick.art,crystaltreatmenteast.com,cyberdrop.*,daftporn.com,ddd-smart.net,dianaavoidthey.com,diananatureforeign.com,doujinantena.top,doujindesu.tv,easyvidplayer.com,ekasiwap.com,embedseek.online,empressleak.biz,eugenemakedraw.com,fapeza.com,fapfappy.com,faselhds.biz,fc2ppv.*,fc2ppv.me,fc2ppv.stream,filester.me,flixcdn.cyou,gelbooru.com,goonbox.cr,hentai-moon.com,hentai2read.com,hentai2w.com,hentaianimezone.com,hentaicop.com,hentainexus.com,hepidrive.online,herexxx.com,hindilinks4u.*,hitomi.la,hornyhill.st,ianrequireadult.com,imgbox.com,japaneseholes.com,jav-fun.cc,jav.direct,jav.si,javbee.co,javboys.com,javfan.one,javfc2.xyz,javfor.tv,javhd.*,javhdz.today,javideo.net,javlab.net,javmenu.com,javmeta.com,javmix.tv,javpas.com,javtiful.com,javx357.com,jefferycontrolmodel.com,jennifercertaindevelopment.com,jessicaclearout.com,jilliandescribecompany.com,jmanga.email,johnalwayssame.com,jonathansociallike.com,jpg5.su,jpg6.su,kavero.biz,kellywhatcould.com,kicknosub.com,kimochi.info,kissjav.li,klmanga.app,klmanga.ec,kristiesoundsimply.com,lancewhosedifficult.com,lauradaydo.com,lewdzone.com,livecamrips.*,livecamrips.to,lovingsiren.com,luciferdonghua.in,lukesitturn.com,luluvdoo.com,luluvid.com,luluvids.top,luottruyen12.com,mangago.me,mangakakalot.gg,mangarawjp.tv,mariatheserepublican.com,marissasharecareer.com,maryspecialwatch.com,mens1069.com,mesex.pro,mikaylaarealike.com,missavtv.com,mitaku.net,momon-ga.com,muchohentai.com,myvidplay.com,nathanfromsubject.com,natomanga.com,netfapx.com,nicholasbreakplan.com,niyaniya.moe,nlcosplay.com,nsfwr34.com,nsfwyoutube.com,nudogram.com,nukibooks.com,nyahentai.*,paipancon.com,pandamovies.org,play.playkrx18.site,player4me.*,playmogo.com,poapan.xyz,popjav.in,pornleaks.in,pornslash.com,porntin.com,pornwatch.ws,pornxp.net,pornxp.ph,pxp.*,pxp.farm,pxp.guru,qmh.sex,r-34.xyz,rawkuma.net,rebeccasciencestreet.com,richardquestionbuilding.com,richardsignfish.com,rpmplay.online,rule34.*,rule34vault.com,rule34video.com,saint2.*,sarahnewspaperbeat.com,seekplayer.vip,severeporn.com,shavetape.cash,shinshi-manga.net,simpcity.*,simply-hentai.com,speedporn.net,spoilerplus.tv,streamtape.com,sxyprn.com,sxyprn.net,syosetu.*,taboodude.com,thefappening.pro,thefappeningblog.com,thotchicks.com,timmaybealready.com,tojav.net,turbo.cr,turbovid.*,twitchnosub.com,upload18.com,upload18.org,upns.online,verhentai.top,vevocloud.com,vidara.so,vidara.to,vidavaca.cc,vidavaca.net,vidchampions.com,vidmatrixa.com,vidsonic.net,vik1ngfile.site,vindaz.shop,vipserije.com,vixcloud.co,walterprettytheir.com,watchadsontape.com,x-fetish.tube,xanimeporn.com,xca.cymru,xfans.st,xmalay1.net,xmoviesforyou.com,xxgasm.com##+js(abort-current-script, WebAssembly, atob)
 18comic.cc,18comic.cfd,18comic.icu,18comic.men,18comic.one,18comic.org,18comic.sbs,18comic.top,18comic.vip,18comic1.top,18comic168.cc,18comic168.icu,18comic168.men,18comic168.one,18comic168.top,18comic168.vip,18comic365.top,99mh.men,99mh.one,99xmh.icu,99xmh.top,99xs.cc,99xs.cfd,99xs.icu,99xs.men,99xs.one,99xs.org,99xs.sbs,99xs.top,99xs.vip,99xs1.top,99xs365.top,amdcomic.cc,amdcomic.cfd,amdcomic.icu,amdcomic.men,amdcomic.one,amdcomic.org,amdcomic.sbs,amdcomic.top,amdcomic.vip,amdcomic1.top,amdcomic365.top,fpoxxx.cc,fpoxxx.cfd,fpoxxx.icu,fpoxxx.men,fpoxxx.one,fpoxxx.org,fpoxxx.sbs,fpoxxx.top,fpoxxx.vip,fpoxxx1.top,fpoxxx365.top,hanime2.top,javdb.cc,javdb.cfd,javdb.icu,javdb.men,javdb.one,javdb.org,javdb.sbs,javdb.top,javdb.vip,javdb1.top,javdb365.top,laoli88.icu,laoli88.men,laoli88.one,mh99.cfd,mh99.icu,mh99.one,mh99.top,missav2.icu,missav2.one,missav2.vip,njavtv.cc,njavtv.cfd,njavtv.icu,njavtv.men,njavtv.one,njavtv.org,njavtv.sbs,njavtv.top,njavtv.vip,njavtv1.top,njavtv365.top,rou2.icu,rou2.men,rou2.one,rou2.top,wnacg.cc,wnacg.cfd,wnacg.icu,wnacg.men,wnacg.one,wnacg.org,wnacg.sbs,wnacg.top,wnacg.vip,wnacg1.top,wnacg365.top,xanimu.cc,xanimu.cfd,xanimu.icu,xanimu.men,xanimu.one,xanimu.org,xanimu.sbs,xanimu.top,xanimu.vip,xanimu1.top,xanimu365.top##div[style*="z-index: 9999"][style*="justify-content: center;"]:not([class]):not([id])
 18comic.ink,18comic.org,18comic.vip,91porna.com,adomainscan.com,bejson.com,btc.ms,cakhia.com,cyberpor.com,evgpopxb.cc,jkptgbf.xyz,jm18c-oec.club,json.cn,mfulbvu.xyz,mqoeomads.cc,ontools.net,pianyuan.org,qixingquan.com,rophim.*,rophim.me,shabdkosh.com,vedbex.com##.modal-backdrop
 18comic.ink,18comic.org,18comic.vip,boylov.xyz,boylove.cc,boylove1.mobi,boyloves.fun,jm18c-oec.club##.div_sticky2
@@ -38517,7 +38527,7 @@ $xhr,3p,domain=swiftload.io
 247sports.com##.site-header:style(top: 0 !important;)
 247sports.com##section.main-wrapper > .topnav > .nav-bar.nav-bar--fixed:style(top: 0!important;)
 247sports.com##section.main-wrapper > .topnav:style(margin-top: 0!important;)
-247sports.com,35volitantplimsoles5.com,adrianmissionminute.com,alejandrocenturyoil.com,aleklasa.pl,alleneconomicmatter.com,alphatv.gr,antecoxalbobbing1010.com,benjaminreducecommunity.com,berlingske.dk,bethshouldercan.com,biznesinfo.pl,brittanyaheadnew.com,brittneystandardwestern.com,bt.dk,charlessheimprove.com,charlestoughrace.com,christopheruntilpoint.com,cineverse.com,cookinggames.com,crystaltreatmenteast.com,cyamidpulverulence530.com,dianaavoidthey.com,diananatureforeign.com,domekiogrodek.pl,donaldlineelse.com,dovechannel.com,edwardarriveoften.com,elevensports.pl,evelynthankregion.com,geekweek.pl,geotastic.net,girlgames.com,goniec.pl,goracetematy.pl,guidon40hyporadius9.com,h5.4j.com,heatherdiscussionwhen.com,heatherwholeinvolve.com,housecardsummerbutton.com,ianrequireadult.com,ign.com,ipla.tv,jamessoundcost.com,jamiesamewalk.com,jayservicestuff.com,jefferycontrolmodel.com,jennifercertaindevelopment.com,jessicaclearout.com,jessicaglassauthor.com,jilliandescribecompany.com,johnalwayssame.com,johntryopen.com,jonathansociallike.com,josephseveralconcern.com,kathleenmemberhistory.com,kellywhatcould.com,kennethofficialitem.com,kimberlyonlocal.com,kristiesoundsimply.com,lancewhosedifficult.com,lauradaydo.com,lelum.pl,lisatrialidea.com,lorimuchbenefit.com,lukecomparetwo.com,lukesitturn.com,mamadu.pl,mariatheserepublican.com,marissasharecareer.com,maryspecialwatch.com,maxfinishseveral.com,media.cms.markiza.sk,midnightpulp.com,mikaylaarealike.com,morganoperationface.com,nathanfromsubject.com,nicholasbreakplan.com,pacjenci.pl,paulkitchendark.com,phenomenalityuniform.com,polsatboxgo.pl,polsatnews.pl,polsatsport.pl,portalparentingowy.pl,poszkole.pl,rebeccasciencestreet.com,redcdn.pl,redefine.pl,richardquestionbuilding.com,richardsignfish.com,richardstorehalf.com,robertordercharacter.com,robertplacespace.com,rolnikinfo.pl,rpmplay.online,rynek-kolejowy.pl,sandratableother.com,sarahnewspaperbeat.com,screambox.com,screenrant.com,si.com,sigmatv.com,smakosze.pl,southpark.*,southparkstudios.*,sportitalialive.com,susanhavekeep.com,swiatzwierzat.pl,swipeto.pl,theroot.com,thomasalthoughhear.com,timesofindia.indiatimes.com,timmaybealready.com,titans.com.au,toddpartneranimal.com,tracylocalschool.com,turysci.pl,tvp.info,tvp.pl,tvpparlament.pl,twojapogoda.pl,un-block-voe.net,urochsunloath.com,voe-unblock.*,voe.sx,voeunbl0ck.com,voeunblk.com,voeunblock.com,voeunblock2.com,walterprettytheir.com,watch.plex.tv,zacharycollectionmight.com##+js(google-ima)
+247sports.com,35volitantplimsoles5.com,adrianmissionminute.com,alejandrocenturyoil.com,aleklasa.pl,alleneconomicmatter.com,alphatv.gr,antecoxalbobbing1010.com,benjaminreducecommunity.com,berlingske.dk,bethshouldercan.com,biznesinfo.pl,brittanyaheadnew.com,brittneystandardwestern.com,bt.dk,charlessheimprove.com,charlestoughrace.com,christopheruntilpoint.com,cineverse.com,cookinggames.com,crystaltreatmenteast.com,cyamidpulverulence530.com,dianaavoidthey.com,diananatureforeign.com,domekiogrodek.pl,donaldlineelse.com,dovechannel.com,edwardarriveoften.com,elevensports.pl,eugenemakedraw.com,evelynthankregion.com,geekweek.pl,geotastic.net,girlgames.com,goniec.pl,goracetematy.pl,guidon40hyporadius9.com,h5.4j.com,heatherdiscussionwhen.com,heatherwholeinvolve.com,housecardsummerbutton.com,ianrequireadult.com,ign.com,ipla.tv,jamessoundcost.com,jamiesamewalk.com,jayservicestuff.com,jefferycontrolmodel.com,jennifercertaindevelopment.com,jessicaclearout.com,jessicaglassauthor.com,jilliandescribecompany.com,johnalwayssame.com,johntryopen.com,jonathansociallike.com,josephseveralconcern.com,kathleenmemberhistory.com,kellywhatcould.com,kennethofficialitem.com,kimberlyonlocal.com,kristiesoundsimply.com,lancewhosedifficult.com,lauradaydo.com,lelum.pl,lisatrialidea.com,lorimuchbenefit.com,lukecomparetwo.com,lukesitturn.com,mamadu.pl,mariatheserepublican.com,marissasharecareer.com,maryspecialwatch.com,maxfinishseveral.com,media.cms.markiza.sk,midnightpulp.com,mikaylaarealike.com,morganoperationface.com,nathanfromsubject.com,nicholasbreakplan.com,pacjenci.pl,paulkitchendark.com,phenomenalityuniform.com,polsatboxgo.pl,polsatnews.pl,polsatsport.pl,portalparentingowy.pl,poszkole.pl,rebeccasciencestreet.com,redcdn.pl,redefine.pl,richardquestionbuilding.com,richardsignfish.com,richardstorehalf.com,robertordercharacter.com,robertplacespace.com,rolnikinfo.pl,rpmplay.online,rynek-kolejowy.pl,sandratableother.com,sarahnewspaperbeat.com,screambox.com,screenrant.com,si.com,sigmatv.com,smakosze.pl,southpark.*,southparkstudios.*,sportitalialive.com,susanhavekeep.com,swiatzwierzat.pl,swipeto.pl,theroot.com,thomasalthoughhear.com,timesofindia.indiatimes.com,timmaybealready.com,titans.com.au,toddpartneranimal.com,turysci.pl,tvp.info,tvp.pl,tvpparlament.pl,twojapogoda.pl,un-block-voe.net,urochsunloath.com,voe-unblock.*,voe.sx,voeunbl0ck.com,voeunblk.com,voeunblock.com,voeunblock2.com,walterprettytheir.com,watch.plex.tv,zacharycollectionmight.com##+js(google-ima)
 247wallst.com###article-main-content > div.adthrive ~ div.fwpPitch.bg-white
 24chasa.bg##.sidebar:has(> div.ad)
 24en.com##.article_part_top
@@ -41724,7 +41734,6 @@ arenda.az##.banner_side
 arenda.az##.center2 > a[href].bann
 arenda.az##.kurs_banner
 arenda.az,globalinfo.az,sfera.az,metbuat.az##.ainsyndication
-arhfoundation.org###popup-banner
 arigl.com,arigl.online,asianboy.fans,biovetro.net,bluedollar.net,boyfuck.me,cehennemstream.xyz,ceneval.shop,deblocker.merkulov.design,evaki.fun,fitnessplanss.com,freepatternsarea.com,freereadnovel.online,idlixvip.asia,javboys.tv,jobnoid.net,katoikos.world,mangacrab.org,mcxlive.org,nasdaqfutures.org,nulljungle.com,okpeliz.com,s0ft4pc.com,sampledrive.org,sharedwebs.com,sonixgvn.net,sportnews.to,sportshub.to,techedubyte.com,tuktukcinma.com,yomucomics.com##body > *:style(filter: none !important;)
 arigl.com,arigl.online,asianboy.fans,biovetro.net,bluedollar.net,boyfuck.me,cehennemstream.xyz,ceneval.shop,deblocker.merkulov.design,evaki.fun,fitnessplanss.com,freepatternsarea.com,freereadnovel.online,idlixvip.asia,javboys.tv,jobnoid.net,katoikos.world,mangacrab.org,mcxlive.org,nasdaqfutures.org,nulljungle.com,okpeliz.com,s0ft4pc.com,sampledrive.org,sharedwebs.com,sonixgvn.net,sportnews.to,sportshub.to,techedubyte.com,tuktukcinma.com,yomucomics.com##body > div[class*=" active"][style]:style(display: none !important;)
 arigl.com,arigl.online,asianboy.fans,biovetro.net,bluedollar.net,boyfuck.me,cehennemstream.xyz,ceneval.shop,deblocker.merkulov.design,evaki.fun,fitnessplanss.com,freepatternsarea.com,freereadnovel.online,idlixvip.asia,javboys.tv,jobnoid.net,katoikos.world,mangacrab.org,mcxlive.org,nasdaqfutures.org,nulljungle.com,okpeliz.com,s0ft4pc.com,sampledrive.org,sharedwebs.com,sportnews.to,sportshub.to,techedubyte.com,tuktukcinma.com,yomucomics.com##body > div[class*=" active"][style] + div[class]:has(> .active > [class*="-content"]):style(display: none !important;)
@@ -47094,7 +47103,7 @@ darkscene.org##.full-adv-block
 darkw.pl##.adsbox:style(display: block!important; height: 1px!important; position: absolute!important; left: -3000px!important;)
 darkw.pl##.bladbl
 darkw.pl##.main > .container > .topic > .topic__row:has(> .topic__user > a[href="Reklama/"])
-dartsstreams.me,fbstream.is,fbstream.*,vipleague.vg,vipleague.*,cracktv.me,cracktv.*,strikeout.im,strikeout.*,boxingbox.me,boxingbox.*,rugbybox.me,rugbybox.*,nflbox.sx,nflbox.*,f1box.cc,f1box.*,mmabox.me,mmabox.*,nbabox.*,nbabox.co,soccerbox.me,soccerbox.*,worldsports.st,worldsports.*,buffsports.io,olympicweb.me,olympicweb.*,www.vipbox.fm,vipbox.*,vipstand.*,viprow.is,viprow.*##button[data-openuri*="https://"][data-open="_blank"]
+dartsstreams.me,fbstream.is,fbstream.*,vipleague.me,vipleague.*,cracktv.me,cracktv.*,strikeout.im,strikeout.*,boxingbox.me,boxingbox.*,rugbybox.me,rugbybox.*,nflbox.sx,nflbox.*,f1box.cc,f1box.*,mmabox.me,mmabox.*,nbabox.*,nbabox.co,soccerbox.me,soccerbox.*,worldsports.st,worldsports.*,buffsports.io,olympicweb.me,olympicweb.*,vipbox.lc,vipbox.*,vipstand.*,viprow.is,viprow.*##button[data-openuri*="https://"][data-open="_blank"]
 dasai8.com##.L > font[color="#0000FF"]
 dash.hyzen-cloud.com##+js(abort-on-property-write, adScript)
 dasinvestment.com##.billboard-ad-mobile_switcher
@@ -49523,6 +49532,8 @@ etymonline.com##main .space-y-2:has(> .relative > .w-full > .justify-center > .f
 eu.press-citizen.com##.page-background-placeholder
 eu.press-citizen.com##.secondary:has(> div.content-well > div.module-slot > partner-poster)
 euautodily.cz,euautoteile.de,euautoteile.at,euautoteile.ch,euautopezzi.it,euautopieces.fr,euautoczesci.pl,euantallaktika.gr,euautorecambios.es,euautopecas.pt,euautoonderdelen.be,euautodele.dk,eualkatresz.hu,euvaraosat.fi,euspares.co.uk,euavtodeli.si,euroautodiely.sk,euavtochasti.bg,euautodalys.lt,euautopiese.ro,euautoonderdelen.nl,euautodeler.co.no,euautodalas.lv,euautoosad.ee,eurobildelar.se##.traffic_banner_wrapper
+eugenemakedraw.com,rebeccasciencestreet.com,nicholasbreakplan.com,benjaminreducecommunity.com,maryspecialwatch.com,brittanyaheadnew.com,charlessheimprove.com,richardquestionbuilding.com,timmaybealready.com,charlestoughrace.com,ianrequireadult.com,marissasharecareer.com,jessicaclearout.com,jefferycontrolmodel.com,dianaavoidthey.com,lancewhosedifficult.com,lauradaydo.com,crystaltreatmenteast.com,walterprettytheir.com,christopheruntilpoint.com,mikaylaarealike.com,lukesitturn.com,jilliandescribecompany.com,kellywhatcould.com,johnalwayssame.com,mariatheserepublican.com,jonathansociallike.com,diananatureforeign.com,sarahnewspaperbeat.com,richardsignfish.com,jennifercertaindevelopment.com,nathanfromsubject.com,adrianmissionminute.com,kristiesoundsimply.com,heatherwholeinvolve.com,alejandrocenturyoil.com,maxfinishseveral.com,robertordercharacter.com,sandratableother.com,brittneystandardwestern.com,jamessoundcost.com,toddpartneranimal.com,kimberlyonlocal.com,richardstorehalf.com,zacharycollectionmight.com,thomasalthoughhear.com,susanhavekeep.com,lorimuchbenefit.com,evelynthankregion.com,jessicaglassauthor.com,lisatrialidea.com,bethshouldercan.com,donaldlineelse.com,josephseveralconcern.com,alleneconomicmatter.com,robertplacespace.com,heatherdiscussionwhen.com,jayservicestuff.com,morganoperationface.com,johntryopen.com,jamiesamewalk.com,kennethofficialitem.com,lukecomparetwo.com,edwardarriveoften.com,paulkitchendark.com,kathleenmemberhistory.com,phenomenalityuniform.com,urochsunloath.com,35volitantplimsoles5.com,antecoxalbobbing1010.com,cyamidpulverulence530.com,guidon40hyporadius9.com,housecardsummerbutton.com,un-block-voe.net,voeunblk.com,voeunbl0ck.com,voeunblock2.com,voeunblock.com,voe-unblock.*,voe.sx##+js(abort-current-script, $, /\.fadeIn|\.show\(.?\)/)
+eugenemakedraw.com,rebeccasciencestreet.com,nicholasbreakplan.com,benjaminreducecommunity.com,maryspecialwatch.com,brittanyaheadnew.com,charlessheimprove.com,richardquestionbuilding.com,timmaybealready.com,charlestoughrace.com,ianrequireadult.com,marissasharecareer.com,jessicaclearout.com,jefferycontrolmodel.com,dianaavoidthey.com,lancewhosedifficult.com,lauradaydo.com,crystaltreatmenteast.com,walterprettytheir.com,christopheruntilpoint.com,mikaylaarealike.com,lukesitturn.com,jilliandescribecompany.com,kellywhatcould.com,johnalwayssame.com,mariatheserepublican.com,jonathansociallike.com,diananatureforeign.com,sarahnewspaperbeat.com,richardsignfish.com,jennifercertaindevelopment.com,nathanfromsubject.com,adrianmissionminute.com,kristiesoundsimply.com,heatherwholeinvolve.com,alejandrocenturyoil.com,maxfinishseveral.com,robertordercharacter.com,sandratableother.com,brittneystandardwestern.com,jamessoundcost.com,toddpartneranimal.com,kimberlyonlocal.com,richardstorehalf.com,zacharycollectionmight.com,thomasalthoughhear.com,susanhavekeep.com,lorimuchbenefit.com,evelynthankregion.com,jessicaglassauthor.com,lisatrialidea.com,bethshouldercan.com,donaldlineelse.com,josephseveralconcern.com,alleneconomicmatter.com,robertplacespace.com,heatherdiscussionwhen.com,jayservicestuff.com,morganoperationface.com,johntryopen.com,jamiesamewalk.com,kennethofficialitem.com,lukecomparetwo.com,edwardarriveoften.com,paulkitchendark.com,kathleenmemberhistory.com,phenomenalityuniform.com,urochsunloath.com,35volitantplimsoles5.com,antecoxalbobbing1010.com,cyamidpulverulence530.com,guidon40hyporadius9.com,housecardsummerbutton.com,un-block-voe.net,voeunblk.com,voeunbl0ck.com,voeunblock2.com,voeunblock.com,voe-unblock.*,voe.sx##+js(abort-current-script, encodeURIComponent, break;case)
 euobserver.com###root > div > div[style^="padding-top:"] > div[style*="top:"]:style(top: 0 !important;)
 euobserver.com##._11d7t56:style(display: none !important;)
 euobserver.com##.mxeqxb:style(display: none !important;)
@@ -58247,6 +58258,7 @@ kmplayer.com##.infeed-bottom
 kmplayer.com##.txt_advertisement
 knaben.xyz,thepiratebay.zone,pirateproxylive.org,tpb.party##.download > a[target="_blank"]:not([href*="magnet:"], [href*="tpb.party"], [href*="pirateproxylive.org"])
 knit.bid,lovecutes.com,xx.knit.bid##.clickadu-container
+knowledgeatlas.blog,arhfoundation.org###popup-banner
 knowmore.cc##.ins
 knowtechie.com###mvp-side-wrap a[rel*="sponsored"]
 knowyourmeme.com##.content-unit-refresh-wrapper
@@ -59072,6 +59084,7 @@ libreshot.com##.section-inner:has(> .tag_ad_row)
 libreshot.com,jav1080.com,sex-leaks.com,gay1080.com,javsister.com###boxzilla-overlay
 libreshot.com,jav1080.com,sex-leaks.com,gay1080.com,javsister.com##.boxzilla-container
 librestock.com##.adobe-promo
+libvio.lat##.app-download-guide
 libvio.me##.hidden-log
 libvio.me##.inner-advertise
 libvio.me,www.libvio.cc##.t-img-box
@@ -64414,6 +64427,7 @@ nontonx.com##body > div[style]:has(> div[style] > button[onclick="location.reloa
 noodlemagazine.com##.container > noindex
 noodlemagazine.com##.main > div.container > div[style^="max-width:450px;margin:0 auto;padding:15px"]
 noodlemagazine.com##.menu > a[href^="https://theporndude.com/"]
+noodlemagazine.com##.mn-related-container
 noodlemagazine.com##.video_player + style:remove()
 noodlemagazine.com##.video_player ~ div[style]:remove()
 noodlemagazine.com##div[style="width:900px;height:250px;margin:20px auto 0"]
@@ -64981,7 +64995,7 @@ olympics.com##[data-cy="adv-container"]
 olympics.com##div[class^="indexstyles__AdWrapper-sc-"]
 olympics.com##header.-sticky:style(top: 0 !important;)
 olympicstreams.me,vipleague.mobi##.col-md-4.pull-right[style]
-olympicweb.me,olympicweb.*,www.viprow.is,viprow.*,soccerbox.me,soccerbox.*,www.vipbox.fm,vipbox.*,vipleague.vg,vipleague.*,f1box.cc,f1box.*,mlbbox.me,mmabox.me,mmabox.*,nbabox.*,nbabox.co,nflbox.sx,nflbox.*,nhlbox.me,rugbybox.me,rugbybox.*,tennisonline.me,cricstreams.re,dartsstreams.me,vipboxtv.*,dartsstream.me,golfstreams.me,motogpstream.me,tennisstreams.me,boxingbox.me,boxingbox.*,ufcstream.me,nbastream.nu##div[class*="position-absolute"][class*="bg-opacity-"]
+olympicweb.me,olympicweb.*,www.viprow.is,viprow.*,soccerbox.me,soccerbox.*,vipbox.lc,vipbox.*,vipleague.me,vipleague.*,f1box.cc,f1box.*,mlbbox.me,mmabox.me,mmabox.*,nbabox.*,nbabox.co,nflbox.sx,nflbox.*,nhlbox.me,rugbybox.me,rugbybox.*,tennisonline.me,cricstreams.re,dartsstreams.me,vipboxtv.*,dartsstream.me,golfstreams.me,motogpstream.me,tennisstreams.me,boxingbox.me,boxingbox.*,ufcstream.me,nbastream.nu##div[class*="position-absolute"][class*="bg-opacity-"]
 olympijskytym.cz##div.bg-texture:has(> div[class^="ad-"])
 olympusbiblioteca.com##div[ad-placement]
 olympustaff.com##+js(no-setTimeout-if, testAd)
@@ -66238,10 +66252,9 @@ ping-test.net##.rek970x90
 ping-test.net##div[style^="width: 336px; height: 280px;"]
 ping.chinaz.com##.sth > .col-red
 ping.eu##td > center[style="margin-bottom: 2px;"]
-ping0.cc###adiright
 ping0.cc##.toprow
-ping0.cc##.xdeles
 ping0.cc##a[rel="noopener nofollow"][target="_blank"]:has(> [class^="close"])
+ping0.cc##div:has(>a>.tipbd)
 pinggu.org##.hdbanner
 pinggu.org##.index-somelinks
 pinggu.org##.indextop-r
@@ -71092,7 +71105,7 @@ sobooks.cc##div[class="book-right"]
 soccer-100.com##a[href^="https://s.click.aliexpress.com/"]
 soccer-king.jp##div[style]:has(> div > div[id^="div-gpt-ad"]):not(.left_clm)
 soccer.yahoo.co.jp##.sc-modAd
-soccerbox.me,soccerbox.*,www.vipbox.fm,vipbox.*,vipleague.vg,vipleague.*##a[data-openuri*="https://"][data-open="_blank"]
+soccerbox.me,soccerbox.*,vipbox.lc,vipbox.*,vipleague.me,vipleague.*##a[data-openuri*="https://"][data-open="_blank"]
 soccerdigestweb.com##div[class^="bnr_w3"]
 soccerfullmatch.com,javhub.net,highporn.net,xxxparodyhd.net,uptobox.com,uptostream.com,pornkino.cc,watchpornfree.info,xxxmoviestream.xyz,mangoporn.co,xopenload.me,streamporn.pw##+js(abort-on-property-read, jsUnda)
 soccerjumbotv.me##.containerDiv
@@ -74770,8 +74783,6 @@ tracktollywood.com##.track-above-article
 tracktollywood.com##article > .tdc-zone > .tdc_zone > .tdc-row:has(> .vc_row > .vc_column_container > .wpb_wrapper > .tdm_block_popup > script)
 tracktrace.dpd.com.pl###banner-central-footer-link
 tracktrace.dpd.com.pl##.banner-side-bar:style(visibility: hidden !important;)
-tracylocalschool.com,rebeccasciencestreet.com,nicholasbreakplan.com,benjaminreducecommunity.com,maryspecialwatch.com,brittanyaheadnew.com,charlessheimprove.com,richardquestionbuilding.com,timmaybealready.com,charlestoughrace.com,ianrequireadult.com,marissasharecareer.com,jessicaclearout.com,jefferycontrolmodel.com,dianaavoidthey.com,lancewhosedifficult.com,lauradaydo.com,crystaltreatmenteast.com,walterprettytheir.com,christopheruntilpoint.com,mikaylaarealike.com,lukesitturn.com,jilliandescribecompany.com,kellywhatcould.com,johnalwayssame.com,mariatheserepublican.com,jonathansociallike.com,diananatureforeign.com,sarahnewspaperbeat.com,richardsignfish.com,jennifercertaindevelopment.com,nathanfromsubject.com,adrianmissionminute.com,kristiesoundsimply.com,heatherwholeinvolve.com,alejandrocenturyoil.com,maxfinishseveral.com,robertordercharacter.com,sandratableother.com,brittneystandardwestern.com,jamessoundcost.com,toddpartneranimal.com,kimberlyonlocal.com,richardstorehalf.com,zacharycollectionmight.com,thomasalthoughhear.com,susanhavekeep.com,lorimuchbenefit.com,evelynthankregion.com,jessicaglassauthor.com,lisatrialidea.com,bethshouldercan.com,donaldlineelse.com,josephseveralconcern.com,alleneconomicmatter.com,robertplacespace.com,heatherdiscussionwhen.com,jayservicestuff.com,morganoperationface.com,johntryopen.com,jamiesamewalk.com,kennethofficialitem.com,lukecomparetwo.com,edwardarriveoften.com,paulkitchendark.com,kathleenmemberhistory.com,phenomenalityuniform.com,urochsunloath.com,35volitantplimsoles5.com,antecoxalbobbing1010.com,cyamidpulverulence530.com,guidon40hyporadius9.com,housecardsummerbutton.com,un-block-voe.net,voeunblk.com,voeunbl0ck.com,voeunblock2.com,voeunblock.com,voe-unblock.*,voe.sx##+js(abort-current-script, $, /\.fadeIn|\.show\(.?\)/)
-tracylocalschool.com,rebeccasciencestreet.com,nicholasbreakplan.com,benjaminreducecommunity.com,maryspecialwatch.com,brittanyaheadnew.com,charlessheimprove.com,richardquestionbuilding.com,timmaybealready.com,charlestoughrace.com,ianrequireadult.com,marissasharecareer.com,jessicaclearout.com,jefferycontrolmodel.com,dianaavoidthey.com,lancewhosedifficult.com,lauradaydo.com,crystaltreatmenteast.com,walterprettytheir.com,christopheruntilpoint.com,mikaylaarealike.com,lukesitturn.com,jilliandescribecompany.com,kellywhatcould.com,johnalwayssame.com,mariatheserepublican.com,jonathansociallike.com,diananatureforeign.com,sarahnewspaperbeat.com,richardsignfish.com,jennifercertaindevelopment.com,nathanfromsubject.com,adrianmissionminute.com,kristiesoundsimply.com,heatherwholeinvolve.com,alejandrocenturyoil.com,maxfinishseveral.com,robertordercharacter.com,sandratableother.com,brittneystandardwestern.com,jamessoundcost.com,toddpartneranimal.com,kimberlyonlocal.com,richardstorehalf.com,zacharycollectionmight.com,thomasalthoughhear.com,susanhavekeep.com,lorimuchbenefit.com,evelynthankregion.com,jessicaglassauthor.com,lisatrialidea.com,bethshouldercan.com,donaldlineelse.com,josephseveralconcern.com,alleneconomicmatter.com,robertplacespace.com,heatherdiscussionwhen.com,jayservicestuff.com,morganoperationface.com,johntryopen.com,jamiesamewalk.com,kennethofficialitem.com,lukecomparetwo.com,edwardarriveoften.com,paulkitchendark.com,kathleenmemberhistory.com,phenomenalityuniform.com,urochsunloath.com,35volitantplimsoles5.com,antecoxalbobbing1010.com,cyamidpulverulence530.com,guidon40hyporadius9.com,housecardsummerbutton.com,un-block-voe.net,voeunblk.com,voeunbl0ck.com,voeunblock2.com,voeunblock.com,voe-unblock.*,voe.sx##+js(abort-current-script, encodeURIComponent, break;case)
 tradefairdates.com,transfermarkt.*##.werbung
 traderie.com##.ae-fixed
 traderie.com##div[height="250px"][width="300px"]
