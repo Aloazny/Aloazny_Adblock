@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: RBleqjoKUaK6USUw7z4ytw
+! Checksum: cU1WWlOTSMyRY9esuY8VhQ
 ! Title: Aloazny Mobile fiter
-! Version: 20260904234955
+! Version: 20260905110836
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-09-04 23:49:55
-! Total Count: 95554
-! Blocked Filters: 95554
+! Last modified: 2026-09-05 11:08:36
+! Total Count: 95560
+! Blocked Filters: 95560
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock.txt?ref=main
 
 
-!<<<<<域名规则>>>>>37483
+!<<<<<域名规则>>>>>37487
 |http$3p,script,domain=kinotut.tv
 |http*://$image,3p,domain=rmdown.com
 |http*://$script,3p,domain=stream2watch.org,badfilter
@@ -4695,6 +4695,7 @@
 ||ads-gdl.imovideo.ru^
 ||ads-interfaces.sc-cdn.net^
 ||ads-leaseweb.appsgeyser.com^
+||ads-m.rustore.ru^
 ||ads-media.gameforge.com^
 ||ads-partners.coupang.com^
 ||ads-pixiv.net^
@@ -12443,6 +12444,7 @@
 ||e958262067.4dccfcf337.com^
 ||e99on67498rlkzf.wceqp5pcyg3mjynr662uv1o.cyou^
 ||e9d8d5a7cd.bd5166375c.com^
+||e9zrvermi.com^
 ||ea56b2625c.c998f1483b.com^
 ||ea5s00h6oo.com^
 ||ea76c61190.1bb4f2018f.com^
@@ -19213,6 +19215,7 @@
 ||jxcn.cn/assets/images/downWeatherApp.png
 ||jxcn.cn/js/hotpic_
 ||jxcrnwc.xyz^
+||jxdbvmmau.com^
 ||jxdown.com/statics/js/all.js
 ||jxdown.com^$3p
 ||jxexzw.ryj696m5t9u85b8q7g.cyou^
@@ -23224,6 +23227,7 @@
 ||nqdufv.xyz^
 ||nqoxurf.icu^
 ||nqqv.1y4tp8bek3vq5ctlwll8lp71.cyou^
+||nqrsdhemqmfdry.com^
 ||nqwgvk.cn^
 ||nrfvq6g98.com^
 ||nrj.fr/nrj?Page=/rg.fake&
@@ -37500,13 +37504,14 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>42716
+!<<<<<网站单独规则>>>>>42717
 $3p,domain=76fengyun.com|avsdown.com|downdv.com|downdvs.com|downhhh.com|imedown.info|jandown.com|mimima.com|mnks.jxedt.com|rmdown.com|soyunpan.com|xmflv.com
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
 $3p,xhr,domain=faselhd.cafe|faselhd-watch.shop,badfilter
 $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,3p,denyallow=cdn77.org|globalcdn.co|others-cdn.com|rncdn7.com|sb-cd.com|stream.highwebmedia.com|thumb.live.mmcdn.com|upsiloncdn.net|xvideos-cdn.com|youjizz.com|ypncdn.com,domain=pussyspace.com|pussyspace.net
+$image,3p,denyallow=googleapis.com,domain=vipbox1.org
 $image,3p,domain=258zw.com|lady1.top
 $image,script,stylesheet,subdocument,3p,xhr,domain=animepahe.com,badfilter
 $script,3p,denyallow=bowercdn.net,domain=yourupload.com
@@ -80219,13 +80224,14 @@ zzztube.com,videoporn.tube##.b-random-column
 zzzyk.com###Tinfo
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>5086
+!<<<<<通配符规则>>>>>5087
 $3p,domain=76fengyun.com|avsdown.com|downdv.com|downdvs.com|downhhh.com|imedown.info|jandown.com|mimima.com|mnks.jxedt.com|rmdown.com|soyunpan.com|xmflv.com
 $3p,websocket,xhr,domain=qiyoudy2.com|qiyoudy4.com
 $3p,xhr,domain=faselhd.cafe|faselhd-watch.shop,badfilter
 $3p,xhr,domain=subhd.tv|subhdtw.com|zzzzz688.com
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,3p,denyallow=cdn77.org|globalcdn.co|others-cdn.com|rncdn7.com|sb-cd.com|stream.highwebmedia.com|thumb.live.mmcdn.com|upsiloncdn.net|xvideos-cdn.com|youjizz.com|ypncdn.com,domain=pussyspace.com|pussyspace.net
+$image,3p,denyallow=googleapis.com,domain=vipbox1.org
 $image,3p,domain=258zw.com|lady1.top
 $image,script,stylesheet,subdocument,3p,xhr,domain=animepahe.com,badfilter
 $script,3p,denyallow=bowercdn.net,domain=yourupload.com
