@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: PTeJ4vWpav3rQuXF+DtXRw
+! Checksum: kcD2Tk1gB7ohlfNCceSqlQ
 ! Title: Aloazny Chinese fiter
-! Version: 20260915113548
+! Version: 20260916002121
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-09-15 11:35:48
-! Total Count: 49082
-! Blocked Filters: 49082
+! Last modified: 2026-09-16 00:21:21
+! Total Count: 49102
+! Blocked Filters: 49102
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-!<<<<<域名规则>>>>>20980
+!<<<<<域名规则>>>>>20985
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,third-party,domain=dlkoo.cc
@@ -317,6 +317,7 @@
 ||131r3lknzg.com^
 ||1328f.com/js/jquery.js
 ||1342a.com/js/jquery.js
+||136ckqmwc.com^
 ||1378a.xyz^
 ||1379a.xyz^
 ||1381a.xyz^
@@ -7131,6 +7132,7 @@
 ||eshm72fwql.com^
 ||eslbahw.top^
 ||esoterictools.com^
+||esotvjhho.com^
 ||esozdcn.icu^
 ||essaygiants.com^
 ||essayspin.com^
@@ -13516,6 +13518,7 @@
 ||oiunga.com^
 ||oiuqwppcsdf.com^
 ||oiwlnlu.com^
+||oj1boygkz.com^
 ||oj2c0dkk4.com^
 ||oj95rctd5.com^
 ||ojbkmcsdx.xyz^
@@ -14507,6 +14510,7 @@
 ||pv.zhiding.cn^
 ||pv4b.com^
 ||pv7ezc6as.com^
+||pv848vdcv.com^
 ||pv966.us/js/tw.js
 ||pvajlmhjjq.xyz^
 ||pvgcyyh.icu^
@@ -20169,6 +20173,7 @@
 ||ynkunarlg.com^
 ||ynpkjip43x.com^
 ||ynslvyou.com^
+||ynwibbkll.com^
 ||ynzhby.com^
 ||ynztzh.com^$third-party
 ||yoda.kwd.inkuai.com^
@@ -20997,7 +21002,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>16589
+!<<<<<网站单独规则>>>>>16600
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,subdocument,third-party,domain=dlkoo.com
@@ -25988,6 +25993,7 @@ ecchizen.com,chosun.com##iframe[title="Advertisement"]
 eccn.com###sem_online
 echofm.online###echo-main > div:has(> div[id^="div-gpt-"])
 eclat.hpplus.jp###dfp_overlay
+eclat.hpplus.jp##.l-banner-top
 economictimes.com,maharashtratimes.com,vijaykarnataka.com,gadgetsnow.com,mensxp.com##style[type="text/css"] + div[class]:not([id]):not([style]):not([class*=" "])
 economist.com##.adComponent
 ecpoc.com##.arcbodyad
@@ -28417,6 +28423,7 @@ ifeng.com##div[class^="topAd-"]
 ifeng.com##div[class^="topBox-"]
 ifeng.com##div[id^="couplet3_"]
 ifeng.com##div[id^="padhide_"]
+ifeng.com##img[src*=".ifengimg.com/feprod"]
 ifeng.com##section > [class^="index_toolbar"]
 ifeng.com,koe-koe.com,miercn.com##.ad_list
 ifeng.com,sohu.com##.ad950
@@ -30907,6 +30914,7 @@ mainichigahakken.net##.ad-sp_block
 mainichigahakken.net##.affiliate_bnr
 mainichikirei.jp##.article__inner > div[style^="text-align:center; margin-top:"][style*="margin-bottom:0px; color: #595757; font-size: 0.9em; height: 1"]
 mainichikirei.jp##aside[style="width:100%; padding:10px 0; background:#f3f3f3;"]
+mainichikirei.jp##div[style^="text-align:center; margin-top:"]
 mainpost.de##div[id^="slot-topmobile"]
 majikichi.com###article_bottom_v2 + aside#lite_link
 majikichi.com##.content > aside#lite_link
@@ -31400,6 +31408,7 @@ money.cnn.com##.ob-widget-section.ob-first
 money.cnn.com##iframe[src^="http://money.cnn.com/.element/ssi/partners/"]
 money.it###gmp-topmobile
 moneycontrol.com##.admobile_mrkt
+moneycontrol.com##.ads-320-250
 moneycontrol.com##.ads-320-50
 moneycontrol.com##.advSlotsGrayBoxs
 moneycontrol.com##.ltsnewsbx > ul > li.desk-hide:has(> div[class^="native_ad_"])
@@ -32624,6 +32633,7 @@ peers.tv##.moanerwrap
 peing.net##body > button.close-button[style^="position: fixed; left: 50%; background: none;"]
 peing.net##div[id^="ad-container"]
 peizimenhu.com##a[href^="http"]:not([href*=".peizimenhu."]) > img[src^="data/attachment/portal/"]
+pen-online.jp##.gam-sp-header-reserve
 pennlive.com,mlive.com,al.com###ad-wrapper__mobile-bottom-adhesion
 people.cn##.img_flow_ad
 people.com.cn##.ad_left
@@ -32912,6 +32922,7 @@ pornhits.com,onlyporn.tube##.video-header
 pornhk.org##video[preload][playsinline="true"]
 pornhoarder.gd,pornhoarder.tv##.video-detail-sbspace
 pornhub-com.appspot.com,pornhub.com,pornhub.net,pornhubthbh7ap3u.onion,tube8.com,tube8.es,tube8.fr,tube8.net,youporn.com###pb_template
+pornhub.com###mobileContainer > div[class$="ad"]
 pornhub.com###pb_block
 pornhub.com###relatedVideosCenter > .wrapVideoBlock
 pornhub.com###relatedVideosCenter > .wrapVideoBlock:has(> .videoSpiceVidsBlock span.bg-spice-badge)
@@ -32979,6 +32990,7 @@ pornlulu.com##.container-fluid[style="background:#000;height:40px;"]
 pornlulu.com##.links:not([role="menu"]:last-child)
 pornlulu.com##.row.links
 pornmoviesuhd.com##.full-bns-block
+porno5.autos##.ui-card_banner
 pornobueno.com##.adz
 pornocarioca.com##.pc-info-box__clickad
 pornocarioca.com##.top-banner--mobile
@@ -33388,6 +33400,7 @@ qzwb.com##body > .area[style^="height:60px;"]
 r10.net##.container > div > a[target="_blank"] > img
 r10.net##.container > div[class^="r"]:has(> div[class] > a[href][target="_blank"])
 r10.net##.postList > div[class^="r"]:has(> a[href][target="_blank"])
+r34tube.com##.justify-center:has(iframe[title*="Advertisement"])
 r3sub.com##div[class] > a[href^="show.php?id="][target="_blank"] > img
 r7.com###adsMobileFixed
 r7.com###adsTopMobileFixed
@@ -33660,6 +33673,8 @@ rule34video.com##.spot_under
 rule34video.com##[class*="spot"]:has(script[src*="/lv/esnk"])
 rumusrumus.com##.closads
 rundschau-online.de##div[id^="mobile_"]
+runnersworld.de##.commercial
+runnersworld.de##div[data-mps_adwrapper]
 runoob.com###sidebar-right-re
 runoob.com##.article-heading-ad
 runoob.com##.sidebar-box:has(.re-600160)
@@ -37072,6 +37087,7 @@ yatu.tv###a_d1
 yaya0506.com##iframe[style="border: 0;"][width="100%"][height="280"][src^="//www.12beststar.com/"]
 yazhouse8.com##.mini-over-top
 yb983.com##div[id^="pop"]
+yc.ifeng.com##.app-hook
 yd.baidu.com##div[class="baiduBtn btn"]
 yd.baidu.com##div[class="bottom_layout"]
 yd.baidu.com##div[class="productBtn btn"]
@@ -37589,7 +37605,7 @@ zzyiwan.com##div[style="width: 100%; overflow: hidden; padding-top: 0px; positio
 zzzyk.com###Tinfo
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通配符规则>>>>>4256
+!<<<<<通配符规则>>>>>4260
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,subdocument,third-party,domain=dlkoo.com
@@ -39164,7 +39180,7 @@ $websocket,domain=wap.yushuwu.cloud
 /^https?:\/\/[a-z0-9.-]+\/[0-9a-f]{4}\/[0-9a-f]{4}ll[0-9a-f]{4,}\.js$/$script,~third-party
 /^https?:\/\/kan\.znds\.com\/public\/home\/images\/[0-9]+-[0-9]+\.gif\?v=/$domain=kan.znds.com
 /^https?:\/\/m\.anysex\.com\/[a-zA-Z]{1,4}\/[a-zA-Z]+\.php$/$image,script,domain=m.anysex.com
-/^https?:\/\/pikabu\.ru\/ajax\/{1,2}[A-Za-z0-9_%.-]+\?[A-Za-z0-9]+=[0-9a-f]{23,}_[0-9]+/$xmlhttprequest,domain=pikabu.ru
+/^https?:\/\/pikabu\.ru\/ajax\/{1,2}[^?]+\?[A-Za-z0-9]+=[0-9a-f]{22,}_[0-9]+/$xmlhttprequest,domain=pikabu.ru
 /^https?:\/\/www\.[a-z]{8,14}\.(bid|club|co|com|me|pro|info)\/[a-z]{1,12}\.js$/$script,third-party,domain=2ddl.vg|guard.link|anidl.org|srt.am|widestream.io|xxxstreams.me|animeforce.it|streamporn.me|speedporn.net|youwatchporn.com|oke.io|2ddl.unblocked.vc|gaypornwave.com|watchpornfree.ws|hentaimoe.me|sportsgala.xyz
 /^https?:\/\/xxximage\.org\/[a-z\d]+\.js$/$domain=xxximage.org
 /^https?:\/\/zoomgirls\.net\/[a-z\d]+\.(js)$/$domain=zoomgirls.net
@@ -41450,6 +41466,10 @@ $websocket,domain=wap.yushuwu.cloud
 ://*yydstxt*/js/html$script,~third-party
 ://13*x*.jqs*.xyz/*/*/$third-party,~image,~media,~stylesheet
 ://17*.com:9*/*/*?*$third-party,~media,~stylesheet,~image
+://17*.xyz/s.js$third-party
+://17*.xyz/tj/$third-party
+://17*.xyz/x.js$third-party
+://17*.xyz/xsj.js$third-party
 ://18comic*/templates/frontend/airav/js/*_*4*.js
 ://1909.*/plugins/jquery.modal/
 ://1909.*/plugins/sweetAlert
