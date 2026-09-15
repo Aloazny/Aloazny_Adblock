@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: xcxVQ7YS5KuJxZ6CMnQLRg
+! Checksum: D3xkQeAlDwuguFtrHUhU/A
 ! Title: Aloazny Mobile fiter
-! Version: 20260915014737
+! Version: 20260915113621
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-09-15 01:47:37
-! Total Count: 95808
-! Blocked Filters: 95808
+! Last modified: 2026-09-15 11:36:21
+! Total Count: 95820
+! Blocked Filters: 95820
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock.txt?ref=main
 
 
-!<<<<<域名规则>>>>>37597
+!<<<<<域名规则>>>>>37605
 |http$third-party,script,domain=kinotut.tv
 |http*://$image,third-party,domain=rmdown.com
 |http*://$script,third-party,domain=stream2watch.org,badfilter
@@ -2313,6 +2313,7 @@
 ||4pcp5e2w7i.com^
 ||4po6iqp9.cn^
 ||4pyszxxaw.com^
+||4q7unmlg5.com^
 ||4ro76m7k2n.com^
 ||4rzph5ytr.com^
 ||4sexmail.com^
@@ -11636,6 +11637,7 @@
 ||dicemoments.com^
 ||dicesuki.goasrv.com^
 ||dichvuonline.goasrv.com^
+||diciestchokybuffi.cyou^
 ||dict.youdao.com/vip/privilege/show/V*?bannerType=fanyiTop$domain=fanyi.youdao.com
 ||dictionary.cambridge.org/*/iaw-cdo.min.js
 ||dididy.xyz^
@@ -13375,6 +13377,7 @@
 ||f3819983.go-static.info^
 ||f3a95oy5m.com^
 ||f3dfe4416a.528b4dabec.com^
+||f3wl3q92p.com^
 ||f42aee9897.78f201e862.com^
 ||f46563a525.5bd3cec305.com^
 ||f4h123m89w.com^
@@ -21940,6 +21943,7 @@
 ||midifan.com/aaa/
 ||midnightlotusgrove.com^
 ||midnightmead.com^
+||midship24.com^
 ||mifengtd.cn/ad-
 ||mifyeldx.top^
 ||mightyspiders.com^
@@ -22680,6 +22684,7 @@
 ||mzhhdn.com/hongbao.jpg
 ||mzqf1.com^
 ||mzstatic.com^$image,domain=rocketnews24.com|youpouch.com|soranews24.com
+||mzuwfvo2e.com^
 ||mzwzo.cn^
 ||mzxvib.com^
 ||mzya5718.xyz^
@@ -25145,6 +25150,7 @@
 ||preciousplanes.com^
 ||precipice55.com^
 ||precisear.com^
+||precoxwurzels.qpon^
 ||predictivadnetwork.com^$all
 ||predictplate.com^
 ||prefixpatriot.com^
@@ -26486,6 +26492,7 @@
 ||rhiolf.cn^
 ||rhlxm.top^
 ||rhmt1jjyo.com^
+||rhnipjxcxlhzbc.com^
 ||rhododendron15.top^
 ||rhombus74.com^
 ||rhrrf.cn^
@@ -29827,6 +29834,7 @@
 ||streambolt.tv/js2/
 ||streamcr7.com/footyshoes.gif
 ||streamed.pk/static/rainbet3.webp
+||streamex.hn/pop.js
 ||streamex.sh/pop.js
 ||streamfree.to/acebet-banner
 ||streamfree.top/analytics.js
@@ -37614,7 +37622,7 @@
 ||zzzyk.com/js/
 !<<<<<域名规则 结束>>>>>
 
-!<<<<<网站单独规则>>>>>42832
+!<<<<<网站单独规则>>>>>42836
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe.com,badfilter
 $image,third-party,denyallow=cdn77.org|globalcdn.co|others-cdn.com|rncdn7.com|sb-cd.com|stream.highwebmedia.com|thumb.live.mmcdn.com|upsiloncdn.net|xvideos-cdn.com|youjizz.com|ypncdn.com,domain=pussyspace.com|pussyspace.net
@@ -39949,7 +39957,7 @@ aajtak.in,businesstoday.in##.itgdAdsPlaceholder
 aajtak.in,businesstoday.in##.stoybday-ad
 aamulehti.fi##.parade-ad
 aap.org##.self-serve-content-ad
-aap.org,bbcgoodfood.com,cryptobriefing.com,edh.tw,energetyka24.com,ertk.net,gardenersworld.com,gifyu.com,historyextra.com,huskers.com,imgse.com,indiaglitz.com,latestly.com,ndtv.com,ohsame.com,rule34-videos.com,topperlearning.com##.ad-banner
+aap.org,bbcgoodfood.com,cryptobriefing.com,edh.tw,energetyka24.com,ertk.net,gardenersworld.com,gifyu.com,historyextra.com,huskers.com,imgse.com,indiaglitz.com,isitcracked.com,latestly.com,ndtv.com,ohsame.com,rule34-videos.com,topperlearning.com##.ad-banner
 aaread.space##div[style^="position: fixed; bottom:"]
 aaread.space,sex-gen.com##.navi
 aarp.org##.aarpe-ad
@@ -49912,6 +49920,7 @@ f2movies.*##+js(set-constant, document.write, undefined)
 f2movies.to,cineb.rs,himovies.bz##.block_area > div[class][style="width: 100%; padding-bottom: 320px; position: relative;"]:empty
 f2movies.to,moviesjoy.to##.news-iframe
 f2movies.to,streameast.watch##+js(abort-current-script, JSON.parse, getPropertyValue('content'))
+f7hyg4q.org,q8y5z.com,rupertisdivingintoocean.com,398fitus.com,f75s.com,f16px.com##+js(no-setTimeout-if, readyWait)
 f800riders.org##.california-sticky-footer-ad-container
 f95zone.to##body > div[id][style*="width: 100%;"]
 f95zone.to##ul > li:has(> div > a[href^="https://f95zone.to/link-forums/"])
@@ -56944,6 +56953,10 @@ ishadeed.com###carbonadsWrapper
 ishowx.com##.ad1160
 ishuati.com###adsh
 ishuhui.com##.a_xx_d
+isitcracked.com##a[rel^="nofollow sponsored"]
+isitcracked.com##aside.hidden > div.sticky > div.rounded-xl:has(> p.tracking-widest)
+isitcracked.com##div.flex.justify-center:has(> div[class] > p.tracking-widest)
+isitcracked.com##div.min-h-screen > div.mx-auto:has(div.ad-banner)
 isitdownorjustme.net##.aioc_advertise_box
 isitdownorjustme.net##img[width="970"][height="250"]
 isitdownrightnow.com###commentstop
@@ -68224,7 +68237,6 @@ pythonthree.com##.sidebar-main
 pythonworld.ru##.pythonworld-contributor
 pzgolf.pl##.ban_static
 pzzc.net##.portal_block_summary
-q8y5z.com,rupertisdivingintoocean.com,398fitus.com,f75s.com,f16px.com##+js(no-setTimeout-if, readyWait)
 qa.opensooq.com##.adSearch
 qafqazinfo.az##a.visible-lg
 qafqazinfo.az##div[id^="sag-banner-"]
