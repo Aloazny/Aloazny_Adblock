@@ -1,0 +1,30 @@
+name: desize
+on:
+  workflow_dispatch:
+
+jobs:
+  clean:
+    runs-on: ubuntu-latest
+      
+    steps:
+      - name: Clone repo
+        run: git clone --mirror https://github.com/Aloazny/Aloazny_Adblock.git repo_gh
+          
+      - name: Clean up
+        run: |
+          curl -fsSL -o bfg.jar https://repo1.maven.org/maven2/com/madgag/bfg/1.14.0/bfg-1.14.0.jar && \
+          java -jar bfg.jar --strip-blobs-bigger-than 10K repo_gh && \
+          cd repo_gh && \
+          git reflog expire --expire=now --all && \
+          git gc --prune=now --aggressive
+          
+      - name: Push
+        run: |
+          cd repo_gh
+          git config --local user.email ${{ secrets.MYEMAIL }}
+          git config --local user.name ${{ secrets.MYUSERNAME }}
+          git show-ref | cut -d' ' -f2 | grep 'pull' | xargs -r -L1 git update-ref -d
+          git remote set-url origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
+          git push origin --force
+          cd ../
+          rm -rf repo_gh
