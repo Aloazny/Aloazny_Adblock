@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: zYiGENchPrAVM96JtNuBDw
+! Checksum: NogEpZw3Ga38FWZkbYhpdQ
 ! Title: Aloazny Chinese fiter
-! Version: 20260926003823
+! Version: 20260926114412
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-09-26 00:38:23
-! Total Count: 48602
-! Blocked Filters: 48602
+! Last modified: 2026-09-26 11:44:12
+! Total Count: 48608
+! Blocked Filters: 48608
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -4176,7 +4176,7 @@ zhaotianbao1.cn/*/ywy*.apk
 zhaotianbao1.cn/*/ywy*.apk$~third-party
 ! >>>>>> 通配符规则 结束 <<<<<<
 
-! >>>>>> 域名规则 · 2.1w (20665) <<<<<<
+! >>>>>> 域名规则 · 2.1w (20669) <<<<<<
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,third-party,domain=dlkoo.cc
@@ -13545,6 +13545,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||i14laze0.xyz^
 ||i16-tb.isnssdk.com^
 ||i16vlgqdhh.com^
+||i27jhc4ut0.com^
 ||i2ad.jp^
 ||i2fxsez4f0.com^
 ||i2t1zp6t2v.com^
@@ -20476,6 +20477,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||star-media.cn^$third-party
 ||star-seo.oss-ap-northeast-1.aliyuncs.com^
 ||staramuse.com/bmip/showg
+||starboard65.com^
 ||starkscale.com^
 ||starnnews.com/banner/
 ||starrynets.com^
@@ -21315,6 +21317,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||tocologist44.top^
 ||todayapp.tv^$third-party
 ||todayweather.co/ads.json
+||tofqldmutnvdda.com^
 ||tofupancake.com^
 ||tofusquirrel.com^
 ||toggle.qq.com^
@@ -24772,6 +24775,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||zumnervl.com^
 ||zuowen.hydcd.com^
 ||zuqqgwi.icu^
+||zv5h2l1qdi.com^
 ||zvasuzb.icu^
 ||zvciaoan1k.com^
 ||zvdc9y.icu^
@@ -24844,7 +24848,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||zzzyk.com/js/
 ! >>>>>> 域名规则 结束 <<<<<<
 
-! >>>>>> 网站单独规则 · 1.7w (16550) <<<<<<
+! >>>>>> 网站单独规则 · 1.7w (16552) <<<<<<
 /87\d{2}ck\.cc##.stui-vodlist > li:has(> div.stui-vodlist__box > a[href][target="_blank"])
 /87\d{2}ck\.cc##body > div[style] > a[href][target="_blank"]
 /slkpeqme\d\.shop##.small-icon-container > a[target="_blank"]
@@ -29082,6 +29086,7 @@ cumhuriyet.com.tr##.container > div.row > div.row.mb20:has(> #sticky-player)
 cumhuriyet.com.tr##.main-row > div.col-sm-8 > div.clearfix ~ div.row.mb20
 cumhuriyet.com.tr##header > address + div[style^="text-align:center; margin-bottom:20px;"]
 cumlouder.com##.banner-300x100
+cumshotsluts.com##aside:has(ins[data-zoneid])
 cupfox.app###outer-container > .model:has(> .model-content > a[href*=".jd.com"])
 cupfox.app##.banner > div.banner-content.right
 cupfox.app##.model:has(> .model-content > a[href*=".jd.com"])
@@ -33112,6 +33117,7 @@ jomo-news.co.jp##.top-genre-articles-item:has(> div[id^="div-gpt-"])
 joporn.online##[data-zone-id][data-teaser-id]
 joporn.online##[id][class]:not([style]):has([data-zone-id][data-teaser-id])
 jorudan.co.jp##div[style="display: flex;justify-content: center;margin: 15px 0;"]
+joshi-spa.jp##.banner_widget:has(> a:not([href*="joshi-spa.jp"]))
 journaldesfemmes.fr,linternaute.com,journaldunet.com##body .ccmcss_oas_top
 journaldugeek.com##.banner__content
 jovencitas.gratis##.med
@@ -37367,6 +37373,7 @@ refind2ch.org##.ads_sp_base
 reforma.com##div[class="bloque_znoticias"][id]:empty
 reg.163.com##div[class="g-hd hd-you"]
 regionalwolfenbuettel.de##.mobile-ad1
+relazo.net##.wider:has(> div[style]:only-child > .adPost)
 rennrad-news.de##.mtbnews-forum__mobile-top
 rennrad-news.de,mtb-news.de##.mtbnews-top
 renote.net##.ad__video
@@ -39963,7 +39970,6 @@ weitushe.com##div[id^="BAIDUAD"]
 weiyun001.com##.agency-list
 weiyun001.com##.bg-box > .slide-box
 weiyun001.com##.g-side-r > a[onclick^="onLogs"]
-weloma.art##.mCustomScrollbar center > iframe[src^="https://cresivetanach.com/"]
 welt.de##div[data-qa="Commercial-Wrapper.Mobile.MediumRectangle"]
 weme-quan.com##.erphpad-placeholder
 wen.baidu.com##.feed-recommend
