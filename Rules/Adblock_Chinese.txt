@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: NogEpZw3Ga38FWZkbYhpdQ
+! Checksum: pehMc+AMI6v3glxls2fnCw
 ! Title: Aloazny Chinese fiter
-! Version: 20260926114412
+! Version: 20260926235220
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-09-26 11:44:12
-! Total Count: 48608
-! Blocked Filters: 48608
+! Last modified: 2026-09-26 23:52:20
+! Total Count: 48618
+! Blocked Filters: 48618
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -2232,6 +2232,7 @@ $websocket,domain=wap.yushuwu.cloud
 /external_ads.
 /externalad.
 /externalads/*
+/extjs/ad/di*.js$script
 /extra_ads/*
 /ezprice_ad.js
 /fage/ad.js
@@ -2273,7 +2274,6 @@ $websocket,domain=wap.yushuwu.cloud
 /gamer/*$subdocument,domain=gamer.com.tw
 /gaog/*
 /gdpr-ad-script.
-/gdpr-ad-script.js$script
 /geminivideoads/*
 /gen-ad-
 /gen_ads_
@@ -4176,7 +4176,7 @@ zhaotianbao1.cn/*/ywy*.apk
 zhaotianbao1.cn/*/ywy*.apk$~third-party
 ! >>>>>> 通配符规则 结束 <<<<<<
 
-! >>>>>> 域名规则 · 2.1w (20669) <<<<<<
+! >>>>>> 域名规则 · 2.1w (20677) <<<<<<
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,third-party,domain=dlkoo.cc
@@ -5089,6 +5089,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||3t4j5adg9x.com^
 ||3t769up6.com^
 ||3v7c7y.online^
+||3vkgutjorg.com^
 ||3vvuu0z8ui.com^
 ||3wk.cc/images/*.gif
 ||3wzq2yxde.com^
@@ -5822,6 +5823,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||888bb666cc.com^
 ||888lianmeng.com^
 ||888xx222kk.com^
+||8896bhfg6l.com^
 ||88dus.win/sys.js
 ||88eg.cn^
 ||88la.la^
@@ -5870,6 +5872,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||8lj6g9gz4.com^
 ||8lmggang9.com^
 ||8mhcc.top^
+||8n2iu6djx6.com^
 ||8o5v23yip.com^
 ||8oghu1wcau.com^
 ||8p14q886v2.com^
@@ -8454,6 +8457,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||boringpirate.com^
 ||bornstar.*/ad-config.json
 ||bornstar.*/hl-pop.js
+||bornstar.*/tg-config.json
 ||boshishuwu.com/js/middlestyle.js
 ||boshishuwu.com/js/zhuanhua.js
 ||bosw.net/js/bos/*960
@@ -9016,6 +9020,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||cdn.bcebos.com/*/index.html
 ||cdn.bcebos.com/*/index.html$~third-party
 ||cdn.bdstatistics.com/send
+||cdn.bornstar.*/candy$media
 ||cdn.creative-bars1.com^
 ||cdn.dashenya.com^
 ||cdn.galacg.me/img/*.gif
@@ -16914,6 +16919,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||n7181.com^
 ||n7fyrdeen.com^
 ||n7hnij4fah.com^
+||n7xy4mz7pw.com^
 ||n8bpikx1mt.com^
 ||n8g1kvtmrf.com^
 ||n906n29tm.com^
@@ -19319,6 +19325,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||roywc0iql.com^
 ||rp9zb27jn1.com^
 ||rpahyhn.cn^
+||rpgi979tlb.com^
 ||rphwjxzekcbzxu.com^
 ||rpjjpm.site^
 ||rpkcqtf.cn^
@@ -22299,6 +22306,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||viet123.tv/btm/hxx.js
 ||viewyentreat.guru^
 ||vigyn4gpx.com^
+||vihiei5ek3.com^
 ||vihppjk.cn^
 ||vijaykarnataka.com/vkmage/
 ||vijnhyru.xyz^
@@ -24848,7 +24856,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||zzzyk.com/js/
 ! >>>>>> 域名规则 结束 <<<<<<
 
-! >>>>>> 网站单独规则 · 1.7w (16552) <<<<<<
+! >>>>>> 网站单独规则 · 1.7w (16553) <<<<<<
 /87\d{2}ck\.cc##.stui-vodlist > li:has(> div.stui-vodlist__box > a[href][target="_blank"])
 /87\d{2}ck\.cc##body > div[style] > a[href][target="_blank"]
 /slkpeqme\d\.shop##.small-icon-container > a[target="_blank"]
@@ -26994,7 +27002,6 @@ apkaward.com##.mmsssbox
 apkbog.com##.amp_atf
 apkcombo.com##.diseanmevrtt
 apkcombo.com##[data-d-ad-id]
-apkdog.com.ua,apkdog.*##.adv_text
 apkdog.com.ua,apkdog.*##.adx_center
 apkmirror.com###bottom-slider
 apkmirror.com##.ains-apkm_outbrain_ad
@@ -33721,6 +33728,7 @@ lkong.com##.lkong-ads
 lkvod.me##.ec-ad-img
 llifle.com###ad_blocker_found
 llss.bz###secondary img:not(.avatar)
+lmm85.com,lm6.net###app-capsule-modal
 lnews.jp##.bnr250
 lnews.jp##.sp-ad-height-100
 lnews.jp##.sp-ad-height-250
@@ -35014,6 +35022,7 @@ mfsft.com,xgmeitu.com##.apptur
 mg21.com##a[href="https://www.mg21.com/zunjiazq"]
 mgbbs.cn##td[width="960"][height="60"]
 mgnacg.com##a[href^="https://fanqiev2.work/auth/register?code="]
+mgnacg.com,mgnacg.vip,mgnacg.net##img[alt="展示你的位置"]
 mgsfhw.com,mgsgirls.com##.affs
 mgsfhw.com,mgsgirls.com##blockquote > blockquote
 mgsm.pl###plus-top-mobile
@@ -37531,8 +37540,8 @@ ryutsuu.biz##.sp-new-post-advertisement
 ryutsuu.biz##.sp-top-contents-advertisement
 s-max.jp,2chblog.jp,blog.jp,blog.livedoor.jp,bloggeek.jp,blogism.jp,blogo.jp,blogstation.jp,blogto.jp,cafeblog.jp,corpblog.jp,diary.to,doorblog.jp,dreamlog.jp,gger.jp,golog.jp,koriyama2shin.com,ldblog.jp,liblo.jp,livedoor.biz,livedoor.blog,myjournal.jp,mynikki.jp,officeblog.jp,officialblog.jp,publog.jp,storeblog.jp,teamblog.jp,techblog.jp,weblog.to,xxxblog.jp,youblog.jp##.plugin-ad
 s.cosme.net###cmn-ad-hdr
-s.inside-games.jp##.sp-ifad
 s.inside-games.jp##a[href^="https://deliver.ads2.iid.jp"]
+s.inside-games.jp,s.response.jp##.sp-ifad
 s.kabutan.jp##header + .bg-white.px-4.border-slate-100.border-solid
 s.kabutan.jp##main > div > div.justify-center[style="min-height:280px;"]
 s.kakaku.com###frameFeedRandomAd
@@ -41403,7 +41412,7 @@ zzyiwan.com##div[style="width: 100%; overflow: hidden; padding-top: 0px; positio
 zzzyk.com###Tinfo
 ! >>>>>> 网站单独规则 结束 <<<<<<
 
-! >>>>>> 通用Css规则 · 5.6k (5588) <<<<<<
+! >>>>>> 通用Css规则 · 5.6k (5589) <<<<<<
 ###ADbox
 ###ADtip
 ###Ad-Container
@@ -44594,6 +44603,7 @@ zzzyk.com###Tinfo
 ##.section-ad
 ##.section-ads
 ##.self-gg
+##.sf1-cinema-grid--ads
 ##.sgui-ad[id][data-position]
 ##.show-app2 + .apple
 ##.side-ad
