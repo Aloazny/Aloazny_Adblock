@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         仿M浏览器元素审查
 // @namespace    https://viayoo.com/81gzxv
-// @version      7.54
+// @version      7.55
 // @description  利用AI模仿并生成M浏览器的元素审查（感谢M浏览器原生交互灵感），在脚本菜单开启元素审查，专注精准AD规则生成与编辑，支持DOM树浏览、实时编辑（文字/代码/删除/换图/撤销）、存储管理、JS终端等功能。
 // @author       Via && Gemini
 // @match        *://*/*
@@ -459,7 +459,7 @@
         if (isCollapsed) { panel.style.height = '40px'; document.body.style.paddingBottom = '40px';
         if (foldBtn) foldBtn.setAttribute('data-text', '▲展开');
         } else {
-            const adaptiveHeight = window.innerHeight < 600 ? '45%' : '50%';
+            const adaptiveHeight = window.innerHeight < 600 ? '48%' : '53%';
             panel.style.height = adaptiveHeight;
             document.body.style.paddingBottom = adaptiveHeight.replace('%', 'vh');
             if (foldBtn) foldBtn.setAttribute('data-text', '▼收起');
@@ -1009,24 +1009,36 @@
             return;
         }
         const linkEls = [];
-        const isBase64OrInvalid = (el) => {
-            const attr = el.getAttribute('href') || el.getAttribute('src') || '';
+        const isBase64OrInvalid = (el, attrName) => {
+            const attr = el.getAttribute(attrName) || '';
             const trimmed = attr.trim().toLowerCase();
-            return trimmed.startsWith('data:') || trimmed.startsWith('javascript:');
+            return trimmed.startsWith('data:') || trimmed.startsWith('javascript:') || trimmed.startsWith('blob:');
         };
-        const isTargetMatch = currentTarget.hasAttribute && (currentTarget.hasAttribute('href') || currentTarget.hasAttribute('src')) && !isBase64OrInvalid(currentTarget);
-        if (isTargetMatch) linkEls.push(currentTarget);
+        const candidateAttrs = ['href', 'src', 'data-url', 'data-href', 'data-src', 'data-original', 'data-lazy-src', 'data-link', 'data-path', 'action', 'poster'];
+        let targetAttr = candidateAttrs.find(a => currentTarget.hasAttribute && currentTarget.hasAttribute(a) && !isBase64OrInvalid(currentTarget, a));
+        if (targetAttr) linkEls.push({ el: currentTarget, attr: targetAttr });
         if (currentTarget.querySelectorAll) {
-            currentTarget.querySelectorAll('[href]:not([href^="data:"]):not([href^="javascript:"]), [src]:not([src^="data:"]):not([src^="javascript:"])').forEach(el => {
-                if (!linkEls.includes(el) && !isBase64OrInvalid(el)) linkEls.push(el);
+            const selector = candidateAttrs.map(a => `[${a}]:not([${a}^="data:"]):not([${a}^="javascript:"]):not([${a}^="blob:"])`).join(', ');
+            currentTarget.querySelectorAll(selector).forEach(el => {
+                const attr = candidateAttrs.find(a => el.hasAttribute(a) && !isBase64OrInvalid(el, a));
+                if (attr && !linkEls.some(item => item.el === el)) {
+                    linkEls.push({ el, attr });
+                }
             });
         }
         if (linkEls.length === 0) {
-            linksContent.innerHTML = '<div style="color:#999;padding:20px;">该元素内未找到 [href] / [src] 链接。</div>';
+            linksContent.innerHTML = '<div style="color:#999;padding:20px;">该元素内未找到任何有效的链接/媒体地址。</div>';
             return;
         }
         const getTypeTag = (url) => {
             try {
+                const schemeMatch = url.match(/^([a-zA-Z0-9+\-.]+):/);
+                if (schemeMatch) {
+                    const scheme = schemeMatch[1].toLowerCase();
+                    if (!['http', 'https', 'ftp', 'file'].includes(scheme)) {
+                        return { label: scheme, color: '#6f42c1' };
+                    }
+                }
                 const pathname = new URL(url, window.location.href).pathname;
                 let ext = pathname.split('.').pop().toLowerCase();
                 if (ext.length > 10) ext = ext.substring(0, 10);
@@ -1042,9 +1054,11 @@
                 return { label: 'link', color: '#6c757d' };
             }
         };
-        linkEls.forEach(el => {
-            const targetAttr = el.hasAttribute('href') ? 'href' : 'src';
-            const rawHref = el.getAttribute(targetAttr) || '';
+        const isCustomProtocol = (url) => {
+            return /^(tg|coolapkmarket|mailto|ed2k|thunder|magnet|intent|weixin|alipays|snssdk[0-9]+|mqqapi|bilibili):/i.test(url) || (!/^(http|https|file|ftp):/i.test(url) && /^[a-zA-Z0-9+\-.]+:/i.test(url));
+        };
+        linkEls.forEach(({ el, attr }) => {
+            const rawHref = el.getAttribute(attr) || '';
             let absUrl = rawHref;
             try { absUrl = new URL(rawHref, window.location.href).href; } catch (e) { absUrl = rawHref; }
             let currentRule = absUrl;
@@ -1074,7 +1088,17 @@
                     item.querySelector('.btn-undo').onclick = () => { currentRule = originalRule; updateUI(false); };
                 } else {
                     item.querySelector('.btn-copy').onclick = () => api.setClipboard(currentRule);
-                    item.querySelector('.btn-open').onclick = () => window.open(currentRule, '_blank');
+                    item.querySelector('.btn-open').onclick = () => {
+                        if (isCustomProtocol(currentRule)) {
+                            const iframe = document.createElement('iframe');
+                            iframe.style.display = 'none';
+                            iframe.src = currentRule;
+                            document.body.appendChild(iframe);
+                            setTimeout(() => iframe.remove(), 2000);
+                        } else {
+                            window.open(currentRule, '_blank');
+                        }
+                    };
                     item.querySelector('.btn-edit').onclick = () => updateUI(true);
                 }
             };
