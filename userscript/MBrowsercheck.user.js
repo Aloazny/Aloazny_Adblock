@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         仿M浏览器元素审查
 // @namespace    https://viayoo.com/81gzxv
-// @version      7.53
+// @version      7.54
 // @description  利用AI模仿并生成M浏览器的元素审查（感谢M浏览器原生交互灵感），在脚本菜单开启元素审查，专注精准AD规则生成与编辑，支持DOM树浏览、实时编辑（文字/代码/删除/换图/撤销）、存储管理、JS终端等功能。
 // @author       Via && Gemini
 // @match        *://*/*
@@ -1477,17 +1477,56 @@
         const stopProp = (e) => e.stopPropagation();
         const evTypes = ['keydown', 'keyup', 'keypress', 'input', 'touchstart', 'mousedown', 'click'];
         const parseAdblockSelector = (raw) => {
-            const trimmed = raw.trim();
+            let trimmed = raw.trim();
             if (!trimmed) return null;
-            const seps = ['#@#', '#?#', '#$#', '##'];
+            const seps = ['#@#', '#?#', '#$#', '#@?#', '#@$#', '##'];
+            let foundSep = false;
             for (const sep of seps) {
                 const idx = trimmed.indexOf(sep);
                 if (idx !== -1) {
-                    const sel = trimmed.substring(idx + sep.length).trim();
-                    return sel || null;
+                    trimmed = trimmed.substring(idx + sep.length).trim();
+                    foundSep = true;
+                    break;
                 }
             }
-            return null;
+            if (!foundSep && !trimmed.includes(':') && !trimmed.startsWith('.') && !trimmed.startsWith('#') && !trimmed.startsWith('[')) {
+                return null;
+            }
+            let converted = trimmed.replace(/:-abp-has\((.*?)\)/g, ':has($1)');
+            let textMatcher = null;
+            let propMatcher = null;
+            const textMatch = converted.match(/:(?:has-text|contains|:-abp-contains)\((.*?)\)/);
+            if (textMatch) {
+                let pattern = textMatch[1].trim();
+                if ((pattern.startsWith('"') && pattern.endsWith('"')) || (pattern.startsWith("'") && pattern.endsWith("'"))) {
+                    pattern = pattern.slice(1, -1);
+                }
+                if (pattern.startsWith('/') && (pattern.endsWith('/') || pattern.lastIndexOf('/') > 0)) {
+                    const lastSlash = pattern.lastIndexOf('/');
+                    const body = pattern.substring(1, lastSlash);
+                    const flags = pattern.substring(lastSlash + 1);
+                    try { textMatcher = new RegExp(body, flags); } catch(e) { textMatcher = pattern; }
+                } else {
+                    textMatcher = pattern;
+                }
+                converted = converted.replace(/:(?:has-text|contains|:-abp-contains)\(.*?\)/, '');
+            }
+            const propMatch = converted.match(/:-abp-properties\((.*?)\)/);
+            if (propMatch) {
+                let propStr = propMatch[1].trim();
+                if ((propStr.startsWith('"') && propStr.endsWith('"')) || (propStr.startsWith("'") && propStr.endsWith("'"))) {
+                    propStr = propStr.slice(1, -1);
+                }
+                propMatcher = propStr;
+                converted = converted.replace(/:-abp-properties\(.*?\)/, '');
+            }
+            converted = converted.trim();
+            if (!converted) converted = '*';
+            return {
+                baseSelector: converted,
+                textMatcher: textMatcher,
+                propMatcher: propMatcher
+            };
         };
         const updateSelection = () => {
             if (searchResults.length > 0) {
@@ -1524,18 +1563,49 @@
             currentSearchIdx = 0;
             countLab.innerText = '搜索中...';
             setTimeout(() => {
-                const adblockSel = parseAdblockSelector(rawVal);
-                const cssSelector = adblockSel || rawVal;
+                const parsedAdblock = parseAdblockSelector(rawVal);
                 const searchVal = rawVal.toLowerCase();
                 let selectorMatched = false;
-                try {
-                    const selectorMatches = document.querySelectorAll(cssSelector);
-                    selectorMatches.forEach(el => {
-                        if (!host.contains(el) && el !== document.documentElement && el !== document.body) searchResults.push(el);
-                    });
-                    selectorMatched = searchResults.length > 0;
-                } catch (e) {}
-                if (adblockSel || selectorMatched) {
+                if (parsedAdblock) {
+                    try {
+                        const candidates = document.querySelectorAll(parsedAdblock.baseSelector);
+                        candidates.forEach(el => {
+                            if (host.contains(el) || el === document.documentElement || el === document.body) return;
+                            let isMatch = true;
+                            if (parsedAdblock.textMatcher !== null) {
+                                const textContent = el.textContent || '';
+                                if (parsedAdblock.textMatcher instanceof RegExp) {
+                                    isMatch = parsedAdblock.textMatcher.test(textContent);
+                                } else {
+                                    isMatch = textContent.includes(parsedAdblock.textMatcher);
+                                }
+                            }
+                            if (isMatch && parsedAdblock.propMatcher !== null) {
+                                const computedStyle = window.getComputedStyle(el);
+                                const styleAttr = el.getAttribute('style') || '';
+                                const propQuery = parsedAdblock.propMatcher.toLowerCase();
+                                if (propQuery.includes(':')) {
+                                    const [pKey, pVal] = propQuery.split(':').map(s => s.trim());
+                                    const actualVal = computedStyle.getPropertyValue(pKey) || computedStyle[pKey] || '';
+                                    isMatch = actualVal.toLowerCase().includes(pVal);
+                                } else {
+                                    isMatch = !!computedStyle.getPropertyValue(propQuery) || computedStyle[propQuery] !== undefined || styleAttr.toLowerCase().includes(propQuery);
+                                }
+                            }
+                            if (isMatch) searchResults.push(el);
+                        });
+                        selectorMatched = searchResults.length > 0;
+                    } catch (e) {}
+                } else {
+                    try {
+                        const selectorMatches = document.querySelectorAll(rawVal);
+                        selectorMatches.forEach(el => {
+                            if (!host.contains(el) && el !== document.documentElement && el !== document.body) searchResults.push(el);
+                        });
+                        selectorMatched = searchResults.length > 0;
+                    } catch (e) {}
+                }
+                if (parsedAdblock || selectorMatched) {
                     searchResults = [...new Set(searchResults)];
                     updateSelection();
                     return;
