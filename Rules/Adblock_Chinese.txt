@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: AI4fnLfIMdk32Ze5Fof8Vg
+! Checksum: 02A7NZs/0kt2SGv5s5YXWw
 ! Title: Aloazny Chinese fiter
-! Version: 20261002020525
+! Version: 20261002121541
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-10-02 02:05:25
-! Total Count: 48346
-! Blocked Filters: 48346
+! Last modified: 2026-10-02 12:15:41
+! Total Count: 48353
+! Blocked Filters: 48353
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -4004,7 +4004,7 @@ yydstxt*.com/js/html
 zhaotianbao1.cn/*/ywy*.apk
 ! >>>>>> 通配符规则 结束 <<<<<<
 
-! >>>>>> 域名规则 · 2.1w (20614) <<<<<<
+! >>>>>> 域名规则 · 2.1w (20621) <<<<<<
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,third-party,domain=dlkoo.cc
@@ -5025,6 +5025,7 @@ zhaotianbao1.cn/*/ywy*.apk
 ||4paradigm.com^$domain=sina.com.cn
 ||4pcp5e2w7i.com^
 ||4po6iqp9.cn^
+||4ppj7n846t.com^
 ||4pyszxxaw.com^
 ||4q7unmlg5.com^
 ||4ro76m7k2n.com^
@@ -5148,6 +5149,7 @@ zhaotianbao1.cn/*/ywy*.apk
 ||54.169.80.245/ad^
 ||54.222.186.106^
 ||5442tu.com/style/ads5442.js
+||54ad.net^
 ||54admin.net/images/ad_
 ||54ads.com^
 ||54askjdklm.xyz^
@@ -7542,6 +7544,7 @@ zhaotianbao1.cn/*/ywy*.apk
 ||b1.xiao84.com^
 ||b10.justacdn.net^
 ||b10.yetacdn.com^$third-party
+||b11tuokk6g.com^
 ||b11yn56zn.com^
 ||b168.net^*.*?$image
 ||b1zftjhtwb.com^
@@ -18910,6 +18913,7 @@ zhaotianbao1.cn/*/ywy*.apk
 ||rentpenny.com^
 ||renwai.ren/cdn/pic/ad
 ||renzhen8.cn^
+||reo682syw4.com^
 ||reorganizes64.com^
 ||repeatsweater.com^
 ||repian.com/a/
@@ -21954,6 +21958,7 @@ zhaotianbao1.cn/*/ywy*.apk
 ||vbunpfvdn.com^
 ||vbw3q6jxn.com^
 ||vcdn.biz/*_mggads/
+||vchhgjkbod.icu^
 ||vcjzjnef.icu^
 ||vclunl.icu^
 ||vcsc1fp2f.com^
@@ -22588,6 +22593,7 @@ zhaotianbao1.cn/*/ywy*.apk
 ||windowszj.net/d/js/list/click
 ||windwardhollow.com^
 ||winniephc.com^
+||winnower18.top^
 ||winwin7.com/statics/js/pos_js/
 ||winwin7.com/statics/js/user/xz.
 ||wipbbok.com^
@@ -24378,6 +24384,7 @@ zhaotianbao1.cn/*/ywy*.apk
 ||zigzagcabin.com^
 ||zihuiguochao.top^
 ||zinoe.cn^
+||zipobfrcbodrvq.com^
 ||zipperxray.com^
 ||zipthelake.com^
 ||ziravd.xyz^
