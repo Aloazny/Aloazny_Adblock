@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Css清道夫
 // @namespace    https://viayoo.com/xrgy5f
-// @version      20261002021258
+// @version      20261003013823
 // @author       Github@lingeringsound && damengzhu && Deepseek
 // @description  由AI提取并生成通用规则提取的高性能CSS隐藏，无GM依赖。附带按站点拦截/放行管理界面。
 // @match        *://*/*
@@ -1718,6 +1718,7 @@
         ".detail_ad",
         ".detectBlockBox",
         ".detected-block-modal",
+        ".df1-card--ad",
         ".dfp-ad",
         ".dfpAdspot",
         ".dfp_ATF_wrapper",
@@ -1739,6 +1740,7 @@
         ".dx-ad",
         ".dx-recommend-icons",
         ".ec-ad-img",
+        ".entry-ad-art",
         ".entry-inner > div[style]:not([class]):not([id])",
         ".ep-overlay",
         ".ep-row.navIcons",
@@ -2593,6 +2595,7 @@
         ".reader-main > center > [style^=\"color: red;\"]",
         ".readmidad",
         ".readtj",
+        ".rec-row > a[target=\"_blank\"][rel*=\"sponsored\"]",
         ".reclamTable",
         ".rectangle_ad",
         ".remove-adblock-msg",
@@ -2728,6 +2731,7 @@
         ".top-ad-buttons",
         ".top-ad-container ~ div[id^=\"remove\"][style]",
         ".top-ad-slot",
+        ".top-ad-slot-btn",
         ".top-ads",
         ".top-ads-amp",
         ".top-ads-container",
@@ -3921,6 +3925,7 @@
         "div:not([id]):not([class]):not([style]) > li[style=\"list-style: none;\"]",
         "div[\\:class][class] > #myblock2",
         "div[allowtransparency='true'][scrolling='no']",
+        "div[aria-label=\"广告\"]",
         "div[class$=\"_b\"][style^=\"bottom:\"][style$=\"display: block;\"]",
         "div[class$=\"d\"] > span[class^=\"closebox\"]",
         "div[class$=\"pic\"] > span[class^=\"closebox\"]",
