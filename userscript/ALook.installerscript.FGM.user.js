@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ALook浏览器脚本直装助手(GM)
 // @namespace    https://www.alookweb.com/
-// @version      1.1
+// @version      1.2
 // @description  还原ALook原生安装协议识别并安装user.js后缀的脚本，模拟了一些简单的GM函数，能解决一部分脚本问题。
 // @author       Deepseek
 // @match        http*://*/*.user.js
@@ -121,27 +121,21 @@
         }
         return granted;
     }
+    
+    // 模拟支持的GM列表
+    const IMPLEMENTED_GM_APIS = {
+        GM_info: 1, GM_getValue: 1, GM_setValue: 1, GM_deleteValue: 1, GM_listValues: 1,
+        GM_addStyle: 1, GM_addElement: 1,
+        GM_registerMenuCommand: 1, GM_unregisterMenuCommand: 1,
+        GM_xmlhttpRequest: 1, GM_setClipboard: 1, GM_notification: 1,
+        GM_openInTab: 1,
+        GM_log: 1, 
+        GM_getResourceText: 1, GM_getResourceURL: 1,
+        unsafeWindow: 1
+    };
 
     function collectUsedApis(body) {
         const used = [];
-        const implemented = {
-            GM_getValue: 1,
-            GM_setValue: 1,
-            GM_deleteValue: 1,
-            GM_listValues: 1,
-            GM_addStyle: 1,
-            GM_addElement: 1,
-            GM_registerMenuCommand: 1,
-            GM_unregisterMenuCommand: 1,
-            GM_xmlhttpRequest: 1,
-            GM_setClipboard: 1,
-            GM_notification: 1,
-            GM_openInTab: 1,
-            GM_log: 1,
-            GM_getResourceText: 1,
-            GM_getResourceURL: 1,
-            unsafeWindow: 1
-        };
         const reg = /\b(GM(?:_[A-Za-z0-9_]+)?|unsafeWindow)\b/g;
         let match;
         let steps = 0;
@@ -149,7 +143,7 @@
             if (++steps > 20000) break;
             const api = match[1];
             if (api === 'GM') continue;
-            if (implemented[api]) continue;
+            if (IMPLEMENTED_GM_APIS[api]) continue;
             if (used.indexOf(api) === -1) used.push(api);
         }
         return used;
@@ -165,13 +159,16 @@
         ].join('|');
         return new RegExp(pattern).test(body);
     }
-
+    
     function analyzeGmCompat(metaRaw, content) {
-        if (content.length > 200000) return { granted: [], guarded: [], unsupported: [], skipped: 'size' };
+        const granted = collectGrantApis(metaRaw);
+        if (content.length > 200000) {
+            const grantUnsupported = granted.filter(api => !IMPLEMENTED_GM_APIS[api]);
+            return { granted: granted, guarded: [], unsupported: grantUnsupported, skipped: 'size' };
+        }
         const startedAt = Date.now();
         const timeoutMs = 300;
         const body = content.replace(/\/\/\s*==UserScript==[\s\S]*?\/\/\s*==\/UserScript==/i, '');
-        const granted = collectGrantApis(metaRaw);
         const used = collectUsedApis(body);
         const guarded = [];
         const unsupported = [];
@@ -183,6 +180,7 @@
         }
         return { granted: granted, guarded: guarded, unsupported: unsupported, skipped: null };
     }
+
 
     function _alookGmPolyfill() {
         var W = window;
@@ -314,14 +312,14 @@
             }
 
             const gmCompat = analyzeGmCompat(metaRaw, content);
-            if (gmCompat.unsupported.length > 0) {
-                if (!confirm(`该脚本直接依赖 ALook 未实现的 GM API：\n[ ${gmCompat.unsupported.join(', ')} ]\n\n脚本未做降级处理，可能无法正常运行。是否继续安装？`)) return;
-            }
             if (gmCompat.skipped === 'size') {
-                if (!confirm(`脚本正文超过 200000 字符，已跳过 GM 兼容性检测。\n\n若脚本中直接调用未实现的 GM API（如 GM_EX_getSearchEngines 等），ALook 将无法提供，脚本可能运行异常。是否继续安装？`)) return;
+                const grantList = gmCompat.unsupported.length > 0 ? `\n\n@grant 声明中 ALook 未实现的 API：\n[ ${gmCompat.unsupported.join(', ')} ]` : '\n\n@grant 声明的 API 均已在 polyfill 中实现。';
+                if (!confirm(`脚本正文超过 200000 字符，已跳过深度扫描，仅比对 @grant 声明。${grantList}\n\n是否继续安装？`)) return;
             } else if (gmCompat.skipped === 'timeout') {
                 const extra = gmCompat.unsupported.length > 0 ? `\n\n已扫描到的未实现 API：\n[ ${gmCompat.unsupported.join(', ')} ]` : '\n\n暂未扫描到未实现 API（检测未完成，不保证完整）。';
                 if (!confirm(`GM 兼容性检测超时（300ms），未能完成全部 API 扫描。${extra}\n\n是否继续安装？`)) return;
+            } else if (gmCompat.unsupported.length > 0) {
+                if (!confirm(`该脚本直接依赖 ALook 未实现的 GM API：\n[ ${gmCompat.unsupported.join(', ')} ]\n\n脚本未做降级处理，可能无法正常运行。是否继续安装？`)) return;
             }
 
             const meta = {};
