@@ -1,12 +1,11 @@
 // ==UserScript==
 // @name         ALook浏览器脚本直装助手(GM)
 // @namespace    https://www.alookweb.com/
-// @version      1.2
+// @version      1.3
 // @description  还原ALook原生安装协议识别并安装user.js后缀的脚本，模拟了一些简单的GM函数，能解决一部分脚本问题。
 // @author       Deepseek
 // @match        http*://*/*.user.js
 // @match        http*://*/*.userscript.js
-// @icon         https://www.alookweb.com/index_files/alook.png
 // @grant        none
 // @run-at       document-end
 // @license      MIT
@@ -181,11 +180,12 @@
         return { granted: granted, guarded: guarded, unsupported: unsupported, skipped: null };
     }
 
-
     function _alookGmPolyfill() {
         var W = window;
         W.unsafeWindow || (W.unsafeWindow = W);
-        if (W.__alookGMInstalled) return;
+        var POLYFILL_VERSION = 2;
+        if ((W.__alookGMVersion || 0) >= POLYFILL_VERSION) return;
+        W.__alookGMVersion = POLYFILL_VERSION;
         W.__alookGMInstalled = true;
         var NS = '__alook_gm::' + location.hostname + '::';
         function g(k, d) { try { var v = localStorage.getItem(NS + k); if (v === null) return d; try { var p = JSON.parse(v); return p === undefined ? d : p; } catch (e) { return v; } } catch (e) { return d; } }
@@ -247,7 +247,7 @@
             });
         }
         function xh(d) { var m = (d.method || 'GET').toUpperCase(), ct = new AbortController(), req = { readyState: 0, status: 0, statusText: '', responseText: '', response: '', responseHeaders: '', finalUrl: d.url, abort: function() { ct.abort(); } }, tm; if (d.timeout) tm = setTimeout(function() { ct.abort('timeout'); }, d.timeout); var fir = function(n, a) { try { d[n] && d[n](a); } catch (e) {} }, st = function(v) { req.readyState = v; fir('onreadystatechange', req); }; st(1); fetch(d.url, { method: m, headers: d.headers || {}, body: m === 'GET' || m === 'HEAD' ? undefined : d.data, credentials: 'omit', signal: ct.signal }).then(function(r) { st(2); req.status = r.status; req.statusText = r.statusText; var hs = []; r.headers.forEach(function(v, k) { hs.push(k + ': ' + v); }); req.responseHeaders = hs.join('\r\n'); return r.text(); }).then(function(t) { st(3); req.responseText = t; req.response = t; st(4); tm && clearTimeout(tm); fir('onload', req); }).catch(function() { tm && clearTimeout(tm); if (ct.signal.aborted && ct.signal.reason === 'timeout') fir('ontimeout', req); else fir('onerror', req); }); return req; }
-        function sc(t) { var v = String(t); try { if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(v); return; } } catch (e) {} try { var a = document.createElement('textarea'); a.value = v; a.style.cssText = 'position:fixed;left:-9999px;opacity:0'; document.body.appendChild(a); a.select(); document.execCommand('copy'); document.body.removeChild(a); } catch (e) {} }
+        function sc(t){var v=String(t);try{var a=document.createElement('textarea');a.value=v;a.style.cssText='position:fixed;left:-9999px;opacity:0';document.body.appendChild(a);a.focus();a.select();document.execCommand('copy');document.body.removeChild(a);}catch(e){}}
         function nt(a, b, c, e) { var o = typeof a === 'string' ? { text: a, title: b, image: c, onclick: e } : (a || {}); try { if (window.Notification && Notification.permission === 'granted') { var n = new Notification(o.title || '', { body: o.text || '', icon: o.image || '' }); if (o.onclick) n.onclick = o.onclick; return n; } console.log('[GM_notification]', o.title || '', o.text || ''); } catch (e) {} }
         function oit(u) { var w = window.open(u, '_blank'); return { close: function() { try { w && w.close(); } catch (e) {} }, get closed() { try { return !w || w.closed; } catch (e) { return true; } } }; }
         W.GM_getValue = g;
@@ -280,7 +280,7 @@
             openInTab: oit,
             log: function() { try { console.log.apply(console, arguments); } catch (e) {} }
         };
-        W.GM_info = W.GM_info || { scriptHandler: 'ALook_Fake_GM', version: '1.0', versionCode: 1, script: { name: '', namespace: '', version: '', matches: [] } };
+        W.GM_info = W.GM_info || {}; W.GM_info.scriptHandler = 'ALook_Fake_GM'; W.GM_info.version = '1.0'; W.GM_info.versionCode = POLYFILL_VERSION; W.GM_info.script = W.GM_info.script || { name: '', namespace: '', version: '', matches: [] };
     }
 
     const POLYFILL = '(' + _alookGmPolyfill.toString() + ')();';
@@ -344,7 +344,7 @@
                 url: (meta.match || meta.include || ['*']).map(rule =>
                     rule.replace(/^https?:\/\//, 'http*://*').replace(/\*/g, '.*')
                 ).join('@@'),
-                code: btoa(unescape(encodeURIComponent(`(function(){\n\n${POLYFILL}\n\nif(window.GM_info)window.GM_info.script=${metaJson};\n\n${content}\n\n})();`)))
+                code: btoa(unescape(encodeURIComponent(`(function(){\n\n${POLYFILL}\n\nvar GM_info={scriptHandler:'ALook_Fake_GM',version:'1.0',versionCode:2,script:${metaJson}};\n\n${content}\n\n})();`)))
             };
             window.via.addon(zhBase64.encode(JSON.stringify(config)));
         } catch (e) {
