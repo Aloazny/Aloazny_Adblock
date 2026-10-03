@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ALook浏览器脚本直装助手(GM)
 // @namespace   https://www.alookweb.com/
-// @version       1.40
+// @version       1.41
 // @description   还原ALook原生安装协议识别并安装user.js后缀的脚本，模拟了一些简单的GM函数，能解决一部分脚本问题。
 // @author       Deepseek
 // @match       http*://*/*.user.js
@@ -84,7 +84,6 @@
         const startRegex = /\/\/\s*==UserScript==/i;
         const startMatch = text.match(startRegex);
         if (!startMatch) return null;
-
         let lines = text.split('\n');
         let lastValidLineIdx = -1;
         for (let i = lines.length - 1; i >= 0; i--) {
@@ -93,12 +92,9 @@
                 break;
             }
         }
-
         if (lastValidLineIdx === -1) return null;
-
         const lastLineContent = lines[lastValidLineIdx].trim();
         const isEndValid = lastLineContent === ");" || lastLineContent.endsWith("})();") || lastLineContent === "})();";
-
         if (isEndValid) {
             const cutText = lines.slice(0, lastValidLineIdx + 1).join('\n');
             return cutText.substring(startMatch.index);
@@ -142,7 +138,7 @@
         while ((match = reg.exec(body)) !== null) {
             if (++steps > 20000) break;
             const api = match[1];
-            if (api === 'GM') continue;
+            if (api === 'GM' || api === 'GM_POLYFILLED') continue;
             if (IMPLEMENTED_GM_APIS[api]) continue;
             if (used.indexOf(api) === -1) used.push(api);
         }
