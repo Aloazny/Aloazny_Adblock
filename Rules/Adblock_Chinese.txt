@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: V/EfA/caI5JiWnLk+6//4A
+! Checksum: JQp/jQXzfbzyPtKBPIoHiA
 ! Title: Aloazny Chinese fiter
-! Version: 20261003013113
+! Version: 20261003115756
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-10-03 01:31:13
-! Total Count: 48367
-! Blocked Filters: 48367
+! Last modified: 2026-10-03 11:57:56
+! Total Count: 48373
+! Blocked Filters: 48373
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-! >>>>>> 通配符规则 · 4.0k (3987) <<<<<<
+! >>>>>> 通配符规则 · 4.0k (3988) <<<<<<
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com|lady1.top
 $script,subdocument,third-party,domain=dlkoo.com
@@ -1820,6 +1820,7 @@ $websocket,domain=wap.yushuwu.cloud
 /antv/*/antv-v*_asqt*.apk
 /antv/antv_v*.*.apk
 /aoyou372down300_
+/api.php/api/*/adsAll
 /api.php/timming/index?t=
 /api/*/g?kyurl=http*&refer=&pid=*=*&callback=$third-party
 /api/LM/*placeUUID=$third-party
@@ -4004,7 +4005,7 @@ yydstxt*.com/js/html
 zhaotianbao1.cn/*/ywy*.apk
 ! >>>>>> 通配符规则 结束 <<<<<<
 
-! >>>>>> 域名规则 · 2.1w (20628) <<<<<<
+! >>>>>> 域名规则 · 2.1w (20633) <<<<<<
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,third-party,domain=dlkoo.cc
@@ -5724,6 +5725,7 @@ zhaotianbao1.cn/*/ywy*.apk
 ||8spjnme44.com^
 ||8suis.top^
 ||8tbllquzr6.com^
+||8tjomzqlw.com^
 ||8uuxq3tvn.com^
 ||8w6hovz0d2.com^
 ||8w76hjp1vd.com^
@@ -12789,6 +12791,7 @@ zhaotianbao1.cn/*/ywy*.apk
 ||hdo0zseqy.com^
 ||hdpdrandpd.xyz^
 ||hdpornfree.xxx/sup/*.js
+||hdry1a0g9.com^
 ||hdsky.me/adv/
 ||hdslb.com/bfs/ad/
 ||hdslb.com/js/core-v5/picment.
@@ -15223,6 +15226,7 @@ zhaotianbao1.cn/*/ywy*.apk
 ||lele36.com/p/*.gif
 ||lelekan.com/sp/fmt.js
 ||leleketang.com/dat/a/
+||lelzbtm2o.com^
 ||lemonpackage.com^
 ||lemonsandjoy.com^
 ||lendc.xyz^
@@ -19106,6 +19110,7 @@ zhaotianbao1.cn/*/ywy*.apk
 ||roseincome.com^
 ||rossoad.com^
 ||rotaban.ru^
+||rotovator44.top^
 ||rottenray.com^
 ||rou.video/_next/static/chunks/pages/fuli-
 ||rou.video/js/exo.js
@@ -23297,6 +23302,7 @@ zhaotianbao1.cn/*/ywy*.apk
 ||xlekg58lub.com^
 ||xlhdicw.top^
 ||xlivrdr.com^
+||xlljnxnyhrprhw.com^
 ||xlmp4.cc/js/wcount.js
 ||xlog.jd.com^
 ||xlpu.cc/adv/
@@ -31720,7 +31726,7 @@ huangdoudj.com,huangdouhui.tv##.dm-float
 huangdoudj.com,huangdouhui.tv,youtube.com##[aria-label*="广告"]
 huanggua22.com##[href^="https://oxs31.pdom3k.icu/"]
 huanggua22.com##[src^="https://tutu.facaiimage.com/"]
-huangguo.video##.hg-exo-slot
+huangguo.video##[class^="hg-exo"]
 huangguoai.com##.hg-ssp-slot
 huanqiu.com###adP-Bot-right-float
 huanqiu.com###winNext

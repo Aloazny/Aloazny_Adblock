@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 29RyLb2JBpEtk1DsA8cPQw
+! Checksum: D1ugNMRV5VFcHh2s48LV9A
 ! Title: Aloazny attach fiter
-! Version: 20261003013108
+! Version: 20261003115751
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-10-03 01:31:08
-! Total Count: 21455
-! Blocked Filters: 21455
+! Last modified: 2026-10-03 11:57:51
+! Total Count: 21456
+! Blocked Filters: 21456
 ! Description: 合并混合规则的补充规则，轻量规则，可作为补充规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_attach.txt?ref=main
 
 
-! >>>>>> 通配符规则 · 3.1k (3085) <<<<<<
+! >>>>>> 通配符规则 · 3.1k (3086) <<<<<<
 $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.xyz
 &adZones$xmlhttprequest
 &ad_block=
@@ -1507,6 +1507,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 /antiadblockmsg.
 /antv/*/antv-v*_asqt*.apk
 /antv/antv_v*.*.apk
+/api.php/api/*/adsAll
 /api.php/timming/index?t=
 /api/*/g?kyurl=http*&refer=&pid=*=*&callback=$third-party
 /api/LM/*placeUUID=$third-party
@@ -13452,7 +13453,7 @@ huajiao.com##header[class^="js_header log-dl"]
 huajiao.com,m.ximalaya.com,soso.com,wap.soso.com###footer
 huangdoudj.com,huangdouhui.tv##.dm-float
 huangdoudj.com,huangdouhui.tv,youtube.com##[aria-label*="广告"]
-huangguo.video##.hg-exo-slot
+huangguo.video##[class^="hg-exo"]
 huanqiu.com###adP-Bot-right-float
 huaren.us##.ad-page-setting
 huaren.us##.article_title_ad_img

@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: Imue5f/xoOMsqeatf2RyLQ
+! Checksum: rYBmgisv7PtXxEWs2xCdKw
 ! Title: Aloazny Mobile fiter
-! Version: 20261003013128
+! Version: 20261003115810
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-10-03 01:31:28
-! Total Count: 96311
-! Blocked Filters: 96311
+! Last modified: 2026-10-03 11:58:10
+! Total Count: 96317
+! Blocked Filters: 96317
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock.txt?ref=main
 
 
-! >>>>>> 通配符规则 · 4.9k (4887) <<<<<<
+! >>>>>> 通配符规则 · 4.9k (4888) <<<<<<
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,denyallow=cdn77.org|globalcdn.co|others-cdn.com|rncdn7.com|sb-cd.com|stream.highwebmedia.com|thumb.live.mmcdn.com|upsiloncdn.net|xvideos-cdn.com|youjizz.com|ypncdn.com,domain=pussyspace.com|pussyspace.net
 $image,third-party,denyallow=googleapis.com,domain=vipbox1.org
@@ -2199,6 +2199,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=noop.txt,domain=zertalious.xyz
 /anymanagerrecover.js
 /aot-content/assets/*/cb-ads/*$domain=asiaon.top
 /aoyou372down300_
+/api.php/api/*/adsAll
 /api.php/timming/index?t=
 /api/*$script,~third-party,domain=mapple.*|mapple.fun|lightflix.app|mappl.tv
 /api/*/g?kyurl=http*&refer=&pid=*=*&callback=$third-party
@@ -4904,7 +4905,7 @@ zhaotianbao1.cn/*/ywy*.apk
 |/nbsys3/fsyspp.js
 ! >>>>>> 通配符规则 结束 <<<<<<
 
-! >>>>>> 域名规则 · 3.8w (37762) <<<<<<
+! >>>>>> 域名规则 · 3.8w (37767) <<<<<<
 |http$third-party,script,domain=kinotut.tv
 |http*://$image,third-party,domain=rmdown.com
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
@@ -8303,6 +8304,7 @@ zhaotianbao1.cn/*/ywy*.apk
 ||8suis.top^
 ||8tbllquzr6.com^
 ||8teenxxx.com/adboom.php
+||8tjomzqlw.com^
 ||8uuxq3tvn.com^
 ||8w6hovz0d2.com^
 ||8w76hjp1vd.com^
@@ -21442,6 +21444,7 @@ zhaotianbao1.cn/*/ywy*.apk
 ||hdpornfree.xxx/sup/*.js
 ||hdpornvideo.xxx/nbb/serve
 ||hdpornvideo.xxx/static/js/abb.js
+||hdry1a0g9.com^
 ||hdsexmovies.xxx/tmp/
 ||hdsky.me/adv/
 ||hdslb.com/bfs/ad/
@@ -25214,6 +25217,7 @@ zhaotianbao1.cn/*/ywy*.apk
 ||lele36.com/p/*.gif
 ||lelekan.com/sp/fmt.js
 ||leleketang.com/dat/a/
+||lelzbtm2o.com^
 ||lemming.nicolasmenard.com^
 ||lemming.vivian.do^
 ||lemonpackage.com^
@@ -31651,6 +31655,7 @@ zhaotianbao1.cn/*/ywy*.apk
 ||rossoad.com^
 ||rotaban.ru^
 ||rotate5url.com^$third-party
+||rotovator44.top^
 ||rott.mazlspqnn.ru^
 ||rottenray.com^
 ||rou.video/_next/static/chunks/pages/fuli-
@@ -39782,6 +39787,7 @@ zhaotianbao1.cn/*/ywy*.apk
 ||xlhdicw.top^
 ||xlivrdr.com^
 ||xlkf.goaserv.com^
+||xlljnxnyhrprhw.com^
 ||xlmp4.cc/js/wcount.js
 ||xlog.jd.com^
 ||xlpu.cc/adv/
@@ -60344,7 +60350,7 @@ huangdoudj.com,huangdouhui.tv##.dm-float
 huangdoudj.com,huangdouhui.tv,youtube.com##[aria-label*="广告"]
 huanggua22.com##[href^="https://oxs31.pdom3k.icu/"]
 huanggua22.com##[src^="https://tutu.facaiimage.com/"]
-huangguo.video##.hg-exo-slot
+huangguo.video##[class^="hg-exo"]
 huangguoai.com##.hg-ssp-slot
 huanqiu.com###adP-Bot-right-float
 huanqiu.com###winNext
