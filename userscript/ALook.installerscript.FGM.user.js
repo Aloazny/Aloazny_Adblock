@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ALook浏览器脚本直装助手(GM)
 // @namespace   https://www.alookweb.com/
-// @version       1.42
+// @version       1.43
 // @description   还原ALook原生安装协议识别并安装user.js后缀的脚本，模拟了一些简单的GM函数，能解决一部分脚本问题。
 // @author       Deepseek
 // @match       http*://*/*.user.js
@@ -334,7 +334,7 @@
                 url: (meta.match || meta.include || ['*']).map(rule =>
                     rule.replace(/^https?:\/\//, 'http*://*').replace(/\*/g, '.*')
                 ).join('@@'),
-                code: btoa(unescape(encodeURIComponent(`(function(){\n\n${POLYFILL}\n\nif(window.GM_info)window.GM_info.script=${metaJson};\n\n${content}\n\n})();`)))
+                code: btoa(unescape(encodeURIComponent(`(function(){\n\n${POLYFILL}\n\nif(window.GM_info)window.GM_info.script=${metaJson};\n\nvar GM_registerMenuCommand=(typeof window.GM_registerMenuCommand==='function')?function(n,f,a){var p=window.GM_info.script;window.GM_info.script=${metaJson};try{return window.GM_registerMenuCommand(n,f,a);}finally{window.GM_info.script=p;}}:undefined;\n\n${content}\n\n})();`)))
             };
             window.via.addon(zhBase64.encode(JSON.stringify(config)));
         } catch (e) {
