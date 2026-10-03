@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ALook浏览器脚本直装助手(GM)
 // @namespace   https://www.alookweb.com/
-// @version       1.41
+// @version       1.42
 // @description   还原ALook原生安装协议识别并安装user.js后缀的脚本，模拟了一些简单的GM函数，能解决一部分脚本问题。
 // @author       Deepseek
 // @match       http*://*/*.user.js
@@ -179,7 +179,7 @@
 
     function _alookGmPolyfill() {
         var W = window;
-        var POLYFILL_VERSION = 3;
+        var POLYFILL_VERSION = 4;
         if ((W.__alookGMVersion || 0) >= POLYFILL_VERSION) return;
         W.__alookGMVersion = POLYFILL_VERSION;
         W.__alookGMInstalled = true;
@@ -193,7 +193,8 @@
         function as(c) { try { var e = document.createElement('style'); e.textContent = c; (document.head || document.documentElement).appendChild(e); return e; } catch (e) { return null; } }
         function ae(a, b, c) { try { var p, t, x; if (typeof a === 'string') { t = a; x = b || {}; p = document.head || document.body; } else { p = a; t = b; x = c || {}; } var e = document.createElement(t); for (var k in x) { if (k === 'textContent') e.textContent = x[k]; else if (k.indexOf('on') === 0 && typeof x[k] === 'function') e.addEventListener(k.slice(2), x[k]); else e.setAttribute(k, x[k]); } p.appendChild(e); return e; } catch (e) { return null; } }
         var R = W.__alookGMMenu || (W.__alookGMMenu = { items: [], seq: 1, ui: null });
-        function rm(n, f, a) { var id = R.seq++; R.items.push({ id: id, name: n, fn: f, accessKey: a }); bu(); rf(); return id; }
+        function sn() { try { return (W.GM_info && W.GM_info.script && W.GM_info.script.name) || '未命名脚本'; } catch (e) { return '未命名脚本'; } }
+        function rm(n, f, a) { var id = R.seq++; R.items.push({ id: id, name: n, fn: f, accessKey: a, script: sn() }); bu(); rf(); return id; }
         function ru(id) { R.items = R.items.filter(function(c) { return c.id !== id; }); rf(); }
         function bu() {
             if (R.ui && document.body && document.body.contains(R.ui.root)) return;
@@ -211,6 +212,8 @@
                 + '.panel{position:absolute;right:48px;top:0;transform:translateY(-50%) translateX(12px) scale(.94);transform-origin:right center;min-width:180px;max-width:280px;max-height:60vh;overflow-y:auto;padding:8px;background:var(--gm-glass-strong);border:1px solid var(--gm-border);border-radius:18px;box-shadow:var(--gm-shadow);backdrop-filter:blur(40px) saturate(180%);-webkit-backdrop-filter:blur(40px) saturate(180%);opacity:0;pointer-events:none;transition:opacity .22s ease,transform .35s cubic-bezier(.34,1.4,.64,1);scrollbar-width:none}'
                 + '.panel::-webkit-scrollbar{display:none}'
                 + '.panel.on{opacity:1;pointer-events:auto;transform:translateY(-50%) translateX(0) scale(1)}'
+                + '.group{padding:9px 14px 5px;color:var(--gm-sub);font:600 11px/1.3 "SF Pro Text",-apple-system,system-ui,sans-serif;letter-spacing:.4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}'
+                + '.group:first-child{padding-top:5px}'
                 + '.item{padding:11px 14px;border-radius:11px;color:var(--gm-text);font:500 13px/1.35 "SF Pro Text",-apple-system,system-ui,sans-serif;cursor:pointer;margin-bottom:4px;transition:background .18s ease,color .18s ease,transform .18s ease;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}'
                 + '.item:last-child{margin-bottom:0}'
                 + '.item:hover{background:var(--gm-item-hover);color:var(--gm-accent)}'
@@ -231,7 +234,7 @@
             document.body.appendChild(r);
             R.ui = { root: r, btn: b, panel: p };
         }
-        function rf() { if (!R.ui) return; var p = R.ui.panel; p.innerHTML = ''; if (R.items.length === 0) { p.innerHTML = '<div class="empty">无脚本菜单</div>'; return; } R.items.forEach(function(c) { var d = document.createElement('div'); d.className = 'item'; d.textContent = typeof c.name === 'function' ? c.name() : c.name; d.addEventListener('click', function(e) { e.stopPropagation(); try { c.fn(); } catch (t) { console.error(t); } });  p.appendChild(d); }); }
+        function rf() { if (!R.ui) return; var p = R.ui.panel; p.innerHTML = ''; if (R.items.length === 0) { p.innerHTML = '<div class="empty">无脚本菜单</div>'; return; } var names = [], groups = {}; R.items.forEach(function(c) { var g = c.script || '未命名脚本'; if (!groups[g]) { groups[g] = []; names.push(g); } groups[g].push(c); }); names.forEach(function(g) { var t = document.createElement('div'); t.className = 'group'; t.textContent = g; t.title = g; p.appendChild(t); groups[g].forEach(function(c) { var d = document.createElement('div'); d.className = 'item'; d.textContent = typeof c.name === 'function' ? c.name() : c.name; d.addEventListener('click', function(e) { e.stopPropagation(); try { c.fn(); } catch (err) { console.error(err); } }); p.appendChild(d); }); }); }
         function xh(d) { var m = (d.method || 'GET').toUpperCase(), rt = d.responseType || 'text', ct = new AbortController(), req = { readyState: 0, status: 0, statusText: '', responseText: '', response: '', responseHeaders: '', finalUrl: d.url, abort: function() { ct.abort(); } }, tm; if (d.timeout) tm = setTimeout(function() { ct.abort('timeout'); }, d.timeout); var fir = function(n, a) { try { d[n] && d[n](a); } catch (e) {} }, st = function(v) { req.readyState = v; fir('onreadystatechange', req); }; st(1); fetch(d.url, { method: m, headers: d.headers || {}, body: m === 'GET' || m === 'HEAD' ? undefined : d.data, credentials: 'omit', signal: ct.signal }).then(function(r) { st(2); req.status = r.status; req.statusText = r.statusText; var hs = []; r.headers.forEach(function(v, k) { hs.push(k + ': ' + v); }); req.responseHeaders = hs.join('\r\n'); return rt === 'arraybuffer' ? r.arrayBuffer() : rt === 'blob' ? r.blob() : rt === 'json' ? r.json() : r.text(); }).then(function(t) { st(3); if (rt === 'text' || rt === '' || rt === 'document') { req.responseText = t; req.response = t; } else if (rt === 'json') { req.response = t; try { req.responseText = JSON.stringify(t); } catch (e) { req.responseText = ''; } } else { req.response = t; req.responseText = ''; } st(4); tm && clearTimeout(tm); fir('onload', req); }).catch(function() { tm && clearTimeout(tm); if (ct.signal.aborted && ct.signal.reason === 'timeout') fir('ontimeout', req); else fir('onerror', req); }); return req; }
         function sc(t) { var v = String(t); try { var a = document.createElement('textarea'); a.value = v; a.style.cssText = 'position:fixed;left:-9999px;opacity:0'; document.body.appendChild(a); a.focus(); a.select(); document.execCommand('copy'); document.body.removeChild(a); } catch (e) {} }
         function nt(a, b, c, e) { var o = typeof a === 'string' ? { text: a, title: b, image: c, onclick: e } : (a || {}); try { if (window.Notification && Notification.permission === 'granted') { var n = new Notification(o.title || '', { body: o.text || '', icon: o.image || '' }); if (o.onclick) n.onclick = o.onclick; return n; } console.log('[GM_notification]', o.title || '', o.text || ''); } catch (e) {} }
