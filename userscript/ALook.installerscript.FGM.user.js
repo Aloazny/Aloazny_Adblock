@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name         ALook浏览器脚本直装助手(GM)
-// @namespace    https://www.alookweb.com/
-// @version      1.31
-// @description  还原ALook原生安装协议识别并安装user.js后缀的脚本，模拟了一些简单的GM函数，能解决一部分脚本问题。
+// @namespace   https://www.alookweb.com/
+// @version       1.40
+// @description   还原ALook原生安装协议识别并安装user.js后缀的脚本，模拟了一些简单的GM函数，能解决一部分脚本问题。
 // @author       Deepseek
-// @match        http*://*/*.user.js
-// @match        http*://*/*.userscript.js
+// @match       http*://*/*.user.js
+// @match       http*://*/*.userscript.js
 // @icon         https://www.alookweb.com/index_files/alook.png
 // @grant        none
 // @run-at       document-end
@@ -183,11 +183,12 @@
 
     function _alookGmPolyfill() {
         var W = window;
-        W.unsafeWindow || (W.unsafeWindow = W);
-        var POLYFILL_VERSION = 2;
+        var POLYFILL_VERSION = 3;
         if ((W.__alookGMVersion || 0) >= POLYFILL_VERSION) return;
         W.__alookGMVersion = POLYFILL_VERSION;
         W.__alookGMInstalled = true;
+        var PF = W.GM_POLYFILLED = W.GM_POLYFILLED || {};
+        function reg(name, impl) { if (typeof W[name] === 'undefined') { W[name] = impl; PF[name] = true; } else { PF[name] = false; } }
         var NS = '__alook_gm::' + location.hostname + '::';
         function g(k, d) { try { var v = localStorage.getItem(NS + k); if (v === null) return d; try { var p = JSON.parse(v); return p === undefined ? d : p; } catch (e) { return v; } } catch (e) { return d; } }
         function s(k, v) { try { localStorage.setItem(NS + k, typeof v === 'string' ? v : JSON.stringify(v)); } catch (e) {} }
@@ -234,39 +235,28 @@
             document.body.appendChild(r);
             R.ui = { root: r, btn: b, panel: p };
         }
-        function rf() {
-            if (!R.ui) return;
-            var p = R.ui.panel;
-            p.innerHTML = '';
-            if (R.items.length === 0) { p.innerHTML = '<div class="empty">无脚本菜单</div>'; return; }
-            R.items.forEach(function(c) {
-                var d = document.createElement('div');
-                d.className = 'item';
-                d.textContent = typeof c.name === 'function' ? c.name() : c.name;
-                d.addEventListener('click', function(e) { e.stopPropagation(); try { c.fn(); } catch (t) { console.error(t); } });
-                p.appendChild(d);
-            });
-        }
-        function xh(d) { var m = (d.method || 'GET').toUpperCase(), ct = new AbortController(), req = { readyState: 0, status: 0, statusText: '', responseText: '', response: '', responseHeaders: '', finalUrl: d.url, abort: function() { ct.abort(); } }, tm; if (d.timeout) tm = setTimeout(function() { ct.abort('timeout'); }, d.timeout); var fir = function(n, a) { try { d[n] && d[n](a); } catch (e) {} }, st = function(v) { req.readyState = v; fir('onreadystatechange', req); }; st(1); fetch(d.url, { method: m, headers: d.headers || {}, body: m === 'GET' || m === 'HEAD' ? undefined : d.data, credentials: 'omit', signal: ct.signal }).then(function(r) { st(2); req.status = r.status; req.statusText = r.statusText; var hs = []; r.headers.forEach(function(v, k) { hs.push(k + ': ' + v); }); req.responseHeaders = hs.join('\r\n'); return r.text(); }).then(function(t) { st(3); req.responseText = t; req.response = t; st(4); tm && clearTimeout(tm); fir('onload', req); }).catch(function() { tm && clearTimeout(tm); if (ct.signal.aborted && ct.signal.reason === 'timeout') fir('ontimeout', req); else fir('onerror', req); }); return req; }
-        function sc(t){var v=String(t);try{var a=document.createElement('textarea');a.value=v;a.style.cssText='position:fixed;left:-9999px;opacity:0';document.body.appendChild(a);a.focus();a.select();document.execCommand('copy');document.body.removeChild(a);}catch(e){}}
+        function rf() { if (!R.ui) return; var p = R.ui.panel; p.innerHTML = ''; if (R.items.length === 0) { p.innerHTML = '<div class="empty">无脚本菜单</div>'; return; } R.items.forEach(function(c) { var d = document.createElement('div'); d.className = 'item'; d.textContent = typeof c.name === 'function' ? c.name() : c.name; d.addEventListener('click', function(e) { e.stopPropagation(); try { c.fn(); } catch (t) { console.error(t); } });  p.appendChild(d); }); }
+        function xh(d) { var m = (d.method || 'GET').toUpperCase(), rt = d.responseType || 'text', ct = new AbortController(), req = { readyState: 0, status: 0, statusText: '', responseText: '', response: '', responseHeaders: '', finalUrl: d.url, abort: function() { ct.abort(); } }, tm; if (d.timeout) tm = setTimeout(function() { ct.abort('timeout'); }, d.timeout); var fir = function(n, a) { try { d[n] && d[n](a); } catch (e) {} }, st = function(v) { req.readyState = v; fir('onreadystatechange', req); }; st(1); fetch(d.url, { method: m, headers: d.headers || {}, body: m === 'GET' || m === 'HEAD' ? undefined : d.data, credentials: 'omit', signal: ct.signal }).then(function(r) { st(2); req.status = r.status; req.statusText = r.statusText; var hs = []; r.headers.forEach(function(v, k) { hs.push(k + ': ' + v); }); req.responseHeaders = hs.join('\r\n'); return rt === 'arraybuffer' ? r.arrayBuffer() : rt === 'blob' ? r.blob() : rt === 'json' ? r.json() : r.text(); }).then(function(t) { st(3); if (rt === 'text' || rt === '' || rt === 'document') { req.responseText = t; req.response = t; } else if (rt === 'json') { req.response = t; try { req.responseText = JSON.stringify(t); } catch (e) { req.responseText = ''; } } else { req.response = t; req.responseText = ''; } st(4); tm && clearTimeout(tm); fir('onload', req); }).catch(function() { tm && clearTimeout(tm); if (ct.signal.aborted && ct.signal.reason === 'timeout') fir('ontimeout', req); else fir('onerror', req); }); return req; }
+        function sc(t) { var v = String(t); try { var a = document.createElement('textarea'); a.value = v; a.style.cssText = 'position:fixed;left:-9999px;opacity:0'; document.body.appendChild(a); a.focus(); a.select(); document.execCommand('copy'); document.body.removeChild(a); } catch (e) {} }
         function nt(a, b, c, e) { var o = typeof a === 'string' ? { text: a, title: b, image: c, onclick: e } : (a || {}); try { if (window.Notification && Notification.permission === 'granted') { var n = new Notification(o.title || '', { body: o.text || '', icon: o.image || '' }); if (o.onclick) n.onclick = o.onclick; return n; } console.log('[GM_notification]', o.title || '', o.text || ''); } catch (e) {} }
         function oit(u) { var w = window.open(u, '_blank'); return { close: function() { try { w && w.close(); } catch (e) {} }, get closed() { try { return !w || w.closed; } catch (e) { return true; } } }; }
-        W.GM_getValue = g;
-        W.GM_setValue = s;
-        W.GM_deleteValue = dl;
-        W.GM_listValues = ls;
-        W.GM_addStyle = as;
-        W.GM_addElement = ae;
-        W.GM_registerMenuCommand = rm;
-        W.GM_unregisterMenuCommand = ru;
-        W.GM_xmlhttpRequest = xh;
-        W.GM_setClipboard = sc;
-        W.GM_notification = nt;
-        W.GM_openInTab = oit;
-        W.GM_log = function() { try { console.log.apply(console, arguments); } catch (e) {} };
-        W.GM_getResourceText = function(n) { console.warn('[GM] @resource 未支持:', n); return ''; };
-        W.GM_getResourceURL = W.GM_getResourceText;
-        W.GM = {
+        reg('unsafeWindow', W);
+        reg('GM_getValue', g);
+        reg('GM_setValue', s);
+        reg('GM_deleteValue', dl);
+        reg('GM_listValues', ls);
+        reg('GM_addStyle', as);
+        reg('GM_addElement', ae);
+        reg('GM_registerMenuCommand', rm);
+        reg('GM_unregisterMenuCommand', ru);
+        reg('GM_xmlhttpRequest', xh);
+        reg('GM_setClipboard', sc);
+        reg('GM_notification', nt);
+        reg('GM_openInTab', oit);
+        reg('GM_log', function() { try { console.log.apply(console, arguments); } catch (e) {} });
+        reg('GM_getResourceText', function(n) { console.warn('[GM] @resource 未支持:', n); return ''; });
+        reg('GM_getResourceURL', W.GM_getResourceText);
+        reg('GM', {
             getValue: function(k, d) { return Promise.resolve(g(k, d)); },
             setValue: function(k, v) { s(k, v); return Promise.resolve(); },
             deleteValue: function(k) { dl(k); return Promise.resolve(); },
@@ -280,8 +270,8 @@
             notification: nt,
             openInTab: oit,
             log: function() { try { console.log.apply(console, arguments); } catch (e) {} }
-        };
-        W.GM_info = W.GM_info || {}; W.GM_info.scriptHandler = 'ALook_Fake_GM'; W.GM_info.version = '1.0'; W.GM_info.versionCode = POLYFILL_VERSION; W.GM_info.script = W.GM_info.script || { name: '', namespace: '', version: '', matches: [] };
+        });
+            W.GM_info = W.GM_info || {}; W.GM_info.scriptHandler = 'ALook_Fake_GM'; W.GM_info.version = '1.0'; W.GM_info.versionCode = POLYFILL_VERSION; W.GM_info.script = W.GM_info.script || { name: '', namespace: '', version: '', matches: [] };
     }
 
     const POLYFILL = '(' + _alookGmPolyfill.toString() + ')();';
@@ -345,7 +335,7 @@
                 url: (meta.match || meta.include || ['*']).map(rule =>
                     rule.replace(/^https?:\/\//, 'http*://*').replace(/\*/g, '.*')
                 ).join('@@'),
-                code: btoa(unescape(encodeURIComponent(`(function(){\n\n${POLYFILL}\n\nvar GM_info={scriptHandler:'ALook_Fake_GM',version:'1.0',versionCode:2,script:${metaJson}};\n\n${content}\n\n})();`)))
+                code: btoa(unescape(encodeURIComponent(`(function(){\n\n${POLYFILL}\n\nif(window.GM_info)window.GM_info.script=${metaJson};\n\n${content}\n\n})();`)))
             };
             window.via.addon(zhBase64.encode(JSON.stringify(config)));
         } catch (e) {
