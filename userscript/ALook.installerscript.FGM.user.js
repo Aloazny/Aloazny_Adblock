@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name         ALook浏览器脚本直装助手(GM)
 // @namespace    https://www.alookweb.com/
-// @version      1.3
+// @version      1.31
 // @description  还原ALook原生安装协议识别并安装user.js后缀的脚本，模拟了一些简单的GM函数，能解决一部分脚本问题。
 // @author       Deepseek
 // @match        http*://*/*.user.js
 // @match        http*://*/*.userscript.js
+// @icon         https://www.alookweb.com/index_files/alook.png
 // @grant        none
 // @run-at       document-end
 // @license      MIT
