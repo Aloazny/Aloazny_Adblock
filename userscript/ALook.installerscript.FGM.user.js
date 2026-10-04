@@ -1,11 +1,10 @@
 // ==UserScript==
 // @name         ALook浏览器脚本直装助手(GM)
 // @namespace   https://www.alookweb.com/
-// @version       1.43
-// @description   还原ALook原生安装协议识别并安装user.js后缀的脚本，模拟了一些简单的GM函数，能解决一部分脚本问题。
+// @version       1.50
+// @description   还原ALook原生安装协议识别并安装user.js后缀的脚本，模拟了一些简单的GM函数，并支持通过菜单直链或本地文件安装脚本。
 // @author       Deepseek
-// @match       http*://*/*.user.js
-// @match       http*://*/*.userscript.js
+// @match       *://*/*
 // @icon         https://www.alookweb.com/index_files/alook.png
 // @grant        none
 // @run-at       document-end
@@ -179,7 +178,7 @@
 
     function _alookGmPolyfill() {
         var W = window;
-        var POLYFILL_VERSION = 4;
+        var POLYFILL_VERSION = 5;
         if ((W.__alookGMVersion || 0) >= POLYFILL_VERSION) return;
         W.__alookGMVersion = POLYFILL_VERSION;
         W.__alookGMInstalled = true;
@@ -232,9 +231,9 @@
             b.addEventListener('touchend', function() { b.style.transition = ''; if (isDragging) { isDragging = false; var ft = Math.max(60, Math.min(window.innerHeight - 60, r.offsetTop)); r.style.top = ft + 'px'; blockClickUntil = Date.now() + 300; } resetIdle(); });
             document.addEventListener('click', function() { p.classList.remove('on'); b.classList.remove('on'); resetIdle(); });
             document.body.appendChild(r);
-            R.ui = { root: r, btn: b, panel: p };
+            R.ui = { root: r, btn: b, panel: p, resetIdle: resetIdle };
         }
-        function rf() { if (!R.ui) return; var p = R.ui.panel; p.innerHTML = ''; if (R.items.length === 0) { p.innerHTML = '<div class="empty">无脚本菜单</div>'; return; } var names = [], groups = {}; R.items.forEach(function(c) { var g = c.script || '未命名脚本'; if (!groups[g]) { groups[g] = []; names.push(g); } groups[g].push(c); }); names.forEach(function(g) { var t = document.createElement('div'); t.className = 'group'; t.textContent = g; t.title = g; p.appendChild(t); groups[g].forEach(function(c) { var d = document.createElement('div'); d.className = 'item'; d.textContent = typeof c.name === 'function' ? c.name() : c.name; d.addEventListener('click', function(e) { e.stopPropagation(); try { c.fn(); } catch (err) { console.error(err); } }); p.appendChild(d); }); }); }
+        function rf() { if (!R.ui) return; var p = R.ui.panel; p.innerHTML = ''; if (R.items.length === 0) { p.innerHTML = '<div class="empty">无脚本菜单</div>'; return; } var names = [], groups = {}; R.items.forEach(function(c) { var g = c.script || '未命名脚本'; if (!groups[g]) { groups[g] = []; names.push(g); } groups[g].push(c); }); names.forEach(function(g) { var t = document.createElement('div'); t.className = 'group'; t.textContent = g; t.title = g; p.appendChild(t); groups[g].forEach(function(c) { var d = document.createElement('div'); d.className = 'item'; d.textContent = typeof c.name === 'function' ? c.name() : c.name; d.addEventListener('click', function(e) { e.stopPropagation(); try { c.fn(); } catch (err) { console.error(err); } if (R.ui) { R.ui.panel.classList.remove('on'); R.ui.btn.classList.remove('on'); if (R.ui.resetIdle) R.ui.resetIdle(); } }); p.appendChild(d); }); }); }
         function xh(d) { var m = (d.method || 'GET').toUpperCase(), rt = d.responseType || 'text', ct = new AbortController(), req = { readyState: 0, status: 0, statusText: '', responseText: '', response: '', responseHeaders: '', finalUrl: d.url, abort: function() { ct.abort(); } }, tm; if (d.timeout) tm = setTimeout(function() { ct.abort('timeout'); }, d.timeout); var fir = function(n, a) { try { d[n] && d[n](a); } catch (e) {} }, st = function(v) { req.readyState = v; fir('onreadystatechange', req); }; st(1); fetch(d.url, { method: m, headers: d.headers || {}, body: m === 'GET' || m === 'HEAD' ? undefined : d.data, credentials: 'omit', signal: ct.signal }).then(function(r) { st(2); req.status = r.status; req.statusText = r.statusText; var hs = []; r.headers.forEach(function(v, k) { hs.push(k + ': ' + v); }); req.responseHeaders = hs.join('\r\n'); return rt === 'arraybuffer' ? r.arrayBuffer() : rt === 'blob' ? r.blob() : rt === 'json' ? r.json() : r.text(); }).then(function(t) { st(3); if (rt === 'text' || rt === '' || rt === 'document') { req.responseText = t; req.response = t; } else if (rt === 'json') { req.response = t; try { req.responseText = JSON.stringify(t); } catch (e) { req.responseText = ''; } } else { req.response = t; req.responseText = ''; } st(4); tm && clearTimeout(tm); fir('onload', req); }).catch(function() { tm && clearTimeout(tm); if (ct.signal.aborted && ct.signal.reason === 'timeout') fir('ontimeout', req); else fir('onerror', req); }); return req; }
         function sc(t) { var v = String(t); try { var a = document.createElement('textarea'); a.value = v; a.style.cssText = 'position:fixed;left:-9999px;opacity:0'; document.body.appendChild(a); a.focus(); a.select(); document.execCommand('copy'); document.body.removeChild(a); } catch (e) {} }
         function nt(a, b, c, e) { var o = typeof a === 'string' ? { text: a, title: b, image: c, onclick: e } : (a || {}); try { if (window.Notification && Notification.permission === 'granted') { var n = new Notification(o.title || '', { body: o.text || '', icon: o.image || '' }); if (o.onclick) n.onclick = o.onclick; return n; } console.log('[GM_notification]', o.title || '', o.text || ''); } catch (e) {} }
@@ -275,19 +274,13 @@
 
     const POLYFILL = '(' + _alookGmPolyfill.toString() + ')();';
 
-    const installScript = async () => {
-        if (!window.via?.addon) return;
+    const installFromContent = async (rawContent, sourceLabel) => {
+
+        if (!window.via?.addon) { alert('当前环境不支持安装脚本（window.via.addon 不存在）。'); return; }
 
         try {
-            let content = extractPureScript(document.body.innerText);
-            if (!content) {
-                const res = await fetch(location.href, {
-                    cache: 'no-cache'
-                });
-                const remoteText = await res.text();
-                content = extractPureScript(remoteText) || remoteText;
-            }
-
+            const content = extractPureScript(rawContent) || rawContent;
+            if (!content) { alert('未能从以下来源提取用户脚本内容：\n' + (sourceLabel || '未知来源')); return; }
             const metaMatch = content.match(/\/\/\s*==UserScript==([\s\S]*?)\/\/\s*==\/UserScript==/i);
             const metaRaw = metaMatch ? metaMatch[1] : '';
             const sensitiveKeywords = ['resource', 'require', 'connect'];
@@ -341,6 +334,67 @@
             console.error(e);
         }
     };
+
+    const installScript = async () => {
+        if (!window.via?.addon) return;
+        try {
+            let content = extractPureScript(document.body.innerText);
+            if (!content) { const res = await fetch(location.href, { cache: 'no-cache' }); content = await res.text(); }
+            if (!content) return;
+            await installFromContent(content, location.href);
+        } catch (e) {
+            console.error(e);
+        }
+    };
+
+    const fetchScriptByUrl = (url, callback) => {
+        const done = (text) => { if (!text) { alert('获取脚本内容失败：内容为空。'); return; } callback(text); };
+        const openInTab = (reason) => { if (confirm('无法直接获取脚本内容' + (reason ? '（' + reason + '）' : '') + '。\n\n是否在新标签打开该链接，由直装助手自动接管安装？\n' + url)) { window.open(url, '_blank'); } };
+        const fallback = () => { fetch(url, { cache: 'no-cache' }).then((r) => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.text(); }).then(done).catch((e) => { console.error(e); openInTab(e && e.message ? e.message : String(e)); }); };
+        if (typeof window.GM_xmlhttpRequest === 'function') {
+            try {
+                window.GM_xmlhttpRequest({ method: 'GET', url: url, timeout: 20000, onload: (r) => { if (r.status >= 200 && r.status < 400 && r.responseText) done(r.responseText); else fallback(); }, onerror: () => { fallback(); }, ontimeout: () => { fallback(); }});
+                return;
+            } catch (e) { console.error(e); }
+        }
+      fallback();
+    };
+
+    try { _alookGmPolyfill(); } catch (e) { console.error(e); }
+
+    const SELF_META = { name: 'ALook浏览器脚本直装助手(GM)', namespace: 'https://www.alookweb.com/', version: '1.50', matches: ['*://*/*'] };
+
+    if (typeof window.GM_registerMenuCommand === 'function') {
+        const registerSelfMenuCommand = (name, fn) => {
+            const prev = window.GM_info ? window.GM_info.script : undefined;
+            if (window.GM_info) window.GM_info.script = SELF_META;
+            try { window.GM_registerMenuCommand(name, fn); } finally { if (window.GM_info) window.GM_info.script = prev; }
+        };
+        registerSelfMenuCommand('直链安装脚本', () => {
+            const input = prompt('请输入用户脚本的直链 URL：', '');
+            if (!input) return;
+            const url = input.trim();
+            if (!/^https?:\/\//i.test(url)) { alert('URL 必须以 http:// 或 https:// 开头。'); return; }
+            fetchScriptByUrl(url, (text) => installFromContent(text, url));
+        });
+        registerSelfMenuCommand('本地文件安装脚本', () => {
+            const input = document.createElement('input');
+            input.type = 'file';
+            input.accept = '.js,application/javascript,text/javascript';
+            input.style.cssText = 'position:fixed;left:-9999px;opacity:0';
+            (document.body || document.documentElement).appendChild(input);
+            input.addEventListener('change', () => {
+                const file = input.files && input.files[0];
+                try { input.remove(); } catch (e) {}
+                if (!file) return;
+                const reader = new FileReader();
+                reader.onload = () => installFromContent(String(reader.result || ''), file.name);
+                reader.onerror = () => alert('读取文件失败：' + (file.name || ''));
+                reader.readAsText(file, 'utf-8');
+            });
+            input.click();
+        });
+    }
 
     if (/\.(user|userscript)\.js(\?|$)/i.test(location.href)) {
         if (document.readyState === 'complete') installScript();
