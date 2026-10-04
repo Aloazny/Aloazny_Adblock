@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ALook浏览器脚本直装助手(GM)
 // @namespace   https://www.alookweb.com/
-// @version       1.52
+// @version       1.53
 // @description   还原ALook原生安装协议识别并安装user.js后缀的脚本，模拟了一些简单的GM函数，并支持通过菜单直链或本地文件安装脚本。
 // @author       Deepseek
 // @match       *://*/*
@@ -390,7 +390,7 @@
 			if (installed && installed.version) {
 				const cmp = compareVersions(installed.version, scriptVersion);
 				if (cmp === 0) {
-					if (!confirm(`脚本已安装相同版本：${displayName} ${scriptVersion}\n\n继续安装会先禁用已安装版本，再以当前内容重新安装。是否继续？`)) return;
+					if (!confirm(`脚本已安装相同版本：${displayName} ${scriptVersion}\n\n继续安装，建议先禁用已安装版本，再以当前内容重新安装。是否继续？`)) return;
 				} else if (cmp > 0) {
 					if (!confirm(`已安装 ${displayName} ${installed.version}，此次为降级安装（版本号 ${installed.version} -> ${scriptVersion}）。是否继续？`)) return;
 				} else {
