@@ -1,0 +1,25 @@
+name: Clear commits
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 15 */3 * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Clear commit history
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git checkout --orphan temp_branch
+          git add .
+          git commit -m "clear"
+          git branch -D main
+          git branch -m main
+          git push -f origin main
