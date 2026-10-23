@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: z5vW3uXyrFoXZRO+M1lvxA
+! Checksum: 9EjrAMUrDgclkLSk7P/r7w
 ! Title: Aloazny Chinese fiter
-! Version: 20261023004125
+! Version: 20261023113306
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-10-23 00:41:25
-! Total Count: 47261
-! Blocked Filters: 47261
+! Last modified: 2026-10-23 11:33:06
+! Total Count: 47265
+! Blocked Filters: 47265
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -3859,7 +3859,7 @@ yydstxt*.com/js/html
 zhaotianbao1.cn/*/ywy*.apk
 ! >>>>>> 通配符规则 结束 <<<<<<
 
-! >>>>>> 域名规则 · 2.0w (19984) <<<<<<
+! >>>>>> 域名规则 · 2.0w (19987) <<<<<<
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,third-party,domain=dlkoo.cc
@@ -11272,6 +11272,7 @@ zhaotianbao1.cn/*/ywy*.apk
 ||ft8e.top^
 ||ftchinese.com/a.html
 ||ftchinese.com/m/marketing/
+||ftdpjbzkeprjhs.com^
 ||fthqzxq.cn^
 ||ftimg.net/s?z=
 ||ftiodfqk.com^
@@ -11508,6 +11509,7 @@ zhaotianbao1.cn/*/ywy*.apk
 ||gdcytv.cn^*.gif
 ||gdfp.gifshow.com^
 ||gdfuruixi.com/js/ag*.js
+||gdfzcez6q.com^
 ||gdjme27.com^
 ||gdl.i9dhjx.ru^
 ||gdls114.com^
@@ -14966,6 +14968,7 @@ zhaotianbao1.cn/*/ywy*.apk
 ||lm865.com^
 ||lm882.com^
 ||lm995.com^
+||lmbmr7zw3.com^
 ||lmd6dc1aq7.com^
 ||lmhrchi.com^
 ||lmlmvip.com^
@@ -45660,7 +45663,7 @@ zzzyk.com###Tinfo
 ~xxgxw.com##div[id^="C"][style*="height:"][class^="C"]
 ! >>>>>> 通用Css规则 结束 <<<<<<
 
-! >>>>>> 放行白名单 · 1.6k (1627) <<<<<<
+! >>>>>> 放行白名单 · 1.6k (1628) <<<<<<
 #@##adblocktest
 #@#.uk-container.uk-container-expand
 012.tw#@#.ad728
@@ -46620,6 +46623,7 @@ zzzyk.com###Tinfo
 @@||myssl.com/scripts/analyze.js
 @@||nceea.cn/Content/images/ad/
 @@||netded.com/plus/ad_js.php?aid=3|
+@@||netease.com/online/lib/sentry/*/bundle.tracing.
 @@||news.u17i.com/advert/
 @@||newsmth.net/nForum/*/ADAgent_
 @@||newver.api.dedecms.com/index.php$subdocument
