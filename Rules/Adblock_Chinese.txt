@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: saEeMbqTk/lgrZnSbxf55w
+! Checksum: Eqyt6keQa/Z44kz1Tc51tg
 ! Title: Aloazny Chinese fiter
-! Version: 20261024112649
+! Version: 20261024232645
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-10-24 11:26:49
-! Total Count: 47293
-! Blocked Filters: 47293
+! Last modified: 2026-10-24 23:26:45
+! Total Count: 47299
+! Blocked Filters: 47299
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -3866,7 +3866,7 @@ yydstxt*.com/js/html
 zhaotianbao1.cn/*/ywy*.apk
 ! >>>>>> 通配符规则 结束 <<<<<<
 
-! >>>>>> 域名规则 · 2.0w (20000) <<<<<<
+! >>>>>> 域名规则 · 2.0w (20005) <<<<<<
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,third-party,domain=dlkoo.cc
@@ -8482,6 +8482,7 @@ zhaotianbao1.cn/*/ywy*.apk
 ||cboufsrelp.com^
 ||cbqh4uqmzm.com^
 ||cbu01.alicdn.com/img/ibank/2020/714/563/22725365417_967741881.jpg
+||cbxp9xqbnh.com^
 ||cc-316.cc^
 ||cc.8181zx.com^
 ||cc.xiaodapei.com^
@@ -13074,6 +13075,7 @@ zhaotianbao1.cn/*/ywy*.apk
 ||ifooday.cn/index.php?m=poster&
 ||ifsdg.xyz^
 ||ifunmac.com/wp-content/uploads/*/alipay-
+||ifvk56ft9o.com^
 ||ig-store.ru/publications/get-banners
 ||ig65.vip^
 ||ig66.vip^
@@ -16984,6 +16986,7 @@ zhaotianbao1.cn/*/ywy*.apk
 ||p1.zhongyoo.com^
 ||p11q.cn^
 ||p16-ad.byteoversea.com^
+||p1oo54kz6d.com^
 ||p26.gejulm*.com^
 ||p2kfynrr.icu^
 ||p2muoczf5.com^
@@ -19988,6 +19991,7 @@ zhaotianbao1.cn/*/ywy*.apk
 ||t1.xuefen.com.cn^
 ||t19olm6fd.com^
 ||t1tgame.com^
+||t1ufw6nz5f.com^
 ||t2.picb.cc/2022/08/07/6rpPj1.jpg
 ||t2.picb.cc/2022/08/07/6rpRKd.jpg
 ||t2.picb.cc^$image,domain=dmxq1.com
@@ -22392,6 +22396,7 @@ zhaotianbao1.cn/*/ywy*.apk
 ||xerqfh.xyz^
 ||xeynozl.icu^
 ||xf80vxk3rc.com^
+||xf9o6c6jnp.com^
 ||xfdlfj.icu^
 ||xfgctg.com^
 ||xfidfuxidr.in^
@@ -23869,7 +23874,7 @@ zhaotianbao1.cn/*/ywy*.apk
 ||zzzyk.com/js/
 ! >>>>>> 域名规则 结束 <<<<<<
 
-! >>>>>> 网站单独规则 · 1.6w (16396) <<<<<<
+! >>>>>> 网站单独规则 · 1.6w (16397) <<<<<<
 /87\d{2}ck\.cc##.stui-vodlist > li:has(> div.stui-vodlist__box > a[href][target="_blank"])
 /87\d{2}ck\.cc##body > div[style] > a[href][target="_blank"]
 /slkpeqme\d\.shop##.small-icon-container > a[target="_blank"]
@@ -26361,6 +26366,7 @@ baidu.com##.corneradv
 baidu.com##.cos-rich-video-player-video
 baidu.com##.cos-video-player
 baidu.com##.cpc-adv-container
+baidu.com##.detail-banner-new
 baidu.com##.direct-new.satisfy-dir
 baidu.com##.download-app-parent
 baidu.com##.ec-ads-container
