@@ -1,0 +1,60 @@
+name: update_Css_user_script_rules
+on:
+  workflow_dispatch:
+    inputs:
+      extra_args:
+        description: 'Python 附加参数，例如 --match a.com,b.com （不要加引号）'
+        required: false
+        default: ''
+      force_update:
+        description: '强制刷新（删除旧输出后重新生成）'
+        required: false
+        type: boolean
+        default: false
+  watch:
+    types: [started]
+  schedule:
+    - cron: '0 12 * * *'
+  issues:
+    types: [closed]
+
+jobs:
+   master:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        persist-credentials: false
+        
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+
+    - name: Create local changes
+      env:
+        EXTRA_ARGS: ${{ inputs.extra_args }}
+        FORCE_UPDATE: ${{ inputs.force_update }}
+      run: |
+        sudo rm -rf /etc/localtime
+        sudo ln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+        chmod +x update_css_hide_user_script.sh
+        bash update_css_hide_user_script.sh
+    - name: Commit files
+      id: commit
+      run: |
+        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add -A
+        if git diff --cached --quiet; then
+          echo "changed=false" >> $GITHUB_OUTPUT
+        else
+          git commit -m "Css userscript update"
+          echo "changed=true" >> $GITHUB_OUTPUT
+        fi
+    - name: Push changes
+      if: steps.commit.outputs.changed == 'true'
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.ref_name }}
