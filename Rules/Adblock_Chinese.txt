@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: uHGI263Fu8FXOE+14RC49A
+! Checksum: lK+28DnEt7Rqcyfgg/wpbg
 ! Title: Aloazny Chinese fiter
-! Version: 20261105131938
+! Version: 20261106033149
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-11-05 13:19:38
-! Total Count: 47517
-! Blocked Filters: 47517
+! Last modified: 2026-11-06 03:31:49
+! Total Count: 47525
+! Blocked Filters: 47525
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock_Chinese.txt?ref=main
 
 
-! >>>>>> 通配符规则 · 3.9k (3859) <<<<<<
+! >>>>>> 通配符规则 · 3.9k (3857) <<<<<<
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,domain=258zw.com
 $script,subdocument,third-party,domain=dlkoo.com
@@ -3859,8 +3859,6 @@ template/m1938pc/ads/*.js
 tuia$domain=123684.com|123864.com|123865.com|123866.com|123912.com|123957.com|123pan.cn|123pan.com
 unpkg.com/aladug/*.js
 ws://*/api/wss/GetNotReadCount$third-party
-wss://*.*.top/$third-party
-wss://*.top/|
 wss://*.xyz:*?e=$third-party
 wss://*.xyz:*?n=$third-party
 wss://*.xyz:*?x=$third-party
@@ -3876,7 +3874,7 @@ yydstxt*.com/js/html
 zhaotianbao1.cn/*/ywy*.apk
 ! >>>>>> 通配符规则 结束 <<<<<<
 
-! >>>>>> 域名规则 · 2.0w (20138) <<<<<<
+! >>>>>> 域名规则 · 2.0w (20146) <<<<<<
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,third-party,domain=dlkoo.cc
@@ -3944,6 +3942,7 @@ zhaotianbao1.cn/*/ywy*.apk
 ||067oij53m.com^
 ||06cp8ypn8j.com^
 ||06evyxnibl.com^
+||06f2egypr.com^
 ||06hkgn0jl3.com^
 ||07073.com/api/getKfList?
 ||07073.com/pc/js/right-ad.
@@ -4728,6 +4727,7 @@ zhaotianbao1.cn/*/ywy*.apk
 ||3g.cn/baidualading/
 ||3g.cn/index.php?s=Index/adv&
 ||3g.qq.com/lview?
+||3g0p5hjwa.com^
 ||3ge064tt79.com^
 ||3gmfw.cn/js/wap/
 ||3h3.com/gmobile/gujs/
@@ -4764,6 +4764,7 @@ zhaotianbao1.cn/*/ywy*.apk
 ||3qtdjf4830.com^
 ||3qx0pnhyzi.com^
 ||3qxsa.cc/js/news2.js
+||3r6fs2855.com^
 ||3rc04o1rmy.com^
 ||3rdspacetech.com^
 ||3rev8wh22y.com^
@@ -4839,6 +4840,7 @@ zhaotianbao1.cn/*/ywy*.apk
 ||48dswtxkw.com^
 ||48r3l2u5l2.com^
 ||490i1rrbd.com^
+||494b6x7u8.com^
 ||49dlt9myv.com^
 ||49ioqq6kt.com^
 ||49o4m4a5eo.com^
@@ -6711,6 +6713,7 @@ zhaotianbao1.cn/*/ywy*.apk
 ||alexa.cn/upfile/images/
 ||alexanbelen.com^
 ||alfpair.com^
+||alhgxftiz.com^
 ||ali-ad.a.yximgs.com^
 ||ali-ec.static.yximgs.com/bs2/upload$image
 ||ali213.net/Pics/*/down_popup_
@@ -14581,6 +14584,7 @@ zhaotianbao1.cn/*/ywy*.apk
 ||ksdayhtl.xyz^
 ||kshuiz.top^
 ||kslbahd.top^
+||ksou.tv/api/v1/ad/
 ||ksou6.com/api/v1/ad/
 ||ksqfwxu.cn^
 ||ksr6uu1mk.com^
@@ -17918,6 +17922,7 @@ zhaotianbao1.cn/*/ywy*.apk
 ||qgreedreau.com^
 ||qguwoq.cn^$third-party
 ||qgvvtce98.com^
+||qh7ptb6mc.com^
 ||qhaarkie.com^
 ||qhaelqata.com^
 ||qhangrotl.com^
@@ -21089,6 +21094,7 @@ zhaotianbao1.cn/*/ywy*.apk
 ||uiakvibuzy.com^
 ||uibjh29vqc.com^
 ||uibjhqwkl.com^
+||uibpd67j6.com^
 ||uifyeldt.top^
 ||uioozpxq.com^
 ||uiqyuydt9t.com^
@@ -24017,7 +24023,7 @@ zhaotianbao1.cn/*/ywy*.apk
 ||zzzyk.com/js/
 ! >>>>>> 域名规则 结束 <<<<<<
 
-! >>>>>> 网站单独规则 · 1.6w (16462) <<<<<<
+! >>>>>> 网站单独规则 · 1.6w (16464) <<<<<<
 /87\d{2}ck\.cc##.stui-vodlist > li:has(> div.stui-vodlist__box > a[href][target="_blank"])
 /87\d{2}ck\.cc##body > div[style] > a[href][target="_blank"]
 /slkpeqme\d\.shop##.small-icon-container > a[target="_blank"]
@@ -32415,6 +32421,8 @@ kissjav.li##img[id="player-fluid_logo_image"],[id^="player-advertising"]
 kisssub.org###kanban
 kisssub.org##a > img[src*=".0o0.ooo/"]
 kissvk.com###madBlockModal,.modal-backdrop
+kitco.com###in-content-1
+kitco.com###in-content-2
 kitco.com,rawstory.com##div[id^="banner-"]
 kittykawai.com##.g-single
 kittykawai.com##.tracking-btn
