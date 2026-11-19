@@ -1,0 +1,20 @@
+[Adblock Plus 2.0]
+! Checksum: NpwJZFafIorQE3Ael/SjpQ
+! Title: Aloazny拓展规则
+! Version: 20240517173409
+! Last modified: 2024-05-17 17:34:09
+! Total Count: 5
+! Blocked Filters: 5
+! Description: 仅适用于有Webview105以上的拓展规则
+! Homepage: https://github.com/Aloazny/Aloazny_Adblock
+! Github raw link: https://raw.githubusercontent.com/Aloazny/Aloazny_Adblock/main/base/Aolanzy_105_webview.txt
+
+! 各种吃瓜网的广告卡片
+##.post-card:has(div[style*="data:image/gif"])
+##a[href] > img[src^="data:image/horizontal-banner"])
+! 不良黄色网站拦截
+##body:has(script[src^="/static/js/abcd/app.js?"])
+! 禁漫
+##div.hidden-lg:not([class*="panel"]):has(img[alt][src^="/static/resources/"])
+! 69jav
+##[class]:has(>a>.q-responsive)
