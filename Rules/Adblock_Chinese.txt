@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: oAR+QSaumSFABZsE+QN72g
+! Checksum: gmukzLRp7oqg6PyCcyxFwA
 ! Title: Aloazny Chinese fiter
-! Version: 20261127145456
+! Version: 20261128044303
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-11-27 14:54:56
-! Total Count: 47442
-! Blocked Filters: 47442
+! Last modified: 2026-11-28 04:43:03
+! Total Count: 47446
+! Blocked Filters: 47446
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，可作为国内拦截规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -3863,7 +3863,7 @@ yydstxt*.com/js/html
 zhaotianbao1.cn/*/ywy*.apk
 ! >>>>>> 通配符规则 结束 <<<<<<
 
-! >>>>>> 域名规则 · 2.0w (20032) <<<<<<
+! >>>>>> 域名规则 · 2.0w (20035) <<<<<<
 |http$third-party,script,domain=kinotut.tv
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
 |http:$script,subdocument,third-party,domain=dlkoo.cc
@@ -4551,6 +4551,7 @@ zhaotianbao1.cn/*/ywy*.apk
 ||2mlt7jkbob.com^
 ||2nbg86d2x.com^
 ||2nl6sgd9c.com^
+||2nli0zswf.com^
 ||2nvd5j7iv0.com^
 ||2omfz9ygz2.com^
 ||2orln75bry.com^
@@ -12874,6 +12875,7 @@ zhaotianbao1.cn/*/ywy*.apk
 ||huwgjgf.icu^
 ||huya.com*/cache1min.
 ||huyaimg.msstatic.com/cdnimage/roomad/
+||hv3lixzlc.com^
 ||hv7w3au49.com^
 ||hvdath.xyz^
 ||hvqyf.cn^
@@ -20532,6 +20534,7 @@ zhaotianbao1.cn/*/ywy*.apk
 ||tnkfactory.com^$third-party
 ||tns.simba.taobao.com^
 ||tnwotuqey.com^
+||tnz8mdste.com^
 ||tnze.cn^
 ||to8to.com^$subdocument,third-party
 ||toaadwh.icu^
@@ -23898,7 +23901,7 @@ zhaotianbao1.cn/*/ywy*.apk
 ||zzzyk.com/js/
 ! >>>>>> 域名规则 结束 <<<<<<
 
-! >>>>>> 网站单独规则 · 1.7w (16505) <<<<<<
+! >>>>>> 网站单独规则 · 1.7w (16506) <<<<<<
 /87\d{2}ck\.cc##.stui-vodlist > li:has(> div.stui-vodlist__box > a[href][target="_blank"])
 /87\d{2}ck\.cc##body > div[style] > a[href][target="_blank"]
 /slkpeqme\d\.shop##.small-icon-container > a[target="_blank"]
@@ -24368,7 +24371,7 @@ zhaotianbao1.cn/*/ywy*.apk
 18avtube.com,mm-cg.com###partner
 18avtube.com,mm-cg.com##.CN_qmvtoy
 18comic.cc,18comic.cfd,18comic.icu,18comic.men,18comic.one,18comic.org,18comic.sbs,18comic.top,18comic.vip,18comic1.top,18comic168.cc,18comic168.icu,18comic168.men,18comic168.one,18comic168.top,18comic168.vip,18comic365.top,99mh.men,99mh.one,99xmh.icu,99xmh.top,99xs.cc,99xs.cfd,99xs.icu,99xs.men,99xs.one,99xs.org,99xs.sbs,99xs.top,99xs.vip,99xs1.top,99xs365.top,amdcomic.cc,amdcomic.cfd,amdcomic.icu,amdcomic.men,amdcomic.one,amdcomic.org,amdcomic.sbs,amdcomic.top,amdcomic.vip,amdcomic1.top,amdcomic365.top,fpoxxx.cc,fpoxxx.cfd,fpoxxx.icu,fpoxxx.men,fpoxxx.one,fpoxxx.org,fpoxxx.sbs,fpoxxx.top,fpoxxx.vip,fpoxxx1.top,fpoxxx365.top,hanime2.top,javdb.cc,javdb.cfd,javdb.icu,javdb.men,javdb.one,javdb.org,javdb.sbs,javdb.top,javdb.vip,javdb1.top,javdb365.top,laoli88.icu,laoli88.men,laoli88.one,mh99.cfd,mh99.icu,mh99.one,mh99.top,missav2.icu,missav2.one,missav2.vip,njavtv.cc,njavtv.cfd,njavtv.icu,njavtv.men,njavtv.one,njavtv.org,njavtv.sbs,njavtv.top,njavtv.vip,njavtv1.top,njavtv365.top,rou2.icu,rou2.men,rou2.one,rou2.top,wnacg.cc,wnacg.cfd,wnacg.icu,wnacg.men,wnacg.one,wnacg.org,wnacg.sbs,wnacg.top,wnacg.vip,wnacg1.top,wnacg365.top,xanimu.cc,xanimu.cfd,xanimu.icu,xanimu.men,xanimu.one,xanimu.org,xanimu.sbs,xanimu.top,xanimu.vip,xanimu1.top,xanimu365.top##div[style*="z-index: 9999"][style*="justify-content: center;"]:not([class]):not([id])
-18comic.ink,18comic.org,18comic.vip,91porna.com,bejson.com,comic18j-ada.work,jkptgbf.xyz,json.cn,mfulbvu.xyz,mqoeomads.cc,pianyuan.org,qixingquan.com##.modal-backdrop
+18comic.ink,18comic.org,18comic.vip,91porna.com,bejson.com,comic18j-ada.work,jkptgbf.xyz,json.cn,mfulbvu.xyz,mqoeomads.cc,pianyuan.org,qixingquan.com,youjizz.com##.modal-backdrop
 18comic.ink,18comic.org,18comic.vip,boylov.xyz,boylove.cc,boylove1.mobi,boyloves.fun,comic18j-ada.work##.div_sticky2
 18comic.ink,18comic.org,18comic.vip,boylov.xyz,boylove.cc,boyloves.fun,comic18j-ada.work##style + div[style="cursor: pointer; position: relative;"]
 18comic.ink,18comic.org,18comic.vip,comic18j-ada.work###guide-modal
@@ -33303,13 +33306,13 @@ m.mobile01.com##div[class*="ad-prestitial-"]
 m.mobile01.com,mobile01.com##.u-ad-image
 m.motorsport-total.com##.anzeige-block
 m.mtrend.cn###ad_pic_float
-m.mtrend.cn###interstitial
 m.mtrend.cn##[class*="random_ad"]
 m.mtrend.cn##[class^="kong"]
 m.mtrend.cn##[class^="mingpai"]
 m.mtrend.cn##a[class][onclick^="window.open("]
 m.mtrend.cn##iframe[src]
 m.mtrend.cn##span[class][onclick^="window.open("]
+m.mtrend.cn,youjizz.com###interstitial
 m.muensterschezeitung.de##.wn_spo_banner
 m.mydrivers.com###content > .ab
 m.mydrivers.com###content > .bb
@@ -40003,6 +40006,7 @@ youjizz.com###mobileRollAd
 youjizz.com###underPlayerPr
 youjizz.com##.bottom_pr
 youjizz.com##.top_pr
+youjizz.com##div.text-center:has(> div#underPlayerPr)
 youku.com##.Corner-container
 youku.com##.clipboard
 youku.com##.newtrochanter_trochantercontent > .g-row > .g-col:has(> .g-box > .pack_yk_pack > .pack_pack_cover > .aplus_exp > .pack_p_rt_ad)
