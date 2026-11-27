@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name  Css清道夫
 // @namespace  https://viayoo.com/xrgy5f
-// @version  20261120041227
+// @version  20261128045108
 // @author  Github@lingeringsound && damengzhu && Deepseek
 // @description  由AI提取并生成通用规则提取的高性能CSS隐藏 + uBO/AdGuard scriptlet 注入，无GM依赖，附带按站点拦截/放行管理界面。
 // @match        *://*/*
@@ -3643,6 +3643,7 @@
 	"a[target=\"_blank\"] > img[src$=\"/150x300.gif\"]",
 	"a[target=\"_blank\"] > img[src^=\"//t4.wnacgimg.date/data\"]",
 	"a[target=\"_blank\"] > img[src^=\"//t4.wnimg1.ru/data/\"]",
+	"a[target=\"_blank\"] > img[src^=\"//t4.wnimg2.cfd/data/\"]",
 	"a[target=\"_blank\"][data-ad-slot-name]",
 	"a[target=\"_blank\"][href*=\"//ads.traffichaus.com/\"]",
 	"a[target=\"_blank\"][href*=\"/jump-\"] > img[src][style]",
