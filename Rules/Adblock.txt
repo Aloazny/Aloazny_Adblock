@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: LAyhHefZxltCob9B5Jg3NQ
+! Checksum: 7NGbqooLXJZP0gO7o7NVyw
 ! Title: Aloazny Mobile fiter
-! Version: 20261128044331
+! Version: 20261128142913
 ! Expires: 12 hours (update frequency)
-! Last modified: 2026-11-28 04:43:31
-! Total Count: 98272
-! Blocked Filters: 98272
+! Last modified: 2026-11-28 14:29:13
+! Total Count: 98280
+! Blocked Filters: 98280
 ! Description: 合并混合规则的补充规则，轻量规则，Adguard mobile(Adguard移动端规则)，Adguard Chinese(Adguard中文规则)，Adguard Base fiter(Adguard基础规则)，可作为移动端规则使用。
 ! Homepage: https://github.com/Aloazny/Aloazny_Adblock
 ! GitHub Homepage: https://github.com/Aloazny/Aloazny_Adblock
@@ -14,7 +14,7 @@
 ! Gitlink Raw Link: https://www.gitlink.org.cn/api/Aloazny/Aloazny_Adblock/raw/Rules/Adblock.txt?ref=main
 
 
-! >>>>>> 通配符规则 · 4.8k (4758) <<<<<<
+! >>>>>> 通配符规则 · 4.8k (4759) <<<<<<
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|googleads.g.doubleclick.net|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
 $image,third-party,denyallow=cdn77.org|globalcdn.co|others-cdn.com|rncdn7.com|sb-cd.com|stream.highwebmedia.com|thumb.live.mmcdn.com|upsiloncdn.net|xvideos-cdn.com|youjizz.com|ypncdn.com,domain=pussyspace.com|pussyspace.net
 $image,third-party,denyallow=googleapis.com,domain=vipbox1.org
@@ -1680,6 +1680,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=noop.txt,domain=zertalious.xyz
 /^https:\/\/engine\.[a-z]+\.live\/\?[0-9]+$/$xmlhttprequest,third-party
 /^https:\/\/hitcast\.st\/[a-zA-Z0-9]{8}\.js$/$script,match-case,domain=hitcast.st
 /^https:\/\/ik\.imagekit\.io\/[a-z0-9]+\/[a-zA-Z0-9_]+\.(jpg|png)\?updatedAt=/$match-case,image,domain=converter.app
+/^https:\/\/intercelestial\.com\/[a-z0-9]{10,14}\/[a-z0-9._-]+\.js(\?.*)?$/$script,domain=intercelestial.com
 /^https:\/\/mkvcinemas\.[a-z]+\/data\/cache\/min\/1\/[a-f0-9]{8}\.js/$script,domain=mkvcinemas.*
 /^https:\/\/rayinfosports\.com\/wp-content\/uploads\/[a-z]{8}\.js\?ver=/$script,domain=rayinfosports.com
 /^https:\/\/strumyk\.net\/assets\/[0-9]+.js$/$script,domain=strumyk.net
@@ -4775,7 +4776,7 @@ zhaotianbao1.cn/*/ywy*.apk
 |/nbsys3/fsyspp.js
 ! >>>>>> 通配符规则 结束 <<<<<<
 
-! >>>>>> 域名规则 · 4.0w (39512) <<<<<<
+! >>>>>> 域名规则 · 4.0w (39519) <<<<<<
 |http$third-party,script,domain=kinotut.tv
 |http*://$image,third-party,domain=rmdown.com
 |http*://$script,third-party,xmlhttprequest,domain=23wxx.com|lwxiaoshuo.com|m.1200ksw.com|m.16kxsw.com|m.23sw.net|m.37zw.net|m.50zw.co|m.52biquge.com|m.58xs.tw|m.5ccc.net|m.630book.la|m.67shu.com|m.69shu.org|m.80txt.com|m.83zw.com|m.88106.com|m.88dus.com|m.98xiaoshuo.com|m.aiquxs.com|m.aszw.org|m.b5200.net|m.baishulou8.com|m.baoliny.com|m.beijingaishu.net|m.bichi.me|m.biqudu.com|m.biquge.com.tw|m.biquge.info|m.biqugego.com|m.biqugexsw.com|m.biqumo.com|m.biquwu.cc|m.boluoxs.com|m.book9.net|m.booktxt.net|m.bqg5.cc|m.bqg5200.com|m.daizhuzai.com|m.dashubao.cc|m.ddxsw.net|m.dhzw.org|m.dpcq1.net|m.gsdaquan.com|m.gulizw.com|m.haotxt.com|m.heiyanwang.com|m.hkslg.net|m.jjxsw.org|m.kxs7.com|m.lanseshuba.com|m.lbxs.com|m.lewenxiaoshuo.com|m.liewen.cc|m.liushuba.com|m.lkshu.com|m.longtanxs.com|m.luoqiu.com|m.lwtxt.net|m.miaobige.com|m.miaoshufang.com|m.mishug.com|m.panqis.cn|m.qianrenge.cc|m.qu.la|m.ranwena.com|m.sanjiangge.com|m.shuanshu.com|m.shuketxt.net|m.shumil.com|m.shuqu8.com|m.shuquge.com|m.shushu8.com|m.silukeke.com|m.sjtxt.la|m.sosoxiaoshuo.cc|m.sqsxs.com|m.suimeng.la|m.tingshuge.com|m.tsxsw.com|m.ttzw.com|m.txt2017.com|m.txtduo.com|m.tywxw.la|m.vodtw.com|m.wanjuanba.com|m.wantxt.com|m.wenxuem.com|m.wenxuemi.com|m.wodeshucheng.com|m.x81zw.com|m.xiaoxiaoshuwu.net|m.xinshula.com|m.xs222.tw|m.yawenb.com|m.ybdu.com|m.yssm.org|m.yunlaige.com|m.yuyouge.com|m.zhenben.cc|m.zhuaji.org|qihaoqihao.com|wap.yb3.cc|yfxiaoshuoa.com|zwdu.com
@@ -7844,6 +7845,7 @@ zhaotianbao1.cn/*/ywy*.apk
 ||6park.com/img/*0.gif
 ||6park.com/parks/$script
 ||6pcyiogp.9n4r1vb2xoqgm5j99ui5l3xori.cyou^
+||6pmdcigfjy.com^
 ||6px1vsaq0h.com^
 ||6q77vsjez1.com^
 ||6qcvth5fb.com^
@@ -12321,6 +12323,7 @@ zhaotianbao1.cn/*/ywy*.apk
 ||billowybelief.com^
 ||billtable.com^
 ||bilsh.com/jquerys.js
+||bimbutzhlm.icu^
 ||bimiacg*.net/template/JOELEO/asset/js/jquery.leeleo.js
 ||bimiacg4.net/template/JOELEO/asset/js/jquery.common.js
 ||binaqathh.com^
@@ -16063,6 +16066,7 @@ zhaotianbao1.cn/*/ywy*.apk
 ||czech-craft.eu/static/uploads/abanners/
 ||czechcash.com^$domain=xfree.com
 ||czeqjvr.com^
+||czeudfxm.com^
 ||czghjt.com^
 ||czilladx.com^
 ||czt4gnz57.com^
@@ -30960,6 +30964,7 @@ zhaotianbao1.cn/*/ywy*.apk
 ||prndgif.com^
 ||pro.cn^$third-party
 ||pro.iweihai.cn^
+||probability31.com^
 ||probablepartner.com^
 ||probablerootport-*/*/?utm_campaign=*&sid=$all
 ||probing34.com^
@@ -31393,6 +31398,7 @@ zhaotianbao1.cn/*/ywy*.apk
 ||qbdjfce.com^
 ||qbhmz3.com^
 ||qbhsocu.com^
+||qbicp2n4d4.com^
 ||qbtd.xyz^
 ||qbxxi23a2.com^
 ||qbyngdjq8g.com^
@@ -33806,6 +33812,7 @@ zhaotianbao1.cn/*/ywy*.apk
 ||sbpb1.qulishi.com^
 ||sbplay.org/js/jquery/*/jquery-*.min.js?v=
 ||sbplay2.*/js/jquery/*/jquery-*.min.js?v=
+||sbvpsl7wxa.com^
 ||sc-gov-cn.website^
 ||sc.smardroid.com^
 ||sc126.com^
@@ -40885,6 +40892,7 @@ zhaotianbao1.cn/*/ywy*.apk
 ||wwwjakson-jakson.go-static.info^
 ||wwwlagonikonews-me.go-static.info^
 ||wwxufo.com^
+||wwyheoyifctigp.com^
 ||wwyoqaf3g.com^
 ||wwzw.cc/img/
 ||wx.sina.com.cn/iframe/pdps/
@@ -57057,7 +57065,7 @@ fashionsnap.com##div[class]:has(> div#mainArticleUnit)
 fashionunited.*##.MuiGrid-root > div.MuiGrid-root[padding] > div[class^="css"] > div > div[class^="css"] > div.adunitContainer:upward(4)
 fashionunited.*##.adunitContainer:upward(3)
 fast-down.com##div[style="width:336px; height:280px; background-color:#ffffff; text-align:center"]
-fast-down.com,lnbzi.com,lnbzi.com,linegee.net,aii.sh,srnky.com,clksz.com,fcportables.com,intercelestial.com##+js(set-constant, navigator.webdriver, true)
+fast-down.com,lnbzi.com,linegee.net,aii.sh,srnky.com,clksz.com,fcportables.com,intercelestial.com##+js(set-constant, navigator.webdriver, true)
 fastadmin.net###detail-recommend
 fastadmin.net##.article-section + div .img-responsive
 fastadmin.net##.hot-article + .panel-default
