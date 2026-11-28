@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name  仿M浏览器元素审查
 // @namespace  https://viayoo.com/81gzxv
-// @version  7.66
+// @version  7.67
 // @description  利用AI模仿并生成M浏览器的元素审查（感谢M浏览器原生交互灵感），在脚本菜单开启元素审查，专注精准AD规则生成与编辑，支持DOM树浏览、实时编辑（文字/代码/删除/换图/撤销）、存储管理、JS终端等功能。
 // @author  Via && Gemini
 // @match  *://*/*
@@ -125,6 +125,13 @@
 				.replace(/:(\s*)([^;#}\n]+)(;|\n)/g, ':<span style="color:#7fb4ca">$1$2</span>$3');
 		}
 	};
+	
+	const whenHead = fn => {
+		if (document.head) return fn(document.head);
+		const mo = new MutationObserver(() => document.head && (mo.disconnect(), fn(document.head)));
+		if (document.documentElement) mo.observe(document.documentElement, { childList: true, subtree: true });
+		else document.addEventListener('readystatechange', () => document.head && fn(document.head), { once: true });
+	};
 
 	api.addStyle(`
 		@media print, screen and (max-width: 1px), min-resolution: 0.001dpi { :host, #mb-safe-wrapper, #mb-debug-panel, #mb-debug-trigger { display: none !important; opacity: 0 !important; visibility: hidden !important; height: 0 !important; width: 0 !important; overflow: hidden !important; position: absolute !important; left: -9999px !important; } }
@@ -225,7 +232,7 @@
 		body.mb-picking-mode { cursor: crosshair !important; }
 		body.mb-picking-mode a, body.mb-picking-mode button, body.mb-picking-mode [onclick], body.mb-picking-mode input { cursor: crosshair !important; pointer-events: auto !important; }
 	`;
-	document.head.appendChild(globalStyle);
+	whenHead(h => h.appendChild(globalStyle));
 
 	const panel = document.createElement('div');
 	panel.id = 'mb-debug-panel';
